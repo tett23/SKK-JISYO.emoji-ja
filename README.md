@@ -162,6 +162,11 @@ git push origin v1.0.0
 - Slack 形式の名前: [iamcal/emoji-data](https://github.com/iamcal/emoji-data)（MIT License）
 - 日本語名とキーワード: [Unicode CLDR](https://github.com/unicode-org/cldr) の `annotations/ja.xml` と `annotationsDerived/ja.xml`
 
+## 謝辞
+
+この辞書は、uasi さんの [skk-emoji-jisyo](https://github.com/uasi/skk-emoji-jisyo) に着想を得て作りました。
+SKK で絵文字を入力するというアイデアと、その先行実装に感謝します。
+
 ## ライセンス
 
 MIT License。
