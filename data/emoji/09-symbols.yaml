@@ -1,0 +1,2828 @@
+# SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
+#   name:     annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   review:   true if added automatically by the update task; remove after checking the readings
+# Other fields are refreshed from Unicode/CLDR by the update task.
+
+group: Symbols
+emoji:
+  - emoji: 🏧
+    code: 1F3E7
+    name: ATM
+    readings:
+      - atm
+      - えーてぃーえむ
+      - げんきんじどうあずけばらいき
+      - ぎんこう
+      - おかね
+    en: ATM sign
+    since: "0.6"
+    subgroup: transport-sign
+    keywords: [ ATM, 現金自動預け払い機, 銀行 ]
+  - emoji: 🚮
+    code: 1F6AE
+    name: ゴミ箱
+    readings:
+      - ごみばこ
+      - ごみすて
+      - くずかご
+      - ごみ
+    en: litter in bin sign
+    since: "1.0"
+    subgroup: transport-sign
+    keywords: [ くずかご, ゴミ捨て, ごみ箱, ゴミ箱 ]
+  - emoji: 🚰
+    code: 1F6B0
+    name: 飲料水
+    readings:
+      - いんりょうすい
+      - のみみず
+      - みず
+      - すいどう
+      - じゃぐち
+    en: potable water
+    since: "1.0"
+    subgroup: transport-sign
+    keywords: [ 水, 水道, 飲み水, 飲料水 ]
+  - emoji: ♿
+    code: 267F
+    name: 車椅子
+    readings:
+      - くるまいす
+      - ばりあふりー
+      - しょうがいしゃ
+      - たもくてきといれ
+    en: wheelchair symbol
+    since: "0.6"
+    subgroup: transport-sign
+    keywords: [ バリアフリー, バリヤフリー, 車椅子 ]
+  - emoji: 🚹
+    code: 1F6B9
+    name: 男子トイレ
+    readings:
+      - だんしといれ
+      - といれ
+      - おてあらい
+      - けしょうしつ
+      - だんせい
+      - wc
+    en: men’s room
+    since: "0.6"
+    subgroup: transport-sign
+    keywords: [ WC, お手洗い, トイレ, 化粧室, 男子トイレ, 男性 ]
+  - emoji: 🚺
+    code: 1F6BA
+    name: 女子トイレ
+    readings:
+      - じょしといれ
+      - といれ
+      - おてあらい
+      - けしょうしつ
+      - じょせい
+      - wc
+    en: women’s room
+    since: "0.6"
+    subgroup: transport-sign
+    keywords: [ WC, お手洗い, トイレ, 化粧室, 女子トイレ, 女性 ]
+  - emoji: 🚻
+    code: 1F6BB
+    name: トイレ
+    readings:
+      - といれ
+      - おてあらい
+      - けしょうしつ
+      - べんじょ
+      - wc
+      - れすとるーむ
+    en: restroom
+    since: "0.6"
+    subgroup: transport-sign
+    keywords: [ WC, お手洗い, トイレ, 化粧室 ]
+  - emoji: 🚼
+    code: 1F6BC
+    name: ベビーマーク
+    readings:
+      - べびーまーく
+      - あかちゃん
+      - べびー
+      - あかんぼう
+      - おむつがえ
+    en: baby symbol
+    since: "0.6"
+    subgroup: transport-sign
+    keywords: [ ベビー, ベビーシート, 赤ちゃん, 赤ん坊 ]
+  - emoji: 🚾
+    code: 1F6BE
+    name: WC
+    readings:
+      - wc
+      - だぶりゅーしー
+      - といれ
+      - おてあらい
+      - けしょうしつ
+    en: water closet
+    since: "0.6"
+    subgroup: transport-sign
+    keywords: [ WC, お手洗い, トイレ, 化粧室 ]
+  - emoji: 🛂
+    code: 1F6C2
+    name: 出入国審査
+    readings:
+      - しゅつにゅうこくしんさ
+      - にゅうこくしんさ
+      - ぱすぽーと
+      - にゅうかん
+      - しゅっこく
+    en: passport control
+    since: "1.0"
+    subgroup: transport-sign
+    keywords: [ パスポートコントロール, 入出国, 出入国, 出入国審査 ]
+  - emoji: 🛃
+    code: 1F6C3
+    name: 税関
+    readings:
+      - ぜいかん
+      - つうかん
+      - くうこう
+    en: customs
+    since: "1.0"
+    subgroup: transport-sign
+    keywords: [ 税関, 通関 ]
+  - emoji: 🛄
+    code: 1F6C4
+    name: 手荷物受取
+    readings:
+      - てにもつうけとり
+      - てにもつ
+      - ばげっじくれーむ
+      - すーつけーす
+      - あずけにもつ
+    en: baggage claim
+    since: "1.0"
+    subgroup: transport-sign
+    keywords: [ スーツケース, バゲッジクレーム, 手荷物, 手荷物受取, 預け入れ荷物 ]
+  - emoji: 🛅
+    code: 1F6C5
+    name: 手荷物預かり
+    readings:
+      - てにもつあずかり
+      - こいんろっかー
+      - ろっかー
+      - にもつ
+    en: left luggage
+    since: "1.0"
+    subgroup: transport-sign
+    keywords: [ コインロッカー, スーツケース, ロッカー, 手荷物, 手荷物預かり ]
+  - emoji: ⚠️
+    code: 26A0 FE0F
+    name: 警告
+    readings:
+      - けいこく
+      - ちゅうい
+      - きけん
+      - あぶない
+      - わーにんぐ
+    en: warning
+    since: "0.6"
+    subgroup: warning
+    keywords: [ 標識, 注意, 警告 ]
+  - emoji: 🚸
+    code: 1F6B8
+    name: 児童横断
+    readings:
+      - じどうおうだん
+      - つうがくろ
+      - こども
+      - おうだんほどう
+    en: children crossing
+    since: "1.0"
+    subgroup: warning
+    keywords: [ 児童横断, 子供, 学校、幼稚園、保育所等あり, 標識, 通学路 ]
+  - emoji: ⛔
+    code: 26D4
+    name: 進入禁止
+    readings:
+      - しんにゅうきんし
+      - しゃりょうしんにゅうきんし
+      - きんし
+      - だめ
+      - たちいりきんし
+    en: no entry
+    since: "0.6"
+    subgroup: warning
+    keywords: [ 標識, 禁止, 規制, 車両進入禁止, 進入禁止, 道路 ]
+  - emoji: 🚫
+    code: 1F6AB
+    name: 禁止
+    readings:
+      - きんし
+      - つうこうどめ
+      - しゃりょうつうこうどめ
+      - だめ
+      - ng
+      - ふか
+    en: prohibited
+    since: "0.6"
+    subgroup: warning
+    keywords: [ 標識, 禁止, 規制, 車両通行止め, 通行止め, 道路 ]
+  - emoji: 🚳
+    code: 1F6B3
+    name: 自転車禁止
+    readings:
+      - じてんしゃきんし
+      - じてんしゃ
+      - きんし
+      - ちゅうりんきんし
+    en: no bicycles
+    since: "1.0"
+    subgroup: warning
+    keywords: [ 標識, 禁止, 自転車, 自転車禁止, 規制, 道路 ]
+  - emoji: 🚭
+    code: 1F6AD
+    name: 禁煙
+    readings:
+      - きんえん
+      - たばこきんし
+      - のーすもーきんぐ
+      - きつえんきんし
+    en: no smoking
+    since: "0.6"
+    subgroup: warning
+    keywords: [ タバコ, 煙草, 禁止, 禁煙 ]
+  - emoji: 🚯
+    code: 1F6AF
+    name: ポイ捨て禁止
+    readings:
+      - ぽいすてきんし
+      - ごみすてきんし
+      - ぽいすて
+      - きんし
+    en: no littering
+    since: "1.0"
+    subgroup: warning
+    keywords: [ ごみ, ゴミ, ゴミ捨て禁止, ポイ捨て禁止, 禁止 ]
+  - emoji: 🚱
+    code: 1F6B1
+    name: 飲用不可
+    readings:
+      - いんようふか
+      - のめないみず
+      - いんようきんし
+      - のむな
+    en: non-potable water
+    since: "1.0"
+    subgroup: warning
+    keywords: [ 禁止, 飲めない水, 飲用不可, 飲用禁止 ]
+  - emoji: 🚷
+    code: 1F6B7
+    name: 歩行者立入禁止
+    readings:
+      - ほこうしゃたちいりきんし
+      - ほこうしゃきんし
+      - つうこうきんし
+      - たちいりきんし
+    en: no pedestrians
+    since: "1.0"
+    subgroup: warning
+    keywords: [ 標識, 歩行者立入禁止, 禁止, 規制, 道路 ]
+  - emoji: 📵
+    code: 1F4F5
+    name: 携帯電話禁止
+    readings:
+      - けいたいでんわきんし
+      - けいたいきんし
+      - すまほきんし
+      - でんげんおふ
+    en: no mobile phones
+    since: "1.0"
+    subgroup: warning
+    keywords: [ スマートフォン禁止, スマホ禁止, 携帯禁止, 携帯電話禁止 ]
+  - emoji: 🔞
+    code: 1F51E
+    name: 18歳未満禁止
+    readings:
+      - じゅうはっさいみまんきんし
+      - じゅうはちきん
+      - ねんれいせいげん
+      - みせいねん
+      - あだると
+    en: no one under eighteen
+    since: "0.6"
+    subgroup: warning
+    keywords: [ 18歳未満禁止, 18禁, 年齢制限, 未成年, 禁止 ]
+  - emoji: ☢️
+    code: 2622 FE0F
+    name: 放射能
+    readings:
+      - ほうしゃのう
+      - ほうしゃせん
+      - ほうしゃせい
+      - げんしりょく
+      - きけん
+    en: radioactive
+    since: "1.0"
+    subgroup: warning
+    keywords: [ 危険, 放射性, 放射線, 放射能 ]
+  - emoji: ☣️
+    code: 2623 FE0F
+    name: バイオハザード
+    readings:
+      - ばいおはざーど
+      - ゆうがいぶっしつ
+      - せいぶつさいがい
+      - きけん
+    en: biohazard
+    since: "1.0"
+    subgroup: warning
+    keywords: [ バイオハザード, 危険, 有害物質 ]
+  - emoji: ⬆️
+    code: 2B06 FE0F
+    name: 上矢印
+    readings:
+      - うえやじるし
+      - うえ
+      - やじるし
+      - きた
+      - あっぷ
+    en: up arrow
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ 上, 上矢印, 北, 矢印 ]
+  - emoji: ↗️
+    code: 2197 FE0F
+    name: 右上矢印
+    readings:
+      - みぎうえやじるし
+      - みぎうえ
+      - ほくとう
+      - ななめうえ
+    en: up-right arrow
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ 北東, 右上, 右上矢印, 矢印 ]
+  - emoji: ➡️
+    code: 27A1 FE0F
+    name: 右矢印
+    readings:
+      - みぎやじるし
+      - みぎ
+      - やじるし
+      - ひがし
+      - つぎ
+    en: right arrow
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ 右, 右矢印, 東, 矢印 ]
+  - emoji: ↘️
+    code: 2198 FE0F
+    name: 右下矢印
+    readings:
+      - みぎしたやじるし
+      - みぎした
+      - なんとう
+      - ななめした
+    en: down-right arrow
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ 南東, 右下, 右下矢印, 矢印 ]
+  - emoji: ⬇️
+    code: 2B07 FE0F
+    name: 下矢印
+    readings:
+      - したやじるし
+      - した
+      - やじるし
+      - みなみ
+      - だうん
+    en: down arrow
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ 下, 下矢印, 南, 矢印 ]
+  - emoji: ↙️
+    code: 2199 FE0F
+    name: 左下矢印
+    readings:
+      - ひだりしたやじるし
+      - ひだりした
+      - なんせい
+    en: down-left arrow
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ 南西, 左下, 左下矢印, 矢印 ]
+  - emoji: ⬅️
+    code: 2B05 FE0F
+    name: 左矢印
+    readings:
+      - ひだりやじるし
+      - ひだり
+      - やじるし
+      - にし
+      - もどる
+    en: left arrow
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ 左, 左矢印, 矢印, 西 ]
+  - emoji: ↖️
+    code: 2196 FE0F
+    name: 左上矢印
+    readings:
+      - ひだりうえやじるし
+      - ひだりうえ
+      - ほくせい
+    en: up-left arrow
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ 北西, 左上, 左上矢印, 矢印 ]
+  - emoji: ↕️
+    code: 2195 FE0F
+    name: 上下矢印
+    readings:
+      - じょうげやじるし
+      - じょうげ
+      - うえした
+    en: up-down arrow
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ 上下, 上下矢印, 矢印 ]
+  - emoji: ↔️
+    code: 2194 FE0F
+    name: 左右矢印
+    readings:
+      - さゆうやじるし
+      - さゆう
+      - みぎひだり
+    en: left-right arrow
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ 左右, 左右矢印, 矢印 ]
+  - emoji: ↩️
+    code: 21A9 FE0F
+    name: 右カーブ矢印
+    readings:
+      - みぎかーぶやじるし
+      - かーぶやじるし
+      - もどる
+      - りたーん
+      - ゆーたーん
+    en: right arrow curving left
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ カーブ, 右カーブ矢印, 左, 曲線, 矢印 ]
+  - emoji: ↪️
+    code: 21AA FE0F
+    name: 左カーブ矢印
+    readings:
+      - ひだりかーぶやじるし
+      - かーぶやじるし
+      - すすむ
+      - てんそう
+    en: left arrow curving right
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ カーブ, 右, 左カーブ矢印, 曲線, 矢印 ]
+  - emoji: ⤴️
+    code: 2934 FE0F
+    name: 上カーブ矢印
+    readings:
+      - うえかーぶやじるし
+      - かーぶやじるし
+      - うえ
+    en: right arrow curving up
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ カーブ, 上, 上カーブ矢印, 曲線, 矢印 ]
+  - emoji: ⤵️
+    code: 2935 FE0F
+    name: 下カーブ矢印
+    readings:
+      - したかーぶやじるし
+      - かーぶやじるし
+      - した
+    en: right arrow curving down
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ カーブ, 下, 下カーブ矢印, 曲線, 矢印 ]
+  - emoji: 🔃
+    code: 1F503
+    name: 右回り縦矢印
+    readings:
+      - みぎまわりたてやじるし
+      - みぎまわり
+      - とけいまわり
+      - りろーど
+      - さいよみこみ
+    en: clockwise vertical arrows
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ リロード, 再読み込み, 右回り, 右回り縦矢印, 時計回り, 矢印 ]
+  - emoji: 🔄
+    code: 1F504
+    name: 左回り矢印
+    readings:
+      - ひだりまわりやじるし
+      - ひだりまわり
+      - はんとけいまわり
+      - こうしん
+      - くりかえし
+      - りぴーと
+    en: counterclockwise arrows button
+    since: "1.0"
+    subgroup: arrow
+    keywords: [ リピート, 反時計回り, 左回り矢印, 更新, 矢印, 繰り返し, 逆回り ]
+  - emoji: 🔙
+    code: 1F519
+    name: BACK矢印
+    readings:
+      - ばっくやじるし
+      - ばっく
+      - もどる
+      - back
+    en: BACK arrow
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ BACK, BACK矢印, バック, 戻る, 矢印 ]
+  - emoji: 🔚
+    code: 1F51A
+    name: END矢印
+    readings:
+      - えんどやじるし
+      - えんど
+      - おわり
+      - end
+    en: END arrow
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ END, END矢印, エンド, 矢印, 終わり ]
+  - emoji: 🔛
+    code: 1F51B
+    name: ON矢印
+    readings:
+      - おんやじるし
+      - おん
+      - on
+    en: ON! arrow
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ ON, ON矢印, オン, 矢印 ]
+  - emoji: 🔜
+    code: 1F51C
+    name: SOON矢印
+    readings:
+      - すーんやじるし
+      - すーん
+      - すぐ
+      - まもなく
+      - soon
+    en: SOON arrow
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ SOON, SOON矢印, すぐ, 矢印 ]
+  - emoji: 🔝
+    code: 1F51D
+    name: TOP矢印
+    readings:
+      - とっぷやじるし
+      - とっぷ
+      - うえ
+      - top
+    en: TOP arrow
+    since: "0.6"
+    subgroup: arrow
+    keywords: [ TOP, TOP矢印, トップ, 上, 矢印 ]
+  - emoji: 🛐
+    code: 1F6D0
+    name: 礼拝所
+    readings:
+      - れいはいじょ
+      - れいはい
+      - いのり
+      - しゅうきょう
+      - きとう
+    en: place of worship
+    since: "1.0"
+    subgroup: religion
+    keywords: [ 宗教, 礼拝, 礼拝所, 祈り ]
+  - emoji: ⚛️
+    code: 269B FE0F
+    name: 原子のシンボル
+    readings:
+      - げんしのしんぼる
+      - げんし
+      - あとむ
+      - ぶんし
+      - げんそ
+      - ぶつり
+    en: atom symbol
+    since: "1.0"
+    subgroup: religion
+    keywords: [ 元素, 分子, 原子, 原子のシンボル, 無神論 ]
+  - emoji: 🕉️
+    code: 1F549 FE0F
+    name: オーム
+    readings:
+      - おーむ
+      - おーん
+      - ひんずーきょう
+      - ひんどぅーきょう
+    en: om
+    since: "0.7"
+    subgroup: religion
+    keywords: [ オーム, ヒンズー教, ヒンドゥー教, 宗教 ]
+  - emoji: ✡️
+    code: 2721 FE0F
+    name: ダビデの星
+    readings:
+      - だびでのほし
+      - ゆだやきょう
+      - ろくぼうせい
+      - へきさぐらむ
+    en: star of David
+    since: "0.7"
+    subgroup: religion
+    keywords: [ ダビデの星, ユダヤ教, 六芒星, 宗教, 星 ]
+  - emoji: ☸️
+    code: 2638 FE0F
+    name: 法輪
+    readings:
+      - ほうりん
+      - てんぽうりん
+      - ぶっきょう
+      - だるま
+    en: wheel of dharma
+    since: "0.7"
+    subgroup: religion
+    keywords: [ 仏教, 宗教, 法輪, 転法輪 ]
+  - emoji: ☯️
+    code: 262F FE0F
+    name: 陰陽
+    readings:
+      - いんよう
+      - おんみょう
+      - たいきょくず
+      - いんやん
+      - どうきょう
+    en: yin yang
+    since: "0.7"
+    subgroup: religion
+    keywords: [ インヤン, 宗教, 道教, 陰陽 ]
+  - emoji: ✝️
+    code: 271D FE0F
+    name: 十字架
+    readings:
+      - じゅうじか
+      - くろす
+      - きりすときょう
+      - らてんじゅうじ
+    en: latin cross
+    since: "0.7"
+    subgroup: religion
+    keywords: [ キリスト教, クロス, ラテン十字, 十字架, 宗教 ]
+  - emoji: ☦️
+    code: 2626 FE0F
+    name: 八端十字架
+    readings:
+      - はったんじゅうじか
+      - じゅうじか
+      - せいきょう
+      - くろす
+    en: orthodox cross
+    since: "1.0"
+    subgroup: religion
+    keywords: [ キリスト教, 八端十字架, 十字架, 宗教 ]
+  - emoji: ☪️
+    code: 262A FE0F
+    name: 星と三日月
+    readings:
+      - ほしとみかづき
+      - いすらむきょう
+      - みかづき
+      - むすりむ
+    en: star and crescent
+    since: "0.7"
+    subgroup: religion
+    keywords: [ イスラム教, ムスリム, 三日月, 宗教, 星, 星と三日月 ]
+  - emoji: ☮️
+    code: 262E FE0F
+    name: ピースマーク
+    readings:
+      - ぴーすまーく
+      - へいわ
+      - ぴーす
+      - はんせん
+    en: peace symbol
+    since: "1.0"
+    subgroup: religion
+    keywords: [ ピースマーク, 平和, 平和のシンボル ]
+  - emoji: 🕎
+    code: 1F54E
+    name: メノーラー
+    readings:
+      - めのーらー
+      - めのらー
+      - しょくだい
+      - はぬかー
+      - ゆだやきょう
+    en: menorah
+    since: "1.0"
+    subgroup: religion
+    keywords: [ ハヌカー, メノーラー, メノラー, ユダヤ教, 宗教, 燭台 ]
+  - emoji: 🔯
+    code: 1F52F
+    name: 六芒星
+    readings:
+      - ろくぼうせい
+      - へきさぐらむ
+      - うらない
+      - だびで
+      - ほし
+    en: dotted six-pointed star
+    since: "0.6"
+    subgroup: religion
+    keywords: [ ダビデ, ユダヤ教, 六芒星, 六角星, 占い, 星 ]
+  - emoji: 🪯
+    code: 1FAAF
+    name: カンダ
+    readings:
+      - かんだ
+      - しーくきょう
+      - しくきょう
+    en: khanda
+    since: "15.0"
+    subgroup: religion
+    keywords: [ カルサ, カンダ, シーク教, シーク教徒, シク教, 信仰, 剣, 宗教 ]
+  - emoji: ♈
+    code: "2648"
+    name: おひつじ座
+    readings:
+      - おひつじざ
+      - せいざ
+      - ぼようざ
+      - ありえす
+    en: Aries
+    since: "0.6"
+    subgroup: zodiac
+    keywords: [ おひつじ座, 星座, 牡羊座 ]
+  - emoji: ♉
+    code: "2649"
+    name: おうし座
+    readings:
+      - おうしざ
+      - せいざ
+      - ぼぎゅうざ
+    en: Taurus
+    since: "0.6"
+    subgroup: zodiac
+    keywords: [ おうし座, 星座, 牡牛座 ]
+  - emoji: ♊
+    code: 264A
+    name: ふたご座
+    readings:
+      - ふたござ
+      - せいざ
+      - じぇみに
+    en: Gemini
+    since: "0.6"
+    subgroup: zodiac
+    keywords: [ ふたご座, 双子座, 星座 ]
+  - emoji: ♋
+    code: 264B
+    name: かに座
+    readings:
+      - かにざ
+      - せいざ
+    en: Cancer
+    since: "0.6"
+    subgroup: zodiac
+    keywords: [ かに座, 星座, 蟹座 ]
+  - emoji: ♌
+    code: 264C
+    name: しし座
+    readings:
+      - ししざ
+      - せいざ
+      - れお
+    en: Leo
+    since: "0.6"
+    subgroup: zodiac
+    keywords: [ しし座, 星座, 獅子座 ]
+  - emoji: ♍
+    code: 264D
+    name: おとめ座
+    readings:
+      - おとめざ
+      - せいざ
+    en: Virgo
+    since: "0.6"
+    subgroup: zodiac
+    keywords: [ おとめ座, 乙女座, 星座 ]
+  - emoji: ♎
+    code: 264E
+    name: てんびん座
+    readings:
+      - てんびんざ
+      - せいざ
+    en: Libra
+    since: "0.6"
+    subgroup: zodiac
+    keywords: [ てんびん座, 天秤座, 星座 ]
+  - emoji: ♏
+    code: 264F
+    name: さそり座
+    readings:
+      - さそりざ
+      - せいざ
+    en: Scorpio
+    since: "0.6"
+    subgroup: zodiac
+    keywords: [ さそり座, 星座, 蠍座 ]
+  - emoji: ♐
+    code: "2650"
+    name: いて座
+    readings:
+      - いてざ
+      - せいざ
+    en: Sagittarius
+    since: "0.6"
+    subgroup: zodiac
+    keywords: [ いて座, 射手座, 星座 ]
+  - emoji: ♑
+    code: "2651"
+    name: やぎ座
+    readings:
+      - やぎざ
+      - せいざ
+    en: Capricorn
+    since: "0.6"
+    subgroup: zodiac
+    keywords: [ やぎ座, 山羊座, 星座 ]
+  - emoji: ♒
+    code: "2652"
+    name: みずがめ座
+    readings:
+      - みずがめざ
+      - せいざ
+    en: Aquarius
+    since: "0.6"
+    subgroup: zodiac
+    keywords: [ みずがめ座, 星座, 水瓶座 ]
+  - emoji: ♓
+    code: "2653"
+    name: うお座
+    readings:
+      - うおざ
+      - せいざ
+    en: Pisces
+    since: "0.6"
+    subgroup: zodiac
+    keywords: [ うお座, 星座, 魚座 ]
+  - emoji: ⛎
+    code: 26CE
+    name: へびつかい座
+    readings:
+      - へびつかいざ
+      - せいざ
+    en: Ophiuchus
+    since: "0.6"
+    subgroup: zodiac
+    keywords: [ へびつかい座, 星座, 蛇遣座 ]
+  - emoji: 🔀
+    code: 1F500
+    name: シャッフルボタン
+    readings:
+      - しゃっふるぼたん
+      - しゃっふる
+      - らんだむ
+      - らんだむさいせい
+    en: shuffle tracks button
+    since: "1.0"
+    subgroup: av-symbol
+    keywords: [ シャッフル, シャッフルボタン, ボタン, 交差, 矢印 ]
+  - emoji: 🔁
+    code: 1F501
+    name: リピートボタン
+    readings:
+      - りぴーとぼたん
+      - りぴーと
+      - くりかえし
+      - ぜんきょくりぴーと
+      - るーぷ
+    en: repeat button
+    since: "1.0"
+    subgroup: av-symbol
+    keywords: [ ボタン, リピート, リピートボタン, 全曲, 時計回り, 矢印, 繰り返し ]
+  - emoji: 🔂
+    code: 1F502
+    name: 1曲リピートボタン
+    readings:
+      - いっきょくりぴーとぼたん
+      - いっきょくりぴーと
+      - りぴーと
+      - くりかえし
+    en: repeat single button
+    since: "1.0"
+    subgroup: av-symbol
+    keywords: [ 1曲リピートボタン, ボタン, リピート, 時計回り, 矢印, 繰り返し ]
+  - emoji: ▶️
+    code: 25B6 FE0F
+    name: 再生ボタン
+    readings:
+      - さいせいぼたん
+      - さいせい
+      - ぷれい
+      - すたーと
+      - みぎさんかく
+    en: play button
+    since: "0.6"
+    subgroup: av-symbol
+    keywords: [ プレイ, ボタン, 再生, 再生ボタン, 矢印 ]
+  - emoji: ⏩
+    code: "23E9"
+    name: 早送りボタン
+    readings:
+      - はやおくりぼたん
+      - はやおくり
+      - ばいそく
+      - すきっぷ
+    en: fast-forward button
+    since: "0.6"
+    subgroup: av-symbol
+    keywords: [ ボタン, 倍速, 早送り, 早送りボタン, 矢印 ]
+  - emoji: ⏭️
+    code: 23ED FE0F
+    name: 次の曲ボタン
+    readings:
+      - つぎのきょくぼたん
+      - つぎのきょく
+      - すきっぷ
+      - つぎ
+      - ねくすと
+    en: next track button
+    since: "0.7"
+    subgroup: av-symbol
+    keywords: [ ボタン, 次のシーン, 次のトラック, 次の曲ボタン, 矢印 ]
+  - emoji: ⏯️
+    code: 23EF FE0F
+    name: 再生一時停止ボタン
+    readings:
+      - さいせいいちじていしぼたん
+      - さいせい
+      - いちじていし
+      - ぽーず
+    en: play or pause button
+    since: "1.0"
+    subgroup: av-symbol
+    keywords: [ ボタン, 一時停止, 再生, 再生／一時停止ボタン, 矢印 ]
+  - emoji: ◀️
+    code: 25C0 FE0F
+    name: 逆再生ボタン
+    readings:
+      - ぎゃくさいせいぼたん
+      - ぎゃくさいせい
+      - ひだりさんかく
+      - まきもどし
+    en: reverse button
+    since: "0.6"
+    subgroup: av-symbol
+    keywords: [ ボタン, 巻き戻し, 矢印, 逆再生, 逆再生ボタン ]
+  - emoji: ⏪
+    code: 23EA
+    name: 早戻しボタン
+    readings:
+      - はやもどしぼたん
+      - はやもどし
+      - まきもどし
+      - ばいそく
+    en: fast reverse button
+    since: "0.6"
+    subgroup: av-symbol
+    keywords: [ 倍速, 巻き戻し, 戻る, 早戻し, 早戻しボタン, 矢印 ]
+  - emoji: ⏮️
+    code: 23EE FE0F
+    name: 前の曲ボタン
+    readings:
+      - まえのきょくぼたん
+      - まえのきょく
+      - まえ
+      - もどる
+    en: last track button
+    since: "0.7"
+    subgroup: av-symbol
+    keywords: [ ボタン, 前のシーン, 前のトラック, 前の曲ボタン, 矢印 ]
+  - emoji: 🔼
+    code: 1F53C
+    name: 上ボタン
+    readings:
+      - うえぼたん
+      - うえ
+      - うえさんかく
+    en: upwards button
+    since: "0.6"
+    subgroup: av-symbol
+    keywords: [ ボタン, 上, 上ボタン, 矢印 ]
+  - emoji: ⏫
+    code: 23EB
+    name: 高速上ボタン
+    readings:
+      - こうそくうえぼたん
+      - うえ
+      - こうそく
+      - にじゅうやじるし
+    en: fast up button
+    since: "0.6"
+    subgroup: av-symbol
+    keywords: [ ボタン, 上, 二重, 矢印, 高速上ボタン ]
+  - emoji: 🔽
+    code: 1F53D
+    name: 下ボタン
+    readings:
+      - したぼたん
+      - した
+      - したさんかく
+    en: downwards button
+    since: "0.6"
+    subgroup: av-symbol
+    keywords: [ ボタン, 下, 下ボタン, 矢印 ]
+  - emoji: ⏬
+    code: 23EC
+    name: 高速下ボタン
+    readings:
+      - こうそくしたぼたん
+      - した
+      - こうそく
+      - にじゅうやじるし
+    en: fast down button
+    since: "0.6"
+    subgroup: av-symbol
+    keywords: [ ボタン, 下, 二重, 矢印, 高速下ボタン ]
+  - emoji: ⏸️
+    code: 23F8 FE0F
+    name: 一時停止ボタン
+    readings:
+      - いちじていしぼたん
+      - いちじていし
+      - ぽーず
+      - ていし
+    en: pause button
+    since: "0.7"
+    subgroup: av-symbol
+    keywords: [ ポーズ, ボタン, 一時停止, 一時停止ボタン ]
+  - emoji: ⏹️
+    code: 23F9 FE0F
+    name: 停止ボタン
+    readings:
+      - ていしぼたん
+      - ていし
+      - すとっぷ
+      - しかく
+    en: stop button
+    since: "0.7"
+    subgroup: av-symbol
+    keywords: [ ストップ, ボタン, 停止, 停止ボタン, 四角 ]
+  - emoji: ⏺️
+    code: 23FA FE0F
+    name: 録音録画ボタン
+    readings:
+      - ろくおんろくがぼたん
+      - ろくが
+      - ろくおん
+      - れこーど
+      - きろく
+    en: record button
+    since: "0.7"
+    subgroup: av-symbol
+    keywords: [ ボタン, 丸, 録画, 録音, 録音録画ボタン ]
+  - emoji: ⏏️
+    code: 23CF FE0F
+    name: 取り出しボタン
+    readings:
+      - とりだしぼたん
+      - とりだし
+      - いじぇくと
+    en: eject button
+    since: "1.0"
+    subgroup: av-symbol
+    keywords: [ イジェクト, ボタン, 取り出し, 取り出しボタン ]
+  - emoji: 🎦
+    code: 1F3A6
+    name: 映画
+    readings:
+      - えいが
+      - えいがかん
+      - しねま
+      - どうが
+      - むーびー
+    en: cinema
+    since: "0.6"
+    subgroup: av-symbol
+    keywords: [ カメラ, 動画, 映画, 映画館 ]
+  - emoji: 🔅
+    code: 1F505
+    name: 低輝度
+    readings:
+      - ていきど
+      - くらい
+      - あかるさ
+      - きど
+      - ぶらいとねす
+    en: dim button
+    since: "1.0"
+    subgroup: av-symbol
+    keywords: [ ブライトネス, 低輝度, 明るさ, 暗い, 輝度 ]
+  - emoji: 🔆
+    code: 1F506
+    name: 高輝度
+    readings:
+      - こうきど
+      - あかるい
+      - あかるさ
+      - きど
+      - ぶらいとねす
+    en: bright button
+    since: "1.0"
+    subgroup: av-symbol
+    keywords: [ ブライトネス, 明るい, 明るさ, 輝度, 高輝度 ]
+  - emoji: 📶
+    code: 1F4F6
+    name: アンテナマーク
+    readings:
+      - あんてなまーく
+      - でんぱ
+      - あんてな
+      - けんない
+      - ばりさん
+    en: antenna bars
+    since: "0.6"
+    subgroup: av-symbol
+    keywords: [ アンテナマーク, スマートフォン, スマホ, 圏内, 携帯電話, 電波 ]
+  - emoji: 🛜
+    code: 1F6DC
+    name: Wi-Fi
+    readings:
+      - わいふぁい
+      - むせん
+      - むせんらん
+      - でんぱ
+      - ねっと
+      - いんたーねっと
+    en: wireless
+    since: "15.0"
+    subgroup: av-symbol
+    keywords: [ Wi-Fi, インターネット, スマホ, ネットワーク, ブロードバンド, ホットスポット, 接続, 無線, 無線LAN, 電波 ]
+  - emoji: 📳
+    code: 1F4F3
+    name: マナーモード
+    readings:
+      - まなーもーど
+      - ばいぶ
+      - しんどう
+      - ばいぶれーしょん
+    en: vibration mode
+    since: "0.6"
+    subgroup: av-symbol
+    keywords: [ スマートフォン, スマホ, マナーモード, 携帯, 携帯電話 ]
+  - emoji: 📴
+    code: 1F4F4
+    name: 携帯電話電源オフ
+    readings:
+      - けいたいでんわでんげんおふ
+      - でんげんおふ
+      - けいたいおふ
+      - おふ
+    en: mobile phone off
+    since: "0.6"
+    subgroup: av-symbol
+    keywords: [ オフ, スマートフォン, スマホ, 携帯電話, 携帯電話電源オフ, 電源オフ ]
+  - emoji: ♀️
+    code: 2640 FE0F
+    name: 女性のマーク
+    readings:
+      - じょせいのまーく
+      - じょせい
+      - おんな
+      - めす
+      - ひーなす
+    en: female sign
+    since: "4.0"
+    subgroup: gender
+    keywords: [ シンボル, 女, 女性, 女性のマーク ]
+  - emoji: ♂️
+    code: 2642 FE0F
+    name: 男性のマーク
+    readings:
+      - だんせいのまーく
+      - だんせい
+      - おとこ
+      - おす
+      - まーず
+    en: male sign
+    since: "4.0"
+    subgroup: gender
+    keywords: [ シンボル, 男, 男性, 男性のマーク ]
+  - emoji: ⚧️
+    code: 26A7 FE0F
+    name: トランスジェンダーのマーク
+    readings:
+      - とらんすじぇんだーのまーく
+      - とらんすじぇんだー
+      - せいべつ
+      - lgbt
+    en: transgender symbol
+    since: "13.0"
+    subgroup: gender
+    keywords: [ LGBT, TG, シンボル, トランスジェンダーのマーク, 性別 ]
+  - emoji: ✖️
+    code: 2716 FE0F
+    name: 掛け算
+    readings:
+      - かけざん
+      - かける
+      - ばつ
+      - ぺけ
+      - じょうざん
+    en: multiply
+    since: "0.6"
+    subgroup: math
+    keywords: [ キャンセル, バツ, ペケ, 乗算, 掛け算, 記号 ]
+  - emoji: ➕
+    code: "2795"
+    name: プラス
+    readings:
+      - ぷらす
+      - たしざん
+      - たす
+      - かさん
+    en: plus
+    since: "0.6"
+    subgroup: math
+    keywords: [ +, プラス, 加算, 記号, 足し算, 足す ]
+  - emoji: ➖
+    code: "2796"
+    name: マイナス
+    readings:
+      - まいなす
+      - ひきざん
+      - ひく
+      - げんざん
+    en: minus
+    since: "0.6"
+    subgroup: math
+    keywords: [ "-", マイナス, 引き算, 引く, 減算, 計算, 記号 ]
+  - emoji: ➗
+    code: "2797"
+    name: 割り算
+    readings:
+      - わりざん
+      - わる
+      - じょざん
+    en: divide
+    since: "0.6"
+    subgroup: math
+    keywords: [ /, 割り算, 割る, 記号, 除算 ]
+  - emoji: 🟰
+    code: 1F7F0
+    name: 等号
+    readings:
+      - とうごう
+      - いこーる
+      - ひとしい
+      - ふとじのとうごう
+    en: heavy equals sign
+    since: "14.0"
+    subgroup: math
+    keywords: [ イコール, 太字の等号, 数学, 等しい, 等号 ]
+  - emoji: ♾️
+    code: 267E FE0F
+    name: 無限大
+    readings:
+      - むげんだい
+      - むげん
+      - えいえん
+      - いんふぃにてぃ
+    en: infinity
+    since: "11.0"
+    subgroup: math
+    keywords: [ 万物, 永遠, 無限, 無限大 ]
+  - emoji: ‼️
+    code: 203C FE0F
+    name: 二重感嘆符
+    readings:
+      - にじゅうかんたんふ
+      - びっくりまーく
+      - かんたんふ
+      - えくすくらめーしょんまーく
+      - びっくり
+    en: double exclamation mark
+    since: "0.6"
+    subgroup: punctuation
+    keywords: [ "!", エクスクラメーションマーク, びっくりマーク, 二重感嘆符, 感嘆符, 約物, 記号 ]
+  - emoji: ⁉️
+    code: 2049 FE0F
+    name: 感嘆符疑問符
+    readings:
+      - かんたんふぎもんふ
+      - びっくりはてな
+      - はてなびっくり
+      - はてな
+      - びっくりまーく
+    en: exclamation question mark
+    since: "0.6"
+    subgroup: punctuation
+    keywords: [ "!", "!?", "?", はてなマーク, びっくりマーク, 感嘆符疑問符, 記号 ]
+  - emoji: ❓
+    code: "2753"
+    name: 赤い疑問符
+    readings:
+      - あかいぎもんふ
+      - ぎもんふ
+      - はてな
+      - はてなまーく
+      - くえすちょんまーく
+      - なぜ
+    en: red question mark
+    since: "0.6"
+    subgroup: punctuation
+    keywords: [ "?", クエスチョンマーク, はてなマーク, 疑問符, 約物, 記号, 赤い疑問符 ]
+  - emoji: ❔
+    code: "2754"
+    name: 白い疑問符
+    readings:
+      - しろいぎもんふ
+      - ぎもんふ
+      - はてな
+      - はてなまーく
+      - くえすちょんまーく
+    en: white question mark
+    since: "0.6"
+    subgroup: punctuation
+    keywords: [ "?", クエスチョンマーク, はてなマーク, 疑問符, 白い疑問符, 約物, 記号 ]
+  - emoji: ❕
+    code: "2755"
+    name: 白い感嘆符
+    readings:
+      - しろいかんたんふ
+      - かんたんふ
+      - びっくりまーく
+      - えくすくらめーしょんまーく
+    en: white exclamation mark
+    since: "0.6"
+    subgroup: punctuation
+    keywords: [ "!", エクスクラメーションマーク, びっくりマーク, 疑問符, 白い感嘆符, 約物, 記号 ]
+  - emoji: ❗
+    code: "2757"
+    name: 赤い感嘆符
+    readings:
+      - あかいかんたんふ
+      - かんたんふ
+      - びっくりまーく
+      - えくすくらめーしょんまーく
+      - びっくり
+      - ちゅうい
+    en: red exclamation mark
+    since: "0.6"
+    subgroup: punctuation
+    keywords: [ "!", エクスクラメーションマーク, びっくりマーク, 感嘆符, 約物, 記号, 赤い感嘆符 ]
+  - emoji: 〰️
+    code: 3030 FE0F
+    name: 波線
+    readings:
+      - なみせん
+      - なみ
+      - にょろにょろ
+      - ちるだ
+    en: wavy dash
+    since: "0.6"
+    subgroup: punctuation
+    keywords: [ 波, 波線, 約物, 記号 ]
+  - emoji: 💱
+    code: 1F4B1
+    name: 外貨両替
+    readings:
+      - がいかりょうがえ
+      - りょうがえ
+      - がいか
+      - かわせ
+      - つうか
+      - どるえん
+      - えんどる
+    en: currency exchange
+    since: "0.6"
+    subgroup: currency
+    keywords: [ お金, ドル, ドル円, 両替, 円, 円ドル, 外貨両替, 通貨 ]
+  - emoji: 💲
+    code: 1F4B2
+    name: ドル記号
+    readings:
+      - どるきごう
+      - どる
+      - どるまーく
+      - だらー
+      - おかね
+      - つうか
+    en: heavy dollar sign
+    since: "0.6"
+    subgroup: currency
+    keywords: [ お金, ドル, ドル記号, 通貨 ]
+  - emoji: ⚕️
+    code: 2695 FE0F
+    name: 医療のシンボル
+    readings:
+      - いりょうのしんぼる
+      - いりょう
+      - あすくれぴおすのつえ
+      - いしゃ
+      - ちりょう
+      - いりょうまーく
+    en: medical symbol
+    since: "4.0"
+    subgroup: other-symbol
+    keywords: [ アスクレピオスの杖, 医療, 医療のシンボル, 医者, 治療 ]
+  - emoji: ♻️
+    code: 267B FE0F
+    name: リサイクルマーク
+    readings:
+      - りさいくるまーく
+      - りさいくる
+      - さいりよう
+      - さいせい
+      - えこ
+      - しげん
+    en: recycling symbol
+    since: "0.6"
+    subgroup: other-symbol
+    keywords: [ リサイクル, リサイクルマーク, 再利用, 再生 ]
+  - emoji: ⚜️
+    code: 269C FE0F
+    name: フルール・ド・リス
+    readings:
+      - ふるーるどりす
+      - ゆりのもんしょう
+      - もんしょう
+      - えんぶれむ
+      - ふらんすおうけ
+      - ゆり
+    en: fleur-de-lis
+    since: "1.0"
+    subgroup: other-symbol
+    keywords: [ エンブレム, フランス王家, フルール・ド・リス, ユリ, 紋章 ]
+  - emoji: 🔱
+    code: 1F531
+    name: トライデント
+    readings:
+      - とらいでんと
+      - さんさほこ
+      - みつまた
+      - ほこ
+      - ぽせいどん
+      - えんぶれむ
+    en: trident emblem
+    since: "0.6"
+    subgroup: other-symbol
+    keywords: [ エンブレム, トライデント, 三つ又, 海 ]
+  - emoji: 📛
+    code: 1F4DB
+    name: 名札
+    readings:
+      - なふだ
+      - ねーむぷれーと
+      - ばっじ
+      - なまえ
+      - ようちえん
+      - ほいくえん
+    en: name badge
+    since: "0.6"
+    subgroup: other-symbol
+    keywords: [ バッジ, 保育園, 保育所, 名札, 幼稚園 ]
+  - emoji: 🔰
+    code: 1F530
+    name: 初心者マーク
+    readings:
+      - しょしんしゃまーく
+      - しょしんしゃ
+      - わかばまーく
+      - わかば
+      - びぎなー
+      - しんまい
+      - しょしん
+    en: Japanese symbol for beginner
+    since: "0.6"
+    subgroup: other-symbol
+    keywords: [ 初心者, 初心者マーク, 若葉マーク ]
+  - emoji: ⭕
+    code: 2B55
+    name: 太い丸
+    readings:
+      - ふといまる
+      - まる
+      - あかいまる
+      - せいかい
+      - おーけー
+      - わ
+      - ただしい
+    en: hollow red circle
+    since: "0.6"
+    subgroup: other-symbol
+    keywords: [ 円, 太い丸, 記号, 赤い丸, 輪 ]
+  - emoji: ✅
+    code: "2705"
+    name: 白抜きのチェック
+    readings:
+      - しろぬきのちぇっく
+      - ちぇっく
+      - ちぇっくまーく
+      - すみ
+      - かんりょう
+      - ok
+      - おーけー
+    en: check mark button
+    since: "0.6"
+    subgroup: other-symbol
+    keywords: [ チェック, チェックマーク, 済, 白抜きのチェック, 記号 ]
+  - emoji: ☑️
+    code: 2611 FE0F
+    name: チェックボックス
+    readings:
+      - ちぇっくぼっくす
+      - ちぇっく
+      - ちぇっくまーく
+      - すみ
+      - かんりょう
+    en: check box with check
+    since: "0.6"
+    subgroup: other-symbol
+    keywords: [ チェック, チェックボックス, チェックマーク, 済, 記号 ]
+  - emoji: ✔️
+    code: 2714 FE0F
+    name: 太字のチェック
+    readings:
+      - ふとじのちぇっく
+      - ちぇっく
+      - ちぇっくまーく
+      - すみ
+      - かんりょう
+      - れ
+    en: check mark
+    since: "0.6"
+    subgroup: other-symbol
+    keywords: [ チェック, チェックマーク, 太字のチェック, 済, 記号 ]
+  - emoji: ❌
+    code: 274C
+    name: バツ
+    readings:
+      - ばつ
+      - ぺけ
+      - ばってん
+      - きゃんせる
+      - だめ
+      - まちがい
+      - ng
+      - かける
+    en: cross mark
+    since: "0.6"
+    subgroup: other-symbol
+    keywords: [ キャンセル, バツ, ペケ, 乗算, 掛け算, 記号 ]
+  - emoji: ❎
+    code: 274E
+    name: 白抜きのバツ
+    readings:
+      - しろぬきのばつ
+      - ばつ
+      - ぺけ
+      - ばってん
+      - きゃんせる
+      - だめ
+    en: cross mark button
+    since: "0.6"
+    subgroup: other-symbol
+    keywords: [ キャンセル, バツ, ペケ, 乗算, 掛け算, 白抜きのバツ, 記号 ]
+  - emoji: ➰
+    code: 27B0
+    name: ループ
+    readings:
+      - るーぷ
+      - わっか
+      - くるくる
+      - ちょうおん
+      - にょろ
+    en: curly loop
+    since: "0.6"
+    subgroup: other-symbol
+    keywords: [ ループ, 記号, 輪っか, 長音 ]
+  - emoji: ➿
+    code: 27BF
+    name: ダブルループ
+    readings:
+      - だぶるるーぷ
+      - るーぷ
+      - ふりーだいやる
+      - わっか
+    en: double curly loop
+    since: "1.0"
+    subgroup: other-symbol
+    keywords: [ ダブルループ, フリーダイヤル, ループ, 記号, 輪っか ]
+  - emoji: 〽️
+    code: 303D FE0F
+    name: いおりてん
+    readings:
+      - いおりてん
+      - うたきごう
+      - やくもの
+    en: part alternation mark
+    since: "0.6"
+    subgroup: other-symbol
+    keywords: [ いおりてん, 庵点, 歌記号, 約物, 記号 ]
+  - emoji: ✳️
+    code: 2733 FE0F
+    name: 八角アスタリスク
+    readings:
+      - はっかくあすたりすく
+      - あすたりすく
+      - こめじるし
+      - ほし
+      - やくもの
+    en: eight-spoked asterisk
+    since: "0.6"
+    subgroup: other-symbol
+    keywords: [ アスタリスク, 八角アスタリスク, 約物, 記号 ]
+  - emoji: ✴️
+    code: 2734 FE0F
+    name: 八角星
+    readings:
+      - はっかくせい
+      - はちぼうせい
+      - ほし
+      - やくもの
+    en: eight-pointed star
+    since: "0.6"
+    subgroup: other-symbol
+    keywords: [ 八角星, 星, 約物, 記号 ]
+  - emoji: ❇️
+    code: 2747 FE0F
+    name: スパークル
+    readings:
+      - すぱーくる
+      - きらきら
+      - ぴかぴか
+      - かがやき
+      - あすたりすく
+    en: sparkle
+    since: "0.6"
+    subgroup: other-symbol
+    keywords: [ アスタリスク, キラキラ, スパークル, 約物, 記号 ]
+  - emoji: ©️
+    code: 00A9 FE0F
+    name: 著作権マーク
+    readings:
+      - ちょさくけんまーく
+      - ちょさくけん
+      - こぴーらいと
+      - しーまーく
+      - まるしー
+    en: copyright
+    since: "0.6"
+    subgroup: other-symbol
+    keywords: [ Cマーク, コピーライト, 著作権, 著作権マーク, 記号 ]
+  - emoji: ®️
+    code: 00AE FE0F
+    name: 登録商標マーク
+    readings:
+      - とうろくしょうひょうまーく
+      - とうろくしょうひょう
+      - あーるまーく
+      - まるあーる
+      - しょうひょう
+    en: registered
+    since: "0.6"
+    subgroup: other-symbol
+    keywords: [ Rマーク, 登録商標, 登録商標マーク, 記号 ]
+  - emoji: ™️
+    code: 2122 FE0F
+    name: 商標マーク
+    readings:
+      - しょうひょうまーく
+      - しょうひょう
+      - とれーどまーく
+      - tm
+      - てぃーえむ
+    en: trade mark
+    since: "0.6"
+    subgroup: other-symbol
+    keywords: [ TMマーク, トレードマーク, 商標, 商標マーク, 記号 ]
+  - emoji: 🫟
+    code: 1FADF
+    name: 飛び散ったペンキ
+    readings:
+      - とびちったぺんき
+      - ぺんき
+      - しぶき
+      - ひまつ
+      - すぷらった
+      - すぷらっしゅ
+      - とびちり
+    en: splatter
+    since: "16.0"
+    subgroup: other-symbol
+    keywords: [ しぶき, スプラッシュ, ペンキ, 飛び散り, 飛沫 ]
+  - emoji: "#️⃣"
+    code: 0023 FE0F 20E3
+    name: "囲み数字: #"
+    readings:
+      - しゃーぷ
+      - いげた
+      - はっしゅ
+      - なんばー
+      - ばんごう
+    en: "keycap: #"
+    since: "0.6"
+    subgroup: keycap
+    keywords: [ 囲み数字 ]
+  - emoji: "*️⃣"
+    code: 002A FE0F 20E3
+    name: "囲み数字: *"
+    readings:
+      - あすたりすく
+      - こめじるし
+      - ほし
+      - すたー
+    en: "keycap: *"
+    since: "2.0"
+    subgroup: keycap
+    keywords: [ 囲み数字 ]
+  - emoji: 0️⃣
+    code: 0030 FE0F 20E3
+    name: "囲み数字: 0"
+    readings:
+      - ぜろ
+      - "0"
+      - れい
+      - まる
+    en: "keycap: 0"
+    since: "0.6"
+    subgroup: keycap
+    keywords: [ "0", 囲み数字 ]
+  - emoji: 1️⃣
+    code: 0031 FE0F 20E3
+    name: "囲み数字: 1"
+    readings:
+      - いち
+      - "1"
+      - わん
+      - ひとつ
+    en: "keycap: 1"
+    since: "0.6"
+    subgroup: keycap
+    keywords: [ "1", 一, 囲み数字 ]
+  - emoji: 2️⃣
+    code: 0032 FE0F 20E3
+    name: "囲み数字: 2"
+    readings:
+      - に
+      - "2"
+      - つー
+      - ふたつ
+    en: "keycap: 2"
+    since: "0.6"
+    subgroup: keycap
+    keywords: [ "2", 二, 囲み数字 ]
+  - emoji: 3️⃣
+    code: 0033 FE0F 20E3
+    name: "囲み数字: 3"
+    readings:
+      - さん
+      - "3"
+      - すりー
+      - みっつ
+    en: "keycap: 3"
+    since: "0.6"
+    subgroup: keycap
+    keywords: [ "3", 三, 囲み数字 ]
+  - emoji: 4️⃣
+    code: 0034 FE0F 20E3
+    name: "囲み数字: 4"
+    readings:
+      - よん
+      - "4"
+      - し
+      - ふぉー
+      - よっつ
+    en: "keycap: 4"
+    since: "0.6"
+    subgroup: keycap
+    keywords: [ "4", 四, 囲み数字 ]
+  - emoji: 5️⃣
+    code: 0035 FE0F 20E3
+    name: "囲み数字: 5"
+    readings:
+      - ご
+      - "5"
+      - ふぁいぶ
+      - いつつ
+    en: "keycap: 5"
+    since: "0.6"
+    subgroup: keycap
+    keywords: [ "5", 五, 囲み数字 ]
+  - emoji: 6️⃣
+    code: 0036 FE0F 20E3
+    name: "囲み数字: 6"
+    readings:
+      - ろく
+      - "6"
+      - しっくす
+      - むっつ
+    en: "keycap: 6"
+    since: "0.6"
+    subgroup: keycap
+    keywords: [ "6", 六, 囲み数字 ]
+  - emoji: 7️⃣
+    code: 0037 FE0F 20E3
+    name: "囲み数字: 7"
+    readings:
+      - なな
+      - "7"
+      - しち
+      - せぶん
+      - ななつ
+    en: "keycap: 7"
+    since: "0.6"
+    subgroup: keycap
+    keywords: [ "7", 七, 囲み数字 ]
+  - emoji: 8️⃣
+    code: 0038 FE0F 20E3
+    name: "囲み数字: 8"
+    readings:
+      - はち
+      - "8"
+      - えいと
+      - やっつ
+    en: "keycap: 8"
+    since: "0.6"
+    subgroup: keycap
+    keywords: [ "8", 八, 囲み数字 ]
+  - emoji: 9️⃣
+    code: 0039 FE0F 20E3
+    name: "囲み数字: 9"
+    readings:
+      - きゅう
+      - "9"
+      - く
+      - ないん
+      - ここのつ
+    en: "keycap: 9"
+    since: "0.6"
+    subgroup: keycap
+    keywords: [ "9", 九, 囲み数字 ]
+  - emoji: 🔟
+    code: 1F51F
+    name: "囲み数字: 10"
+    readings:
+      - じゅう
+      - "10"
+      - てん
+      - とお
+    en: "keycap: 10"
+    since: "0.6"
+    subgroup: keycap
+    keywords: [ 囲み数字 ]
+  - emoji: 🔠
+    code: 1F520
+    name: 英大文字の入力
+    readings:
+      - えいおおもじのにゅうりょく
+      - おおもじ
+      - えいおおもじ
+      - あるふぁべっと
+      - ろーまじ
+      - abcd
+    en: input latin uppercase
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ ABCD, アルファベット, ローマ字, 入力, 大文字, 英大文字の入力, 英字 ]
+  - emoji: 🔡
+    code: 1F521
+    name: 英小文字の入力
+    readings:
+      - えいこもじのにゅうりょく
+      - こもじ
+      - えいこもじ
+      - あるふぁべっと
+      - ろーまじ
+      - abcd
+    en: input latin lowercase
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ abcd, アルファベット, ローマ字, 入力, 小文字, 英字, 英小文字の入力 ]
+  - emoji: 🔢
+    code: 1F522
+    name: 数字の入力
+    readings:
+      - すうじのにゅうりょく
+      - すうじ
+      - "1234"
+      - ばんごう
+    en: input numbers
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ "1234", 入力, 数字, 数字の入力 ]
+  - emoji: 🔣
+    code: 1F523
+    name: 記号の入力
+    readings:
+      - きごうのにゅうりょく
+      - きごう
+      - しんぼる
+    en: input symbols
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ 〒♪&%, 入力, 記号, 記号の入力 ]
+  - emoji: 🔤
+    code: 1F524
+    name: 英字の入力
+    readings:
+      - えいじのにゅうりょく
+      - えいじ
+      - あるふぁべっと
+      - ろーまじ
+      - abc
+    en: input latin letters
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ abc, アルファベット, ローマ字, 入力, 英字, 英字の入力 ]
+  - emoji: 🅰️
+    code: 1F170 FE0F
+    name: 血液型A型
+    readings:
+      - けつえきがたえーがた
+      - えーがた
+      - えー
+      - けつえきがた
+    en: A button (blood type)
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ A型, 血液型, 血液型A型 ]
+  - emoji: 🆎
+    code: 1F18E
+    name: 血液型AB型
+    readings:
+      - けつえきがたえーびーがた
+      - えーびーがた
+      - えーびー
+      - けつえきがた
+    en: AB button (blood type)
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ AB型, 血液型, 血液型AB型 ]
+  - emoji: 🅱️
+    code: 1F171 FE0F
+    name: 血液型B型
+    readings:
+      - けつえきがたびーがた
+      - びーがた
+      - びー
+      - けつえきがた
+    en: B button (blood type)
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ B型, 血液型, 血液型B型 ]
+  - emoji: 🆑
+    code: 1F191
+    name: CLマーク
+    readings:
+      - cl
+      - くりあ
+      - しーえる
+      - しーえるまーく
+    en: CL button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ CL, CLマーク, クリア ]
+  - emoji: 🆒
+    code: 1F192
+    name: COOLマーク
+    readings:
+      - くーるまーく
+      - くーる
+      - かっこいい
+      - cool
+    en: COOL button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ COOL, COOLマーク, クール ]
+  - emoji: 🆓
+    code: 1F193
+    name: FREEマーク
+    readings:
+      - ふりーまーく
+      - ふりー
+      - むりょう
+      - ただ
+      - free
+    en: FREE button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ FREEマーク, タダ, フリー, 無料 ]
+  - emoji: ℹ️
+    code: 2139 FE0F
+    name: インフォメーション
+    readings:
+      - いんふぉめーしょん
+      - あいまーく
+      - じょうほう
+      - あんないじょ
+      - あんない
+      - いんふぉ
+    en: information
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ i, iマーク, インフォメーション, 情報, 案内所 ]
+  - emoji: 🆔
+    code: 1F194
+    name: IDマーク
+    readings:
+      - id
+      - あいでぃー
+      - あいでぃーまーく
+      - しきべつ
+    en: ID button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ ID, IDマーク, アイディー ]
+  - emoji: Ⓜ️
+    code: 24C2 FE0F
+    name: 丸いMマーク
+    readings:
+      - まるいえむまーく
+      - まるえむ
+      - えむ
+      - えむまーく
+      - ちかてつ
+    en: circled M
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ M, 丸, 丸いMマーク ]
+  - emoji: 🆕
+    code: 1F195
+    name: NEWマーク
+    readings:
+      - にゅーまーく
+      - にゅー
+      - あたらしい
+      - しん
+      - しんちゃく
+      - new
+    en: NEW button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ NEW, NEWマーク, 新, 新しい ]
+  - emoji: 🆖
+    code: 1F196
+    name: NGマーク
+    readings:
+      - ng
+      - えぬじー
+      - えぬじーまーく
+      - ぼつ
+      - だめ
+    en: NG button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ NG, NGマーク, エヌジー, ボツ ]
+  - emoji: 🅾️
+    code: 1F17E FE0F
+    name: 血液型O型
+    readings:
+      - けつえきがたおーがた
+      - おーがた
+      - おー
+      - けつえきがた
+    en: O button (blood type)
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ O型, 血液型, 血液型O型 ]
+  - emoji: 🆗
+    code: 1F197
+    name: OKマーク
+    readings:
+      - ok
+      - おーけー
+      - おっけー
+      - おけ
+      - おーけーまーく
+      - りょうかい
+    en: OK button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ OK, OKマーク, オーケー, オッケー ]
+  - emoji: 🅿️
+    code: 1F17F FE0F
+    name: Pマーク
+    readings:
+      - ぴーまーく
+      - ぱーきんぐ
+      - ちゅうしゃじょう
+      - ぴー
+    en: P button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ P, Pマーク, パーキング, 駐車場 ]
+  - emoji: 🆘
+    code: 1F198
+    name: SOSマーク
+    readings:
+      - sos
+      - えすおーえす
+      - たすけて
+      - きゅうじょ
+      - えすおーえすまーく
+    en: SOS button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ SOS, SOSマーク, エスオーエス, 助けて ]
+  - emoji: 🆙
+    code: 1F199
+    name: UPマーク
+    readings:
+      - あっぷまーく
+      - あっぷ
+      - こうしん
+      - あっぷでーと
+      - じょうしょう
+    en: UP! button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ UP, UPマーク, アップ, 更新 ]
+  - emoji: 🆚
+    code: 1F19A
+    name: VSマーク
+    readings:
+      - vs
+      - ぶいえす
+      - ばーさす
+      - たい
+      - たいせん
+    en: VS button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ VSマーク, ヴァーサス, ヴィエス, バーサス, ブイエス, 対 ]
+  - emoji: 🈁
+    code: 1F201
+    name: ココのマーク
+    readings:
+      - ここのまーく
+      - ここ
+      - こちら
+      - げんざいち
+    en: Japanese “here” button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ ここ, ココ, ココのマーク ]
+  - emoji: 🈂️
+    code: 1F202 FE0F
+    name: サのマーク
+    readings:
+      - さのまーく
+      - さーびすりょう
+      - さ
+      - さーびす
+    en: Japanese “service charge” button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ サ, サービス料, サのマーク ]
+  - emoji: 🈷️
+    code: 1F237 FE0F
+    name: 月マーク
+    readings:
+      - つきまーく
+      - げつがく
+      - つきぎめ
+      - つき
+      - まいつき
+    en: Japanese “monthly amount” button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ 月, 月マーク, 月極, 月額 ]
+  - emoji: 🈶
+    code: 1F236
+    name: 有マーク
+    readings:
+      - ゆうまーく
+      - ゆうりょう
+      - ゆう
+      - ありょう
+    en: Japanese “not free of charge” button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ 有, 有マーク, 有料, 有限 ]
+  - emoji: 🈯
+    code: 1F22F
+    name: 指マーク
+    readings:
+      - ゆびまーく
+      - していせき
+      - してい
+      - よやく
+      - ゆび
+    en: Japanese “reserved” button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ 指, 指マーク, 指定席 ]
+  - emoji: 🉐
+    code: 1F250
+    name: マル得
+    readings:
+      - まるとく
+      - おとく
+      - とく
+      - ばーげん
+      - おかいどく
+    en: Japanese “bargain” button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ お得, バーゲン, マル得, 得 ]
+  - emoji: 🈹
+    code: 1F239
+    name: 割マーク
+    readings:
+      - わりまーく
+      - わりびき
+      - わり
+      - でぃすかうんと
+      - せーる
+    en: Japanese “discount” button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ ディスカウント, 割, 割マーク, 割引 ]
+  - emoji: 🈚
+    code: 1F21A
+    name: 無マーク
+    readings:
+      - むまーく
+      - むりょう
+      - ただ
+      - む
+      - ふりー
+    en: Japanese “free of charge” button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ タダ, 無, 無マーク, 無料 ]
+  - emoji: 🈲
+    code: 1F232
+    name: 禁マーク
+    readings:
+      - きんまーく
+      - きんし
+      - げんきん
+      - きん
+      - だめ
+    en: Japanese “prohibited” button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ 厳禁, 禁, 禁マーク, 禁止 ]
+  - emoji: 🉑
+    code: 1F251
+    name: 可マーク
+    readings:
+      - かまーく
+      - か
+      - かのう
+      - きょか
+      - おーけー
+    en: Japanese “acceptable” button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ 可, 可マーク, 可能, 許可 ]
+  - emoji: 🈸
+    code: 1F238
+    name: 申マーク
+    readings:
+      - しんまーく
+      - もうしこみ
+      - しんせい
+      - しん
+    en: Japanese “application” button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ 申, 申し込み, 申マーク, 申請 ]
+  - emoji: 🈴
+    code: 1F234
+    name: 合マーク
+    readings:
+      - ごうまーく
+      - ごうかく
+      - ごう
+      - ぱす
+    en: Japanese “passing grade” button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ 合, 合マーク, 合格 ]
+  - emoji: 🈳
+    code: 1F233
+    name: 空マーク
+    readings:
+      - くうまーく
+      - くうしつ
+      - くうせき
+      - あき
+      - くう
+      - くうしゃ
+    en: Japanese “vacancy” button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ 空, 空き, 空マーク, 空室, 空席 ]
+  - emoji: ㊗️
+    code: 3297 FE0F
+    name: 祝マーク
+    readings:
+      - しゅくまーく
+      - いわい
+      - おいわい
+      - おめでとう
+      - しゅく
+      - まるいわい
+    en: Japanese “congratulations” button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ おめでとう, お祝い, 祝, 祝マーク ]
+  - emoji: ㊙️
+    code: 3299 FE0F
+    name: マル秘
+    readings:
+      - まるひ
+      - ひみつ
+      - ごくひ
+      - しゃがいひ
+      - ひ
+      - ないしょ
+    en: Japanese “secret” button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ マル秘, 極秘, 社外秘, 秘, 秘密 ]
+  - emoji: 🈺
+    code: 1F23A
+    name: 営マーク
+    readings:
+      - えいまーく
+      - えいぎょうちゅう
+      - えいぎょう
+      - えいぎょうび
+      - えい
+    en: Japanese “open for business” button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ 営, 営マーク, 営業中, 営業日 ]
+  - emoji: 🈵
+    code: 1F235
+    name: 満マーク
+    readings:
+      - まんまーく
+      - まんいん
+      - まんしつ
+      - まんせき
+      - まんしゃ
+      - まん
+    en: Japanese “no vacancy” button
+    since: "0.6"
+    subgroup: alphanum
+    keywords: [ 満マーク, 満員, 満室, 満席, 満車 ]
+  - emoji: 🔴
+    code: 1F534
+    name: 赤い丸
+    readings:
+      - あかいまる
+      - あかまる
+      - あか
+      - まる
+      - れっど
+    en: red circle
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ 丸, 丸いボタン, 赤, 赤い丸 ]
+  - emoji: 🟠
+    code: 1F7E0
+    name: オレンジの丸
+    readings:
+      - おれんじのまる
+      - おれんじまる
+      - おれんじ
+      - だいだい
+      - まる
+    en: orange circle
+    since: "12.0"
+    subgroup: geometric
+    keywords: [ オレンジ, オレンジの丸, 丸, 丸いボタン ]
+  - emoji: 🟡
+    code: 1F7E1
+    name: 黄色い丸
+    readings:
+      - きいろいまる
+      - きいろまる
+      - きいろ
+      - きまる
+      - まる
+      - いえろー
+    en: yellow circle
+    since: "12.0"
+    subgroup: geometric
+    keywords: [ 丸, 丸いボタン, 黄色, 黄色い丸 ]
+  - emoji: 🟢
+    code: 1F7E2
+    name: 緑の丸
+    readings:
+      - みどりのまる
+      - みどりまる
+      - みどり
+      - まる
+      - ぐりーん
+    en: green circle
+    since: "12.0"
+    subgroup: geometric
+    keywords: [ 丸, 丸いボタン, 緑, 緑の丸 ]
+  - emoji: 🔵
+    code: 1F535
+    name: 青い丸
+    readings:
+      - あおいまる
+      - あおまる
+      - あお
+      - まる
+      - ぶるー
+    en: blue circle
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ 丸, 丸いボタン, 青, 青い丸 ]
+  - emoji: 🟣
+    code: 1F7E3
+    name: 紫の丸
+    readings:
+      - むらさきのまる
+      - むらさきまる
+      - むらさき
+      - まる
+      - ぱーぷる
+    en: purple circle
+    since: "12.0"
+    subgroup: geometric
+    keywords: [ 丸, 丸いボタン, 紫, 紫の丸 ]
+  - emoji: 🟤
+    code: 1F7E4
+    name: 茶色の丸
+    readings:
+      - ちゃいろのまる
+      - ちゃいろまる
+      - ちゃいろ
+      - まる
+      - ぶらうん
+    en: brown circle
+    since: "12.0"
+    subgroup: geometric
+    keywords: [ 丸, 丸いボタン, 茶色, 茶色の丸 ]
+  - emoji: ⚫
+    code: 26AB
+    name: 黒い丸
+    readings:
+      - くろいまる
+      - くろまる
+      - くろ
+      - まる
+      - ぶらっく
+    en: black circle
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ 丸, 丸いボタン, 黒, 黒い丸, 黒丸 ]
+  - emoji: ⚪
+    code: 26AA
+    name: 白い丸
+    readings:
+      - しろいまる
+      - しろまる
+      - しろ
+      - まる
+      - ほわいと
+    en: white circle
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ 丸, 丸いボタン, 白, 白い丸 ]
+  - emoji: 🟥
+    code: 1F7E5
+    name: 赤い四角
+    readings:
+      - あかいしかく
+      - あかしかく
+      - あか
+      - しかく
+      - せいほうけい
+    en: red square
+    since: "12.0"
+    subgroup: geometric
+    keywords: [ 四角, 正方形, 赤, 赤い四角 ]
+  - emoji: 🟧
+    code: 1F7E7
+    name: オレンジの四角
+    readings:
+      - おれんじのしかく
+      - おれんじしかく
+      - おれんじ
+      - しかく
+      - せいほうけい
+    en: orange square
+    since: "12.0"
+    subgroup: geometric
+    keywords: [ オレンジ, オレンジの四角, 四角, 正方形 ]
+  - emoji: 🟨
+    code: 1F7E8
+    name: 黄色い四角
+    readings:
+      - きいろいしかく
+      - きいろしかく
+      - きいろ
+      - しかく
+      - せいほうけい
+    en: yellow square
+    since: "12.0"
+    subgroup: geometric
+    keywords: [ 四角, 正方形, 黄色, 黄色い四角 ]
+  - emoji: 🟩
+    code: 1F7E9
+    name: 緑の四角
+    readings:
+      - みどりのしかく
+      - みどりしかく
+      - みどり
+      - しかく
+      - せいほうけい
+    en: green square
+    since: "12.0"
+    subgroup: geometric
+    keywords: [ 四角, 正方形, 緑, 緑の四角 ]
+  - emoji: 🟦
+    code: 1F7E6
+    name: 青い四角
+    readings:
+      - あおいしかく
+      - あおしかく
+      - あお
+      - しかく
+      - せいほうけい
+    en: blue square
+    since: "12.0"
+    subgroup: geometric
+    keywords: [ 四角, 正方形, 青, 青い四角 ]
+  - emoji: 🟪
+    code: 1F7EA
+    name: 紫の四角
+    readings:
+      - むらさきのしかく
+      - むらさきしかく
+      - むらさき
+      - しかく
+      - せいほうけい
+    en: purple square
+    since: "12.0"
+    subgroup: geometric
+    keywords: [ 四角, 正方形, 紫, 紫の四角 ]
+  - emoji: 🟫
+    code: 1F7EB
+    name: 茶色い四角
+    readings:
+      - ちゃいろいしかく
+      - ちゃいろしかく
+      - ちゃいろ
+      - しかく
+      - せいほうけい
+    en: brown square
+    since: "12.0"
+    subgroup: geometric
+    keywords: [ 四角, 正方形, 茶色, 茶色い四角 ]
+  - emoji: ⬛
+    code: 2B1B
+    name: 黒四角特大
+    readings:
+      - くろしかくとくだい
+      - くろしかく
+      - くろ
+      - しかく
+      - せいほうけい
+    en: black large square
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ 四角, 正方形, 黒, 黒四角特大 ]
+  - emoji: ⬜
+    code: 2B1C
+    name: 白四角特大
+    readings:
+      - しろしかくとくだい
+      - しろしかく
+      - しろ
+      - しかく
+      - せいほうけい
+    en: white large square
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ 四角, 正方形, 白, 白四角特大 ]
+  - emoji: ◼️
+    code: 25FC FE0F
+    name: 黒四角大
+    readings:
+      - くろしかくだい
+      - くろしかく
+      - くろ
+      - しかく
+      - せいほうけい
+    en: black medium square
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ 四角, 正方形, 黒, 黒四角大 ]
+  - emoji: ◻️
+    code: 25FB FE0F
+    name: 白四角大
+    readings:
+      - しろしかくだい
+      - しろしかく
+      - しろ
+      - しかく
+      - せいほうけい
+    en: white medium square
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ 四角, 正方形, 白, 白四角大 ]
+  - emoji: ◾
+    code: 25FE
+    name: 黒四角中
+    readings:
+      - くろしかくちゅう
+      - くろしかく
+      - くろ
+      - しかく
+      - せいほうけい
+    en: black medium-small square
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ 四角, 正方形, 黒, 黒四角中 ]
+  - emoji: ◽
+    code: 25FD
+    name: 白四角中
+    readings:
+      - しろしかくちゅう
+      - しろしかく
+      - しろ
+      - しかく
+      - せいほうけい
+    en: white medium-small square
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ 四角, 正方形, 白, 白四角中 ]
+  - emoji: ▪️
+    code: 25AA FE0F
+    name: 黒四角小
+    readings:
+      - くろしかくしょう
+      - くろしかく
+      - くろ
+      - しかく
+      - せいほうけい
+    en: black small square
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ 四角, 正方形, 黒, 黒四角小 ]
+  - emoji: ▫️
+    code: 25AB FE0F
+    name: 白四角小
+    readings:
+      - しろしかくしょう
+      - しろしかく
+      - しろ
+      - しかく
+      - せいほうけい
+    en: white small square
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ 四角, 正方形, 白, 白四角小 ]
+  - emoji: 🔶
+    code: 1F536
+    name: 大きいオレンジのひし形
+    readings:
+      - おおきいおれんじのひしがた
+      - おれんじのひしがた
+      - ひしがた
+      - だいや
+      - おれんじ
+    en: large orange diamond
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ オレンジ, ダイア, ダイヤ, ひし形, 四角, 大きいオレンジのひし形 ]
+  - emoji: 🔷
+    code: 1F537
+    name: 大きい青のひし形
+    readings:
+      - おおきいあおのひしがた
+      - あおのひしがた
+      - ひしがた
+      - だいや
+      - あお
+    en: large blue diamond
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ ダイア, ダイヤ, ひし形, 四角, 大きい青のひし形, 青 ]
+  - emoji: 🔸
+    code: 1F538
+    name: 小さいオレンジのひし形
+    readings:
+      - ちいさいおれんじのひしがた
+      - おれんじのひしがた
+      - ひしがた
+      - だいや
+      - おれんじ
+    en: small orange diamond
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ オレンジ, ダイア, ダイヤ, ひし形, 四角, 小さいオレンジのひし形 ]
+  - emoji: 🔹
+    code: 1F539
+    name: 小さい青のひし形
+    readings:
+      - ちいさいあおのひしがた
+      - あおのひしがた
+      - ひしがた
+      - だいや
+      - あお
+    en: small blue diamond
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ ダイア, ダイヤ, ひし形, 四角, 小さい青のひし形, 青 ]
+  - emoji: 🔺
+    code: 1F53A
+    name: 赤い上三角
+    readings:
+      - あかいうえさんかく
+      - うえさんかく
+      - さんかく
+      - うえ
+      - あか
+      - じょうしょう
+    en: red triangle pointed up
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ 三角, 上, 赤, 赤い上三角 ]
+  - emoji: 🔻
+    code: 1F53B
+    name: 赤い下三角
+    readings:
+      - あかいしたさんかく
+      - したさんかく
+      - ぎゃくさんかく
+      - さんかく
+      - した
+      - あか
+    en: red triangle pointed down
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ 三角, 下, 赤, 赤い下三角 ]
+  - emoji: 💠
+    code: 1F4A0
+    name: ドット付きひし形
+    readings:
+      - どっとつきひしがた
+      - ひしがた
+      - だいや
+      - はな
+      - かわいい
+    en: diamond with a dot
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ ダイア, ダイヤ, ドット付きひし形, ひし形 ]
+  - emoji: 🔘
+    code: 1F518
+    name: ラジオボタン
+    readings:
+      - らじおぼたん
+      - ぼたん
+      - にじゅうまる
+      - せんたく
+    en: radio button
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ ボタン, ラジオボタン, 二重丸 ]
+  - emoji: 🔳
+    code: 1F533
+    name: 白枠四角
+    readings:
+      - しろわくしかく
+      - しかくぼたん
+      - ぼたん
+      - しかく
+      - わく
+    en: white square button
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ ボタン, 四角ボタン, 正方形, 白枠四角 ]
+  - emoji: 🔲
+    code: 1F532
+    name: 黒枠四角
+    readings:
+      - くろわくしかく
+      - しかくぼたん
+      - ぼたん
+      - しかく
+      - わく
+    en: black square button
+    since: "0.6"
+    subgroup: geometric
+    keywords: [ ボタン, 四角ボタン, 正方形, 黒枠四角 ]

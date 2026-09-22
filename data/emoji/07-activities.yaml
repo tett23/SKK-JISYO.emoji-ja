@@ -1,0 +1,916 @@
+# SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
+#   name:     annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   review:   true if added automatically by the update task; remove after checking the readings
+# Other fields are refreshed from Unicode/CLDR by the update task.
+
+group: Activities
+emoji:
+  - emoji: 🎃
+    code: 1F383
+    name: ハロウィンかぼちゃ
+    readings:
+      - はろうぃんかぼちゃ
+      - かぼちゃ
+      - はろうぃん
+      - はろうぃーん
+    en: jack-o-lantern
+    since: "0.6"
+    subgroup: event
+    keywords: [ かぼちゃ, ハロウィーン, ハロウィン, ハロウィンかぼちゃ ]
+  - emoji: 🎄
+    code: 1F384
+    name: クリスマスツリー
+    readings:
+      - くりすますつりー
+      - くりすます
+      - つりー
+    en: Christmas tree
+    since: "0.6"
+    subgroup: event
+    keywords: [ クリスマス, クリスマスイブ, クリスマスツリー, ツリー ]
+  - emoji: 🎆
+    code: 1F386
+    name: 打ち上げ花火
+    readings:
+      - うちあげはなび
+      - はなび
+      - はなびたいかい
+      - どーん
+    en: fireworks
+    since: "0.6"
+    subgroup: event
+    keywords: [ お祭り, どーん, 打ち上げ花火, 花火, 花火大会 ]
+  - emoji: 🎇
+    code: 1F387
+    name: 線香花火
+    readings:
+      - せんこうはなび
+      - はなび
+    en: sparkler
+    since: "0.6"
+    subgroup: event
+    keywords: [ お祭り, 火花, 線香花火, 花火 ]
+  - emoji: 🧨
+    code: 1F9E8
+    name: 爆竹
+    readings:
+      - ばくちく
+      - だいなまいと
+      - ばくはつ
+    en: firecracker
+    since: "11.0"
+    subgroup: event
+    keywords: [ ダイナマイト, 火花, 火薬, 爆発, 爆発物, 爆竹, 爆薬, 花火 ]
+  - emoji: ✨
+    code: "2728"
+    name: きらきら
+    readings:
+      - きらきら
+      - ぴかぴか
+      - かがやき
+    en: sparkles
+    since: "0.6"
+    subgroup: event
+    keywords: [ きらきら, キラキラ, スター, ぴかぴか, 星 ]
+  - emoji: 🎈
+    code: 1F388
+    name: 風船
+    readings:
+      - ふうせん
+      - ばるーん
+    en: balloon
+    since: "0.6"
+    subgroup: event
+    keywords: [ バルーン, 風船 ]
+  - emoji: 🎉
+    code: 1F389
+    name: クラッカー
+    readings:
+      - くらっかー
+      - ぱーてぃー
+      - おいわい
+      - おめでとう
+    en: party popper
+    since: "0.6"
+    subgroup: event
+    keywords: [ お祝い, クラッカー, パーティー, パーティークラッカー, 誕生日 ]
+  - emoji: 🎊
+    code: 1F38A
+    name: くす玉
+    readings:
+      - くすだま
+      - おいわい
+      - かみふぶき
+      - おめでとう
+    en: confetti ball
+    since: "0.6"
+    subgroup: event
+    keywords: [ お祝い, くす玉, パーティー, 紙吹雪 ]
+  - emoji: 🎋
+    code: 1F38B
+    name: 七夕
+    readings:
+      - たなばた
+      - ささかざり
+      - たんざく
+    en: tanabata tree
+    since: "0.6"
+    subgroup: event
+    keywords: [ 七夕, 和, 日本, 短冊, 笹飾り ]
+  - emoji: 🎍
+    code: 1F38D
+    name: 門松
+    readings:
+      - かどまつ
+      - しょうがつ
+    en: pine decoration
+    since: "0.6"
+    subgroup: event
+    keywords: [ お祝い, 和, 日本, 正月, 竹, 門松 ]
+  - emoji: 🎎
+    code: 1F38E
+    name: ひな祭り
+    readings:
+      - ひなまつり
+      - ひなにんぎょう
+      - おひなさま
+    en: Japanese dolls
+    since: "0.6"
+    subgroup: event
+    keywords: [ おだいり様, おひな様, お祝い, ひな人形, ひな祭り, 人形, 和, 日本 ]
+  - emoji: 🎏
+    code: 1F38F
+    name: こいのぼり
+    readings:
+      - こいのぼり
+      - こどものひ
+    en: carp streamer
+    since: "0.6"
+    subgroup: event
+    keywords: [ お祝い, こいのぼり, 子供の日 ]
+  - emoji: 🎐
+    code: 1F390
+    name: 風鈴
+    readings:
+      - ふうりん
+    en: wind chime
+    since: "0.6"
+    subgroup: event
+    keywords: [ 夏, 鈴, 風, 風鈴 ]
+  - emoji: 🎑
+    code: 1F391
+    name: 月見
+    readings:
+      - つきみ
+      - じゅうごや
+      - おつきみ
+    en: moon viewing ceremony
+    since: "0.6"
+    subgroup: event
+    keywords: [ ススキ, 十五夜, 団子, 月, 月見 ]
+  - emoji: 🧧
+    code: 1F9E7
+    name: 赤い封筒
+    readings:
+      - あかいふうとう
+      - おとしだま
+      - ほんばお
+      - ごしゅうぎ
+    en: red envelope
+    since: "11.0"
+    subgroup: event
+    keywords: [ お年玉, お金, ご祝儀, 幸運, 紅包, 赤い封筒 ]
+  - emoji: 🎀
+    code: 1F380
+    name: リボン
+    readings:
+      - りぼん
+    en: ribbon
+    since: "0.6"
+    subgroup: event
+    keywords: [ お祝い, リボン ]
+  - emoji: 🎁
+    code: 1F381
+    name: プレゼント
+    readings:
+      - ぷれぜんと
+      - ぎふと
+      - おくりもの
+    en: wrapped gift
+    since: "0.6"
+    subgroup: event
+    keywords: [ お祝い, ギフト, プレゼント, リボン, 箱 ]
+  - emoji: 🎗️
+    code: 1F397 FE0F
+    name: リマインダーリボン
+    readings:
+      - りまいんだーりぼん
+      - りぼん
+      - あうぇあねすりぼん
+    en: reminder ribbon
+    since: "0.7"
+    subgroup: event
+    keywords: [ お祝い, リボン, リマインダー, リマインダーリボン ]
+  - emoji: 🎟️
+    code: 1F39F FE0F
+    name: 入場券
+    readings:
+      - にゅうじょうけん
+      - ちけっと
+    en: admission tickets
+    since: "0.7"
+    subgroup: event
+    keywords: [ チケット, 入場パス, 入場券, 半券 ]
+  - emoji: 🎫
+    code: 1F3AB
+    name: チケット
+    readings:
+      - ちけっと
+      - きっぷ
+      - にゅうじょうけん
+    en: ticket
+    since: "0.6"
+    subgroup: event
+    keywords: [ チケット, 入場券, 切符, 半券 ]
+  - emoji: 🎖️
+    code: 1F396 FE0F
+    name: 勲章
+    readings:
+      - くんしょう
+      - めだる
+    en: military medal
+    since: "0.7"
+    subgroup: award-medal
+    keywords: [ お祝い, メダル, 勲章, 表彰 ]
+  - emoji: 🏆
+    code: 1F3C6
+    name: トロフィー
+    readings:
+      - とろふぃー
+      - ゆうしょう
+      - ちゃんぴおん
+      - ゆうしょうかっぷ
+    en: trophy
+    since: "0.6"
+    subgroup: award-medal
+    keywords: [ チャンピオン, トロフィー, 優勝, 優勝カップ, 表彰, 賞杯 ]
+  - emoji: 🏅
+    code: 1F3C5
+    name: メダル
+    readings:
+      - めだる
+    en: sports medal
+    since: "1.0"
+    subgroup: award-medal
+    keywords: [ スポーツ, メダル, 優勝, 表彰, 金, 金メダル ]
+  - emoji: 🥇
+    code: 1F947
+    name: 金メダル
+    readings:
+      - きんめだる
+      - いちい
+      - ゆうしょう
+    en: 1st place medal
+    since: "3.0"
+    subgroup: award-medal
+    keywords: [ 1位, ゴールド, メダル, 優勝, 金, 金メダル ]
+  - emoji: 🥈
+    code: 1F948
+    name: 銀メダル
+    readings:
+      - ぎんめだる
+      - にい
+    en: 2nd place medal
+    since: "3.0"
+    subgroup: award-medal
+    keywords: [ 2位, シルバー, メダル, 銀, 銀メダル ]
+  - emoji: 🥉
+    code: 1F949
+    name: 銅メダル
+    readings:
+      - どうめだる
+      - さんい
+    en: 3rd place medal
+    since: "3.0"
+    subgroup: award-medal
+    keywords: [ 3位, ブロンズ, メダル, 銅, 銅メダル ]
+  - emoji: ⚽
+    code: 26BD
+    name: サッカー
+    readings:
+      - さっかー
+      - さっかーぼーる
+    en: soccer ball
+    since: "0.6"
+    subgroup: sport
+    keywords: [ サッカー, サッカーボール, スポーツ, ボール ]
+  - emoji: ⚾
+    code: 26BE
+    name: 野球
+    readings:
+      - やきゅう
+      - べーすぼーる
+    en: baseball
+    since: "0.6"
+    subgroup: sport
+    keywords: [ スポーツ, ボール, 野球 ]
+  - emoji: 🥎
+    code: 1F94E
+    name: ソフトボール
+    readings:
+      - そふとぼーる
+    en: softball
+    since: "11.0"
+    subgroup: sport
+    keywords: [ スポーツ, ソフトボール, ボール, 下手投げ ]
+  - emoji: 🏀
+    code: 1F3C0
+    name: バスケットボール
+    readings:
+      - ばすけっとぼーる
+      - ばすけ
+    en: basketball
+    since: "0.6"
+    subgroup: sport
+    keywords: [ スポーツ, バスケ, バスケットボール, ボール ]
+  - emoji: 🏐
+    code: 1F3D0
+    name: バレーボール
+    readings:
+      - ばれーぼーる
+      - ばれー
+    en: volleyball
+    since: "1.0"
+    subgroup: sport
+    keywords: [ スポーツ, バレー, バレーボール, ボール ]
+  - emoji: 🏈
+    code: 1F3C8
+    name: アメフト
+    readings:
+      - あめふと
+      - あめりかんふっとぼーる
+    en: american football
+    since: "0.6"
+    subgroup: sport
+    keywords: [ アメフト, アメリカンフットボール, スポーツ, フットボール, ボール ]
+  - emoji: 🏉
+    code: 1F3C9
+    name: ラグビー
+    readings:
+      - らぐびー
+      - らぐびーぼーる
+    en: rugby football
+    since: "1.0"
+    subgroup: sport
+    keywords: [ スポーツ, ボール, ラグビー, ラグビーボール ]
+  - emoji: 🎾
+    code: 1F3BE
+    name: テニス
+    readings:
+      - てにす
+      - てにすぼーる
+    en: tennis
+    since: "0.6"
+    subgroup: sport
+    keywords: [ スポーツ, テニス, テニスボール, ボール, ラケット ]
+  - emoji: 🥏
+    code: 1F94F
+    name: フリスビー
+    readings:
+      - ふりすびー
+      - ふらいんぐでぃすく
+    en: flying disc
+    since: "11.0"
+    subgroup: sport
+    keywords: [ アルティメット, フライングディスク, フリスビー, 円盤 ]
+  - emoji: 🎳
+    code: 1F3B3
+    name: ボウリング
+    readings:
+      - ぼうりんぐ
+      - すとらいく
+    en: bowling
+    since: "0.6"
+    subgroup: sport
+    keywords: [ ストライク, スポーツ, ボール, ボウリング, 球 ]
+  - emoji: 🏏
+    code: 1F3CF
+    name: クリケット
+    readings:
+      - くりけっと
+    en: cricket game
+    since: "1.0"
+    subgroup: sport
+    keywords: [ クリケット, スポーツ, バット, ボール ]
+  - emoji: 🏑
+    code: 1F3D1
+    name: ホッケー
+    readings:
+      - ほっけー
+      - ふぃーるどほっけー
+    en: field hockey
+    since: "1.0"
+    subgroup: sport
+    keywords: [ スティック, スポーツ, フィールドホッケー, ボール, ホッケー ]
+  - emoji: 🏒
+    code: 1F3D2
+    name: アイスホッケー
+    readings:
+      - あいすほっけー
+      - ほっけー
+    en: ice hockey
+    since: "1.0"
+    subgroup: sport
+    keywords: [ アイスホッケー, スティック, スポーツ, パック, ホッケー ]
+  - emoji: 🥍
+    code: 1F94D
+    name: ラクロス
+    readings:
+      - らくろす
+    en: lacrosse
+    since: "11.0"
+    subgroup: sport
+    keywords: [ ゴール, スティック, スポーツ, ボール, ラクロス ]
+  - emoji: 🏓
+    code: 1F3D3
+    name: 卓球
+    readings:
+      - たっきゅう
+      - ぴんぽん
+    en: ping pong
+    since: "1.0"
+    subgroup: sport
+    keywords: [ スポーツ, ピンポン, ボール, ラケット, 卓球 ]
+  - emoji: 🏸
+    code: 1F3F8
+    name: バドミントン
+    readings:
+      - ばどみんとん
+    en: badminton
+    since: "1.0"
+    subgroup: sport
+    keywords: [ シャトル, スポーツ, バドミントン, ラケット ]
+  - emoji: 🥊
+    code: 1F94A
+    name: ボクシング
+    readings:
+      - ぼくしんぐ
+      - ぐろーぶ
+    en: boxing glove
+    since: "3.0"
+    subgroup: sport
+    keywords: [ グローブ, スポーツ, ボクシング, ボクシンググローブ ]
+  - emoji: 🥋
+    code: 1F94B
+    name: 武道
+    readings:
+      - ぶどう
+      - どうぎ
+      - からて
+      - じゅうどう
+      - かくとうぎ
+    en: martial arts uniform
+    since: "3.0"
+    subgroup: sport
+    keywords: [ スポーツ, テコンドー, 柔道, 格闘技, 武道, 空手, 道着 ]
+  - emoji: 🥅
+    code: 1F945
+    name: ゴールネット
+    readings:
+      - ごーるねっと
+      - ごーる
+    en: goal net
+    since: "3.0"
+    subgroup: sport
+    keywords: [ ゴール, ゴールネット, スポーツ, ネット ]
+  - emoji: ⛳
+    code: 26F3
+    name: ゴルフ
+    readings:
+      - ごるふ
+    en: flag in hole
+    since: "0.6"
+    subgroup: sport
+    keywords: [ ゴルフ, スポーツ, フラグ, フラッグ, ホール, 旗 ]
+  - emoji: ⛸️
+    code: 26F8 FE0F
+    name: アイススケート
+    readings:
+      - あいすすけーと
+      - すけーと
+      - ふぃぎゅあすけーと
+    en: ice skate
+    since: "0.7"
+    subgroup: sport
+    keywords: [ アイススケート, スケート, スポーツ, フィギュアスケート ]
+  - emoji: 🎣
+    code: 1F3A3
+    name: 釣り
+    readings:
+      - つり
+      - つりざお
+      - ふぃっしんぐ
+    en: fishing pole
+    since: "0.6"
+    subgroup: sport
+    keywords: [ スポーツ, フィッシング, 釣り, 釣り竿, 魚 ]
+  - emoji: 🤿
+    code: 1F93F
+    name: ダイビングマスク
+    readings:
+      - だいびんぐますく
+      - だいびんぐ
+      - しゅのーける
+      - すきゅーば
+    en: diving mask
+    since: "12.0"
+    subgroup: sport
+    keywords: [ シュノーケリング, スキューバ, スポーツ, ダイビング, マスク ]
+  - emoji: 🎽
+    code: 1F3BD
+    name: 長距離走
+    readings:
+      - ちょうきょりそう
+      - らんにんぐ
+      - えきでん
+      - たすき
+    en: running shirt
+    since: "0.6"
+    subgroup: sport
+    keywords: [ スポーツ, たすき, ランニング, ランニングシャツ, 長距離走, 駅伝 ]
+  - emoji: 🎿
+    code: 1F3BF
+    name: スキー
+    readings:
+      - すきー
+    en: skis
+    since: "0.6"
+    subgroup: sport
+    keywords: [ スキー, ストック, スポーツ, 板, 雪 ]
+  - emoji: 🛷
+    code: 1F6F7
+    name: そり競技
+    readings:
+      - そりきょうぎ
+      - そり
+      - ぼぶすれー
+    en: sled
+    since: "5.0"
+    subgroup: sport
+    keywords: [ スケルトン, スポーツ, そり, そり競技, トボガン, ボブスレー, リュージュ ]
+  - emoji: 🥌
+    code: 1F94C
+    name: カーリング
+    readings:
+      - かーりんぐ
+    en: curling stone
+    since: "5.0"
+    subgroup: sport
+    keywords: [ カーリング, ゲーム, ストーン, スポーツ, 試合 ]
+  - emoji: 🎯
+    code: 1F3AF
+    name: 的
+    readings:
+      - まと
+      - だーつ
+      - てきちゅう
+    en: bullseye
+    since: "0.6"
+    subgroup: game
+    keywords: [ スポーツ, ダーツ, ブルズアイ, 当たり, 的, 的中 ]
+  - emoji: 🪀
+    code: 1FA80
+    name: ヨーヨー
+    readings:
+      - よーよー
+    en: yo-yo
+    since: "12.0"
+    subgroup: game
+    keywords: [ おもちゃ, ヨーヨー, 上下, 回転, 玩具 ]
+  - emoji: 🪁
+    code: 1FA81
+    name: たこ
+    readings:
+      - たこ
+      - たこあげ
+      - かいと
+    en: kite
+    since: "12.0"
+    subgroup: game
+    keywords: [ おもちゃ, カイト, たこ, 凧揚げ, 玩具 ]
+  - emoji: 🔫
+    code: 1F52B
+    name: 水鉄砲
+    readings:
+      - みずでっぽう
+      - ぴすとる
+      - じゅう
+    en: water pistol
+    since: "0.6"
+    subgroup: game
+    keywords: [ ピストル, リボルバー, 拳銃, 武器, 水鉄砲, 銃 ]
+  - emoji: 🎱
+    code: 1F3B1
+    name: ビリヤード
+    readings:
+      - びりやーど
+      - えいとぼーる
+      - たまつき
+    en: pool 8 ball
+    since: "0.6"
+    subgroup: game
+    keywords: [ エイトボール, スポーツ, ビリヤード, ボール, 玉突き ]
+  - emoji: 🔮
+    code: 1F52E
+    name: 水晶玉
+    readings:
+      - すいしょうだま
+      - うらない
+      - すいしょう
+    en: crystal ball
+    since: "0.6"
+    subgroup: game
+    keywords: [ クリスタル, 占い, 水晶, 水晶玉, 水晶球, 玉, 運命, 魔法 ]
+  - emoji: 🪄
+    code: 1FA84
+    name: 魔法の杖
+    readings:
+      - まほうのつえ
+      - まほう
+      - つえ
+      - まじっく
+    en: magic wand
+    since: "13.0"
+    subgroup: game
+    keywords: [ つえ, マジック, 手品, 杖, 魔法, 魔法の杖, 魔術, 魔術師 ]
+  - emoji: 🎮
+    code: 1F3AE
+    name: テレビゲーム
+    readings:
+      - てれびげーむ
+      - げーむ
+      - こんとろーら
+      - びでおげーむ
+    en: video game
+    since: "0.6"
+    subgroup: game
+    keywords: [ ゲーム, コントローラ, テレビゲーム, ビデオゲーム ]
+  - emoji: 🕹️
+    code: 1F579 FE0F
+    name: ジョイスティック
+    readings:
+      - じょいすてぃっく
+      - げーむ
+    en: joystick
+    since: "0.7"
+    subgroup: game
+    keywords: [ ゲーム, コントローラ, ジョイスティック, スティック, テレビゲーム, ビデオゲーム ]
+  - emoji: 🎰
+    code: 1F3B0
+    name: スロットマシン
+    readings:
+      - すろっとましん
+      - すろっと
+      - かじの
+      - すりーせぶん
+    en: slot machine
+    since: "0.6"
+    subgroup: game
+    keywords: [ カジノ, ギャンブル, ゲーム, スリーセブン, スロット, スロットマシン ]
+  - emoji: 🎲
+    code: 1F3B2
+    name: サイコロ
+    readings:
+      - さいころ
+      - だいす
+    en: game die
+    since: "0.6"
+    subgroup: game
+    keywords: [ ゲーム, サイコロ, ダイス ]
+  - emoji: 🧩
+    code: 1F9E9
+    name: ジグソーパズル
+    readings:
+      - じぐそーぱずる
+      - ぱずる
+      - ぴーす
+    en: puzzle piece
+    since: "11.0"
+    subgroup: game
+    keywords: [ ジグソーパズル, パズル, ピース, 組み合わせ, 鍵 ]
+  - emoji: 🧸
+    code: 1F9F8
+    name: テディベア
+    readings:
+      - てでぃべあ
+      - ぬいぐるみ
+      - くま
+    en: teddy bear
+    since: "11.0"
+    subgroup: game
+    keywords: [ おもちゃ, くま, テディベア, ぬいぐるみ, 玩具 ]
+  - emoji: 🪅
+    code: 1FA85
+    name: ピニャータ
+    readings:
+      - ぴにゃーた
+    en: piñata
+    since: "13.0"
+    subgroup: game
+    keywords: [ お祝い, パーティー, ピニャータ, メキシコ, 人形, 誕生日 ]
+  - emoji: 🪩
+    code: 1FAA9
+    name: ミラーボール
+    readings:
+      - みらーぼーる
+      - でぃすこ
+    en: mirror ball
+    since: "14.0"
+    subgroup: game
+    keywords: [ キラキラ, ダンス, ディスコ, パーティー, ミラーボール ]
+  - emoji: 🪆
+    code: 1FA86
+    name: マトリョーシカ
+    readings:
+      - まとりょーしか
+    en: nesting dolls
+    since: "13.0"
+    subgroup: game
+    keywords: [ マトリョーシカ, ロシア, 人形, 入れ子 ]
+  - emoji: ♠️
+    code: 2660 FE0F
+    name: スペード
+    readings:
+      - すぺーど
+    en: spade suit
+    since: "0.6"
+    subgroup: game
+    keywords: [ カード, スペード, トランプ ]
+  - emoji: ♥️
+    code: 2665 FE0F
+    name: ハート
+    readings:
+      - はーと
+    en: heart suit
+    since: "0.6"
+    subgroup: game
+    keywords: [ カード, トランプ, ハート ]
+  - emoji: ♦️
+    code: 2666 FE0F
+    name: ダイヤ
+    readings:
+      - だいや
+    en: diamond suit
+    since: "0.6"
+    subgroup: game
+    keywords: [ カード, ダイア, ダイヤ, トランプ ]
+  - emoji: ♣️
+    code: 2663 FE0F
+    name: クラブ
+    readings:
+      - くらぶ
+      - くろーばー
+    en: club suit
+    since: "0.6"
+    subgroup: game
+    keywords: [ カード, クラブ, クローバー, トランプ ]
+  - emoji: ♟️
+    code: 265F FE0F
+    name: チェスの駒
+    readings:
+      - ちぇすのこま
+      - ちぇす
+      - こま
+      - すてごま
+    en: chess pawn
+    since: "11.0"
+    subgroup: game
+    keywords: [ チェス, チェスの駒, 捨て駒, 駒 ]
+  - emoji: 🃏
+    code: 1F0CF
+    name: ジョーカー
+    readings:
+      - じょーかー
+      - ばば
+      - とらんぷ
+    en: joker
+    since: "0.6"
+    subgroup: game
+    keywords: [ カード, ジジ, ジョーカー, トランプ, ババ ]
+  - emoji: 🀄
+    code: 1F004
+    name: 麻雀
+    readings:
+      - まーじゃん
+      - ちゅん
+      - まーじゃんぱい
+    en: mahjong red dragon
+    since: "0.6"
+    subgroup: game
+    keywords: [ ゲーム, 中, 牌, 麻雀, 麻雀牌 ]
+  - emoji: 🎴
+    code: 1F3B4
+    name: 花札
+    readings:
+      - はなふだ
+    en: flower playing cards
+    since: "0.6"
+    subgroup: game
+    keywords: [ カード, ゲーム, 花札 ]
+  - emoji: 🎭
+    code: 1F3AD
+    name: 舞台芸術
+    readings:
+      - ぶたいげいじゅつ
+      - えんげき
+      - かめん
+      - げきじょう
+    en: performing arts
+    since: "0.6"
+    subgroup: arts & crafts
+    keywords: [ 仮面, 俳優, 劇場, 女優, 役者, 演劇, 演芸, 舞台芸術, 芸術 ]
+  - emoji: 🖼️
+    code: 1F5BC FE0F
+    name: 絵画
+    readings:
+      - かいが
+      - え
+      - あーと
+      - がく
+      - がくぶち
+      - びじゅつ
+      - げいじゅつ
+    en: framed picture
+    since: "0.7"
+    subgroup: arts & crafts
+    keywords: [ アート, 絵, 絵画, 美術館, 芸術, 額 ]
+  - emoji: 🎨
+    code: 1F3A8
+    name: 絵の具パレット
+    readings:
+      - えのぐぱれっと
+      - ぱれっと
+      - えのぐ
+      - がか
+      - おえかき
+      - びじゅつ
+      - げいじゅつ
+    en: artist palette
+    since: "0.6"
+    subgroup: arts & crafts
+    keywords: [ パレット, 画家, 絵, 絵の具パレット, 絵画, 美術館, 芸術 ]
+  - emoji: 🧵
+    code: 1F9F5
+    name: 糸
+    readings:
+      - いと
+      - いとまき
+      - さいほう
+      - そーいんぐ
+      - ほうせん
+    en: thread
+    since: "11.0"
+    subgroup: arts & crafts
+    keywords: [ ソーイング, ひも, 糸, 糸巻き, 縫い針, 裁縫 ]
+  - emoji: 🪡
+    code: 1FAA1
+    name: 縫い針
+    readings:
+      - ぬいばり
+      - はり
+      - さいほう
+      - ぬう
+      - ししゅう
+      - すてっち
+      - いととはり
+    en: sewing needle
+    since: "13.0"
+    subgroup: arts & crafts
+    keywords: [ ステッチ, 刺繍, 糸, 縫い針, 縫う, 裁縫, 針 ]
+  - emoji: 🧶
+    code: 1F9F6
+    name: 毛糸
+    readings:
+      - けいと
+      - けいとだま
+      - あみもの
+      - にっと
+      - よーん
+    en: yarn
+    since: "11.0"
+    subgroup: arts & crafts
+    keywords: [ かぎ針, ニット, 毛糸, 毛糸玉, 編み物 ]
+  - emoji: 🪢
+    code: 1FAA2
+    name: 結び目
+    readings:
+      - むすびめ
+      - むすぶ
+      - のっと
+      - ろーぷ
+      - ひも
+    en: knot
+    since: "13.0"
+    subgroup: arts & crafts
+    keywords: [ ねじれ, ノット, ひも, ロープ, 結び目, 綱 ]

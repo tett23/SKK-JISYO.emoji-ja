@@ -1,0 +1,2529 @@
+# SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
+#   name:     annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   review:   true if added automatically by the update task; remove after checking the readings
+# Other fields are refreshed from Unicode/CLDR by the update task.
+
+group: Travel & Places
+emoji:
+  - emoji: 🌍
+    code: 1F30D
+    name: 地球（ヨーロッパとアフリカ）
+    readings:
+      - ちきゅう
+      - よーろっぱ
+      - あふりか
+      - せかい
+    en: globe showing Europe-Africa
+    since: "0.7"
+    subgroup: place-map
+    keywords: [ アフリカ, ヨーロッパ, 世界, 地球, 地球（ヨーロッパとアフリカ） ]
+  - emoji: 🌎
+    code: 1F30E
+    name: 地球（アメリカ大陸）
+    readings:
+      - ちきゅう
+      - あめりかたいりく
+      - あめりか
+      - せかい
+    en: globe showing Americas
+    since: "0.7"
+    subgroup: place-map
+    keywords: [ アメリカ, アメリカ大陸, 世界, 地球, 地球（アメリカ大陸） ]
+  - emoji: 🌏
+    code: 1F30F
+    name: 地球（アジアとオーストラリア）
+    readings:
+      - ちきゅう
+      - あじあ
+      - おーすとらりあ
+      - せかい
+    en: globe showing Asia-Australia
+    since: "0.6"
+    subgroup: place-map
+    keywords: [ アジア, オーストラリア, 世界, 地球, 地球（アジアとオーストラリア） ]
+  - emoji: 🌐
+    code: 1F310
+    name: 子午線のある地球
+    readings:
+      - しごせんのあるちきゅう
+      - ちきゅうぎ
+      - いんたーねっと
+      - うぇぶ
+      - ぐろーばる
+    en: globe with meridians
+    since: "1.0"
+    subgroup: place-map
+    keywords: [ インターネット, 地球, 子午線, 子午線のある地球 ]
+  - emoji: 🗺️
+    code: 1F5FA FE0F
+    name: 世界地図
+    readings:
+      - せかいちず
+      - ちず
+      - まっぷ
+      - わーるどまっぷ
+      - りょこう
+    en: world map
+    since: "0.7"
+    subgroup: place-map
+    keywords: [ マップ, 世界, 世界地図, 地図 ]
+  - emoji: 🗾
+    code: 1F5FE
+    name: 日本地図
+    readings:
+      - にほんちず
+      - にっぽんちず
+      - にほん
+      - ちず
+    en: map of Japan
+    since: "0.6"
+    subgroup: place-map
+    keywords: [ 地図, 日本, 日本地図 ]
+  - emoji: 🧭
+    code: 1F9ED
+    name: コンパス
+    readings:
+      - こんぱす
+      - ほういじしん
+      - らしんばん
+      - ほうがく
+    en: compass
+    since: "11.0"
+    subgroup: place-map
+    keywords: [ オリエンテーリング, コンパス, 方位磁針, 方角, 磁石, 航海, 航空 ]
+  - emoji: 🏔️
+    code: 1F3D4 FE0F
+    name: 雪山
+    readings:
+      - ゆきやま
+      - やま
+      - ゆきげしょう
+      - まうんてん
+    en: snow-capped mountain
+    since: "0.7"
+    subgroup: place-geographic
+    keywords: [ 冠雪, 山, 雪, 雪山 ]
+  - emoji: ⛰️
+    code: 26F0 FE0F
+    name: 山
+    readings:
+      - やま
+      - さんがく
+      - まうんてん
+      - とざん
+      - さんちょう
+    en: mountain
+    since: "0.7"
+    subgroup: place-geographic
+    keywords: [ 山, 山岳 ]
+  - emoji: 🛘
+    code: 1F6D8
+    name: 地滑り
+    readings:
+      - じすべり
+      - どしゃくずれ
+      - やまくずれ
+      - がけくずれ
+      - らくせき
+      - どしゃさいがい
+    en: landslide
+    since: "17.0"
+    subgroup: place-geographic
+    keywords: [ 土砂災害, 山, 山崩れ, 岩石, 崩落, 災害, 落石 ]
+  - emoji: 🌋
+    code: 1F30B
+    name: 火山
+    readings:
+      - かざん
+      - ふんか
+      - ようがん
+      - ふんかこう
+      - まぐま
+    en: volcano
+    since: "0.6"
+    subgroup: place-geographic
+    keywords: [ 噴火, 山, 溶岩, 火山 ]
+  - emoji: 🗻
+    code: 1F5FB
+    name: 富士山
+    readings:
+      - ふじさん
+      - ふじ
+      - やま
+      - ふじのやま
+    en: mount fuji
+    since: "0.6"
+    subgroup: place-geographic
+    keywords: [ 富士山, 山 ]
+  - emoji: 🏕️
+    code: 1F3D5 FE0F
+    name: キャンプ
+    readings:
+      - きゃんぷ
+      - てんと
+      - あうとどあ
+      - やえい
+      - きゃんぷじょう
+    en: camping
+    since: "0.7"
+    subgroup: place-geographic
+    keywords: [ キャンプ, テント, 山 ]
+  - emoji: 🏖️
+    code: 1F3D6 FE0F
+    name: ビーチパラソル
+    readings:
+      - びーちぱらそる
+      - びーち
+      - かいすいよく
+      - すなはま
+    en: beach with umbrella
+    since: "0.7"
+    subgroup: place-geographic
+    keywords: [ パラソル, ビーチ, ビーチパラソル, 砂浜 ]
+  - emoji: 🏜️
+    code: 1F3DC FE0F
+    name: 砂漠
+    readings:
+      - さばく
+      - さぼてん
+      - さきゅう
+    en: desert
+    since: "0.7"
+    subgroup: place-geographic
+    keywords: [ サボテン, サボテンのある砂漠, 砂漠 ]
+  - emoji: 🏝️
+    code: 1F3DD FE0F
+    name: 無人島
+    readings:
+      - むじんとう
+      - しま
+      - みなみのしま
+      - りぞーと
+      - やしのき
+      - あいらんど
+    en: desert island
+    since: "0.7"
+    subgroup: place-geographic
+    keywords: [ ヤシ, ヤシの木のある島, 島, 無人島 ]
+  - emoji: 🏞️
+    code: 1F3DE FE0F
+    name: 国立公園
+    readings:
+      - こくりつこうえん
+      - こうえん
+      - しぜん
+      - けいこく
+      - あうとどあ
+    en: national park
+    since: "0.7"
+    subgroup: place-geographic
+    keywords: [ 公園, 国立公園, 自然 ]
+  - emoji: 🏟️
+    code: 1F3DF FE0F
+    name: 競技場
+    readings:
+      - きょうぎじょう
+      - すたじあむ
+      - やきゅうじょう
+      - さっかーじょう
+      - ありーな
+    en: stadium
+    since: "0.7"
+    subgroup: place-building
+    keywords: [ スタジアム, 競技場, 野球場 ]
+  - emoji: 🏛️
+    code: 1F3DB FE0F
+    name: 歴史的な建物
+    readings:
+      - れきしてきなたてもの
+      - しんでん
+      - はくぶつかん
+      - こだい
+      - れきし
+      - いせき
+      - ぎんこう
+    en: classical building
+    since: "0.7"
+    subgroup: place-building
+    keywords: [ 古代, 史跡, 歴史, 歴史的な建物, 歴史的建造物 ]
+  - emoji: 🏗️
+    code: 1F3D7 FE0F
+    name: 建設中
+    readings:
+      - けんせつちゅう
+      - こうじちゅう
+      - くれーん
+      - こうじ
+    en: building construction
+    since: "0.7"
+    subgroup: place-building
+    keywords: [ クレーン, 工事, 建築, 建設, 建設中 ]
+  - emoji: 🧱
+    code: 1F9F1
+    name: れんが
+    readings:
+      - れんが
+      - ぶろっく
+      - かべ
+      - ねんど
+      - じょうへき
+    en: brick
+    since: "11.0"
+    subgroup: place-building
+    keywords: [ しっくい, ブロック, モルタル, れんが, 壁, 煉瓦, 粘土 ]
+  - emoji: 🪨
+    code: 1FAA8
+    name: 岩石
+    readings:
+      - がんせき
+      - いわ
+      - いし
+      - ろっく
+      - がんぺき
+    en: rock
+    since: "13.0"
+    subgroup: place-building
+    keywords: [ 岩, 岩石, 巨岩, 石, 石材, 硬い, 重たい ]
+  - emoji: 🪵
+    code: 1FAB5
+    name: 丸太
+    readings:
+      - まるた
+      - もくざい
+      - もく
+      - き
+      - きりかぶ
+      - たきぎ
+    en: wood
+    since: "13.0"
+    subgroup: place-building
+    keywords: [ ログ, 丸太, 切り株, 木, 木材, 材木, 樹木 ]
+  - emoji: 🛖
+    code: 1F6D6
+    name: わらぶき小屋
+    readings:
+      - わらぶきごや
+      - こや
+      - ばんがろー
+    en: hut
+    since: "13.0"
+    subgroup: place-building
+    keywords: [ バンガロー, ユルト, わらぶき小屋, 家, 小屋 ]
+  - emoji: 🏘️
+    code: 1F3D8 FE0F
+    name: 住宅街
+    readings:
+      - じゅうたくがい
+      - いえ
+      - じゅうたく
+      - ぶんじょう
+    en: houses
+    since: "0.7"
+    subgroup: place-building
+    keywords: [ 住宅街, 家, 街, 複数の家 ]
+  - emoji: 🏚️
+    code: 1F3DA FE0F
+    name: 廃屋
+    readings:
+      - はいおく
+      - あきや
+      - はいきょ
+      - おばけやしき
+    en: derelict house
+    since: "0.7"
+    subgroup: place-building
+    keywords: [ 家, 廃屋, 建物, 空き家 ]
+  - emoji: 🏠
+    code: 1F3E0
+    name: 家
+    readings:
+      - いえ
+      - まいほーむ
+      - じたく
+      - うち
+      - はうす
+      - こだて
+    en: house
+    since: "0.6"
+    subgroup: place-building
+    keywords: [ マイホーム, 一戸建て, 家, 建物, 郊外 ]
+  - emoji: 🏡
+    code: 1F3E1
+    name: 庭付きの家
+    readings:
+      - にわつきのいえ
+      - いっこだて
+      - まいほーむ
+      - はうす
+      - にわ
+    en: house with garden
+    since: "0.6"
+    subgroup: place-building
+    keywords: [ マイホーム, 一戸建て, 家, 庭, 庭付きの家, 建物, 郊外 ]
+  - emoji: 🏢
+    code: 1F3E2
+    name: オフィスビル
+    readings:
+      - おふぃすびる
+      - かいしゃ
+      - びる
+      - しゃおく
+      - おふぃす
+    en: office building
+    since: "0.6"
+    subgroup: place-building
+    keywords: [ オフィスビル, 会社, 建物, 社屋, 都会 ]
+  - emoji: 🏣
+    code: 1F3E3
+    name: 郵便局
+    readings:
+      - ゆうびんきょく
+      - ゆうびん
+      - ぽすと
+    en: Japanese post office
+    since: "0.6"
+    subgroup: place-building
+    keywords: [ 建物, 郵便, 郵便局 ]
+  - emoji: 🏤
+    code: 1F3E4
+    name: 西洋の郵便局
+    readings:
+      - せいようのゆうびんきょく
+      - ゆうびんきょく
+      - ぽすと
+      - ゆうびん
+    en: post office
+    since: "1.0"
+    subgroup: place-building
+    keywords: [ 建物, 西洋の郵便局, 郵便 ]
+  - emoji: 🏥
+    code: 1F3E5
+    name: 病院
+    readings:
+      - びょういん
+      - いしゃ
+      - いいん
+      - くりにっく
+    en: hospital
+    since: "0.6"
+    subgroup: place-building
+    keywords: [ 医者, 建物, 病院, 薬 ]
+  - emoji: 🏦
+    code: 1F3E6
+    name: 銀行
+    readings:
+      - ぎんこう
+      - ばんく
+    en: bank
+    since: "0.6"
+    subgroup: place-building
+    keywords: [ 建物, 銀行 ]
+  - emoji: 🏨
+    code: 1F3E8
+    name: ホテル
+    readings:
+      - ほてる
+      - しゅくはく
+      - りょかん
+    en: hotel
+    since: "0.6"
+    subgroup: place-building
+    keywords: [ ホテル, 建物 ]
+  - emoji: 🏩
+    code: 1F3E9
+    name: ラブホテル
+    readings:
+      - らぶほてる
+      - らぶほ
+    en: love hotel
+    since: "0.6"
+    subgroup: place-building
+    keywords: [ ホテル, ラブホ, ラブホテル, 建物 ]
+  - emoji: 🏪
+    code: 1F3EA
+    name: コンビニ
+    readings:
+      - こんびに
+      - こんびにえんすすとあ
+      - みせ
+    en: convenience store
+    since: "0.6"
+    subgroup: place-building
+    keywords: [ 24時間営業, コンビニ, コンビニエンスストア, 店, 建物 ]
+  - emoji: 🏫
+    code: 1F3EB
+    name: 学校
+    readings:
+      - がっこう
+      - こうしゃ
+      - しょうがっこう
+      - ちゅうがっこう
+      - こうこう
+      - すくーる
+    en: school
+    since: "0.6"
+    subgroup: place-building
+    keywords: [ 学校, 建物, 校舎 ]
+  - emoji: 🏬
+    code: 1F3EC
+    name: デパート
+    readings:
+      - でぱーと
+      - ひゃっかてん
+      - しょうてん
+    en: department store
+    since: "0.6"
+    subgroup: place-building
+    keywords: [ デパート, ビル, 店舗, 建物, 百貨店 ]
+  - emoji: 🏭
+    code: 1F3ED
+    name: 工場
+    readings:
+      - こうじょう
+      - ふぁくとりー
+      - えんとつ
+    en: factory
+    since: "0.6"
+    subgroup: place-building
+    keywords: [ ファクトリー, 工場, 建物, 煙突 ]
+  - emoji: 🏯
+    code: 1F3EF
+    name: 城
+    readings:
+      - しろ
+      - にほんのしろ
+      - てんしゅかく
+      - おしろ
+    en: Japanese castle
+    since: "0.6"
+    subgroup: place-building
+    keywords: [ 城, 建物, 日本, 日本の城 ]
+  - emoji: 🏰
+    code: 1F3F0
+    name: 西洋の城
+    readings:
+      - せいようのしろ
+      - しろ
+      - きゃっする
+      - おしろ
+    en: castle
+    since: "0.6"
+    subgroup: place-building
+    keywords: [ キャッスル, 城, 建物, 西洋の城 ]
+  - emoji: 💒
+    code: 1F492
+    name: 結婚式
+    readings:
+      - けっこんしき
+      - けっこん
+      - ちゃぺる
+      - ういでぃんぐ
+      - ぶらいだる
+    en: wedding
+    since: "0.6"
+    subgroup: place-building
+    keywords: [ チャペル, ロマンス, 建物, 式場, 教会, 礼拝堂, 結婚, 結婚式 ]
+  - emoji: 🗼
+    code: 1F5FC
+    name: 東京タワー
+    readings:
+      - とうきょうたわー
+      - たわー
+      - とうきょう
+    en: Tokyo tower
+    since: "0.6"
+    subgroup: place-building
+    keywords: [ タワー, 塔, 東京, 東京タワー ]
+  - emoji: 🗽
+    code: 1F5FD
+    name: 自由の女神
+    readings:
+      - じゆうのめがみ
+      - にゅーよーく
+      - あめりか
+    en: Statue of Liberty
+    since: "0.6"
+    subgroup: place-building
+    keywords: [ アメリカ, ニューヨーク, 彫像, 自由の女神 ]
+  - emoji: ⛪
+    code: 26EA
+    name: 教会
+    readings:
+      - きょうかい
+      - ちゃぺる
+      - ちゃーち
+      - きりすときょう
+    en: church
+    since: "0.6"
+    subgroup: place-religious
+    keywords: [ キリスト教, チャペル, 十字架, 宗教, 建物, 教会, 礼拝堂 ]
+  - emoji: 🕌
+    code: 1F54C
+    name: モスク
+    readings:
+      - もすく
+      - いすらむきょう
+    en: mosque
+    since: "1.0"
+    subgroup: place-religious
+    keywords: [ イスラム教, モスク, 宗教, 建物 ]
+  - emoji: 🛕
+    code: 1F6D5
+    name: ヒンドゥー教の寺院
+    readings:
+      - ひんどぅーきょうのじいん
+      - ひんどぅーきょう
+      - じいん
+    en: hindu temple
+    since: "12.0"
+    subgroup: place-religious
+    keywords: [ ヒンズー教, ヒンドゥー教の寺院, 宗教, 寺, 建物 ]
+  - emoji: 🕍
+    code: 1F54D
+    name: シナゴーグ
+    readings:
+      - しなごーぐ
+      - ゆだやきょう
+    en: synagogue
+    since: "1.0"
+    subgroup: place-religious
+    keywords: [ シナゴーグ, ユダヤ教, 宗教, 建物 ]
+  - emoji: ⛩️
+    code: 26E9 FE0F
+    name: 鳥居
+    readings:
+      - とりい
+      - じんじゃ
+      - しんとう
+    en: shinto shrine
+    since: "0.7"
+    subgroup: place-religious
+    keywords: [ 宗教, 建物, 神社, 神道, 鳥居 ]
+  - emoji: 🕋
+    code: 1F54B
+    name: カーバ
+    readings:
+      - かーば
+      - めっか
+      - いすらむきょう
+      - せいち
+    en: kaaba
+    since: "1.0"
+    subgroup: place-religious
+    keywords: [ イスラム教, カーバ, メッカ, 宗教, 建物, 聖地, 巡礼 ]
+  - emoji: ⛲
+    code: 26F2
+    name: 噴水
+    readings:
+      - ふんすい
+      - ふんすいひろば
+      - こうえん
+    en: fountain
+    since: "0.6"
+    subgroup: place-other
+    keywords: [ 噴水 ]
+  - emoji: ⛺
+    code: 26FA
+    name: テント
+    readings:
+      - てんと
+      - きゃんぷ
+      - やえい
+    en: tent
+    since: "0.6"
+    subgroup: place-other
+    keywords: [ キャンプ, テント ]
+  - emoji: 🌁
+    code: 1F301
+    name: 霧の都会
+    readings:
+      - きりのとかい
+      - きり
+      - もや
+    en: foggy
+    since: "0.6"
+    subgroup: place-other
+    keywords: [ もや, 都会, 霧, 霧の都会 ]
+  - emoji: 🌃
+    code: 1F303
+    name: 夜の都会
+    readings:
+      - よるのとかい
+      - よる
+      - やけい
+      - ほしぞら
+      - よるのまち
+    en: night with stars
+    since: "0.6"
+    subgroup: place-other
+    keywords: [ 夜, 夜の都会, 夜景, 星, 星空 ]
+  - emoji: 🏙️
+    code: 1F3D9 FE0F
+    name: 高層ビル
+    readings:
+      - こうそうびる
+      - びるぐん
+      - とかい
+      - とし
+      - まてんろう
+    en: cityscape
+    since: "0.7"
+    subgroup: place-other
+    keywords: [ ビル群, 都会, 都市, 高層ビル ]
+  - emoji: 🌄
+    code: 1F304
+    name: 山から日の出
+    readings:
+      - やまからひので
+      - ひので
+      - ごらいこう
+      - あさひ
+    en: sunrise over mountains
+    since: "0.6"
+    subgroup: place-other
+    keywords: [ ご来光, 太陽, 山から日の出, 日の出, 朝, 朝日 ]
+  - emoji: 🌅
+    code: 1F305
+    name: 日の出
+    readings:
+      - ひので
+      - あさひ
+      - よあけ
+      - さんらいず
+      - にちのしゅつ
+    en: sunrise
+    since: "0.6"
+    subgroup: place-other
+    keywords: [ 太陽, 日の出, 日光, 朝, 朝日 ]
+  - emoji: 🌆
+    code: 1F306
+    name: 夕暮れの都会
+    readings:
+      - ゆうぐれのとかい
+      - ゆうぐれ
+      - ゆうがた
+      - たそがれ
+    en: cityscape at dusk
+    since: "0.6"
+    subgroup: place-other
+    keywords: [ ビル, 夕方, 夕日, 夕暮れ, 夕暮れの都会, 都会, 都市 ]
+  - emoji: 🌇
+    code: 1F307
+    name: 夕日
+    readings:
+      - ゆうひ
+      - にちぼつ
+      - ゆうやけ
+      - ひぐれ
+      - さんせっと
+      - ゆうぐれ
+    en: sunset
+    since: "0.6"
+    subgroup: place-other
+    keywords: [ ビル, 夕方, 夕日, 夕暮れ, 太陽, 日暮れ, 日没 ]
+  - emoji: 🌉
+    code: 1F309
+    name: 夜の橋
+    readings:
+      - よるのはし
+      - はし
+      - やけい
+      - ぶりっじ
+    en: bridge at night
+    since: "0.6"
+    subgroup: place-other
+    keywords: [ 夜, 夜の橋, 夜景, 橋 ]
+  - emoji: ♨️
+    code: 2668 FE0F
+    name: 温泉
+    readings:
+      - おんせん
+      - おんせんまーく
+      - ゆけむり
+    en: hot springs
+    since: "0.6"
+    subgroup: place-other
+    keywords: [ 温泉, 温泉マーク, 湯気 ]
+  - emoji: 🎠
+    code: 1F3A0
+    name: メリーゴーランド
+    readings:
+      - めりーごーらんど
+      - めりーごーらうんど
+      - かいてんもくば
+      - ゆうえんち
+    en: carousel horse
+    since: "0.6"
+    subgroup: place-other
+    keywords: [ メリーゴーラウンド, メリーゴーランド, 回転木馬, 遊園地, 馬 ]
+  - emoji: 🛝
+    code: 1F6DD
+    name: すべり台
+    readings:
+      - すべりだい
+      - こうえん
+      - ゆうぐ
+    en: playground slide
+    since: "14.0"
+    subgroup: place-other
+    keywords: [ すべり台, 公園, 遊具 ]
+  - emoji: 🎡
+    code: 1F3A1
+    name: 観覧車
+    readings:
+      - かんらんしゃ
+      - ゆうえんち
+    en: ferris wheel
+    since: "0.6"
+    subgroup: place-other
+    keywords: [ アミューズメントパーク, 観覧車, 遊園地 ]
+  - emoji: 🎢
+    code: 1F3A2
+    name: ジェットコースター
+    readings:
+      - じぇっとこーすたー
+      - ゆうえんち
+      - こーすたー
+      - ぜっきょうましん
+    en: roller coaster
+    since: "0.6"
+    subgroup: place-other
+    keywords: [ アミューズメントパーク, ジェットコースター, 遊園地 ]
+  - emoji: 💈
+    code: 1F488
+    name: 床屋
+    readings:
+      - とこや
+      - りはつてん
+      - りようしつ
+      - さんぱつ
+      - びようしつ
+      - びよういん
+      - ばーばー
+    en: barber pole
+    since: "0.6"
+    subgroup: place-other
+    keywords: [ バーバー, ヘアサロン, 床屋, 理容室, 理容院, 理髪店, 美容室, 美容院 ]
+  - emoji: 🎪
+    code: 1F3AA
+    name: サーカス
+    readings:
+      - さーかす
+      - さーかすごや
+      - てんと
+    en: circus tent
+    since: "0.6"
+    subgroup: place-other
+    keywords: [ サーカス, サーカス小屋, テント ]
+  - emoji: 🚂
+    code: 1F682
+    name: 蒸気機関車
+    readings:
+      - じょうききかんしゃ
+      - きかんしゃ
+      - きしゃ
+      - えすえる
+      - sl
+      - てつどう
+    en: locomotive
+    since: "1.0"
+    subgroup: transport-ground
+    keywords: [ SL, 乗り物, 列車, 機関車, 汽車, 蒸気機関車, 鉄道 ]
+  - emoji: 🚃
+    code: 1F683
+    name: 電車
+    readings:
+      - でんしゃ
+      - てつどう
+      - れっしゃ
+      - のりもの
+    en: railway car
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ トロリーバス, 乗り物, 列車, 鉄道, 電車 ]
+  - emoji: 🚄
+    code: 1F684
+    name: 新幹線
+    readings:
+      - しんかんせん
+      - こうそくてつどう
+      - のぞみ
+    en: high-speed train
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ 乗り物, 新幹線, 鉄道, 電車, 高速列車 ]
+  - emoji: 🚅
+    code: 1F685
+    name: 0系新幹線
+    readings:
+      - ぜろけいしんかんせん
+      - しんかんせん
+      - だんがんれっしゃ
+      - ぜろけい
+    en: bullet train
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ 0系, 0系新幹線, 丸い新幹線, 乗り物, 新幹線, 鉄道, 電車, 高速列車 ]
+  - emoji: 🚆
+    code: 1F686
+    name: 電車正面
+    readings:
+      - でんしゃしょうめん
+      - でんしゃ
+      - れっしゃ
+    en: train
+    since: "1.0"
+    subgroup: transport-ground
+    keywords: [ 乗り物, 列車, 電車, 電車正面 ]
+  - emoji: 🚇
+    code: 1F687
+    name: 地下鉄
+    readings:
+      - ちかてつ
+      - めとろ
+      - さぶうぇい
+    en: metro
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ メトロ, 乗り物, 地下鉄, 電車 ]
+  - emoji: 🚈
+    code: 1F688
+    name: ライトレール
+    readings:
+      - らいとれーる
+      - てつどう
+    en: light rail
+    since: "1.0"
+    subgroup: transport-ground
+    keywords: [ モノレール, ライトレール, 乗り物, 鉄道, 電車 ]
+  - emoji: 🚉
+    code: 1F689
+    name: 駅
+    readings:
+      - えき
+      - すてーしょん
+    en: station
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ ステーション, 乗り物, 列車, 電車, 駅 ]
+  - emoji: 🚊
+    code: 1F68A
+    name: 路面電車正面
+    readings:
+      - ろめんでんしゃしょうめん
+      - ろめんでんしゃ
+      - しでん
+      - とらむ
+    en: tram
+    since: "1.0"
+    subgroup: transport-ground
+    keywords: [ 乗り物, 路面電車, 路面電車正面, 電車 ]
+  - emoji: 🚝
+    code: 1F69D
+    name: モノレール
+    readings:
+      - ものれーる
+      - てつどう
+    en: monorail
+    since: "1.0"
+    subgroup: transport-ground
+    keywords: [ モノレール, 乗り物, 電車 ]
+  - emoji: 🚞
+    code: 1F69E
+    name: 登山鉄道
+    readings:
+      - とざんてつどう
+      - とざんでんしゃ
+      - さんがくてつどう
+    en: mountain railway
+    since: "1.0"
+    subgroup: transport-ground
+    keywords: [ 乗り物, 登山鉄道, 登山電車, 電車 ]
+  - emoji: 🚋
+    code: 1F68B
+    name: 路面電車
+    readings:
+      - ろめんでんしゃ
+      - しでん
+      - ちんちんでんしゃ
+    en: tram car
+    since: "1.0"
+    subgroup: transport-ground
+    keywords: [ トロリーバス, 乗り物, 路面電車, 電車 ]
+  - emoji: 🚌
+    code: 1F68C
+    name: バス
+    readings:
+      - ばす
+      - ろせんばす
+    en: bus
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ スクールバス, バス, 乗り物, 車 ]
+  - emoji: 🚍
+    code: 1F68D
+    name: バス正面
+    readings:
+      - ばすしょうめん
+      - ばす
+      - ろせんばす
+    en: oncoming bus
+    since: "0.7"
+    subgroup: transport-ground
+    keywords: [ バス, バス正面, 乗り物, 車 ]
+  - emoji: 🚎
+    code: 1F68E
+    name: トロリーバス
+    readings:
+      - とろりーばす
+    en: trolleybus
+    since: "1.0"
+    subgroup: transport-ground
+    keywords: [ トロリーバス, バス, 乗り物, 路面電車 ]
+  - emoji: 🚐
+    code: 1F690
+    name: マイクロバス
+    readings:
+      - まいくろばす
+      - ばす
+      - みにばす
+      - わごん
+    en: minibus
+    since: "1.0"
+    subgroup: transport-ground
+    keywords: [ バス, マイクロバス, ミニバス, 乗り物, 小型バス, 車 ]
+  - emoji: 🚑
+    code: 1F691
+    name: 救急車
+    readings:
+      - きゅうきゅうしゃ
+      - あんびゅらんす
+      - きゅうきゅう
+    en: ambulance
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ 乗り物, 救急車, 車 ]
+  - emoji: 🚒
+    code: 1F692
+    name: 消防車
+    readings:
+      - しょうぼうしゃ
+      - しょうぼう
+    en: fire engine
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ 乗り物, 消防車, 車 ]
+  - emoji: 🚓
+    code: 1F693
+    name: パトカー
+    readings:
+      - ぱとかー
+      - けいさつ
+      - ぱとろーる
+    en: police car
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ パトカー, パトロール, 乗り物, 警察 ]
+  - emoji: 🚔
+    code: 1F694
+    name: パトカー正面
+    readings:
+      - ぱとかーしょうめん
+      - ぱとかー
+      - けいさつ
+    en: oncoming police car
+    since: "0.7"
+    subgroup: transport-ground
+    keywords: [ パトカー, パトカー正面, 乗り物, 警察 ]
+  - emoji: 🚕
+    code: 1F695
+    name: タクシー
+    readings:
+      - たくしー
+      - いえろーきゃぶ
+    en: taxi
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ イエローキャブ, タクシー, 乗り物, 車 ]
+  - emoji: 🚖
+    code: 1F696
+    name: タクシー正面
+    readings:
+      - たくしーしょうめん
+      - たくしー
+      - いえろーきゃぶ
+    en: oncoming taxi
+    since: "1.0"
+    subgroup: transport-ground
+    keywords: [ イエローキャブ, タクシー, タクシー正面, 乗り物, 車 ]
+  - emoji: 🚗
+    code: 1F697
+    name: 自動車
+    readings:
+      - じどうしゃ
+      - くるま
+      - かー
+      - まいかー
+      - どらいぶ
+    en: automobile
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ ドライブ, 乗り物, 乗用車, 自動車, 車 ]
+  - emoji: 🚘
+    code: 1F698
+    name: 自動車正面
+    readings:
+      - じどうしゃしょうめん
+      - じどうしゃ
+      - くるま
+    en: oncoming automobile
+    since: "0.7"
+    subgroup: transport-ground
+    keywords: [ ドライブ, 乗り物, 乗用車, 自動車, 自動車正面, 車 ]
+  - emoji: 🚙
+    code: 1F699
+    name: アールブイ車
+    readings:
+      - あーるぶいしゃ
+      - あーるぶい
+      - えすゆーぶい
+    en: sport utility vehicle
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ RV車, SUV車, アールブイ車, 乗り物, 乗用車, 自動車, 車 ]
+  - emoji: 🛻
+    code: 1F6FB
+    name: 軽トラック
+    readings:
+      - けいとらっく
+      - ぴっくあっぷ
+      - けいとら
+    en: pickup truck
+    since: "13.0"
+    subgroup: transport-ground
+    keywords: [ トラック, ピックアップトラック, 乗り物, 自動車, 車, 軽トラック, 配達 ]
+  - emoji: 🚚
+    code: 1F69A
+    name: トラック
+    readings:
+      - とらっく
+      - はいたつ
+      - はいそう
+      - たくはいびん
+    en: delivery truck
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ トラック, 乗り物, 車, 配送, 配達 ]
+  - emoji: 🚛
+    code: 1F69B
+    name: トレーラー
+    readings:
+      - とれーらー
+      - とらっく
+      - おおがた
+    en: articulated lorry
+    since: "1.0"
+    subgroup: transport-ground
+    keywords: [ トラック, トレーラー, 乗り物, 車 ]
+  - emoji: 🚜
+    code: 1F69C
+    name: トラクター
+    readings:
+      - とらくたー
+      - のうぎょう
+    en: tractor
+    since: "1.0"
+    subgroup: transport-ground
+    keywords: [ トラクター, 乗り物, 車 ]
+  - emoji: 🏎️
+    code: 1F3CE FE0F
+    name: レーシングカー
+    readings:
+      - れーしんぐかー
+      - えふわん
+    en: racing car
+    since: "0.7"
+    subgroup: transport-ground
+    keywords: [ F1, カーレース, スポーツ, モータースポーツ, レーシングカー, レース, 乗り物, 車 ]
+  - emoji: 🏍️
+    code: 1F3CD FE0F
+    name: オートバイ
+    readings:
+      - おーとばい
+      - ばいく
+      - おーとれーす
+    en: motorcycle
+    since: "0.7"
+    subgroup: transport-ground
+    keywords: [ オートバイ, オートレース, スポーツ, バイク, モータースポーツ, 乗り物 ]
+  - emoji: 🛵
+    code: 1F6F5
+    name: スクーター
+    readings:
+      - すくーたー
+      - げんつき
+      - げんちゃり
+    en: motor scooter
+    since: "3.0"
+    subgroup: transport-ground
+    keywords: [ オートバイ, スクーター, バイク, 原付 ]
+  - emoji: 🦽
+    code: 1F9BD
+    name: 手動式車椅子
+    readings:
+      - しゅどうしきくるまいす
+      - くるまいす
+    en: manual wheelchair
+    since: "12.0"
+    subgroup: transport-ground
+    keywords: [ アクセシビリティ, 手動式車椅子, 椅子, 車椅子 ]
+  - emoji: 🦼
+    code: 1F9BC
+    name: 電動車椅子
+    readings:
+      - でんどうくるまいす
+      - くるまいす
+    en: motorized wheelchair
+    since: "12.0"
+    subgroup: transport-ground
+    keywords: [ アクセシビリティ, 椅子, 車椅子, 電動車椅子 ]
+  - emoji: 🛺
+    code: 1F6FA
+    name: 三輪タクシー
+    readings:
+      - さんりんたくしー
+      - とぅくとぅく
+      - りくしゃー
+    en: auto rickshaw
+    since: "12.0"
+    subgroup: transport-ground
+    keywords: [ オートリクシャー, タクシー, トゥクトゥク, リクシャー, 三輪タクシー ]
+  - emoji: 🚲
+    code: 1F6B2
+    name: 自転車
+    readings:
+      - じてんしゃ
+      - ちゃり
+      - ちゃりんこ
+      - さいくりんぐ
+    en: bicycle
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ サイクリング, 乗り物, 自転車 ]
+  - emoji: 🛴
+    code: 1F6F4
+    name: キックボード
+    readings:
+      - きっくぼーど
+      - きっくすけーたー
+    en: kick scooter
+    since: "3.0"
+    subgroup: transport-ground
+    keywords: [ キックスクーター, キックスケーター, キックボード ]
+  - emoji: 🛹
+    code: 1F6F9
+    name: スケートボード
+    readings:
+      - すけーとぼーど
+      - すけぼー
+    en: skateboard
+    since: "11.0"
+    subgroup: transport-ground
+    keywords: [ スケートボード, スケボー, ボード ]
+  - emoji: 🛼
+    code: 1F6FC
+    name: ローラースケート
+    readings:
+      - ろーらーすけーと
+      - すけーと
+    en: roller skate
+    since: "13.0"
+    subgroup: transport-ground
+    keywords: [ スケート, スポーツ, ローラースケート ]
+  - emoji: 🚏
+    code: 1F68F
+    name: バス停
+    readings:
+      - ばすてい
+      - ばすのりば
+      - ていりゅうじょ
+      - ばすすとっぷ
+      - ばす
+    en: bus stop
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ バス乗り場, バス停, 乗り物, 停留所 ]
+  - emoji: 🛣️
+    code: 1F6E3 FE0F
+    name: 高速道路
+    readings:
+      - こうそくどうろ
+      - こうそく
+      - はいうぇい
+      - どうろ
+      - もーたーうぇい
+    en: motorway
+    since: "0.7"
+    subgroup: transport-ground
+    keywords: [ ハイウェイ, 道路, 高速, 高速道路 ]
+  - emoji: 🛤️
+    code: 1F6E4 FE0F
+    name: 線路
+    readings:
+      - せんろ
+      - てつどう
+      - きどう
+      - れーる
+    en: railway track
+    since: "0.7"
+    subgroup: transport-ground
+    keywords: [ 線路, 軌道, 鉄道 ]
+  - emoji: 🛢️
+    code: 1F6E2 FE0F
+    name: ドラム缶
+    readings:
+      - どらむかん
+      - おいる
+      - せきゆ
+      - どらむ
+    en: oil drum
+    since: "0.7"
+    subgroup: transport-ground
+    keywords: [ オイル, ドラム缶, 石油 ]
+  - emoji: ⛽
+    code: 26FD
+    name: ガソリンスタンド
+    readings:
+      - がそりんすたんど
+      - がそりん
+      - きゅうゆ
+      - すたんど
+      - ねんりょう
+    en: fuel pump
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ ガソリン, ガソリンスタンド, ガソリンノズル, 給油 ]
+  - emoji: 🛞
+    code: 1F6DE
+    name: ホイール
+    readings:
+      - ほいーる
+      - しゃりん
+      - たいや
+      - くるま
+    en: wheel
+    since: "14.0"
+    subgroup: transport-ground
+    keywords: [ スポーク, タイヤ, ホイール, 自動車, 車, 車輪 ]
+  - emoji: 🚨
+    code: 1F6A8
+    name: パトランプ
+    readings:
+      - ぱとらんぷ
+      - さいれん
+      - ぱとかー
+      - きんきゅう
+      - けいさつ
+      - せきしょくとう
+    en: police car light
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ サイレン, パトカー, パトランプ, 緊急, 警察, 赤色灯 ]
+  - emoji: 🚥
+    code: 1F6A5
+    name: 信号横
+    readings:
+      - しんごうよこ
+      - しんごう
+      - しんごうき
+      - こうさてん
+      - こうつう
+    en: horizontal traffic light
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ 交差点, 交通, 信号, 信号横, 信号機 ]
+  - emoji: 🚦
+    code: 1F6A6
+    name: 信号縦
+    readings:
+      - しんごうたて
+      - しんごう
+      - しんごうき
+      - こうさてん
+      - こうつう
+    en: vertical traffic light
+    since: "1.0"
+    subgroup: transport-ground
+    keywords: [ 交差点, 交通, 信号, 信号機, 信号縦 ]
+  - emoji: 🛑
+    code: 1F6D1
+    name: 止まれの標識
+    readings:
+      - とまれのひょうしき
+      - とまれ
+      - すとっぷ
+      - ひょうしき
+      - ていし
+    en: stop sign
+    since: "3.0"
+    subgroup: transport-ground
+    keywords: [ ストップ, 八角形, 標識, 止まれ, 止まれの標識 ]
+  - emoji: 🚧
+    code: 1F6A7
+    name: 工事中
+    readings:
+      - こうじちゅう
+      - こうじ
+      - つうこうどめ
+      - けんせつ
+    en: construction
+    since: "0.6"
+    subgroup: transport-ground
+    keywords: [ サイン, 工事中, 通行止め ]
+  - emoji: 🛙
+    code: 1F6D9
+    name: 灯台
+    readings:
+      - とうだい
+      - びーこん
+      - こうかい
+    en: lighthouse
+    since: "18.0"
+    subgroup: transport-water
+    keywords: [ ビーコン, 信号, 光, 導き, 希望, 海, 灯り, 灯台, 航海, 船 ]
+  - emoji: ⚓
+    code: "2693"
+    name: 錨
+    readings:
+      - いかり
+      - あんかー
+      - ふね
+      - みなと
+    en: anchor
+    since: "0.6"
+    subgroup: transport-water
+    keywords: [ いかり, 碇, 船, 錨 ]
+  - emoji: 🛟
+    code: 1F6DF
+    name: 救命浮環
+    readings:
+      - きゅうめいふかん
+      - うきわ
+      - きゅうめいぐ
+      - きゅうじょ
+      - ぶい
+    en: ring buoy
+    since: "14.0"
+    subgroup: transport-water
+    keywords: [ ブイ, ライフセーバー, レスキュー, 安全, 救助, 救命具, 救命浮環, 浮き輪 ]
+  - emoji: ⛵
+    code: 26F5
+    name: ヨット
+    readings:
+      - よっと
+      - はんせん
+      - せーりんぐ
+      - ふね
+    en: sailboat
+    since: "0.6"
+    subgroup: transport-water
+    keywords: [ セーリング, ヨット, 乗り物, 帆船, 船 ]
+  - emoji: 🛶
+    code: 1F6F6
+    name: カヌー
+    readings:
+      - かぬー
+      - かやっく
+      - ぼーと
+    en: canoe
+    since: "3.0"
+    subgroup: transport-water
+    keywords: [ カヌー, カヤック, ボート, 乗り物, 船 ]
+  - emoji: 🚤
+    code: 1F6A4
+    name: スピードボート
+    readings:
+      - すぴーどぼーと
+      - もーたーぼーと
+      - ぼーと
+      - かいそくてい
+    en: speedboat
+    since: "0.6"
+    subgroup: transport-water
+    keywords: [ スピードボート, ボート, モーターボート, 乗り物, 快速艇, 船 ]
+  - emoji: 🛳️
+    code: 1F6F3 FE0F
+    name: 客船
+    readings:
+      - きゃくせん
+      - りょかくせん
+      - ふね
+      - くるーず
+    en: passenger ship
+    since: "0.7"
+    subgroup: transport-water
+    keywords: [ 乗り物, 客船, 旅客船, 船 ]
+  - emoji: ⛴️
+    code: 26F4 FE0F
+    name: フェリー
+    readings:
+      - ふぇりー
+      - きゃくせん
+      - ふね
+    en: ferry
+    since: "0.7"
+    subgroup: transport-water
+    keywords: [ フェリー, 乗り物, 客船, 船 ]
+  - emoji: 🛥️
+    code: 1F6E5 FE0F
+    name: モーターボート
+    readings:
+      - もーたーぼーと
+      - ぼーと
+      - ふね
+    en: motor boat
+    since: "0.7"
+    subgroup: transport-water
+    keywords: [ ボート, モーターボート, 乗り物, 船 ]
+  - emoji: 🚢
+    code: 1F6A2
+    name: 船
+    readings:
+      - ふね
+      - きゃくせん
+      - せんぱく
+      - しっぷ
+      - たいたにっく
+    en: ship
+    since: "0.6"
+    subgroup: transport-water
+    keywords: [ タイタニック号, 乗り物, 客船, 船 ]
+  - emoji: ✈️
+    code: 2708 FE0F
+    name: 飛行機
+    readings:
+      - ひこうき
+      - こうくうき
+      - じぇっとき
+      - りょこう
+      - くうこう
+    en: airplane
+    since: "0.6"
+    subgroup: transport-air
+    keywords: [ ジェット機, 乗り物, 旅行, 航空機, 飛行機 ]
+  - emoji: 🛩️
+    code: 1F6E9 FE0F
+    name: 小型飛行機
+    readings:
+      - こがたひこうき
+      - こがたき
+      - ひこうき
+      - せすな
+    en: small airplane
+    since: "0.7"
+    subgroup: transport-air
+    keywords: [ 乗り物, 小型機, 小型飛行機, 航空機, 飛行機 ]
+  - emoji: 🛫
+    code: 1F6EB
+    name: 飛行機離陸
+    readings:
+      - ひこうきりりく
+      - りりく
+      - しゅっぱつ
+      - ひこうき
+    en: airplane departure
+    since: "1.0"
+    subgroup: transport-air
+    keywords: [ 乗り物, 航空機, 離陸, 飛行機, 飛行機離陸 ]
+  - emoji: 🛬
+    code: 1F6EC
+    name: 飛行機着陸
+    readings:
+      - ひこうきちゃくりく
+      - ちゃくりく
+      - とうちゃく
+      - ひこうき
+    en: airplane arrival
+    since: "1.0"
+    subgroup: transport-air
+    keywords: [ 乗り物, 着陸, 航空機, 飛行機, 飛行機着陸 ]
+  - emoji: 🪂
+    code: 1FA82
+    name: パラシュート
+    readings:
+      - ぱらしゅーと
+      - すかいだいびんぐ
+      - ぱらぐらいだー
+      - らっかさん
+    en: parachute
+    since: "12.0"
+    subgroup: transport-air
+    keywords: [ スカイダイビング, パラグライダー, パラシュート, パラセーリング, ハンググライダー ]
+  - emoji: 💺
+    code: 1F4BA
+    name: 座席
+    readings:
+      - ざせき
+      - せき
+      - しーと
+      - いす
+    en: seat
+    since: "0.6"
+    subgroup: transport-air
+    keywords: [ シート, 席, 座席, 椅子 ]
+  - emoji: 🚁
+    code: 1F681
+    name: ヘリコプター
+    readings:
+      - へりこぷたー
+      - へり
+    en: helicopter
+    since: "1.0"
+    subgroup: transport-air
+    keywords: [ ヘリ, ヘリコプター, 乗り物 ]
+  - emoji: 🚟
+    code: 1F69F
+    name: 懸垂式モノレール
+    readings:
+      - けんすいしきものれーる
+      - ものれーる
+    en: suspension railway
+    since: "1.0"
+    subgroup: transport-air
+    keywords: [ モノレール, 乗り物, 懸垂式モノレール, 電車 ]
+  - emoji: 🚠
+    code: 1F6A0
+    name: ケーブルカー
+    readings:
+      - けーぶるかー
+      - ごんどら
+      - りふと
+    en: mountain cableway
+    since: "1.0"
+    subgroup: transport-air
+    keywords: [ ケーブルカー, ゴンドラ, リフト, 乗り物 ]
+  - emoji: 🚡
+    code: 1F6A1
+    name: ロープウェイ
+    readings:
+      - ろーぷうぇい
+      - ごんどら
+    en: aerial tramway
+    since: "1.0"
+    subgroup: transport-air
+    keywords: [ ゴンドラ, ロープウェイ, 乗り物 ]
+  - emoji: 🛰️
+    code: 1F6F0 FE0F
+    name: 人工衛星
+    readings:
+      - じんこうえいせい
+      - えいせい
+      - さてらいと
+    en: satellite
+    since: "0.7"
+    subgroup: transport-air
+    keywords: [ 人工衛星, 宇宙 ]
+  - emoji: 🚀
+    code: 1F680
+    name: ロケット
+    readings:
+      - ろけっと
+      - はっしゃ
+      - うちゅう
+      - うちゅうりょこう
+    en: rocket
+    since: "0.6"
+    subgroup: transport-air
+    keywords: [ ロケット, 乗り物, 宇宙, 宇宙旅行, 発射 ]
+  - emoji: 🛸
+    code: 1F6F8
+    name: 空飛ぶ円盤
+    readings:
+      - そらとぶえんばん
+      - ufo
+      - ゆーふぉー
+      - うちゅうじん
+      - みかくにんひこうぶったい
+    en: flying saucer
+    since: "5.0"
+    subgroup: transport-air
+    keywords: [ UFO, 乗り物, 宇宙, 宇宙人, 未確認飛行物体, 空飛ぶ円盤 ]
+  - emoji: 🛎️
+    code: 1F6CE FE0F
+    name: ベルボーイベル
+    readings:
+      - べるぼーいべる
+      - べる
+      - よびりん
+      - ほてる
+    en: bellhop bell
+    since: "0.7"
+    subgroup: hotel
+    keywords: [ ベル, ベルボーイベル, ホテル ]
+  - emoji: 🧳
+    code: 1F9F3
+    name: スーツケース
+    readings:
+      - すーつけーす
+      - きゃりーけーす
+      - にもつ
+      - りょこう
+    en: luggage
+    since: "11.0"
+    subgroup: hotel
+    keywords: [ キャリーケース, スーツケース, パッキング, 旅行, 旅行かばん ]
+  - emoji: ⌛
+    code: 231B
+    name: 砂時計
+    readings:
+      - すなどけい
+      - たいまー
+      - じかんぎれ
+    en: hourglass done
+    since: "0.6"
+    subgroup: time
+    keywords: [ タイマー, 時計, 砂, 砂時計 ]
+  - emoji: ⏳
+    code: 23F3
+    name: 砂が落ちている砂時計
+    readings:
+      - すながおちているすなどけい
+      - すなどけい
+      - たいまー
+      - まち
+    en: hourglass not done
+    since: "0.6"
+    subgroup: time
+    keywords: [ タイマー, 時計, 時間, 砂, 砂が落ちている砂時計, 砂時計 ]
+  - emoji: ⌚
+    code: 231A
+    name: 腕時計
+    readings:
+      - うでどけい
+      - とけい
+      - うぉっち
+    en: watch
+    since: "0.6"
+    subgroup: time
+    keywords: [ ウォッチ, 時計, 時間, 腕時計 ]
+  - emoji: ⏰
+    code: 23F0
+    name: 目覚まし時計
+    readings:
+      - めざましどけい
+      - めざまし
+      - あらーむ
+      - とけい
+    en: alarm clock
+    since: "0.6"
+    subgroup: time
+    keywords: [ アラーム, 時計, 時間, 目覚まし, 目覚まし時計 ]
+  - emoji: ⏱️
+    code: 23F1 FE0F
+    name: ストップウォッチ
+    readings:
+      - すとっぷうぉっち
+      - たいむ
+      - けいそく
+    en: stopwatch
+    since: "1.0"
+    subgroup: time
+    keywords: [ ストップウォッチ, タイム, 時計 ]
+  - emoji: ⏲️
+    code: 23F2 FE0F
+    name: タイマー
+    readings:
+      - たいまー
+    en: timer clock
+    since: "1.0"
+    subgroup: time
+    keywords: [ タイマー, 時計 ]
+  - emoji: 🕰️
+    code: 1F570 FE0F
+    name: 置時計
+    readings:
+      - おきどけい
+      - とけい
+      - まんてるくろっく
+    en: mantelpiece clock
+    since: "0.7"
+    subgroup: time
+    keywords: [ マンテルクロック, 時計, 時間, 置き時計, 置時計 ]
+  - emoji: 🕛
+    code: 1F55B
+    name: 12時
+    readings:
+      - じゅうにじ
+      - 12じ
+      - しょうご
+      - れいじ
+    en: twelve o’clock
+    since: "0.6"
+    subgroup: time
+    keywords: [ 12:00, 12時, 時計, 正午, 零時 ]
+  - emoji: 🕧
+    code: 1F567
+    name: 12時半
+    readings:
+      - じゅうにじはん
+      - 12じはん
+      - じゅうにじさんじゅっぷん
+    en: twelve-thirty
+    since: "0.7"
+    subgroup: time
+    keywords: [ 12:30, 12時30分, 12時半, 時計 ]
+  - emoji: 🕐
+    code: 1F550
+    name: 1時
+    readings:
+      - いちじ
+      - 1じ
+    en: one o’clock
+    since: "0.6"
+    subgroup: time
+    keywords: [ 1:00, 1時, 時計 ]
+  - emoji: 🕜
+    code: 1F55C
+    name: 1時半
+    readings:
+      - いちじはん
+      - 1じはん
+    en: one-thirty
+    since: "0.7"
+    subgroup: time
+    keywords: [ 1:30, 1時30分, 1時半, 時計 ]
+  - emoji: 🕑
+    code: 1F551
+    name: 2時
+    readings:
+      - にじ
+      - 2じ
+    en: two o’clock
+    since: "0.6"
+    subgroup: time
+    keywords: [ 2:00, 2時, 時計 ]
+  - emoji: 🕝
+    code: 1F55D
+    name: 2時半
+    readings:
+      - にじはん
+      - 2じはん
+    en: two-thirty
+    since: "0.7"
+    subgroup: time
+    keywords: [ 2:30, 2時30分, 2時半, 時計 ]
+  - emoji: 🕒
+    code: 1F552
+    name: 3時
+    readings:
+      - さんじ
+      - 3じ
+      - おやつ
+    en: three o’clock
+    since: "0.6"
+    subgroup: time
+    keywords: [ 3:00, 3時, 時計 ]
+  - emoji: 🕞
+    code: 1F55E
+    name: 3時半
+    readings:
+      - さんじはん
+      - 3じはん
+    en: three-thirty
+    since: "0.7"
+    subgroup: time
+    keywords: [ 3:30, 3時30分, 3時半, 時計 ]
+  - emoji: 🕓
+    code: 1F553
+    name: 4時
+    readings:
+      - よじ
+      - 4じ
+    en: four o’clock
+    since: "0.6"
+    subgroup: time
+    keywords: [ 4:00, 4時, 時計 ]
+  - emoji: 🕟
+    code: 1F55F
+    name: 4時半
+    readings:
+      - よじはん
+      - 4じはん
+    en: four-thirty
+    since: "0.7"
+    subgroup: time
+    keywords: [ 4:30, 4時30分, 4時半, 時計 ]
+  - emoji: 🕔
+    code: 1F554
+    name: 5時
+    readings:
+      - ごじ
+      - 5じ
+    en: five o’clock
+    since: "0.6"
+    subgroup: time
+    keywords: [ 5:00, 5時, 時計 ]
+  - emoji: 🕠
+    code: 1F560
+    name: 5時半
+    readings:
+      - ごじはん
+      - 5じはん
+    en: five-thirty
+    since: "0.7"
+    subgroup: time
+    keywords: [ 5:30, 5時30分, 5時半, 時計 ]
+  - emoji: 🕕
+    code: 1F555
+    name: 6時
+    readings:
+      - ろくじ
+      - 6じ
+    en: six o’clock
+    since: "0.6"
+    subgroup: time
+    keywords: [ 6:00, 6時, 時計 ]
+  - emoji: 🕡
+    code: 1F561
+    name: 6時半
+    readings:
+      - ろくじはん
+      - 6じはん
+    en: six-thirty
+    since: "0.7"
+    subgroup: time
+    keywords: [ 6:30, 6時30分, 6時半, 時計 ]
+  - emoji: 🕖
+    code: 1F556
+    name: 7時
+    readings:
+      - しちじ
+      - ななじ
+      - 7じ
+    en: seven o’clock
+    since: "0.6"
+    subgroup: time
+    keywords: [ 7:00, 7時, 時計 ]
+  - emoji: 🕢
+    code: 1F562
+    name: 7時半
+    readings:
+      - しちじはん
+      - ななじはん
+      - 7じはん
+    en: seven-thirty
+    since: "0.7"
+    subgroup: time
+    keywords: [ 7:30, 7時30分, 7時半, 時計 ]
+  - emoji: 🕗
+    code: 1F557
+    name: 8時
+    readings:
+      - はちじ
+      - 8じ
+    en: eight o’clock
+    since: "0.6"
+    subgroup: time
+    keywords: [ 8:00, 8時, 時計 ]
+  - emoji: 🕣
+    code: 1F563
+    name: 8時半
+    readings:
+      - はちじはん
+      - 8じはん
+    en: eight-thirty
+    since: "0.7"
+    subgroup: time
+    keywords: [ 8:30, 8時30分, 8時半, 時計 ]
+  - emoji: 🕘
+    code: 1F558
+    name: 9時
+    readings:
+      - くじ
+      - 9じ
+    en: nine o’clock
+    since: "0.6"
+    subgroup: time
+    keywords: [ 9:00, 9時, 時計 ]
+  - emoji: 🕤
+    code: 1F564
+    name: 9時半
+    readings:
+      - くじはん
+      - 9じはん
+    en: nine-thirty
+    since: "0.7"
+    subgroup: time
+    keywords: [ 9:30, 9時30分, 9時半, 時計 ]
+  - emoji: 🕙
+    code: 1F559
+    name: 10時
+    readings:
+      - じゅうじ
+      - 10じ
+    en: ten o’clock
+    since: "0.6"
+    subgroup: time
+    keywords: [ 10:00, 10時, 時計 ]
+  - emoji: 🕥
+    code: 1F565
+    name: 10時半
+    readings:
+      - じゅうじはん
+      - 10じはん
+    en: ten-thirty
+    since: "0.7"
+    subgroup: time
+    keywords: [ 10:30, 10時30分, 10時半, 時計 ]
+  - emoji: 🕚
+    code: 1F55A
+    name: 11時
+    readings:
+      - じゅういちじ
+      - 11じ
+    en: eleven o’clock
+    since: "0.6"
+    subgroup: time
+    keywords: [ 11:00, 11時, 時計 ]
+  - emoji: 🕦
+    code: 1F566
+    name: 11時半
+    readings:
+      - じゅういちじはん
+      - 11じはん
+    en: eleven-thirty
+    since: "0.7"
+    subgroup: time
+    keywords: [ 11:30, 11時30分, 11時半, 時計 ]
+  - emoji: 🌑
+    code: 1F311
+    name: 新月
+    readings:
+      - しんげつ
+      - つき
+      - やみ
+    en: new moon
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ 宇宙, 新月, 月, 闇 ]
+  - emoji: 🌒
+    code: 1F312
+    name: 初月
+    readings:
+      - はつづき
+      - みかづき
+      - つき
+    en: waxing crescent moon
+    since: "1.0"
+    subgroup: sky & weather
+    keywords: [ 三日月, 初月, 宇宙, 月 ]
+  - emoji: 🌓
+    code: 1F313
+    name: 上弦の月
+    readings:
+      - じょうげんのつき
+      - じょうげん
+      - はんげつ
+      - つき
+    en: first quarter moon
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ 上弦, 上弦の月, 半月, 宇宙, 月 ]
+  - emoji: 🌔
+    code: 1F314
+    name: 十三夜月
+    readings:
+      - じゅうさんやづき
+      - とおかんやのつき
+      - つき
+    en: waxing gibbous moon
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ 十三夜月, 十日夜の月, 宇宙, 月 ]
+  - emoji: 🌕
+    code: 1F315
+    name: 満月
+    readings:
+      - まんげつ
+      - つき
+      - じゅうごや
+    en: full moon
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ 宇宙, 月, 満月 ]
+  - emoji: 🌖
+    code: 1F316
+    name: 寝待月
+    readings:
+      - ねまちづき
+      - いまちづき
+      - つき
+    en: waning gibbous moon
+    since: "1.0"
+    subgroup: sky & weather
+    keywords: [ 宇宙, 寝待月, 居待月, 月 ]
+  - emoji: 🌗
+    code: 1F317
+    name: 下弦の月
+    readings:
+      - かげんのつき
+      - かげん
+      - はんげつ
+      - つき
+    en: last quarter moon
+    since: "1.0"
+    subgroup: sky & weather
+    keywords: [ 下弦, 下弦の月, 半月, 宇宙, 月 ]
+  - emoji: 🌘
+    code: 1F318
+    name: 有明月
+    readings:
+      - ありあけづき
+      - みかづき
+      - つき
+    en: waning crescent moon
+    since: "1.0"
+    subgroup: sky & weather
+    keywords: [ 三日月, 宇宙, 月, 有明月 ]
+  - emoji: 🌙
+    code: 1F319
+    name: 三日月
+    readings:
+      - みかづき
+      - つき
+      - よる
+    en: crescent moon
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ 三日月, 宇宙, 月 ]
+  - emoji: 🌚
+    code: 1F31A
+    name: 顔のある新月
+    readings:
+      - かおのあるしんげつ
+      - しんげつ
+      - つき
+    en: new moon face
+    since: "1.0"
+    subgroup: sky & weather
+    keywords: [ 新月, 月, 顔, 顔のある新月 ]
+  - emoji: 🌛
+    code: 1F31B
+    name: 顔のある上弦の月
+    readings:
+      - かおのあるじょうげんのつき
+      - じょうげんのつき
+      - はんげつ
+      - つき
+    en: first quarter moon face
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ 上弦の月, 半月, 月, 顔, 顔のある上弦の月 ]
+  - emoji: 🌜
+    code: 1F31C
+    name: 顔のある下弦の月
+    readings:
+      - かおのあるかげんのつき
+      - かげんのつき
+      - はんげつ
+      - つき
+    en: last quarter moon face
+    since: "0.7"
+    subgroup: sky & weather
+    keywords: [ 下弦の月, 半月, 月, 顔, 顔のある下弦の月 ]
+  - emoji: 🌡️
+    code: 1F321 FE0F
+    name: 温度計
+    readings:
+      - おんどけい
+      - かんだんけい
+      - きおん
+      - おんど
+      - たいおんけい
+    en: thermometer
+    since: "0.7"
+    subgroup: sky & weather
+    keywords: [ 天気, 寒暖計, 気温, 温度, 温度計 ]
+  - emoji: ☀️
+    code: 2600 FE0F
+    name: 太陽
+    readings:
+      - たいよう
+      - はれ
+      - にっこう
+      - おひさま
+    en: sun
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ 天気, 太陽, 日光, 晴れ ]
+  - emoji: 🌝
+    code: 1F31D
+    name: 顔のある満月
+    readings:
+      - かおのあるまんげつ
+      - まんげつ
+      - つき
+    en: full moon face
+    since: "1.0"
+    subgroup: sky & weather
+    keywords: [ 月, 満月, 顔, 顔のある満月 ]
+  - emoji: 🌞
+    code: 1F31E
+    name: 顔のある太陽
+    readings:
+      - かおのあるたいよう
+      - たいよう
+      - おひさま
+    en: sun with face
+    since: "1.0"
+    subgroup: sky & weather
+    keywords: [ 太陽, 顔, 顔のある太陽 ]
+  - emoji: 🪐
+    code: 1FA90
+    name: 環のある惑星
+    readings:
+      - わのあるわくせい
+      - どせい
+      - わくせい
+    en: ringed planet
+    since: "12.0"
+    subgroup: sky & weather
+    keywords: [ リング, 土星, 天体, 惑星, 星, 環のある惑星 ]
+  - emoji: ⭐
+    code: 2B50
+    name: スター
+    readings:
+      - すたー
+      - ほし
+    en: star
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ スター, 天文学, 星 ]
+  - emoji: 🌟
+    code: 1F31F
+    name: きらきら星
+    readings:
+      - きらきらぼし
+      - きらきら
+      - かがやき
+      - ほし
+    en: glowing star
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ きらきら, キラキラ, きらきら星, スター, 星, 輝き ]
+  - emoji: 🌠
+    code: 1F320
+    name: 流れ星
+    readings:
+      - ながれぼし
+      - りゅうせい
+      - ほし
+    en: shooting star
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ スター, 夜, 宇宙, 星, 流れ星 ]
+  - emoji: 🌌
+    code: 1F30C
+    name: 天の川
+    readings:
+      - あまのがわ
+      - ぎんが
+      - みるきーうぇい
+      - ほしぞら
+    en: milky way
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ ミルキーウェイ, 夜空, 天の川, 宇宙, 星空, 銀河 ]
+  - emoji: ☁️
+    code: 2601 FE0F
+    name: 雲
+    readings:
+      - くも
+      - くもり
+    en: cloud
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ 天気, 曇り, 雲 ]
+  - emoji: ⛅
+    code: 26C5
+    name: 曇り時々晴れ
+    readings:
+      - くもりときどきはれ
+      - くもり
+      - てんき
+    en: sun behind cloud
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ 天気, 太陽, 曇り, 曇り時々晴れ, 雲 ]
+  - emoji: ⛈️
+    code: 26C8 FE0F
+    name: 雷雨
+    readings:
+      - らいう
+      - かみなり
+      - いなずま
+      - らいうん
+    en: cloud with lightning and rain
+    since: "0.7"
+    subgroup: sky & weather
+    keywords: [ 天気, 稲妻, 雨, 雲, 雷, 雷雨, 雷雲 ]
+  - emoji: 🌤️
+    code: 1F324 FE0F
+    name: 晴れ時々曇り
+    readings:
+      - はれときどきくもり
+      - はれ
+      - てんき
+    en: sun behind small cloud
+    since: "0.7"
+    subgroup: sky & weather
+    keywords: [ 天気, 太陽, 晴れ, 晴れ時々曇り, 雲 ]
+  - emoji: 🌥️
+    code: 1F325 FE0F
+    name: 曇り一時晴れ
+    readings:
+      - くもりいちじはれ
+      - くもり
+      - てんき
+    en: sun behind large cloud
+    since: "0.7"
+    subgroup: sky & weather
+    keywords: [ 天気, 太陽, 曇り, 曇り一時晴れ, 雲 ]
+  - emoji: 🌦️
+    code: 1F326 FE0F
+    name: 雨時々晴れ
+    readings:
+      - あめときどきはれ
+      - てんきあめ
+      - てんき
+    en: sun behind rain cloud
+    since: "0.7"
+    subgroup: sky & weather
+    keywords: [ 天気, 天気雨, 太陽, 曇り, 雨時々晴れ, 雲 ]
+  - emoji: 🌧️
+    code: 1F327 FE0F
+    name: 雨雲
+    readings:
+      - あまぐも
+      - あめ
+    en: cloud with rain
+    since: "0.7"
+    subgroup: sky & weather
+    keywords: [ 天気, 雨, 雨雲, 雲 ]
+  - emoji: 🌨️
+    code: 1F328 FE0F
+    name: 雪雲
+    readings:
+      - ゆきぐも
+      - ゆき
+    en: cloud with snow
+    since: "0.7"
+    subgroup: sky & weather
+    keywords: [ 天気, 雪, 雪雲, 雲 ]
+  - emoji: 🌩️
+    code: 1F329 FE0F
+    name: 雷雲
+    readings:
+      - らいうん
+      - かみなり
+      - いなずま
+    en: cloud with lightning
+    since: "0.7"
+    subgroup: sky & weather
+    keywords: [ 天気, 稲妻, 雲, 雷, 雷雲 ]
+  - emoji: 🌪️
+    code: 1F32A FE0F
+    name: 竜巻
+    readings:
+      - たつまき
+      - とるねーど
+    en: tornado
+    since: "0.7"
+    subgroup: sky & weather
+    keywords: [ トルネード, 天気, 突風, 竜巻 ]
+  - emoji: 🌫️
+    code: 1F32B FE0F
+    name: 霧
+    readings:
+      - きり
+    en: fog
+    since: "0.7"
+    subgroup: sky & weather
+    keywords: [ 天気, 曇り, 雲, 霧 ]
+  - emoji: 🌬️
+    code: 1F32C FE0F
+    name: 顔のある風
+    readings:
+      - かおのあるかぜ
+      - かぜ
+      - ふー
+    en: wind face
+    since: "0.7"
+    subgroup: sky & weather
+    keywords: [ 雲, 顔, 顔のある風, 風 ]
+  - emoji: 🌀
+    code: 1F300
+    name: 渦巻き
+    readings:
+      - うずまき
+      - たいふう
+      - さいくろん
+      - はりけーん
+      - ぐるぐる
+    en: cyclone
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ サイクロン, ハリケーン, めまい, もやもや, 台風, 天気, 渦巻き ]
+  - emoji: 🌈
+    code: 1F308
+    name: 虹
+    readings:
+      - にじ
+      - れいんぼー
+      - lgbt
+    en: rainbow
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ GLBT, GLBTQ, LGBT, LGBTQ, ゲイ, トランスジェンダー, バイセクシュアル, レインボー, レズビアン, 天気 ]
+  - emoji: 🌂
+    code: 1F302
+    name: 閉じた傘
+    readings:
+      - とじたかさ
+      - かさ
+    en: closed umbrella
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ 傘, 天気, 持ち物, 閉じた傘, 雨 ]
+  - emoji: ☂️
+    code: 2602 FE0F
+    name: 傘
+    readings:
+      - かさ
+      - あまがさ
+      - あめ
+    en: umbrella
+    since: "0.7"
+    subgroup: sky & weather
+    keywords: [ 傘, 天気, 持ち物, 雨 ]
+  - emoji: ☔
+    code: "2614"
+    name: 傘と雨
+    readings:
+      - かさとあめ
+      - あめ
+      - かさ
+    en: umbrella with rain drops
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ 傘, 傘と雨, 天気, 持ち物, 雨, 雨粒 ]
+  - emoji: ⛱️
+    code: 26F1 FE0F
+    name: パラソル
+    readings:
+      - ぱらそる
+      - ひがさ
+      - びーち
+    en: umbrella on ground
+    since: "0.7"
+    subgroup: sky & weather
+    keywords: [ パラソル, ビーチ, 傘, 日傘, 砂浜, 雨 ]
+  - emoji: ⚡
+    code: 26A1
+    name: 高電圧
+    readings:
+      - こうでんあつ
+      - いなずま
+      - かみなり
+      - でんき
+      - きけん
+    en: high voltage
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ 危険, 稲妻, 雷, 電気, 高電圧 ]
+  - emoji: ❄️
+    code: 2744 FE0F
+    name: 雪の結晶
+    readings:
+      - ゆきのけっしょう
+      - ゆき
+      - けっしょう
+    en: snowflake
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ 天気, 結晶, 雪, 雪の結晶 ]
+  - emoji: ☃️
+    code: 2603 FE0F
+    name: 雪だるまと雪
+    readings:
+      - ゆきだるまとゆき
+      - ゆきだるま
+    en: snowman
+    since: "0.7"
+    subgroup: sky & weather
+    keywords: [ 雪, 雪だるま, 雪だるまと雪 ]
+  - emoji: ⛄
+    code: 26C4
+    name: 雪だるま
+    readings:
+      - ゆきだるま
+    en: snowman without snow
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ 雪, 雪だるま ]
+  - emoji: ☄️
+    code: 2604 FE0F
+    name: 彗星
+    readings:
+      - すいせい
+      - ほうきぼし
+    en: comet
+    since: "1.0"
+    subgroup: sky & weather
+    keywords: [ すい星, 宇宙, 彗星 ]
+  - emoji: 🪋
+    code: 1FA8B
+    name: 隕石
+    readings:
+      - いんせき
+      - めてお
+    en: meteor
+    since: "18.0"
+    subgroup: sky & weather
+    keywords: [ 大惨事, 宇宙, 岩, 引力, 星, 火の玉, 落ちる ]
+  - emoji: 🔥
+    code: 1F525
+    name: 火
+    readings:
+      - ひ
+      - ほのお
+      - えんじょう
+      - もえる
+      - あつい
+      - ふぁいやー
+    en: fire
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ ファイアー, ファイヤー, 火, 炎, 熱い, 燃える ]
+  - emoji: 💧
+    code: 1F4A7
+    name: 水滴
+    readings:
+      - すいてき
+      - しずく
+      - みず
+    en: droplet
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ しずく, たらーっ, 水, 水滴, 汗, 涙 ]
+  - emoji: 🌊
+    code: 1F30A
+    name: 波
+    readings:
+      - なみ
+      - うみ
+    en: water wave
+    since: "0.6"
+    subgroup: sky & weather
+    keywords: [ 天気, 波, 波浪, 海, 自然 ]

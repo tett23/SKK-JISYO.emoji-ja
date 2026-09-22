@@ -1,0 +1,21 @@
+{
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "update": "deno run --allow-env=LOG_TOKENS,LOG_STREAM --allow-read --allow-write --allow-net src/update.ts",
+    "build": "deno run --allow-env=LOG_TOKENS,LOG_STREAM --allow-read --allow-write src/build.ts",
+    "test": "deno test --allow-env=LOG_TOKENS,LOG_STREAM --allow-read tests/"
+  },
+  "fmt": {
+    "include": [
+      "src/",
+      "tests/"
+    ],
+    "lineWidth": 120
+  },
+  "lint": {
+    "include": [
+      "src/",
+      "tests/"
+    ]
+  }
+}

@@ -1,0 +1,5560 @@
+# SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
+#   name:     annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   review:   true if added automatically by the update task; remove after checking the readings
+# Other fields are refreshed from Unicode/CLDR by the update task.
+
+group: People & Body
+emoji:
+  - emoji: 👋
+    code: 1F44B
+    name: 手を振る
+    readings:
+      - てをふる
+      - ばいばい
+      - さようなら
+      - またね
+      - はろー
+      - あいさつ
+      - やあ
+      - おーい
+    en: waving hand
+    since: "0.6"
+    subgroup: hand-fingers-open
+    keywords: [ あいさつ, さようなら, バイバイ, ハロー, またね, 手, 手を振る ]
+    variants: [ 1F44B 1F3FB, 1F44B 1F3FC, 1F44B 1F3FD, 1F44B 1F3FE, 1F44B 1F3FF ]
+  - emoji: 🤚
+    code: 1F91A
+    name: 手の甲
+    readings:
+      - てのこう
+      - て
+      - きょしゅ
+    en: raised back of hand
+    since: "3.0"
+    subgroup: hand-fingers-open
+    keywords: [ 手, 手の甲 ]
+    variants: [ 1F91A 1F3FB, 1F91A 1F3FC, 1F91A 1F3FD, 1F91A 1F3FE, 1F91A 1F3FF ]
+  - emoji: 🖐️
+    code: 1F590 FE0F
+    name: 開いた手
+    readings:
+      - ひらいたて
+      - ぱー
+      - て
+      - すとっぷ
+      - きょしゅ
+      - ご
+    en: hand with fingers splayed
+    since: "0.7"
+    subgroup: hand-fingers-open
+    keywords: [ ストップ, パー, 手, 挙手, 開いた手 ]
+    variants: [ 1F590 1F3FB, 1F590 1F3FC, 1F590 1F3FD, 1F590 1F3FE, 1F590 1F3FF ]
+  - emoji: ✋
+    code: 270B
+    name: 挙手
+    readings:
+      - きょしゅ
+      - て
+      - ぱー
+      - すとっぷ
+      - はい
+      - はいたっち
+    en: raised hand
+    since: "0.6"
+    subgroup: hand-fingers-open
+    keywords: [ "5", ストップ, パー, 手, 挙手 ]
+    variants: [ 270B 1F3FB, 270B 1F3FC, 270B 1F3FD, 270B 1F3FE, 270B 1F3FF ]
+  - emoji: 🖖
+    code: 1F596
+    name: バルカンの挨拶
+    readings:
+      - ばるかんのあいさつ
+      - ばるかんさいん
+      - すたーとれっく
+      - すぽっく
+    en: vulcan salute
+    since: "1.0"
+    subgroup: hand-fingers-open
+    keywords: [ バルカンサイン, バルカンの挨拶, バルカン人, 手 ]
+    variants: [ 1F596 1F3FB, 1F596 1F3FC, 1F596 1F3FD, 1F596 1F3FE, 1F596 1F3FF ]
+  - emoji: 🫱
+    code: 1FAF1
+    name: 右に向けた手
+    readings:
+      - みぎにむけたて
+      - みぎむきのて
+      - あくしゅ
+      - て
+      - みぎ
+    en: rightwards hand
+    since: "14.0"
+    subgroup: hand-fingers-open
+    keywords: [ 右に向けた手, 右側, 手, 握手, 方向 ]
+    variants: [ 1FAF1 1F3FB, 1FAF1 1F3FC, 1FAF1 1F3FD, 1FAF1 1F3FE, 1FAF1 1F3FF ]
+  - emoji: 🫲
+    code: 1FAF2
+    name: 左に向けた手
+    readings:
+      - ひだりにむけたて
+      - ひだりむきのて
+      - あくしゅ
+      - て
+      - ひだり
+    en: leftwards hand
+    since: "14.0"
+    subgroup: hand-fingers-open
+    keywords: [ 左に向けた手, 左側, 手, 握手, 方向 ]
+    variants: [ 1FAF2 1F3FB, 1FAF2 1F3FC, 1FAF2 1F3FD, 1FAF2 1F3FE, 1FAF2 1F3FF ]
+  - emoji: 🫳
+    code: 1FAF3
+    name: 下に向けた手
+    readings:
+      - したにむけたて
+      - おとす
+      - ひろう
+      - しっしっ
+      - て
+    en: palm down hand
+    since: "14.0"
+    subgroup: hand-fingers-open
+    keywords: [ 下, 下に向けた手, 手, 拾う, 落とす ]
+    variants: [ 1FAF3 1F3FB, 1FAF3 1F3FC, 1FAF3 1F3FD, 1FAF3 1F3FE, 1FAF3 1F3FF ]
+  - emoji: 🫴
+    code: 1FAF4
+    name: 上に向けた手
+    readings:
+      - うえにむけたて
+      - ちょうだい
+      - おいで
+      - さしだす
+      - どうぞ
+      - て
+    en: palm up hand
+    since: "14.0"
+    subgroup: hand-fingers-open
+    keywords: [ おいで, ちょうだい, 上, 上に向けた手, 受ける, 差し出す, 手 ]
+    variants: [ 1FAF4 1F3FB, 1FAF4 1F3FC, 1FAF4 1F3FD, 1FAF4 1F3FE, 1FAF4 1F3FF ]
+  - emoji: 🫷
+    code: 1FAF7
+    name: 左向きに押している手
+    readings:
+      - ひだりむきにおしているて
+      - ちょっとまって
+      - まった
+      - すとっぷ
+      - おす
+      - ことわる
+      - はいたっち
+    en: leftwards pushing hand
+    since: "15.0"
+    subgroup: hand-fingers-open
+    keywords: [ ストップ, ちょっと待って, ハイタッチ, 左向き, 待った, 待て, 手, 押す, 断る, 止まれ ]
+    variants: [ 1FAF7 1F3FB, 1FAF7 1F3FC, 1FAF7 1F3FD, 1FAF7 1F3FE, 1FAF7 1F3FF ]
+  - emoji: 🫸
+    code: 1FAF8
+    name: 右向きに押している手
+    readings:
+      - みぎむきにおしているて
+      - ちょっとまって
+      - まった
+      - すとっぷ
+      - おす
+      - ことわる
+      - はいたっち
+    en: rightwards pushing hand
+    since: "15.0"
+    subgroup: hand-fingers-open
+    keywords: [ ストップ, ちょっと待って, ハイタッチ, 右向き, 待った, 待て, 手, 押す, 断る, 止まれ ]
+    variants: [ 1FAF8 1F3FB, 1FAF8 1F3FC, 1FAF8 1F3FD, 1FAF8 1F3FE, 1FAF8 1F3FF ]
+  - emoji: 👌
+    code: 1F44C
+    name: OKの手
+    readings:
+      - おーけーのて
+      - ok
+      - おーけー
+      - おっけー
+      - りょうかい
+      - かんぺき
+    en: OK hand
+    since: "0.6"
+    subgroup: hand-fingers-partial
+    keywords: [ OK, OKの手, オーケー, オッケー, つまむ, 手 ]
+    variants: [ 1F44C 1F3FB, 1F44C 1F3FC, 1F44C 1F3FD, 1F44C 1F3FE, 1F44C 1F3FF ]
+  - emoji: 🤌
+    code: 1F90C
+    name: 上向きにすぼめた手
+    readings:
+      - うわむきにすぼめたて
+      - すぼめたて
+      - いたりあ
+      - じぇすちゃー
+      - なんでやねん
+    en: pinched fingers
+    since: "13.0"
+    subgroup: hand-fingers-partial
+    keywords: [ ジェスチャー, すぼめる, 上向きにすぼめた手, 手, 指 ]
+    variants: [ 1F90C 1F3FB, 1F90C 1F3FC, 1F90C 1F3FD, 1F90C 1F3FE, 1F90C 1F3FF ]
+  - emoji: 🤏
+    code: 1F90F
+    name: つまんでいる指
+    readings:
+      - つまんでいるゆび
+      - ちょっと
+      - すこしだけ
+      - ちょびっと
+      - つまむ
+    en: pinching hand
+    since: "12.0"
+    subgroup: hand-fingers-partial
+    keywords: [ ちょっと, つまんでいる指, 少しだけ, 手, 指 ]
+    variants: [ 1F90F 1F3FB, 1F90F 1F3FC, 1F90F 1F3FD, 1F90F 1F3FE, 1F90F 1F3FF ]
+  - emoji: ✌️
+    code: 270C FE0F
+    name: Vサイン
+    readings:
+      - ぶいさいん
+      - ぴーす
+      - ちょき
+      - いえーい
+      - しょうり
+      - ぴーすさいん
+    en: victory hand
+    since: "0.6"
+    subgroup: hand-fingers-partial
+    keywords: [ Vサイン, チョキ, ピース, 手, 指 ]
+    variants: [ 270C 1F3FB, 270C 1F3FC, 270C 1F3FD, 270C 1F3FE, 270C 1F3FF ]
+  - emoji: 🤞
+    code: 1F91E
+    name: 指をクロス
+    readings:
+      - ゆびをくろす
+      - こううんを
+      - いのる
+      - ねがい
+      - ぐっどらっく
+      - うまくいきますように
+    en: crossed fingers
+    since: "3.0"
+    subgroup: hand-fingers-partial
+    keywords: [ 幸運を, 手, 指, 指をクロス ]
+    variants: [ 1F91E 1F3FB, 1F91E 1F3FC, 1F91E 1F3FD, 1F91E 1F3FE, 1F91E 1F3FF ]
+  - emoji: 🫰
+    code: 1FAF0
+    name: 親指と人差し指をクロス
+    readings:
+      - おやゆびとひとさしゆびをくろす
+      - ゆびはーと
+      - はーと
+      - きゅん
+      - おかね
+      - ゆびをくろす
+    en: hand with index finger and thumb crossed
+    since: "14.0"
+    subgroup: hand-fingers-partial
+    keywords: [ お金, 愛, 手, 指, 指ハート, 指をクロス, 親指と人差し指をクロス ]
+    variants: [ 1FAF0 1F3FB, 1FAF0 1F3FC, 1FAF0 1F3FD, 1FAF0 1F3FE, 1FAF0 1F3FF ]
+  - emoji: 🤟
+    code: 1F91F
+    name: アイラブユー
+    readings:
+      - あいらぶゆー
+      - あいしてる
+      - らぶ
+      - だいすき
+    en: love-you gesture
+    since: "5.0"
+    subgroup: hand-fingers-partial
+    keywords: [ アイラブユー, 愛してる, 手 ]
+    variants: [ 1F91F 1F3FB, 1F91F 1F3FC, 1F91F 1F3FD, 1F91F 1F3FE, 1F91F 1F3FF ]
+  - emoji: 🤘
+    code: 1F918
+    name: 角の指サイン
+    readings:
+      - つののゆびさいん
+      - ろっく
+      - めろいっく
+      - へびめた
+      - きつね
+      - めたる
+    en: sign of the horns
+    since: "1.0"
+    subgroup: hand-fingers-partial
+    keywords: [ キツネ, ロックオン, 人差し指と小指を立てた手, 手, 角の指サイン ]
+    variants: [ 1F918 1F3FB, 1F918 1F3FC, 1F918 1F3FD, 1F918 1F3FE, 1F918 1F3FF ]
+  - emoji: 🤙
+    code: 1F919
+    name: 電話の合図
+    readings:
+      - でんわのあいず
+      - でんわして
+      - しゃか
+      - あろは
+      - でんわ
+    en: call me hand
+    since: "3.0"
+    subgroup: hand-fingers-partial
+    keywords: [ 手, 電話, 電話のジェスチャー, 電話の合図 ]
+    variants: [ 1F919 1F3FB, 1F919 1F3FC, 1F919 1F3FD, 1F919 1F3FE, 1F919 1F3FF ]
+  - emoji: 👈
+    code: 1F448
+    name: 左指差し
+    readings:
+      - ひだりゆびさし
+      - ゆびさし
+      - ひだり
+      - こっち
+      - ひだりむき
+    en: backhand index pointing left
+    since: "0.6"
+    subgroup: hand-single-finger
+    keywords: [ 左, 左指差し, 手, 指, 指差し ]
+    variants: [ 1F448 1F3FB, 1F448 1F3FC, 1F448 1F3FD, 1F448 1F3FE, 1F448 1F3FF ]
+  - emoji: 👉
+    code: 1F449
+    name: 右指差し
+    readings:
+      - みぎゆびさし
+      - ゆびさし
+      - みぎ
+      - こっち
+      - みぎむき
+    en: backhand index pointing right
+    since: "0.6"
+    subgroup: hand-single-finger
+    keywords: [ 右, 右指差し, 手, 指, 指差し ]
+    variants: [ 1F449 1F3FB, 1F449 1F3FC, 1F449 1F3FD, 1F449 1F3FE, 1F449 1F3FF ]
+  - emoji: 👆
+    code: 1F446
+    name: 上指差し
+    readings:
+      - うえゆびさし
+      - うえ
+      - ゆびさし
+      - こっち
+      - うえをさす
+      - ゆび
+    en: backhand index pointing up
+    since: "0.6"
+    subgroup: hand-single-finger
+    keywords: [ 上, 手, 手の甲上指差し, 指, 指差し ]
+    variants: [ 1F446 1F3FB, 1F446 1F3FC, 1F446 1F3FD, 1F446 1F3FE, 1F446 1F3FF ]
+  - emoji: 🖕
+    code: 1F595
+    name: 立てた中指
+    readings:
+      - たてたなかゆび
+      - なかゆび
+      - ふぁっく
+      - ふぁっきゅー
+      - くたばれ
+      - ちゅうし
+    en: middle finger
+    since: "1.0"
+    subgroup: hand-single-finger
+    keywords: [ 上, 中指, 手, 指, 指差し, 立てた中指 ]
+    variants: [ 1F595 1F3FB, 1F595 1F3FC, 1F595 1F3FD, 1F595 1F3FE, 1F595 1F3FF ]
+  - emoji: 👇
+    code: 1F447
+    name: 下指差し
+    readings:
+      - したゆびさし
+      - した
+      - ゆびさし
+      - したをさす
+      - ゆび
+      - こちら
+    en: backhand index pointing down
+    since: "0.6"
+    subgroup: hand-single-finger
+    keywords: [ 下, 下指差し, 手, 指, 指差し ]
+    variants: [ 1F447 1F3FB, 1F447 1F3FC, 1F447 1F3FD, 1F447 1F3FE, 1F447 1F3FF ]
+  - emoji: ☝️
+    code: 261D FE0F
+    name: 上指差し
+    readings:
+      - うえゆびさし
+      - ひとさしゆび
+      - うえ
+      - ゆびさし
+      - いち
+      - ちょっといい
+      - ぽいんと
+    en: index pointing up
+    since: "0.6"
+    subgroup: hand-single-finger
+    keywords: [ 上, 上指差し, 手, 指差し ]
+    variants: [ 261D 1F3FB, 261D 1F3FC, 261D 1F3FD, 261D 1F3FE, 261D 1F3FF ]
+  - emoji: 🫵
+    code: 1FAF5
+    name: 人を指差している手
+    readings:
+      - ひとをゆびさしているて
+      - おまえだ
+      - おまえ
+      - きみだ
+      - ゆびさし
+      - してき
+      - あなた
+    en: index pointing at the viewer
+    since: "14.0"
+    subgroup: hand-single-finger
+    keywords: [ おまえだ, 人を指差している手, 手, 指, 指差し, 指摘 ]
+    variants: [ 1FAF5 1F3FB, 1FAF5 1F3FC, 1FAF5 1F3FD, 1FAF5 1F3FE, 1FAF5 1F3FF ]
+  - emoji: 👍
+    code: 1F44D
+    name: サムズアップ
+    readings:
+      - さむずあっぷ
+      - いいね
+      - ぐっど
+      - おっけー
+      - おーけー
+      - りょうかい
+      - おやゆび
+      - ok
+    en: thumbs up
+    since: "0.6"
+    subgroup: hand-fingers-closed
+    keywords: [ OK, いいね, オーケー, オッケー, グッド, サムズアップ, 上, 了解, 手, 親指 ]
+    variants: [ 1F44D 1F3FB, 1F44D 1F3FC, 1F44D 1F3FD, 1F44D 1F3FE, 1F44D 1F3FF ]
+  - emoji: 👎
+    code: 1F44E
+    name: サムズダウン
+    readings:
+      - さむずだうん
+      - だめ
+      - よくないね
+      - ぶーいんぐ
+      - ぼつ
+      - ばっど
+      - ng
+    en: thumbs down
+    since: "0.6"
+    subgroup: hand-fingers-closed
+    keywords: [ NG, サムズダウン, だめ, ブーイング, ボツ, 下, 手 ]
+    variants: [ 1F44E 1F3FB, 1F44E 1F3FC, 1F44E 1F3FD, 1F44E 1F3FE, 1F44E 1F3FF ]
+  - emoji: 🫹
+    code: 1FAF9
+    name: 左向きの親指
+    readings:
+      - ひだりむきのおやゆび
+      - あっち
+      - あれ
+      - これ
+      - おやゆび
+    en: leftwards thumb sign
+    since: "18.0"
+    subgroup: hand-fingers-closed
+    keywords: [ あれ, これ, 中立, 左, 指差す, 握る ]
+    variants: [ 1FAF9 1F3FB, 1FAF9 1F3FC, 1FAF9 1F3FD, 1FAF9 1F3FE, 1FAF9 1F3FF ]
+  - emoji: 🫺
+    code: 1FAFA
+    name: 右向きの親指
+    readings:
+      - みぎむきのおやゆび
+      - こっち
+      - あれ
+      - これ
+      - おやゆび
+    en: rightwards thumb sign
+    since: "18.0"
+    subgroup: hand-fingers-closed
+    keywords: [ あれ, これ, 中立, 右, 指差す, 握る ]
+    variants: [ 1FAFA 1F3FB, 1FAFA 1F3FC, 1FAFA 1F3FD, 1FAFA 1F3FE, 1FAFA 1F3FF ]
+  - emoji: ✊
+    code: 270A
+    name: げんこつ
+    readings:
+      - げんこつ
+      - ぐー
+      - こぶし
+      - にぎりこぶし
+      - がんばる
+      - ふぁいと
+    en: raised fist
+    since: "0.6"
+    subgroup: hand-fingers-closed
+    keywords: [ グー, げんこつ, こぶし, 手, 挙げたこぶし ]
+    variants: [ 270A 1F3FB, 270A 1F3FC, 270A 1F3FD, 270A 1F3FE, 270A 1F3FF ]
+  - emoji: 👊
+    code: 1F44A
+    name: グー
+    readings:
+      - ぐー
+      - ぱんち
+      - げんこつ
+      - こぶし
+      - なぐる
+      - ぐーぱんち
+    en: oncoming fist
+    since: "0.6"
+    subgroup: hand-fingers-closed
+    keywords: [ グー, げんこつ, こぶし, パンチ, 手 ]
+    variants: [ 1F44A 1F3FB, 1F44A 1F3FC, 1F44A 1F3FD, 1F44A 1F3FE, 1F44A 1F3FF ]
+  - emoji: 🤛
+    code: 1F91B
+    name: 左向きのこぶし
+    readings:
+      - ひだりむきのこぶし
+      - こぶし
+      - ぱんち
+      - ぐーたっち
+      - ふぃすとばんぷ
+    en: left-facing fist
+    since: "3.0"
+    subgroup: hand-fingers-closed
+    keywords: [ こぶし, パンチ, 左, 左向きのこぶし, 手 ]
+    variants: [ 1F91B 1F3FB, 1F91B 1F3FC, 1F91B 1F3FD, 1F91B 1F3FE, 1F91B 1F3FF ]
+  - emoji: 🤜
+    code: 1F91C
+    name: 右向きのこぶし
+    readings:
+      - みぎむきのこぶし
+      - こぶし
+      - ぱんち
+      - ぐーたっち
+      - ふぃすとばんぷ
+    en: right-facing fist
+    since: "3.0"
+    subgroup: hand-fingers-closed
+    keywords: [ こぶし, パンチ, 右, 右向きのこぶし, 手 ]
+    variants: [ 1F91C 1F3FB, 1F91C 1F3FC, 1F91C 1F3FD, 1F91C 1F3FE, 1F91C 1F3FF ]
+  - emoji: 👏
+    code: 1F44F
+    name: 拍手
+    readings:
+      - はくしゅ
+      - ぱちぱち
+      - おめでとう
+      - てをたたく
+      - すばらしい
+      - くらっぷ
+    en: clapping hands
+    since: "0.6"
+    subgroup: hands
+    keywords: [ おめでとう, パチパチ, 手, 手を叩く, 拍手 ]
+    variants: [ 1F44F 1F3FB, 1F44F 1F3FC, 1F44F 1F3FD, 1F44F 1F3FE, 1F44F 1F3FF ]
+  - emoji: 🙌
+    code: 1F64C
+    name: バンザイ
+    readings:
+      - ばんざい
+      - やった
+      - ばんざーい
+      - よろこび
+      - りょうて
+      - てをあげる
+    en: raising hands
+    since: "0.6"
+    subgroup: hands
+    keywords: [ ジェスチャー, バンザイ, 両手, 手, 手を上げる ]
+    variants: [ 1F64C 1F3FB, 1F64C 1F3FC, 1F64C 1F3FD, 1F64C 1F3FE, 1F64C 1F3FF ]
+  - emoji: 🫶
+    code: 1FAF6
+    name: ハート形の手
+    readings:
+      - はーとがたのて
+      - はーと
+      - はーとぽーず
+      - りょうてはーと
+      - らぶ
+      - あい
+      - すき
+    en: heart hands
+    since: "14.0"
+    subgroup: hands
+    keywords: [ ハート, ハートポーズ, ハート形の手, ラブ, 両手ハート, 愛, 手 ]
+    variants: [ 1FAF6 1F3FB, 1FAF6 1F3FC, 1FAF6 1F3FD, 1FAF6 1F3FE, 1FAF6 1F3FF ]
+  - emoji: 👐
+    code: 1F450
+    name: 両手のひら
+    readings:
+      - りょうてのひら
+      - おっはー
+      - てのひら
+      - ひらいたりょうて
+      - はぐ
+    en: open hands
+    since: "0.6"
+    subgroup: hands
+    keywords: [ おっはー, 両手のひら, 手, 手のひら, 開いた両手 ]
+    variants: [ 1F450 1F3FB, 1F450 1F3FC, 1F450 1F3FD, 1F450 1F3FE, 1F450 1F3FF ]
+  - emoji: 🤲
+    code: 1F932
+    name: 手のひらを揃えた両手
+    readings:
+      - てのひらをそろえたりょうて
+      - いのり
+      - おいのり
+      - すくう
+      - おねがい
+      - りょうて
+    en: palms up together
+    since: "5.0"
+    subgroup: hands
+    keywords: [ 両手, 包む手, 手, 手のひらを揃えた両手, 祈り ]
+    variants: [ 1F932 1F3FB, 1F932 1F3FC, 1F932 1F3FD, 1F932 1F3FE, 1F932 1F3FF ]
+  - emoji: 🤝
+    code: 1F91D
+    name: 握手
+    readings:
+      - あくしゅ
+      - よろしく
+      - ごうい
+      - けいやく
+      - なかなおり
+      - きょうりょく
+      - しぇいくはんど
+    en: handshake
+    since: "3.0"
+    subgroup: hands
+    keywords: [ よろしく, 合意, 契約成立, 手, 握手 ]
+    variants: [ 1F91D 1F3FB, 1F91D 1F3FC, 1F91D 1F3FD, 1F91D 1F3FE, 1F91D 1F3FF, 1FAF1 1F3FB 200D 1FAF2 1F3FC, 1FAF1 1F3FB 200D 1FAF2 1F3FD, 1FAF1 1F3FB 200D 1FAF2 1F3FE, 1FAF1 1F3FB 200D 1FAF2 1F3FF, 1FAF1 1F3FC 200D 1FAF2 1F3FB, 1FAF1 1F3FC 200D 1FAF2 1F3FD, 1FAF1 1F3FC 200D 1FAF2 1F3FE, 1FAF1 1F3FC 200D 1FAF2 1F3FF, 1FAF1 1F3FD 200D 1FAF2 1F3FB, 1FAF1 1F3FD 200D 1FAF2 1F3FC, 1FAF1 1F3FD 200D 1FAF2 1F3FE, 1FAF1 1F3FD 200D 1FAF2 1F3FF, 1FAF1 1F3FE 200D 1FAF2 1F3FB, 1FAF1 1F3FE 200D 1FAF2 1F3FC, 1FAF1 1F3FE 200D 1FAF2 1F3FD, 1FAF1 1F3FE 200D 1FAF2 1F3FF, 1FAF1 1F3FF 200D 1FAF2 1F3FB, 1FAF1 1F3FF 200D 1FAF2 1F3FC, 1FAF1 1F3FF 200D 1FAF2 1F3FD, 1FAF1 1F3FF 200D 1FAF2 1F3FE ]
+  - emoji: 🙏
+    code: 1F64F
+    name: お願い
+    readings:
+      - おねがい
+      - いのり
+      - ありがとう
+      - いただきます
+      - ごめんなさい
+      - おがむ
+      - がっしょう
+      - たのむ
+    en: folded hands
+    since: "0.6"
+    subgroup: hands
+    keywords: [ ありがとう, お願い, ごめんなさい, ジェスチャー, ハイタッチ, 合掌, 手, 祈り ]
+    variants: [ 1F64F 1F3FB, 1F64F 1F3FC, 1F64F 1F3FD, 1F64F 1F3FE, 1F64F 1F3FF ]
+  - emoji: ✍️
+    code: 270D FE0F
+    name: 書いている手
+    readings:
+      - かいているて
+      - かく
+      - てがき
+      - きにゅう
+      - さいん
+      - めも
+    en: writing hand
+    since: "0.7"
+    subgroup: hand-prop
+    keywords: [ 手, 手で書く, 手書き, 書いている手 ]
+    variants: [ 270D 1F3FB, 270D 1F3FC, 270D 1F3FD, 270D 1F3FE, 270D 1F3FF ]
+  - emoji: 💅
+    code: 1F485
+    name: マニキュアを塗る手
+    readings:
+      - まにきゅあをぬるて
+      - まにきゅあ
+      - ねいる
+      - つめ
+      - よゆう
+      - おしゃれ
+    en: nail polish
+    since: "0.6"
+    subgroup: hand-prop
+    keywords: [ ネイル, マニキュア, マニキュアを塗る手, 爪 ]
+    variants: [ 1F485 1F3FB, 1F485 1F3FC, 1F485 1F3FD, 1F485 1F3FE, 1F485 1F3FF ]
+  - emoji: 🤳
+    code: 1F933
+    name: セルフィー
+    readings:
+      - せるふぃー
+      - じどり
+      - じぶんどり
+      - すまほ
+      - かめら
+      - しゃしん
+    en: selfie
+    since: "3.0"
+    subgroup: hand-prop
+    keywords: [ カメラ, スマホ, セルフィー, 自分撮り, 自撮り ]
+    variants: [ 1F933 1F3FB, 1F933 1F3FC, 1F933 1F3FD, 1F933 1F3FE, 1F933 1F3FF ]
+  - emoji: 💪
+    code: 1F4AA
+    name: 力こぶ
+    readings:
+      - ちからこぶ
+      - きんにく
+      - むきむき
+      - きんとれ
+      - まっする
+      - がんばる
+      - うで
+      - つよい
+    en: flexed biceps
+    since: "0.6"
+    subgroup: body-parts
+    keywords: [ ボディビル, ムキムキ, 力こぶ, 筋トレ, 筋肉, 腕 ]
+    variants: [ 1F4AA 1F3FB, 1F4AA 1F3FC, 1F4AA 1F3FD, 1F4AA 1F3FE, 1F4AA 1F3FF ]
+  - emoji: 🦾
+    code: 1F9BE
+    name: 義手
+    readings:
+      - ぎしゅ
+      - きかいのうで
+      - めかあーむ
+      - ろぼっとあーむ
+      - さいぼーぐ
+    en: mechanical arm
+    since: "12.0"
+    subgroup: body-parts
+    keywords: [ アクセシビリティ, 人工装具, 手, 義手, 腕 ]
+  - emoji: 🦿
+    code: 1F9BF
+    name: 義足
+    readings:
+      - ぎそく
+      - きかいのあし
+      - めかれっぐ
+      - ろぼっと
+      - さいぼーぐ
+    en: mechanical leg
+    since: "12.0"
+    subgroup: body-parts
+    keywords: [ アクセシビリティ, 人工装具, 義足, 脚, 足 ]
+  - emoji: 🦵
+    code: 1F9B5
+    name: 脚
+    readings:
+      - あし
+      - ひざ
+      - きっく
+      - れっぐ
+      - けり
+    en: leg
+    since: "11.0"
+    subgroup: body-parts
+    keywords: [ キック, 曲げた脚, 脚, 膝, 足 ]
+    variants: [ 1F9B5 1F3FB, 1F9B5 1F3FC, 1F9B5 1F3FD, 1F9B5 1F3FE, 1F9B5 1F3FF ]
+  - emoji: 🦶
+    code: 1F9B6
+    name: 足
+    readings:
+      - あし
+      - あしくび
+      - くるぶし
+      - ふみつける
+      - ふっと
+      - あしのうら
+    en: foot
+    since: "11.0"
+    subgroup: body-parts
+    keywords: [ キック, くるぶし, ダンス, 足, 足首, 踏みつける ]
+    variants: [ 1F9B6 1F3FB, 1F9B6 1F3FC, 1F9B6 1F3FD, 1F9B6 1F3FE, 1F9B6 1F3FF ]
+  - emoji: 👂
+    code: 1F442
+    name: 耳
+    readings:
+      - みみ
+      - きく
+      - ききみみ
+      - いやー
+      - ちょうかく
+    en: ear
+    since: "0.6"
+    subgroup: body-parts
+    keywords: [ からだ, 耳, 聞き耳, 聞く ]
+    variants: [ 1F442 1F3FB, 1F442 1F3FC, 1F442 1F3FD, 1F442 1F3FE, 1F442 1F3FF ]
+  - emoji: 🦻
+    code: 1F9BB
+    name: 補聴器を付けた耳
+    readings:
+      - ほちょうきをつけたみみ
+      - ほちょうき
+      - なんちょう
+      - みみ
+      - ちょうかく
+    en: ear with hearing aid
+    since: "12.0"
+    subgroup: body-parts
+    keywords: [ アクセシビリティ, 耳, 聴覚, 補聴器を付けた耳, 難聴 ]
+    variants: [ 1F9BB 1F3FB, 1F9BB 1F3FC, 1F9BB 1F3FD, 1F9BB 1F3FE, 1F9BB 1F3FF ]
+  - emoji: 👃
+    code: 1F443
+    name: 鼻
+    readings:
+      - はな
+      - におい
+      - かぐ
+      - のーず
+    en: nose
+    since: "0.6"
+    subgroup: body-parts
+    keywords: [ からだ, 鼻 ]
+    variants: [ 1F443 1F3FB, 1F443 1F3FC, 1F443 1F3FD, 1F443 1F3FE, 1F443 1F3FF ]
+  - emoji: 🧠
+    code: 1F9E0
+    name: 脳
+    readings:
+      - のう
+      - のうみそ
+      - あたま
+      - ちしき
+      - かしこい
+      - ぶれいん
+      - ずのう
+    en: brain
+    since: "5.0"
+    subgroup: body-parts
+    keywords: [ 知識, 脳, 脳みそ, 頭 ]
+  - emoji: 🫀
+    code: 1FAC0
+    name: 心臓
+    readings:
+      - しんぞう
+      - こどう
+      - しんぱく
+      - みゃく
+      - はーと
+      - どきどき
+    en: anatomical heart
+    since: "13.0"
+    subgroup: body-parts
+    keywords: [ 心拍, 心臓, 脈, 臓器, 鼓動 ]
+  - emoji: 🫁
+    code: 1FAC1
+    name: 肺
+    readings:
+      - はい
+      - こきゅう
+      - いき
+      - しんこきゅう
+      - はいぞう
+    en: lungs
+    since: "13.0"
+    subgroup: body-parts
+    keywords: [ 呼吸, 肺, 臓器 ]
+  - emoji: 🦷
+    code: 1F9B7
+    name: 歯
+    readings:
+      - は
+      - はいしゃ
+      - むしば
+      - しろいは
+      - はみがき
+    en: tooth
+    since: "11.0"
+    subgroup: body-parts
+    keywords: [ 歯, 歯医者, 白い歯 ]
+  - emoji: 🦴
+    code: 1F9B4
+    name: 骨
+    readings:
+      - ほね
+      - こっかく
+      - がいこつ
+      - ほねっこ
+    en: bone
+    since: "11.0"
+    subgroup: body-parts
+    keywords: [ 犬, 骨, 骨格 ]
+  - emoji: 👀
+    code: 1F440
+    name: 目
+    readings:
+      - め
+      - じー
+      - じっとみる
+      - みる
+      - ちらっ
+      - りょうめ
+      - めだま
+      - ちら
+    en: eyes
+    since: "0.6"
+    subgroup: body-parts
+    keywords: [ からだ, 両目, 動く目玉, 目 ]
+  - emoji: 👁️
+    code: 1F441 FE0F
+    name: 片目
+    readings:
+      - かため
+      - め
+      - ひとつめ
+      - みる
+      - がんきゅう
+    en: eye
+    since: "0.7"
+    subgroup: body-parts
+    keywords: [ からだ, 一つ目, 片目, 目 ]
+  - emoji: 👅
+    code: 1F445
+    name: 舌
+    readings:
+      - した
+      - べー
+      - べろ
+      - あっかんべー
+      - なめる
+    en: tongue
+    since: "0.6"
+    subgroup: body-parts
+    keywords: [ からだ, べー, べろ, 舌 ]
+  - emoji: 👄
+    code: 1F444
+    name: 口
+    readings:
+      - くち
+      - くちびる
+      - きす
+      - ちゅー
+      - りっぷ
+    en: mouth
+    since: "0.6"
+    subgroup: body-parts
+    keywords: [ からだ, キス, 口, 唇 ]
+  - emoji: 🫦
+    code: 1FAE6
+    name: 唇を咬んでいる口
+    readings:
+      - くちびるをかんでいるくち
+      - くちびるをかむ
+      - くやしい
+      - せくしー
+      - ゆうわく
+      - くちびる
+    en: biting lip
+    since: "14.0"
+    subgroup: body-parts
+    keywords: [ セクシー, チッ, 口, 口惜しさ, 唇, 唇を咬んでいる口, 悔しい, 誘惑 ]
+  - emoji: 👶
+    code: 1F476
+    name: 赤ちゃん
+    readings:
+      - あかちゃん
+      - あかんぼう
+      - べびー
+      - にゅうじ
+      - しんせいじ
+      - ばぶ
+    en: baby
+    since: "0.6"
+    subgroup: person
+    keywords: [ ベビー, 子供, 新生児, 赤ちゃん, 赤ん坊, 顔 ]
+    variants: [ 1F476 1F3FB, 1F476 1F3FC, 1F476 1F3FD, 1F476 1F3FE, 1F476 1F3FF ]
+  - emoji: 🧒
+    code: 1F9D2
+    name: 子供
+    readings:
+      - こども
+      - きっず
+      - ようじ
+      - がき
+      - こ
+    en: child
+    since: "5.0"
+    subgroup: person
+    keywords: [ キッズ, 中性的, 子ども, 子供, 顔 ]
+    variants: [ 1F9D2 1F3FB, 1F9D2 1F3FC, 1F9D2 1F3FD, 1F9D2 1F3FE, 1F9D2 1F3FF ]
+  - emoji: 👦
+    code: 1F466
+    name: 男の子
+    readings:
+      - おとこのこ
+      - しょうねん
+      - こども
+      - ぼうや
+      - ぼーい
+      - だんし
+    en: boy
+    since: "0.6"
+    subgroup: person
+    keywords: [ 子供, 少年, 男の子, 顔 ]
+    variants: [ 1F466 1F3FB, 1F466 1F3FC, 1F466 1F3FD, 1F466 1F3FE, 1F466 1F3FF ]
+  - emoji: 👧
+    code: 1F467
+    name: 女の子
+    readings:
+      - おんなのこ
+      - しょうじょ
+      - こども
+      - むすめ
+      - がーる
+      - じょし
+    en: girl
+    since: "0.6"
+    subgroup: person
+    keywords: [ おさげ, 女, 女の子, 娘, 子供, 少女, 顔 ]
+    variants: [ 1F467 1F3FB, 1F467 1F3FC, 1F467 1F3FD, 1F467 1F3FE, 1F467 1F3FF ]
+  - emoji: 🧑
+    code: 1F9D1
+    name: 大人
+    readings:
+      - おとな
+      - ひと
+      - せいじん
+      - にんげん
+      - ひとびと
+    en: person
+    since: "5.0"
+    subgroup: person
+    keywords: [ 中性的, 大人, 成人, 顔 ]
+    variants: [ 1F9D1 1F3FB, 1F9D1 1F3FC, 1F9D1 1F3FD, 1F9D1 1F3FE, 1F9D1 1F3FF ]
+  - emoji: 👱
+    code: 1F471
+    name: 金髪の人
+    readings:
+      - きんぱつのひと
+      - きんぱつ
+      - ぶろんど
+      - ぱっきん
+    en: "person: blond hair"
+    since: "0.6"
+    subgroup: person
+    keywords: [ ブロンド, 人, 人間, 金髪, 金髪の人, 顔 ]
+    variants: [ 1F471 1F3FB, 1F471 1F3FC, 1F471 1F3FD, 1F471 1F3FE, 1F471 1F3FF ]
+  - emoji: 👨
+    code: 1F468
+    name: 男性
+    readings:
+      - だんせい
+      - おとこ
+      - おとこのひと
+      - めんず
+      - おっさん
+    en: man
+    since: "0.6"
+    subgroup: person
+    keywords: [ 大人, 男, 男性, 顔 ]
+    variants: [ 1F468 1F3FB, 1F468 1F3FC, 1F468 1F3FD, 1F468 1F3FE, 1F468 1F3FF ]
+  - emoji: 🧔
+    code: 1F9D4
+    name: あごひげの人
+    readings:
+      - あごひげのひと
+      - あごひげ
+      - ひげ
+      - ひげづら
+    en: "person: beard"
+    since: "5.0"
+    subgroup: person
+    keywords: [ あごひげ, あごひげの人, ひげ, 人, 顔 ]
+    variants: [ 1F9D4 1F3FB, 1F9D4 1F3FC, 1F9D4 1F3FD, 1F9D4 1F3FE, 1F9D4 1F3FF ]
+  - emoji: 🧔‍♂️
+    code: 1F9D4 200D 2642 FE0F
+    name: あごひげの男性
+    readings:
+      - あごひげのだんせい
+      - あごひげ
+      - ひげ
+      - ひげづら
+      - ひげのおとこ
+    en: "man: beard"
+    since: "13.1"
+    subgroup: person
+    keywords: [ あごひげ, あごひげの男性, ひげ, 男, 顔 ]
+    variants: [ 1F9D4 1F3FB 200D 2642 FE0F, 1F9D4 1F3FC 200D 2642 FE0F, 1F9D4 1F3FD 200D 2642 FE0F, 1F9D4 1F3FE 200D 2642 FE0F, 1F9D4 1F3FF 200D 2642 FE0F ]
+  - emoji: 🧔‍♀️
+    code: 1F9D4 200D 2640 FE0F
+    name: あごひげの女性
+    readings:
+      - あごひげのじょせい
+      - あごひげ
+      - ひげ
+      - ひげのおんな
+    en: "woman: beard"
+    since: "13.1"
+    subgroup: person
+    keywords: [ あごひげ, あごひげの女性, ひげ, 女, 顔 ]
+    variants: [ 1F9D4 1F3FB 200D 2640 FE0F, 1F9D4 1F3FC 200D 2640 FE0F, 1F9D4 1F3FD 200D 2640 FE0F, 1F9D4 1F3FE 200D 2640 FE0F, 1F9D4 1F3FF 200D 2640 FE0F ]
+  - emoji: 👨‍🦰
+    code: 1F468 200D 1F9B0
+    name: 赤毛の男性
+    readings:
+      - あかげのだんせい
+      - あかげ
+      - あかげのおとこ
+      - れっどへあ
+    en: "man: red hair"
+    since: "11.0"
+    subgroup: person
+    keywords: [ 大人, 男, 男性, 赤毛, 顔 ]
+    variants: [ 1F468 1F3FB 200D 1F9B0, 1F468 1F3FC 200D 1F9B0, 1F468 1F3FD 200D 1F9B0, 1F468 1F3FE 200D 1F9B0, 1F468 1F3FF 200D 1F9B0 ]
+  - emoji: 👨‍🦱
+    code: 1F468 200D 1F9B1
+    name: 巻き毛の男性
+    readings:
+      - まきげのだんせい
+      - まきげ
+      - くせげ
+      - てんぱ
+      - ぱーま
+      - まきげのおとこ
+    en: "man: curly hair"
+    since: "11.0"
+    subgroup: person
+    keywords: [ 大人, 巻き毛, 男, 男性, 顔 ]
+    variants: [ 1F468 1F3FB 200D 1F9B1, 1F468 1F3FC 200D 1F9B1, 1F468 1F3FD 200D 1F9B1, 1F468 1F3FE 200D 1F9B1, 1F468 1F3FF 200D 1F9B1 ]
+  - emoji: 👨‍🦳
+    code: 1F468 200D 1F9B3
+    name: 白髪の男性
+    readings:
+      - しらがのだんせい
+      - しらが
+      - はくはつ
+      - ろまんすぐれー
+      - しらがのおとこ
+    en: "man: white hair"
+    since: "11.0"
+    subgroup: person
+    keywords: [ 大人, 男, 男性, 白髪, 顔 ]
+    variants: [ 1F468 1F3FB 200D 1F9B3, 1F468 1F3FC 200D 1F9B3, 1F468 1F3FD 200D 1F9B3, 1F468 1F3FE 200D 1F9B3, 1F468 1F3FF 200D 1F9B3 ]
+  - emoji: 👨‍🦲
+    code: 1F468 200D 1F9B2
+    name: はげ頭の男性
+    readings:
+      - はげあたまのだんせい
+      - はげ
+      - はげあたま
+      - すきんへっど
+      - ぼうず
+      - つるつる
+    en: "man: bald"
+    since: "11.0"
+    subgroup: person
+    keywords: [ はげ頭, 大人, 男, 男性, 顔 ]
+    variants: [ 1F468 1F3FB 200D 1F9B2, 1F468 1F3FC 200D 1F9B2, 1F468 1F3FD 200D 1F9B2, 1F468 1F3FE 200D 1F9B2, 1F468 1F3FF 200D 1F9B2 ]
+  - emoji: 👩
+    code: 1F469
+    name: 女性
+    readings:
+      - じょせい
+      - おんな
+      - おんなのひと
+      - れでぃーす
+      - ふじん
+    en: woman
+    since: "0.6"
+    subgroup: person
+    keywords: [ 大人, 女, 女性, 顔 ]
+    variants: [ 1F469 1F3FB, 1F469 1F3FC, 1F469 1F3FD, 1F469 1F3FE, 1F469 1F3FF ]
+  - emoji: 👩‍🦰
+    code: 1F469 200D 1F9B0
+    name: 赤毛の女性
+    readings:
+      - あかげのじょせい
+      - あかげ
+      - あかげのおんな
+      - れっどへあ
+    en: "woman: red hair"
+    since: "11.0"
+    subgroup: person
+    keywords: [ 大人, 女, 女性, 赤毛, 顔 ]
+    variants: [ 1F469 1F3FB 200D 1F9B0, 1F469 1F3FC 200D 1F9B0, 1F469 1F3FD 200D 1F9B0, 1F469 1F3FE 200D 1F9B0, 1F469 1F3FF 200D 1F9B0 ]
+  - emoji: 🧑‍🦰
+    code: 1F9D1 200D 1F9B0
+    name: 赤毛の人
+    readings:
+      - あかげのひと
+      - あかげ
+      - れっどへあ
+    en: "person: red hair"
+    since: "12.1"
+    subgroup: person
+    keywords: [ 中性的, 大人, 成人, 赤毛, 顔 ]
+    variants: [ 1F9D1 1F3FB 200D 1F9B0, 1F9D1 1F3FC 200D 1F9B0, 1F9D1 1F3FD 200D 1F9B0, 1F9D1 1F3FE 200D 1F9B0, 1F9D1 1F3FF 200D 1F9B0 ]
+  - emoji: 👩‍🦱
+    code: 1F469 200D 1F9B1
+    name: 巻き毛の女性
+    readings:
+      - まきげのじょせい
+      - まきげ
+      - くせげ
+      - てんぱ
+      - ぱーま
+      - まきげのおんな
+    en: "woman: curly hair"
+    since: "11.0"
+    subgroup: person
+    keywords: [ 大人, 女, 女性, 巻き毛, 顔 ]
+    variants: [ 1F469 1F3FB 200D 1F9B1, 1F469 1F3FC 200D 1F9B1, 1F469 1F3FD 200D 1F9B1, 1F469 1F3FE 200D 1F9B1, 1F469 1F3FF 200D 1F9B1 ]
+  - emoji: 🧑‍🦱
+    code: 1F9D1 200D 1F9B1
+    name: 巻き毛の人
+    readings:
+      - まきげのひと
+      - まきげ
+      - くせげ
+      - てんぱ
+      - ぱーま
+    en: "person: curly hair"
+    since: "12.1"
+    subgroup: person
+    keywords: [ 中性的, 大人, 巻き毛, 成人, 顔 ]
+    variants: [ 1F9D1 1F3FB 200D 1F9B1, 1F9D1 1F3FC 200D 1F9B1, 1F9D1 1F3FD 200D 1F9B1, 1F9D1 1F3FE 200D 1F9B1, 1F9D1 1F3FF 200D 1F9B1 ]
+  - emoji: 👩‍🦳
+    code: 1F469 200D 1F9B3
+    name: 白髪の女性
+    readings:
+      - しらがのじょせい
+      - しらが
+      - はくはつ
+      - しらがのおんな
+      - ぐれいへあ
+    en: "woman: white hair"
+    since: "11.0"
+    subgroup: person
+    keywords: [ 大人, 女, 女性, 白髪, 顔 ]
+    variants: [ 1F469 1F3FB 200D 1F9B3, 1F469 1F3FC 200D 1F9B3, 1F469 1F3FD 200D 1F9B3, 1F469 1F3FE 200D 1F9B3, 1F469 1F3FF 200D 1F9B3 ]
+  - emoji: 🧑‍🦳
+    code: 1F9D1 200D 1F9B3
+    name: 白髪の人
+    readings:
+      - しらがのひと
+      - しらが
+      - はくはつ
+      - ぐれいへあ
+    en: "person: white hair"
+    since: "12.1"
+    subgroup: person
+    keywords: [ 中性的, 大人, 成人, 白髪, 顔 ]
+    variants: [ 1F9D1 1F3FB 200D 1F9B3, 1F9D1 1F3FC 200D 1F9B3, 1F9D1 1F3FD 200D 1F9B3, 1F9D1 1F3FE 200D 1F9B3, 1F9D1 1F3FF 200D 1F9B3 ]
+  - emoji: 👩‍🦲
+    code: 1F469 200D 1F9B2
+    name: はげ頭の女性
+    readings:
+      - はげあたまのじょせい
+      - はげ
+      - はげあたま
+      - すきんへっど
+      - ぼうず
+    en: "woman: bald"
+    since: "11.0"
+    subgroup: person
+    keywords: [ はげ頭, 大人, 女, 女性, 顔 ]
+    variants: [ 1F469 1F3FB 200D 1F9B2, 1F469 1F3FC 200D 1F9B2, 1F469 1F3FD 200D 1F9B2, 1F469 1F3FE 200D 1F9B2, 1F469 1F3FF 200D 1F9B2 ]
+  - emoji: 🧑‍🦲
+    code: 1F9D1 200D 1F9B2
+    name: はげ頭の人
+    readings:
+      - はげあたまのひと
+      - はげ
+      - はげあたま
+      - すきんへっど
+      - ぼうず
+      - つるつる
+    en: "person: bald"
+    since: "12.1"
+    subgroup: person
+    keywords: [ はげ頭, 中性的, 大人, 成人, 顔 ]
+    variants: [ 1F9D1 1F3FB 200D 1F9B2, 1F9D1 1F3FC 200D 1F9B2, 1F9D1 1F3FD 200D 1F9B2, 1F9D1 1F3FE 200D 1F9B2, 1F9D1 1F3FF 200D 1F9B2 ]
+  - emoji: 👱‍♀️
+    code: 1F471 200D 2640 FE0F
+    name: 金髪の女性
+    readings:
+      - きんぱつのじょせい
+      - きんぱつ
+      - ぶろんど
+      - ぱっきん
+      - ぎゃる
+    en: "woman: blond hair"
+    since: "4.0"
+    subgroup: person
+    keywords: [ ブロンド, 女, 女性, 金髪, 金髪の女性 ]
+    variants: [ 1F471 1F3FB 200D 2640 FE0F, 1F471 1F3FC 200D 2640 FE0F, 1F471 1F3FD 200D 2640 FE0F, 1F471 1F3FE 200D 2640 FE0F, 1F471 1F3FF 200D 2640 FE0F ]
+  - emoji: 👱‍♂️
+    code: 1F471 200D 2642 FE0F
+    name: 金髪の男性
+    readings:
+      - きんぱつのだんせい
+      - きんぱつ
+      - ぶろんど
+      - ぱっきん
+    en: "man: blond hair"
+    since: "4.0"
+    subgroup: person
+    keywords: [ ブロンド, 男, 男性, 金髪, 金髪の男性 ]
+    variants: [ 1F471 1F3FB 200D 2642 FE0F, 1F471 1F3FC 200D 2642 FE0F, 1F471 1F3FD 200D 2642 FE0F, 1F471 1F3FE 200D 2642 FE0F, 1F471 1F3FF 200D 2642 FE0F ]
+  - emoji: 🧓
+    code: 1F9D3
+    name: お年寄り
+    readings:
+      - おとしより
+      - ろうじん
+      - こうれいしゃ
+      - しにあ
+      - としより
+    en: older person
+    since: "5.0"
+    subgroup: person
+    keywords: [ お年寄り, 中性的, 大人, 老人, 顔, 高齢者 ]
+    variants: [ 1F9D3 1F3FB, 1F9D3 1F3FC, 1F9D3 1F3FD, 1F9D3 1F3FE, 1F9D3 1F3FF ]
+  - emoji: 👴
+    code: 1F474
+    name: おじいさん
+    readings:
+      - おじいさん
+      - おじいちゃん
+      - じいちゃん
+      - じじい
+      - ろうじん
+      - そふ
+      - おとしより
+    en: old man
+    since: "0.6"
+    subgroup: person
+    keywords: [ おじいさん, おじいちゃん, お年寄り, 男性, 老人, 薄毛, 顔, 高齢者 ]
+    variants: [ 1F474 1F3FB, 1F474 1F3FC, 1F474 1F3FD, 1F474 1F3FE, 1F474 1F3FF ]
+  - emoji: 👵
+    code: 1F475
+    name: おばあさん
+    readings:
+      - おばあさん
+      - おばあちゃん
+      - ばあちゃん
+      - ばばあ
+      - ろうじん
+      - そぼ
+      - おとしより
+    en: old woman
+    since: "0.6"
+    subgroup: person
+    keywords: [ おばあさん, おばあちゃん, お年寄り, 女性, 老人, 顔, 高齢者 ]
+    variants: [ 1F475 1F3FB, 1F475 1F3FC, 1F475 1F3FD, 1F475 1F3FE, 1F475 1F3FF ]
+  - emoji: 🙍
+    code: 1F64D
+    name: しかめ面の人
+    readings:
+      - しかめつらのひと
+      - しかめつら
+      - しかめっつら
+      - むっ
+      - ふまん
+      - しつぼう
+      - ふきげん
+    en: person frowning
+    since: "0.6"
+    subgroup: person-gesture
+    keywords: [ しかめっ面, しかめ面の人, しかめ顔, むっとしている人, 不満, 失望 ]
+    variants: [ 1F64D 1F3FB, 1F64D 1F3FC, 1F64D 1F3FD, 1F64D 1F3FE, 1F64D 1F3FF ]
+  - emoji: 🙍‍♂️
+    code: 1F64D 200D 2642 FE0F
+    name: しかめ面の男
+    readings:
+      - しかめつらのおとこ
+      - しかめつら
+      - しかめっつら
+      - むっ
+      - ふまん
+    en: man frowning
+    since: "4.0"
+    subgroup: person-gesture
+    keywords: [ しかめっ面, しかめ面の男, しかめ顔, むっとしている男, 男, 男性 ]
+    variants: [ 1F64D 1F3FB 200D 2642 FE0F, 1F64D 1F3FC 200D 2642 FE0F, 1F64D 1F3FD 200D 2642 FE0F, 1F64D 1F3FE 200D 2642 FE0F, 1F64D 1F3FF 200D 2642 FE0F ]
+  - emoji: 🙍‍♀️
+    code: 1F64D 200D 2640 FE0F
+    name: しかめ面の女
+    readings:
+      - しかめつらのおんな
+      - しかめつら
+      - しかめっつら
+      - むっ
+      - ふまん
+    en: woman frowning
+    since: "4.0"
+    subgroup: person-gesture
+    keywords: [ しかめっ面, しかめ面の女, しかめ顔, 女, 女性 ]
+    variants: [ 1F64D 1F3FB 200D 2640 FE0F, 1F64D 1F3FC 200D 2640 FE0F, 1F64D 1F3FD 200D 2640 FE0F, 1F64D 1F3FE 200D 2640 FE0F, 1F64D 1F3FF 200D 2640 FE0F ]
+  - emoji: 🙎
+    code: 1F64E
+    name: 不機嫌な人
+    readings:
+      - ふきげんなひと
+      - ふきげん
+      - ぷんぷん
+      - ふくれっつら
+      - むすっ
+      - おこ
+    en: person pouting
+    since: "0.6"
+    subgroup: person-gesture
+    keywords: [ ふくれる, ぷんぷん, 不機嫌, 不機嫌な人, 口を尖らせた人, 険しい表情 ]
+    variants: [ 1F64E 1F3FB, 1F64E 1F3FC, 1F64E 1F3FD, 1F64E 1F3FE, 1F64E 1F3FF ]
+  - emoji: 🙎‍♂️
+    code: 1F64E 200D 2642 FE0F
+    name: 不機嫌な男
+    readings:
+      - ふきげんなおとこ
+      - ふきげん
+      - ぷんぷん
+      - ふくれっつら
+      - むすっ
+    en: man pouting
+    since: "4.0"
+    subgroup: person-gesture
+    keywords: [ ぷんぷん, 不機嫌, 不機嫌な男, 口を尖らせた男, 男, 男性 ]
+    variants: [ 1F64E 1F3FB 200D 2642 FE0F, 1F64E 1F3FC 200D 2642 FE0F, 1F64E 1F3FD 200D 2642 FE0F, 1F64E 1F3FE 200D 2642 FE0F, 1F64E 1F3FF 200D 2642 FE0F ]
+  - emoji: 🙎‍♀️
+    code: 1F64E 200D 2640 FE0F
+    name: 不機嫌な女
+    readings:
+      - ふきげんなおんな
+      - ふきげん
+      - ぷんぷん
+      - ふくれっつら
+      - むすっ
+    en: woman pouting
+    since: "4.0"
+    subgroup: person-gesture
+    keywords: [ ぷんぷん, 不機嫌, 不機嫌な女, 女, 女性 ]
+    variants: [ 1F64E 1F3FB 200D 2640 FE0F, 1F64E 1F3FC 200D 2640 FE0F, 1F64E 1F3FD 200D 2640 FE0F, 1F64E 1F3FE 200D 2640 FE0F, 1F64E 1F3FF 200D 2640 FE0F ]
+  - emoji: 🙅
+    code: 1F645
+    name: ダメのポーズをする人
+    readings:
+      - だめのぽーずをするひと
+      - だめ
+      - ばつ
+      - きんし
+      - おことわり
+      - えぬじー
+      - ng
+      - むり
+    en: person gesturing NO
+    since: "0.6"
+    subgroup: person-gesture
+    keywords: [ NG, お断り, ジェスチャー, だめ, ダメのポーズをする人, バツ, 人, 禁止, 禁止された, 除外 ]
+    variants: [ 1F645 1F3FB, 1F645 1F3FC, 1F645 1F3FD, 1F645 1F3FE, 1F645 1F3FF ]
+  - emoji: 🙅‍♂️
+    code: 1F645 200D 2642 FE0F
+    name: ダメのポーズをする男
+    readings:
+      - だめのぽーずをするおとこ
+      - だめ
+      - ばつ
+      - きんし
+      - えぬじー
+      - ng
+    en: man gesturing NO
+    since: "4.0"
+    subgroup: person-gesture
+    keywords: [ NG, ジェスチャー, ダメのポーズをする男, バツ, 男, 男性, 禁止 ]
+    variants: [ 1F645 1F3FB 200D 2642 FE0F, 1F645 1F3FC 200D 2642 FE0F, 1F645 1F3FD 200D 2642 FE0F, 1F645 1F3FE 200D 2642 FE0F, 1F645 1F3FF 200D 2642 FE0F ]
+  - emoji: 🙅‍♀️
+    code: 1F645 200D 2640 FE0F
+    name: ダメのポーズをする女
+    readings:
+      - だめのぽーずをするおんな
+      - だめ
+      - ばつ
+      - きんし
+      - えぬじー
+      - ng
+    en: woman gesturing NO
+    since: "4.0"
+    subgroup: person-gesture
+    keywords: [ NG, ジェスチャー, ダメのポーズをする女, バツ, 女, 女性 ]
+    variants: [ 1F645 1F3FB 200D 2640 FE0F, 1F645 1F3FC 200D 2640 FE0F, 1F645 1F3FD 200D 2640 FE0F, 1F645 1F3FE 200D 2640 FE0F, 1F645 1F3FF 200D 2640 FE0F ]
+  - emoji: 🙆
+    code: 1F646
+    name: OKのポーズをする人
+    readings:
+      - おーけーのぽーずをするひと
+      - おーけー
+      - おっけー
+      - まる
+      - いいよ
+      - ok
+    en: person gesturing OK
+    since: "0.6"
+    subgroup: person-gesture
+    keywords: [ OK, OKのポーズをする人, エクササイズ, オーケー, ジェスチャー, びっくり, 丸, 人, 手 ]
+    variants: [ 1F646 1F3FB, 1F646 1F3FC, 1F646 1F3FD, 1F646 1F3FE, 1F646 1F3FF ]
+  - emoji: 🙆‍♂️
+    code: 1F646 200D 2642 FE0F
+    name: OKのポーズをする男
+    readings:
+      - おーけーのぽーずをするおとこ
+      - おーけー
+      - おっけー
+      - まる
+      - いいよ
+      - ok
+    en: man gesturing OK
+    since: "4.0"
+    subgroup: person-gesture
+    keywords: [ OK, OKのポーズをする男, オーケー, オッケー, ジェスチャー, 丸, 男, 男性 ]
+    variants: [ 1F646 1F3FB 200D 2642 FE0F, 1F646 1F3FC 200D 2642 FE0F, 1F646 1F3FD 200D 2642 FE0F, 1F646 1F3FE 200D 2642 FE0F, 1F646 1F3FF 200D 2642 FE0F ]
+  - emoji: 🙆‍♀️
+    code: 1F646 200D 2640 FE0F
+    name: OKのポーズをする女
+    readings:
+      - おーけーのぽーずをするおんな
+      - おーけー
+      - おっけー
+      - まる
+      - いいよ
+      - ok
+    en: woman gesturing OK
+    since: "4.0"
+    subgroup: person-gesture
+    keywords: [ OKのポーズをする女, オーケー, オッケー, ジェスチャー, 丸, 女性 ]
+    variants: [ 1F646 1F3FB 200D 2640 FE0F, 1F646 1F3FC 200D 2640 FE0F, 1F646 1F3FD 200D 2640 FE0F, 1F646 1F3FE 200D 2640 FE0F, 1F646 1F3FF 200D 2640 FE0F ]
+  - emoji: 💁
+    code: 1F481
+    name: 案内する人
+    readings:
+      - あんないするひと
+      - あんない
+      - うけつけ
+      - いんふぉめーしょん
+      - どうぞ
+      - かみをかきあげる
+    en: person tipping hand
+    since: "0.6"
+    subgroup: person-gesture
+    keywords: [ ゴシップ, ジェスチャー, 受付, 受付嬢, 手を返している人, 案内, 案内する人, 案内する女, 髪をかき上げる, 髪を振り払う ]
+    variants: [ 1F481 1F3FB, 1F481 1F3FC, 1F481 1F3FD, 1F481 1F3FE, 1F481 1F3FF ]
+  - emoji: 💁‍♂️
+    code: 1F481 200D 2642 FE0F
+    name: 案内する男
+    readings:
+      - あんないするおとこ
+      - あんない
+      - うけつけ
+      - どうぞ
+    en: man tipping hand
+    since: "4.0"
+    subgroup: person-gesture
+    keywords: [ ジェスチャー, 案内, 案内する男, 男, 男性 ]
+    variants: [ 1F481 1F3FB 200D 2642 FE0F, 1F481 1F3FC 200D 2642 FE0F, 1F481 1F3FD 200D 2642 FE0F, 1F481 1F3FE 200D 2642 FE0F, 1F481 1F3FF 200D 2642 FE0F ]
+  - emoji: 💁‍♀️
+    code: 1F481 200D 2640 FE0F
+    name: 案内する女
+    readings:
+      - あんないするおんな
+      - あんない
+      - うけつけ
+      - うけつけじょう
+      - どうぞ
+    en: woman tipping hand
+    since: "4.0"
+    subgroup: person-gesture
+    keywords: [ ジェスチャー, 女, 女性, 案内, 案内する女 ]
+    variants: [ 1F481 1F3FB 200D 2640 FE0F, 1F481 1F3FC 200D 2640 FE0F, 1F481 1F3FD 200D 2640 FE0F, 1F481 1F3FE 200D 2640 FE0F, 1F481 1F3FF 200D 2640 FE0F ]
+  - emoji: 🙋
+    code: 1F64B
+    name: 手を挙げる人
+    readings:
+      - てをあげるひと
+      - きょしゅ
+      - はい
+      - しつもん
+      - てをあげる
+      - はーい
+    en: person raising hand
+    since: "0.6"
+    subgroup: person-gesture
+    keywords: [ ジェスチャー, 人, 分かった, 手, 手を挙げる, 手を挙げる人, 挙手, 質問 ]
+    variants: [ 1F64B 1F3FB, 1F64B 1F3FC, 1F64B 1F3FD, 1F64B 1F3FE, 1F64B 1F3FF ]
+  - emoji: 🙋‍♂️
+    code: 1F64B 200D 2642 FE0F
+    name: 手を挙げる男
+    readings:
+      - てをあげるおとこ
+      - きょしゅ
+      - はい
+      - しつもん
+      - てをあげる
+    en: man raising hand
+    since: "4.0"
+    subgroup: person-gesture
+    keywords: [ 手を挙げる, 手を挙げる男, 挙手, 男, 男性 ]
+    variants: [ 1F64B 1F3FB 200D 2642 FE0F, 1F64B 1F3FC 200D 2642 FE0F, 1F64B 1F3FD 200D 2642 FE0F, 1F64B 1F3FE 200D 2642 FE0F, 1F64B 1F3FF 200D 2642 FE0F ]
+  - emoji: 🙋‍♀️
+    code: 1F64B 200D 2640 FE0F
+    name: 手を挙げる女
+    readings:
+      - てをあげるおんな
+      - きょしゅ
+      - はい
+      - しつもん
+      - てをあげる
+    en: woman raising hand
+    since: "4.0"
+    subgroup: person-gesture
+    keywords: [ 女, 女性, 手を挙げる, 手を挙げる女, 挙手 ]
+    variants: [ 1F64B 1F3FB 200D 2640 FE0F, 1F64B 1F3FC 200D 2640 FE0F, 1F64B 1F3FD 200D 2640 FE0F, 1F64B 1F3FE 200D 2640 FE0F, 1F64B 1F3FF 200D 2640 FE0F ]
+  - emoji: 🧏
+    code: 1F9CF
+    name: 耳の不自由な人
+    readings:
+      - みみのふじゆうなひと
+      - ちょうかくしょうがい
+      - なんちょう
+      - きこえない
+      - ろう
+      - しゅわ
+    en: deaf person
+    since: "12.0"
+    subgroup: person-gesture
+    keywords: [ アクセシビリティ, 人, 耳の不自由な人, 聞こえない, 聴覚, 障がい ]
+    variants: [ 1F9CF 1F3FB, 1F9CF 1F3FC, 1F9CF 1F3FD, 1F9CF 1F3FE, 1F9CF 1F3FF ]
+  - emoji: 🧏‍♂️
+    code: 1F9CF 200D 2642 FE0F
+    name: 耳の不自由な男性
+    readings:
+      - みみのふじゆうなだんせい
+      - ちょうかくしょうがい
+      - なんちょう
+      - きこえない
+      - しゅわ
+    en: deaf man
+    since: "12.0"
+    subgroup: person-gesture
+    keywords: [ アクセシビリティ, 男性, 耳の不自由な男性, 聴覚, 障がい ]
+    variants: [ 1F9CF 1F3FB 200D 2642 FE0F, 1F9CF 1F3FC 200D 2642 FE0F, 1F9CF 1F3FD 200D 2642 FE0F, 1F9CF 1F3FE 200D 2642 FE0F, 1F9CF 1F3FF 200D 2642 FE0F ]
+  - emoji: 🧏‍♀️
+    code: 1F9CF 200D 2640 FE0F
+    name: 耳の不自由な女性
+    readings:
+      - みみのふじゆうなじょせい
+      - ちょうかくしょうがい
+      - なんちょう
+      - きこえない
+      - しゅわ
+    en: deaf woman
+    since: "12.0"
+    subgroup: person-gesture
+    keywords: [ アクセシビリティ, 女性, 耳の不自由な女性, 聴覚, 障がい ]
+    variants: [ 1F9CF 1F3FB 200D 2640 FE0F, 1F9CF 1F3FC 200D 2640 FE0F, 1F9CF 1F3FD 200D 2640 FE0F, 1F9CF 1F3FE 200D 2640 FE0F, 1F9CF 1F3FF 200D 2640 FE0F ]
+  - emoji: 🙇
+    code: 1F647
+    name: おじぎする人
+    readings:
+      - おじぎするひと
+      - おじぎ
+      - どげざ
+      - しゃざい
+      - ごめんなさい
+      - すみません
+      - もうしわけない
+      - おねがい
+    en: person bowing
+    since: "0.6"
+    subgroup: person-gesture
+    keywords: [ おじぎ, おじぎする人, お願い, ごめんなさい, ジェスチャー, 土下座, 許して, 謝罪 ]
+    variants: [ 1F647 1F3FB, 1F647 1F3FC, 1F647 1F3FD, 1F647 1F3FE, 1F647 1F3FF ]
+  - emoji: 🙇‍♂️
+    code: 1F647 200D 2642 FE0F
+    name: おじぎする男
+    readings:
+      - おじぎするおとこ
+      - おじぎ
+      - どげざ
+      - しゃざい
+      - ごめんなさい
+      - すみません
+    en: man bowing
+    since: "4.0"
+    subgroup: person-gesture
+    keywords: [ おじぎ, おじぎする男, ごめんなさい, 土下座, 男, 男性 ]
+    variants: [ 1F647 1F3FB 200D 2642 FE0F, 1F647 1F3FC 200D 2642 FE0F, 1F647 1F3FD 200D 2642 FE0F, 1F647 1F3FE 200D 2642 FE0F, 1F647 1F3FF 200D 2642 FE0F ]
+  - emoji: 🙇‍♀️
+    code: 1F647 200D 2640 FE0F
+    name: おじぎする女
+    readings:
+      - おじぎするおんな
+      - おじぎ
+      - どげざ
+      - しゃざい
+      - ごめんなさい
+      - すみません
+    en: woman bowing
+    since: "4.0"
+    subgroup: person-gesture
+    keywords: [ おじぎ, おじぎする女, ごめんなさい, 土下座, 女, 女性 ]
+    variants: [ 1F647 1F3FB 200D 2640 FE0F, 1F647 1F3FC 200D 2640 FE0F, 1F647 1F3FD 200D 2640 FE0F, 1F647 1F3FE 200D 2640 FE0F, 1F647 1F3FF 200D 2640 FE0F ]
+  - emoji: 🤦
+    code: 1F926
+    name: ひたいに手をあてる人
+    readings:
+      - ひたいにてをあてるひと
+      - あちゃー
+      - やれやれ
+      - またか
+      - うそでしょ
+      - ふぇいすぱーむ
+      - あきれる
+    en: person facepalming
+    since: "3.0"
+    subgroup: person-gesture
+    keywords: [ あちゃー, うそでしょ, ジェスチャー, ショック, ひたいに手, ひたいに手をあてる人, またか, 人, 信じられない ]
+    variants: [ 1F926 1F3FB, 1F926 1F3FC, 1F926 1F3FD, 1F926 1F3FE, 1F926 1F3FF ]
+  - emoji: 🤦‍♂️
+    code: 1F926 200D 2642 FE0F
+    name: ひたいに手をあてる男
+    readings:
+      - ひたいにてをあてるおとこ
+      - あちゃー
+      - やれやれ
+      - またか
+      - うそでしょ
+      - ふぇいすぱーむ
+    en: man facepalming
+    since: "4.0"
+    subgroup: person-gesture
+    keywords: [ あちゃー, うそでしょ, ジェスチャー, ショック, ひたいに手, ひたいに手をあてる男, またか, 信じられない, 男, 男性 ]
+    variants: [ 1F926 1F3FB 200D 2642 FE0F, 1F926 1F3FC 200D 2642 FE0F, 1F926 1F3FD 200D 2642 FE0F, 1F926 1F3FE 200D 2642 FE0F, 1F926 1F3FF 200D 2642 FE0F ]
+  - emoji: 🤦‍♀️
+    code: 1F926 200D 2640 FE0F
+    name: ひたいに手をあてる女
+    readings:
+      - ひたいにてをあてるおんな
+      - あちゃー
+      - やれやれ
+      - またか
+      - うそでしょ
+      - ふぇいすぱーむ
+    en: woman facepalming
+    since: "4.0"
+    subgroup: person-gesture
+    keywords: [ あちゃー, うそでしょ, ジェスチャー, ショック, ひたいに手, ひたいに手をあてる女, またか, 信じられない, 女, 女性 ]
+    variants: [ 1F926 1F3FB 200D 2640 FE0F, 1F926 1F3FC 200D 2640 FE0F, 1F926 1F3FD 200D 2640 FE0F, 1F926 1F3FE 200D 2640 FE0F, 1F926 1F3FF 200D 2640 FE0F ]
+  - emoji: 🤷
+    code: 1F937
+    name: お手上げする人
+    readings:
+      - おてあげするひと
+      - おてあげ
+      - さあね
+      - しらない
+      - わからない
+      - かたをすくめる
+      - しらんけど
+    en: person shrugging
+    since: "3.0"
+    subgroup: person-gesture
+    keywords: [ お手上げ, お手上げする人, さあね, ジェスチャー, わかりません, 人, 多分ね, 知らない, 肩をすくめる ]
+    variants: [ 1F937 1F3FB, 1F937 1F3FC, 1F937 1F3FD, 1F937 1F3FE, 1F937 1F3FF ]
+  - emoji: 🤷‍♂️
+    code: 1F937 200D 2642 FE0F
+    name: お手上げする男
+    readings:
+      - おてあげするおとこ
+      - おてあげ
+      - さあね
+      - しらない
+      - わからない
+      - かたをすくめる
+    en: man shrugging
+    since: "4.0"
+    subgroup: person-gesture
+    keywords: [ お手上げ, お手上げする男, さあね, ジェスチャー, わかりません, 多分ね, 男, 男性, 知らない, 肩をすくめる ]
+    variants: [ 1F937 1F3FB 200D 2642 FE0F, 1F937 1F3FC 200D 2642 FE0F, 1F937 1F3FD 200D 2642 FE0F, 1F937 1F3FE 200D 2642 FE0F, 1F937 1F3FF 200D 2642 FE0F ]
+  - emoji: 🤷‍♀️
+    code: 1F937 200D 2640 FE0F
+    name: お手上げする女
+    readings:
+      - おてあげするおんな
+      - おてあげ
+      - さあね
+      - しらない
+      - わからない
+      - かたをすくめる
+    en: woman shrugging
+    since: "4.0"
+    subgroup: person-gesture
+    keywords: [ お手上げ, お手上げする女, さあね, ジェスチャー, わかりません, 多分ね, 女, 女性, 知らない, 肩をすくめる ]
+    variants: [ 1F937 1F3FB 200D 2640 FE0F, 1F937 1F3FC 200D 2640 FE0F, 1F937 1F3FD 200D 2640 FE0F, 1F937 1F3FE 200D 2640 FE0F, 1F937 1F3FF 200D 2640 FE0F ]
+  - emoji: 🧑‍⚕️
+    code: 1F9D1 200D 2695 FE0F
+    name: 医者
+    readings:
+      - いしゃ
+      - いし
+      - どくたー
+      - せんせい
+      - いりょう
+      - いりょうじゅうじしゃ
+    en: health worker
+    since: "12.1"
+    subgroup: person-role
+    keywords: [ セラピスト, 医師, 医者 ]
+    variants: [ 1F9D1 1F3FB 200D 2695 FE0F, 1F9D1 1F3FC 200D 2695 FE0F, 1F9D1 1F3FD 200D 2695 FE0F, 1F9D1 1F3FE 200D 2695 FE0F, 1F9D1 1F3FF 200D 2695 FE0F ]
+  - emoji: 👨‍⚕️
+    code: 1F468 200D 2695 FE0F
+    name: 男性の医者
+    readings:
+      - だんせいのいしゃ
+      - いしゃ
+      - いし
+      - どくたー
+    en: man health worker
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ セラピスト, ドクター, 医師, 医者, 男, 男性, 男性の医者 ]
+    variants: [ 1F468 1F3FB 200D 2695 FE0F, 1F468 1F3FC 200D 2695 FE0F, 1F468 1F3FD 200D 2695 FE0F, 1F468 1F3FE 200D 2695 FE0F, 1F468 1F3FF 200D 2695 FE0F ]
+  - emoji: 👩‍⚕️
+    code: 1F469 200D 2695 FE0F
+    name: 女性の医者
+    readings:
+      - じょせいのいしゃ
+      - いしゃ
+      - いし
+      - じょい
+      - どくたー
+      - かんごし
+    en: woman health worker
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ セラピスト, ドクター, 医師, 医者, 女, 女医, 女性, 女性の医者 ]
+    variants: [ 1F469 1F3FB 200D 2695 FE0F, 1F469 1F3FC 200D 2695 FE0F, 1F469 1F3FD 200D 2695 FE0F, 1F469 1F3FE 200D 2695 FE0F, 1F469 1F3FF 200D 2695 FE0F ]
+  - emoji: 🧑‍🎓
+    code: 1F9D1 200D 1F393
+    name: 学生
+    readings:
+      - がくせい
+      - そつぎょう
+      - かくぼう
+      - だいがくせい
+      - そつぎょうせい
+    en: student
+    since: "12.1"
+    subgroup: person-role
+    keywords: [ 卒業, 学生, 角帽 ]
+    variants: [ 1F9D1 1F3FB 200D 1F393, 1F9D1 1F3FC 200D 1F393, 1F9D1 1F3FD 200D 1F393, 1F9D1 1F3FE 200D 1F393, 1F9D1 1F3FF 200D 1F393 ]
+  - emoji: 👨‍🎓
+    code: 1F468 200D 1F393
+    name: 男子学生
+    readings:
+      - だんしがくせい
+      - がくせい
+      - そつぎょう
+      - だんしだいせい
+    en: man student
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 卒業, 学生, 男, 男子学生, 男性, 角帽 ]
+    variants: [ 1F468 1F3FB 200D 1F393, 1F468 1F3FC 200D 1F393, 1F468 1F3FD 200D 1F393, 1F468 1F3FE 200D 1F393, 1F468 1F3FF 200D 1F393 ]
+  - emoji: 👩‍🎓
+    code: 1F469 200D 1F393
+    name: 女子学生
+    readings:
+      - じょしがくせい
+      - がくせい
+      - そつぎょう
+      - じょしだいせい
+      - じょしだい
+    en: woman student
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 卒業, 女, 女子学生, 女性, 学生, 角帽 ]
+    variants: [ 1F469 1F3FB 200D 1F393, 1F469 1F3FC 200D 1F393, 1F469 1F3FD 200D 1F393, 1F469 1F3FE 200D 1F393, 1F469 1F3FF 200D 1F393 ]
+  - emoji: 🧑‍🏫
+    code: 1F9D1 200D 1F3EB
+    name: 教師
+    readings:
+      - きょうし
+      - せんせい
+      - たんにん
+      - きょうじゅ
+      - こうし
+      - きょういん
+    en: teacher
+    since: "12.1"
+    subgroup: person-role
+    keywords: [ 先生, 担任, 教師, 教授, 講師 ]
+    variants: [ 1F9D1 1F3FB 200D 1F3EB, 1F9D1 1F3FC 200D 1F3EB, 1F9D1 1F3FD 200D 1F3EB, 1F9D1 1F3FE 200D 1F3EB, 1F9D1 1F3FF 200D 1F3EB ]
+  - emoji: 👨‍🏫
+    code: 1F468 200D 1F3EB
+    name: 男性の教師
+    readings:
+      - だんせいのきょうし
+      - きょうし
+      - せんせい
+      - きょうじゅ
+      - こうし
+    en: man teacher
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 先生, 教師, 教授, 男, 男性, 男性の教師, 講師 ]
+    variants: [ 1F468 1F3FB 200D 1F3EB, 1F468 1F3FC 200D 1F3EB, 1F468 1F3FD 200D 1F3EB, 1F468 1F3FE 200D 1F3EB, 1F468 1F3FF 200D 1F3EB ]
+  - emoji: 👩‍🏫
+    code: 1F469 200D 1F3EB
+    name: 女性の教師
+    readings:
+      - じょせいのきょうし
+      - きょうし
+      - せんせい
+      - じょきょうし
+      - きょうじゅ
+      - こうし
+    en: woman teacher
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 先生, 女, 女性, 女性の教師, 教師, 教授, 講師 ]
+    variants: [ 1F469 1F3FB 200D 1F3EB, 1F469 1F3FC 200D 1F3EB, 1F469 1F3FD 200D 1F3EB, 1F469 1F3FE 200D 1F3EB, 1F469 1F3FF 200D 1F3EB ]
+  - emoji: 🧑‍⚖️
+    code: 1F9D1 200D 2696 FE0F
+    name: 裁判官
+    readings:
+      - さいばんかん
+      - さいばん
+      - はんじ
+      - じゃっじ
+      - ほうてい
+    en: judge
+    since: "12.1"
+    subgroup: person-role
+    keywords: [ 裁判, 裁判官 ]
+    variants: [ 1F9D1 1F3FB 200D 2696 FE0F, 1F9D1 1F3FC 200D 2696 FE0F, 1F9D1 1F3FD 200D 2696 FE0F, 1F9D1 1F3FE 200D 2696 FE0F, 1F9D1 1F3FF 200D 2696 FE0F ]
+  - emoji: 👨‍⚖️
+    code: 1F468 200D 2696 FE0F
+    name: 男性の裁判官
+    readings:
+      - だんせいのさいばんかん
+      - さいばんかん
+      - さいばん
+      - はんじ
+    en: man judge
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 男, 男性, 男性の裁判官, 裁判, 裁判官 ]
+    variants: [ 1F468 1F3FB 200D 2696 FE0F, 1F468 1F3FC 200D 2696 FE0F, 1F468 1F3FD 200D 2696 FE0F, 1F468 1F3FE 200D 2696 FE0F, 1F468 1F3FF 200D 2696 FE0F ]
+  - emoji: 👩‍⚖️
+    code: 1F469 200D 2696 FE0F
+    name: 女性の裁判官
+    readings:
+      - じょせいのさいばんかん
+      - さいばんかん
+      - さいばん
+      - はんじ
+    en: woman judge
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 女, 女性, 女性の裁判官, 裁判, 裁判官 ]
+    variants: [ 1F469 1F3FB 200D 2696 FE0F, 1F469 1F3FC 200D 2696 FE0F, 1F469 1F3FD 200D 2696 FE0F, 1F469 1F3FE 200D 2696 FE0F, 1F469 1F3FF 200D 2696 FE0F ]
+  - emoji: 🧑‍🌾
+    code: 1F9D1 200D 1F33E
+    name: 農家
+    readings:
+      - のうか
+      - のうぎょう
+      - のうふ
+      - おひゃくしょう
+      - ふぁーまー
+      - はたけ
+    en: farmer
+    since: "12.1"
+    subgroup: person-role
+    keywords: [ ガーデナー, 農場主, 農家, 農業 ]
+    variants: [ 1F9D1 1F3FB 200D 1F33E, 1F9D1 1F3FC 200D 1F33E, 1F9D1 1F3FD 200D 1F33E, 1F9D1 1F3FE 200D 1F33E, 1F9D1 1F3FF 200D 1F33E ]
+  - emoji: 👨‍🌾
+    code: 1F468 200D 1F33E
+    name: 農家の男性
+    readings:
+      - のうかのだんせい
+      - のうか
+      - のうふ
+      - のうぎょう
+      - ふぁーまー
+    en: man farmer
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 男, 男性, 農夫, 農家, 農家の男性 ]
+    variants: [ 1F468 1F3FB 200D 1F33E, 1F468 1F3FC 200D 1F33E, 1F468 1F3FD 200D 1F33E, 1F468 1F3FE 200D 1F33E, 1F468 1F3FF 200D 1F33E ]
+  - emoji: 👩‍🌾
+    code: 1F469 200D 1F33E
+    name: 農家の女性
+    readings:
+      - のうかのじょせい
+      - のうか
+      - のうふ
+      - のうぎょう
+      - ふぁーまー
+    en: woman farmer
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 女, 女性, 農家, 農家の女性 ]
+    variants: [ 1F469 1F3FB 200D 1F33E, 1F469 1F3FC 200D 1F33E, 1F469 1F3FD 200D 1F33E, 1F469 1F3FE 200D 1F33E, 1F469 1F3FF 200D 1F33E ]
+  - emoji: 🧑‍🍳
+    code: 1F9D1 200D 1F373
+    name: コック
+    readings:
+      - こっく
+      - しぇふ
+      - りょうりにん
+      - りょうり
+      - いたまえ
+    en: cook
+    since: "12.1"
+    subgroup: person-role
+    keywords: [ コック, シェフ, 料理 ]
+    variants: [ 1F9D1 1F3FB 200D 1F373, 1F9D1 1F3FC 200D 1F373, 1F9D1 1F3FD 200D 1F373, 1F9D1 1F3FE 200D 1F373, 1F9D1 1F3FF 200D 1F373 ]
+  - emoji: 👨‍🍳
+    code: 1F468 200D 1F373
+    name: 男性のコック
+    readings:
+      - だんせいのこっく
+      - こっく
+      - しぇふ
+      - りょうりにん
+      - りょうり
+    en: man cook
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ コック, シェフ, 料理, 料理人, 男, 男性, 男性のコック ]
+    variants: [ 1F468 1F3FB 200D 1F373, 1F468 1F3FC 200D 1F373, 1F468 1F3FD 200D 1F373, 1F468 1F3FE 200D 1F373, 1F468 1F3FF 200D 1F373 ]
+  - emoji: 👩‍🍳
+    code: 1F469 200D 1F373
+    name: 女性のコック
+    readings:
+      - じょせいのこっく
+      - こっく
+      - しぇふ
+      - りょうりにん
+      - りょうり
+    en: woman cook
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ コック, シェフ, 女, 女性, 女性のコック, 料理, 料理人 ]
+    variants: [ 1F469 1F3FB 200D 1F373, 1F469 1F3FC 200D 1F373, 1F469 1F3FD 200D 1F373, 1F469 1F3FE 200D 1F373, 1F469 1F3FF 200D 1F373 ]
+  - emoji: 🧑‍🔧
+    code: 1F9D1 200D 1F527
+    name: 整備士
+    readings:
+      - せいびし
+      - めかにっく
+      - すぱな
+      - さぎょういん
+      - しゅうり
+    en: mechanic
+    since: "12.1"
+    subgroup: person-role
+    keywords: [ スパナ, メカニック, 作業員, 工作, 整備士 ]
+    variants: [ 1F9D1 1F3FB 200D 1F527, 1F9D1 1F3FC 200D 1F527, 1F9D1 1F3FD 200D 1F527, 1F9D1 1F3FE 200D 1F527, 1F9D1 1F3FF 200D 1F527 ]
+  - emoji: 👨‍🔧
+    code: 1F468 200D 1F527
+    name: 男性の整備士
+    readings:
+      - だんせいのせいびし
+      - せいびし
+      - めかにっく
+      - はいかんこう
+      - でんきこう
+    en: man mechanic
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ スパナ, メカニック, 工作, 男, 男性, 男性の整備士, 配管工, 電気工 ]
+    variants: [ 1F468 1F3FB 200D 1F527, 1F468 1F3FC 200D 1F527, 1F468 1F3FD 200D 1F527, 1F468 1F3FE 200D 1F527, 1F468 1F3FF 200D 1F527 ]
+  - emoji: 👩‍🔧
+    code: 1F469 200D 1F527
+    name: 女性の整備士
+    readings:
+      - じょせいのせいびし
+      - せいびし
+      - めかにっく
+      - はいかんこう
+      - でんきこう
+    en: woman mechanic
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ スパナ, メカニック, 女, 女性, 女性の整備士, 工作, 配管工, 電気工 ]
+    variants: [ 1F469 1F3FB 200D 1F527, 1F469 1F3FC 200D 1F527, 1F469 1F3FD 200D 1F527, 1F469 1F3FE 200D 1F527, 1F469 1F3FF 200D 1F527 ]
+  - emoji: 🧑‍🏭
+    code: 1F9D1 200D 1F3ED
+    name: 工場労働者
+    readings:
+      - こうじょうろうどうしゃ
+      - ようせつこう
+      - こういん
+      - こうじょう
+      - ものづくり
+      - ようせつ
+    en: factory worker
+    since: "12.1"
+    subgroup: person-role
+    keywords: [ モノづくり, 工員, 工場, 溶接工 ]
+    variants: [ 1F9D1 1F3FB 200D 1F3ED, 1F9D1 1F3FC 200D 1F3ED, 1F9D1 1F3FD 200D 1F3ED, 1F9D1 1F3FE 200D 1F3ED, 1F9D1 1F3FF 200D 1F3ED ]
+  - emoji: 👨‍🏭
+    code: 1F468 200D 1F3ED
+    name: 男性の工場労働者
+    readings:
+      - だんせいのこうじょうろうどうしゃ
+      - ようせつこう
+      - こういん
+      - こうじょう
+      - ようせつ
+    en: man factory worker
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 工員, 溶接, 男, 男性, 男性の溶接工 ]
+    variants: [ 1F468 1F3FB 200D 1F3ED, 1F468 1F3FC 200D 1F3ED, 1F468 1F3FD 200D 1F3ED, 1F468 1F3FE 200D 1F3ED, 1F468 1F3FF 200D 1F3ED ]
+  - emoji: 👩‍🏭
+    code: 1F469 200D 1F3ED
+    name: 女性の工場労働者
+    readings:
+      - じょせいのこうじょうろうどうしゃ
+      - ようせつこう
+      - こういん
+      - こうじょう
+      - ようせつ
+    en: woman factory worker
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 女, 女性, 女性の溶接工, 工員, 溶接 ]
+    variants: [ 1F469 1F3FB 200D 1F3ED, 1F469 1F3FC 200D 1F3ED, 1F469 1F3FD 200D 1F3ED, 1F469 1F3FE 200D 1F3ED, 1F469 1F3FF 200D 1F3ED ]
+  - emoji: 🧑‍💼
+    code: 1F9D1 200D 1F4BC
+    name: 会社員
+    readings:
+      - かいしゃいん
+      - さらりーまん
+      - びじねすぱーそん
+      - しゃいん
+      - かいしゃ
+      - しごと
+    en: office worker
+    since: "12.1"
+    subgroup: person-role
+    keywords: [ サラリーマン, ビジネスパーソン, 会社員 ]
+    variants: [ 1F9D1 1F3FB 200D 1F4BC, 1F9D1 1F3FC 200D 1F4BC, 1F9D1 1F3FD 200D 1F4BC, 1F9D1 1F3FE 200D 1F4BC, 1F9D1 1F3FF 200D 1F4BC ]
+  - emoji: 👨‍💼
+    code: 1F468 200D 1F4BC
+    name: 男性会社員
+    readings:
+      - だんせいかいしゃいん
+      - さらりーまん
+      - びじねすまん
+      - かいしゃいん
+      - しゃいん
+    en: man office worker
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ サラリーマン, ビジネスパーソン, ビジネスマン, 会社員, 男性, 男性会社員 ]
+    variants: [ 1F468 1F3FB 200D 1F4BC, 1F468 1F3FC 200D 1F4BC, 1F468 1F3FD 200D 1F4BC, 1F468 1F3FE 200D 1F4BC, 1F468 1F3FF 200D 1F4BC ]
+  - emoji: 👩‍💼
+    code: 1F469 200D 1F4BC
+    name: 女性会社員
+    readings:
+      - じょせいかいしゃいん
+      - おーえる
+      - ol
+      - かいしゃいん
+      - きゃりあうーまん
+      - しゃいん
+    en: woman office worker
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ OL, サラリーマン, ビジネスパーソン, 会社員, 女, 女性, 女性会社員 ]
+    variants: [ 1F469 1F3FB 200D 1F4BC, 1F469 1F3FC 200D 1F4BC, 1F469 1F3FD 200D 1F4BC, 1F469 1F3FE 200D 1F4BC, 1F469 1F3FF 200D 1F4BC ]
+  - emoji: 🧑‍🔬
+    code: 1F9D1 200D 1F52C
+    name: 科学者
+    readings:
+      - かがくしゃ
+      - けんきゅうしゃ
+      - かがく
+      - じっけん
+      - りけい
+      - はかせ
+    en: scientist
+    since: "12.1"
+    subgroup: person-role
+    keywords: [ 化学者, 物理学者, 生物学者, 科学者 ]
+    variants: [ 1F9D1 1F3FB 200D 1F52C, 1F9D1 1F3FC 200D 1F52C, 1F9D1 1F3FD 200D 1F52C, 1F9D1 1F3FE 200D 1F52C, 1F9D1 1F3FF 200D 1F52C ]
+  - emoji: 👨‍🔬
+    code: 1F468 200D 1F52C
+    name: 男性科学者
+    readings:
+      - だんせいかがくしゃ
+      - かがくしゃ
+      - けんきゅうしゃ
+      - はかせ
+    en: man scientist
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 男, 男性, 男性科学者, 科学者 ]
+    variants: [ 1F468 1F3FB 200D 1F52C, 1F468 1F3FC 200D 1F52C, 1F468 1F3FD 200D 1F52C, 1F468 1F3FE 200D 1F52C, 1F468 1F3FF 200D 1F52C ]
+  - emoji: 👩‍🔬
+    code: 1F469 200D 1F52C
+    name: 女性科学者
+    readings:
+      - じょせいかがくしゃ
+      - かがくしゃ
+      - けんきゅうしゃ
+      - りけじょ
+    en: woman scientist
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 女, 女性, 女性科学者, 科学者 ]
+    variants: [ 1F469 1F3FB 200D 1F52C, 1F469 1F3FC 200D 1F52C, 1F469 1F3FD 200D 1F52C, 1F469 1F3FE 200D 1F52C, 1F469 1F3FF 200D 1F52C ]
+  - emoji: 🧑‍💻
+    code: 1F9D1 200D 1F4BB
+    name: 技術者
+    readings:
+      - ぎじゅつしゃ
+      - ぷろぐらまー
+      - えんじにあ
+      - かいはつしゃ
+      - ぱそこん
+      - こーでぃんぐ
+    en: technologist
+    since: "12.1"
+    subgroup: person-role
+    keywords: [ コンピュータ, パソコン, プログラマ, 技術者, 開発者 ]
+    variants: [ 1F9D1 1F3FB 200D 1F4BB, 1F9D1 1F3FC 200D 1F4BB, 1F9D1 1F3FD 200D 1F4BB, 1F9D1 1F3FE 200D 1F4BB, 1F9D1 1F3FF 200D 1F4BB ]
+  - emoji: 👨‍💻
+    code: 1F468 200D 1F4BB
+    name: 男性技術者
+    readings:
+      - だんせいぎじゅつしゃ
+      - ぷろぐらまー
+      - えんじにあ
+      - かいはつしゃ
+      - ぱそこん
+    en: man technologist
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ コンピュータ, デベロッパ, パソコン, プログラマ, プログラマー, 男, 男性, 男性技術者, 開発者 ]
+    variants: [ 1F468 1F3FB 200D 1F4BB, 1F468 1F3FC 200D 1F4BB, 1F468 1F3FD 200D 1F4BB, 1F468 1F3FE 200D 1F4BB, 1F468 1F3FF 200D 1F4BB ]
+  - emoji: 👩‍💻
+    code: 1F469 200D 1F4BB
+    name: 女性技術者
+    readings:
+      - じょせいぎじゅつしゃ
+      - ぷろぐらまー
+      - えんじにあ
+      - かいはつしゃ
+      - ぱそこん
+    en: woman technologist
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ コンピュータ, デベロッパ, パソコン, プログラマ, プログラマー, 女, 女性, 女性技術者, 開発者 ]
+    variants: [ 1F469 1F3FB 200D 1F4BB, 1F469 1F3FC 200D 1F4BB, 1F469 1F3FD 200D 1F4BB, 1F469 1F3FE 200D 1F4BB, 1F469 1F3FF 200D 1F4BB ]
+  - emoji: 🧑‍🎤
+    code: 1F9D1 200D 1F3A4
+    name: 歌手
+    readings:
+      - かしゅ
+      - しんがー
+      - あーてぃすと
+      - すたー
+      - ろっかー
+      - ばんどまん
+    en: singer
+    since: "12.1"
+    subgroup: person-role
+    keywords: [ アーティスト, シンガー, スター, ロッカー, 歌手 ]
+    variants: [ 1F9D1 1F3FB 200D 1F3A4, 1F9D1 1F3FC 200D 1F3A4, 1F9D1 1F3FD 200D 1F3A4, 1F9D1 1F3FE 200D 1F3A4, 1F9D1 1F3FF 200D 1F3A4 ]
+  - emoji: 👨‍🎤
+    code: 1F468 200D 1F3A4
+    name: 男性歌手
+    readings:
+      - だんせいかしゅ
+      - かしゅ
+      - しんがー
+      - ろっくすたー
+      - あーてぃすと
+    en: man singer
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ アーティスト, エンターテイナー, シンガー, スター, ロックスター, 俳優, 歌手, 男, 男性, 男性歌手 ]
+    variants: [ 1F468 1F3FB 200D 1F3A4, 1F468 1F3FC 200D 1F3A4, 1F468 1F3FD 200D 1F3A4, 1F468 1F3FE 200D 1F3A4, 1F468 1F3FF 200D 1F3A4 ]
+  - emoji: 👩‍🎤
+    code: 1F469 200D 1F3A4
+    name: 女性歌手
+    readings:
+      - じょせいかしゅ
+      - かしゅ
+      - しんがー
+      - ろっくすたー
+      - あーてぃすと
+    en: woman singer
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ アーティスト, エンターテイナー, シンガー, スター, ロックスター, 俳優, 女, 女性, 女性歌手, 歌手 ]
+    variants: [ 1F469 1F3FB 200D 1F3A4, 1F469 1F3FC 200D 1F3A4, 1F469 1F3FD 200D 1F3A4, 1F469 1F3FE 200D 1F3A4, 1F469 1F3FF 200D 1F3A4 ]
+  - emoji: 🧑‍🎨
+    code: 1F9D1 200D 1F3A8
+    name: 芸術家
+    readings:
+      - げいじゅつか
+      - あーてぃすと
+      - がか
+      - えかき
+      - えし
+      - びじゅつ
+    en: artist
+    since: "12.1"
+    subgroup: person-role
+    keywords: [ アーティスト, 画家, 絵描き, 芸術家 ]
+    variants: [ 1F9D1 1F3FB 200D 1F3A8, 1F9D1 1F3FC 200D 1F3A8, 1F9D1 1F3FD 200D 1F3A8, 1F9D1 1F3FE 200D 1F3A8, 1F9D1 1F3FF 200D 1F3A8 ]
+  - emoji: 👨‍🎨
+    code: 1F468 200D 1F3A8
+    name: 男性の芸術家
+    readings:
+      - だんせいのげいじゅつか
+      - げいじゅつか
+      - あーてぃすと
+      - がか
+      - えかき
+    en: man artist
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ アーティスト, 男, 男性, 男性の芸術家, 画家, 芸術家 ]
+    variants: [ 1F468 1F3FB 200D 1F3A8, 1F468 1F3FC 200D 1F3A8, 1F468 1F3FD 200D 1F3A8, 1F468 1F3FE 200D 1F3A8, 1F468 1F3FF 200D 1F3A8 ]
+  - emoji: 👩‍🎨
+    code: 1F469 200D 1F3A8
+    name: 女性の芸術家
+    readings:
+      - じょせいのげいじゅつか
+      - げいじゅつか
+      - あーてぃすと
+      - がか
+      - えかき
+    en: woman artist
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ アーティスト, パレット, 女, 女性, 女性の芸術家, 画家, 芸術家 ]
+    variants: [ 1F469 1F3FB 200D 1F3A8, 1F469 1F3FC 200D 1F3A8, 1F469 1F3FD 200D 1F3A8, 1F469 1F3FE 200D 1F3A8, 1F469 1F3FF 200D 1F3A8 ]
+  - emoji: 🧑‍✈️
+    code: 1F9D1 200D 2708 FE0F
+    name: パイロット
+    readings:
+      - ぱいろっと
+      - そうじゅうし
+      - きちょう
+      - ひこうし
+    en: pilot
+    since: "12.1"
+    subgroup: person-role
+    keywords: [ パイロット, 操縦士, 機長 ]
+    variants: [ 1F9D1 1F3FB 200D 2708 FE0F, 1F9D1 1F3FC 200D 2708 FE0F, 1F9D1 1F3FD 200D 2708 FE0F, 1F9D1 1F3FE 200D 2708 FE0F, 1F9D1 1F3FF 200D 2708 FE0F ]
+  - emoji: 👨‍✈️
+    code: 1F468 200D 2708 FE0F
+    name: 男性パイロット
+    readings:
+      - だんせいぱいろっと
+      - ぱいろっと
+      - そうじゅうし
+      - きちょう
+    en: man pilot
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ パイロット, 操縦士, 男, 男性, 男性パイロット ]
+    variants: [ 1F468 1F3FB 200D 2708 FE0F, 1F468 1F3FC 200D 2708 FE0F, 1F468 1F3FD 200D 2708 FE0F, 1F468 1F3FE 200D 2708 FE0F, 1F468 1F3FF 200D 2708 FE0F ]
+  - emoji: 👩‍✈️
+    code: 1F469 200D 2708 FE0F
+    name: 女性パイロット
+    readings:
+      - じょせいぱいろっと
+      - ぱいろっと
+      - そうじゅうし
+      - きちょう
+    en: woman pilot
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 女, 女性, 女性パイロット, 操縦士 ]
+    variants: [ 1F469 1F3FB 200D 2708 FE0F, 1F469 1F3FC 200D 2708 FE0F, 1F469 1F3FD 200D 2708 FE0F, 1F469 1F3FE 200D 2708 FE0F, 1F469 1F3FF 200D 2708 FE0F ]
+  - emoji: 🧑‍🚀
+    code: 1F9D1 200D 1F680
+    name: 宇宙飛行士
+    readings:
+      - うちゅうひこうし
+      - あすとろのーと
+      - うちゅう
+      - ろけっと
+      - うちゅうじん
+    en: astronaut
+    since: "12.1"
+    subgroup: person-role
+    keywords: [ ロケット, 宇宙飛行士 ]
+    variants: [ 1F9D1 1F3FB 200D 1F680, 1F9D1 1F3FC 200D 1F680, 1F9D1 1F3FD 200D 1F680, 1F9D1 1F3FE 200D 1F680, 1F9D1 1F3FF 200D 1F680 ]
+  - emoji: 👨‍🚀
+    code: 1F468 200D 1F680
+    name: 男性宇宙飛行士
+    readings:
+      - だんせいうちゅうひこうし
+      - うちゅうひこうし
+      - あすとろのーと
+      - うちゅう
+    en: man astronaut
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 宇宙飛行士, 男, 男性, 男性宇宙飛行士 ]
+    variants: [ 1F468 1F3FB 200D 1F680, 1F468 1F3FC 200D 1F680, 1F468 1F3FD 200D 1F680, 1F468 1F3FE 200D 1F680, 1F468 1F3FF 200D 1F680 ]
+  - emoji: 👩‍🚀
+    code: 1F469 200D 1F680
+    name: 女性宇宙飛行士
+    readings:
+      - じょせいうちゅうひこうし
+      - うちゅうひこうし
+      - あすとろのーと
+      - うちゅう
+    en: woman astronaut
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 女, 女性, 女性宇宙飛行士, 宇宙飛行士 ]
+    variants: [ 1F469 1F3FB 200D 1F680, 1F469 1F3FC 200D 1F680, 1F469 1F3FD 200D 1F680, 1F469 1F3FE 200D 1F680, 1F469 1F3FF 200D 1F680 ]
+  - emoji: 🧑‍🚒
+    code: 1F9D1 200D 1F692
+    name: 消防士
+    readings:
+      - しょうぼうし
+      - しょうぼう
+      - れすきゅー
+      - きゅうじょたい
+      - しょうぼうたいいん
+    en: firefighter
+    since: "12.1"
+    subgroup: person-role
+    keywords: [ レスキュー, 救助隊, 消防士 ]
+    variants: [ 1F9D1 1F3FB 200D 1F692, 1F9D1 1F3FC 200D 1F692, 1F9D1 1F3FD 200D 1F692, 1F9D1 1F3FE 200D 1F692, 1F9D1 1F3FF 200D 1F692 ]
+  - emoji: 👨‍🚒
+    code: 1F468 200D 1F692
+    name: 男性消防士
+    readings:
+      - だんせいしょうぼうし
+      - しょうぼうし
+      - しょうぼう
+      - れすきゅー
+    en: man firefighter
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 消防士, 男, 男性, 男性消防士 ]
+    variants: [ 1F468 1F3FB 200D 1F692, 1F468 1F3FC 200D 1F692, 1F468 1F3FD 200D 1F692, 1F468 1F3FE 200D 1F692, 1F468 1F3FF 200D 1F692 ]
+  - emoji: 👩‍🚒
+    code: 1F469 200D 1F692
+    name: 女性消防士
+    readings:
+      - じょせいしょうぼうし
+      - しょうぼうし
+      - しょうぼう
+      - れすきゅー
+    en: woman firefighter
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 女, 女性, 女性消防士, 消防士 ]
+    variants: [ 1F469 1F3FB 200D 1F692, 1F469 1F3FC 200D 1F692, 1F469 1F3FD 200D 1F692, 1F469 1F3FE 200D 1F692, 1F469 1F3FF 200D 1F692 ]
+  - emoji: 👮
+    code: 1F46E
+    name: 警察官
+    readings:
+      - けいさつかん
+      - けいさつ
+      - けいかん
+      - おまわりさん
+      - ぽりす
+      - たいほ
+    en: police officer
+    since: "0.6"
+    subgroup: person-role
+    keywords: [ お巡りさん, 警官, 警察, 警察官, 逮捕する ]
+    variants: [ 1F46E 1F3FB, 1F46E 1F3FC, 1F46E 1F3FD, 1F46E 1F3FE, 1F46E 1F3FF ]
+  - emoji: 👮‍♂️
+    code: 1F46E 200D 2642 FE0F
+    name: 男性警察官
+    readings:
+      - だんせいけいさつかん
+      - けいさつかん
+      - けいさつ
+      - けいかん
+      - おまわりさん
+      - ぽりす
+    en: man police officer
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ お巡りさん, 男性, 男性警察官, 警官, 警察, 警察官 ]
+    variants: [ 1F46E 1F3FB 200D 2642 FE0F, 1F46E 1F3FC 200D 2642 FE0F, 1F46E 1F3FD 200D 2642 FE0F, 1F46E 1F3FE 200D 2642 FE0F, 1F46E 1F3FF 200D 2642 FE0F ]
+  - emoji: 👮‍♀️
+    code: 1F46E 200D 2640 FE0F
+    name: 女性警察官
+    readings:
+      - じょせいけいさつかん
+      - けいさつかん
+      - けいさつ
+      - ふけい
+      - おまわりさん
+      - ぽりす
+    en: woman police officer
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ お巡りさん, 女性, 女性警察官, 警官, 警察, 警察官 ]
+    variants: [ 1F46E 1F3FB 200D 2640 FE0F, 1F46E 1F3FC 200D 2640 FE0F, 1F46E 1F3FD 200D 2640 FE0F, 1F46E 1F3FE 200D 2640 FE0F, 1F46E 1F3FF 200D 2640 FE0F ]
+  - emoji: 🕵️
+    code: 1F575 FE0F
+    name: 探偵
+    readings:
+      - たんてい
+      - すぱい
+      - しりつたんてい
+      - めいたんてい
+      - でぃてくてぃぶ
+      - すいり
+    en: detective
+    since: "0.7"
+    subgroup: person-role
+    keywords: [ スパイ, 探偵, 私立探偵, 虫めがね ]
+    variants: [ 1F575 1F3FB, 1F575 1F3FC, 1F575 1F3FD, 1F575 1F3FE, 1F575 1F3FF ]
+  - emoji: 🕵️‍♂️
+    code: 1F575 FE0F 200D 2642 FE0F
+    name: 男性の探偵
+    readings:
+      - だんせいのたんてい
+      - たんてい
+      - めいたんてい
+      - すぱい
+    en: man detective
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 探偵, 男, 男性, 男性の探偵, 虫めがね ]
+    variants: [ 1F575 1F3FB 200D 2642 FE0F, 1F575 1F3FC 200D 2642 FE0F, 1F575 1F3FD 200D 2642 FE0F, 1F575 1F3FE 200D 2642 FE0F, 1F575 1F3FF 200D 2642 FE0F ]
+  - emoji: 🕵️‍♀️
+    code: 1F575 FE0F 200D 2640 FE0F
+    name: 女性の探偵
+    readings:
+      - じょせいのたんてい
+      - たんてい
+      - めいたんてい
+      - すぱい
+    en: woman detective
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 女, 女性, 女性の探偵, 探偵, 私立探偵, 虫めがね ]
+    variants: [ 1F575 1F3FB 200D 2640 FE0F, 1F575 1F3FC 200D 2640 FE0F, 1F575 1F3FD 200D 2640 FE0F, 1F575 1F3FE 200D 2640 FE0F, 1F575 1F3FF 200D 2640 FE0F ]
+  - emoji: 💂
+    code: 1F482
+    name: 衛兵
+    readings:
+      - えいへい
+      - けいび
+      - もんばん
+      - しゅえい
+      - このえへい
+      - ばっきんがむ
+    en: guard
+    since: "0.6"
+    subgroup: person-role
+    keywords: [ 守衛, 衛兵, 警備, 門番 ]
+    variants: [ 1F482 1F3FB, 1F482 1F3FC, 1F482 1F3FD, 1F482 1F3FE, 1F482 1F3FF ]
+  - emoji: 💂‍♂️
+    code: 1F482 200D 2642 FE0F
+    name: 男性の衛兵
+    readings:
+      - だんせいのえいへい
+      - えいへい
+      - けいび
+      - もんばん
+      - しゅえい
+    en: man guard
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 守衛, 男性, 男性の衛兵, 衛兵, 警備, 門番 ]
+    variants: [ 1F482 1F3FB 200D 2642 FE0F, 1F482 1F3FC 200D 2642 FE0F, 1F482 1F3FD 200D 2642 FE0F, 1F482 1F3FE 200D 2642 FE0F, 1F482 1F3FF 200D 2642 FE0F ]
+  - emoji: 💂‍♀️
+    code: 1F482 200D 2640 FE0F
+    name: 女性の衛兵
+    readings:
+      - じょせいのえいへい
+      - えいへい
+      - けいび
+      - もんばん
+      - しゅえい
+    en: woman guard
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ 女性, 女性の衛兵, 守衛, 衛兵, 警備, 門番 ]
+    variants: [ 1F482 1F3FB 200D 2640 FE0F, 1F482 1F3FC 200D 2640 FE0F, 1F482 1F3FD 200D 2640 FE0F, 1F482 1F3FE 200D 2640 FE0F, 1F482 1F3FF 200D 2640 FE0F ]
+  - emoji: 🥷
+    code: 1F977
+    name: 忍者
+    readings:
+      - にんじゃ
+      - しのび
+      - にんじゅつ
+      - おんみつ
+      - くのいち
+      - にんにん
+    en: ninja
+    since: "13.0"
+    subgroup: person-role
+    keywords: [ スパイ, 人, 忍び, 忍者, 忍術, 草の者, 隠密 ]
+    variants: [ 1F977 1F3FB, 1F977 1F3FC, 1F977 1F3FD, 1F977 1F3FE, 1F977 1F3FF ]
+  - emoji: 👷
+    code: 1F477
+    name: 建設作業員
+    readings:
+      - けんせつさぎょういん
+      - さぎょういん
+      - こうじ
+      - けんせつ
+      - へるめっと
+      - げんば
+      - どかた
+    en: construction worker
+    since: "0.6"
+    subgroup: person-role
+    keywords: [ ハンマー, ヘルメット, 作業員, 工事, 建設 ]
+    variants: [ 1F477 1F3FB, 1F477 1F3FC, 1F477 1F3FD, 1F477 1F3FE, 1F477 1F3FF ]
+  - emoji: 👷‍♂️
+    code: 1F477 200D 2642 FE0F
+    name: 男性の建設作業員
+    readings:
+      - だんせいのけんせつさぎょういん
+      - さぎょういん
+      - こうじ
+      - けんせつ
+      - げんば
+    en: man construction worker
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ ハンマー, ヘルメット, 作業員, 工事, 建設, 男, 男性, 男性の建設作業員 ]
+    variants: [ 1F477 1F3FB 200D 2642 FE0F, 1F477 1F3FC 200D 2642 FE0F, 1F477 1F3FD 200D 2642 FE0F, 1F477 1F3FE 200D 2642 FE0F, 1F477 1F3FF 200D 2642 FE0F ]
+  - emoji: 👷‍♀️
+    code: 1F477 200D 2640 FE0F
+    name: 女性の建設作業員
+    readings:
+      - じょせいのけんせつさぎょういん
+      - さぎょういん
+      - こうじ
+      - けんせつ
+      - げんば
+    en: woman construction worker
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ ハンマー, ヘルメット, 作業員, 女, 女性, 女性の建設作業員, 工事, 建設 ]
+    variants: [ 1F477 1F3FB 200D 2640 FE0F, 1F477 1F3FC 200D 2640 FE0F, 1F477 1F3FD 200D 2640 FE0F, 1F477 1F3FE 200D 2640 FE0F, 1F477 1F3FF 200D 2640 FE0F ]
+  - emoji: 🫅
+    code: 1FAC5
+    name: 王冠をかぶった人
+    readings:
+      - おうかんをかぶったひと
+      - おうさま
+      - こくおう
+      - くんしゅ
+      - おうぞく
+      - おう
+      - じょおう
+    en: person with crown
+    since: "14.0"
+    subgroup: person-role
+    keywords: [ 君主, 国王, 女王, 王, 王冠をかぶった人, 王家, 王族, 王様 ]
+    variants: [ 1FAC5 1F3FB, 1FAC5 1F3FC, 1FAC5 1F3FD, 1FAC5 1F3FE, 1FAC5 1F3FF ]
+  - emoji: 🤴
+    code: 1F934
+    name: 王子
+    readings:
+      - おうじ
+      - ぷりんす
+      - おうじさま
+      - おうぞく
+    en: prince
+    since: "3.0"
+    subgroup: person-role
+    keywords: [ プリンス, 王子, 王族, 男, 男性 ]
+    variants: [ 1F934 1F3FB, 1F934 1F3FC, 1F934 1F3FD, 1F934 1F3FE, 1F934 1F3FF ]
+  - emoji: 👸
+    code: 1F478
+    name: 王女
+    readings:
+      - おうじょ
+      - ぷりんせす
+      - おひめさま
+      - ひめ
+      - じょおう
+      - おうひ
+    en: princess
+    since: "0.6"
+    subgroup: person-role
+    keywords: [ お姫さま, クイーン, プリンセス, 冠, 女, 女性, 女王, 王女, 王妃 ]
+    variants: [ 1F478 1F3FB, 1F478 1F3FC, 1F478 1F3FD, 1F478 1F3FE, 1F478 1F3FF ]
+  - emoji: 👳
+    code: 1F473
+    name: ターバンの人
+    readings:
+      - たーばんのひと
+      - たーばん
+      - いんどじん
+    en: person wearing turban
+    since: "0.6"
+    subgroup: person-role
+    keywords: [ ターバン, ターバンの人, 帽子 ]
+    variants: [ 1F473 1F3FB, 1F473 1F3FC, 1F473 1F3FD, 1F473 1F3FE, 1F473 1F3FF ]
+  - emoji: 👳‍♂️
+    code: 1F473 200D 2642 FE0F
+    name: ターバンの男性
+    readings:
+      - たーばんのだんせい
+      - たーばん
+    en: man wearing turban
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ ターバン, ターバンの男性, 男, 男性 ]
+    variants: [ 1F473 1F3FB 200D 2642 FE0F, 1F473 1F3FC 200D 2642 FE0F, 1F473 1F3FD 200D 2642 FE0F, 1F473 1F3FE 200D 2642 FE0F, 1F473 1F3FF 200D 2642 FE0F ]
+  - emoji: 👳‍♀️
+    code: 1F473 200D 2640 FE0F
+    name: ターバンの女性
+    readings:
+      - たーばんのじょせい
+      - たーばん
+    en: woman wearing turban
+    since: "4.0"
+    subgroup: person-role
+    keywords: [ ターバン, ターバンの女性, 女, 女性 ]
+    variants: [ 1F473 1F3FB 200D 2640 FE0F, 1F473 1F3FC 200D 2640 FE0F, 1F473 1F3FD 200D 2640 FE0F, 1F473 1F3FE 200D 2640 FE0F, 1F473 1F3FF 200D 2640 FE0F ]
+  - emoji: 👲
+    code: 1F472
+    name: 中華帽の男性
+    readings:
+      - ちゅうかぼうのだんせい
+      - ちゅうかぼう
+      - おわんぼう
+      - ぐゎぴまお
+      - ちゅうごくじん
+    en: person with skullcap
+    since: "0.6"
+    subgroup: person-role
+    keywords: [ おわん帽, 中華帽の男性, 男, 男性 ]
+    variants: [ 1F472 1F3FB, 1F472 1F3FC, 1F472 1F3FD, 1F472 1F3FE, 1F472 1F3FF ]
+  - emoji: 🧕
+    code: 1F9D5
+    name: スカーフの女性
+    readings:
+      - すかーふのじょせい
+      - すかーふ
+      - ひじゃぶ
+      - べーる
+      - ずきん
+    en: woman with headscarf
+    since: "5.0"
+    subgroup: person-role
+    keywords: [ スカーフ, スカーフの女性, ヒジャブ, ベール, 女, 女性 ]
+    variants: [ 1F9D5 1F3FB, 1F9D5 1F3FC, 1F9D5 1F3FD, 1F9D5 1F3FE, 1F9D5 1F3FF ]
+  - emoji: 🤵
+    code: 1F935
+    name: タキシードの人
+    readings:
+      - たきしーどのひと
+      - たきしーど
+      - せいそう
+      - ふぉーまる
+      - しんろう
+      - けっこんしき
+    en: person in tuxedo
+    since: "3.0"
+    subgroup: person-role
+    keywords: [ タキシード, タキシードの人, フォーマル, 人, 正装, 結婚 ]
+    variants: [ 1F935 1F3FB, 1F935 1F3FC, 1F935 1F3FD, 1F935 1F3FE, 1F935 1F3FF ]
+  - emoji: 🤵‍♂️
+    code: 1F935 200D 2642 FE0F
+    name: タキシードの男性
+    readings:
+      - たきしーどのだんせい
+      - たきしーど
+      - しんろう
+      - はなむこ
+      - せいそう
+    en: man in tuxedo
+    since: "13.0"
+    subgroup: person-role
+    keywords: [ タキシード, タキシードの男, タキシードの男性, 男, 男性 ]
+    variants: [ 1F935 1F3FB 200D 2642 FE0F, 1F935 1F3FC 200D 2642 FE0F, 1F935 1F3FD 200D 2642 FE0F, 1F935 1F3FE 200D 2642 FE0F, 1F935 1F3FF 200D 2642 FE0F ]
+  - emoji: 🤵‍♀️
+    code: 1F935 200D 2640 FE0F
+    name: タキシードの女性
+    readings:
+      - たきしーどのじょせい
+      - たきしーど
+      - せいそう
+      - ふぉーまる
+    en: woman in tuxedo
+    since: "13.0"
+    subgroup: person-role
+    keywords: [ タキシード, タキシードの女, タキシードの女性, 女, 女性 ]
+    variants: [ 1F935 1F3FB 200D 2640 FE0F, 1F935 1F3FC 200D 2640 FE0F, 1F935 1F3FD 200D 2640 FE0F, 1F935 1F3FE 200D 2640 FE0F, 1F935 1F3FF 200D 2640 FE0F ]
+  - emoji: 👰
+    code: 1F470
+    name: ベールの人
+    readings:
+      - べーるのひと
+      - はなよめ
+      - うぇでぃんぐ
+      - けっこん
+      - べーる
+      - しんぷ
+    en: person with veil
+    since: "0.6"
+    subgroup: person-role
+    keywords: [ ウェディング, ベール, ベールの人, 人, 結婚, 顔 ]
+    variants: [ 1F470 1F3FB, 1F470 1F3FC, 1F470 1F3FD, 1F470 1F3FE, 1F470 1F3FF ]
+  - emoji: 👰‍♂️
+    code: 1F470 200D 2642 FE0F
+    name: ベールの男性
+    readings:
+      - べーるのだんせい
+      - べーる
+      - はなむこ
+      - けっこん
+    en: man with veil
+    since: "13.0"
+    subgroup: person-role
+    keywords: [ ベール, ベールの男性, 男, 男性 ]
+    variants: [ 1F470 1F3FB 200D 2642 FE0F, 1F470 1F3FC 200D 2642 FE0F, 1F470 1F3FD 200D 2642 FE0F, 1F470 1F3FE 200D 2642 FE0F, 1F470 1F3FF 200D 2642 FE0F ]
+  - emoji: 👰‍♀️
+    code: 1F470 200D 2640 FE0F
+    name: ベールの女性
+    readings:
+      - べーるのじょせい
+      - はなよめ
+      - しんぷ
+      - うぇでぃんぐどれす
+      - べーる
+      - けっこん
+    en: woman with veil
+    since: "13.0"
+    subgroup: person-role
+    keywords: [ ベール, ベールの女性, 女, 女性 ]
+    variants: [ 1F470 1F3FB 200D 2640 FE0F, 1F470 1F3FC 200D 2640 FE0F, 1F470 1F3FD 200D 2640 FE0F, 1F470 1F3FE 200D 2640 FE0F, 1F470 1F3FF 200D 2640 FE0F ]
+  - emoji: 🤰
+    code: 1F930
+    name: 妊婦
+    readings:
+      - にんぷ
+      - にんしん
+      - またにてぃ
+      - おめでた
+      - みおも
+    en: pregnant woman
+    since: "3.0"
+    subgroup: person-role
+    keywords: [ 女, 女性, 妊娠, 妊婦 ]
+    variants: [ 1F930 1F3FB, 1F930 1F3FC, 1F930 1F3FD, 1F930 1F3FE, 1F930 1F3FF ]
+  - emoji: 🫃
+    code: 1FAC3
+    name: 妊娠した男性
+    readings:
+      - にんしんしただんせい
+      - にんぷ
+      - たべすぎ
+      - まんぷく
+      - ぽっこり
+      - にんしん
+    en: pregnant man
+    since: "14.0"
+    subgroup: person-role
+    keywords: [ 妊夫, 妊娠, 妊娠した人, 男, 男性, 食べ過ぎ ]
+    variants: [ 1FAC3 1F3FB, 1FAC3 1F3FC, 1FAC3 1F3FD, 1FAC3 1F3FE, 1FAC3 1F3FF ]
+  - emoji: 🫄
+    code: 1FAC4
+    name: 妊娠した人
+    readings:
+      - にんしんしたひと
+      - にんしん
+      - にんぷ
+      - たべすぎ
+      - おなか
+      - まんぷく
+    en: pregnant person
+    since: "14.0"
+    subgroup: person-role
+    keywords: [ お腹, 妊夫, 妊娠, 妊娠した人, 妊婦, 食べ過ぎ ]
+    variants: [ 1FAC4 1F3FB, 1FAC4 1F3FC, 1FAC4 1F3FD, 1FAC4 1F3FE, 1FAC4 1F3FF ]
+  - emoji: 🤱
+    code: 1F931
+    name: 授乳
+    readings:
+      - じゅにゅう
+      - ぼにゅう
+      - あかちゃん
+      - みるく
+      - ははおや
+    en: breast-feeding
+    since: "5.0"
+    subgroup: person-role
+    keywords: [ ミルク, 女, 女性, 授乳, 赤ちゃん ]
+    variants: [ 1F931 1F3FB, 1F931 1F3FC, 1F931 1F3FD, 1F931 1F3FE, 1F931 1F3FF ]
+  - emoji: 👩‍🍼
+    code: 1F469 200D 1F37C
+    name: 授乳する女性
+    readings:
+      - じゅにゅうするじょせい
+      - じゅにゅう
+      - まま
+      - ははおや
+      - あかちゃん
+      - みるく
+    en: woman feeding baby
+    since: "13.0"
+    subgroup: person-role
+    keywords: [ ママ, 人, 女, 女性, 授乳, 授乳する女性, 新生児, 母親, 赤ちゃん ]
+    variants: [ 1F469 1F3FB 200D 1F37C, 1F469 1F3FC 200D 1F37C, 1F469 1F3FD 200D 1F37C, 1F469 1F3FE 200D 1F37C, 1F469 1F3FF 200D 1F37C ]
+  - emoji: 👨‍🍼
+    code: 1F468 200D 1F37C
+    name: 授乳する男性
+    readings:
+      - じゅにゅうするだんせい
+      - じゅにゅう
+      - ぱぱ
+      - ちちおや
+      - いくめん
+      - あかちゃん
+      - みるく
+    en: man feeding baby
+    since: "13.0"
+    subgroup: person-role
+    keywords: [ パパ, 人, 授乳, 授乳する男性, 新生児, 父親, 男, 男性, 赤ちゃん ]
+    variants: [ 1F468 1F3FB 200D 1F37C, 1F468 1F3FC 200D 1F37C, 1F468 1F3FD 200D 1F37C, 1F468 1F3FE 200D 1F37C, 1F468 1F3FF 200D 1F37C ]
+  - emoji: 🧑‍🍼
+    code: 1F9D1 200D 1F37C
+    name: 授乳する人
+    readings:
+      - じゅにゅうするひと
+      - じゅにゅう
+      - あかちゃん
+      - みるく
+      - いくじ
+    en: person feeding baby
+    since: "13.0"
+    subgroup: person-role
+    keywords: [ 人, 授乳, 授乳する人, 新生児, 母親, 父親, 赤ちゃん ]
+    variants: [ 1F9D1 1F3FB 200D 1F37C, 1F9D1 1F3FC 200D 1F37C, 1F9D1 1F3FD 200D 1F37C, 1F9D1 1F3FE 200D 1F37C, 1F9D1 1F3FF 200D 1F37C ]
+  - emoji: 👼
+    code: 1F47C
+    name: 天使
+    readings:
+      - てんし
+      - えんじぇる
+      - えんぜる
+      - あかちゃんてんし
+      - きゅーぴっど
+    en: baby angel
+    since: "0.6"
+    subgroup: person-fantasy
+    keywords: [ エンジェル, エンゼル, 天使, 赤ちゃん天使, 顔 ]
+    variants: [ 1F47C 1F3FB, 1F47C 1F3FC, 1F47C 1F3FD, 1F47C 1F3FE, 1F47C 1F3FF ]
+  - emoji: 🎅
+    code: 1F385
+    name: サンタクロース
+    readings:
+      - さんたくろーす
+      - さんた
+      - さんたさん
+      - くりすます
+      - めりーくりすます
+    en: Santa Claus
+    since: "0.6"
+    subgroup: person-fantasy
+    keywords: [ クリスマス, サンタ, サンタクロース, 顔 ]
+    variants: [ 1F385 1F3FB, 1F385 1F3FC, 1F385 1F3FD, 1F385 1F3FE, 1F385 1F3FF ]
+  - emoji: 🤶
+    code: 1F936
+    name: 女性のサンタ
+    readings:
+      - じょせいのさんた
+      - みせすくろーす
+      - さんた
+      - さんたくろーす
+      - くりすます
+    en: Mrs. Claus
+    since: "3.0"
+    subgroup: person-fantasy
+    keywords: [ クリスマス, サンタクロース, 女, 女性, 女性のサンタ ]
+    variants: [ 1F936 1F3FB, 1F936 1F3FC, 1F936 1F3FD, 1F936 1F3FE, 1F936 1F3FF ]
+  - emoji: 🧑‍🎄
+    code: 1F9D1 200D 1F384
+    name: サンタさん
+    readings:
+      - さんたさん
+      - さんた
+      - さんたくろーす
+      - くりすます
+    en: Mx Claus
+    since: "13.0"
+    subgroup: person-fantasy
+    keywords: [ クリスマス, サンタ, サンタクロース, サンタさん, 人, 帽子 ]
+    variants: [ 1F9D1 1F3FB 200D 1F384, 1F9D1 1F3FC 200D 1F384, 1F9D1 1F3FD 200D 1F384, 1F9D1 1F3FE 200D 1F384, 1F9D1 1F3FF 200D 1F384 ]
+  - emoji: 🦸
+    code: 1F9B8
+    name: スーパーヒーロー
+    readings:
+      - すーぱーひーろー
+      - ひーろー
+      - ひろいん
+      - すーぱーまん
+      - ちょうじん
+      - せいぎのみかた
+    en: superhero
+    since: "11.0"
+    subgroup: person-fantasy
+    keywords: [ スーパーヒーロー, スーパーマン, ヒーロー, ヒロイン, 善, 巨大勢力, 超人 ]
+    variants: [ 1F9B8 1F3FB, 1F9B8 1F3FC, 1F9B8 1F3FD, 1F9B8 1F3FE, 1F9B8 1F3FF ]
+  - emoji: 🦸‍♂️
+    code: 1F9B8 200D 2642 FE0F
+    name: 男性のスーパーヒーロー
+    readings:
+      - だんせいのすーぱーひーろー
+      - ひーろー
+      - すーぱーまん
+      - ちょうじん
+      - せいぎのみかた
+    en: man superhero
+    since: "11.0"
+    subgroup: person-fantasy
+    keywords: [ ヒーロー, 善, 男性, 男性のスーパーヒーロー, 超人 ]
+    variants: [ 1F9B8 1F3FB 200D 2642 FE0F, 1F9B8 1F3FC 200D 2642 FE0F, 1F9B8 1F3FD 200D 2642 FE0F, 1F9B8 1F3FE 200D 2642 FE0F, 1F9B8 1F3FF 200D 2642 FE0F ]
+  - emoji: 🦸‍♀️
+    code: 1F9B8 200D 2640 FE0F
+    name: 女性のスーパーヒーロー
+    readings:
+      - じょせいのすーぱーひーろー
+      - ひろいん
+      - ひーろー
+      - ちょうじん
+      - せいぎのみかた
+    en: woman superhero
+    since: "11.0"
+    subgroup: person-fantasy
+    keywords: [ ヒーロー, ヒロイン, 善, 女性, 女性のスーパーヒーロー, 超人 ]
+    variants: [ 1F9B8 1F3FB 200D 2640 FE0F, 1F9B8 1F3FC 200D 2640 FE0F, 1F9B8 1F3FD 200D 2640 FE0F, 1F9B8 1F3FE 200D 2640 FE0F, 1F9B8 1F3FF 200D 2640 FE0F ]
+  - emoji: 🦹
+    code: 1F9B9
+    name: 悪役
+    readings:
+      - あくやく
+      - ゔぃらん
+      - びらん
+      - あくにん
+      - わるもの
+      - はんにん
+      - あくだま
+    en: supervillain
+    since: "11.0"
+    subgroup: person-fantasy
+    keywords: [ ヴィラン, 人, 悪, 悪い人, 悪人, 悪役, 悪玉, 犯人, 犯罪者, 超悪玉 ]
+    variants: [ 1F9B9 1F3FB, 1F9B9 1F3FC, 1F9B9 1F3FD, 1F9B9 1F3FE, 1F9B9 1F3FF ]
+  - emoji: 🦹‍♂️
+    code: 1F9B9 200D 2642 FE0F
+    name: 男性の悪役
+    readings:
+      - だんせいのあくやく
+      - あくやく
+      - ゔぃらん
+      - びらん
+      - わるもの
+    en: man supervillain
+    since: "11.0"
+    subgroup: person-fantasy
+    keywords: [ ヴィラン, 悪, 犯人, 男性, 男性の悪役, 超人 ]
+    variants: [ 1F9B9 1F3FB 200D 2642 FE0F, 1F9B9 1F3FC 200D 2642 FE0F, 1F9B9 1F3FD 200D 2642 FE0F, 1F9B9 1F3FE 200D 2642 FE0F, 1F9B9 1F3FF 200D 2642 FE0F ]
+  - emoji: 🦹‍♀️
+    code: 1F9B9 200D 2640 FE0F
+    name: 女性の悪役
+    readings:
+      - じょせいのあくやく
+      - あくやく
+      - ゔぃらん
+      - びらん
+      - わるもの
+      - あくじょ
+    en: woman supervillain
+    since: "11.0"
+    subgroup: person-fantasy
+    keywords: [ ヴィラン, 女性, 女性の悪役, 悪, 犯人, 超人 ]
+    variants: [ 1F9B9 1F3FB 200D 2640 FE0F, 1F9B9 1F3FC 200D 2640 FE0F, 1F9B9 1F3FD 200D 2640 FE0F, 1F9B9 1F3FE 200D 2640 FE0F, 1F9B9 1F3FF 200D 2640 FE0F ]
+  - emoji: 🧙
+    code: 1F9D9
+    name: 魔法使い
+    readings:
+      - まほうつかい
+      - まほう
+      - まじゅつし
+      - まじょ
+      - うぃざーど
+      - じゅもん
+      - まどうし
+    en: mage
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ ファンタジー, ロールプレイ, 召喚, 呪文, 魔女, 魔法, 魔法使い, 魔術師 ]
+    variants: [ 1F9D9 1F3FB, 1F9D9 1F3FC, 1F9D9 1F3FD, 1F9D9 1F3FE, 1F9D9 1F3FF ]
+  - emoji: 🧙‍♂️
+    code: 1F9D9 200D 2642 FE0F
+    name: 男の魔法使い
+    readings:
+      - おとこのまほうつかい
+      - まほうつかい
+      - まじゅつし
+      - うぃざーど
+      - まどうし
+    en: man mage
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ 男, 男の魔法使い, 男性, 魔法使い ]
+    variants: [ 1F9D9 1F3FB 200D 2642 FE0F, 1F9D9 1F3FC 200D 2642 FE0F, 1F9D9 1F3FD 200D 2642 FE0F, 1F9D9 1F3FE 200D 2642 FE0F, 1F9D9 1F3FF 200D 2642 FE0F ]
+  - emoji: 🧙‍♀️
+    code: 1F9D9 200D 2640 FE0F
+    name: 女の魔法使い
+    readings:
+      - おんなのまほうつかい
+      - まじょ
+      - まほうつかい
+      - うぃっち
+      - まほうしょうじょ
+    en: woman mage
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ 女, 女の魔法使い, 女性, 魔女, 魔法使い ]
+    variants: [ 1F9D9 1F3FB 200D 2640 FE0F, 1F9D9 1F3FC 200D 2640 FE0F, 1F9D9 1F3FD 200D 2640 FE0F, 1F9D9 1F3FE 200D 2640 FE0F, 1F9D9 1F3FF 200D 2640 FE0F ]
+  - emoji: 🧚
+    code: 1F9DA
+    name: 妖精
+    readings:
+      - ようせい
+      - ふぇありー
+      - ぴくしー
+      - ふぁんたじー
+      - まほう
+      - おとぎばなし
+      - てぃんかーべる
+    en: fairy
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ おとぎ話, オベロン, パック, ファンタジー, 伝説, 妖精, 神話, 童話, 魔法 ]
+    variants: [ 1F9DA 1F3FB, 1F9DA 1F3FC, 1F9DA 1F3FD, 1F9DA 1F3FE, 1F9DA 1F3FF ]
+  - emoji: 🧚‍♂️
+    code: 1F9DA 200D 2642 FE0F
+    name: 男の妖精
+    readings:
+      - おとこのようせい
+      - ようせい
+      - ふぇありー
+      - おべろん
+      - ぱっく
+    en: man fairy
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ 妖精, 男, 男の妖精, 男性 ]
+    variants: [ 1F9DA 1F3FB 200D 2642 FE0F, 1F9DA 1F3FC 200D 2642 FE0F, 1F9DA 1F3FD 200D 2642 FE0F, 1F9DA 1F3FE 200D 2642 FE0F, 1F9DA 1F3FF 200D 2642 FE0F ]
+  - emoji: 🧚‍♀️
+    code: 1F9DA 200D 2640 FE0F
+    name: 女の妖精
+    readings:
+      - おんなのようせい
+      - ようせい
+      - ふぇありー
+      - てぃんかーべる
+      - ぴくしー
+    en: woman fairy
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ 女, 女の妖精, 女性, 妖精 ]
+    variants: [ 1F9DA 1F3FB 200D 2640 FE0F, 1F9DA 1F3FC 200D 2640 FE0F, 1F9DA 1F3FD 200D 2640 FE0F, 1F9DA 1F3FE 200D 2640 FE0F, 1F9DA 1F3FF 200D 2640 FE0F ]
+  - emoji: 🧛
+    code: 1F9DB
+    name: 吸血鬼
+    readings:
+      - きゅうけつき
+      - ばんぱいあ
+      - どらきゅら
+      - はろうぃん
+      - はろうぃーん
+      - きば
+    en: vampire
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ ドラキュラ, ハロウィーン, バンパイア, 不死身, 吸血鬼, 恐怖, 歯, 牙, 血 ]
+    variants: [ 1F9DB 1F3FB, 1F9DB 1F3FC, 1F9DB 1F3FD, 1F9DB 1F3FE, 1F9DB 1F3FF ]
+  - emoji: 🧛‍♂️
+    code: 1F9DB 200D 2642 FE0F
+    name: 男の吸血鬼
+    readings:
+      - おとこのきゅうけつき
+      - きゅうけつき
+      - ばんぱいあ
+      - どらきゅら
+    en: man vampire
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ ドラキュラ, バンパイア, 吸血鬼, 男, 男の吸血鬼, 男性 ]
+    variants: [ 1F9DB 1F3FB 200D 2642 FE0F, 1F9DB 1F3FC 200D 2642 FE0F, 1F9DB 1F3FD 200D 2642 FE0F, 1F9DB 1F3FE 200D 2642 FE0F, 1F9DB 1F3FF 200D 2642 FE0F ]
+  - emoji: 🧛‍♀️
+    code: 1F9DB 200D 2640 FE0F
+    name: 女の吸血鬼
+    readings:
+      - おんなのきゅうけつき
+      - きゅうけつき
+      - ばんぱいあ
+      - どらきゅら
+    en: woman vampire
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ ドラキュラ, バンパイア, 吸血鬼, 女, 女の吸血鬼, 女性 ]
+    variants: [ 1F9DB 1F3FB 200D 2640 FE0F, 1F9DB 1F3FC 200D 2640 FE0F, 1F9DB 1F3FD 200D 2640 FE0F, 1F9DB 1F3FE 200D 2640 FE0F, 1F9DB 1F3FF 200D 2640 FE0F ]
+  - emoji: 🧜
+    code: 1F9DC
+    name: 人魚
+    readings:
+      - にんぎょ
+      - まーめいど
+      - せいれーん
+      - はんぎょじん
+      - まーまん
+    en: merperson
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ おとぎ話, サイレン, マーメイド, 人魚, 伝説, 半魚人, 海の生物, 海底 ]
+    variants: [ 1F9DC 1F3FB, 1F9DC 1F3FC, 1F9DC 1F3FD, 1F9DC 1F3FE, 1F9DC 1F3FF ]
+  - emoji: 🧜‍♂️
+    code: 1F9DC 200D 2642 FE0F
+    name: マーマン
+    readings:
+      - まーまん
+      - にんぎょ
+      - おとこのにんぎょ
+      - はんぎょじん
+      - とりとん
+    en: merman
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ マーマン, 人魚, 男, 男性 ]
+    variants: [ 1F9DC 1F3FB 200D 2642 FE0F, 1F9DC 1F3FC 200D 2642 FE0F, 1F9DC 1F3FD 200D 2642 FE0F, 1F9DC 1F3FE 200D 2642 FE0F, 1F9DC 1F3FF 200D 2642 FE0F ]
+  - emoji: 🧜‍♀️
+    code: 1F9DC 200D 2640 FE0F
+    name: マーメイド
+    readings:
+      - まーめいど
+      - にんぎょ
+      - にんぎょひめ
+      - おんなのにんぎょ
+      - ありえる
+    en: mermaid
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ マーメイド, 人魚, 女, 女性 ]
+    variants: [ 1F9DC 1F3FB 200D 2640 FE0F, 1F9DC 1F3FC 200D 2640 FE0F, 1F9DC 1F3FD 200D 2640 FE0F, 1F9DC 1F3FE 200D 2640 FE0F, 1F9DC 1F3FF 200D 2640 FE0F ]
+  - emoji: 🧝
+    code: 1F9DD
+    name: エルフ
+    readings:
+      - えるふ
+      - ようせい
+      - ふぁんたじー
+      - ようじん
+      - まほう
+    en: elf
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ エルフ, ファンタジー, 伝説, 妖精, 神秘的, 神話, 魔力, 魔法 ]
+    variants: [ 1F9DD 1F3FB, 1F9DD 1F3FC, 1F9DD 1F3FD, 1F9DD 1F3FE, 1F9DD 1F3FF ]
+  - emoji: 🧝‍♂️
+    code: 1F9DD 200D 2642 FE0F
+    name: 男のエルフ
+    readings:
+      - おとこのえるふ
+      - えるふ
+      - ようせい
+    en: man elf
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ エルフ, 男, 男のエルフ, 男性 ]
+    variants: [ 1F9DD 1F3FB 200D 2642 FE0F, 1F9DD 1F3FC 200D 2642 FE0F, 1F9DD 1F3FD 200D 2642 FE0F, 1F9DD 1F3FE 200D 2642 FE0F, 1F9DD 1F3FF 200D 2642 FE0F ]
+  - emoji: 🧝‍♀️
+    code: 1F9DD 200D 2640 FE0F
+    name: 女のエルフ
+    readings:
+      - おんなのえるふ
+      - えるふ
+      - ようせい
+    en: woman elf
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ エルフ, 女, 女のエルフ, 女性 ]
+    variants: [ 1F9DD 1F3FB 200D 2640 FE0F, 1F9DD 1F3FC 200D 2640 FE0F, 1F9DD 1F3FD 200D 2640 FE0F, 1F9DD 1F3FE 200D 2640 FE0F, 1F9DD 1F3FF 200D 2640 FE0F ]
+  - emoji: 🧞
+    code: 1F9DE
+    name: ランプの精
+    readings:
+      - らんぷのせい
+      - せいれい
+      - じーにー
+      - まじん
+      - じん
+      - あらじん
+      - まほうのらんぷ
+    en: genie
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ ジニー, ファンタジー, ランプをこする, 不可思議, 神話, 精霊, 魔人 ]
+  - emoji: 🧞‍♂️
+    code: 1F9DE 200D 2642 FE0F
+    name: 男のランプの精
+    readings:
+      - おとこのらんぷのせい
+      - らんぷのせい
+      - せいれい
+      - じーにー
+      - まじん
+    en: man genie
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ 男, 男の精霊, 男性, 精霊, 魔神 ]
+  - emoji: 🧞‍♀️
+    code: 1F9DE 200D 2640 FE0F
+    name: 女のランプの精
+    readings:
+      - おんなのらんぷのせい
+      - らんぷのせい
+      - せいれい
+      - じーにー
+      - まじん
+    en: woman genie
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ 女, 女の精霊, 女性, 精霊, 魔神 ]
+  - emoji: 🧟
+    code: 1F9DF
+    name: ゾンビ
+    readings:
+      - ぞんび
+      - あんでっど
+      - しかばね
+      - ほらー
+      - はろうぃん
+      - はろうぃーん
+      - いきるしかばね
+    en: zombie
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ アンデッド, ゾンビ, ハロウィーン, ホラー, 大災害, 恐怖, 歩く屍 ]
+  - emoji: 🧟‍♂️
+    code: 1F9DF 200D 2642 FE0F
+    name: 男のゾンビ
+    readings:
+      - おとこのぞんび
+      - ぞんび
+      - あんでっど
+      - ほらー
+    en: man zombie
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ ゾンビ, ホラー, 男, 男のゾンビ, 男性 ]
+  - emoji: 🧟‍♀️
+    code: 1F9DF 200D 2640 FE0F
+    name: 女のゾンビ
+    readings:
+      - おんなのぞんび
+      - ぞんび
+      - あんでっど
+      - ほらー
+    en: woman zombie
+    since: "5.0"
+    subgroup: person-fantasy
+    keywords: [ ゾンビ, ホラー, 女, 女のゾンビ, 女性 ]
+  - emoji: 🧌
+    code: 1F9CC
+    name: トロール
+    readings:
+      - とろーる
+      - とろる
+      - かいぶつ
+      - もんすたー
+      - ようかい
+      - あらし
+    en: troll
+    since: "14.0"
+    subgroup: person-fantasy
+    keywords: [ おとぎ話, トロール, ファンタジー, モンスター ]
+  - emoji: 🫈
+    code: 1FAC8
+    name: 毛むくじゃらの生物
+    readings:
+      - けむくじゃらのせいぶつ
+      - けむくじゃら
+      - いえてぃ
+      - びっぐふっと
+      - さすかっち
+      - ゆーま
+      - ゆきおとこ
+    en: hairy creature
+    since: "17.0"
+    subgroup: person-fantasy
+    keywords: [ イエティ, サスカッチ, ビッグフット, 巨人, 未確認動物, 森, 毛むくじゃら ]
+  - emoji: 💆
+    code: 1F486
+    name: フェイスマッサージ中の人
+    readings:
+      - ふぇいすまっさーじちゅうのひと
+      - ふぇいすまっさーじ
+      - まっさーじ
+      - えすて
+      - すぱ
+      - りらっくす
+      - いやし
+      - せじゅつ
+    en: person getting massage
+    since: "0.6"
+    subgroup: person-activity
+    keywords: [ エステ, サロン, スパ, セラピー, フェイスマッサージ, フェイスマッサージ中の人, マッサージ, リラックス, 施術, 癒し ]
+    variants: [ 1F486 1F3FB, 1F486 1F3FC, 1F486 1F3FD, 1F486 1F3FE, 1F486 1F3FF ]
+  - emoji: 💆‍♂️
+    code: 1F486 200D 2642 FE0F
+    name: フェイスマッサージ中の男
+    readings:
+      - ふぇいすまっさーじちゅうのおとこ
+      - ふぇいすまっさーじ
+      - まっさーじ
+      - えすて
+      - めんずえすて
+    en: man getting massage
+    since: "4.0"
+    subgroup: person-activity
+    keywords: [ エステ, フェイスマッサージ, フェイスマッサージ中の男, マッサージ, リラックス, 男, 男性, 顔 ]
+    variants: [ 1F486 1F3FB 200D 2642 FE0F, 1F486 1F3FC 200D 2642 FE0F, 1F486 1F3FD 200D 2642 FE0F, 1F486 1F3FE 200D 2642 FE0F, 1F486 1F3FF 200D 2642 FE0F ]
+  - emoji: 💆‍♀️
+    code: 1F486 200D 2640 FE0F
+    name: フェイスマッサージ中の女
+    readings:
+      - ふぇいすまっさーじちゅうのおんな
+      - ふぇいすまっさーじ
+      - まっさーじ
+      - えすて
+      - りらっくす
+    en: woman getting massage
+    since: "4.0"
+    subgroup: person-activity
+    keywords: [ エステ, フェイスマッサージ, フェイスマッサージ中の女, マッサージ, 女, 女性 ]
+    variants: [ 1F486 1F3FB 200D 2640 FE0F, 1F486 1F3FC 200D 2640 FE0F, 1F486 1F3FD 200D 2640 FE0F, 1F486 1F3FE 200D 2640 FE0F, 1F486 1F3FF 200D 2640 FE0F ]
+  - emoji: 💇
+    code: 1F487
+    name: 散髪される人
+    readings:
+      - さんぱつされるひと
+      - さんぱつ
+      - へあかっと
+      - かっと
+      - とこや
+      - びよういん
+      - りはつてん
+      - びようしつ
+    en: person getting haircut
+    since: "0.6"
+    subgroup: person-activity
+    keywords: [ カット, ヘアカット, 床屋, 散髪される人, 理容室, 理容院, 美容室, 美容院, 髪 ]
+    variants: [ 1F487 1F3FB, 1F487 1F3FC, 1F487 1F3FD, 1F487 1F3FE, 1F487 1F3FF ]
+  - emoji: 💇‍♂️
+    code: 1F487 200D 2642 FE0F
+    name: 散髪される男
+    readings:
+      - さんぱつされるおとこ
+      - さんぱつ
+      - へあかっと
+      - とこや
+      - りはつてん
+      - ばーばー
+    en: man getting haircut
+    since: "4.0"
+    subgroup: person-activity
+    keywords: [ カット, ヘアカット, 床屋, 散髪される男, 理容室, 理容院, 男, 男性, 美容室, 美容院 ]
+    variants: [ 1F487 1F3FB 200D 2642 FE0F, 1F487 1F3FC 200D 2642 FE0F, 1F487 1F3FD 200D 2642 FE0F, 1F487 1F3FE 200D 2642 FE0F, 1F487 1F3FF 200D 2642 FE0F ]
+  - emoji: 💇‍♀️
+    code: 1F487 200D 2640 FE0F
+    name: 散髪される女
+    readings:
+      - さんぱつされるおんな
+      - さんぱつ
+      - へあかっと
+      - びよういん
+      - びようしつ
+      - かっと
+    en: woman getting haircut
+    since: "4.0"
+    subgroup: person-activity
+    keywords: [ ヘアカット, 女性, 床屋, 散髪される女, 美容室, 美容院 ]
+    variants: [ 1F487 1F3FB 200D 2640 FE0F, 1F487 1F3FC 200D 2640 FE0F, 1F487 1F3FD 200D 2640 FE0F, 1F487 1F3FE 200D 2640 FE0F, 1F487 1F3FF 200D 2640 FE0F ]
+  - emoji: 🚶
+    code: 1F6B6
+    name: 歩く人
+    readings:
+      - あるくひと
+      - あるく
+      - ほこうしゃ
+      - さんぽ
+      - うぉーきんぐ
+      - ほこう
+      - とほ
+    en: person walking
+    since: "0.6"
+    subgroup: person-activity
+    keywords: [ ウォーキング, ハイキング, ぶらつく, 人, 大股, 散歩, 歩く, 歩行, 歩行者 ]
+    variants: [ 1F6B6 1F3FB, 1F6B6 1F3FC, 1F6B6 1F3FD, 1F6B6 1F3FE, 1F6B6 1F3FF ]
+  - emoji: 🚶‍♂️
+    code: 1F6B6 200D 2642 FE0F
+    name: 歩く男
+    readings:
+      - あるくおとこ
+      - あるく
+      - ほこうしゃ
+      - さんぽ
+      - うぉーきんぐ
+    en: man walking
+    since: "4.0"
+    subgroup: person-activity
+    keywords: [ ウォーキング, 歩く男, 歩行, 歩行者, 男性 ]
+    variants: [ 1F6B6 1F3FB 200D 2642 FE0F, 1F6B6 1F3FC 200D 2642 FE0F, 1F6B6 1F3FD 200D 2642 FE0F, 1F6B6 1F3FE 200D 2642 FE0F, 1F6B6 1F3FF 200D 2642 FE0F ]
+  - emoji: 🚶‍♀️
+    code: 1F6B6 200D 2640 FE0F
+    name: 歩く女
+    readings:
+      - あるくおんな
+      - あるく
+      - ほこうしゃ
+      - さんぽ
+      - うぉーきんぐ
+    en: woman walking
+    since: "4.0"
+    subgroup: person-activity
+    keywords: [ ウォーキング, ハイキング, 女性, 散歩, 歩く, 歩く女, 歩行, 歩行者 ]
+    variants: [ 1F6B6 1F3FB 200D 2640 FE0F, 1F6B6 1F3FC 200D 2640 FE0F, 1F6B6 1F3FD 200D 2640 FE0F, 1F6B6 1F3FE 200D 2640 FE0F, 1F6B6 1F3FF 200D 2640 FE0F ]
+  - emoji: 🚶‍➡️
+    code: 1F6B6 200D 27A1 FE0F
+    name: "歩く人: 右向き"
+    readings:
+      - あるくひとみぎむき
+      - あるく
+      - ほこうしゃ
+      - さんぽ
+      - うぉーきんぐ
+      - みぎむき
+    en: person walking facing right
+    since: "15.1"
+    subgroup: person-activity
+    keywords: [ ウォーキング, ハイキング, ぶらつく, 人, 右向き, 大股, 散歩, 歩く, 歩行, 歩行者 ]
+    variants: [ 1F6B6 1F3FB 200D 27A1 FE0F, 1F6B6 1F3FC 200D 27A1 FE0F, 1F6B6 1F3FD 200D 27A1 FE0F, 1F6B6 1F3FE 200D 27A1 FE0F, 1F6B6 1F3FF 200D 27A1 FE0F ]
+  - emoji: 🚶‍♀️‍➡️
+    code: 1F6B6 200D 2640 FE0F 200D 27A1 FE0F
+    name: "歩く女: 右向き"
+    readings:
+      - あるくおんなみぎむき
+      - あるく
+      - ほこうしゃ
+      - さんぽ
+      - うぉーきんぐ
+      - みぎむき
+    en: woman walking facing right
+    since: "15.1"
+    subgroup: person-activity
+    keywords: [ ウォーキング, ハイキング, 右向き, 女性, 散歩, 歩く, 歩く女, 歩行, 歩行者 ]
+    variants: [ 1F6B6 1F3FB 200D 2640 FE0F 200D 27A1 FE0F, 1F6B6 1F3FC 200D 2640 FE0F 200D 27A1 FE0F, 1F6B6 1F3FD 200D 2640 FE0F 200D 27A1 FE0F, 1F6B6 1F3FE 200D 2640 FE0F 200D 27A1 FE0F, 1F6B6 1F3FF 200D 2640 FE0F 200D 27A1 FE0F ]
+  - emoji: 🚶‍♂️‍➡️
+    code: 1F6B6 200D 2642 FE0F 200D 27A1 FE0F
+    name: "歩く男: 右向き"
+    readings:
+      - あるくおとこみぎむき
+      - あるく
+      - ほこうしゃ
+      - さんぽ
+      - うぉーきんぐ
+      - みぎむき
+    en: man walking facing right
+    since: "15.1"
+    subgroup: person-activity
+    keywords: [ ウォーキング, 右向き, 歩く男, 歩行, 歩行者, 男性 ]
+    variants: [ 1F6B6 1F3FB 200D 2642 FE0F 200D 27A1 FE0F, 1F6B6 1F3FC 200D 2642 FE0F 200D 27A1 FE0F, 1F6B6 1F3FD 200D 2642 FE0F 200D 27A1 FE0F, 1F6B6 1F3FE 200D 2642 FE0F 200D 27A1 FE0F, 1F6B6 1F3FF 200D 2642 FE0F 200D 27A1 FE0F ]
+  - emoji: 🧍
+    code: 1F9CD
+    name: 立つ人
+    readings:
+      - たつひと
+      - たつ
+      - たっている
+      - きりつ
+      - たちっぱなし
+      - たちんぼう
+    en: person standing
+    since: "12.0"
+    subgroup: person-activity
+    keywords: [ 人, 立っている, 立つ人, 起立 ]
+    variants: [ 1F9CD 1F3FB, 1F9CD 1F3FC, 1F9CD 1F3FD, 1F9CD 1F3FE, 1F9CD 1F3FF ]
+  - emoji: 🧍‍♂️
+    code: 1F9CD 200D 2642 FE0F
+    name: 立つ男
+    readings:
+      - たつおとこ
+      - たつ
+      - きりつ
+      - たちっぱなし
+    en: man standing
+    since: "12.0"
+    subgroup: person-activity
+    keywords: [ 男性, 立つ男, 起立 ]
+    variants: [ 1F9CD 1F3FB 200D 2642 FE0F, 1F9CD 1F3FC 200D 2642 FE0F, 1F9CD 1F3FD 200D 2642 FE0F, 1F9CD 1F3FE 200D 2642 FE0F, 1F9CD 1F3FF 200D 2642 FE0F ]
+  - emoji: 🧍‍♀️
+    code: 1F9CD 200D 2640 FE0F
+    name: 立つ女
+    readings:
+      - たつおんな
+      - たつ
+      - きりつ
+      - たちっぱなし
+    en: woman standing
+    since: "12.0"
+    subgroup: person-activity
+    keywords: [ 女性, 立つ女, 起立 ]
+    variants: [ 1F9CD 1F3FB 200D 2640 FE0F, 1F9CD 1F3FC 200D 2640 FE0F, 1F9CD 1F3FD 200D 2640 FE0F, 1F9CD 1F3FE 200D 2640 FE0F, 1F9CD 1F3FF 200D 2640 FE0F ]
+  - emoji: 🧎
+    code: 1F9CE
+    name: ひざまずく人
+    readings:
+      - ひざまずくひと
+      - ひざまずく
+      - せいざ
+      - せいざするひと
+      - ざせき
+      - どげざ
+      - ひざをつく
+    en: person kneeling
+    since: "12.0"
+    subgroup: person-activity
+    keywords: [ ひざまずく, 人, 座る, 正座する人 ]
+    variants: [ 1F9CE 1F3FB, 1F9CE 1F3FC, 1F9CE 1F3FD, 1F9CE 1F3FE, 1F9CE 1F3FF ]
+  - emoji: 🧎‍♂️
+    code: 1F9CE 200D 2642 FE0F
+    name: ひざまずく男性
+    readings:
+      - ひざまずくだんせい
+      - ひざまずく
+      - せいざ
+      - せいざするだんせい
+      - どげざ
+      - ひざをつく
+    en: man kneeling
+    since: "12.0"
+    subgroup: person-activity
+    keywords: [ ひざまずく, 座る, 正座する男性, 男性 ]
+    variants: [ 1F9CE 1F3FB 200D 2642 FE0F, 1F9CE 1F3FC 200D 2642 FE0F, 1F9CE 1F3FD 200D 2642 FE0F, 1F9CE 1F3FE 200D 2642 FE0F, 1F9CE 1F3FF 200D 2642 FE0F ]
+  - emoji: 🧎‍♀️
+    code: 1F9CE 200D 2640 FE0F
+    name: ひざまずく女性
+    readings:
+      - ひざまずくじょせい
+      - ひざまずく
+      - せいざ
+      - せいざするじょせい
+      - どげざ
+      - ひざをつく
+    en: woman kneeling
+    since: "12.0"
+    subgroup: person-activity
+    keywords: [ ひざまずく, 女性, 座る, 正座する女性 ]
+    variants: [ 1F9CE 1F3FB 200D 2640 FE0F, 1F9CE 1F3FC 200D 2640 FE0F, 1F9CE 1F3FD 200D 2640 FE0F, 1F9CE 1F3FE 200D 2640 FE0F, 1F9CE 1F3FF 200D 2640 FE0F ]
+  - emoji: 🧎‍➡️
+    code: 1F9CE 200D 27A1 FE0F
+    name: "ひざまずく人: 右向き"
+    readings:
+      - ひざまずくひとみぎむき
+      - ひざまずく
+      - せいざ
+      - どげざ
+      - みぎむき
+    en: person kneeling facing right
+    since: "15.1"
+    subgroup: person-activity
+    keywords: [ ひざまずく, 人, 右向き, 座る, 正座する人 ]
+    variants: [ 1F9CE 1F3FB 200D 27A1 FE0F, 1F9CE 1F3FC 200D 27A1 FE0F, 1F9CE 1F3FD 200D 27A1 FE0F, 1F9CE 1F3FE 200D 27A1 FE0F, 1F9CE 1F3FF 200D 27A1 FE0F ]
+  - emoji: 🧎‍♀️‍➡️
+    code: 1F9CE 200D 2640 FE0F 200D 27A1 FE0F
+    name: "ひざまずく女性: 右向き"
+    readings:
+      - ひざまずくじょせいみぎむき
+      - ひざまずく
+      - せいざ
+      - どげざ
+      - みぎむき
+    en: woman kneeling facing right
+    since: "15.1"
+    subgroup: person-activity
+    keywords: [ ひざまずく, 右向き, 女性, 座る, 正座する女性 ]
+    variants: [ 1F9CE 1F3FB 200D 2640 FE0F 200D 27A1 FE0F, 1F9CE 1F3FC 200D 2640 FE0F 200D 27A1 FE0F, 1F9CE 1F3FD 200D 2640 FE0F 200D 27A1 FE0F, 1F9CE 1F3FE 200D 2640 FE0F 200D 27A1 FE0F, 1F9CE 1F3FF 200D 2640 FE0F 200D 27A1 FE0F ]
+  - emoji: 🧎‍♂️‍➡️
+    code: 1F9CE 200D 2642 FE0F 200D 27A1 FE0F
+    name: "ひざまずく男性: 右向き"
+    readings:
+      - ひざまずくだんせいみぎむき
+      - ひざまずく
+      - せいざ
+      - どげざ
+      - みぎむき
+    en: man kneeling facing right
+    since: "15.1"
+    subgroup: person-activity
+    keywords: [ ひざまずく, 右向き, 座る, 正座する男性, 男性 ]
+    variants: [ 1F9CE 1F3FB 200D 2642 FE0F 200D 27A1 FE0F, 1F9CE 1F3FC 200D 2642 FE0F 200D 27A1 FE0F, 1F9CE 1F3FD 200D 2642 FE0F 200D 27A1 FE0F, 1F9CE 1F3FE 200D 2642 FE0F 200D 27A1 FE0F, 1F9CE 1F3FF 200D 2642 FE0F 200D 27A1 FE0F ]
+  - emoji: 🧑‍🦯
+    code: 1F9D1 200D 1F9AF
+    name: 白杖をついた人
+    readings:
+      - はくじょうをついたひと
+      - つえをついたひと
+      - はくじょう
+      - つえ
+      - しかくしょうがい
+      - あくせしびりてぃ
+    en: person with white cane
+    since: "12.1"
+    subgroup: person-activity
+    keywords: [ アクセシビリティ, 杖をついた人, 目, 視覚, 障がい ]
+    variants: [ 1F9D1 1F3FB 200D 1F9AF, 1F9D1 1F3FC 200D 1F9AF, 1F9D1 1F3FD 200D 1F9AF, 1F9D1 1F3FE 200D 1F9AF, 1F9D1 1F3FF 200D 1F9AF ]
+  - emoji: 🧑‍🦯‍➡️
+    code: 1F9D1 200D 1F9AF 200D 27A1 FE0F
+    name: "白杖をついた人: 右向き"
+    readings:
+      - はくじょうをついたひとみぎむき
+      - つえをついたひと
+      - はくじょう
+      - つえ
+      - しかくしょうがい
+      - みぎむき
+    en: person with white cane facing right
+    since: "15.1"
+    subgroup: person-activity
+    keywords: [ アクセシビリティ, 右向き, 杖をついた人, 目, 視覚, 障がい ]
+    variants: [ 1F9D1 1F3FB 200D 1F9AF 200D 27A1 FE0F, 1F9D1 1F3FC 200D 1F9AF 200D 27A1 FE0F, 1F9D1 1F3FD 200D 1F9AF 200D 27A1 FE0F, 1F9D1 1F3FE 200D 1F9AF 200D 27A1 FE0F, 1F9D1 1F3FF 200D 1F9AF 200D 27A1 FE0F ]
+  - emoji: 👨‍🦯
+    code: 1F468 200D 1F9AF
+    name: 白杖をついた男性
+    readings:
+      - はくじょうをついただんせい
+      - つえをついただんせい
+      - はくじょう
+      - つえ
+      - しかくしょうがい
+    en: man with white cane
+    since: "12.0"
+    subgroup: person-activity
+    keywords: [ アクセシビリティ, 杖をついた男性, 男性, 白杖をついた男性, 目, 視覚, 障がい ]
+    variants: [ 1F468 1F3FB 200D 1F9AF, 1F468 1F3FC 200D 1F9AF, 1F468 1F3FD 200D 1F9AF, 1F468 1F3FE 200D 1F9AF, 1F468 1F3FF 200D 1F9AF ]
+  - emoji: 👨‍🦯‍➡️
+    code: 1F468 200D 1F9AF 200D 27A1 FE0F
+    name: "白杖をついた男性: 右向き"
+    readings:
+      - はくじょうをついただんせいみぎむき
+      - つえをついただんせい
+      - はくじょう
+      - つえ
+      - しかくしょうがい
+      - みぎむき
+    en: man with white cane facing right
+    since: "15.1"
+    subgroup: person-activity
+    keywords: [ アクセシビリティ, 右向き, 杖をついた男性, 男性, 白杖をついた男性, 目, 視覚, 障がい ]
+    variants: [ 1F468 1F3FB 200D 1F9AF 200D 27A1 FE0F, 1F468 1F3FC 200D 1F9AF 200D 27A1 FE0F, 1F468 1F3FD 200D 1F9AF 200D 27A1 FE0F, 1F468 1F3FE 200D 1F9AF 200D 27A1 FE0F, 1F468 1F3FF 200D 1F9AF 200D 27A1 FE0F ]
+  - emoji: 👩‍🦯
+    code: 1F469 200D 1F9AF
+    name: 白杖をついた女性
+    readings:
+      - はくじょうをついたじょせい
+      - つえをついたじょせい
+      - はくじょう
+      - つえ
+      - しかくしょうがい
+    en: woman with white cane
+    since: "12.0"
+    subgroup: person-activity
+    keywords: [ アクセシビリティ, 女性, 杖をついた女性, 白杖をついた女性, 目, 視覚, 障がい ]
+    variants: [ 1F469 1F3FB 200D 1F9AF, 1F469 1F3FC 200D 1F9AF, 1F469 1F3FD 200D 1F9AF, 1F469 1F3FE 200D 1F9AF, 1F469 1F3FF 200D 1F9AF ]
+  - emoji: 👩‍🦯‍➡️
+    code: 1F469 200D 1F9AF 200D 27A1 FE0F
+    name: "白杖をついた女性: 右向き"
+    readings:
+      - はくじょうをついたじょせいみぎむき
+      - つえをついたじょせい
+      - はくじょう
+      - つえ
+      - しかくしょうがい
+      - みぎむき
+    en: woman with white cane facing right
+    since: "15.1"
+    subgroup: person-activity
+    keywords: [ アクセシビリティ, 右向き, 女性, 杖をついた女性, 白杖をついた女性, 目, 視覚, 障がい ]
+    variants: [ 1F469 1F3FB 200D 1F9AF 200D 27A1 FE0F, 1F469 1F3FC 200D 1F9AF 200D 27A1 FE0F, 1F469 1F3FD 200D 1F9AF 200D 27A1 FE0F, 1F469 1F3FE 200D 1F9AF 200D 27A1 FE0F, 1F469 1F3FF 200D 1F9AF 200D 27A1 FE0F ]
+  - emoji: 🧑‍🦼
+    code: 1F9D1 200D 1F9BC
+    name: 電動車椅子の人
+    readings:
+      - でんどうくるまいすのひと
+      - でんどうくるまいす
+      - くるまいす
+      - しょうがい
+      - あくせしびりてぃ
+      - ばりあふりー
+    en: person in motorized wheelchair
+    since: "12.1"
+    subgroup: person-activity
+    keywords: [ アクセシビリティ, 車いす, 障がい, 電動車椅子の人 ]
+    variants: [ 1F9D1 1F3FB 200D 1F9BC, 1F9D1 1F3FC 200D 1F9BC, 1F9D1 1F3FD 200D 1F9BC, 1F9D1 1F3FE 200D 1F9BC, 1F9D1 1F3FF 200D 1F9BC ]
+  - emoji: 🧑‍🦼‍➡️
+    code: 1F9D1 200D 1F9BC 200D 27A1 FE0F
+    name: "電動車椅子の人: 右向き"
+    readings:
+      - でんどうくるまいすのひとみぎむき
+      - でんどうくるまいす
+      - くるまいす
+      - しょうがい
+      - みぎむき
+    en: person in motorized wheelchair facing right
+    since: "15.1"
+    subgroup: person-activity
+    keywords: [ アクセシビリティ, 右向き, 車いす, 障がい, 電動車椅子の人 ]
+    variants: [ 1F9D1 1F3FB 200D 1F9BC 200D 27A1 FE0F, 1F9D1 1F3FC 200D 1F9BC 200D 27A1 FE0F, 1F9D1 1F3FD 200D 1F9BC 200D 27A1 FE0F, 1F9D1 1F3FE 200D 1F9BC 200D 27A1 FE0F, 1F9D1 1F3FF 200D 1F9BC 200D 27A1 FE0F ]
+  - emoji: 👨‍🦼
+    code: 1F468 200D 1F9BC
+    name: 電動車椅子の男性
+    readings:
+      - でんどうくるまいすのだんせい
+      - でんどうくるまいす
+      - くるまいす
+      - しょうがい
+    en: man in motorized wheelchair
+    since: "12.0"
+    subgroup: person-activity
+    keywords: [ アクセシビリティ, 男性, 車いす, 障がい, 電動車椅子の男性 ]
+    variants: [ 1F468 1F3FB 200D 1F9BC, 1F468 1F3FC 200D 1F9BC, 1F468 1F3FD 200D 1F9BC, 1F468 1F3FE 200D 1F9BC, 1F468 1F3FF 200D 1F9BC ]
+  - emoji: 👨‍🦼‍➡️
+    code: 1F468 200D 1F9BC 200D 27A1 FE0F
+    name: "電動車椅子の男性: 右向き"
+    readings:
+      - でんどうくるまいすのだんせいみぎむき
+      - でんどうくるまいす
+      - くるまいす
+      - しょうがい
+      - みぎむき
+    en: man in motorized wheelchair facing right
+    since: "15.1"
+    subgroup: person-activity
+    keywords: [ アクセシビリティ, 右向き, 男性, 車いす, 障がい, 電動車椅子の男性 ]
+    variants: [ 1F468 1F3FB 200D 1F9BC 200D 27A1 FE0F, 1F468 1F3FC 200D 1F9BC 200D 27A1 FE0F, 1F468 1F3FD 200D 1F9BC 200D 27A1 FE0F, 1F468 1F3FE 200D 1F9BC 200D 27A1 FE0F, 1F468 1F3FF 200D 1F9BC 200D 27A1 FE0F ]
+  - emoji: 👩‍🦼
+    code: 1F469 200D 1F9BC
+    name: 電動車椅子の女性
+    readings:
+      - でんどうくるまいすのじょせい
+      - でんどうくるまいす
+      - くるまいす
+      - しょうがい
+    en: woman in motorized wheelchair
+    since: "12.0"
+    subgroup: person-activity
+    keywords: [ アクセシビリティ, 女性, 車いす, 障がい, 電動車椅子の女性 ]
+    variants: [ 1F469 1F3FB 200D 1F9BC, 1F469 1F3FC 200D 1F9BC, 1F469 1F3FD 200D 1F9BC, 1F469 1F3FE 200D 1F9BC, 1F469 1F3FF 200D 1F9BC ]
+  - emoji: 👩‍🦼‍➡️
+    code: 1F469 200D 1F9BC 200D 27A1 FE0F
+    name: "電動車椅子の女性: 右向き"
+    readings:
+      - でんどうくるまいすのじょせいみぎむき
+      - でんどうくるまいす
+      - くるまいす
+      - しょうがい
+      - みぎむき
+    en: woman in motorized wheelchair facing right
+    since: "15.1"
+    subgroup: person-activity
+    keywords: [ アクセシビリティ, 右向き, 女性, 車いす, 障がい, 電動車椅子の女性 ]
+    variants: [ 1F469 1F3FB 200D 1F9BC 200D 27A1 FE0F, 1F469 1F3FC 200D 1F9BC 200D 27A1 FE0F, 1F469 1F3FD 200D 1F9BC 200D 27A1 FE0F, 1F469 1F3FE 200D 1F9BC 200D 27A1 FE0F, 1F469 1F3FF 200D 1F9BC 200D 27A1 FE0F ]
+  - emoji: 🧑‍🦽
+    code: 1F9D1 200D 1F9BD
+    name: 手動式車椅子の人
+    readings:
+      - しゅどうしきくるまいすのひと
+      - くるまいす
+      - しゅどうくるまいす
+      - しょうがい
+      - あくせしびりてぃ
+      - ばりあふりー
+    en: person in manual wheelchair
+    since: "12.1"
+    subgroup: person-activity
+    keywords: [ アクセシビリティ, 手動式車椅子の人, 車いす, 障がい ]
+    variants: [ 1F9D1 1F3FB 200D 1F9BD, 1F9D1 1F3FC 200D 1F9BD, 1F9D1 1F3FD 200D 1F9BD, 1F9D1 1F3FE 200D 1F9BD, 1F9D1 1F3FF 200D 1F9BD ]
+  - emoji: 🧑‍🦽‍➡️
+    code: 1F9D1 200D 1F9BD 200D 27A1 FE0F
+    name: "手動式車椅子の人: 右向き"
+    readings:
+      - しゅどうしきくるまいすのひとみぎむき
+      - くるまいす
+      - しゅどうくるまいす
+      - しょうがい
+      - みぎむき
+    en: person in manual wheelchair facing right
+    since: "15.1"
+    subgroup: person-activity
+    keywords: [ アクセシビリティ, 右向き, 手動式車椅子の人, 車いす, 障がい ]
+    variants: [ 1F9D1 1F3FB 200D 1F9BD 200D 27A1 FE0F, 1F9D1 1F3FC 200D 1F9BD 200D 27A1 FE0F, 1F9D1 1F3FD 200D 1F9BD 200D 27A1 FE0F, 1F9D1 1F3FE 200D 1F9BD 200D 27A1 FE0F, 1F9D1 1F3FF 200D 1F9BD 200D 27A1 FE0F ]
+  - emoji: 👨‍🦽
+    code: 1F468 200D 1F9BD
+    name: 手動式車椅子の男性
+    readings:
+      - しゅどうしきくるまいすのだんせい
+      - くるまいす
+      - しゅどうくるまいす
+      - しょうがい
+    en: man in manual wheelchair
+    since: "12.0"
+    subgroup: person-activity
+    keywords: [ アクセシビリティ, 手動式車椅子の男性, 男性, 車いす, 障がい ]
+    variants: [ 1F468 1F3FB 200D 1F9BD, 1F468 1F3FC 200D 1F9BD, 1F468 1F3FD 200D 1F9BD, 1F468 1F3FE 200D 1F9BD, 1F468 1F3FF 200D 1F9BD ]
+  - emoji: 👨‍🦽‍➡️
+    code: 1F468 200D 1F9BD 200D 27A1 FE0F
+    name: "手動式車椅子の男性: 右向き"
+    readings:
+      - しゅどうしきくるまいすのだんせいみぎむき
+      - くるまいす
+      - しゅどうくるまいす
+      - しょうがい
+      - みぎむき
+    en: man in manual wheelchair facing right
+    since: "15.1"
+    subgroup: person-activity
+    keywords: [ アクセシビリティ, 右向き, 手動式車椅子の男性, 男性, 車いす, 障がい ]
+    variants: [ 1F468 1F3FB 200D 1F9BD 200D 27A1 FE0F, 1F468 1F3FC 200D 1F9BD 200D 27A1 FE0F, 1F468 1F3FD 200D 1F9BD 200D 27A1 FE0F, 1F468 1F3FE 200D 1F9BD 200D 27A1 FE0F, 1F468 1F3FF 200D 1F9BD 200D 27A1 FE0F ]
+  - emoji: 👩‍🦽
+    code: 1F469 200D 1F9BD
+    name: 手動式車椅子の女性
+    readings:
+      - しゅどうしきくるまいすのじょせい
+      - くるまいす
+      - しゅどうくるまいす
+      - しょうがい
+    en: woman in manual wheelchair
+    since: "12.0"
+    subgroup: person-activity
+    keywords: [ アクセシビリティ, 女性, 手動式車椅子の女性, 車いす, 障がい ]
+    variants: [ 1F469 1F3FB 200D 1F9BD, 1F469 1F3FC 200D 1F9BD, 1F469 1F3FD 200D 1F9BD, 1F469 1F3FE 200D 1F9BD, 1F469 1F3FF 200D 1F9BD ]
+  - emoji: 👩‍🦽‍➡️
+    code: 1F469 200D 1F9BD 200D 27A1 FE0F
+    name: "手動式車椅子の女性: 右向き"
+    readings:
+      - しゅどうしきくるまいすのじょせいみぎむき
+      - くるまいす
+      - しゅどうくるまいす
+      - しょうがい
+      - みぎむき
+    en: woman in manual wheelchair facing right
+    since: "15.1"
+    subgroup: person-activity
+    keywords: [ アクセシビリティ, 右向き, 女性, 手動式車椅子の女性, 車いす, 障がい ]
+    variants: [ 1F469 1F3FB 200D 1F9BD 200D 27A1 FE0F, 1F469 1F3FC 200D 1F9BD 200D 27A1 FE0F, 1F469 1F3FD 200D 1F9BD 200D 27A1 FE0F, 1F469 1F3FE 200D 1F9BD 200D 27A1 FE0F, 1F469 1F3FF 200D 1F9BD 200D 27A1 FE0F ]
+  - emoji: 🏃
+    code: 1F3C3
+    name: 走る人
+    readings:
+      - はしるひと
+      - はしる
+      - らんにんぐ
+      - じょぎんぐ
+      - まらそん
+      - らんなー
+      - いそぐ
+      - だっしゅ
+    en: person running
+    since: "0.6"
+    subgroup: person-activity
+    keywords: [ ジョギング, マラソン, ランナー, ランニング, 急ぐ, 走る, 走る人, 駆け足 ]
+    variants: [ 1F3C3 1F3FB, 1F3C3 1F3FC, 1F3C3 1F3FD, 1F3C3 1F3FE, 1F3C3 1F3FF ]
+  - emoji: 🏃‍♂️
+    code: 1F3C3 200D 2642 FE0F
+    name: 走る男
+    readings:
+      - はしるおとこ
+      - はしる
+      - らんにんぐ
+      - じょぎんぐ
+      - まらそん
+      - らんなー
+    en: man running
+    since: "4.0"
+    subgroup: person-activity
+    keywords: [ ジョギング, マラソン, ランナー, ランニング, 男性, 走る男 ]
+    variants: [ 1F3C3 1F3FB 200D 2642 FE0F, 1F3C3 1F3FC 200D 2642 FE0F, 1F3C3 1F3FD 200D 2642 FE0F, 1F3C3 1F3FE 200D 2642 FE0F, 1F3C3 1F3FF 200D 2642 FE0F ]
+  - emoji: 🏃‍♀️
+    code: 1F3C3 200D 2640 FE0F
+    name: 走る女
+    readings:
+      - はしるおんな
+      - はしる
+      - らんにんぐ
+      - じょぎんぐ
+      - まらそん
+      - らんなー
+    en: woman running
+    since: "4.0"
+    subgroup: person-activity
+    keywords: [ ジョギング, マラソン, ランナー, ランニング, 女性, 急ぐ, 走る, 走る女, 駆け足 ]
+    variants: [ 1F3C3 1F3FB 200D 2640 FE0F, 1F3C3 1F3FC 200D 2640 FE0F, 1F3C3 1F3FD 200D 2640 FE0F, 1F3C3 1F3FE 200D 2640 FE0F, 1F3C3 1F3FF 200D 2640 FE0F ]
+  - emoji: 🏃‍➡️
+    code: 1F3C3 200D 27A1 FE0F
+    name: "走る人: 右向き"
+    readings:
+      - はしるひとみぎむき
+      - はしる
+      - らんにんぐ
+      - じょぎんぐ
+      - だっしゅ
+      - みぎむき
+    en: person running facing right
+    since: "15.1"
+    subgroup: person-activity
+    keywords: [ ジョギング, マラソン, ランナー, ランニング, 右向き, 急ぐ, 走る, 走る人, 駆け足 ]
+    variants: [ 1F3C3 1F3FB 200D 27A1 FE0F, 1F3C3 1F3FC 200D 27A1 FE0F, 1F3C3 1F3FD 200D 27A1 FE0F, 1F3C3 1F3FE 200D 27A1 FE0F, 1F3C3 1F3FF 200D 27A1 FE0F ]
+  - emoji: 🏃‍♀️‍➡️
+    code: 1F3C3 200D 2640 FE0F 200D 27A1 FE0F
+    name: "走る女: 右向き"
+    readings:
+      - はしるおんなみぎむき
+      - はしる
+      - らんにんぐ
+      - じょぎんぐ
+      - みぎむき
+    en: woman running facing right
+    since: "15.1"
+    subgroup: person-activity
+    keywords: [ ジョギング, マラソン, ランナー, ランニング, 右向き, 女性, 急ぐ, 走る, 走る女, 駆け足 ]
+    variants: [ 1F3C3 1F3FB 200D 2640 FE0F 200D 27A1 FE0F, 1F3C3 1F3FC 200D 2640 FE0F 200D 27A1 FE0F, 1F3C3 1F3FD 200D 2640 FE0F 200D 27A1 FE0F, 1F3C3 1F3FE 200D 2640 FE0F 200D 27A1 FE0F, 1F3C3 1F3FF 200D 2640 FE0F 200D 27A1 FE0F ]
+  - emoji: 🏃‍♂️‍➡️
+    code: 1F3C3 200D 2642 FE0F 200D 27A1 FE0F
+    name: "走る男: 右向き"
+    readings:
+      - はしるおとこみぎむき
+      - はしる
+      - らんにんぐ
+      - じょぎんぐ
+      - みぎむき
+    en: man running facing right
+    since: "15.1"
+    subgroup: person-activity
+    keywords: [ ジョギング, マラソン, ランナー, ランニング, 右向き, 男性, 走る男 ]
+    variants: [ 1F3C3 1F3FB 200D 2642 FE0F 200D 27A1 FE0F, 1F3C3 1F3FC 200D 2642 FE0F 200D 27A1 FE0F, 1F3C3 1F3FD 200D 2642 FE0F 200D 27A1 FE0F, 1F3C3 1F3FE 200D 2642 FE0F 200D 27A1 FE0F, 1F3C3 1F3FF 200D 2642 FE0F 200D 27A1 FE0F ]
+  - emoji: 🧑‍🩰
+    code: 1F9D1 200D 1FA70
+    name: バレエダンサー
+    readings:
+      - ばれえだんさー
+      - ばれえ
+      - ばれりーな
+      - だんさー
+      - ばれー
+    en: ballet dancer
+    since: "17.0"
+    subgroup: person-activity
+    keywords: [ ダンサー, バレエ ]
+    variants: [ 1F9D1 1F3FB 200D 1FA70, 1F9D1 1F3FC 200D 1FA70, 1F9D1 1F3FD 200D 1FA70, 1F9D1 1F3FE 200D 1FA70, 1F9D1 1F3FF 200D 1FA70 ]
+  - emoji: 💃
+    code: 1F483
+    name: 踊る女
+    readings:
+      - おどるおんな
+      - おどる
+      - だんす
+      - だんさー
+      - ふらめんこ
+      - さるさ
+      - たんご
+      - おどりこ
+    en: woman dancing
+    since: "0.6"
+    subgroup: person-activity
+    keywords: [ サルサ, タンゴ, ダンサー, ダンス, フラメンコ, 女, 女性, 踊り子, 踊る女 ]
+    variants: [ 1F483 1F3FB, 1F483 1F3FC, 1F483 1F3FD, 1F483 1F3FE, 1F483 1F3FF ]
+  - emoji: 🕺
+    code: 1F57A
+    name: 踊る男
+    readings:
+      - おどるおとこ
+      - おどる
+      - だんす
+      - だんさー
+      - でぃすこ
+      - ふぃーばー
+      - さるさ
+    en: man dancing
+    since: "3.0"
+    subgroup: person-activity
+    keywords: [ サルサ, タンゴ, ダンサー, ダンス, フラメンコ, 男, 男性, 踊る男 ]
+    variants: [ 1F57A 1F3FB, 1F57A 1F3FC, 1F57A 1F3FD, 1F57A 1F3FE, 1F57A 1F3FF ]
+  - emoji: 🕴️
+    code: 1F574 FE0F
+    name: 浮いてるビジネスマン
+    readings:
+      - ういてるびじねすまん
+      - びじねすまん
+      - すーつ
+      - くうちゅうふゆう
+      - ふゆう
+      - うく
+    en: person in suit levitating
+    since: "0.7"
+    subgroup: person-activity
+    keywords: [ スーツ, ビジネスマン, 浮いてるビジネスマン, 男, 男性, 空中浮遊 ]
+    variants: [ 1F574 1F3FB, 1F574 1F3FC, 1F574 1F3FD, 1F574 1F3FE, 1F574 1F3FF ]
+  - emoji: 👯
+    code: 1F46F
+    name: うさ耳の人たち
+    readings:
+      - うさみみのひとたち
+      - うさみみ
+      - ばにー
+      - ばにーがーる
+      - ふたご
+      - しんゆう
+      - だんさー
+      - ぱーてぃー
+    en: people with bunny ears
+    since: "0.6"
+    subgroup: person-activity
+    keywords: [ うさ耳, ずっ友, そっくり, ダンサー, パーティ, ペア, 双子, 相方, 親友 ]
+    variants: [ 1F46F 1F3FB, 1F46F 1F3FC, 1F46F 1F3FD, 1F46F 1F3FE, 1F46F 1F3FF ]
+  - emoji: 👯‍♂️
+    code: 1F46F 200D 2642 FE0F
+    name: うさ耳の男性たち
+    readings:
+      - うさみみのだんせいたち
+      - うさみみ
+      - ばにーぼーい
+      - ばにー
+      - しんゆう
+      - ぱーてぃー
+    en: men with bunny ears
+    since: "4.0"
+    subgroup: person-activity
+    keywords: [ うさ耳, ダンサー, パーティー, バニーボーイ, 男, 男性, 親友 ]
+    variants: [ 1F46F 1F3FB 200D 2642 FE0F, 1F46F 1F3FC 200D 2642 FE0F, 1F46F 1F3FD 200D 2642 FE0F, 1F46F 1F3FE 200D 2642 FE0F, 1F46F 1F3FF 200D 2642 FE0F ]
+  - emoji: 👯‍♀️
+    code: 1F46F 200D 2640 FE0F
+    name: うさ耳の女性たち
+    readings:
+      - うさみみのじょせいたち
+      - うさみみ
+      - ばにーがーる
+      - ばにー
+      - ふたご
+      - しんゆう
+      - ぱーてぃー
+    en: women with bunny ears
+    since: "4.0"
+    subgroup: person-activity
+    keywords: [ うさ耳, ダンサー, パーティー, バニーガール, 女, 女性 ]
+    variants: [ 1F46F 1F3FB 200D 2640 FE0F, 1F46F 1F3FC 200D 2640 FE0F, 1F46F 1F3FD 200D 2640 FE0F, 1F46F 1F3FE 200D 2640 FE0F, 1F46F 1F3FF 200D 2640 FE0F, 1F9D1 1F3FB 200D 1F430 200D 1F9D1 1F3FC, 1F9D1 1F3FB 200D 1F430 200D 1F9D1 1F3FD, 1F9D1 1F3FB 200D 1F430 200D 1F9D1 1F3FE, 1F9D1 1F3FB 200D 1F430 200D 1F9D1 1F3FF, 1F9D1 1F3FC 200D 1F430 200D 1F9D1 1F3FB, 1F9D1 1F3FC 200D 1F430 200D 1F9D1 1F3FD, 1F9D1 1F3FC 200D 1F430 200D 1F9D1 1F3FE, 1F9D1 1F3FC 200D 1F430 200D 1F9D1 1F3FF, 1F9D1 1F3FD 200D 1F430 200D 1F9D1 1F3FB, 1F9D1 1F3FD 200D 1F430 200D 1F9D1 1F3FC, 1F9D1 1F3FD 200D 1F430 200D 1F9D1 1F3FE, 1F9D1 1F3FD 200D 1F430 200D 1F9D1 1F3FF, 1F9D1 1F3FE 200D 1F430 200D 1F9D1 1F3FB, 1F9D1 1F3FE 200D 1F430 200D 1F9D1 1F3FC, 1F9D1 1F3FE 200D 1F430 200D 1F9D1 1F3FD, 1F9D1 1F3FE 200D 1F430 200D 1F9D1 1F3FF, 1F9D1 1F3FF 200D 1F430 200D 1F9D1 1F3FB, 1F9D1 1F3FF 200D 1F430 200D 1F9D1 1F3FC, 1F9D1 1F3FF 200D 1F430 200D 1F9D1 1F3FD, 1F9D1 1F3FF 200D 1F430 200D 1F9D1 1F3FE, 1F468 1F3FB 200D 1F430 200D 1F468 1F3FC, 1F468 1F3FB 200D 1F430 200D 1F468 1F3FD, 1F468 1F3FB 200D 1F430 200D 1F468 1F3FE, 1F468 1F3FB 200D 1F430 200D 1F468 1F3FF, 1F468 1F3FC 200D 1F430 200D 1F468 1F3FB, 1F468 1F3FC 200D 1F430 200D 1F468 1F3FD, 1F468 1F3FC 200D 1F430 200D 1F468 1F3FE, 1F468 1F3FC 200D 1F430 200D 1F468 1F3FF, 1F468 1F3FD 200D 1F430 200D 1F468 1F3FB, 1F468 1F3FD 200D 1F430 200D 1F468 1F3FC, 1F468 1F3FD 200D 1F430 200D 1F468 1F3FE, 1F468 1F3FD 200D 1F430 200D 1F468 1F3FF, 1F468 1F3FE 200D 1F430 200D 1F468 1F3FB, 1F468 1F3FE 200D 1F430 200D 1F468 1F3FC, 1F468 1F3FE 200D 1F430 200D 1F468 1F3FD, 1F468 1F3FE 200D 1F430 200D 1F468 1F3FF, 1F468 1F3FF 200D 1F430 200D 1F468 1F3FB, 1F468 1F3FF 200D 1F430 200D 1F468 1F3FC, 1F468 1F3FF 200D 1F430 200D 1F468 1F3FD, 1F468 1F3FF 200D 1F430 200D 1F468 1F3FE, 1F469 1F3FB 200D 1F430 200D 1F469 1F3FC, 1F469 1F3FB 200D 1F430 200D 1F469 1F3FD, 1F469 1F3FB 200D 1F430 200D 1F469 1F3FE, 1F469 1F3FB 200D 1F430 200D 1F469 1F3FF, 1F469 1F3FC 200D 1F430 200D 1F469 1F3FB, 1F469 1F3FC 200D 1F430 200D 1F469 1F3FD, 1F469 1F3FC 200D 1F430 200D 1F469 1F3FE, 1F469 1F3FC 200D 1F430 200D 1F469 1F3FF, 1F469 1F3FD 200D 1F430 200D 1F469 1F3FB, 1F469 1F3FD 200D 1F430 200D 1F469 1F3FC, 1F469 1F3FD 200D 1F430 200D 1F469 1F3FE, 1F469 1F3FD 200D 1F430 200D 1F469 1F3FF, 1F469 1F3FE 200D 1F430 200D 1F469 1F3FB, 1F469 1F3FE 200D 1F430 200D 1F469 1F3FC, 1F469 1F3FE 200D 1F430 200D 1F469 1F3FD, 1F469 1F3FE 200D 1F430 200D 1F469 1F3FF, 1F469 1F3FF 200D 1F430 200D 1F469 1F3FB, 1F469 1F3FF 200D 1F430 200D 1F469 1F3FC, 1F469 1F3FF 200D 1F430 200D 1F469 1F3FD, 1F469 1F3FF 200D 1F430 200D 1F469 1F3FE ]
+  - emoji: 🧖
+    code: 1F9D6
+    name: サウナに入る人
+    readings:
+      - さうなにはいるひと
+      - さうな
+      - すちーむさうな
+      - ととのう
+      - すぱ
+      - りらっくす
+      - むしぶろ
+    en: person in steamy room
+    since: "5.0"
+    subgroup: person-activity
+    keywords: [ くつろぐ, サウナ, サウナに入る人, スパ, リラックス, 蒸しぶろ, 蒸気 ]
+    variants: [ 1F9D6 1F3FB, 1F9D6 1F3FC, 1F9D6 1F3FD, 1F9D6 1F3FE, 1F9D6 1F3FF ]
+  - emoji: 🧖‍♂️
+    code: 1F9D6 200D 2642 FE0F
+    name: サウナに入る男
+    readings:
+      - さうなにはいるおとこ
+      - さうな
+      - ととのう
+      - さうなー
+      - むしぶろ
+    en: man in steamy room
+    since: "5.0"
+    subgroup: person-activity
+    keywords: [ サウナ, サウナに入る男, 男, 男性 ]
+    variants: [ 1F9D6 1F3FB 200D 2642 FE0F, 1F9D6 1F3FC 200D 2642 FE0F, 1F9D6 1F3FD 200D 2642 FE0F, 1F9D6 1F3FE 200D 2642 FE0F, 1F9D6 1F3FF 200D 2642 FE0F ]
+  - emoji: 🧖‍♀️
+    code: 1F9D6 200D 2640 FE0F
+    name: サウナに入る女
+    readings:
+      - さうなにはいるおんな
+      - さうな
+      - ととのう
+      - すぱ
+      - むしぶろ
+    en: woman in steamy room
+    since: "5.0"
+    subgroup: person-activity
+    keywords: [ サウナ, サウナに入る女, 女, 女性 ]
+    variants: [ 1F9D6 1F3FB 200D 2640 FE0F, 1F9D6 1F3FC 200D 2640 FE0F, 1F9D6 1F3FD 200D 2640 FE0F, 1F9D6 1F3FE 200D 2640 FE0F, 1F9D6 1F3FF 200D 2640 FE0F ]
+  - emoji: 🧗
+    code: 1F9D7
+    name: クライミングする人
+    readings:
+      - くらいみんぐするひと
+      - くらいみんぐ
+      - ぼるだりんぐ
+      - ろっくくらいみんぐ
+      - やまのぼり
+      - とざん
+      - のぼる
+    en: person climbing
+    since: "5.0"
+    subgroup: person-activity
+    keywords: [ ロッククライマー, 山, 山を登る人, 山登り, 登る, 登山 ]
+    variants: [ 1F9D7 1F3FB, 1F9D7 1F3FC, 1F9D7 1F3FD, 1F9D7 1F3FE, 1F9D7 1F3FF ]
+  - emoji: 🧗‍♂️
+    code: 1F9D7 200D 2642 FE0F
+    name: クライミングする男
+    readings:
+      - くらいみんぐするおとこ
+      - くらいみんぐ
+      - ぼるだりんぐ
+      - ろっくくらいみんぐ
+      - とざん
+    en: man climbing
+    since: "5.0"
+    subgroup: person-activity
+    keywords: [ 山を登る男, 山登り, 男, 男性, 登山 ]
+    variants: [ 1F9D7 1F3FB 200D 2642 FE0F, 1F9D7 1F3FC 200D 2642 FE0F, 1F9D7 1F3FD 200D 2642 FE0F, 1F9D7 1F3FE 200D 2642 FE0F, 1F9D7 1F3FF 200D 2642 FE0F ]
+  - emoji: 🧗‍♀️
+    code: 1F9D7 200D 2640 FE0F
+    name: クライミングする女
+    readings:
+      - くらいみんぐするおんな
+      - くらいみんぐ
+      - ぼるだりんぐ
+      - ろっくくらいみんぐ
+      - とざん
+    en: woman climbing
+    since: "5.0"
+    subgroup: person-activity
+    keywords: [ 女, 女性, 山を登る女, 山登り, 登山 ]
+    variants: [ 1F9D7 1F3FB 200D 2640 FE0F, 1F9D7 1F3FC 200D 2640 FE0F, 1F9D7 1F3FD 200D 2640 FE0F, 1F9D7 1F3FE 200D 2640 FE0F, 1F9D7 1F3FF 200D 2640 FE0F ]
+  - emoji: 🤺
+    code: 1F93A
+    name: フェンシングをする人
+    readings:
+      - ふぇんしんぐをするひと
+      - ふぇんしんぐ
+      - けん
+      - えぺ
+      - ふるーれ
+      - さーぶる
+    en: person fencing
+    since: "3.0"
+    subgroup: person-sport
+    keywords: [ スポーツ, フェンシング, フェンシングをする人 ]
+  - emoji: 🏇
+    code: 1F3C7
+    name: 競馬
+    readings:
+      - けいば
+      - じょっきー
+      - きしゅ
+      - じょうば
+      - きょうそうば
+      - うま
+      - けいばじょう
+    en: horse racing
+    since: "1.0"
+    subgroup: person-sport
+    keywords: [ ジョッキー, スポーツ, 乗馬, 競走馬, 競馬, 馬, 騎手 ]
+    variants: [ 1F3C7 1F3FB, 1F3C7 1F3FC, 1F3C7 1F3FD, 1F3C7 1F3FE, 1F3C7 1F3FF ]
+  - emoji: ⛷️
+    code: 26F7 FE0F
+    name: スキーヤー
+    readings:
+      - すきーやー
+      - すきー
+      - すきーじょう
+      - げれんで
+      - ゆきやま
+    en: skier
+    since: "0.7"
+    subgroup: person-sport
+    keywords: [ スキー, スキーヤー, ストック, スポーツ ]
+  - emoji: 🏂
+    code: 1F3C2
+    name: スノーボーダー
+    readings:
+      - すのーぼーだー
+      - すのーぼーど
+      - すのぼ
+      - げれんで
+      - ゆきやま
+    en: snowboarder
+    since: "0.6"
+    subgroup: person-sport
+    keywords: [ スノーボーダー, スノーボード, スノボ, スポーツ ]
+    variants: [ 1F3C2 1F3FB, 1F3C2 1F3FC, 1F3C2 1F3FD, 1F3C2 1F3FE, 1F3C2 1F3FF ]
+  - emoji: 🏌️
+    code: 1F3CC FE0F
+    name: ゴルフをする人
+    readings:
+      - ごるふをするひと
+      - ごるふ
+      - ごるふぁー
+      - うちっぱなし
+      - しょっと
+      - すいんぐ
+    en: person golfing
+    since: "0.7"
+    subgroup: person-sport
+    keywords: [ ゴルフ, ゴルファー, ゴルフをする人, スポーツ, 打ちっぱなし, 球技 ]
+    variants: [ 1F3CC 1F3FB, 1F3CC 1F3FC, 1F3CC 1F3FD, 1F3CC 1F3FE, 1F3CC 1F3FF ]
+  - emoji: 🏌️‍♂️
+    code: 1F3CC FE0F 200D 2642 FE0F
+    name: ゴルフをする男
+    readings:
+      - ごるふをするおとこ
+      - ごるふ
+      - ごるふぁー
+      - うちっぱなし
+    en: man golfing
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ ゴルフ, ゴルファー, ゴルフをする男, スポーツ, 男, 男性 ]
+    variants: [ 1F3CC 1F3FB 200D 2642 FE0F, 1F3CC 1F3FC 200D 2642 FE0F, 1F3CC 1F3FD 200D 2642 FE0F, 1F3CC 1F3FE 200D 2642 FE0F, 1F3CC 1F3FF 200D 2642 FE0F ]
+  - emoji: 🏌️‍♀️
+    code: 1F3CC FE0F 200D 2640 FE0F
+    name: ゴルフをする女
+    readings:
+      - ごるふをするおんな
+      - ごるふ
+      - ごるふぁー
+      - うちっぱなし
+    en: woman golfing
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ ゴルフ, ゴルファー, ゴルフをする女, スポーツ, 女, 女性, 球技 ]
+    variants: [ 1F3CC 1F3FB 200D 2640 FE0F, 1F3CC 1F3FC 200D 2640 FE0F, 1F3CC 1F3FD 200D 2640 FE0F, 1F3CC 1F3FE 200D 2640 FE0F, 1F3CC 1F3FF 200D 2640 FE0F ]
+  - emoji: 🏄
+    code: 1F3C4
+    name: サーフィンする人
+    readings:
+      - さーふぃんするひと
+      - さーふぃん
+      - さーふぁー
+      - なみのり
+      - なみ
+      - うみ
+    en: person surfing
+    since: "0.6"
+    subgroup: person-sport
+    keywords: [ サーファー, サーフィン, サーフィンする人, スポーツ, 波, 波乗り, 海 ]
+    variants: [ 1F3C4 1F3FB, 1F3C4 1F3FC, 1F3C4 1F3FD, 1F3C4 1F3FE, 1F3C4 1F3FF ]
+  - emoji: 🏄‍♂️
+    code: 1F3C4 200D 2642 FE0F
+    name: サーフィンする男
+    readings:
+      - さーふぃんするおとこ
+      - さーふぃん
+      - さーふぁー
+      - なみのり
+    en: man surfing
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ サーファー, サーフィンする男, スポーツ, 波乗り, 男, 男性 ]
+    variants: [ 1F3C4 1F3FB 200D 2642 FE0F, 1F3C4 1F3FC 200D 2642 FE0F, 1F3C4 1F3FD 200D 2642 FE0F, 1F3C4 1F3FE 200D 2642 FE0F, 1F3C4 1F3FF 200D 2642 FE0F ]
+  - emoji: 🏄‍♀️
+    code: 1F3C4 200D 2640 FE0F
+    name: サーフィンする女
+    readings:
+      - さーふぃんするおんな
+      - さーふぃん
+      - さーふぁー
+      - なみのり
+    en: woman surfing
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ サーファー, サーフィンする女, スポーツ, 女, 女性, 波乗り ]
+    variants: [ 1F3C4 1F3FB 200D 2640 FE0F, 1F3C4 1F3FC 200D 2640 FE0F, 1F3C4 1F3FD 200D 2640 FE0F, 1F3C4 1F3FE 200D 2640 FE0F, 1F3C4 1F3FF 200D 2640 FE0F ]
+  - emoji: 🚣
+    code: 1F6A3
+    name: ボートをこぐ人
+    readings:
+      - ぼーとをこぐひと
+      - ぼーと
+      - こぐ
+      - かぬー
+      - かやっく
+      - てこぎぼーと
+      - ぼーときょうぎ
+    en: person rowing boat
+    since: "1.0"
+    subgroup: person-sport
+    keywords: [ オール, カヌー, カヤック, スポーツ, パドル, ボート, ボートをこぐ人, 手漕ぎボート, 漕ぐ, 船 ]
+    variants: [ 1F6A3 1F3FB, 1F6A3 1F3FC, 1F6A3 1F3FD, 1F6A3 1F3FE, 1F6A3 1F3FF ]
+  - emoji: 🚣‍♂️
+    code: 1F6A3 200D 2642 FE0F
+    name: ボートをこぐ男
+    readings:
+      - ぼーとをこぐおとこ
+      - ぼーと
+      - こぐ
+      - かぬー
+      - かやっく
+    en: man rowing boat
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ カヌー, カヤック, スポーツ, ボートをこぐ男, 男性, 船 ]
+    variants: [ 1F6A3 1F3FB 200D 2642 FE0F, 1F6A3 1F3FC 200D 2642 FE0F, 1F6A3 1F3FD 200D 2642 FE0F, 1F6A3 1F3FE 200D 2642 FE0F, 1F6A3 1F3FF 200D 2642 FE0F ]
+  - emoji: 🚣‍♀️
+    code: 1F6A3 200D 2640 FE0F
+    name: ボートをこぐ女
+    readings:
+      - ぼーとをこぐおんな
+      - ぼーと
+      - こぐ
+      - かぬー
+      - かやっく
+    en: woman rowing boat
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ カヌー, カヤック, スポーツ, ボート, ボートをこぐ女, 女, 女性, 手漕ぎボート, 船 ]
+    variants: [ 1F6A3 1F3FB 200D 2640 FE0F, 1F6A3 1F3FC 200D 2640 FE0F, 1F6A3 1F3FD 200D 2640 FE0F, 1F6A3 1F3FE 200D 2640 FE0F, 1F6A3 1F3FF 200D 2640 FE0F ]
+  - emoji: 🏊
+    code: 1F3CA
+    name: 泳ぐ人
+    readings:
+      - およぐひと
+      - およぐ
+      - すいえい
+      - すいみんぐ
+      - くろーる
+      - すいまー
+      - ぷーる
+    en: person swimming
+    since: "0.6"
+    subgroup: person-sport
+    keywords: [ クロール, スイマー, スイミング, スイム, スポーツ, トライアスロン, 水泳, 泳ぐ人, 自由形 ]
+    variants: [ 1F3CA 1F3FB, 1F3CA 1F3FC, 1F3CA 1F3FD, 1F3CA 1F3FE, 1F3CA 1F3FF ]
+  - emoji: 🏊‍♂️
+    code: 1F3CA 200D 2642 FE0F
+    name: 泳ぐ男
+    readings:
+      - およぐおとこ
+      - およぐ
+      - すいえい
+      - すいみんぐ
+      - くろーる
+    en: man swimming
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ スイマー, スイミング, スイム, スポーツ, 水泳, 泳ぐ男, 男性 ]
+    variants: [ 1F3CA 1F3FB 200D 2642 FE0F, 1F3CA 1F3FC 200D 2642 FE0F, 1F3CA 1F3FD 200D 2642 FE0F, 1F3CA 1F3FE 200D 2642 FE0F, 1F3CA 1F3FF 200D 2642 FE0F ]
+  - emoji: 🏊‍♀️
+    code: 1F3CA 200D 2640 FE0F
+    name: 泳ぐ女
+    readings:
+      - およぐおんな
+      - およぐ
+      - すいえい
+      - すいみんぐ
+      - くろーる
+    en: woman swimming
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ スイマー, スイミング, スイム, スポーツ, 女, 女性, 水泳, 泳ぐ女 ]
+    variants: [ 1F3CA 1F3FB 200D 2640 FE0F, 1F3CA 1F3FC 200D 2640 FE0F, 1F3CA 1F3FD 200D 2640 FE0F, 1F3CA 1F3FE 200D 2640 FE0F, 1F3CA 1F3FF 200D 2640 FE0F ]
+  - emoji: ⛹️
+    code: 26F9 FE0F
+    name: バスケットボールをする人
+    readings:
+      - ばすけっとぼーるをするひと
+      - ばすけっとぼーる
+      - ばすけ
+      - どりぶる
+      - ばすけせんしゅ
+    en: person bouncing ball
+    since: "0.7"
+    subgroup: person-sport
+    keywords: [ スポーツ, ドリブル, バスケ, バスケットボール, バスケットボールをする人, バスケットボール選手, 球技 ]
+    variants: [ 26F9 1F3FB, 26F9 1F3FC, 26F9 1F3FD, 26F9 1F3FE, 26F9 1F3FF ]
+  - emoji: ⛹️‍♂️
+    code: 26F9 FE0F 200D 2642 FE0F
+    name: バスケットボールをする男
+    readings:
+      - ばすけっとぼーるをするおとこ
+      - ばすけっとぼーる
+      - ばすけ
+      - どりぶる
+    en: man bouncing ball
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ スポーツ, バスケ, バスケットボール, バスケットボールをする男, 球技, 男性 ]
+    variants: [ 26F9 1F3FB 200D 2642 FE0F, 26F9 1F3FC 200D 2642 FE0F, 26F9 1F3FD 200D 2642 FE0F, 26F9 1F3FE 200D 2642 FE0F, 26F9 1F3FF 200D 2642 FE0F ]
+  - emoji: ⛹️‍♀️
+    code: 26F9 FE0F 200D 2640 FE0F
+    name: バスケットボールをする女
+    readings:
+      - ばすけっとぼーるをするおんな
+      - ばすけっとぼーる
+      - ばすけ
+      - どりぶる
+    en: woman bouncing ball
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ スポーツ, ドリブル, バスケ, バスケットボール, バスケットボールをする女, 女性, 球技 ]
+    variants: [ 26F9 1F3FB 200D 2640 FE0F, 26F9 1F3FC 200D 2640 FE0F, 26F9 1F3FD 200D 2640 FE0F, 26F9 1F3FE 200D 2640 FE0F, 26F9 1F3FF 200D 2640 FE0F ]
+  - emoji: 🏋️
+    code: 1F3CB FE0F
+    name: 重量挙げをする人
+    readings:
+      - じゅうりょうあげをするひと
+      - じゅうりょうあげ
+      - うぇいとりふてぃんぐ
+      - きんとれ
+      - ばーべる
+      - でっどりふと
+      - ぱわーりふてぃんぐ
+    en: person lifting weights
+    since: "0.7"
+    subgroup: person-sport
+    keywords: [ ウェイトリフティング, スポーツ, デッドリフト, バーベル, パワーリフティング, ボディビルダー, 筋トレ, 運動, 重量挙げ ]
+    variants: [ 1F3CB 1F3FB, 1F3CB 1F3FC, 1F3CB 1F3FD, 1F3CB 1F3FE, 1F3CB 1F3FF ]
+  - emoji: 🏋️‍♂️
+    code: 1F3CB FE0F 200D 2642 FE0F
+    name: 重量挙げをする男
+    readings:
+      - じゅうりょうあげをするおとこ
+      - じゅうりょうあげ
+      - うぇいとりふてぃんぐ
+      - きんとれ
+      - ばーべる
+    en: man lifting weights
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ ウェイトリフティング, スポーツ, 男, 男性, 重量挙げをする男 ]
+    variants: [ 1F3CB 1F3FB 200D 2642 FE0F, 1F3CB 1F3FC 200D 2642 FE0F, 1F3CB 1F3FD 200D 2642 FE0F, 1F3CB 1F3FE 200D 2642 FE0F, 1F3CB 1F3FF 200D 2642 FE0F ]
+  - emoji: 🏋️‍♀️
+    code: 1F3CB FE0F 200D 2640 FE0F
+    name: 重量挙げをする女
+    readings:
+      - じゅうりょうあげをするおんな
+      - じゅうりょうあげ
+      - うぇいとりふてぃんぐ
+      - きんとれ
+      - ばーべる
+    en: woman lifting weights
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ ウェイトリフティング, スポーツ, 女, 女性, 重量挙げをする女 ]
+    variants: [ 1F3CB 1F3FB 200D 2640 FE0F, 1F3CB 1F3FC 200D 2640 FE0F, 1F3CB 1F3FD 200D 2640 FE0F, 1F3CB 1F3FE 200D 2640 FE0F, 1F3CB 1F3FF 200D 2640 FE0F ]
+  - emoji: 🚴
+    code: 1F6B4
+    name: 自転車に乗る人
+    readings:
+      - じてんしゃにのるひと
+      - じてんしゃ
+      - さいくりんぐ
+      - ろーどばいく
+      - ちゃり
+      - けいりん
+      - さいくりすと
+    en: person biking
+    since: "1.0"
+    subgroup: person-sport
+    keywords: [ サイクリスト, サイクリング, スポーツ, ロードバイク, ロードレース, 競輪, 自転車, 自転車乗り ]
+    variants: [ 1F6B4 1F3FB, 1F6B4 1F3FC, 1F6B4 1F3FD, 1F6B4 1F3FE, 1F6B4 1F3FF ]
+  - emoji: 🚴‍♂️
+    code: 1F6B4 200D 2642 FE0F
+    name: 自転車に乗る男
+    readings:
+      - じてんしゃにのるおとこ
+      - じてんしゃ
+      - さいくりんぐ
+      - ろーどばいく
+      - ちゃり
+    en: man biking
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ サイクリング, スポーツ, ロードレース, 男性, 競輪, 自転車に乗る男 ]
+    variants: [ 1F6B4 1F3FB 200D 2642 FE0F, 1F6B4 1F3FC 200D 2642 FE0F, 1F6B4 1F3FD 200D 2642 FE0F, 1F6B4 1F3FE 200D 2642 FE0F, 1F6B4 1F3FF 200D 2642 FE0F ]
+  - emoji: 🚴‍♀️
+    code: 1F6B4 200D 2640 FE0F
+    name: 自転車に乗る女
+    readings:
+      - じてんしゃにのるおんな
+      - じてんしゃ
+      - さいくりんぐ
+      - ろーどばいく
+      - ちゃり
+    en: woman biking
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ サイクリスト, サイクリング, スポーツ, ロードレース, 女, 女性, 競輪, 自転車, 自転車に乗る女, 自転車乗り ]
+    variants: [ 1F6B4 1F3FB 200D 2640 FE0F, 1F6B4 1F3FC 200D 2640 FE0F, 1F6B4 1F3FD 200D 2640 FE0F, 1F6B4 1F3FE 200D 2640 FE0F, 1F6B4 1F3FF 200D 2640 FE0F ]
+  - emoji: 🚵
+    code: 1F6B5
+    name: マウンテンバイクに乗る人
+    readings:
+      - まうんてんばいくにのるひと
+      - まうんてんばいく
+      - mtb
+      - じてんしゃ
+      - さいくりんぐ
+      - やまみち
+    en: person mountain biking
+    since: "1.0"
+    subgroup: person-sport
+    keywords: [ サイクリスト, サイクリング, スポーツ, マウンテンバイク, マウンテンバイクに乗る人, 山, 競技, 自転車, 自転車乗り ]
+    variants: [ 1F6B5 1F3FB, 1F6B5 1F3FC, 1F6B5 1F3FD, 1F6B5 1F3FE, 1F6B5 1F3FF ]
+  - emoji: 🚵‍♂️
+    code: 1F6B5 200D 2642 FE0F
+    name: マウンテンバイクに乗る男
+    readings:
+      - まうんてんばいくにのるおとこ
+      - まうんてんばいく
+      - mtb
+      - じてんしゃ
+    en: man mountain biking
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ サイクリング, スポーツ, マウンテンバイクに乗る男, 男, 男性, 自転車 ]
+    variants: [ 1F6B5 1F3FB 200D 2642 FE0F, 1F6B5 1F3FC 200D 2642 FE0F, 1F6B5 1F3FD 200D 2642 FE0F, 1F6B5 1F3FE 200D 2642 FE0F, 1F6B5 1F3FF 200D 2642 FE0F ]
+  - emoji: 🚵‍♀️
+    code: 1F6B5 200D 2640 FE0F
+    name: マウンテンバイクに乗る女
+    readings:
+      - まうんてんばいくにのるおんな
+      - まうんてんばいく
+      - mtb
+      - じてんしゃ
+    en: woman mountain biking
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ サイクリスト, サイクリング, スポーツ, マウンテンバイクに乗る女, 女, 女性, 自転車, 自転車乗り ]
+    variants: [ 1F6B5 1F3FB 200D 2640 FE0F, 1F6B5 1F3FC 200D 2640 FE0F, 1F6B5 1F3FD 200D 2640 FE0F, 1F6B5 1F3FE 200D 2640 FE0F, 1F6B5 1F3FF 200D 2640 FE0F ]
+  - emoji: 🤸
+    code: 1F938
+    name: 側転する人
+    readings:
+      - そくてんするひと
+      - そくてん
+      - たいそう
+      - とんぼがえり
+      - ばくてん
+      - うかれる
+      - はしゃぐ
+    en: person cartwheeling
+    since: "3.0"
+    subgroup: person-sport
+    keywords: [ スポーツ, トンボ返り, 体操, 側転, 側転する人, 幸せ, 活動的, 活発, 興奮 ]
+    variants: [ 1F938 1F3FB, 1F938 1F3FC, 1F938 1F3FD, 1F938 1F3FE, 1F938 1F3FF ]
+  - emoji: 🤸‍♂️
+    code: 1F938 200D 2642 FE0F
+    name: 側転する男
+    readings:
+      - そくてんするおとこ
+      - そくてん
+      - たいそう
+      - とんぼがえり
+    en: man cartwheeling
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ スポーツ, トンボ返り, 体操, 側転, 側転する男, 幸せ, 活発, 男性, 興奮 ]
+    variants: [ 1F938 1F3FB 200D 2642 FE0F, 1F938 1F3FC 200D 2642 FE0F, 1F938 1F3FD 200D 2642 FE0F, 1F938 1F3FE 200D 2642 FE0F, 1F938 1F3FF 200D 2642 FE0F ]
+  - emoji: 🤸‍♀️
+    code: 1F938 200D 2640 FE0F
+    name: 側転する女
+    readings:
+      - そくてんするおんな
+      - そくてん
+      - たいそう
+      - とんぼがえり
+    en: woman cartwheeling
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ スポーツ, トンボ返り, 体操, 側転, 側転する女, 女性, 幸せ, 活発, 興奮 ]
+    variants: [ 1F938 1F3FB 200D 2640 FE0F, 1F938 1F3FC 200D 2640 FE0F, 1F938 1F3FD 200D 2640 FE0F, 1F938 1F3FE 200D 2640 FE0F, 1F938 1F3FF 200D 2640 FE0F ]
+  - emoji: 🤼
+    code: 1F93C
+    name: レスリングする人
+    readings:
+      - れすりんぐするひと
+      - れすりんぐ
+      - れすらー
+      - とっくみあい
+      - かくとう
+      - ぷろれす
+      - すもう
+    en: people wrestling
+    since: "3.0"
+    subgroup: person-sport
+    keywords: [ スポーツ, デュエル, リング内, レスラー, レスリング, レスリングする人, レスリング大会, 取っ組み合い, 格闘 ]
+    variants: [ 1F93C 1F3FB, 1F93C 1F3FC, 1F93C 1F3FD, 1F93C 1F3FE, 1F93C 1F3FF ]
+  - emoji: 🤼‍♂️
+    code: 1F93C 200D 2642 FE0F
+    name: レスリングする男
+    readings:
+      - れすりんぐするおとこ
+      - れすりんぐ
+      - れすらー
+      - とっくみあい
+      - ぷろれす
+    en: men wrestling
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ スポーツ, デュエル, リング内, レスリング, レスリングする男, レスリングをする, レスリング大会, 取っ組み合い, 格闘, 男性 ]
+    variants: [ 1F93C 1F3FB 200D 2642 FE0F, 1F93C 1F3FC 200D 2642 FE0F, 1F93C 1F3FD 200D 2642 FE0F, 1F93C 1F3FE 200D 2642 FE0F, 1F93C 1F3FF 200D 2642 FE0F ]
+  - emoji: 🤼‍♀️
+    code: 1F93C 200D 2640 FE0F
+    name: レスリングする女
+    readings:
+      - れすりんぐするおんな
+      - れすりんぐ
+      - れすらー
+      - とっくみあい
+      - じょしぷろれす
+    en: women wrestling
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ スポーツ, デュエル, リング内, レスリング, レスリングする女, レスリングをする, レスリング大会, 取っ組み合い, 女性, 格闘 ]
+    variants: [ 1F93C 1F3FB 200D 2640 FE0F, 1F93C 1F3FC 200D 2640 FE0F, 1F93C 1F3FD 200D 2640 FE0F, 1F93C 1F3FE 200D 2640 FE0F, 1F93C 1F3FF 200D 2640 FE0F, 1F9D1 1F3FB 200D 1FAEF 200D 1F9D1 1F3FC, 1F9D1 1F3FB 200D 1FAEF 200D 1F9D1 1F3FD, 1F9D1 1F3FB 200D 1FAEF 200D 1F9D1 1F3FE, 1F9D1 1F3FB 200D 1FAEF 200D 1F9D1 1F3FF, 1F9D1 1F3FC 200D 1FAEF 200D 1F9D1 1F3FB, 1F9D1 1F3FC 200D 1FAEF 200D 1F9D1 1F3FD, 1F9D1 1F3FC 200D 1FAEF 200D 1F9D1 1F3FE, 1F9D1 1F3FC 200D 1FAEF 200D 1F9D1 1F3FF, 1F9D1 1F3FD 200D 1FAEF 200D 1F9D1 1F3FB, 1F9D1 1F3FD 200D 1FAEF 200D 1F9D1 1F3FC, 1F9D1 1F3FD 200D 1FAEF 200D 1F9D1 1F3FE, 1F9D1 1F3FD 200D 1FAEF 200D 1F9D1 1F3FF, 1F9D1 1F3FE 200D 1FAEF 200D 1F9D1 1F3FB, 1F9D1 1F3FE 200D 1FAEF 200D 1F9D1 1F3FC, 1F9D1 1F3FE 200D 1FAEF 200D 1F9D1 1F3FD, 1F9D1 1F3FE 200D 1FAEF 200D 1F9D1 1F3FF, 1F9D1 1F3FF 200D 1FAEF 200D 1F9D1 1F3FB, 1F9D1 1F3FF 200D 1FAEF 200D 1F9D1 1F3FC, 1F9D1 1F3FF 200D 1FAEF 200D 1F9D1 1F3FD, 1F9D1 1F3FF 200D 1FAEF 200D 1F9D1 1F3FE, 1F468 1F3FB 200D 1FAEF 200D 1F468 1F3FC, 1F468 1F3FB 200D 1FAEF 200D 1F468 1F3FD, 1F468 1F3FB 200D 1FAEF 200D 1F468 1F3FE, 1F468 1F3FB 200D 1FAEF 200D 1F468 1F3FF, 1F468 1F3FC 200D 1FAEF 200D 1F468 1F3FB, 1F468 1F3FC 200D 1FAEF 200D 1F468 1F3FD, 1F468 1F3FC 200D 1FAEF 200D 1F468 1F3FE, 1F468 1F3FC 200D 1FAEF 200D 1F468 1F3FF, 1F468 1F3FD 200D 1FAEF 200D 1F468 1F3FB, 1F468 1F3FD 200D 1FAEF 200D 1F468 1F3FC, 1F468 1F3FD 200D 1FAEF 200D 1F468 1F3FE, 1F468 1F3FD 200D 1FAEF 200D 1F468 1F3FF, 1F468 1F3FE 200D 1FAEF 200D 1F468 1F3FB, 1F468 1F3FE 200D 1FAEF 200D 1F468 1F3FC, 1F468 1F3FE 200D 1FAEF 200D 1F468 1F3FD, 1F468 1F3FE 200D 1FAEF 200D 1F468 1F3FF, 1F468 1F3FF 200D 1FAEF 200D 1F468 1F3FB, 1F468 1F3FF 200D 1FAEF 200D 1F468 1F3FC, 1F468 1F3FF 200D 1FAEF 200D 1F468 1F3FD, 1F468 1F3FF 200D 1FAEF 200D 1F468 1F3FE, 1F469 1F3FB 200D 1FAEF 200D 1F469 1F3FC, 1F469 1F3FB 200D 1FAEF 200D 1F469 1F3FD, 1F469 1F3FB 200D 1FAEF 200D 1F469 1F3FE, 1F469 1F3FB 200D 1FAEF 200D 1F469 1F3FF, 1F469 1F3FC 200D 1FAEF 200D 1F469 1F3FB, 1F469 1F3FC 200D 1FAEF 200D 1F469 1F3FD, 1F469 1F3FC 200D 1FAEF 200D 1F469 1F3FE, 1F469 1F3FC 200D 1FAEF 200D 1F469 1F3FF, 1F469 1F3FD 200D 1FAEF 200D 1F469 1F3FB, 1F469 1F3FD 200D 1FAEF 200D 1F469 1F3FC, 1F469 1F3FD 200D 1FAEF 200D 1F469 1F3FE, 1F469 1F3FD 200D 1FAEF 200D 1F469 1F3FF, 1F469 1F3FE 200D 1FAEF 200D 1F469 1F3FB, 1F469 1F3FE 200D 1FAEF 200D 1F469 1F3FC, 1F469 1F3FE 200D 1FAEF 200D 1F469 1F3FD, 1F469 1F3FE 200D 1FAEF 200D 1F469 1F3FF, 1F469 1F3FF 200D 1FAEF 200D 1F469 1F3FB, 1F469 1F3FF 200D 1FAEF 200D 1F469 1F3FC, 1F469 1F3FF 200D 1FAEF 200D 1F469 1F3FD, 1F469 1F3FF 200D 1FAEF 200D 1F469 1F3FE ]
+  - emoji: 🤽
+    code: 1F93D
+    name: 水球をする人
+    readings:
+      - すいきゅうをするひと
+      - すいきゅう
+      - うぉーたーぽろ
+      - すいじょうきょうぎ
+    en: person playing water polo
+    since: "3.0"
+    subgroup: person-sport
+    keywords: [ スポーツ, 水上競技, 水泳, 水球, 水球をする人, 球技 ]
+    variants: [ 1F93D 1F3FB, 1F93D 1F3FC, 1F93D 1F3FD, 1F93D 1F3FE, 1F93D 1F3FF ]
+  - emoji: 🤽‍♂️
+    code: 1F93D 200D 2642 FE0F
+    name: 水球をする男
+    readings:
+      - すいきゅうをするおとこ
+      - すいきゅう
+      - うぉーたーぽろ
+    en: man playing water polo
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ スポーツ, 水上競技, 水泳, 水球, 水球をする男, 球技, 男性 ]
+    variants: [ 1F93D 1F3FB 200D 2642 FE0F, 1F93D 1F3FC 200D 2642 FE0F, 1F93D 1F3FD 200D 2642 FE0F, 1F93D 1F3FE 200D 2642 FE0F, 1F93D 1F3FF 200D 2642 FE0F ]
+  - emoji: 🤽‍♀️
+    code: 1F93D 200D 2640 FE0F
+    name: 水球をする女
+    readings:
+      - すいきゅうをするおんな
+      - すいきゅう
+      - うぉーたーぽろ
+    en: woman playing water polo
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ スポーツ, 女性, 水上競技, 水泳, 水球, 水球をする女, 球技 ]
+    variants: [ 1F93D 1F3FB 200D 2640 FE0F, 1F93D 1F3FC 200D 2640 FE0F, 1F93D 1F3FD 200D 2640 FE0F, 1F93D 1F3FE 200D 2640 FE0F, 1F93D 1F3FF 200D 2640 FE0F ]
+  - emoji: 🤾
+    code: 1F93E
+    name: ハンドボールをする人
+    readings:
+      - はんどぼーるをするひと
+      - はんどぼーる
+      - ぼーるをなげる
+      - なげる
+      - しゅーと
+    en: person playing handball
+    since: "3.0"
+    subgroup: person-sport
+    keywords: [ アスリート, キャッチ, スポーツ, スローする, ハンドボール, ハンドボールをする人, ボール, 投げる, 放る, 球技 ]
+    variants: [ 1F93E 1F3FB, 1F93E 1F3FC, 1F93E 1F3FD, 1F93E 1F3FE, 1F93E 1F3FF ]
+  - emoji: 🤾‍♂️
+    code: 1F93E 200D 2642 FE0F
+    name: ハンドボールをする男
+    readings:
+      - はんどぼーるをするおとこ
+      - はんどぼーる
+      - なげる
+    en: man playing handball
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ スポーツ, ハンドボール, ハンドボールをする男, 球技, 男, 男性 ]
+    variants: [ 1F93E 1F3FB 200D 2642 FE0F, 1F93E 1F3FC 200D 2642 FE0F, 1F93E 1F3FD 200D 2642 FE0F, 1F93E 1F3FE 200D 2642 FE0F, 1F93E 1F3FF 200D 2642 FE0F ]
+  - emoji: 🤾‍♀️
+    code: 1F93E 200D 2640 FE0F
+    name: ハンドボールをする女
+    readings:
+      - はんどぼーるをするおんな
+      - はんどぼーる
+      - なげる
+    en: woman playing handball
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ キャッチ, スポーツ, スローする, ハンドボール, ハンドボールをする女, ボール, 女性, 投げる, 放る, 球技 ]
+    variants: [ 1F93E 1F3FB 200D 2640 FE0F, 1F93E 1F3FC 200D 2640 FE0F, 1F93E 1F3FD 200D 2640 FE0F, 1F93E 1F3FE 200D 2640 FE0F, 1F93E 1F3FF 200D 2640 FE0F ]
+  - emoji: 🤹
+    code: 1F939
+    name: ジャグリングをする人
+    readings:
+      - じゃぐりんぐをするひと
+      - じゃぐりんぐ
+      - じゃぐらー
+      - だいどうげい
+      - まるちたすく
+      - きょくげい
+    en: person juggling
+    since: "3.0"
+    subgroup: person-sport
+    keywords: [ ジャグラー, ジャグリング, ジャグリングする人, ジャグリングをする人, バランス演技, マルチタスク, 大道芸, 操る ]
+    variants: [ 1F939 1F3FB, 1F939 1F3FC, 1F939 1F3FD, 1F939 1F3FE, 1F939 1F3FF ]
+  - emoji: 🤹‍♂️
+    code: 1F939 200D 2642 FE0F
+    name: ジャグリングをする男
+    readings:
+      - じゃぐりんぐをするおとこ
+      - じゃぐりんぐ
+      - じゃぐらー
+      - だいどうげい
+      - まるちたすく
+    en: man juggling
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ ジャグラー, ジャグリング, ジャグリングをする男, バランス演技, マルチタスク, 大道芸, 操る, 男性 ]
+    variants: [ 1F939 1F3FB 200D 2642 FE0F, 1F939 1F3FC 200D 2642 FE0F, 1F939 1F3FD 200D 2642 FE0F, 1F939 1F3FE 200D 2642 FE0F, 1F939 1F3FF 200D 2642 FE0F ]
+  - emoji: 🤹‍♀️
+    code: 1F939 200D 2640 FE0F
+    name: ジャグリングをする女
+    readings:
+      - じゃぐりんぐをするおんな
+      - じゃぐりんぐ
+      - じゃぐらー
+      - だいどうげい
+    en: woman juggling
+    since: "4.0"
+    subgroup: person-sport
+    keywords: [ ジャグラー, ジャグリング, ジャグリングをする女, 大道芸, 女, 女性 ]
+    variants: [ 1F939 1F3FB 200D 2640 FE0F, 1F939 1F3FC 200D 2640 FE0F, 1F939 1F3FD 200D 2640 FE0F, 1F939 1F3FE 200D 2640 FE0F, 1F939 1F3FF 200D 2640 FE0F ]
+  - emoji: 🧘
+    code: 1F9D8
+    name: ヨガのポーズをする人
+    readings:
+      - よがのぽーずをするひと
+      - よが
+      - めいそう
+      - ぜん
+      - ざぜん
+      - あぐら
+      - れんげざ
+      - りらっくす
+    en: person in lotus position
+    since: "5.0"
+    subgroup: person-resting
+    keywords: [ くつろぎ, ヨガ, ヨガのポーズをする人, ヨガ行者, リラックス, 平安, 瞑想, 禅, 胡坐, 蓮華座のポーズ ]
+    variants: [ 1F9D8 1F3FB, 1F9D8 1F3FC, 1F9D8 1F3FD, 1F9D8 1F3FE, 1F9D8 1F3FF ]
+  - emoji: 🧘‍♂️
+    code: 1F9D8 200D 2642 FE0F
+    name: ヨガのポーズをする男
+    readings:
+      - よがのぽーずをするおとこ
+      - よが
+      - めいそう
+      - ざぜん
+    en: man in lotus position
+    since: "5.0"
+    subgroup: person-resting
+    keywords: [ ヨガ, ヨガのポーズをする男, 男, 男性, 瞑想 ]
+    variants: [ 1F9D8 1F3FB 200D 2642 FE0F, 1F9D8 1F3FC 200D 2642 FE0F, 1F9D8 1F3FD 200D 2642 FE0F, 1F9D8 1F3FE 200D 2642 FE0F, 1F9D8 1F3FF 200D 2642 FE0F ]
+  - emoji: 🧘‍♀️
+    code: 1F9D8 200D 2640 FE0F
+    name: ヨガのポーズをする女
+    readings:
+      - よがのぽーずをするおんな
+      - よが
+      - めいそう
+      - ざぜん
+    en: woman in lotus position
+    since: "5.0"
+    subgroup: person-resting
+    keywords: [ ヨガ, ヨガのポーズをする女, 女, 女性, 瞑想 ]
+    variants: [ 1F9D8 1F3FB 200D 2640 FE0F, 1F9D8 1F3FC 200D 2640 FE0F, 1F9D8 1F3FD 200D 2640 FE0F, 1F9D8 1F3FE 200D 2640 FE0F, 1F9D8 1F3FF 200D 2640 FE0F ]
+  - emoji: 🛀
+    code: 1F6C0
+    name: 風呂に入る人
+    readings:
+      - ふろにはいるひと
+      - ふろ
+      - おふろ
+      - にゅうよく
+      - よくそう
+      - ばすたぶ
+      - ばすたいむ
+      - ゆぶね
+    en: person taking bath
+    since: "0.6"
+    subgroup: person-resting
+    keywords: [ バスタブ, 浴槽, 風呂, 風呂に入る人 ]
+    variants: [ 1F6C0 1F3FB, 1F6C0 1F3FC, 1F6C0 1F3FD, 1F6C0 1F3FE, 1F6C0 1F3FF ]
+  - emoji: 🛌
+    code: 1F6CC
+    name: ベッドに寝る人
+    readings:
+      - べっどにねるひと
+      - ねる
+      - おやすみ
+      - しゅうしん
+      - べっど
+      - ほてる
+      - ねどこ
+    en: person in bed
+    since: "1.0"
+    subgroup: person-resting
+    keywords: [ おやすみ, グーグー, ベッド, ベッドに寝る人, ホテル, 寝る, 就寝中 ]
+    variants: [ 1F6CC 1F3FB, 1F6CC 1F3FC, 1F6CC 1F3FD, 1F6CC 1F3FE, 1F6CC 1F3FF ]
+  - emoji: 🧑‍🤝‍🧑
+    code: 1F9D1 200D 1F91D 200D 1F9D1
+    name: 手をつなぐ2人
+    readings:
+      - てをつなぐふたり
+      - てをつなぐ
+      - ともだち
+      - かっぷる
+      - こいびと
+      - なかよし
+    en: people holding hands
+    since: "12.0"
+    subgroup: family
+    keywords: [ カップル, つなぐ, 人, 友達, 恋人, 手, 手をつなぐ, 手をつなぐ2人 ]
+    variants: [ 1F9D1 1F3FB 200D 1F91D 200D 1F9D1 1F3FB, 1F9D1 1F3FB 200D 1F91D 200D 1F9D1 1F3FC, 1F9D1 1F3FB 200D 1F91D 200D 1F9D1 1F3FD, 1F9D1 1F3FB 200D 1F91D 200D 1F9D1 1F3FE, 1F9D1 1F3FB 200D 1F91D 200D 1F9D1 1F3FF, 1F9D1 1F3FC 200D 1F91D 200D 1F9D1 1F3FB, 1F9D1 1F3FC 200D 1F91D 200D 1F9D1 1F3FC, 1F9D1 1F3FC 200D 1F91D 200D 1F9D1 1F3FD, 1F9D1 1F3FC 200D 1F91D 200D 1F9D1 1F3FE, 1F9D1 1F3FC 200D 1F91D 200D 1F9D1 1F3FF, 1F9D1 1F3FD 200D 1F91D 200D 1F9D1 1F3FB, 1F9D1 1F3FD 200D 1F91D 200D 1F9D1 1F3FC, 1F9D1 1F3FD 200D 1F91D 200D 1F9D1 1F3FD, 1F9D1 1F3FD 200D 1F91D 200D 1F9D1 1F3FE, 1F9D1 1F3FD 200D 1F91D 200D 1F9D1 1F3FF, 1F9D1 1F3FE 200D 1F91D 200D 1F9D1 1F3FB, 1F9D1 1F3FE 200D 1F91D 200D 1F9D1 1F3FC, 1F9D1 1F3FE 200D 1F91D 200D 1F9D1 1F3FD, 1F9D1 1F3FE 200D 1F91D 200D 1F9D1 1F3FE, 1F9D1 1F3FE 200D 1F91D 200D 1F9D1 1F3FF, 1F9D1 1F3FF 200D 1F91D 200D 1F9D1 1F3FB, 1F9D1 1F3FF 200D 1F91D 200D 1F9D1 1F3FC, 1F9D1 1F3FF 200D 1F91D 200D 1F9D1 1F3FD, 1F9D1 1F3FF 200D 1F91D 200D 1F9D1 1F3FE, 1F9D1 1F3FF 200D 1F91D 200D 1F9D1 1F3FF ]
+  - emoji: 👭
+    code: 1F46D
+    name: 手をつなぐ女性
+    readings:
+      - てをつなぐじょせい
+      - てをつなぐ
+      - じょしどうし
+      - ゆり
+      - しまい
+      - かっぷる
+      - なかよし
+    en: women holding hands
+    since: "1.0"
+    subgroup: family
+    keywords: [ カップル, 友情, 友達, 同性, 女, 姉妹, 恋人, 手をつなぐ女性 ]
+    variants: [ 1F46D 1F3FB, 1F469 1F3FB 200D 1F91D 200D 1F469 1F3FC, 1F469 1F3FB 200D 1F91D 200D 1F469 1F3FD, 1F469 1F3FB 200D 1F91D 200D 1F469 1F3FE, 1F469 1F3FB 200D 1F91D 200D 1F469 1F3FF, 1F469 1F3FC 200D 1F91D 200D 1F469 1F3FB, 1F46D 1F3FC, 1F469 1F3FC 200D 1F91D 200D 1F469 1F3FD, 1F469 1F3FC 200D 1F91D 200D 1F469 1F3FE, 1F469 1F3FC 200D 1F91D 200D 1F469 1F3FF, 1F469 1F3FD 200D 1F91D 200D 1F469 1F3FB, 1F469 1F3FD 200D 1F91D 200D 1F469 1F3FC, 1F46D 1F3FD, 1F469 1F3FD 200D 1F91D 200D 1F469 1F3FE, 1F469 1F3FD 200D 1F91D 200D 1F469 1F3FF, 1F469 1F3FE 200D 1F91D 200D 1F469 1F3FB, 1F469 1F3FE 200D 1F91D 200D 1F469 1F3FC, 1F469 1F3FE 200D 1F91D 200D 1F469 1F3FD, 1F46D 1F3FE, 1F469 1F3FE 200D 1F91D 200D 1F469 1F3FF, 1F469 1F3FF 200D 1F91D 200D 1F469 1F3FB, 1F469 1F3FF 200D 1F91D 200D 1F469 1F3FC, 1F469 1F3FF 200D 1F91D 200D 1F469 1F3FD, 1F469 1F3FF 200D 1F91D 200D 1F469 1F3FE, 1F46D 1F3FF ]
+  - emoji: 👫
+    code: 1F46B
+    name: 手をつなぐ男女
+    readings:
+      - てをつなぐだんじょ
+      - てをつなぐ
+      - かっぷる
+      - こいびと
+      - だんじょ
+      - でーと
+      - あべっく
+    en: woman and man holding hands
+    since: "0.6"
+    subgroup: family
+    keywords: [ カップル, 友達, 女, 女性, 恋人, 手をつなぐ男女, 男, 男女, 男性, 異性 ]
+    variants: [ 1F46B 1F3FB, 1F469 1F3FB 200D 1F91D 200D 1F468 1F3FC, 1F469 1F3FB 200D 1F91D 200D 1F468 1F3FD, 1F469 1F3FB 200D 1F91D 200D 1F468 1F3FE, 1F469 1F3FB 200D 1F91D 200D 1F468 1F3FF, 1F469 1F3FC 200D 1F91D 200D 1F468 1F3FB, 1F46B 1F3FC, 1F469 1F3FC 200D 1F91D 200D 1F468 1F3FD, 1F469 1F3FC 200D 1F91D 200D 1F468 1F3FE, 1F469 1F3FC 200D 1F91D 200D 1F468 1F3FF, 1F469 1F3FD 200D 1F91D 200D 1F468 1F3FB, 1F469 1F3FD 200D 1F91D 200D 1F468 1F3FC, 1F46B 1F3FD, 1F469 1F3FD 200D 1F91D 200D 1F468 1F3FE, 1F469 1F3FD 200D 1F91D 200D 1F468 1F3FF, 1F469 1F3FE 200D 1F91D 200D 1F468 1F3FB, 1F469 1F3FE 200D 1F91D 200D 1F468 1F3FC, 1F469 1F3FE 200D 1F91D 200D 1F468 1F3FD, 1F46B 1F3FE, 1F469 1F3FE 200D 1F91D 200D 1F468 1F3FF, 1F469 1F3FF 200D 1F91D 200D 1F468 1F3FB, 1F469 1F3FF 200D 1F91D 200D 1F468 1F3FC, 1F469 1F3FF 200D 1F91D 200D 1F468 1F3FD, 1F469 1F3FF 200D 1F91D 200D 1F468 1F3FE, 1F46B 1F3FF ]
+  - emoji: 👬
+    code: 1F46C
+    name: 手をつなぐ男性
+    readings:
+      - てをつなぐだんせい
+      - てをつなぐ
+      - だんしどうし
+      - きょうだい
+      - かっぷる
+      - なかよし
+    en: men holding hands
+    since: "1.0"
+    subgroup: family
+    keywords: [ カップル, 兄弟, 友達, 双子, 同性, 恋人, 手をつなぐ男性, 男, 男性 ]
+    variants: [ 1F46C 1F3FB, 1F468 1F3FB 200D 1F91D 200D 1F468 1F3FC, 1F468 1F3FB 200D 1F91D 200D 1F468 1F3FD, 1F468 1F3FB 200D 1F91D 200D 1F468 1F3FE, 1F468 1F3FB 200D 1F91D 200D 1F468 1F3FF, 1F468 1F3FC 200D 1F91D 200D 1F468 1F3FB, 1F46C 1F3FC, 1F468 1F3FC 200D 1F91D 200D 1F468 1F3FD, 1F468 1F3FC 200D 1F91D 200D 1F468 1F3FE, 1F468 1F3FC 200D 1F91D 200D 1F468 1F3FF, 1F468 1F3FD 200D 1F91D 200D 1F468 1F3FB, 1F468 1F3FD 200D 1F91D 200D 1F468 1F3FC, 1F46C 1F3FD, 1F468 1F3FD 200D 1F91D 200D 1F468 1F3FE, 1F468 1F3FD 200D 1F91D 200D 1F468 1F3FF, 1F468 1F3FE 200D 1F91D 200D 1F468 1F3FB, 1F468 1F3FE 200D 1F91D 200D 1F468 1F3FC, 1F468 1F3FE 200D 1F91D 200D 1F468 1F3FD, 1F46C 1F3FE, 1F468 1F3FE 200D 1F91D 200D 1F468 1F3FF, 1F468 1F3FF 200D 1F91D 200D 1F468 1F3FB, 1F468 1F3FF 200D 1F91D 200D 1F468 1F3FC, 1F468 1F3FF 200D 1F91D 200D 1F468 1F3FD, 1F468 1F3FF 200D 1F91D 200D 1F468 1F3FE, 1F46C 1F3FF ]
+  - emoji: 💏
+    code: 1F48F
+    name: 2人でキス
+    readings:
+      - ふたりできす
+      - きす
+      - ちゅー
+      - ちゅっ
+      - かっぷる
+      - こいびと
+      - らぶらぶ
+    en: kiss
+    since: "0.6"
+    subgroup: family
+    keywords: [ 2人でキス, カップル, キス, ちゅっ, ハート, 記念日 ]
+    variants: [ 1F48F 1F3FB, 1F48F 1F3FC, 1F48F 1F3FD, 1F48F 1F3FE, 1F48F 1F3FF, 1F9D1 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FC, 1F9D1 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FD, 1F9D1 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FE, 1F9D1 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FF, 1F9D1 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FB, 1F9D1 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FD, 1F9D1 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FE, 1F9D1 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FF, 1F9D1 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FB, 1F9D1 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FC, 1F9D1 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FE, 1F9D1 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FF, 1F9D1 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FB, 1F9D1 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FC, 1F9D1 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FD, 1F9D1 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FF, 1F9D1 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FB, 1F9D1 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FC, 1F9D1 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FD, 1F9D1 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FE ]
+  - emoji: 👩‍❤️‍💋‍👨
+    code: 1F469 200D 2764 FE0F 200D 1F48B 200D 1F468
+    name: "2人でキス: 女性 男性"
+    readings:
+      - ふたりできすじょせいだんせい
+      - きす
+      - ちゅー
+      - かっぷる
+      - こいびと
+      - らぶらぶ
+    en: "kiss: woman, man"
+    since: "2.0"
+    subgroup: family
+    keywords: [ 2人でキス, カップル, キス, ちゅっ, ハート, 女性, 男性, 記念日 ]
+    variants: [ 1F469 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FB, 1F469 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FC, 1F469 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FD, 1F469 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FE, 1F469 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FF, 1F469 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FB, 1F469 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FC, 1F469 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FD, 1F469 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FE, 1F469 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FF, 1F469 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FB, 1F469 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FC, 1F469 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FD, 1F469 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FE, 1F469 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FF, 1F469 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FB, 1F469 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FC, 1F469 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FD, 1F469 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FE, 1F469 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FF, 1F469 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FB, 1F469 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FC, 1F469 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FD, 1F469 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FE, 1F469 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FF ]
+  - emoji: 👨‍❤️‍💋‍👨
+    code: 1F468 200D 2764 FE0F 200D 1F48B 200D 1F468
+    name: "2人でキス: 男性 男性"
+    readings:
+      - ふたりできすだんせいだんせい
+      - きす
+      - ちゅー
+      - かっぷる
+      - こいびと
+      - だんしどうし
+    en: "kiss: man, man"
+    since: "2.0"
+    subgroup: family
+    keywords: [ 2人でキス, カップル, キス, ちゅっ, ハート, 男性, 記念日 ]
+    variants: [ 1F468 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FB, 1F468 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FC, 1F468 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FD, 1F468 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FE, 1F468 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FF, 1F468 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FB, 1F468 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FC, 1F468 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FD, 1F468 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FE, 1F468 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FF, 1F468 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FB, 1F468 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FC, 1F468 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FD, 1F468 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FE, 1F468 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FF, 1F468 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FB, 1F468 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FC, 1F468 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FD, 1F468 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FE, 1F468 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FF, 1F468 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FB, 1F468 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FC, 1F468 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FD, 1F468 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FE, 1F468 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FF ]
+  - emoji: 👩‍❤️‍💋‍👩
+    code: 1F469 200D 2764 FE0F 200D 1F48B 200D 1F469
+    name: "2人でキス: 女性 女性"
+    readings:
+      - ふたりできすじょせいじょせい
+      - きす
+      - ちゅー
+      - かっぷる
+      - こいびと
+      - じょしどうし
+      - ゆり
+    en: "kiss: woman, woman"
+    since: "2.0"
+    subgroup: family
+    keywords: [ 2人でキス, カップル, キス, ちゅっ, ハート, 女性, 記念日 ]
+    variants: [ 1F469 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FB, 1F469 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FC, 1F469 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FD, 1F469 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FE, 1F469 1F3FB 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FF, 1F469 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FB, 1F469 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FC, 1F469 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FD, 1F469 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FE, 1F469 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FF, 1F469 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FB, 1F469 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FC, 1F469 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FD, 1F469 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FE, 1F469 1F3FD 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FF, 1F469 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FB, 1F469 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FC, 1F469 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FD, 1F469 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FE, 1F469 1F3FE 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FF, 1F469 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FB, 1F469 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FC, 1F469 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FD, 1F469 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FE, 1F469 1F3FF 200D 2764 FE0F 200D 1F48B 200D 1F469 1F3FF ]
+  - emoji: 💑
+    code: 1F491
+    name: カップルとハート
+    readings:
+      - かっぷるとはーと
+      - かっぷる
+      - こいびと
+      - らぶらぶ
+      - あつあつ
+      - きねんび
+      - りょうおもい
+    en: couple with heart
+    since: "0.6"
+    subgroup: family
+    keywords: [ カップル, カップルとハート, ハート, 恋人, 熱々, 記念日 ]
+    variants: [ 1F491 1F3FB, 1F491 1F3FC, 1F491 1F3FD, 1F491 1F3FE, 1F491 1F3FF, 1F9D1 1F3FB 200D 2764 FE0F 200D 1F9D1 1F3FC, 1F9D1 1F3FB 200D 2764 FE0F 200D 1F9D1 1F3FD, 1F9D1 1F3FB 200D 2764 FE0F 200D 1F9D1 1F3FE, 1F9D1 1F3FB 200D 2764 FE0F 200D 1F9D1 1F3FF, 1F9D1 1F3FC 200D 2764 FE0F 200D 1F9D1 1F3FB, 1F9D1 1F3FC 200D 2764 FE0F 200D 1F9D1 1F3FD, 1F9D1 1F3FC 200D 2764 FE0F 200D 1F9D1 1F3FE, 1F9D1 1F3FC 200D 2764 FE0F 200D 1F9D1 1F3FF, 1F9D1 1F3FD 200D 2764 FE0F 200D 1F9D1 1F3FB, 1F9D1 1F3FD 200D 2764 FE0F 200D 1F9D1 1F3FC, 1F9D1 1F3FD 200D 2764 FE0F 200D 1F9D1 1F3FE, 1F9D1 1F3FD 200D 2764 FE0F 200D 1F9D1 1F3FF, 1F9D1 1F3FE 200D 2764 FE0F 200D 1F9D1 1F3FB, 1F9D1 1F3FE 200D 2764 FE0F 200D 1F9D1 1F3FC, 1F9D1 1F3FE 200D 2764 FE0F 200D 1F9D1 1F3FD, 1F9D1 1F3FE 200D 2764 FE0F 200D 1F9D1 1F3FF, 1F9D1 1F3FF 200D 2764 FE0F 200D 1F9D1 1F3FB, 1F9D1 1F3FF 200D 2764 FE0F 200D 1F9D1 1F3FC, 1F9D1 1F3FF 200D 2764 FE0F 200D 1F9D1 1F3FD, 1F9D1 1F3FF 200D 2764 FE0F 200D 1F9D1 1F3FE ]
+  - emoji: 👩‍❤️‍👨
+    code: 1F469 200D 2764 FE0F 200D 1F468
+    name: "カップルとハート: 女性 男性"
+    readings:
+      - かっぷるとはーとじょせいだんせい
+      - かっぷる
+      - こいびと
+      - らぶらぶ
+      - あつあつ
+    en: "couple with heart: woman, man"
+    since: "2.0"
+    subgroup: family
+    keywords: [ カップル, カップルとハート, ハート, 女性, 恋人, 熱々, 男性, 記念日 ]
+    variants: [ 1F469 1F3FB 200D 2764 FE0F 200D 1F468 1F3FB, 1F469 1F3FB 200D 2764 FE0F 200D 1F468 1F3FC, 1F469 1F3FB 200D 2764 FE0F 200D 1F468 1F3FD, 1F469 1F3FB 200D 2764 FE0F 200D 1F468 1F3FE, 1F469 1F3FB 200D 2764 FE0F 200D 1F468 1F3FF, 1F469 1F3FC 200D 2764 FE0F 200D 1F468 1F3FB, 1F469 1F3FC 200D 2764 FE0F 200D 1F468 1F3FC, 1F469 1F3FC 200D 2764 FE0F 200D 1F468 1F3FD, 1F469 1F3FC 200D 2764 FE0F 200D 1F468 1F3FE, 1F469 1F3FC 200D 2764 FE0F 200D 1F468 1F3FF, 1F469 1F3FD 200D 2764 FE0F 200D 1F468 1F3FB, 1F469 1F3FD 200D 2764 FE0F 200D 1F468 1F3FC, 1F469 1F3FD 200D 2764 FE0F 200D 1F468 1F3FD, 1F469 1F3FD 200D 2764 FE0F 200D 1F468 1F3FE, 1F469 1F3FD 200D 2764 FE0F 200D 1F468 1F3FF, 1F469 1F3FE 200D 2764 FE0F 200D 1F468 1F3FB, 1F469 1F3FE 200D 2764 FE0F 200D 1F468 1F3FC, 1F469 1F3FE 200D 2764 FE0F 200D 1F468 1F3FD, 1F469 1F3FE 200D 2764 FE0F 200D 1F468 1F3FE, 1F469 1F3FE 200D 2764 FE0F 200D 1F468 1F3FF, 1F469 1F3FF 200D 2764 FE0F 200D 1F468 1F3FB, 1F469 1F3FF 200D 2764 FE0F 200D 1F468 1F3FC, 1F469 1F3FF 200D 2764 FE0F 200D 1F468 1F3FD, 1F469 1F3FF 200D 2764 FE0F 200D 1F468 1F3FE, 1F469 1F3FF 200D 2764 FE0F 200D 1F468 1F3FF ]
+  - emoji: 👨‍❤️‍👨
+    code: 1F468 200D 2764 FE0F 200D 1F468
+    name: "カップルとハート: 男性 男性"
+    readings:
+      - かっぷるとはーとだんせいだんせい
+      - かっぷる
+      - こいびと
+      - らぶらぶ
+      - だんしどうし
+    en: "couple with heart: man, man"
+    since: "2.0"
+    subgroup: family
+    keywords: [ カップル, カップルとハート, ハート, 恋人, 熱々, 男性, 記念日 ]
+    variants: [ 1F468 1F3FB 200D 2764 FE0F 200D 1F468 1F3FB, 1F468 1F3FB 200D 2764 FE0F 200D 1F468 1F3FC, 1F468 1F3FB 200D 2764 FE0F 200D 1F468 1F3FD, 1F468 1F3FB 200D 2764 FE0F 200D 1F468 1F3FE, 1F468 1F3FB 200D 2764 FE0F 200D 1F468 1F3FF, 1F468 1F3FC 200D 2764 FE0F 200D 1F468 1F3FB, 1F468 1F3FC 200D 2764 FE0F 200D 1F468 1F3FC, 1F468 1F3FC 200D 2764 FE0F 200D 1F468 1F3FD, 1F468 1F3FC 200D 2764 FE0F 200D 1F468 1F3FE, 1F468 1F3FC 200D 2764 FE0F 200D 1F468 1F3FF, 1F468 1F3FD 200D 2764 FE0F 200D 1F468 1F3FB, 1F468 1F3FD 200D 2764 FE0F 200D 1F468 1F3FC, 1F468 1F3FD 200D 2764 FE0F 200D 1F468 1F3FD, 1F468 1F3FD 200D 2764 FE0F 200D 1F468 1F3FE, 1F468 1F3FD 200D 2764 FE0F 200D 1F468 1F3FF, 1F468 1F3FE 200D 2764 FE0F 200D 1F468 1F3FB, 1F468 1F3FE 200D 2764 FE0F 200D 1F468 1F3FC, 1F468 1F3FE 200D 2764 FE0F 200D 1F468 1F3FD, 1F468 1F3FE 200D 2764 FE0F 200D 1F468 1F3FE, 1F468 1F3FE 200D 2764 FE0F 200D 1F468 1F3FF, 1F468 1F3FF 200D 2764 FE0F 200D 1F468 1F3FB, 1F468 1F3FF 200D 2764 FE0F 200D 1F468 1F3FC, 1F468 1F3FF 200D 2764 FE0F 200D 1F468 1F3FD, 1F468 1F3FF 200D 2764 FE0F 200D 1F468 1F3FE, 1F468 1F3FF 200D 2764 FE0F 200D 1F468 1F3FF ]
+  - emoji: 👩‍❤️‍👩
+    code: 1F469 200D 2764 FE0F 200D 1F469
+    name: "カップルとハート: 女性 女性"
+    readings:
+      - かっぷるとはーとじょせいじょせい
+      - かっぷる
+      - こいびと
+      - らぶらぶ
+      - じょしどうし
+      - ゆり
+    en: "couple with heart: woman, woman"
+    since: "2.0"
+    subgroup: family
+    keywords: [ カップル, カップルとハート, ハート, 女性, 恋人, 熱々, 記念日 ]
+    variants: [ 1F469 1F3FB 200D 2764 FE0F 200D 1F469 1F3FB, 1F469 1F3FB 200D 2764 FE0F 200D 1F469 1F3FC, 1F469 1F3FB 200D 2764 FE0F 200D 1F469 1F3FD, 1F469 1F3FB 200D 2764 FE0F 200D 1F469 1F3FE, 1F469 1F3FB 200D 2764 FE0F 200D 1F469 1F3FF, 1F469 1F3FC 200D 2764 FE0F 200D 1F469 1F3FB, 1F469 1F3FC 200D 2764 FE0F 200D 1F469 1F3FC, 1F469 1F3FC 200D 2764 FE0F 200D 1F469 1F3FD, 1F469 1F3FC 200D 2764 FE0F 200D 1F469 1F3FE, 1F469 1F3FC 200D 2764 FE0F 200D 1F469 1F3FF, 1F469 1F3FD 200D 2764 FE0F 200D 1F469 1F3FB, 1F469 1F3FD 200D 2764 FE0F 200D 1F469 1F3FC, 1F469 1F3FD 200D 2764 FE0F 200D 1F469 1F3FD, 1F469 1F3FD 200D 2764 FE0F 200D 1F469 1F3FE, 1F469 1F3FD 200D 2764 FE0F 200D 1F469 1F3FF, 1F469 1F3FE 200D 2764 FE0F 200D 1F469 1F3FB, 1F469 1F3FE 200D 2764 FE0F 200D 1F469 1F3FC, 1F469 1F3FE 200D 2764 FE0F 200D 1F469 1F3FD, 1F469 1F3FE 200D 2764 FE0F 200D 1F469 1F3FE, 1F469 1F3FE 200D 2764 FE0F 200D 1F469 1F3FF, 1F469 1F3FF 200D 2764 FE0F 200D 1F469 1F3FB, 1F469 1F3FF 200D 2764 FE0F 200D 1F469 1F3FC, 1F469 1F3FF 200D 2764 FE0F 200D 1F469 1F3FD, 1F469 1F3FF 200D 2764 FE0F 200D 1F469 1F3FE, 1F469 1F3FF 200D 2764 FE0F 200D 1F469 1F3FF ]
+  - emoji: 👨‍👩‍👦
+    code: 1F468 200D 1F469 200D 1F466
+    name: "家族: 男性 女性 男の子"
+    readings:
+      - かぞくだんせいじょせいおとこのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+    en: "family: man, woman, boy"
+    since: "2.0"
+    subgroup: family
+    keywords: [ 女性, 子供, 家族, 男の子, 男性, 親子 ]
+  - emoji: 👨‍👩‍👧
+    code: 1F468 200D 1F469 200D 1F467
+    name: "家族: 男性 女性 女の子"
+    readings:
+      - かぞくだんせいじょせいおんなのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+    en: "family: man, woman, girl"
+    since: "2.0"
+    subgroup: family
+    keywords: [ 女の子, 女性, 子供, 家族, 男性, 親子 ]
+  - emoji: 👨‍👩‍👧‍👦
+    code: 1F468 200D 1F469 200D 1F467 200D 1F466
+    name: "家族: 男性 女性 女の子 男の子"
+    readings:
+      - かぞくだんせいじょせいおんなのこおとこのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+    en: "family: man, woman, girl, boy"
+    since: "2.0"
+    subgroup: family
+    keywords: [ 女の子, 女性, 子供, 家族, 男の子, 男性, 親子 ]
+  - emoji: 👨‍👩‍👦‍👦
+    code: 1F468 200D 1F469 200D 1F466 200D 1F466
+    name: "家族: 男性 女性 男の子 男の子"
+    readings:
+      - かぞくだんせいじょせいおとこのこおとこのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+    en: "family: man, woman, boy, boy"
+    since: "2.0"
+    subgroup: family
+    keywords: [ 女性, 子供, 家族, 男の子, 男性, 親子 ]
+  - emoji: 👨‍👩‍👧‍👧
+    code: 1F468 200D 1F469 200D 1F467 200D 1F467
+    name: "家族: 男性 女性 女の子 女の子"
+    readings:
+      - かぞくだんせいじょせいおんなのこおんなのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+    en: "family: man, woman, girl, girl"
+    since: "2.0"
+    subgroup: family
+    keywords: [ 女の子, 女性, 子供, 家族, 男性, 親子 ]
+  - emoji: 👨‍👨‍👦
+    code: 1F468 200D 1F468 200D 1F466
+    name: "家族: 男性 男性 男の子"
+    readings:
+      - かぞくだんせいだんせいおとこのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+    en: "family: man, man, boy"
+    since: "2.0"
+    subgroup: family
+    keywords: [ 子供, 家族, 男の子, 男性, 親子 ]
+  - emoji: 👨‍👨‍👧
+    code: 1F468 200D 1F468 200D 1F467
+    name: "家族: 男性 男性 女の子"
+    readings:
+      - かぞくだんせいだんせいおんなのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+    en: "family: man, man, girl"
+    since: "2.0"
+    subgroup: family
+    keywords: [ 女の子, 子供, 家族, 男性, 親子 ]
+  - emoji: 👨‍👨‍👧‍👦
+    code: 1F468 200D 1F468 200D 1F467 200D 1F466
+    name: "家族: 男性 男性 女の子 男の子"
+    readings:
+      - かぞくだんせいだんせいおんなのこおとこのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+    en: "family: man, man, girl, boy"
+    since: "2.0"
+    subgroup: family
+    keywords: [ 女の子, 子供, 家族, 男の子, 男性, 親子 ]
+  - emoji: 👨‍👨‍👦‍👦
+    code: 1F468 200D 1F468 200D 1F466 200D 1F466
+    name: "家族: 男性 男性 男の子 男の子"
+    readings:
+      - かぞくだんせいだんせいおとこのこおとこのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+    en: "family: man, man, boy, boy"
+    since: "2.0"
+    subgroup: family
+    keywords: [ 子供, 家族, 男の子, 男性, 親子 ]
+  - emoji: 👨‍👨‍👧‍👧
+    code: 1F468 200D 1F468 200D 1F467 200D 1F467
+    name: "家族: 男性 男性 女の子 女の子"
+    readings:
+      - かぞくだんせいだんせいおんなのこおんなのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+    en: "family: man, man, girl, girl"
+    since: "2.0"
+    subgroup: family
+    keywords: [ 女の子, 子供, 家族, 男性, 親子 ]
+  - emoji: 👩‍👩‍👦
+    code: 1F469 200D 1F469 200D 1F466
+    name: "家族: 女性 女性 男の子"
+    readings:
+      - かぞくじょせいじょせいおとこのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+    en: "family: woman, woman, boy"
+    since: "2.0"
+    subgroup: family
+    keywords: [ 女性, 子供, 家族, 男の子, 親子 ]
+  - emoji: 👩‍👩‍👧
+    code: 1F469 200D 1F469 200D 1F467
+    name: "家族: 女性 女性 女の子"
+    readings:
+      - かぞくじょせいじょせいおんなのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+    en: "family: woman, woman, girl"
+    since: "2.0"
+    subgroup: family
+    keywords: [ 女の子, 女性, 子供, 家族, 親子 ]
+  - emoji: 👩‍👩‍👧‍👦
+    code: 1F469 200D 1F469 200D 1F467 200D 1F466
+    name: "家族: 女性 女性 女の子 男の子"
+    readings:
+      - かぞくじょせいじょせいおんなのこおとこのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+    en: "family: woman, woman, girl, boy"
+    since: "2.0"
+    subgroup: family
+    keywords: [ 女の子, 女性, 子供, 家族, 男の子, 親子 ]
+  - emoji: 👩‍👩‍👦‍👦
+    code: 1F469 200D 1F469 200D 1F466 200D 1F466
+    name: "家族: 女性 女性 男の子 男の子"
+    readings:
+      - かぞくじょせいじょせいおとこのこおとこのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+    en: "family: woman, woman, boy, boy"
+    since: "2.0"
+    subgroup: family
+    keywords: [ 女性, 子供, 家族, 男の子, 親子 ]
+  - emoji: 👩‍👩‍👧‍👧
+    code: 1F469 200D 1F469 200D 1F467 200D 1F467
+    name: "家族: 女性 女性 女の子 女の子"
+    readings:
+      - かぞくじょせいじょせいおんなのこおんなのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+    en: "family: woman, woman, girl, girl"
+    since: "2.0"
+    subgroup: family
+    keywords: [ 女の子, 女性, 子供, 家族, 親子 ]
+  - emoji: 👨‍👦
+    code: 1F468 200D 1F466
+    name: "家族: 男性 男の子"
+    readings:
+      - かぞくだんせいおとこのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+      - ひとりおや
+      - ちちおや
+    en: "family: man, boy"
+    since: "4.0"
+    subgroup: family
+    keywords: [ 子供, 家族, 男の子, 男性, 親子 ]
+  - emoji: 👨‍👦‍👦
+    code: 1F468 200D 1F466 200D 1F466
+    name: "家族: 男性 男の子 男の子"
+    readings:
+      - かぞくだんせいおとこのこおとこのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+      - ひとりおや
+      - ちちおや
+    en: "family: man, boy, boy"
+    since: "4.0"
+    subgroup: family
+    keywords: [ 子供, 家族, 男の子, 男性, 親子 ]
+  - emoji: 👨‍👧
+    code: 1F468 200D 1F467
+    name: "家族: 男性 女の子"
+    readings:
+      - かぞくだんせいおんなのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+      - ひとりおや
+      - ちちおや
+    en: "family: man, girl"
+    since: "4.0"
+    subgroup: family
+    keywords: [ 女の子, 子供, 家族, 男性, 親子 ]
+  - emoji: 👨‍👧‍👦
+    code: 1F468 200D 1F467 200D 1F466
+    name: "家族: 男性 女の子 男の子"
+    readings:
+      - かぞくだんせいおんなのこおとこのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+      - ひとりおや
+      - ちちおや
+    en: "family: man, girl, boy"
+    since: "4.0"
+    subgroup: family
+    keywords: [ 女の子, 子供, 家族, 男の子, 男性, 親子 ]
+  - emoji: 👨‍👧‍👧
+    code: 1F468 200D 1F467 200D 1F467
+    name: "家族: 男性 女の子 女の子"
+    readings:
+      - かぞくだんせいおんなのこおんなのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+      - ひとりおや
+      - ちちおや
+    en: "family: man, girl, girl"
+    since: "4.0"
+    subgroup: family
+    keywords: [ 女の子, 子供, 家族, 男性, 親子 ]
+  - emoji: 👩‍👦
+    code: 1F469 200D 1F466
+    name: "家族: 女性 男の子"
+    readings:
+      - かぞくじょせいおとこのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+      - ひとりおや
+      - ははおや
+    en: "family: woman, boy"
+    since: "4.0"
+    subgroup: family
+    keywords: [ 女性, 子供, 家族, 男の子, 親子 ]
+  - emoji: 👩‍👦‍👦
+    code: 1F469 200D 1F466 200D 1F466
+    name: "家族: 女性 男の子 男の子"
+    readings:
+      - かぞくじょせいおとこのこおとこのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+      - ひとりおや
+      - ははおや
+    en: "family: woman, boy, boy"
+    since: "4.0"
+    subgroup: family
+    keywords: [ 女性, 子供, 家族, 男の子, 親子 ]
+  - emoji: 👩‍👧
+    code: 1F469 200D 1F467
+    name: "家族: 女性 女の子"
+    readings:
+      - かぞくじょせいおんなのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+      - ひとりおや
+      - ははおや
+    en: "family: woman, girl"
+    since: "4.0"
+    subgroup: family
+    keywords: [ 女の子, 女性, 子供, 家族, 親子 ]
+  - emoji: 👩‍👧‍👦
+    code: 1F469 200D 1F467 200D 1F466
+    name: "家族: 女性 女の子 男の子"
+    readings:
+      - かぞくじょせいおんなのこおとこのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+      - ひとりおや
+      - ははおや
+    en: "family: woman, girl, boy"
+    since: "4.0"
+    subgroup: family
+    keywords: [ 女の子, 女性, 子供, 家族, 男の子, 親子 ]
+  - emoji: 👩‍👧‍👧
+    code: 1F469 200D 1F467 200D 1F467
+    name: "家族: 女性 女の子 女の子"
+    readings:
+      - かぞくじょせいおんなのこおんなのこ
+      - かぞく
+      - おやこ
+      - ふぁみりー
+      - ひとりおや
+      - ははおや
+    en: "family: woman, girl, girl"
+    since: "4.0"
+    subgroup: family
+    keywords: [ 女の子, 女性, 子供, 家族, 親子 ]
+  - emoji: 🗣️
+    code: 1F5E3 FE0F
+    name: 話す人のシルエット
+    readings:
+      - はなすひとのしるえっと
+      - はなす
+      - しゃべる
+      - こえ
+      - はつげん
+      - おんせい
+      - すぴーきんぐ
+    en: speaking head
+    since: "0.7"
+    subgroup: person-symbol
+    keywords: [ シルエット, 話す, 話す人のシルエット, 顔 ]
+  - emoji: 👤
+    code: 1F464
+    name: 人のシルエット
+    readings:
+      - ひとのしるえっと
+      - しるえっと
+      - ひと
+      - ゆーざー
+      - なぞのひと
+      - あばたー
+      - ひとり
+    en: bust in silhouette
+    since: "0.6"
+    subgroup: person-symbol
+    keywords: [ 1人, シルエット, 上半身, 人のシルエット, 謎の人 ]
+  - emoji: 👥
+    code: 1F465
+    name: 2人のシルエット
+    readings:
+      - ふたりのしるえっと
+      - しるえっと
+      - ふたり
+      - ゆーざー
+      - ぐるーぷ
+      - めんばー
+      - ともだち
+    en: busts in silhouette
+    since: "1.0"
+    subgroup: person-symbol
+    keywords: [ 2人, 2人のシルエット, シルエット, 上半身, 友達 ]
+  - emoji: 🫂
+    code: 1FAC2
+    name: ハグする人
+    readings:
+      - はぐするひと
+      - はぐ
+      - だきしめる
+      - ほうよう
+      - なぐさめ
+      - ありがとう
+      - よしよし
+    en: people hugging
+    since: "13.0"
+    subgroup: person-symbol
+    keywords: [ ありがとう, お別れ, こんにちは, さようなら, ハグ, ハグする人, 友情, 慰め, 抱擁, 挨拶 ]
+  - emoji: 👪
+    code: 1F46A
+    name: 家族
+    readings:
+      - かぞく
+      - ふぁみりー
+      - おやこ
+      - いっか
+      - しんぞく
+    en: family
+    since: "0.6"
+    subgroup: person-symbol
+    keywords: [ 子供, 家族, 親子 ]
+  - emoji: 🧑‍🧑‍🧒
+    code: 1F9D1 200D 1F9D1 200D 1F9D2
+    name: "家族: 大人二人と子供一人"
+    readings:
+      - かぞくおとなふたりとこどもひとり
+      - かぞく
+      - おやこ
+      - ふぁみりー
+    en: "family: adult, adult, child"
+    since: "15.1"
+    subgroup: person-symbol
+    keywords: [ 大人二人, 子供一人, 家族, "家族: 大人二人と子供一人", 親子 ]
+  - emoji: 🧑‍🧑‍🧒‍🧒
+    code: 1F9D1 200D 1F9D1 200D 1F9D2 200D 1F9D2
+    name: "家族: 大人二人と子供二人"
+    readings:
+      - かぞくおとなふたりとこどもふたり
+      - かぞく
+      - おやこ
+      - ふぁみりー
+    en: "family: adult, adult, child, child"
+    since: "15.1"
+    subgroup: person-symbol
+    keywords: [ 大人二人, 子供二人, 家族, "家族: 大人二人と子供二人", 親子 ]
+  - emoji: 🧑‍🧒
+    code: 1F9D1 200D 1F9D2
+    name: "家族: 大人一人と子供一人"
+    readings:
+      - かぞくおとなひとりとこどもひとり
+      - かぞく
+      - おやこ
+      - ふぁみりー
+      - ひとりおや
+    en: "family: adult, child"
+    since: "15.1"
+    subgroup: person-symbol
+    keywords: [ 大人一人, 子供一人, 家族, "家族: 大人一人と子供一人", 親子 ]
+  - emoji: 🧑‍🧒‍🧒
+    code: 1F9D1 200D 1F9D2 200D 1F9D2
+    name: "家族: 大人一人と子供二人"
+    readings:
+      - かぞくおとなひとりとこどもふたり
+      - かぞく
+      - おやこ
+      - ふぁみりー
+      - ひとりおや
+    en: "family: adult, child, child"
+    since: "15.1"
+    subgroup: person-symbol
+    keywords: [ 大人一人, 子供二人, 家族, "家族: 大人一人と子供二人", 親子 ]
+  - emoji: 👣
+    code: 1F463
+    name: 足あと
+    readings:
+      - あしあと
+      - あし
+      - はだし
+      - そくせき
+      - あしがた
+      - あるく
+    en: footprints
+    since: "0.6"
+    subgroup: person-symbol
+    keywords: [ 裸足, 足, 足あと ]
+  - emoji: 🫆
+    code: 1FAC6
+    name: 指紋
+    readings:
+      - しもん
+      - せいたいにんしょう
+      - しもんにんしょう
+      - かんしき
+      - せきゅりてぃ
+      - ゆびあと
+    en: fingerprint
+    since: "16.0"
+    subgroup: person-symbol
+    keywords: [ セキュリティ, 指紋, 生体認証, 鑑識 ]
