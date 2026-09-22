@@ -1,0 +1,194 @@
+{"emoji": "🚏", "en": "bus stop", "ja": "バス停", "kw": ["バス乗り場", "バス停", "乗り物", "停留所"], "subgroup": "transport-ground"}
+{"emoji": "🛣️", "en": "motorway", "ja": "高速道路", "kw": ["ハイウェイ", "道路", "高速", "高速道路"], "subgroup": "transport-ground"}
+{"emoji": "🛤️", "en": "railway track", "ja": "線路", "kw": ["線路", "軌道", "鉄道"], "subgroup": "transport-ground"}
+{"emoji": "🛢️", "en": "oil drum", "ja": "ドラム缶", "kw": ["オイル", "ドラム缶", "石油"], "subgroup": "transport-ground"}
+{"emoji": "⛽", "en": "fuel pump", "ja": "ガソリンスタンド", "kw": ["ガソリン", "ガソリンスタンド", "ガソリンノズル", "給油"], "subgroup": "transport-ground"}
+{"emoji": "🛞", "en": "wheel", "ja": "ホイール", "kw": ["スポーク", "タイヤ", "ホイール", "自動車", "車", "車輪"], "subgroup": "transport-ground"}
+{"emoji": "🚨", "en": "police car light", "ja": "パトランプ", "kw": ["サイレン", "パトカー", "パトランプ", "緊急", "警察", "赤色灯"], "subgroup": "transport-ground"}
+{"emoji": "🚥", "en": "horizontal traffic light", "ja": "信号横", "kw": ["交差点", "交通", "信号", "信号横", "信号機"], "subgroup": "transport-ground"}
+{"emoji": "🚦", "en": "vertical traffic light", "ja": "信号縦", "kw": ["交差点", "交通", "信号", "信号機", "信号縦"], "subgroup": "transport-ground"}
+{"emoji": "🛑", "en": "stop sign", "ja": "止まれの標識", "kw": ["ストップ", "八角形", "標識", "止まれ", "止まれの標識"], "subgroup": "transport-ground"}
+{"emoji": "🚧", "en": "construction", "ja": "工事中", "kw": ["サイン", "工事中", "通行止め"], "subgroup": "transport-ground"}
+{"emoji": "🛙", "en": "lighthouse", "ja": "灯台", "kw": ["ビーコン", "信号", "光", "導き", "希望", "海", "灯り", "灯台", "航海", "船"], "subgroup": "transport-water"}
+{"emoji": "⚓", "en": "anchor", "ja": "錨", "kw": ["いかり", "碇", "船", "錨"], "subgroup": "transport-water"}
+{"emoji": "🛟", "en": "ring buoy", "ja": "救命浮環", "kw": ["ブイ", "ライフセーバー", "レスキュー", "安全", "救助", "救命具", "救命浮環", "浮き輪"], "subgroup": "transport-water"}
+{"emoji": "⛵", "en": "sailboat", "ja": "ヨット", "kw": ["セーリング", "ヨット", "乗り物", "帆船", "船"], "subgroup": "transport-water"}
+{"emoji": "🛶", "en": "canoe", "ja": "カヌー", "kw": ["カヌー", "カヤック", "ボート", "乗り物", "船"], "subgroup": "transport-water"}
+{"emoji": "🚤", "en": "speedboat", "ja": "スピードボート", "kw": ["スピードボート", "ボート", "モーターボート", "乗り物", "快速艇", "船"], "subgroup": "transport-water"}
+{"emoji": "🛳️", "en": "passenger ship", "ja": "客船", "kw": ["乗り物", "客船", "旅客船", "船"], "subgroup": "transport-water"}
+{"emoji": "⛴️", "en": "ferry", "ja": "フェリー", "kw": ["フェリー", "乗り物", "客船", "船"], "subgroup": "transport-water"}
+{"emoji": "🛥️", "en": "motor boat", "ja": "モーターボート", "kw": ["ボート", "モーターボート", "乗り物", "船"], "subgroup": "transport-water"}
+{"emoji": "🚢", "en": "ship", "ja": "船", "kw": ["タイタニック号", "乗り物", "客船", "船"], "subgroup": "transport-water"}
+{"emoji": "✈️", "en": "airplane", "ja": "飛行機", "kw": ["ジェット機", "乗り物", "旅行", "航空機", "飛行機"], "subgroup": "transport-air"}
+{"emoji": "🛩️", "en": "small airplane", "ja": "小型飛行機", "kw": ["乗り物", "小型機", "小型飛行機", "航空機", "飛行機"], "subgroup": "transport-air"}
+{"emoji": "🛫", "en": "airplane departure", "ja": "飛行機離陸", "kw": ["乗り物", "航空機", "離陸", "飛行機", "飛行機離陸"], "subgroup": "transport-air"}
+{"emoji": "🛬", "en": "airplane arrival", "ja": "飛行機着陸", "kw": ["乗り物", "着陸", "航空機", "飛行機", "飛行機着陸"], "subgroup": "transport-air"}
+{"emoji": "🪂", "en": "parachute", "ja": "パラシュート", "kw": ["スカイダイビング", "パラグライダー", "パラシュート", "パラセーリング", "ハンググライダー"], "subgroup": "transport-air"}
+{"emoji": "💺", "en": "seat", "ja": "座席", "kw": ["シート", "席", "座席", "椅子"], "subgroup": "transport-air"}
+{"emoji": "🚁", "en": "helicopter", "ja": "ヘリコプター", "kw": ["ヘリ", "ヘリコプター", "乗り物"], "subgroup": "transport-air"}
+{"emoji": "🚟", "en": "suspension railway", "ja": "懸垂式モノレール", "kw": ["モノレール", "乗り物", "懸垂式モノレール", "電車"], "subgroup": "transport-air"}
+{"emoji": "🚠", "en": "mountain cableway", "ja": "ケーブルカー", "kw": ["ケーブルカー", "ゴンドラ", "リフト", "乗り物"], "subgroup": "transport-air"}
+{"emoji": "🚡", "en": "aerial tramway", "ja": "ロープウェイ", "kw": ["ゴンドラ", "ロープウェイ", "乗り物"], "subgroup": "transport-air"}
+{"emoji": "🛰️", "en": "satellite", "ja": "人工衛星", "kw": ["人工衛星", "宇宙"], "subgroup": "transport-air"}
+{"emoji": "🚀", "en": "rocket", "ja": "ロケット", "kw": ["ロケット", "乗り物", "宇宙", "宇宙旅行", "発射"], "subgroup": "transport-air"}
+{"emoji": "🛸", "en": "flying saucer", "ja": "空飛ぶ円盤", "kw": ["UFO", "乗り物", "宇宙", "宇宙人", "未確認飛行物体", "空飛ぶ円盤"], "subgroup": "transport-air"}
+{"emoji": "🛎️", "en": "bellhop bell", "ja": "ベルボーイベル", "kw": ["ベル", "ベルボーイベル", "ホテル"], "subgroup": "hotel"}
+{"emoji": "🧳", "en": "luggage", "ja": "スーツケース", "kw": ["キャリーケース", "スーツケース", "パッキング", "旅行", "旅行かばん"], "subgroup": "hotel"}
+{"emoji": "⌛", "en": "hourglass done", "ja": "砂時計", "kw": ["タイマー", "時計", "砂", "砂時計"], "subgroup": "time"}
+{"emoji": "⏳", "en": "hourglass not done", "ja": "砂が落ちている砂時計", "kw": ["タイマー", "時計", "時間", "砂", "砂が落ちている砂時計", "砂時計"], "subgroup": "time"}
+{"emoji": "⌚", "en": "watch", "ja": "腕時計", "kw": ["ウォッチ", "時計", "時間", "腕時計"], "subgroup": "time"}
+{"emoji": "⏰", "en": "alarm clock", "ja": "目覚まし時計", "kw": ["アラーム", "時計", "時間", "目覚まし", "目覚まし時計"], "subgroup": "time"}
+{"emoji": "⏱️", "en": "stopwatch", "ja": "ストップウォッチ", "kw": ["ストップウォッチ", "タイム", "時計"], "subgroup": "time"}
+{"emoji": "⏲️", "en": "timer clock", "ja": "タイマー", "kw": ["タイマー", "時計"], "subgroup": "time"}
+{"emoji": "🕰️", "en": "mantelpiece clock", "ja": "置時計", "kw": ["マンテルクロック", "時計", "時間", "置き時計", "置時計"], "subgroup": "time"}
+{"emoji": "🕛", "en": "twelve o’clock", "ja": "12時", "kw": ["12:00", "12時", "時計", "正午", "零時"], "subgroup": "time"}
+{"emoji": "🕧", "en": "twelve-thirty", "ja": "12時半", "kw": ["12:30", "12時30分", "12時半", "時計"], "subgroup": "time"}
+{"emoji": "🕐", "en": "one o’clock", "ja": "1時", "kw": ["1:00", "1時", "時計"], "subgroup": "time"}
+{"emoji": "🕜", "en": "one-thirty", "ja": "1時半", "kw": ["1:30", "1時30分", "1時半", "時計"], "subgroup": "time"}
+{"emoji": "🕑", "en": "two o’clock", "ja": "2時", "kw": ["2:00", "2時", "時計"], "subgroup": "time"}
+{"emoji": "🕝", "en": "two-thirty", "ja": "2時半", "kw": ["2:30", "2時30分", "2時半", "時計"], "subgroup": "time"}
+{"emoji": "🕒", "en": "three o’clock", "ja": "3時", "kw": ["3:00", "3時", "時計"], "subgroup": "time"}
+{"emoji": "🕞", "en": "three-thirty", "ja": "3時半", "kw": ["3:30", "3時30分", "3時半", "時計"], "subgroup": "time"}
+{"emoji": "🕓", "en": "four o’clock", "ja": "4時", "kw": ["4:00", "4時", "時計"], "subgroup": "time"}
+{"emoji": "🕟", "en": "four-thirty", "ja": "4時半", "kw": ["4:30", "4時30分", "4時半", "時計"], "subgroup": "time"}
+{"emoji": "🕔", "en": "five o’clock", "ja": "5時", "kw": ["5:00", "5時", "時計"], "subgroup": "time"}
+{"emoji": "🕠", "en": "five-thirty", "ja": "5時半", "kw": ["5:30", "5時30分", "5時半", "時計"], "subgroup": "time"}
+{"emoji": "🕕", "en": "six o’clock", "ja": "6時", "kw": ["6:00", "6時", "時計"], "subgroup": "time"}
+{"emoji": "🕡", "en": "six-thirty", "ja": "6時半", "kw": ["6:30", "6時30分", "6時半", "時計"], "subgroup": "time"}
+{"emoji": "🕖", "en": "seven o’clock", "ja": "7時", "kw": ["7:00", "7時", "時計"], "subgroup": "time"}
+{"emoji": "🕢", "en": "seven-thirty", "ja": "7時半", "kw": ["7:30", "7時30分", "7時半", "時計"], "subgroup": "time"}
+{"emoji": "🕗", "en": "eight o’clock", "ja": "8時", "kw": ["8:00", "8時", "時計"], "subgroup": "time"}
+{"emoji": "🕣", "en": "eight-thirty", "ja": "8時半", "kw": ["8:30", "8時30分", "8時半", "時計"], "subgroup": "time"}
+{"emoji": "🕘", "en": "nine o’clock", "ja": "9時", "kw": ["9:00", "9時", "時計"], "subgroup": "time"}
+{"emoji": "🕤", "en": "nine-thirty", "ja": "9時半", "kw": ["9:30", "9時30分", "9時半", "時計"], "subgroup": "time"}
+{"emoji": "🕙", "en": "ten o’clock", "ja": "10時", "kw": ["10:00", "10時", "時計"], "subgroup": "time"}
+{"emoji": "🕥", "en": "ten-thirty", "ja": "10時半", "kw": ["10:30", "10時30分", "10時半", "時計"], "subgroup": "time"}
+{"emoji": "🕚", "en": "eleven o’clock", "ja": "11時", "kw": ["11:00", "11時", "時計"], "subgroup": "time"}
+{"emoji": "🕦", "en": "eleven-thirty", "ja": "11時半", "kw": ["11:30", "11時30分", "11時半", "時計"], "subgroup": "time"}
+{"emoji": "🌑", "en": "new moon", "ja": "新月", "kw": ["宇宙", "新月", "月", "闇"], "subgroup": "sky & weather"}
+{"emoji": "🌒", "en": "waxing crescent moon", "ja": "初月", "kw": ["三日月", "初月", "宇宙", "月"], "subgroup": "sky & weather"}
+{"emoji": "🌓", "en": "first quarter moon", "ja": "上弦の月", "kw": ["上弦", "上弦の月", "半月", "宇宙", "月"], "subgroup": "sky & weather"}
+{"emoji": "🌔", "en": "waxing gibbous moon", "ja": "十三夜月", "kw": ["十三夜月", "十日夜の月", "宇宙", "月"], "subgroup": "sky & weather"}
+{"emoji": "🌕", "en": "full moon", "ja": "満月", "kw": ["宇宙", "月", "満月"], "subgroup": "sky & weather"}
+{"emoji": "🌖", "en": "waning gibbous moon", "ja": "寝待月", "kw": ["宇宙", "寝待月", "居待月", "月"], "subgroup": "sky & weather"}
+{"emoji": "🌗", "en": "last quarter moon", "ja": "下弦の月", "kw": ["下弦", "下弦の月", "半月", "宇宙", "月"], "subgroup": "sky & weather"}
+{"emoji": "🌘", "en": "waning crescent moon", "ja": "有明月", "kw": ["三日月", "宇宙", "月", "有明月"], "subgroup": "sky & weather"}
+{"emoji": "🌙", "en": "crescent moon", "ja": "三日月", "kw": ["三日月", "宇宙", "月"], "subgroup": "sky & weather"}
+{"emoji": "🌚", "en": "new moon face", "ja": "顔のある新月", "kw": ["新月", "月", "顔", "顔のある新月"], "subgroup": "sky & weather"}
+{"emoji": "🌛", "en": "first quarter moon face", "ja": "顔のある上弦の月", "kw": ["上弦の月", "半月", "月", "顔", "顔のある上弦の月"], "subgroup": "sky & weather"}
+{"emoji": "🌜", "en": "last quarter moon face", "ja": "顔のある下弦の月", "kw": ["下弦の月", "半月", "月", "顔", "顔のある下弦の月"], "subgroup": "sky & weather"}
+{"emoji": "🌡️", "en": "thermometer", "ja": "温度計", "kw": ["天気", "寒暖計", "気温", "温度", "温度計"], "subgroup": "sky & weather"}
+{"emoji": "☀️", "en": "sun", "ja": "太陽", "kw": ["天気", "太陽", "日光", "晴れ"], "subgroup": "sky & weather"}
+{"emoji": "🌝", "en": "full moon face", "ja": "顔のある満月", "kw": ["月", "満月", "顔", "顔のある満月"], "subgroup": "sky & weather"}
+{"emoji": "🌞", "en": "sun with face", "ja": "顔のある太陽", "kw": ["太陽", "顔", "顔のある太陽"], "subgroup": "sky & weather"}
+{"emoji": "🪐", "en": "ringed planet", "ja": "環のある惑星", "kw": ["リング", "土星", "天体", "惑星", "星", "環のある惑星"], "subgroup": "sky & weather"}
+{"emoji": "⭐", "en": "star", "ja": "スター", "kw": ["スター", "天文学", "星"], "subgroup": "sky & weather"}
+{"emoji": "🌟", "en": "glowing star", "ja": "きらきら星", "kw": ["きらきら", "キラキラ", "きらきら星", "スター", "星", "輝き"], "subgroup": "sky & weather"}
+{"emoji": "🌠", "en": "shooting star", "ja": "流れ星", "kw": ["スター", "夜", "宇宙", "星", "流れ星"], "subgroup": "sky & weather"}
+{"emoji": "🌌", "en": "milky way", "ja": "天の川", "kw": ["ミルキーウェイ", "夜空", "天の川", "宇宙", "星空", "銀河"], "subgroup": "sky & weather"}
+{"emoji": "☁️", "en": "cloud", "ja": "雲", "kw": ["天気", "曇り", "雲"], "subgroup": "sky & weather"}
+{"emoji": "⛅", "en": "sun behind cloud", "ja": "曇り時々晴れ", "kw": ["天気", "太陽", "曇り", "曇り時々晴れ", "雲"], "subgroup": "sky & weather"}
+{"emoji": "⛈️", "en": "cloud with lightning and rain", "ja": "雷雨", "kw": ["天気", "稲妻", "雨", "雲", "雷", "雷雨", "雷雲"], "subgroup": "sky & weather"}
+{"emoji": "🌤️", "en": "sun behind small cloud", "ja": "晴れ時々曇り", "kw": ["天気", "太陽", "晴れ", "晴れ時々曇り", "雲"], "subgroup": "sky & weather"}
+{"emoji": "🌥️", "en": "sun behind large cloud", "ja": "曇り一時晴れ", "kw": ["天気", "太陽", "曇り", "曇り一時晴れ", "雲"], "subgroup": "sky & weather"}
+{"emoji": "🌦️", "en": "sun behind rain cloud", "ja": "雨時々晴れ", "kw": ["天気", "天気雨", "太陽", "曇り", "雨時々晴れ", "雲"], "subgroup": "sky & weather"}
+{"emoji": "🌧️", "en": "cloud with rain", "ja": "雨雲", "kw": ["天気", "雨", "雨雲", "雲"], "subgroup": "sky & weather"}
+{"emoji": "🌨️", "en": "cloud with snow", "ja": "雪雲", "kw": ["天気", "雪", "雪雲", "雲"], "subgroup": "sky & weather"}
+{"emoji": "🌩️", "en": "cloud with lightning", "ja": "雷雲", "kw": ["天気", "稲妻", "雲", "雷", "雷雲"], "subgroup": "sky & weather"}
+{"emoji": "🌪️", "en": "tornado", "ja": "竜巻", "kw": ["トルネード", "天気", "突風", "竜巻"], "subgroup": "sky & weather"}
+{"emoji": "🌫️", "en": "fog", "ja": "霧", "kw": ["天気", "曇り", "雲", "霧"], "subgroup": "sky & weather"}
+{"emoji": "🌬️", "en": "wind face", "ja": "顔のある風", "kw": ["雲", "顔", "顔のある風", "風"], "subgroup": "sky & weather"}
+{"emoji": "🌀", "en": "cyclone", "ja": "渦巻き", "kw": ["サイクロン", "ハリケーン", "めまい", "もやもや", "台風", "天気", "渦巻き"], "subgroup": "sky & weather"}
+{"emoji": "🌈", "en": "rainbow", "ja": "虹", "kw": ["GLBT", "GLBTQ", "LGBT", "LGBTQ", "ゲイ", "トランスジェンダー", "バイセクシュアル", "レインボー", "レズビアン", "天気"], "subgroup": "sky & weather"}
+{"emoji": "🌂", "en": "closed umbrella", "ja": "閉じた傘", "kw": ["傘", "天気", "持ち物", "閉じた傘", "雨"], "subgroup": "sky & weather"}
+{"emoji": "☂️", "en": "umbrella", "ja": "傘", "kw": ["傘", "天気", "持ち物", "雨"], "subgroup": "sky & weather"}
+{"emoji": "☔", "en": "umbrella with rain drops", "ja": "傘と雨", "kw": ["傘", "傘と雨", "天気", "持ち物", "雨", "雨粒"], "subgroup": "sky & weather"}
+{"emoji": "⛱️", "en": "umbrella on ground", "ja": "パラソル", "kw": ["パラソル", "ビーチ", "傘", "日傘", "砂浜", "雨"], "subgroup": "sky & weather"}
+{"emoji": "⚡", "en": "high voltage", "ja": "高電圧", "kw": ["危険", "稲妻", "雷", "電気", "高電圧"], "subgroup": "sky & weather"}
+{"emoji": "❄️", "en": "snowflake", "ja": "雪の結晶", "kw": ["天気", "結晶", "雪", "雪の結晶"], "subgroup": "sky & weather"}
+{"emoji": "☃️", "en": "snowman", "ja": "雪だるまと雪", "kw": ["雪", "雪だるま", "雪だるまと雪"], "subgroup": "sky & weather"}
+{"emoji": "⛄", "en": "snowman without snow", "ja": "雪だるま", "kw": ["雪", "雪だるま"], "subgroup": "sky & weather"}
+{"emoji": "☄️", "en": "comet", "ja": "彗星", "kw": ["すい星", "宇宙", "彗星"], "subgroup": "sky & weather"}
+{"emoji": "🪋", "en": "meteor", "ja": "隕石", "kw": ["大惨事", "宇宙", "岩", "引力", "星", "火の玉", "落ちる"], "subgroup": "sky & weather"}
+{"emoji": "🔥", "en": "fire", "ja": "火", "kw": ["ファイアー", "ファイヤー", "火", "炎", "熱い", "燃える"], "subgroup": "sky & weather"}
+{"emoji": "💧", "en": "droplet", "ja": "水滴", "kw": ["しずく", "たらーっ", "水", "水滴", "汗", "涙"], "subgroup": "sky & weather"}
+{"emoji": "🌊", "en": "water wave", "ja": "波", "kw": ["天気", "波", "波浪", "海", "自然"], "subgroup": "sky & weather"}
+{"emoji": "🎃", "en": "jack-o-lantern", "ja": "ハロウィンかぼちゃ", "kw": ["かぼちゃ", "ハロウィーン", "ハロウィン", "ハロウィンかぼちゃ"], "subgroup": "event"}
+{"emoji": "🎄", "en": "Christmas tree", "ja": "クリスマスツリー", "kw": ["クリスマス", "クリスマスイブ", "クリスマスツリー", "ツリー"], "subgroup": "event"}
+{"emoji": "🎆", "en": "fireworks", "ja": "打ち上げ花火", "kw": ["お祭り", "どーん", "打ち上げ花火", "花火", "花火大会"], "subgroup": "event"}
+{"emoji": "🎇", "en": "sparkler", "ja": "線香花火", "kw": ["お祭り", "火花", "線香花火", "花火"], "subgroup": "event"}
+{"emoji": "🧨", "en": "firecracker", "ja": "爆竹", "kw": ["ダイナマイト", "火花", "火薬", "爆発", "爆発物", "爆竹", "爆薬", "花火"], "subgroup": "event"}
+{"emoji": "✨", "en": "sparkles", "ja": "きらきら", "kw": ["きらきら", "キラキラ", "スター", "ぴかぴか", "星"], "subgroup": "event"}
+{"emoji": "🎈", "en": "balloon", "ja": "風船", "kw": ["バルーン", "風船"], "subgroup": "event"}
+{"emoji": "🎉", "en": "party popper", "ja": "クラッカー", "kw": ["お祝い", "クラッカー", "パーティー", "パーティークラッカー", "誕生日"], "subgroup": "event"}
+{"emoji": "🎊", "en": "confetti ball", "ja": "くす玉", "kw": ["お祝い", "くす玉", "パーティー", "紙吹雪"], "subgroup": "event"}
+{"emoji": "🎋", "en": "tanabata tree", "ja": "七夕", "kw": ["七夕", "和", "日本", "短冊", "笹飾り"], "subgroup": "event"}
+{"emoji": "🎍", "en": "pine decoration", "ja": "門松", "kw": ["お祝い", "和", "日本", "正月", "竹", "門松"], "subgroup": "event"}
+{"emoji": "🎎", "en": "Japanese dolls", "ja": "ひな祭り", "kw": ["おだいり様", "おひな様", "お祝い", "ひな人形", "ひな祭り", "人形", "和", "日本"], "subgroup": "event"}
+{"emoji": "🎏", "en": "carp streamer", "ja": "こいのぼり", "kw": ["お祝い", "こいのぼり", "子供の日"], "subgroup": "event"}
+{"emoji": "🎐", "en": "wind chime", "ja": "風鈴", "kw": ["夏", "鈴", "風", "風鈴"], "subgroup": "event"}
+{"emoji": "🎑", "en": "moon viewing ceremony", "ja": "月見", "kw": ["ススキ", "十五夜", "団子", "月", "月見"], "subgroup": "event"}
+{"emoji": "🧧", "en": "red envelope", "ja": "赤い封筒", "kw": ["お年玉", "お金", "ご祝儀", "幸運", "紅包", "赤い封筒"], "subgroup": "event"}
+{"emoji": "🎀", "en": "ribbon", "ja": "リボン", "kw": ["お祝い", "リボン"], "subgroup": "event"}
+{"emoji": "🎁", "en": "wrapped gift", "ja": "プレゼント", "kw": ["お祝い", "ギフト", "プレゼント", "リボン", "箱"], "subgroup": "event"}
+{"emoji": "🎗️", "en": "reminder ribbon", "ja": "リマインダーリボン", "kw": ["お祝い", "リボン", "リマインダー", "リマインダーリボン"], "subgroup": "event"}
+{"emoji": "🎟️", "en": "admission tickets", "ja": "入場券", "kw": ["チケット", "入場パス", "入場券", "半券"], "subgroup": "event"}
+{"emoji": "🎫", "en": "ticket", "ja": "チケット", "kw": ["チケット", "入場券", "切符", "半券"], "subgroup": "event"}
+{"emoji": "🎖️", "en": "military medal", "ja": "勲章", "kw": ["お祝い", "メダル", "勲章", "表彰"], "subgroup": "award-medal"}
+{"emoji": "🏆", "en": "trophy", "ja": "トロフィー", "kw": ["チャンピオン", "トロフィー", "優勝", "優勝カップ", "表彰", "賞杯"], "subgroup": "award-medal"}
+{"emoji": "🏅", "en": "sports medal", "ja": "メダル", "kw": ["スポーツ", "メダル", "優勝", "表彰", "金", "金メダル"], "subgroup": "award-medal"}
+{"emoji": "🥇", "en": "1st place medal", "ja": "金メダル", "kw": ["1位", "ゴールド", "メダル", "優勝", "金", "金メダル"], "subgroup": "award-medal"}
+{"emoji": "🥈", "en": "2nd place medal", "ja": "銀メダル", "kw": ["2位", "シルバー", "メダル", "銀", "銀メダル"], "subgroup": "award-medal"}
+{"emoji": "🥉", "en": "3rd place medal", "ja": "銅メダル", "kw": ["3位", "ブロンズ", "メダル", "銅", "銅メダル"], "subgroup": "award-medal"}
+{"emoji": "⚽", "en": "soccer ball", "ja": "サッカー", "kw": ["サッカー", "サッカーボール", "スポーツ", "ボール"], "subgroup": "sport"}
+{"emoji": "⚾", "en": "baseball", "ja": "野球", "kw": ["スポーツ", "ボール", "野球"], "subgroup": "sport"}
+{"emoji": "🥎", "en": "softball", "ja": "ソフトボール", "kw": ["スポーツ", "ソフトボール", "ボール", "下手投げ"], "subgroup": "sport"}
+{"emoji": "🏀", "en": "basketball", "ja": "バスケットボール", "kw": ["スポーツ", "バスケ", "バスケットボール", "ボール"], "subgroup": "sport"}
+{"emoji": "🏐", "en": "volleyball", "ja": "バレーボール", "kw": ["スポーツ", "バレー", "バレーボール", "ボール"], "subgroup": "sport"}
+{"emoji": "🏈", "en": "american football", "ja": "アメフト", "kw": ["アメフト", "アメリカンフットボール", "スポーツ", "フットボール", "ボール"], "subgroup": "sport"}
+{"emoji": "🏉", "en": "rugby football", "ja": "ラグビー", "kw": ["スポーツ", "ボール", "ラグビー", "ラグビーボール"], "subgroup": "sport"}
+{"emoji": "🎾", "en": "tennis", "ja": "テニス", "kw": ["スポーツ", "テニス", "テニスボール", "ボール", "ラケット"], "subgroup": "sport"}
+{"emoji": "🥏", "en": "flying disc", "ja": "フリスビー", "kw": ["アルティメット", "フライングディスク", "フリスビー", "円盤"], "subgroup": "sport"}
+{"emoji": "🎳", "en": "bowling", "ja": "ボウリング", "kw": ["ストライク", "スポーツ", "ボール", "ボウリング", "球"], "subgroup": "sport"}
+{"emoji": "🏏", "en": "cricket game", "ja": "クリケット", "kw": ["クリケット", "スポーツ", "バット", "ボール"], "subgroup": "sport"}
+{"emoji": "🏑", "en": "field hockey", "ja": "ホッケー", "kw": ["スティック", "スポーツ", "フィールドホッケー", "ボール", "ホッケー"], "subgroup": "sport"}
+{"emoji": "🏒", "en": "ice hockey", "ja": "アイスホッケー", "kw": ["アイスホッケー", "スティック", "スポーツ", "パック", "ホッケー"], "subgroup": "sport"}
+{"emoji": "🥍", "en": "lacrosse", "ja": "ラクロス", "kw": ["ゴール", "スティック", "スポーツ", "ボール", "ラクロス"], "subgroup": "sport"}
+{"emoji": "🏓", "en": "ping pong", "ja": "卓球", "kw": ["スポーツ", "ピンポン", "ボール", "ラケット", "卓球"], "subgroup": "sport"}
+{"emoji": "🏸", "en": "badminton", "ja": "バドミントン", "kw": ["シャトル", "スポーツ", "バドミントン", "ラケット"], "subgroup": "sport"}
+{"emoji": "🥊", "en": "boxing glove", "ja": "ボクシング", "kw": ["グローブ", "スポーツ", "ボクシング", "ボクシンググローブ"], "subgroup": "sport"}
+{"emoji": "🥋", "en": "martial arts uniform", "ja": "武道", "kw": ["スポーツ", "テコンドー", "柔道", "格闘技", "武道", "空手", "道着"], "subgroup": "sport"}
+{"emoji": "🥅", "en": "goal net", "ja": "ゴールネット", "kw": ["ゴール", "ゴールネット", "スポーツ", "ネット"], "subgroup": "sport"}
+{"emoji": "⛳", "en": "flag in hole", "ja": "ゴルフ", "kw": ["ゴルフ", "スポーツ", "フラグ", "フラッグ", "ホール", "旗"], "subgroup": "sport"}
+{"emoji": "⛸️", "en": "ice skate", "ja": "アイススケート", "kw": ["アイススケート", "スケート", "スポーツ", "フィギュアスケート"], "subgroup": "sport"}
+{"emoji": "🎣", "en": "fishing pole", "ja": "釣り", "kw": ["スポーツ", "フィッシング", "釣り", "釣り竿", "魚"], "subgroup": "sport"}
+{"emoji": "🤿", "en": "diving mask", "ja": "ダイビング マスク", "kw": ["シュノーケリング", "スキューバ", "スポーツ", "ダイビング", "マスク"], "subgroup": "sport"}
+{"emoji": "🎽", "en": "running shirt", "ja": "長距離走", "kw": ["スポーツ", "たすき", "ランニング", "ランニングシャツ", "長距離走", "駅伝"], "subgroup": "sport"}
+{"emoji": "🎿", "en": "skis", "ja": "スキー", "kw": ["スキー", "ストック", "スポーツ", "板", "雪"], "subgroup": "sport"}
+{"emoji": "🛷", "en": "sled", "ja": "そり競技", "kw": ["スケルトン", "スポーツ", "そり", "そり競技", "トボガン", "ボブスレー", "リュージュ"], "subgroup": "sport"}
+{"emoji": "🥌", "en": "curling stone", "ja": "カーリング", "kw": ["カーリング", "ゲーム", "ストーン", "スポーツ", "試合"], "subgroup": "sport"}
+{"emoji": "🎯", "en": "bullseye", "ja": "的", "kw": ["スポーツ", "ダーツ", "ブルズアイ", "当たり", "的", "的中"], "subgroup": "game"}
+{"emoji": "🪀", "en": "yo-yo", "ja": "ヨーヨー", "kw": ["おもちゃ", "ヨーヨー", "上下", "回転", "玩具"], "subgroup": "game"}
+{"emoji": "🪁", "en": "kite", "ja": "たこ", "kw": ["おもちゃ", "カイト", "たこ", "凧揚げ", "玩具"], "subgroup": "game"}
+{"emoji": "🔫", "en": "water pistol", "ja": "水鉄砲", "kw": ["ピストル", "リボルバー", "拳銃", "武器", "水鉄砲", "銃"], "subgroup": "game"}
+{"emoji": "🎱", "en": "pool 8 ball", "ja": "ビリヤード", "kw": ["エイトボール", "スポーツ", "ビリヤード", "ボール", "玉突き"], "subgroup": "game"}
+{"emoji": "🔮", "en": "crystal ball", "ja": "水晶玉", "kw": ["クリスタル", "占い", "水晶", "水晶玉", "水晶球", "玉", "運命", "魔法"], "subgroup": "game"}
+{"emoji": "🪄", "en": "magic wand", "ja": "魔法の杖", "kw": ["つえ", "マジック", "手品", "杖", "魔法", "魔法の杖", "魔術", "魔術師"], "subgroup": "game"}
+{"emoji": "🎮", "en": "video game", "ja": "テレビゲーム", "kw": ["ゲーム", "コントローラ", "テレビゲーム", "ビデオゲーム"], "subgroup": "game"}
+{"emoji": "🕹️", "en": "joystick", "ja": "ジョイスティック", "kw": ["ゲーム", "コントローラ", "ジョイスティック", "スティック", "テレビゲーム", "ビデオゲーム"], "subgroup": "game"}
+{"emoji": "🎰", "en": "slot machine", "ja": "スロットマシン", "kw": ["カジノ", "ギャンブル", "ゲーム", "スリーセブン", "スロット", "スロットマシン"], "subgroup": "game"}
+{"emoji": "🎲", "en": "game die", "ja": "サイコロ", "kw": ["ゲーム", "サイコロ", "ダイス"], "subgroup": "game"}
+{"emoji": "🧩", "en": "puzzle piece", "ja": "ジグソーパズル", "kw": ["ジグソーパズル", "パズル", "ピース", "組み合わせ", "鍵"], "subgroup": "game"}
+{"emoji": "🧸", "en": "teddy bear", "ja": "テディベア", "kw": ["おもちゃ", "くま", "テディベア", "ぬいぐるみ", "玩具"], "subgroup": "game"}
+{"emoji": "🪅", "en": "piñata", "ja": "ピニャータ", "kw": ["お祝い", "パーティー", "ピニャータ", "メキシコ", "人形", "誕生日"], "subgroup": "game"}
+{"emoji": "🪩", "en": "mirror ball", "ja": "ミラーボール", "kw": ["キラキラ", "ダンス", "ディスコ", "パーティー", "ミラーボール"], "subgroup": "game"}
+{"emoji": "🪆", "en": "nesting dolls", "ja": "マトリョーシカ", "kw": ["マトリョーシカ", "ロシア", "人形", "入れ子"], "subgroup": "game"}
+{"emoji": "♠️", "en": "spade suit", "ja": "スペード", "kw": ["カード", "スペード", "トランプ"], "subgroup": "game"}
+{"emoji": "♥️", "en": "heart suit", "ja": "ハート", "kw": ["カード", "トランプ", "ハート"], "subgroup": "game"}
+{"emoji": "♦️", "en": "diamond suit", "ja": "ダイヤ", "kw": ["カード", "ダイア", "ダイヤ", "トランプ"], "subgroup": "game"}
+{"emoji": "♣️", "en": "club suit", "ja": "クラブ", "kw": ["カード", "クラブ", "クローバー", "トランプ"], "subgroup": "game"}
+{"emoji": "♟️", "en": "chess pawn", "ja": "チェスの駒", "kw": ["チェス", "チェスの駒", "捨て駒", "駒"], "subgroup": "game"}
+{"emoji": "🃏", "en": "joker", "ja": "ジョーカー", "kw": ["カード", "ジジ", "ジョーカー", "トランプ", "ババ"], "subgroup": "game"}
+{"emoji": "🀄", "en": "mahjong red dragon", "ja": "麻雀", "kw": ["ゲーム", "中", "牌", "麻雀", "麻雀牌"], "subgroup": "game"}
+{"emoji": "🎴", "en": "flower playing cards", "ja": "花札", "kw": ["カード", "ゲーム", "花札"], "subgroup": "game"}
+{"emoji": "🎭", "en": "performing arts", "ja": "舞台芸術", "kw": ["仮面", "俳優", "劇場", "女優", "役者", "演劇", "演芸", "舞台芸術", "芸術"], "subgroup": "arts & crafts"}

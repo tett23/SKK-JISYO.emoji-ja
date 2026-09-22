@@ -1,0 +1,194 @@
+{"emoji": "👆", "en": "backhand index pointing up", "ja": "手の甲上指差し", "kw": ["上", "手", "手の甲上指差し", "指", "指差し"], "subgroup": "hand-single-finger"}
+{"emoji": "🖕", "en": "middle finger", "ja": "立てた中指", "kw": ["上", "中指", "手", "指", "指差し", "立てた中指"], "subgroup": "hand-single-finger"}
+{"emoji": "👇", "en": "backhand index pointing down", "ja": "下指差し", "kw": ["下", "下指差し", "手", "指", "指差し"], "subgroup": "hand-single-finger"}
+{"emoji": "☝️", "en": "index pointing up", "ja": "上指差し", "kw": ["上", "上指差し", "手", "指差し"], "subgroup": "hand-single-finger"}
+{"emoji": "🫵", "en": "index pointing at the viewer", "ja": "人を指差している手", "kw": ["おまえだ", "人を指差している手", "手", "指", "指差し", "指摘"], "subgroup": "hand-single-finger"}
+{"emoji": "👍", "en": "thumbs up", "ja": "サムズアップ", "kw": ["OK", "いいね", "オーケー", "オッケー", "グッド", "サムズアップ", "上", "了解", "手", "親指"], "subgroup": "hand-fingers-closed"}
+{"emoji": "👎", "en": "thumbs down", "ja": "サムズダウン", "kw": ["NG", "サムズダウン", "だめ", "ブーイング", "ボツ", "下", "手"], "subgroup": "hand-fingers-closed"}
+{"emoji": "🫹", "en": "leftwards thumb sign", "ja": "左向きの親指", "kw": ["あれ", "これ", "中立", "左", "指差す", "握る"], "subgroup": "hand-fingers-closed"}
+{"emoji": "🫺", "en": "rightwards thumb sign", "ja": "右向きの親指", "kw": ["あれ", "これ", "中立", "右", "指差す", "握る"], "subgroup": "hand-fingers-closed"}
+{"emoji": "✊", "en": "raised fist", "ja": "げんこつ", "kw": ["グー", "げんこつ", "こぶし", "手", "挙げたこぶし"], "subgroup": "hand-fingers-closed"}
+{"emoji": "👊", "en": "oncoming fist", "ja": "グー", "kw": ["グー", "げんこつ", "こぶし", "パンチ", "手"], "subgroup": "hand-fingers-closed"}
+{"emoji": "🤛", "en": "left-facing fist", "ja": "左向きのこぶし", "kw": ["こぶし", "パンチ", "左", "左向きのこぶし", "手"], "subgroup": "hand-fingers-closed"}
+{"emoji": "🤜", "en": "right-facing fist", "ja": "右向きのこぶし", "kw": ["こぶし", "パンチ", "右", "右向きのこぶし", "手"], "subgroup": "hand-fingers-closed"}
+{"emoji": "👏", "en": "clapping hands", "ja": "拍手", "kw": ["おめでとう", "パチパチ", "手", "手を叩く", "拍手"], "subgroup": "hands"}
+{"emoji": "🙌", "en": "raising hands", "ja": "バンザイ", "kw": ["ジェスチャー", "バンザイ", "両手", "手", "手を上げる"], "subgroup": "hands"}
+{"emoji": "🫶", "en": "heart hands", "ja": "ハート形の手", "kw": ["ハート", "ハートポーズ", "ハート形の手", "ラブ", "両手ハート", "愛", "手"], "subgroup": "hands"}
+{"emoji": "👐", "en": "open hands", "ja": "両手のひら", "kw": ["おっはー", "両手のひら", "手", "手のひら", "開いた両手"], "subgroup": "hands"}
+{"emoji": "🤲", "en": "palms up together", "ja": "手のひらを揃えた両手", "kw": ["両手", "包む手", "手", "手のひらを揃えた両手", "祈り"], "subgroup": "hands"}
+{"emoji": "🤝", "en": "handshake", "ja": "握手", "kw": ["よろしく", "合意", "契約成立", "手", "握手"], "subgroup": "hands"}
+{"emoji": "🙏", "en": "folded hands", "ja": "祈り", "kw": ["ありがとう", "お願い", "ごめんなさい", "ジェスチャー", "ハイタッチ", "合掌", "手", "祈り"], "subgroup": "hands"}
+{"emoji": "✍️", "en": "writing hand", "ja": "書いている手", "kw": ["手", "手で書く", "手書き", "書いている手"], "subgroup": "hand-prop"}
+{"emoji": "💅", "en": "nail polish", "ja": "マニキュアを塗る手", "kw": ["ネイル", "マニキュア", "マニキュアを塗る手", "爪"], "subgroup": "hand-prop"}
+{"emoji": "🤳", "en": "selfie", "ja": "セルフィー", "kw": ["カメラ", "スマホ", "セルフィー", "自分撮り", "自撮り"], "subgroup": "hand-prop"}
+{"emoji": "💪", "en": "flexed biceps", "ja": "力こぶ", "kw": ["ボディビル", "ムキムキ", "力こぶ", "筋トレ", "筋肉", "腕"], "subgroup": "body-parts"}
+{"emoji": "🦾", "en": "mechanical arm", "ja": "義手", "kw": ["アクセシビリティ", "人工装具", "手", "義手", "腕"], "subgroup": "body-parts"}
+{"emoji": "🦿", "en": "mechanical leg", "ja": "義足", "kw": ["アクセシビリティ", "人工装具", "義足", "脚", "足"], "subgroup": "body-parts"}
+{"emoji": "🦵", "en": "leg", "ja": "脚", "kw": ["キック", "曲げた脚", "脚", "膝", "足"], "subgroup": "body-parts"}
+{"emoji": "🦶", "en": "foot", "ja": "足", "kw": ["キック", "くるぶし", "ダンス", "足", "足首", "踏みつける"], "subgroup": "body-parts"}
+{"emoji": "👂", "en": "ear", "ja": "耳", "kw": ["からだ", "耳", "聞き耳", "聞く"], "subgroup": "body-parts"}
+{"emoji": "🦻", "en": "ear with hearing aid", "ja": "補聴器を付けた耳", "kw": ["アクセシビリティ", "耳", "聴覚", "補聴器を付けた耳", "難聴"], "subgroup": "body-parts"}
+{"emoji": "👃", "en": "nose", "ja": "鼻", "kw": ["からだ", "鼻"], "subgroup": "body-parts"}
+{"emoji": "🧠", "en": "brain", "ja": "脳", "kw": ["知識", "脳", "脳みそ", "頭"], "subgroup": "body-parts"}
+{"emoji": "🫀", "en": "anatomical heart", "ja": "心臓", "kw": ["心拍", "心臓", "脈", "臓器", "鼓動"], "subgroup": "body-parts"}
+{"emoji": "🫁", "en": "lungs", "ja": "肺", "kw": ["呼吸", "肺", "臓器"], "subgroup": "body-parts"}
+{"emoji": "🦷", "en": "tooth", "ja": "歯", "kw": ["歯", "歯医者", "白い歯"], "subgroup": "body-parts"}
+{"emoji": "🦴", "en": "bone", "ja": "骨", "kw": ["犬", "骨", "骨格"], "subgroup": "body-parts"}
+{"emoji": "👀", "en": "eyes", "ja": "目", "kw": ["からだ", "両目", "動く目玉", "目"], "subgroup": "body-parts"}
+{"emoji": "👁️", "en": "eye", "ja": "片目", "kw": ["からだ", "一つ目", "片目", "目"], "subgroup": "body-parts"}
+{"emoji": "👅", "en": "tongue", "ja": "舌", "kw": ["からだ", "べー", "べろ", "舌"], "subgroup": "body-parts"}
+{"emoji": "👄", "en": "mouth", "ja": "口", "kw": ["からだ", "キス", "口", "唇"], "subgroup": "body-parts"}
+{"emoji": "🫦", "en": "biting lip", "ja": "唇を咬んでいる口", "kw": ["セクシー", "チッ", "口", "口惜しさ", "唇", "唇を咬んでいる口", "悔しい", "誘惑"], "subgroup": "body-parts"}
+{"emoji": "👶", "en": "baby", "ja": "赤ん坊", "kw": ["ベビー", "子供", "新生児", "赤ちゃん", "赤ん坊", "顔"], "subgroup": "person"}
+{"emoji": "🧒", "en": "child", "ja": "子供", "kw": ["キッズ", "中性的", "子ども", "子供", "顔"], "subgroup": "person"}
+{"emoji": "👦", "en": "boy", "ja": "男の子", "kw": ["子供", "少年", "男の子", "顔"], "subgroup": "person"}
+{"emoji": "👧", "en": "girl", "ja": "女の子", "kw": ["おさげ", "女", "女の子", "娘", "子供", "少女", "顔"], "subgroup": "person"}
+{"emoji": "🧑", "en": "person", "ja": "大人", "kw": ["中性的", "大人", "成人", "顔"], "subgroup": "person"}
+{"emoji": "👱", "en": "person: blond hair", "ja": "金髪の人", "kw": ["ブロンド", "人", "人間", "金髪", "金髪の人", "顔"], "subgroup": "person"}
+{"emoji": "👨", "en": "man", "ja": "男性", "kw": ["大人", "男", "男性", "顔"], "subgroup": "person"}
+{"emoji": "🧔", "en": "person: beard", "ja": "あごひげの人", "kw": ["あごひげ", "あごひげの人", "ひげ", "人", "顔"], "subgroup": "person"}
+{"emoji": "🧔‍♂️", "en": "man: beard", "ja": "あごひげの男性", "kw": ["あごひげ", "あごひげの男性", "ひげ", "男", "顔"], "subgroup": "person"}
+{"emoji": "🧔‍♀️", "en": "woman: beard", "ja": "あごひげの女性", "kw": ["あごひげ", "あごひげの女性", "ひげ", "女", "顔"], "subgroup": "person"}
+{"emoji": "👨‍🦰", "en": "man: red hair", "ja": "男性: 赤毛", "kw": ["大人", "男", "男性", "赤毛", "顔"], "subgroup": "person"}
+{"emoji": "👨‍🦱", "en": "man: curly hair", "ja": "男性: 巻き毛", "kw": ["大人", "巻き毛", "男", "男性", "顔"], "subgroup": "person"}
+{"emoji": "👨‍🦳", "en": "man: white hair", "ja": "男性: 白髪", "kw": ["大人", "男", "男性", "白髪", "顔"], "subgroup": "person"}
+{"emoji": "👨‍🦲", "en": "man: bald", "ja": "男性: はげ頭", "kw": ["はげ頭", "大人", "男", "男性", "顔"], "subgroup": "person"}
+{"emoji": "👩", "en": "woman", "ja": "女性", "kw": ["大人", "女", "女性", "顔"], "subgroup": "person"}
+{"emoji": "👩‍🦰", "en": "woman: red hair", "ja": "女性: 赤毛", "kw": ["大人", "女", "女性", "赤毛", "顔"], "subgroup": "person"}
+{"emoji": "🧑‍🦰", "en": "person: red hair", "ja": "大人: 赤毛", "kw": ["中性的", "大人", "成人", "赤毛", "顔"], "subgroup": "person"}
+{"emoji": "👩‍🦱", "en": "woman: curly hair", "ja": "女性: 巻き毛", "kw": ["大人", "女", "女性", "巻き毛", "顔"], "subgroup": "person"}
+{"emoji": "🧑‍🦱", "en": "person: curly hair", "ja": "大人: 巻き毛", "kw": ["中性的", "大人", "巻き毛", "成人", "顔"], "subgroup": "person"}
+{"emoji": "👩‍🦳", "en": "woman: white hair", "ja": "女性: 白髪", "kw": ["大人", "女", "女性", "白髪", "顔"], "subgroup": "person"}
+{"emoji": "🧑‍🦳", "en": "person: white hair", "ja": "大人: 白髪", "kw": ["中性的", "大人", "成人", "白髪", "顔"], "subgroup": "person"}
+{"emoji": "👩‍🦲", "en": "woman: bald", "ja": "女性: はげ頭", "kw": ["はげ頭", "大人", "女", "女性", "顔"], "subgroup": "person"}
+{"emoji": "🧑‍🦲", "en": "person: bald", "ja": "大人: はげ頭", "kw": ["はげ頭", "中性的", "大人", "成人", "顔"], "subgroup": "person"}
+{"emoji": "👱‍♀️", "en": "woman: blond hair", "ja": "金髪の女性", "kw": ["ブロンド", "女", "女性", "金髪", "金髪の女性"], "subgroup": "person"}
+{"emoji": "👱‍♂️", "en": "man: blond hair", "ja": "金髪の男性", "kw": ["ブロンド", "男", "男性", "金髪", "金髪の男性"], "subgroup": "person"}
+{"emoji": "🧓", "en": "older person", "ja": "お年寄り", "kw": ["お年寄り", "中性的", "大人", "老人", "顔", "高齢者"], "subgroup": "person"}
+{"emoji": "👴", "en": "old man", "ja": "おじいさん", "kw": ["おじいさん", "おじいちゃん", "お年寄り", "男性", "老人", "薄毛", "顔", "高齢者"], "subgroup": "person"}
+{"emoji": "👵", "en": "old woman", "ja": "おばあさん", "kw": ["おばあさん", "おばあちゃん", "お年寄り", "女性", "老人", "顔", "高齢者"], "subgroup": "person"}
+{"emoji": "🙍", "en": "person frowning", "ja": "しかめ面の人", "kw": ["しかめっ面", "しかめ面の人", "しかめ顔", "むっとしている人", "不満", "失望"], "subgroup": "person-gesture"}
+{"emoji": "🙍‍♂️", "en": "man frowning", "ja": "しかめ面の男", "kw": ["しかめっ面", "しかめ面の男", "しかめ顔", "むっとしている男", "男", "男性"], "subgroup": "person-gesture"}
+{"emoji": "🙍‍♀️", "en": "woman frowning", "ja": "しかめ面の女", "kw": ["しかめっ面", "しかめ面の女", "しかめ顔", "女", "女性"], "subgroup": "person-gesture"}
+{"emoji": "🙎", "en": "person pouting", "ja": "不機嫌な人", "kw": ["ふくれる", "ぷんぷん", "不機嫌", "不機嫌な人", "口を尖らせた人", "険しい表情"], "subgroup": "person-gesture"}
+{"emoji": "🙎‍♂️", "en": "man pouting", "ja": "不機嫌な男", "kw": ["ぷんぷん", "不機嫌", "不機嫌な男", "口を尖らせた男", "男", "男性"], "subgroup": "person-gesture"}
+{"emoji": "🙎‍♀️", "en": "woman pouting", "ja": "不機嫌な女", "kw": ["ぷんぷん", "不機嫌", "不機嫌な女", "女", "女性"], "subgroup": "person-gesture"}
+{"emoji": "🙅", "en": "person gesturing NO", "ja": "ダメのポーズをする人", "kw": ["NG", "お断り", "ジェスチャー", "だめ", "ダメのポーズをする人", "バツ", "人", "禁止", "禁止された", "除外"], "subgroup": "person-gesture"}
+{"emoji": "🙅‍♂️", "en": "man gesturing NO", "ja": "ダメのポーズをする男", "kw": ["NG", "ジェスチャー", "ダメのポーズをする男", "バツ", "男", "男性", "禁止"], "subgroup": "person-gesture"}
+{"emoji": "🙅‍♀️", "en": "woman gesturing NO", "ja": "ダメのポーズをする女", "kw": ["NG", "ジェスチャー", "ダメのポーズをする女", "バツ", "女", "女性"], "subgroup": "person-gesture"}
+{"emoji": "🙆", "en": "person gesturing OK", "ja": "OKのポーズをする人", "kw": ["OK", "OKのポーズをする人", "エクササイズ", "オーケー", "ジェスチャー", "びっくり", "丸", "人", "手"], "subgroup": "person-gesture"}
+{"emoji": "🙆‍♂️", "en": "man gesturing OK", "ja": "OKのポーズをする男", "kw": ["OK", "OKのポーズをする男", "オーケー", "オッケー", "ジェスチャー", "丸", "男", "男性"], "subgroup": "person-gesture"}
+{"emoji": "🙆‍♀️", "en": "woman gesturing OK", "ja": "OKのポーズをする女", "kw": ["OKのポーズをする女", "オーケー", "オッケー", "ジェスチャー", "丸", "女性"], "subgroup": "person-gesture"}
+{"emoji": "💁", "en": "person tipping hand", "ja": "案内する人", "kw": ["ゴシップ", "ジェスチャー", "受付", "受付嬢", "手を返している人", "案内", "案内する人", "案内する女", "髪をかき上げる", "髪を振り払う"], "subgroup": "person-gesture"}
+{"emoji": "💁‍♂️", "en": "man tipping hand", "ja": "案内する男", "kw": ["ジェスチャー", "案内", "案内する男", "男", "男性"], "subgroup": "person-gesture"}
+{"emoji": "💁‍♀️", "en": "woman tipping hand", "ja": "案内する女", "kw": ["ジェスチャー", "女", "女性", "案内", "案内する女"], "subgroup": "person-gesture"}
+{"emoji": "🙋", "en": "person raising hand", "ja": "手を挙げる人", "kw": ["ジェスチャー", "人", "分かった", "手", "手を挙げる", "手を挙げる人", "挙手", "質問"], "subgroup": "person-gesture"}
+{"emoji": "🙋‍♂️", "en": "man raising hand", "ja": "手を挙げる男", "kw": ["手を挙げる", "手を挙げる男", "挙手", "男", "男性"], "subgroup": "person-gesture"}
+{"emoji": "🙋‍♀️", "en": "woman raising hand", "ja": "手を挙げる女", "kw": ["女", "女性", "手を挙げる", "手を挙げる女", "挙手"], "subgroup": "person-gesture"}
+{"emoji": "🧏", "en": "deaf person", "ja": "耳の不自由な人", "kw": ["アクセシビリティ", "人", "耳の不自由な人", "聞こえない", "聴覚", "障がい"], "subgroup": "person-gesture"}
+{"emoji": "🧏‍♂️", "en": "deaf man", "ja": "耳の不自由な男性", "kw": ["アクセシビリティ", "男性", "耳の不自由な男性", "聴覚", "障がい"], "subgroup": "person-gesture"}
+{"emoji": "🧏‍♀️", "en": "deaf woman", "ja": "耳の不自由な女性", "kw": ["アクセシビリティ", "女性", "耳の不自由な女性", "聴覚", "障がい"], "subgroup": "person-gesture"}
+{"emoji": "🙇", "en": "person bowing", "ja": "おじぎする人", "kw": ["おじぎ", "おじぎする人", "お願い", "ごめんなさい", "ジェスチャー", "土下座", "許して", "謝罪"], "subgroup": "person-gesture"}
+{"emoji": "🙇‍♂️", "en": "man bowing", "ja": "おじぎする男", "kw": ["おじぎ", "おじぎする男", "ごめんなさい", "土下座", "男", "男性"], "subgroup": "person-gesture"}
+{"emoji": "🙇‍♀️", "en": "woman bowing", "ja": "おじぎする女", "kw": ["おじぎ", "おじぎする女", "ごめんなさい", "土下座", "女", "女性"], "subgroup": "person-gesture"}
+{"emoji": "🤦", "en": "person facepalming", "ja": "ひたいに手をあてる人", "kw": ["あちゃー", "うそでしょ", "ジェスチャー", "ショック", "ひたいに手", "ひたいに手をあてる人", "またか", "人", "信じられない"], "subgroup": "person-gesture"}
+{"emoji": "🤦‍♂️", "en": "man facepalming", "ja": "ひたいに手をあてる男", "kw": ["あちゃー", "うそでしょ", "ジェスチャー", "ショック", "ひたいに手", "ひたいに手をあてる男", "またか", "信じられない", "男", "男性"], "subgroup": "person-gesture"}
+{"emoji": "🤦‍♀️", "en": "woman facepalming", "ja": "ひたいに手をあてる女", "kw": ["あちゃー", "うそでしょ", "ジェスチャー", "ショック", "ひたいに手", "ひたいに手をあてる女", "またか", "信じられない", "女", "女性"], "subgroup": "person-gesture"}
+{"emoji": "🤷", "en": "person shrugging", "ja": "お手上げする人", "kw": ["お手上げ", "お手上げする人", "さあね", "ジェスチャー", "わかりません", "人", "多分ね", "知らない", "肩をすくめる"], "subgroup": "person-gesture"}
+{"emoji": "🤷‍♂️", "en": "man shrugging", "ja": "お手上げする男", "kw": ["お手上げ", "お手上げする男", "さあね", "ジェスチャー", "わかりません", "多分ね", "男", "男性", "知らない", "肩をすくめる"], "subgroup": "person-gesture"}
+{"emoji": "🤷‍♀️", "en": "woman shrugging", "ja": "お手上げする女", "kw": ["お手上げ", "お手上げする女", "さあね", "ジェスチャー", "わかりません", "多分ね", "女", "女性", "知らない", "肩をすくめる"], "subgroup": "person-gesture"}
+{"emoji": "🧑‍⚕️", "en": "health worker", "ja": "医者", "kw": ["セラピスト", "医師", "医者"], "subgroup": "person-role"}
+{"emoji": "👨‍⚕️", "en": "man health worker", "ja": "男性の医者", "kw": ["セラピスト", "ドクター", "医師", "医者", "男", "男性", "男性の医者"], "subgroup": "person-role"}
+{"emoji": "👩‍⚕️", "en": "woman health worker", "ja": "女性の医者", "kw": ["セラピスト", "ドクター", "医師", "医者", "女", "女医", "女性", "女性の医者"], "subgroup": "person-role"}
+{"emoji": "🧑‍🎓", "en": "student", "ja": "学生", "kw": ["卒業", "学生", "角帽"], "subgroup": "person-role"}
+{"emoji": "👨‍🎓", "en": "man student", "ja": "男子学生", "kw": ["卒業", "学生", "男", "男子学生", "男性", "角帽"], "subgroup": "person-role"}
+{"emoji": "👩‍🎓", "en": "woman student", "ja": "女子学生", "kw": ["卒業", "女", "女子学生", "女性", "学生", "角帽"], "subgroup": "person-role"}
+{"emoji": "🧑‍🏫", "en": "teacher", "ja": "教師", "kw": ["先生", "担任", "教師", "教授", "講師"], "subgroup": "person-role"}
+{"emoji": "👨‍🏫", "en": "man teacher", "ja": "男性の教師", "kw": ["先生", "教師", "教授", "男", "男性", "男性の教師", "講師"], "subgroup": "person-role"}
+{"emoji": "👩‍🏫", "en": "woman teacher", "ja": "女性の教師", "kw": ["先生", "女", "女性", "女性の教師", "教師", "教授", "講師"], "subgroup": "person-role"}
+{"emoji": "🧑‍⚖️", "en": "judge", "ja": "裁判官", "kw": ["裁判", "裁判官"], "subgroup": "person-role"}
+{"emoji": "👨‍⚖️", "en": "man judge", "ja": "男性の裁判官", "kw": ["男", "男性", "男性の裁判官", "裁判", "裁判官"], "subgroup": "person-role"}
+{"emoji": "👩‍⚖️", "en": "woman judge", "ja": "女性の裁判官", "kw": ["女", "女性", "女性の裁判官", "裁判", "裁判官"], "subgroup": "person-role"}
+{"emoji": "🧑‍🌾", "en": "farmer", "ja": "農家", "kw": ["ガーデナー", "農場主", "農家", "農業"], "subgroup": "person-role"}
+{"emoji": "👨‍🌾", "en": "man farmer", "ja": "農家の男性", "kw": ["男", "男性", "農夫", "農家", "農家の男性"], "subgroup": "person-role"}
+{"emoji": "👩‍🌾", "en": "woman farmer", "ja": "農家の女性", "kw": ["女", "女性", "農家", "農家の女性"], "subgroup": "person-role"}
+{"emoji": "🧑‍🍳", "en": "cook", "ja": "コック", "kw": ["コック", "シェフ", "料理"], "subgroup": "person-role"}
+{"emoji": "👨‍🍳", "en": "man cook", "ja": "男性のコック", "kw": ["コック", "シェフ", "料理", "料理人", "男", "男性", "男性のコック"], "subgroup": "person-role"}
+{"emoji": "👩‍🍳", "en": "woman cook", "ja": "女性のコック", "kw": ["コック", "シェフ", "女", "女性", "女性のコック", "料理", "料理人"], "subgroup": "person-role"}
+{"emoji": "🧑‍🔧", "en": "mechanic", "ja": "整備士", "kw": ["スパナ", "メカニック", "作業員", "工作", "整備士"], "subgroup": "person-role"}
+{"emoji": "👨‍🔧", "en": "man mechanic", "ja": "男性の整備士", "kw": ["スパナ", "メカニック", "工作", "男", "男性", "男性の整備士", "配管工", "電気工"], "subgroup": "person-role"}
+{"emoji": "👩‍🔧", "en": "woman mechanic", "ja": "女性の整備士", "kw": ["スパナ", "メカニック", "女", "女性", "女性の整備士", "工作", "配管工", "電気工"], "subgroup": "person-role"}
+{"emoji": "🧑‍🏭", "en": "factory worker", "ja": "溶接工", "kw": ["モノづくり", "工員", "工場", "溶接工"], "subgroup": "person-role"}
+{"emoji": "👨‍🏭", "en": "man factory worker", "ja": "男性の溶接工", "kw": ["工員", "溶接", "男", "男性", "男性の溶接工"], "subgroup": "person-role"}
+{"emoji": "👩‍🏭", "en": "woman factory worker", "ja": "女性の溶接工", "kw": ["女", "女性", "女性の溶接工", "工員", "溶接"], "subgroup": "person-role"}
+{"emoji": "🧑‍💼", "en": "office worker", "ja": "会社員", "kw": ["サラリーマン", "ビジネスパーソン", "会社員"], "subgroup": "person-role"}
+{"emoji": "👨‍💼", "en": "man office worker", "ja": "男性会社員", "kw": ["サラリーマン", "ビジネスパーソン", "ビジネスマン", "会社員", "男性", "男性会社員"], "subgroup": "person-role"}
+{"emoji": "👩‍💼", "en": "woman office worker", "ja": "女性会社員", "kw": ["OL", "サラリーマン", "ビジネスパーソン", "会社員", "女", "女性", "女性会社員"], "subgroup": "person-role"}
+{"emoji": "🧑‍🔬", "en": "scientist", "ja": "科学者", "kw": ["化学者", "物理学者", "生物学者", "科学者"], "subgroup": "person-role"}
+{"emoji": "👨‍🔬", "en": "man scientist", "ja": "男性科学者", "kw": ["男", "男性", "男性科学者", "科学者"], "subgroup": "person-role"}
+{"emoji": "👩‍🔬", "en": "woman scientist", "ja": "女性科学者", "kw": ["女", "女性", "女性科学者", "科学者"], "subgroup": "person-role"}
+{"emoji": "🧑‍💻", "en": "technologist", "ja": "技術者", "kw": ["コンピュータ", "パソコン", "プログラマ", "技術者", "開発者"], "subgroup": "person-role"}
+{"emoji": "👨‍💻", "en": "man technologist", "ja": "男性技術者", "kw": ["コンピュータ", "デベロッパ", "パソコン", "プログラマ", "プログラマー", "男", "男性", "男性技術者", "開発者"], "subgroup": "person-role"}
+{"emoji": "👩‍💻", "en": "woman technologist", "ja": "女性技術者", "kw": ["コンピュータ", "デベロッパ", "パソコン", "プログラマ", "プログラマー", "女", "女性", "女性技術者", "開発者"], "subgroup": "person-role"}
+{"emoji": "🧑‍🎤", "en": "singer", "ja": "歌手", "kw": ["アーティスト", "シンガー", "スター", "ロッカー", "歌手"], "subgroup": "person-role"}
+{"emoji": "👨‍🎤", "en": "man singer", "ja": "男性歌手", "kw": ["アーティスト", "エンターテイナー", "シンガー", "スター", "ロックスター", "俳優", "歌手", "男", "男性", "男性歌手"], "subgroup": "person-role"}
+{"emoji": "👩‍🎤", "en": "woman singer", "ja": "女性歌手", "kw": ["アーティスト", "エンターテイナー", "シンガー", "スター", "ロックスター", "俳優", "女", "女性", "女性歌手", "歌手"], "subgroup": "person-role"}
+{"emoji": "🧑‍🎨", "en": "artist", "ja": "芸術家", "kw": ["アーティスト", "画家", "絵描き", "芸術家"], "subgroup": "person-role"}
+{"emoji": "👨‍🎨", "en": "man artist", "ja": "男性の芸術家", "kw": ["アーティスト", "男", "男性", "男性の芸術家", "画家", "芸術家"], "subgroup": "person-role"}
+{"emoji": "👩‍🎨", "en": "woman artist", "ja": "女性の芸術家", "kw": ["アーティスト", "パレット", "女", "女性", "女性の芸術家", "画家", "芸術家"], "subgroup": "person-role"}
+{"emoji": "🧑‍✈️", "en": "pilot", "ja": "パイロット", "kw": ["パイロット", "操縦士", "機長"], "subgroup": "person-role"}
+{"emoji": "👨‍✈️", "en": "man pilot", "ja": "男性パイロット", "kw": ["パイロット", "操縦士", "男", "男性", "男性パイロット"], "subgroup": "person-role"}
+{"emoji": "👩‍✈️", "en": "woman pilot", "ja": "女性パイロット", "kw": ["女", "女性", "女性パイロット", "操縦士"], "subgroup": "person-role"}
+{"emoji": "🧑‍🚀", "en": "astronaut", "ja": "宇宙飛行士", "kw": ["ロケット", "宇宙飛行士"], "subgroup": "person-role"}
+{"emoji": "👨‍🚀", "en": "man astronaut", "ja": "男性宇宙飛行士", "kw": ["宇宙飛行士", "男", "男性", "男性宇宙飛行士"], "subgroup": "person-role"}
+{"emoji": "👩‍🚀", "en": "woman astronaut", "ja": "女性宇宙飛行士", "kw": ["女", "女性", "女性宇宙飛行士", "宇宙飛行士"], "subgroup": "person-role"}
+{"emoji": "🧑‍🚒", "en": "firefighter", "ja": "消防士", "kw": ["レスキュー", "救助隊", "消防士"], "subgroup": "person-role"}
+{"emoji": "👨‍🚒", "en": "man firefighter", "ja": "男性消防士", "kw": ["消防士", "男", "男性", "男性消防士"], "subgroup": "person-role"}
+{"emoji": "👩‍🚒", "en": "woman firefighter", "ja": "女性消防士", "kw": ["女", "女性", "女性消防士", "消防士"], "subgroup": "person-role"}
+{"emoji": "👮", "en": "police officer", "ja": "警察官", "kw": ["お巡りさん", "警官", "警察", "警察官", "逮捕する"], "subgroup": "person-role"}
+{"emoji": "👮‍♂️", "en": "man police officer", "ja": "男性警察官", "kw": ["お巡りさん", "男性", "男性警察官", "警官", "警察", "警察官"], "subgroup": "person-role"}
+{"emoji": "👮‍♀️", "en": "woman police officer", "ja": "女性警察官", "kw": ["お巡りさん", "女性", "女性警察官", "警官", "警察", "警察官"], "subgroup": "person-role"}
+{"emoji": "🕵️", "en": "detective", "ja": "探偵", "kw": ["スパイ", "探偵", "私立探偵", "虫めがね"], "subgroup": "person-role"}
+{"emoji": "🕵️‍♂️", "en": "man detective", "ja": "男性の探偵", "kw": ["探偵", "男", "男性", "男性の探偵", "虫めがね"], "subgroup": "person-role"}
+{"emoji": "🕵️‍♀️", "en": "woman detective", "ja": "女性の探偵", "kw": ["女", "女性", "女性の探偵", "探偵", "私立探偵", "虫めがね"], "subgroup": "person-role"}
+{"emoji": "💂", "en": "guard", "ja": "衛兵", "kw": ["守衛", "衛兵", "警備", "門番"], "subgroup": "person-role"}
+{"emoji": "💂‍♂️", "en": "man guard", "ja": "男性の衛兵", "kw": ["守衛", "男性", "男性の衛兵", "衛兵", "警備", "門番"], "subgroup": "person-role"}
+{"emoji": "💂‍♀️", "en": "woman guard", "ja": "女性の衛兵", "kw": ["女性", "女性の衛兵", "守衛", "衛兵", "警備", "門番"], "subgroup": "person-role"}
+{"emoji": "🥷", "en": "ninja", "ja": "忍者", "kw": ["スパイ", "人", "忍び", "忍者", "忍術", "草の者", "隠密"], "subgroup": "person-role"}
+{"emoji": "👷", "en": "construction worker", "ja": "建設作業員", "kw": ["ハンマー", "ヘルメット", "作業員", "工事", "建設"], "subgroup": "person-role"}
+{"emoji": "👷‍♂️", "en": "man construction worker", "ja": "男性の建設作業員", "kw": ["ハンマー", "ヘルメット", "作業員", "工事", "建設", "男", "男性", "男性の建設作業員"], "subgroup": "person-role"}
+{"emoji": "👷‍♀️", "en": "woman construction worker", "ja": "女性の建設作業員", "kw": ["ハンマー", "ヘルメット", "作業員", "女", "女性", "女性の建設作業員", "工事", "建設"], "subgroup": "person-role"}
+{"emoji": "🫅", "en": "person with crown", "ja": "王冠をかぶった人", "kw": ["君主", "国王", "女王", "王", "王冠をかぶった人", "王家", "王族", "王様"], "subgroup": "person-role"}
+{"emoji": "🤴", "en": "prince", "ja": "プリンス", "kw": ["プリンス", "王子", "王族", "男", "男性"], "subgroup": "person-role"}
+{"emoji": "👸", "en": "princess", "ja": "プリンセス", "kw": ["お姫さま", "クイーン", "プリンセス", "冠", "女", "女性", "女王", "王女", "王妃"], "subgroup": "person-role"}
+{"emoji": "👳", "en": "person wearing turban", "ja": "ターバンの人", "kw": ["ターバン", "ターバンの人", "帽子"], "subgroup": "person-role"}
+{"emoji": "👳‍♂️", "en": "man wearing turban", "ja": "ターバンの男性", "kw": ["ターバン", "ターバンの男性", "男", "男性"], "subgroup": "person-role"}
+{"emoji": "👳‍♀️", "en": "woman wearing turban", "ja": "ターバンの女性", "kw": ["ターバン", "ターバンの女性", "女", "女性"], "subgroup": "person-role"}
+{"emoji": "👲", "en": "person with skullcap", "ja": "中華帽の男性", "kw": ["おわん帽", "中華帽の男性", "男", "男性"], "subgroup": "person-role"}
+{"emoji": "🧕", "en": "woman with headscarf", "ja": "スカーフの女性", "kw": ["スカーフ", "スカーフの女性", "ヒジャブ", "ベール", "女", "女性"], "subgroup": "person-role"}
+{"emoji": "🤵", "en": "person in tuxedo", "ja": "タキシードの人", "kw": ["タキシード", "タキシードの人", "フォーマル", "人", "正装", "結婚"], "subgroup": "person-role"}
+{"emoji": "🤵‍♂️", "en": "man in tuxedo", "ja": "タキシードの男性", "kw": ["タキシード", "タキシードの男", "タキシードの男性", "男", "男性"], "subgroup": "person-role"}
+{"emoji": "🤵‍♀️", "en": "woman in tuxedo", "ja": "タキシードの女性", "kw": ["タキシード", "タキシードの女", "タキシードの女性", "女", "女性"], "subgroup": "person-role"}
+{"emoji": "👰", "en": "person with veil", "ja": "ベールの人", "kw": ["ウェディング", "ベール", "ベールの人", "人", "結婚", "顔"], "subgroup": "person-role"}
+{"emoji": "👰‍♂️", "en": "man with veil", "ja": "ベールの男性", "kw": ["ベール", "ベールの男性", "男", "男性"], "subgroup": "person-role"}
+{"emoji": "👰‍♀️", "en": "woman with veil", "ja": "ベールの女性", "kw": ["ベール", "ベールの女性", "女", "女性"], "subgroup": "person-role"}
+{"emoji": "🤰", "en": "pregnant woman", "ja": "妊婦", "kw": ["女", "女性", "妊娠", "妊婦"], "subgroup": "person-role"}
+{"emoji": "🫃", "en": "pregnant man", "ja": "妊夫", "kw": ["妊夫", "妊娠", "妊娠した人", "男", "男性", "食べ過ぎ"], "subgroup": "person-role"}
+{"emoji": "🫄", "en": "pregnant person", "ja": "妊娠した人", "kw": ["お腹", "妊夫", "妊娠", "妊娠した人", "妊婦", "食べ過ぎ"], "subgroup": "person-role"}
+{"emoji": "🤱", "en": "breast-feeding", "ja": "授乳", "kw": ["ミルク", "女", "女性", "授乳", "赤ちゃん"], "subgroup": "person-role"}
+{"emoji": "👩‍🍼", "en": "woman feeding baby", "ja": "授乳する女性", "kw": ["ママ", "人", "女", "女性", "授乳", "授乳する女性", "新生児", "母親", "赤ちゃん"], "subgroup": "person-role"}
+{"emoji": "👨‍🍼", "en": "man feeding baby", "ja": "授乳する男性", "kw": ["パパ", "人", "授乳", "授乳する男性", "新生児", "父親", "男", "男性", "赤ちゃん"], "subgroup": "person-role"}
+{"emoji": "🧑‍🍼", "en": "person feeding baby", "ja": "授乳する人", "kw": ["人", "授乳", "授乳する人", "新生児", "母親", "父親", "赤ちゃん"], "subgroup": "person-role"}
+{"emoji": "👼", "en": "baby angel", "ja": "天使", "kw": ["エンジェル", "エンゼル", "天使", "赤ちゃん天使", "顔"], "subgroup": "person-fantasy"}
+{"emoji": "🎅", "en": "Santa Claus", "ja": "サンタ", "kw": ["クリスマス", "サンタ", "サンタクロース", "顔"], "subgroup": "person-fantasy"}
+{"emoji": "🤶", "en": "Mrs. Claus", "ja": "女性のサンタ", "kw": ["クリスマス", "サンタクロース", "女", "女性", "女性のサンタ"], "subgroup": "person-fantasy"}
+{"emoji": "🧑‍🎄", "en": "Mx Claus", "ja": "サンタさん", "kw": ["クリスマス", "サンタ", "サンタクロース", "サンタさん", "人", "帽子"], "subgroup": "person-fantasy"}
+{"emoji": "🦸", "en": "superhero", "ja": "スーパーヒーロー", "kw": ["スーパーヒーロー", "スーパーマン", "ヒーロー", "ヒロイン", "善", "巨大勢力", "超人"], "subgroup": "person-fantasy"}
+{"emoji": "🦸‍♂️", "en": "man superhero", "ja": "男性のスーパーヒーロー", "kw": ["ヒーロー", "善", "男性", "男性のスーパーヒーロー", "超人"], "subgroup": "person-fantasy"}
+{"emoji": "🦸‍♀️", "en": "woman superhero", "ja": "女性のスーパーヒーロー", "kw": ["ヒーロー", "ヒロイン", "善", "女性", "女性のスーパーヒーロー", "超人"], "subgroup": "person-fantasy"}
+{"emoji": "🦹", "en": "supervillain", "ja": "悪役", "kw": ["ヴィラン", "人", "悪", "悪い人", "悪人", "悪役", "悪玉", "犯人", "犯罪者", "超悪玉"], "subgroup": "person-fantasy"}
+{"emoji": "🦹‍♂️", "en": "man supervillain", "ja": "男性の悪役", "kw": ["ヴィラン", "悪", "犯人", "男性", "男性の悪役", "超人"], "subgroup": "person-fantasy"}
+{"emoji": "🦹‍♀️", "en": "woman supervillain", "ja": "女性の悪役", "kw": ["ヴィラン", "女性", "女性の悪役", "悪", "犯人", "超人"], "subgroup": "person-fantasy"}
+{"emoji": "🧙", "en": "mage", "ja": "魔法使い", "kw": ["ファンタジー", "ロールプレイ", "召喚", "呪文", "魔女", "魔法", "魔法使い", "魔術師"], "subgroup": "person-fantasy"}
+{"emoji": "🧙‍♂️", "en": "man mage", "ja": "男の魔法使い", "kw": ["男", "男の魔法使い", "男性", "魔法使い"], "subgroup": "person-fantasy"}
+{"emoji": "🧙‍♀️", "en": "woman mage", "ja": "女の魔法使い", "kw": ["女", "女の魔法使い", "女性", "魔女", "魔法使い"], "subgroup": "person-fantasy"}
