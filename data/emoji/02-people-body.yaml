@@ -1,6 +1,8 @@
 # SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
 #   name:     annotation shown in SKK (Japanese name; no "/" or ";")
 #   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   slack:    Slack-style short names (":thumbsup:" without colons), registered as headwords.
+#             Refreshed from iamcal/emoji-data; hand-written names are kept only while emoji-data has none
 #   review:   true if added automatically by the update task; remove after checking the readings
 # Other fields are refreshed from Unicode/CLDR by the update task.
 
@@ -18,6 +20,7 @@ emoji:
       - あいさつ
       - やあ
       - おーい
+    slack: [ wave ]
     en: waving hand
     since: "0.6"
     subgroup: hand-fingers-open
@@ -30,6 +33,7 @@ emoji:
       - てのこう
       - て
       - きょしゅ
+    slack: [ raised_back_of_hand ]
     en: raised back of hand
     since: "3.0"
     subgroup: hand-fingers-open
@@ -45,6 +49,7 @@ emoji:
       - すとっぷ
       - きょしゅ
       - ご
+    slack: [ raised_hand_with_fingers_splayed ]
     en: hand with fingers splayed
     since: "0.7"
     subgroup: hand-fingers-open
@@ -60,6 +65,7 @@ emoji:
       - すとっぷ
       - はい
       - はいたっち
+    slack: [ hand, raised_hand ]
     en: raised hand
     since: "0.6"
     subgroup: hand-fingers-open
@@ -73,6 +79,7 @@ emoji:
       - ばるかんさいん
       - すたーとれっく
       - すぽっく
+    slack: [ spock-hand ]
     en: vulcan salute
     since: "1.0"
     subgroup: hand-fingers-open
@@ -87,6 +94,7 @@ emoji:
       - あくしゅ
       - て
       - みぎ
+    slack: [ rightwards_hand ]
     en: rightwards hand
     since: "14.0"
     subgroup: hand-fingers-open
@@ -101,6 +109,7 @@ emoji:
       - あくしゅ
       - て
       - ひだり
+    slack: [ leftwards_hand ]
     en: leftwards hand
     since: "14.0"
     subgroup: hand-fingers-open
@@ -115,6 +124,7 @@ emoji:
       - ひろう
       - しっしっ
       - て
+    slack: [ palm_down_hand ]
     en: palm down hand
     since: "14.0"
     subgroup: hand-fingers-open
@@ -130,6 +140,7 @@ emoji:
       - さしだす
       - どうぞ
       - て
+    slack: [ palm_up_hand ]
     en: palm up hand
     since: "14.0"
     subgroup: hand-fingers-open
@@ -146,6 +157,7 @@ emoji:
       - おす
       - ことわる
       - はいたっち
+    slack: [ leftwards_pushing_hand ]
     en: leftwards pushing hand
     since: "15.0"
     subgroup: hand-fingers-open
@@ -162,6 +174,7 @@ emoji:
       - おす
       - ことわる
       - はいたっち
+    slack: [ rightwards_pushing_hand ]
     en: rightwards pushing hand
     since: "15.0"
     subgroup: hand-fingers-open
@@ -177,6 +190,7 @@ emoji:
       - おっけー
       - りょうかい
       - かんぺき
+    slack: [ ok_hand ]
     en: OK hand
     since: "0.6"
     subgroup: hand-fingers-partial
@@ -191,6 +205,7 @@ emoji:
       - いたりあ
       - じぇすちゃー
       - なんでやねん
+    slack: [ pinched_fingers ]
     en: pinched fingers
     since: "13.0"
     subgroup: hand-fingers-partial
@@ -205,6 +220,7 @@ emoji:
       - すこしだけ
       - ちょびっと
       - つまむ
+    slack: [ pinching_hand ]
     en: pinching hand
     since: "12.0"
     subgroup: hand-fingers-partial
@@ -220,6 +236,7 @@ emoji:
       - いえーい
       - しょうり
       - ぴーすさいん
+    slack: [ v ]
     en: victory hand
     since: "0.6"
     subgroup: hand-fingers-partial
@@ -235,6 +252,7 @@ emoji:
       - ねがい
       - ぐっどらっく
       - うまくいきますように
+    slack: [ crossed_fingers, hand_with_index_and_middle_fingers_crossed ]
     en: crossed fingers
     since: "3.0"
     subgroup: hand-fingers-partial
@@ -250,6 +268,7 @@ emoji:
       - きゅん
       - おかね
       - ゆびをくろす
+    slack: [ hand_with_index_finger_and_thumb_crossed ]
     en: hand with index finger and thumb crossed
     since: "14.0"
     subgroup: hand-fingers-partial
@@ -263,6 +282,7 @@ emoji:
       - あいしてる
       - らぶ
       - だいすき
+    slack: [ i_love_you_hand_sign ]
     en: love-you gesture
     since: "5.0"
     subgroup: hand-fingers-partial
@@ -278,6 +298,7 @@ emoji:
       - へびめた
       - きつね
       - めたる
+    slack: [ the_horns, sign_of_the_horns ]
     en: sign of the horns
     since: "1.0"
     subgroup: hand-fingers-partial
@@ -292,6 +313,7 @@ emoji:
       - しゃか
       - あろは
       - でんわ
+    slack: [ call_me_hand ]
     en: call me hand
     since: "3.0"
     subgroup: hand-fingers-partial
@@ -306,6 +328,7 @@ emoji:
       - ひだり
       - こっち
       - ひだりむき
+    slack: [ point_left ]
     en: backhand index pointing left
     since: "0.6"
     subgroup: hand-single-finger
@@ -320,6 +343,7 @@ emoji:
       - みぎ
       - こっち
       - みぎむき
+    slack: [ point_right ]
     en: backhand index pointing right
     since: "0.6"
     subgroup: hand-single-finger
@@ -335,6 +359,7 @@ emoji:
       - こっち
       - うえをさす
       - ゆび
+    slack: [ point_up_2 ]
     en: backhand index pointing up
     since: "0.6"
     subgroup: hand-single-finger
@@ -350,6 +375,7 @@ emoji:
       - ふぁっきゅー
       - くたばれ
       - ちゅうし
+    slack: [ middle_finger, reversed_hand_with_middle_finger_extended ]
     en: middle finger
     since: "1.0"
     subgroup: hand-single-finger
@@ -365,6 +391,7 @@ emoji:
       - したをさす
       - ゆび
       - こちら
+    slack: [ point_down ]
     en: backhand index pointing down
     since: "0.6"
     subgroup: hand-single-finger
@@ -381,6 +408,7 @@ emoji:
       - いち
       - ちょっといい
       - ぽいんと
+    slack: [ point_up ]
     en: index pointing up
     since: "0.6"
     subgroup: hand-single-finger
@@ -397,6 +425,7 @@ emoji:
       - ゆびさし
       - してき
       - あなた
+    slack: [ index_pointing_at_the_viewer ]
     en: index pointing at the viewer
     since: "14.0"
     subgroup: hand-single-finger
@@ -414,6 +443,7 @@ emoji:
       - りょうかい
       - おやゆび
       - ok
+    slack: [ "+1", thumbsup ]
     en: thumbs up
     since: "0.6"
     subgroup: hand-fingers-closed
@@ -430,6 +460,7 @@ emoji:
       - ぼつ
       - ばっど
       - ng
+    slack: [ "-1", thumbsdown ]
     en: thumbs down
     since: "0.6"
     subgroup: hand-fingers-closed
@@ -473,6 +504,7 @@ emoji:
       - にぎりこぶし
       - がんばる
       - ふぁいと
+    slack: [ fist ]
     en: raised fist
     since: "0.6"
     subgroup: hand-fingers-closed
@@ -488,6 +520,7 @@ emoji:
       - こぶし
       - なぐる
       - ぐーぱんち
+    slack: [ facepunch, punch ]
     en: oncoming fist
     since: "0.6"
     subgroup: hand-fingers-closed
@@ -502,6 +535,7 @@ emoji:
       - ぱんち
       - ぐーたっち
       - ふぃすとばんぷ
+    slack: [ left-facing_fist ]
     en: left-facing fist
     since: "3.0"
     subgroup: hand-fingers-closed
@@ -516,6 +550,7 @@ emoji:
       - ぱんち
       - ぐーたっち
       - ふぃすとばんぷ
+    slack: [ right-facing_fist ]
     en: right-facing fist
     since: "3.0"
     subgroup: hand-fingers-closed
@@ -531,6 +566,7 @@ emoji:
       - てをたたく
       - すばらしい
       - くらっぷ
+    slack: [ clap ]
     en: clapping hands
     since: "0.6"
     subgroup: hands
@@ -546,6 +582,7 @@ emoji:
       - よろこび
       - りょうて
       - てをあげる
+    slack: [ raised_hands ]
     en: raising hands
     since: "0.6"
     subgroup: hands
@@ -562,6 +599,7 @@ emoji:
       - らぶ
       - あい
       - すき
+    slack: [ heart_hands ]
     en: heart hands
     since: "14.0"
     subgroup: hands
@@ -576,6 +614,7 @@ emoji:
       - てのひら
       - ひらいたりょうて
       - はぐ
+    slack: [ open_hands ]
     en: open hands
     since: "0.6"
     subgroup: hands
@@ -591,6 +630,7 @@ emoji:
       - すくう
       - おねがい
       - りょうて
+    slack: [ palms_up_together ]
     en: palms up together
     since: "5.0"
     subgroup: hands
@@ -607,6 +647,7 @@ emoji:
       - なかなおり
       - きょうりょく
       - しぇいくはんど
+    slack: [ handshake ]
     en: handshake
     since: "3.0"
     subgroup: hands
@@ -624,6 +665,7 @@ emoji:
       - おがむ
       - がっしょう
       - たのむ
+    slack: [ pray ]
     en: folded hands
     since: "0.6"
     subgroup: hands
@@ -639,6 +681,7 @@ emoji:
       - きにゅう
       - さいん
       - めも
+    slack: [ writing_hand ]
     en: writing hand
     since: "0.7"
     subgroup: hand-prop
@@ -654,6 +697,7 @@ emoji:
       - つめ
       - よゆう
       - おしゃれ
+    slack: [ nail_care ]
     en: nail polish
     since: "0.6"
     subgroup: hand-prop
@@ -669,6 +713,7 @@ emoji:
       - すまほ
       - かめら
       - しゃしん
+    slack: [ selfie ]
     en: selfie
     since: "3.0"
     subgroup: hand-prop
@@ -686,6 +731,7 @@ emoji:
       - がんばる
       - うで
       - つよい
+    slack: [ muscle ]
     en: flexed biceps
     since: "0.6"
     subgroup: body-parts
@@ -700,6 +746,7 @@ emoji:
       - めかあーむ
       - ろぼっとあーむ
       - さいぼーぐ
+    slack: [ mechanical_arm ]
     en: mechanical arm
     since: "12.0"
     subgroup: body-parts
@@ -713,6 +760,7 @@ emoji:
       - めかれっぐ
       - ろぼっと
       - さいぼーぐ
+    slack: [ mechanical_leg ]
     en: mechanical leg
     since: "12.0"
     subgroup: body-parts
@@ -726,6 +774,7 @@ emoji:
       - きっく
       - れっぐ
       - けり
+    slack: [ leg ]
     en: leg
     since: "11.0"
     subgroup: body-parts
@@ -741,6 +790,7 @@ emoji:
       - ふみつける
       - ふっと
       - あしのうら
+    slack: [ foot ]
     en: foot
     since: "11.0"
     subgroup: body-parts
@@ -755,6 +805,7 @@ emoji:
       - ききみみ
       - いやー
       - ちょうかく
+    slack: [ ear ]
     en: ear
     since: "0.6"
     subgroup: body-parts
@@ -769,6 +820,7 @@ emoji:
       - なんちょう
       - みみ
       - ちょうかく
+    slack: [ ear_with_hearing_aid ]
     en: ear with hearing aid
     since: "12.0"
     subgroup: body-parts
@@ -782,6 +834,7 @@ emoji:
       - におい
       - かぐ
       - のーず
+    slack: [ nose ]
     en: nose
     since: "0.6"
     subgroup: body-parts
@@ -798,6 +851,7 @@ emoji:
       - かしこい
       - ぶれいん
       - ずのう
+    slack: [ brain ]
     en: brain
     since: "5.0"
     subgroup: body-parts
@@ -812,6 +866,7 @@ emoji:
       - みゃく
       - はーと
       - どきどき
+    slack: [ anatomical_heart ]
     en: anatomical heart
     since: "13.0"
     subgroup: body-parts
@@ -825,6 +880,7 @@ emoji:
       - いき
       - しんこきゅう
       - はいぞう
+    slack: [ lungs ]
     en: lungs
     since: "13.0"
     subgroup: body-parts
@@ -838,6 +894,7 @@ emoji:
       - むしば
       - しろいは
       - はみがき
+    slack: [ tooth ]
     en: tooth
     since: "11.0"
     subgroup: body-parts
@@ -850,6 +907,7 @@ emoji:
       - こっかく
       - がいこつ
       - ほねっこ
+    slack: [ bone ]
     en: bone
     since: "11.0"
     subgroup: body-parts
@@ -866,6 +924,7 @@ emoji:
       - りょうめ
       - めだま
       - ちら
+    slack: [ eyes ]
     en: eyes
     since: "0.6"
     subgroup: body-parts
@@ -879,6 +938,7 @@ emoji:
       - ひとつめ
       - みる
       - がんきゅう
+    slack: [ eye ]
     en: eye
     since: "0.7"
     subgroup: body-parts
@@ -892,6 +952,7 @@ emoji:
       - べろ
       - あっかんべー
       - なめる
+    slack: [ tongue ]
     en: tongue
     since: "0.6"
     subgroup: body-parts
@@ -905,6 +966,7 @@ emoji:
       - きす
       - ちゅー
       - りっぷ
+    slack: [ lips ]
     en: mouth
     since: "0.6"
     subgroup: body-parts
@@ -919,6 +981,7 @@ emoji:
       - せくしー
       - ゆうわく
       - くちびる
+    slack: [ biting_lip ]
     en: biting lip
     since: "14.0"
     subgroup: body-parts
@@ -933,6 +996,7 @@ emoji:
       - にゅうじ
       - しんせいじ
       - ばぶ
+    slack: [ baby ]
     en: baby
     since: "0.6"
     subgroup: person
@@ -947,6 +1011,7 @@ emoji:
       - ようじ
       - がき
       - こ
+    slack: [ child ]
     en: child
     since: "5.0"
     subgroup: person
@@ -962,6 +1027,7 @@ emoji:
       - ぼうや
       - ぼーい
       - だんし
+    slack: [ boy ]
     en: boy
     since: "0.6"
     subgroup: person
@@ -977,6 +1043,7 @@ emoji:
       - むすめ
       - がーる
       - じょし
+    slack: [ girl ]
     en: girl
     since: "0.6"
     subgroup: person
@@ -991,6 +1058,7 @@ emoji:
       - せいじん
       - にんげん
       - ひとびと
+    slack: [ adult ]
     en: person
     since: "5.0"
     subgroup: person
@@ -1004,6 +1072,7 @@ emoji:
       - きんぱつ
       - ぶろんど
       - ぱっきん
+    slack: [ person_with_blond_hair ]
     en: "person: blond hair"
     since: "0.6"
     subgroup: person
@@ -1018,6 +1087,7 @@ emoji:
       - おとこのひと
       - めんず
       - おっさん
+    slack: [ man ]
     en: man
     since: "0.6"
     subgroup: person
@@ -1031,6 +1101,7 @@ emoji:
       - あごひげ
       - ひげ
       - ひげづら
+    slack: [ bearded_person ]
     en: "person: beard"
     since: "5.0"
     subgroup: person
@@ -1045,6 +1116,7 @@ emoji:
       - ひげ
       - ひげづら
       - ひげのおとこ
+    slack: [ man_with_beard ]
     en: "man: beard"
     since: "13.1"
     subgroup: person
@@ -1058,6 +1130,7 @@ emoji:
       - あごひげ
       - ひげ
       - ひげのおんな
+    slack: [ woman_with_beard ]
     en: "woman: beard"
     since: "13.1"
     subgroup: person
@@ -1071,6 +1144,7 @@ emoji:
       - あかげ
       - あかげのおとこ
       - れっどへあ
+    slack: [ red_haired_man ]
     en: "man: red hair"
     since: "11.0"
     subgroup: person
@@ -1086,6 +1160,7 @@ emoji:
       - てんぱ
       - ぱーま
       - まきげのおとこ
+    slack: [ curly_haired_man ]
     en: "man: curly hair"
     since: "11.0"
     subgroup: person
@@ -1100,6 +1175,7 @@ emoji:
       - はくはつ
       - ろまんすぐれー
       - しらがのおとこ
+    slack: [ white_haired_man ]
     en: "man: white hair"
     since: "11.0"
     subgroup: person
@@ -1115,6 +1191,7 @@ emoji:
       - すきんへっど
       - ぼうず
       - つるつる
+    slack: [ bald_man ]
     en: "man: bald"
     since: "11.0"
     subgroup: person
@@ -1129,6 +1206,7 @@ emoji:
       - おんなのひと
       - れでぃーす
       - ふじん
+    slack: [ woman ]
     en: woman
     since: "0.6"
     subgroup: person
@@ -1142,6 +1220,7 @@ emoji:
       - あかげ
       - あかげのおんな
       - れっどへあ
+    slack: [ red_haired_woman ]
     en: "woman: red hair"
     since: "11.0"
     subgroup: person
@@ -1154,6 +1233,7 @@ emoji:
       - あかげのひと
       - あかげ
       - れっどへあ
+    slack: [ red_haired_person ]
     en: "person: red hair"
     since: "12.1"
     subgroup: person
@@ -1169,6 +1249,7 @@ emoji:
       - てんぱ
       - ぱーま
       - まきげのおんな
+    slack: [ curly_haired_woman ]
     en: "woman: curly hair"
     since: "11.0"
     subgroup: person
@@ -1183,6 +1264,7 @@ emoji:
       - くせげ
       - てんぱ
       - ぱーま
+    slack: [ curly_haired_person ]
     en: "person: curly hair"
     since: "12.1"
     subgroup: person
@@ -1197,6 +1279,7 @@ emoji:
       - はくはつ
       - しらがのおんな
       - ぐれいへあ
+    slack: [ white_haired_woman ]
     en: "woman: white hair"
     since: "11.0"
     subgroup: person
@@ -1210,6 +1293,7 @@ emoji:
       - しらが
       - はくはつ
       - ぐれいへあ
+    slack: [ white_haired_person ]
     en: "person: white hair"
     since: "12.1"
     subgroup: person
@@ -1224,6 +1308,7 @@ emoji:
       - はげあたま
       - すきんへっど
       - ぼうず
+    slack: [ bald_woman ]
     en: "woman: bald"
     since: "11.0"
     subgroup: person
@@ -1239,6 +1324,7 @@ emoji:
       - すきんへっど
       - ぼうず
       - つるつる
+    slack: [ bald_person ]
     en: "person: bald"
     since: "12.1"
     subgroup: person
@@ -1253,6 +1339,7 @@ emoji:
       - ぶろんど
       - ぱっきん
       - ぎゃる
+    slack: [ blond-haired-woman ]
     en: "woman: blond hair"
     since: "4.0"
     subgroup: person
@@ -1266,6 +1353,7 @@ emoji:
       - きんぱつ
       - ぶろんど
       - ぱっきん
+    slack: [ blond-haired-man ]
     en: "man: blond hair"
     since: "4.0"
     subgroup: person
@@ -1280,6 +1368,7 @@ emoji:
       - こうれいしゃ
       - しにあ
       - としより
+    slack: [ older_adult ]
     en: older person
     since: "5.0"
     subgroup: person
@@ -1296,6 +1385,7 @@ emoji:
       - ろうじん
       - そふ
       - おとしより
+    slack: [ older_man ]
     en: old man
     since: "0.6"
     subgroup: person
@@ -1312,6 +1402,7 @@ emoji:
       - ろうじん
       - そぼ
       - おとしより
+    slack: [ older_woman ]
     en: old woman
     since: "0.6"
     subgroup: person
@@ -1328,6 +1419,7 @@ emoji:
       - ふまん
       - しつぼう
       - ふきげん
+    slack: [ person_frowning ]
     en: person frowning
     since: "0.6"
     subgroup: person-gesture
@@ -1342,6 +1434,7 @@ emoji:
       - しかめっつら
       - むっ
       - ふまん
+    slack: [ man-frowning ]
     en: man frowning
     since: "4.0"
     subgroup: person-gesture
@@ -1356,6 +1449,7 @@ emoji:
       - しかめっつら
       - むっ
       - ふまん
+    slack: [ woman-frowning ]
     en: woman frowning
     since: "4.0"
     subgroup: person-gesture
@@ -1371,6 +1465,7 @@ emoji:
       - ふくれっつら
       - むすっ
       - おこ
+    slack: [ person_with_pouting_face ]
     en: person pouting
     since: "0.6"
     subgroup: person-gesture
@@ -1385,6 +1480,7 @@ emoji:
       - ぷんぷん
       - ふくれっつら
       - むすっ
+    slack: [ man-pouting ]
     en: man pouting
     since: "4.0"
     subgroup: person-gesture
@@ -1399,6 +1495,7 @@ emoji:
       - ぷんぷん
       - ふくれっつら
       - むすっ
+    slack: [ woman-pouting ]
     en: woman pouting
     since: "4.0"
     subgroup: person-gesture
@@ -1416,6 +1513,7 @@ emoji:
       - えぬじー
       - ng
       - むり
+    slack: [ no_good ]
     en: person gesturing NO
     since: "0.6"
     subgroup: person-gesture
@@ -1431,6 +1529,7 @@ emoji:
       - きんし
       - えぬじー
       - ng
+    slack: [ man-gesturing-no ]
     en: man gesturing NO
     since: "4.0"
     subgroup: person-gesture
@@ -1446,6 +1545,7 @@ emoji:
       - きんし
       - えぬじー
       - ng
+    slack: [ woman-gesturing-no ]
     en: woman gesturing NO
     since: "4.0"
     subgroup: person-gesture
@@ -1461,6 +1561,7 @@ emoji:
       - まる
       - いいよ
       - ok
+    slack: [ ok_woman ]
     en: person gesturing OK
     since: "0.6"
     subgroup: person-gesture
@@ -1476,6 +1577,7 @@ emoji:
       - まる
       - いいよ
       - ok
+    slack: [ man-gesturing-ok ]
     en: man gesturing OK
     since: "4.0"
     subgroup: person-gesture
@@ -1491,6 +1593,7 @@ emoji:
       - まる
       - いいよ
       - ok
+    slack: [ woman-gesturing-ok ]
     en: woman gesturing OK
     since: "4.0"
     subgroup: person-gesture
@@ -1506,6 +1609,7 @@ emoji:
       - いんふぉめーしょん
       - どうぞ
       - かみをかきあげる
+    slack: [ information_desk_person ]
     en: person tipping hand
     since: "0.6"
     subgroup: person-gesture
@@ -1519,6 +1623,7 @@ emoji:
       - あんない
       - うけつけ
       - どうぞ
+    slack: [ man-tipping-hand ]
     en: man tipping hand
     since: "4.0"
     subgroup: person-gesture
@@ -1533,6 +1638,7 @@ emoji:
       - うけつけ
       - うけつけじょう
       - どうぞ
+    slack: [ woman-tipping-hand ]
     en: woman tipping hand
     since: "4.0"
     subgroup: person-gesture
@@ -1548,6 +1654,7 @@ emoji:
       - しつもん
       - てをあげる
       - はーい
+    slack: [ raising_hand ]
     en: person raising hand
     since: "0.6"
     subgroup: person-gesture
@@ -1562,6 +1669,7 @@ emoji:
       - はい
       - しつもん
       - てをあげる
+    slack: [ man-raising-hand ]
     en: man raising hand
     since: "4.0"
     subgroup: person-gesture
@@ -1576,6 +1684,7 @@ emoji:
       - はい
       - しつもん
       - てをあげる
+    slack: [ woman-raising-hand ]
     en: woman raising hand
     since: "4.0"
     subgroup: person-gesture
@@ -1591,6 +1700,7 @@ emoji:
       - きこえない
       - ろう
       - しゅわ
+    slack: [ deaf_person ]
     en: deaf person
     since: "12.0"
     subgroup: person-gesture
@@ -1605,6 +1715,7 @@ emoji:
       - なんちょう
       - きこえない
       - しゅわ
+    slack: [ deaf_man ]
     en: deaf man
     since: "12.0"
     subgroup: person-gesture
@@ -1619,6 +1730,7 @@ emoji:
       - なんちょう
       - きこえない
       - しゅわ
+    slack: [ deaf_woman ]
     en: deaf woman
     since: "12.0"
     subgroup: person-gesture
@@ -1636,6 +1748,7 @@ emoji:
       - すみません
       - もうしわけない
       - おねがい
+    slack: [ bow ]
     en: person bowing
     since: "0.6"
     subgroup: person-gesture
@@ -1651,6 +1764,7 @@ emoji:
       - しゃざい
       - ごめんなさい
       - すみません
+    slack: [ man-bowing ]
     en: man bowing
     since: "4.0"
     subgroup: person-gesture
@@ -1666,6 +1780,7 @@ emoji:
       - しゃざい
       - ごめんなさい
       - すみません
+    slack: [ woman-bowing ]
     en: woman bowing
     since: "4.0"
     subgroup: person-gesture
@@ -1682,6 +1797,7 @@ emoji:
       - うそでしょ
       - ふぇいすぱーむ
       - あきれる
+    slack: [ face_palm ]
     en: person facepalming
     since: "3.0"
     subgroup: person-gesture
@@ -1697,6 +1813,7 @@ emoji:
       - またか
       - うそでしょ
       - ふぇいすぱーむ
+    slack: [ man-facepalming ]
     en: man facepalming
     since: "4.0"
     subgroup: person-gesture
@@ -1712,6 +1829,7 @@ emoji:
       - またか
       - うそでしょ
       - ふぇいすぱーむ
+    slack: [ woman-facepalming ]
     en: woman facepalming
     since: "4.0"
     subgroup: person-gesture
@@ -1728,6 +1846,7 @@ emoji:
       - わからない
       - かたをすくめる
       - しらんけど
+    slack: [ shrug ]
     en: person shrugging
     since: "3.0"
     subgroup: person-gesture
@@ -1743,6 +1862,7 @@ emoji:
       - しらない
       - わからない
       - かたをすくめる
+    slack: [ man-shrugging ]
     en: man shrugging
     since: "4.0"
     subgroup: person-gesture
@@ -1758,6 +1878,7 @@ emoji:
       - しらない
       - わからない
       - かたをすくめる
+    slack: [ woman-shrugging ]
     en: woman shrugging
     since: "4.0"
     subgroup: person-gesture
@@ -1773,6 +1894,7 @@ emoji:
       - せんせい
       - いりょう
       - いりょうじゅうじしゃ
+    slack: [ health_worker ]
     en: health worker
     since: "12.1"
     subgroup: person-role
@@ -1786,6 +1908,7 @@ emoji:
       - いしゃ
       - いし
       - どくたー
+    slack: [ male-doctor ]
     en: man health worker
     since: "4.0"
     subgroup: person-role
@@ -1801,6 +1924,7 @@ emoji:
       - じょい
       - どくたー
       - かんごし
+    slack: [ female-doctor ]
     en: woman health worker
     since: "4.0"
     subgroup: person-role
@@ -1815,6 +1939,7 @@ emoji:
       - かくぼう
       - だいがくせい
       - そつぎょうせい
+    slack: [ student ]
     en: student
     since: "12.1"
     subgroup: person-role
@@ -1828,6 +1953,7 @@ emoji:
       - がくせい
       - そつぎょう
       - だんしだいせい
+    slack: [ male-student ]
     en: man student
     since: "4.0"
     subgroup: person-role
@@ -1842,6 +1968,7 @@ emoji:
       - そつぎょう
       - じょしだいせい
       - じょしだい
+    slack: [ female-student ]
     en: woman student
     since: "4.0"
     subgroup: person-role
@@ -1857,6 +1984,7 @@ emoji:
       - きょうじゅ
       - こうし
       - きょういん
+    slack: [ teacher ]
     en: teacher
     since: "12.1"
     subgroup: person-role
@@ -1871,6 +1999,7 @@ emoji:
       - せんせい
       - きょうじゅ
       - こうし
+    slack: [ male-teacher ]
     en: man teacher
     since: "4.0"
     subgroup: person-role
@@ -1886,6 +2015,7 @@ emoji:
       - じょきょうし
       - きょうじゅ
       - こうし
+    slack: [ female-teacher ]
     en: woman teacher
     since: "4.0"
     subgroup: person-role
@@ -1900,6 +2030,7 @@ emoji:
       - はんじ
       - じゃっじ
       - ほうてい
+    slack: [ judge ]
     en: judge
     since: "12.1"
     subgroup: person-role
@@ -1913,6 +2044,7 @@ emoji:
       - さいばんかん
       - さいばん
       - はんじ
+    slack: [ male-judge ]
     en: man judge
     since: "4.0"
     subgroup: person-role
@@ -1926,6 +2058,7 @@ emoji:
       - さいばんかん
       - さいばん
       - はんじ
+    slack: [ female-judge ]
     en: woman judge
     since: "4.0"
     subgroup: person-role
@@ -1941,6 +2074,7 @@ emoji:
       - おひゃくしょう
       - ふぁーまー
       - はたけ
+    slack: [ farmer ]
     en: farmer
     since: "12.1"
     subgroup: person-role
@@ -1955,6 +2089,7 @@ emoji:
       - のうふ
       - のうぎょう
       - ふぁーまー
+    slack: [ male-farmer ]
     en: man farmer
     since: "4.0"
     subgroup: person-role
@@ -1969,6 +2104,7 @@ emoji:
       - のうふ
       - のうぎょう
       - ふぁーまー
+    slack: [ female-farmer ]
     en: woman farmer
     since: "4.0"
     subgroup: person-role
@@ -1983,6 +2119,7 @@ emoji:
       - りょうりにん
       - りょうり
       - いたまえ
+    slack: [ cook ]
     en: cook
     since: "12.1"
     subgroup: person-role
@@ -1997,6 +2134,7 @@ emoji:
       - しぇふ
       - りょうりにん
       - りょうり
+    slack: [ male-cook ]
     en: man cook
     since: "4.0"
     subgroup: person-role
@@ -2011,6 +2149,7 @@ emoji:
       - しぇふ
       - りょうりにん
       - りょうり
+    slack: [ female-cook ]
     en: woman cook
     since: "4.0"
     subgroup: person-role
@@ -2025,6 +2164,7 @@ emoji:
       - すぱな
       - さぎょういん
       - しゅうり
+    slack: [ mechanic ]
     en: mechanic
     since: "12.1"
     subgroup: person-role
@@ -2039,6 +2179,7 @@ emoji:
       - めかにっく
       - はいかんこう
       - でんきこう
+    slack: [ male-mechanic ]
     en: man mechanic
     since: "4.0"
     subgroup: person-role
@@ -2053,6 +2194,7 @@ emoji:
       - めかにっく
       - はいかんこう
       - でんきこう
+    slack: [ female-mechanic ]
     en: woman mechanic
     since: "4.0"
     subgroup: person-role
@@ -2068,6 +2210,7 @@ emoji:
       - こうじょう
       - ものづくり
       - ようせつ
+    slack: [ factory_worker ]
     en: factory worker
     since: "12.1"
     subgroup: person-role
@@ -2082,6 +2225,7 @@ emoji:
       - こういん
       - こうじょう
       - ようせつ
+    slack: [ male-factory-worker ]
     en: man factory worker
     since: "4.0"
     subgroup: person-role
@@ -2096,6 +2240,7 @@ emoji:
       - こういん
       - こうじょう
       - ようせつ
+    slack: [ female-factory-worker ]
     en: woman factory worker
     since: "4.0"
     subgroup: person-role
@@ -2111,6 +2256,7 @@ emoji:
       - しゃいん
       - かいしゃ
       - しごと
+    slack: [ office_worker ]
     en: office worker
     since: "12.1"
     subgroup: person-role
@@ -2125,6 +2271,7 @@ emoji:
       - びじねすまん
       - かいしゃいん
       - しゃいん
+    slack: [ male-office-worker ]
     en: man office worker
     since: "4.0"
     subgroup: person-role
@@ -2140,6 +2287,7 @@ emoji:
       - かいしゃいん
       - きゃりあうーまん
       - しゃいん
+    slack: [ female-office-worker ]
     en: woman office worker
     since: "4.0"
     subgroup: person-role
@@ -2155,6 +2303,7 @@ emoji:
       - じっけん
       - りけい
       - はかせ
+    slack: [ scientist ]
     en: scientist
     since: "12.1"
     subgroup: person-role
@@ -2168,6 +2317,7 @@ emoji:
       - かがくしゃ
       - けんきゅうしゃ
       - はかせ
+    slack: [ male-scientist ]
     en: man scientist
     since: "4.0"
     subgroup: person-role
@@ -2181,6 +2331,7 @@ emoji:
       - かがくしゃ
       - けんきゅうしゃ
       - りけじょ
+    slack: [ female-scientist ]
     en: woman scientist
     since: "4.0"
     subgroup: person-role
@@ -2196,6 +2347,7 @@ emoji:
       - かいはつしゃ
       - ぱそこん
       - こーでぃんぐ
+    slack: [ technologist ]
     en: technologist
     since: "12.1"
     subgroup: person-role
@@ -2210,6 +2362,7 @@ emoji:
       - えんじにあ
       - かいはつしゃ
       - ぱそこん
+    slack: [ male-technologist ]
     en: man technologist
     since: "4.0"
     subgroup: person-role
@@ -2224,6 +2377,7 @@ emoji:
       - えんじにあ
       - かいはつしゃ
       - ぱそこん
+    slack: [ female-technologist ]
     en: woman technologist
     since: "4.0"
     subgroup: person-role
@@ -2239,6 +2393,7 @@ emoji:
       - すたー
       - ろっかー
       - ばんどまん
+    slack: [ singer ]
     en: singer
     since: "12.1"
     subgroup: person-role
@@ -2253,6 +2408,7 @@ emoji:
       - しんがー
       - ろっくすたー
       - あーてぃすと
+    slack: [ male-singer ]
     en: man singer
     since: "4.0"
     subgroup: person-role
@@ -2267,6 +2423,7 @@ emoji:
       - しんがー
       - ろっくすたー
       - あーてぃすと
+    slack: [ female-singer ]
     en: woman singer
     since: "4.0"
     subgroup: person-role
@@ -2282,6 +2439,7 @@ emoji:
       - えかき
       - えし
       - びじゅつ
+    slack: [ artist ]
     en: artist
     since: "12.1"
     subgroup: person-role
@@ -2296,6 +2454,7 @@ emoji:
       - あーてぃすと
       - がか
       - えかき
+    slack: [ male-artist ]
     en: man artist
     since: "4.0"
     subgroup: person-role
@@ -2310,6 +2469,7 @@ emoji:
       - あーてぃすと
       - がか
       - えかき
+    slack: [ female-artist ]
     en: woman artist
     since: "4.0"
     subgroup: person-role
@@ -2323,6 +2483,7 @@ emoji:
       - そうじゅうし
       - きちょう
       - ひこうし
+    slack: [ pilot ]
     en: pilot
     since: "12.1"
     subgroup: person-role
@@ -2336,6 +2497,7 @@ emoji:
       - ぱいろっと
       - そうじゅうし
       - きちょう
+    slack: [ male-pilot ]
     en: man pilot
     since: "4.0"
     subgroup: person-role
@@ -2349,6 +2511,7 @@ emoji:
       - ぱいろっと
       - そうじゅうし
       - きちょう
+    slack: [ female-pilot ]
     en: woman pilot
     since: "4.0"
     subgroup: person-role
@@ -2363,6 +2526,7 @@ emoji:
       - うちゅう
       - ろけっと
       - うちゅうじん
+    slack: [ astronaut ]
     en: astronaut
     since: "12.1"
     subgroup: person-role
@@ -2376,6 +2540,7 @@ emoji:
       - うちゅうひこうし
       - あすとろのーと
       - うちゅう
+    slack: [ male-astronaut ]
     en: man astronaut
     since: "4.0"
     subgroup: person-role
@@ -2389,6 +2554,7 @@ emoji:
       - うちゅうひこうし
       - あすとろのーと
       - うちゅう
+    slack: [ female-astronaut ]
     en: woman astronaut
     since: "4.0"
     subgroup: person-role
@@ -2403,6 +2569,7 @@ emoji:
       - れすきゅー
       - きゅうじょたい
       - しょうぼうたいいん
+    slack: [ firefighter ]
     en: firefighter
     since: "12.1"
     subgroup: person-role
@@ -2416,6 +2583,7 @@ emoji:
       - しょうぼうし
       - しょうぼう
       - れすきゅー
+    slack: [ male-firefighter ]
     en: man firefighter
     since: "4.0"
     subgroup: person-role
@@ -2429,6 +2597,7 @@ emoji:
       - しょうぼうし
       - しょうぼう
       - れすきゅー
+    slack: [ female-firefighter ]
     en: woman firefighter
     since: "4.0"
     subgroup: person-role
@@ -2444,6 +2613,7 @@ emoji:
       - おまわりさん
       - ぽりす
       - たいほ
+    slack: [ cop ]
     en: police officer
     since: "0.6"
     subgroup: person-role
@@ -2459,6 +2629,7 @@ emoji:
       - けいかん
       - おまわりさん
       - ぽりす
+    slack: [ male-police-officer ]
     en: man police officer
     since: "4.0"
     subgroup: person-role
@@ -2474,6 +2645,7 @@ emoji:
       - ふけい
       - おまわりさん
       - ぽりす
+    slack: [ female-police-officer ]
     en: woman police officer
     since: "4.0"
     subgroup: person-role
@@ -2489,6 +2661,7 @@ emoji:
       - めいたんてい
       - でぃてくてぃぶ
       - すいり
+    slack: [ sleuth_or_spy ]
     en: detective
     since: "0.7"
     subgroup: person-role
@@ -2502,6 +2675,7 @@ emoji:
       - たんてい
       - めいたんてい
       - すぱい
+    slack: [ male-detective ]
     en: man detective
     since: "4.0"
     subgroup: person-role
@@ -2515,6 +2689,7 @@ emoji:
       - たんてい
       - めいたんてい
       - すぱい
+    slack: [ female-detective ]
     en: woman detective
     since: "4.0"
     subgroup: person-role
@@ -2530,6 +2705,7 @@ emoji:
       - しゅえい
       - このえへい
       - ばっきんがむ
+    slack: [ guardsman ]
     en: guard
     since: "0.6"
     subgroup: person-role
@@ -2544,6 +2720,7 @@ emoji:
       - けいび
       - もんばん
       - しゅえい
+    slack: [ male-guard ]
     en: man guard
     since: "4.0"
     subgroup: person-role
@@ -2558,6 +2735,7 @@ emoji:
       - けいび
       - もんばん
       - しゅえい
+    slack: [ female-guard ]
     en: woman guard
     since: "4.0"
     subgroup: person-role
@@ -2573,6 +2751,7 @@ emoji:
       - おんみつ
       - くのいち
       - にんにん
+    slack: [ ninja ]
     en: ninja
     since: "13.0"
     subgroup: person-role
@@ -2589,6 +2768,7 @@ emoji:
       - へるめっと
       - げんば
       - どかた
+    slack: [ construction_worker ]
     en: construction worker
     since: "0.6"
     subgroup: person-role
@@ -2603,6 +2783,7 @@ emoji:
       - こうじ
       - けんせつ
       - げんば
+    slack: [ male-construction-worker ]
     en: man construction worker
     since: "4.0"
     subgroup: person-role
@@ -2617,6 +2798,7 @@ emoji:
       - こうじ
       - けんせつ
       - げんば
+    slack: [ female-construction-worker ]
     en: woman construction worker
     since: "4.0"
     subgroup: person-role
@@ -2633,6 +2815,7 @@ emoji:
       - おうぞく
       - おう
       - じょおう
+    slack: [ person_with_crown ]
     en: person with crown
     since: "14.0"
     subgroup: person-role
@@ -2646,6 +2829,7 @@ emoji:
       - ぷりんす
       - おうじさま
       - おうぞく
+    slack: [ prince ]
     en: prince
     since: "3.0"
     subgroup: person-role
@@ -2661,6 +2845,7 @@ emoji:
       - ひめ
       - じょおう
       - おうひ
+    slack: [ princess ]
     en: princess
     since: "0.6"
     subgroup: person-role
@@ -2673,6 +2858,7 @@ emoji:
       - たーばんのひと
       - たーばん
       - いんどじん
+    slack: [ man_with_turban ]
     en: person wearing turban
     since: "0.6"
     subgroup: person-role
@@ -2684,6 +2870,7 @@ emoji:
     readings:
       - たーばんのだんせい
       - たーばん
+    slack: [ man-wearing-turban ]
     en: man wearing turban
     since: "4.0"
     subgroup: person-role
@@ -2695,6 +2882,7 @@ emoji:
     readings:
       - たーばんのじょせい
       - たーばん
+    slack: [ woman-wearing-turban ]
     en: woman wearing turban
     since: "4.0"
     subgroup: person-role
@@ -2709,6 +2897,7 @@ emoji:
       - おわんぼう
       - ぐゎぴまお
       - ちゅうごくじん
+    slack: [ man_with_gua_pi_mao ]
     en: person with skullcap
     since: "0.6"
     subgroup: person-role
@@ -2723,6 +2912,7 @@ emoji:
       - ひじゃぶ
       - べーる
       - ずきん
+    slack: [ person_with_headscarf ]
     en: woman with headscarf
     since: "5.0"
     subgroup: person-role
@@ -2738,6 +2928,7 @@ emoji:
       - ふぉーまる
       - しんろう
       - けっこんしき
+    slack: [ person_in_tuxedo ]
     en: person in tuxedo
     since: "3.0"
     subgroup: person-role
@@ -2752,6 +2943,7 @@ emoji:
       - しんろう
       - はなむこ
       - せいそう
+    slack: [ man_in_tuxedo ]
     en: man in tuxedo
     since: "13.0"
     subgroup: person-role
@@ -2765,6 +2957,7 @@ emoji:
       - たきしーど
       - せいそう
       - ふぉーまる
+    slack: [ woman_in_tuxedo ]
     en: woman in tuxedo
     since: "13.0"
     subgroup: person-role
@@ -2780,6 +2973,7 @@ emoji:
       - けっこん
       - べーる
       - しんぷ
+    slack: [ bride_with_veil ]
     en: person with veil
     since: "0.6"
     subgroup: person-role
@@ -2793,6 +2987,7 @@ emoji:
       - べーる
       - はなむこ
       - けっこん
+    slack: [ man_with_veil ]
     en: man with veil
     since: "13.0"
     subgroup: person-role
@@ -2808,6 +3003,7 @@ emoji:
       - うぇでぃんぐどれす
       - べーる
       - けっこん
+    slack: [ woman_with_veil ]
     en: woman with veil
     since: "13.0"
     subgroup: person-role
@@ -2822,6 +3018,7 @@ emoji:
       - またにてぃ
       - おめでた
       - みおも
+    slack: [ pregnant_woman ]
     en: pregnant woman
     since: "3.0"
     subgroup: person-role
@@ -2837,6 +3034,7 @@ emoji:
       - まんぷく
       - ぽっこり
       - にんしん
+    slack: [ pregnant_man ]
     en: pregnant man
     since: "14.0"
     subgroup: person-role
@@ -2852,6 +3050,7 @@ emoji:
       - たべすぎ
       - おなか
       - まんぷく
+    slack: [ pregnant_person ]
     en: pregnant person
     since: "14.0"
     subgroup: person-role
@@ -2866,6 +3065,7 @@ emoji:
       - あかちゃん
       - みるく
       - ははおや
+    slack: [ breast-feeding ]
     en: breast-feeding
     since: "5.0"
     subgroup: person-role
@@ -2881,6 +3081,7 @@ emoji:
       - ははおや
       - あかちゃん
       - みるく
+    slack: [ woman_feeding_baby ]
     en: woman feeding baby
     since: "13.0"
     subgroup: person-role
@@ -2897,6 +3098,7 @@ emoji:
       - いくめん
       - あかちゃん
       - みるく
+    slack: [ man_feeding_baby ]
     en: man feeding baby
     since: "13.0"
     subgroup: person-role
@@ -2911,6 +3113,7 @@ emoji:
       - あかちゃん
       - みるく
       - いくじ
+    slack: [ person_feeding_baby ]
     en: person feeding baby
     since: "13.0"
     subgroup: person-role
@@ -2925,6 +3128,7 @@ emoji:
       - えんぜる
       - あかちゃんてんし
       - きゅーぴっど
+    slack: [ angel ]
     en: baby angel
     since: "0.6"
     subgroup: person-fantasy
@@ -2939,6 +3143,7 @@ emoji:
       - さんたさん
       - くりすます
       - めりーくりすます
+    slack: [ santa ]
     en: Santa Claus
     since: "0.6"
     subgroup: person-fantasy
@@ -2953,6 +3158,7 @@ emoji:
       - さんた
       - さんたくろーす
       - くりすます
+    slack: [ mrs_claus, mother_christmas ]
     en: Mrs. Claus
     since: "3.0"
     subgroup: person-fantasy
@@ -2966,6 +3172,7 @@ emoji:
       - さんた
       - さんたくろーす
       - くりすます
+    slack: [ mx_claus ]
     en: Mx Claus
     since: "13.0"
     subgroup: person-fantasy
@@ -2981,6 +3188,7 @@ emoji:
       - すーぱーまん
       - ちょうじん
       - せいぎのみかた
+    slack: [ superhero ]
     en: superhero
     since: "11.0"
     subgroup: person-fantasy
@@ -2995,6 +3203,7 @@ emoji:
       - すーぱーまん
       - ちょうじん
       - せいぎのみかた
+    slack: [ male_superhero ]
     en: man superhero
     since: "11.0"
     subgroup: person-fantasy
@@ -3009,6 +3218,7 @@ emoji:
       - ひーろー
       - ちょうじん
       - せいぎのみかた
+    slack: [ female_superhero ]
     en: woman superhero
     since: "11.0"
     subgroup: person-fantasy
@@ -3025,6 +3235,7 @@ emoji:
       - わるもの
       - はんにん
       - あくだま
+    slack: [ supervillain ]
     en: supervillain
     since: "11.0"
     subgroup: person-fantasy
@@ -3039,6 +3250,7 @@ emoji:
       - ゔぃらん
       - びらん
       - わるもの
+    slack: [ male_supervillain ]
     en: man supervillain
     since: "11.0"
     subgroup: person-fantasy
@@ -3054,6 +3266,7 @@ emoji:
       - びらん
       - わるもの
       - あくじょ
+    slack: [ female_supervillain ]
     en: woman supervillain
     since: "11.0"
     subgroup: person-fantasy
@@ -3070,6 +3283,7 @@ emoji:
       - うぃざーど
       - じゅもん
       - まどうし
+    slack: [ mage ]
     en: mage
     since: "5.0"
     subgroup: person-fantasy
@@ -3084,6 +3298,7 @@ emoji:
       - まじゅつし
       - うぃざーど
       - まどうし
+    slack: [ male_mage ]
     en: man mage
     since: "5.0"
     subgroup: person-fantasy
@@ -3098,6 +3313,7 @@ emoji:
       - まほうつかい
       - うぃっち
       - まほうしょうじょ
+    slack: [ female_mage ]
     en: woman mage
     since: "5.0"
     subgroup: person-fantasy
@@ -3114,6 +3330,7 @@ emoji:
       - まほう
       - おとぎばなし
       - てぃんかーべる
+    slack: [ fairy ]
     en: fairy
     since: "5.0"
     subgroup: person-fantasy
@@ -3128,6 +3345,7 @@ emoji:
       - ふぇありー
       - おべろん
       - ぱっく
+    slack: [ male_fairy ]
     en: man fairy
     since: "5.0"
     subgroup: person-fantasy
@@ -3142,6 +3360,7 @@ emoji:
       - ふぇありー
       - てぃんかーべる
       - ぴくしー
+    slack: [ female_fairy ]
     en: woman fairy
     since: "5.0"
     subgroup: person-fantasy
@@ -3157,6 +3376,7 @@ emoji:
       - はろうぃん
       - はろうぃーん
       - きば
+    slack: [ vampire ]
     en: vampire
     since: "5.0"
     subgroup: person-fantasy
@@ -3170,6 +3390,7 @@ emoji:
       - きゅうけつき
       - ばんぱいあ
       - どらきゅら
+    slack: [ male_vampire ]
     en: man vampire
     since: "5.0"
     subgroup: person-fantasy
@@ -3183,6 +3404,7 @@ emoji:
       - きゅうけつき
       - ばんぱいあ
       - どらきゅら
+    slack: [ female_vampire ]
     en: woman vampire
     since: "5.0"
     subgroup: person-fantasy
@@ -3197,6 +3419,7 @@ emoji:
       - せいれーん
       - はんぎょじん
       - まーまん
+    slack: [ merperson ]
     en: merperson
     since: "5.0"
     subgroup: person-fantasy
@@ -3211,6 +3434,7 @@ emoji:
       - おとこのにんぎょ
       - はんぎょじん
       - とりとん
+    slack: [ merman ]
     en: merman
     since: "5.0"
     subgroup: person-fantasy
@@ -3225,6 +3449,7 @@ emoji:
       - にんぎょひめ
       - おんなのにんぎょ
       - ありえる
+    slack: [ mermaid ]
     en: mermaid
     since: "5.0"
     subgroup: person-fantasy
@@ -3239,6 +3464,7 @@ emoji:
       - ふぁんたじー
       - ようじん
       - まほう
+    slack: [ elf ]
     en: elf
     since: "5.0"
     subgroup: person-fantasy
@@ -3251,6 +3477,7 @@ emoji:
       - おとこのえるふ
       - えるふ
       - ようせい
+    slack: [ male_elf ]
     en: man elf
     since: "5.0"
     subgroup: person-fantasy
@@ -3263,6 +3490,7 @@ emoji:
       - おんなのえるふ
       - えるふ
       - ようせい
+    slack: [ female_elf ]
     en: woman elf
     since: "5.0"
     subgroup: person-fantasy
@@ -3279,6 +3507,7 @@ emoji:
       - じん
       - あらじん
       - まほうのらんぷ
+    slack: [ genie ]
     en: genie
     since: "5.0"
     subgroup: person-fantasy
@@ -3292,6 +3521,7 @@ emoji:
       - せいれい
       - じーにー
       - まじん
+    slack: [ male_genie ]
     en: man genie
     since: "5.0"
     subgroup: person-fantasy
@@ -3305,6 +3535,7 @@ emoji:
       - せいれい
       - じーにー
       - まじん
+    slack: [ female_genie ]
     en: woman genie
     since: "5.0"
     subgroup: person-fantasy
@@ -3320,6 +3551,7 @@ emoji:
       - はろうぃん
       - はろうぃーん
       - いきるしかばね
+    slack: [ zombie ]
     en: zombie
     since: "5.0"
     subgroup: person-fantasy
@@ -3332,6 +3564,7 @@ emoji:
       - ぞんび
       - あんでっど
       - ほらー
+    slack: [ male_zombie ]
     en: man zombie
     since: "5.0"
     subgroup: person-fantasy
@@ -3344,6 +3577,7 @@ emoji:
       - ぞんび
       - あんでっど
       - ほらー
+    slack: [ female_zombie ]
     en: woman zombie
     since: "5.0"
     subgroup: person-fantasy
@@ -3358,6 +3592,7 @@ emoji:
       - もんすたー
       - ようかい
       - あらし
+    slack: [ troll ]
     en: troll
     since: "14.0"
     subgroup: person-fantasy
@@ -3373,6 +3608,7 @@ emoji:
       - さすかっち
       - ゆーま
       - ゆきおとこ
+    slack: [ hairy_creature ]
     en: hairy creature
     since: "17.0"
     subgroup: person-fantasy
@@ -3389,6 +3625,7 @@ emoji:
       - りらっくす
       - いやし
       - せじゅつ
+    slack: [ massage ]
     en: person getting massage
     since: "0.6"
     subgroup: person-activity
@@ -3403,6 +3640,7 @@ emoji:
       - まっさーじ
       - えすて
       - めんずえすて
+    slack: [ man-getting-massage ]
     en: man getting massage
     since: "4.0"
     subgroup: person-activity
@@ -3417,6 +3655,7 @@ emoji:
       - まっさーじ
       - えすて
       - りらっくす
+    slack: [ woman-getting-massage ]
     en: woman getting massage
     since: "4.0"
     subgroup: person-activity
@@ -3434,6 +3673,7 @@ emoji:
       - びよういん
       - りはつてん
       - びようしつ
+    slack: [ haircut ]
     en: person getting haircut
     since: "0.6"
     subgroup: person-activity
@@ -3449,6 +3689,7 @@ emoji:
       - とこや
       - りはつてん
       - ばーばー
+    slack: [ man-getting-haircut ]
     en: man getting haircut
     since: "4.0"
     subgroup: person-activity
@@ -3464,6 +3705,7 @@ emoji:
       - びよういん
       - びようしつ
       - かっと
+    slack: [ woman-getting-haircut ]
     en: woman getting haircut
     since: "4.0"
     subgroup: person-activity
@@ -3480,6 +3722,7 @@ emoji:
       - うぉーきんぐ
       - ほこう
       - とほ
+    slack: [ walking ]
     en: person walking
     since: "0.6"
     subgroup: person-activity
@@ -3494,6 +3737,7 @@ emoji:
       - ほこうしゃ
       - さんぽ
       - うぉーきんぐ
+    slack: [ man-walking ]
     en: man walking
     since: "4.0"
     subgroup: person-activity
@@ -3508,6 +3752,7 @@ emoji:
       - ほこうしゃ
       - さんぽ
       - うぉーきんぐ
+    slack: [ woman-walking ]
     en: woman walking
     since: "4.0"
     subgroup: person-activity
@@ -3523,6 +3768,7 @@ emoji:
       - さんぽ
       - うぉーきんぐ
       - みぎむき
+    slack: [ person_walking_facing_right ]
     en: person walking facing right
     since: "15.1"
     subgroup: person-activity
@@ -3538,6 +3784,7 @@ emoji:
       - さんぽ
       - うぉーきんぐ
       - みぎむき
+    slack: [ woman_walking_facing_right ]
     en: woman walking facing right
     since: "15.1"
     subgroup: person-activity
@@ -3553,6 +3800,7 @@ emoji:
       - さんぽ
       - うぉーきんぐ
       - みぎむき
+    slack: [ man_walking_facing_right ]
     en: man walking facing right
     since: "15.1"
     subgroup: person-activity
@@ -3568,6 +3816,7 @@ emoji:
       - きりつ
       - たちっぱなし
       - たちんぼう
+    slack: [ standing_person ]
     en: person standing
     since: "12.0"
     subgroup: person-activity
@@ -3581,6 +3830,7 @@ emoji:
       - たつ
       - きりつ
       - たちっぱなし
+    slack: [ man_standing ]
     en: man standing
     since: "12.0"
     subgroup: person-activity
@@ -3594,6 +3844,7 @@ emoji:
       - たつ
       - きりつ
       - たちっぱなし
+    slack: [ woman_standing ]
     en: woman standing
     since: "12.0"
     subgroup: person-activity
@@ -3610,6 +3861,7 @@ emoji:
       - ざせき
       - どげざ
       - ひざをつく
+    slack: [ kneeling_person ]
     en: person kneeling
     since: "12.0"
     subgroup: person-activity
@@ -3625,6 +3877,7 @@ emoji:
       - せいざするだんせい
       - どげざ
       - ひざをつく
+    slack: [ man_kneeling ]
     en: man kneeling
     since: "12.0"
     subgroup: person-activity
@@ -3640,6 +3893,7 @@ emoji:
       - せいざするじょせい
       - どげざ
       - ひざをつく
+    slack: [ woman_kneeling ]
     en: woman kneeling
     since: "12.0"
     subgroup: person-activity
@@ -3654,6 +3908,7 @@ emoji:
       - せいざ
       - どげざ
       - みぎむき
+    slack: [ person_kneeling_facing_right ]
     en: person kneeling facing right
     since: "15.1"
     subgroup: person-activity
@@ -3668,6 +3923,7 @@ emoji:
       - せいざ
       - どげざ
       - みぎむき
+    slack: [ woman_kneeling_facing_right ]
     en: woman kneeling facing right
     since: "15.1"
     subgroup: person-activity
@@ -3682,6 +3938,7 @@ emoji:
       - せいざ
       - どげざ
       - みぎむき
+    slack: [ man_kneeling_facing_right ]
     en: man kneeling facing right
     since: "15.1"
     subgroup: person-activity
@@ -3697,6 +3954,7 @@ emoji:
       - つえ
       - しかくしょうがい
       - あくせしびりてぃ
+    slack: [ person_with_probing_cane ]
     en: person with white cane
     since: "12.1"
     subgroup: person-activity
@@ -3712,6 +3970,7 @@ emoji:
       - つえ
       - しかくしょうがい
       - みぎむき
+    slack: [ person_with_white_cane_facing_right ]
     en: person with white cane facing right
     since: "15.1"
     subgroup: person-activity
@@ -3726,6 +3985,7 @@ emoji:
       - はくじょう
       - つえ
       - しかくしょうがい
+    slack: [ man_with_probing_cane ]
     en: man with white cane
     since: "12.0"
     subgroup: person-activity
@@ -3741,6 +4001,7 @@ emoji:
       - つえ
       - しかくしょうがい
       - みぎむき
+    slack: [ man_with_white_cane_facing_right ]
     en: man with white cane facing right
     since: "15.1"
     subgroup: person-activity
@@ -3755,6 +4016,7 @@ emoji:
       - はくじょう
       - つえ
       - しかくしょうがい
+    slack: [ woman_with_probing_cane ]
     en: woman with white cane
     since: "12.0"
     subgroup: person-activity
@@ -3770,6 +4032,7 @@ emoji:
       - つえ
       - しかくしょうがい
       - みぎむき
+    slack: [ woman_with_white_cane_facing_right ]
     en: woman with white cane facing right
     since: "15.1"
     subgroup: person-activity
@@ -3785,6 +4048,7 @@ emoji:
       - しょうがい
       - あくせしびりてぃ
       - ばりあふりー
+    slack: [ person_in_motorized_wheelchair ]
     en: person in motorized wheelchair
     since: "12.1"
     subgroup: person-activity
@@ -3799,6 +4063,7 @@ emoji:
       - くるまいす
       - しょうがい
       - みぎむき
+    slack: [ person_in_motorized_wheelchair_facing_right ]
     en: person in motorized wheelchair facing right
     since: "15.1"
     subgroup: person-activity
@@ -3812,6 +4077,7 @@ emoji:
       - でんどうくるまいす
       - くるまいす
       - しょうがい
+    slack: [ man_in_motorized_wheelchair ]
     en: man in motorized wheelchair
     since: "12.0"
     subgroup: person-activity
@@ -3826,6 +4092,7 @@ emoji:
       - くるまいす
       - しょうがい
       - みぎむき
+    slack: [ man_in_motorized_wheelchair_facing_right ]
     en: man in motorized wheelchair facing right
     since: "15.1"
     subgroup: person-activity
@@ -3839,6 +4106,7 @@ emoji:
       - でんどうくるまいす
       - くるまいす
       - しょうがい
+    slack: [ woman_in_motorized_wheelchair ]
     en: woman in motorized wheelchair
     since: "12.0"
     subgroup: person-activity
@@ -3853,6 +4121,7 @@ emoji:
       - くるまいす
       - しょうがい
       - みぎむき
+    slack: [ woman_in_motorized_wheelchair_facing_right ]
     en: woman in motorized wheelchair facing right
     since: "15.1"
     subgroup: person-activity
@@ -3868,6 +4137,7 @@ emoji:
       - しょうがい
       - あくせしびりてぃ
       - ばりあふりー
+    slack: [ person_in_manual_wheelchair ]
     en: person in manual wheelchair
     since: "12.1"
     subgroup: person-activity
@@ -3882,6 +4152,7 @@ emoji:
       - しゅどうくるまいす
       - しょうがい
       - みぎむき
+    slack: [ person_in_manual_wheelchair_facing_right ]
     en: person in manual wheelchair facing right
     since: "15.1"
     subgroup: person-activity
@@ -3895,6 +4166,7 @@ emoji:
       - くるまいす
       - しゅどうくるまいす
       - しょうがい
+    slack: [ man_in_manual_wheelchair ]
     en: man in manual wheelchair
     since: "12.0"
     subgroup: person-activity
@@ -3909,6 +4181,7 @@ emoji:
       - しゅどうくるまいす
       - しょうがい
       - みぎむき
+    slack: [ man_in_manual_wheelchair_facing_right ]
     en: man in manual wheelchair facing right
     since: "15.1"
     subgroup: person-activity
@@ -3922,6 +4195,7 @@ emoji:
       - くるまいす
       - しゅどうくるまいす
       - しょうがい
+    slack: [ woman_in_manual_wheelchair ]
     en: woman in manual wheelchair
     since: "12.0"
     subgroup: person-activity
@@ -3936,6 +4210,7 @@ emoji:
       - しゅどうくるまいす
       - しょうがい
       - みぎむき
+    slack: [ woman_in_manual_wheelchair_facing_right ]
     en: woman in manual wheelchair facing right
     since: "15.1"
     subgroup: person-activity
@@ -3953,6 +4228,7 @@ emoji:
       - らんなー
       - いそぐ
       - だっしゅ
+    slack: [ runner, running ]
     en: person running
     since: "0.6"
     subgroup: person-activity
@@ -3968,6 +4244,7 @@ emoji:
       - じょぎんぐ
       - まらそん
       - らんなー
+    slack: [ man-running ]
     en: man running
     since: "4.0"
     subgroup: person-activity
@@ -3983,6 +4260,7 @@ emoji:
       - じょぎんぐ
       - まらそん
       - らんなー
+    slack: [ woman-running ]
     en: woman running
     since: "4.0"
     subgroup: person-activity
@@ -3998,6 +4276,7 @@ emoji:
       - じょぎんぐ
       - だっしゅ
       - みぎむき
+    slack: [ person_running_facing_right ]
     en: person running facing right
     since: "15.1"
     subgroup: person-activity
@@ -4012,6 +4291,7 @@ emoji:
       - らんにんぐ
       - じょぎんぐ
       - みぎむき
+    slack: [ woman_running_facing_right ]
     en: woman running facing right
     since: "15.1"
     subgroup: person-activity
@@ -4026,6 +4306,7 @@ emoji:
       - らんにんぐ
       - じょぎんぐ
       - みぎむき
+    slack: [ man_running_facing_right ]
     en: man running facing right
     since: "15.1"
     subgroup: person-activity
@@ -4040,6 +4321,7 @@ emoji:
       - ばれりーな
       - だんさー
       - ばれー
+    slack: [ ballet_dancer ]
     en: ballet dancer
     since: "17.0"
     subgroup: person-activity
@@ -4057,6 +4339,7 @@ emoji:
       - さるさ
       - たんご
       - おどりこ
+    slack: [ dancer ]
     en: woman dancing
     since: "0.6"
     subgroup: person-activity
@@ -4073,6 +4356,7 @@ emoji:
       - でぃすこ
       - ふぃーばー
       - さるさ
+    slack: [ man_dancing ]
     en: man dancing
     since: "3.0"
     subgroup: person-activity
@@ -4088,6 +4372,7 @@ emoji:
       - くうちゅうふゆう
       - ふゆう
       - うく
+    slack: [ man_in_business_suit_levitating ]
     en: person in suit levitating
     since: "0.7"
     subgroup: person-activity
@@ -4105,6 +4390,7 @@ emoji:
       - しんゆう
       - だんさー
       - ぱーてぃー
+    slack: [ dancers ]
     en: people with bunny ears
     since: "0.6"
     subgroup: person-activity
@@ -4120,6 +4406,7 @@ emoji:
       - ばにー
       - しんゆう
       - ぱーてぃー
+    slack: [ men-with-bunny-ears-partying, man-with-bunny-ears-partying ]
     en: men with bunny ears
     since: "4.0"
     subgroup: person-activity
@@ -4136,6 +4423,7 @@ emoji:
       - ふたご
       - しんゆう
       - ぱーてぃー
+    slack: [ women-with-bunny-ears-partying, woman-with-bunny-ears-partying ]
     en: women with bunny ears
     since: "4.0"
     subgroup: person-activity
@@ -4152,6 +4440,7 @@ emoji:
       - すぱ
       - りらっくす
       - むしぶろ
+    slack: [ person_in_steamy_room ]
     en: person in steamy room
     since: "5.0"
     subgroup: person-activity
@@ -4166,6 +4455,7 @@ emoji:
       - ととのう
       - さうなー
       - むしぶろ
+    slack: [ man_in_steamy_room ]
     en: man in steamy room
     since: "5.0"
     subgroup: person-activity
@@ -4180,6 +4470,7 @@ emoji:
       - ととのう
       - すぱ
       - むしぶろ
+    slack: [ woman_in_steamy_room ]
     en: woman in steamy room
     since: "5.0"
     subgroup: person-activity
@@ -4196,6 +4487,7 @@ emoji:
       - やまのぼり
       - とざん
       - のぼる
+    slack: [ person_climbing ]
     en: person climbing
     since: "5.0"
     subgroup: person-activity
@@ -4210,6 +4502,7 @@ emoji:
       - ぼるだりんぐ
       - ろっくくらいみんぐ
       - とざん
+    slack: [ man_climbing ]
     en: man climbing
     since: "5.0"
     subgroup: person-activity
@@ -4224,6 +4517,7 @@ emoji:
       - ぼるだりんぐ
       - ろっくくらいみんぐ
       - とざん
+    slack: [ woman_climbing ]
     en: woman climbing
     since: "5.0"
     subgroup: person-activity
@@ -4239,6 +4533,7 @@ emoji:
       - えぺ
       - ふるーれ
       - さーぶる
+    slack: [ fencer ]
     en: person fencing
     since: "3.0"
     subgroup: person-sport
@@ -4254,6 +4549,7 @@ emoji:
       - きょうそうば
       - うま
       - けいばじょう
+    slack: [ horse_racing ]
     en: horse racing
     since: "1.0"
     subgroup: person-sport
@@ -4268,6 +4564,7 @@ emoji:
       - すきーじょう
       - げれんで
       - ゆきやま
+    slack: [ skier ]
     en: skier
     since: "0.7"
     subgroup: person-sport
@@ -4281,6 +4578,7 @@ emoji:
       - すのぼ
       - げれんで
       - ゆきやま
+    slack: [ snowboarder ]
     en: snowboarder
     since: "0.6"
     subgroup: person-sport
@@ -4296,6 +4594,7 @@ emoji:
       - うちっぱなし
       - しょっと
       - すいんぐ
+    slack: [ golfer ]
     en: person golfing
     since: "0.7"
     subgroup: person-sport
@@ -4309,6 +4608,7 @@ emoji:
       - ごるふ
       - ごるふぁー
       - うちっぱなし
+    slack: [ man-golfing ]
     en: man golfing
     since: "4.0"
     subgroup: person-sport
@@ -4322,6 +4622,7 @@ emoji:
       - ごるふ
       - ごるふぁー
       - うちっぱなし
+    slack: [ woman-golfing ]
     en: woman golfing
     since: "4.0"
     subgroup: person-sport
@@ -4337,6 +4638,7 @@ emoji:
       - なみのり
       - なみ
       - うみ
+    slack: [ surfer ]
     en: person surfing
     since: "0.6"
     subgroup: person-sport
@@ -4350,6 +4652,7 @@ emoji:
       - さーふぃん
       - さーふぁー
       - なみのり
+    slack: [ man-surfing ]
     en: man surfing
     since: "4.0"
     subgroup: person-sport
@@ -4363,6 +4666,7 @@ emoji:
       - さーふぃん
       - さーふぁー
       - なみのり
+    slack: [ woman-surfing ]
     en: woman surfing
     since: "4.0"
     subgroup: person-sport
@@ -4379,6 +4683,7 @@ emoji:
       - かやっく
       - てこぎぼーと
       - ぼーときょうぎ
+    slack: [ rowboat ]
     en: person rowing boat
     since: "1.0"
     subgroup: person-sport
@@ -4393,6 +4698,7 @@ emoji:
       - こぐ
       - かぬー
       - かやっく
+    slack: [ man-rowing-boat ]
     en: man rowing boat
     since: "4.0"
     subgroup: person-sport
@@ -4407,6 +4713,7 @@ emoji:
       - こぐ
       - かぬー
       - かやっく
+    slack: [ woman-rowing-boat ]
     en: woman rowing boat
     since: "4.0"
     subgroup: person-sport
@@ -4423,6 +4730,7 @@ emoji:
       - くろーる
       - すいまー
       - ぷーる
+    slack: [ swimmer ]
     en: person swimming
     since: "0.6"
     subgroup: person-sport
@@ -4437,6 +4745,7 @@ emoji:
       - すいえい
       - すいみんぐ
       - くろーる
+    slack: [ man-swimming ]
     en: man swimming
     since: "4.0"
     subgroup: person-sport
@@ -4451,6 +4760,7 @@ emoji:
       - すいえい
       - すいみんぐ
       - くろーる
+    slack: [ woman-swimming ]
     en: woman swimming
     since: "4.0"
     subgroup: person-sport
@@ -4465,6 +4775,7 @@ emoji:
       - ばすけ
       - どりぶる
       - ばすけせんしゅ
+    slack: [ person_with_ball ]
     en: person bouncing ball
     since: "0.7"
     subgroup: person-sport
@@ -4478,6 +4789,7 @@ emoji:
       - ばすけっとぼーる
       - ばすけ
       - どりぶる
+    slack: [ man-bouncing-ball ]
     en: man bouncing ball
     since: "4.0"
     subgroup: person-sport
@@ -4491,6 +4803,7 @@ emoji:
       - ばすけっとぼーる
       - ばすけ
       - どりぶる
+    slack: [ woman-bouncing-ball ]
     en: woman bouncing ball
     since: "4.0"
     subgroup: person-sport
@@ -4507,6 +4820,7 @@ emoji:
       - ばーべる
       - でっどりふと
       - ぱわーりふてぃんぐ
+    slack: [ weight_lifter ]
     en: person lifting weights
     since: "0.7"
     subgroup: person-sport
@@ -4521,6 +4835,7 @@ emoji:
       - うぇいとりふてぃんぐ
       - きんとれ
       - ばーべる
+    slack: [ man-lifting-weights ]
     en: man lifting weights
     since: "4.0"
     subgroup: person-sport
@@ -4535,6 +4850,7 @@ emoji:
       - うぇいとりふてぃんぐ
       - きんとれ
       - ばーべる
+    slack: [ woman-lifting-weights ]
     en: woman lifting weights
     since: "4.0"
     subgroup: person-sport
@@ -4551,6 +4867,7 @@ emoji:
       - ちゃり
       - けいりん
       - さいくりすと
+    slack: [ bicyclist ]
     en: person biking
     since: "1.0"
     subgroup: person-sport
@@ -4565,6 +4882,7 @@ emoji:
       - さいくりんぐ
       - ろーどばいく
       - ちゃり
+    slack: [ man-biking ]
     en: man biking
     since: "4.0"
     subgroup: person-sport
@@ -4579,6 +4897,7 @@ emoji:
       - さいくりんぐ
       - ろーどばいく
       - ちゃり
+    slack: [ woman-biking ]
     en: woman biking
     since: "4.0"
     subgroup: person-sport
@@ -4594,6 +4913,7 @@ emoji:
       - じてんしゃ
       - さいくりんぐ
       - やまみち
+    slack: [ mountain_bicyclist ]
     en: person mountain biking
     since: "1.0"
     subgroup: person-sport
@@ -4607,6 +4927,7 @@ emoji:
       - まうんてんばいく
       - mtb
       - じてんしゃ
+    slack: [ man-mountain-biking ]
     en: man mountain biking
     since: "4.0"
     subgroup: person-sport
@@ -4620,6 +4941,7 @@ emoji:
       - まうんてんばいく
       - mtb
       - じてんしゃ
+    slack: [ woman-mountain-biking ]
     en: woman mountain biking
     since: "4.0"
     subgroup: person-sport
@@ -4636,6 +4958,7 @@ emoji:
       - ばくてん
       - うかれる
       - はしゃぐ
+    slack: [ person_doing_cartwheel ]
     en: person cartwheeling
     since: "3.0"
     subgroup: person-sport
@@ -4649,6 +4972,7 @@ emoji:
       - そくてん
       - たいそう
       - とんぼがえり
+    slack: [ man-cartwheeling ]
     en: man cartwheeling
     since: "4.0"
     subgroup: person-sport
@@ -4662,6 +4986,7 @@ emoji:
       - そくてん
       - たいそう
       - とんぼがえり
+    slack: [ woman-cartwheeling ]
     en: woman cartwheeling
     since: "4.0"
     subgroup: person-sport
@@ -4678,6 +5003,7 @@ emoji:
       - かくとう
       - ぷろれす
       - すもう
+    slack: [ wrestlers ]
     en: people wrestling
     since: "3.0"
     subgroup: person-sport
@@ -4692,6 +5018,7 @@ emoji:
       - れすらー
       - とっくみあい
       - ぷろれす
+    slack: [ man-wrestling ]
     en: men wrestling
     since: "4.0"
     subgroup: person-sport
@@ -4706,6 +5033,7 @@ emoji:
       - れすらー
       - とっくみあい
       - じょしぷろれす
+    slack: [ woman-wrestling ]
     en: women wrestling
     since: "4.0"
     subgroup: person-sport
@@ -4719,6 +5047,7 @@ emoji:
       - すいきゅう
       - うぉーたーぽろ
       - すいじょうきょうぎ
+    slack: [ water_polo ]
     en: person playing water polo
     since: "3.0"
     subgroup: person-sport
@@ -4731,6 +5060,7 @@ emoji:
       - すいきゅうをするおとこ
       - すいきゅう
       - うぉーたーぽろ
+    slack: [ man-playing-water-polo ]
     en: man playing water polo
     since: "4.0"
     subgroup: person-sport
@@ -4743,6 +5073,7 @@ emoji:
       - すいきゅうをするおんな
       - すいきゅう
       - うぉーたーぽろ
+    slack: [ woman-playing-water-polo ]
     en: woman playing water polo
     since: "4.0"
     subgroup: person-sport
@@ -4757,6 +5088,7 @@ emoji:
       - ぼーるをなげる
       - なげる
       - しゅーと
+    slack: [ handball ]
     en: person playing handball
     since: "3.0"
     subgroup: person-sport
@@ -4769,6 +5101,7 @@ emoji:
       - はんどぼーるをするおとこ
       - はんどぼーる
       - なげる
+    slack: [ man-playing-handball ]
     en: man playing handball
     since: "4.0"
     subgroup: person-sport
@@ -4781,6 +5114,7 @@ emoji:
       - はんどぼーるをするおんな
       - はんどぼーる
       - なげる
+    slack: [ woman-playing-handball ]
     en: woman playing handball
     since: "4.0"
     subgroup: person-sport
@@ -4796,6 +5130,7 @@ emoji:
       - だいどうげい
       - まるちたすく
       - きょくげい
+    slack: [ juggling ]
     en: person juggling
     since: "3.0"
     subgroup: person-sport
@@ -4810,6 +5145,7 @@ emoji:
       - じゃぐらー
       - だいどうげい
       - まるちたすく
+    slack: [ man-juggling ]
     en: man juggling
     since: "4.0"
     subgroup: person-sport
@@ -4823,6 +5159,7 @@ emoji:
       - じゃぐりんぐ
       - じゃぐらー
       - だいどうげい
+    slack: [ woman-juggling ]
     en: woman juggling
     since: "4.0"
     subgroup: person-sport
@@ -4840,6 +5177,7 @@ emoji:
       - あぐら
       - れんげざ
       - りらっくす
+    slack: [ person_in_lotus_position ]
     en: person in lotus position
     since: "5.0"
     subgroup: person-resting
@@ -4853,6 +5191,7 @@ emoji:
       - よが
       - めいそう
       - ざぜん
+    slack: [ man_in_lotus_position ]
     en: man in lotus position
     since: "5.0"
     subgroup: person-resting
@@ -4866,6 +5205,7 @@ emoji:
       - よが
       - めいそう
       - ざぜん
+    slack: [ woman_in_lotus_position ]
     en: woman in lotus position
     since: "5.0"
     subgroup: person-resting
@@ -4883,6 +5223,7 @@ emoji:
       - ばすたぶ
       - ばすたいむ
       - ゆぶね
+    slack: [ bath ]
     en: person taking bath
     since: "0.6"
     subgroup: person-resting
@@ -4899,6 +5240,7 @@ emoji:
       - べっど
       - ほてる
       - ねどこ
+    slack: [ sleeping_accommodation ]
     en: person in bed
     since: "1.0"
     subgroup: person-resting
@@ -4914,6 +5256,7 @@ emoji:
       - かっぷる
       - こいびと
       - なかよし
+    slack: [ people_holding_hands ]
     en: people holding hands
     since: "12.0"
     subgroup: family
@@ -4930,6 +5273,7 @@ emoji:
       - しまい
       - かっぷる
       - なかよし
+    slack: [ two_women_holding_hands, women_holding_hands ]
     en: women holding hands
     since: "1.0"
     subgroup: family
@@ -4946,6 +5290,7 @@ emoji:
       - だんじょ
       - でーと
       - あべっく
+    slack: [ man_and_woman_holding_hands, woman_and_man_holding_hands, couple ]
     en: woman and man holding hands
     since: "0.6"
     subgroup: family
@@ -4961,6 +5306,7 @@ emoji:
       - きょうだい
       - かっぷる
       - なかよし
+    slack: [ two_men_holding_hands, men_holding_hands ]
     en: men holding hands
     since: "1.0"
     subgroup: family
@@ -4977,6 +5323,7 @@ emoji:
       - かっぷる
       - こいびと
       - らぶらぶ
+    slack: [ couplekiss ]
     en: kiss
     since: "0.6"
     subgroup: family
@@ -4992,6 +5339,7 @@ emoji:
       - かっぷる
       - こいびと
       - らぶらぶ
+    slack: [ woman-kiss-man ]
     en: "kiss: woman, man"
     since: "2.0"
     subgroup: family
@@ -5007,6 +5355,7 @@ emoji:
       - かっぷる
       - こいびと
       - だんしどうし
+    slack: [ man-kiss-man ]
     en: "kiss: man, man"
     since: "2.0"
     subgroup: family
@@ -5023,6 +5372,7 @@ emoji:
       - こいびと
       - じょしどうし
       - ゆり
+    slack: [ woman-kiss-woman ]
     en: "kiss: woman, woman"
     since: "2.0"
     subgroup: family
@@ -5039,6 +5389,7 @@ emoji:
       - あつあつ
       - きねんび
       - りょうおもい
+    slack: [ couple_with_heart ]
     en: couple with heart
     since: "0.6"
     subgroup: family
@@ -5053,6 +5404,7 @@ emoji:
       - こいびと
       - らぶらぶ
       - あつあつ
+    slack: [ woman-heart-man ]
     en: "couple with heart: woman, man"
     since: "2.0"
     subgroup: family
@@ -5067,6 +5419,7 @@ emoji:
       - こいびと
       - らぶらぶ
       - だんしどうし
+    slack: [ man-heart-man ]
     en: "couple with heart: man, man"
     since: "2.0"
     subgroup: family
@@ -5082,6 +5435,7 @@ emoji:
       - らぶらぶ
       - じょしどうし
       - ゆり
+    slack: [ woman-heart-woman ]
     en: "couple with heart: woman, woman"
     since: "2.0"
     subgroup: family
@@ -5095,6 +5449,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    slack: [ man-woman-boy ]
     en: "family: man, woman, boy"
     since: "2.0"
     subgroup: family
@@ -5107,6 +5462,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    slack: [ man-woman-girl ]
     en: "family: man, woman, girl"
     since: "2.0"
     subgroup: family
@@ -5119,6 +5475,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    slack: [ man-woman-girl-boy ]
     en: "family: man, woman, girl, boy"
     since: "2.0"
     subgroup: family
@@ -5131,6 +5488,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    slack: [ man-woman-boy-boy ]
     en: "family: man, woman, boy, boy"
     since: "2.0"
     subgroup: family
@@ -5143,6 +5501,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    slack: [ man-woman-girl-girl ]
     en: "family: man, woman, girl, girl"
     since: "2.0"
     subgroup: family
@@ -5155,6 +5514,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    slack: [ man-man-boy ]
     en: "family: man, man, boy"
     since: "2.0"
     subgroup: family
@@ -5167,6 +5527,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    slack: [ man-man-girl ]
     en: "family: man, man, girl"
     since: "2.0"
     subgroup: family
@@ -5179,6 +5540,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    slack: [ man-man-girl-boy ]
     en: "family: man, man, girl, boy"
     since: "2.0"
     subgroup: family
@@ -5191,6 +5553,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    slack: [ man-man-boy-boy ]
     en: "family: man, man, boy, boy"
     since: "2.0"
     subgroup: family
@@ -5203,6 +5566,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    slack: [ man-man-girl-girl ]
     en: "family: man, man, girl, girl"
     since: "2.0"
     subgroup: family
@@ -5215,6 +5579,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    slack: [ woman-woman-boy ]
     en: "family: woman, woman, boy"
     since: "2.0"
     subgroup: family
@@ -5227,6 +5592,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    slack: [ woman-woman-girl ]
     en: "family: woman, woman, girl"
     since: "2.0"
     subgroup: family
@@ -5239,6 +5605,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    slack: [ woman-woman-girl-boy ]
     en: "family: woman, woman, girl, boy"
     since: "2.0"
     subgroup: family
@@ -5251,6 +5618,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    slack: [ woman-woman-boy-boy ]
     en: "family: woman, woman, boy, boy"
     since: "2.0"
     subgroup: family
@@ -5263,6 +5631,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    slack: [ woman-woman-girl-girl ]
     en: "family: woman, woman, girl, girl"
     since: "2.0"
     subgroup: family
@@ -5277,6 +5646,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ちちおや
+    slack: [ man-boy ]
     en: "family: man, boy"
     since: "4.0"
     subgroup: family
@@ -5291,6 +5661,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ちちおや
+    slack: [ man-boy-boy ]
     en: "family: man, boy, boy"
     since: "4.0"
     subgroup: family
@@ -5305,6 +5676,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ちちおや
+    slack: [ man-girl ]
     en: "family: man, girl"
     since: "4.0"
     subgroup: family
@@ -5319,6 +5691,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ちちおや
+    slack: [ man-girl-boy ]
     en: "family: man, girl, boy"
     since: "4.0"
     subgroup: family
@@ -5333,6 +5706,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ちちおや
+    slack: [ man-girl-girl ]
     en: "family: man, girl, girl"
     since: "4.0"
     subgroup: family
@@ -5347,6 +5721,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ははおや
+    slack: [ woman-boy ]
     en: "family: woman, boy"
     since: "4.0"
     subgroup: family
@@ -5361,6 +5736,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ははおや
+    slack: [ woman-boy-boy ]
     en: "family: woman, boy, boy"
     since: "4.0"
     subgroup: family
@@ -5375,6 +5751,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ははおや
+    slack: [ woman-girl ]
     en: "family: woman, girl"
     since: "4.0"
     subgroup: family
@@ -5389,6 +5766,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ははおや
+    slack: [ woman-girl-boy ]
     en: "family: woman, girl, boy"
     since: "4.0"
     subgroup: family
@@ -5403,6 +5781,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ははおや
+    slack: [ woman-girl-girl ]
     en: "family: woman, girl, girl"
     since: "4.0"
     subgroup: family
@@ -5418,6 +5797,7 @@ emoji:
       - はつげん
       - おんせい
       - すぴーきんぐ
+    slack: [ speaking_head_in_silhouette ]
     en: speaking head
     since: "0.7"
     subgroup: person-symbol
@@ -5433,6 +5813,7 @@ emoji:
       - なぞのひと
       - あばたー
       - ひとり
+    slack: [ bust_in_silhouette ]
     en: bust in silhouette
     since: "0.6"
     subgroup: person-symbol
@@ -5448,6 +5829,7 @@ emoji:
       - ぐるーぷ
       - めんばー
       - ともだち
+    slack: [ busts_in_silhouette ]
     en: busts in silhouette
     since: "1.0"
     subgroup: person-symbol
@@ -5463,6 +5845,7 @@ emoji:
       - なぐさめ
       - ありがとう
       - よしよし
+    slack: [ people_hugging ]
     en: people hugging
     since: "13.0"
     subgroup: person-symbol
@@ -5476,6 +5859,7 @@ emoji:
       - おやこ
       - いっか
       - しんぞく
+    slack: [ family ]
     en: family
     since: "0.6"
     subgroup: person-symbol
@@ -5488,6 +5872,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    slack: [ family_adult_adult_child ]
     en: "family: adult, adult, child"
     since: "15.1"
     subgroup: person-symbol
@@ -5500,6 +5885,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    slack: [ family_adult_adult_child_child ]
     en: "family: adult, adult, child, child"
     since: "15.1"
     subgroup: person-symbol
@@ -5513,6 +5899,7 @@ emoji:
       - おやこ
       - ふぁみりー
       - ひとりおや
+    slack: [ family_adult_child ]
     en: "family: adult, child"
     since: "15.1"
     subgroup: person-symbol
@@ -5526,6 +5913,7 @@ emoji:
       - おやこ
       - ふぁみりー
       - ひとりおや
+    slack: [ family_adult_child_child ]
     en: "family: adult, child, child"
     since: "15.1"
     subgroup: person-symbol
@@ -5540,6 +5928,7 @@ emoji:
       - そくせき
       - あしがた
       - あるく
+    slack: [ footprints ]
     en: footprints
     since: "0.6"
     subgroup: person-symbol
@@ -5554,6 +5943,7 @@ emoji:
       - かんしき
       - せきゅりてぃ
       - ゆびあと
+    slack: [ fingerprint ]
     en: fingerprint
     since: "16.0"
     subgroup: person-symbol

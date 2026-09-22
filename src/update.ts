@@ -12,6 +12,7 @@ import { parseArgs } from "node:util";
 import { lookup, parseAnnotations } from "./lib/cldr.ts";
 import { parseEmojiTest } from "./lib/emoji-test.ts";
 import { kanaToReading } from "./lib/kana.ts";
+import { lookupSlack, parseEmojiData } from "./lib/slack.ts";
 import { type EmojiEntry, type GroupData, loadGroups, loadMeta, saveGroups, saveMeta } from "./lib/store.ts";
 
 const { values: opts } = parseArgs({
@@ -21,6 +22,10 @@ const { values: opts } = parseArgs({
     "offline": { type: "boolean", default: false },
     "cldr-ref": { type: "string" },
     "emoji-url": { type: "string", default: "https://unicode.org/Public/emoji/latest/emoji-test.txt" },
+    "emoji-data-url": {
+      type: "string",
+      default: "https://raw.githubusercontent.com/iamcal/emoji-data/master/emoji.json",
+    },
   },
 });
 const dataDir = opts["data-dir"]!;
@@ -45,6 +50,8 @@ const annotations = parseAnnotations(
   await source("annotationsDerived-ja.xml", `${cldrBase}/annotationsDerived/ja.xml`),
   await source("annotations-ja.xml", `${cldrBase}/annotations/ja.xml`),
 );
+
+const slackNames = parseEmojiData(await source("emoji-data.json", opts["emoji-data-url"]!));
 
 const existing = new Map<string, EmojiEntry>();
 const existingGroup = new Map<string, string>();
@@ -75,11 +82,14 @@ for (const t of emojiTest.entries) {
   const cldr = lookup(annotations, t.emoji);
   const keywords = cldr?.keywords ?? [];
   const old = existing.get(t.code);
+  const slack = lookupSlack(slackNames, t.code);
   base = {
     emoji: t.emoji,
     code: t.code,
     name: old?.name ?? cldr?.name ?? t.en,
     readings: old?.readings ?? seedReadings(cldr?.name, keywords),
+    // emoji-data lags behind new Unicode versions; keep hand-written names until it catches up
+    slack: slack.length > 0 ? slack : old?.slack ?? [],
     en: t.en,
     since: t.since,
     subgroup: t.subgroup,

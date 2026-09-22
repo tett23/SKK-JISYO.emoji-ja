@@ -1,6 +1,8 @@
 # SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
 #   name:     annotation shown in SKK (Japanese name; no "/" or ";")
 #   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   slack:    Slack-style short names (":thumbsup:" without colons), registered as headwords.
+#             Refreshed from iamcal/emoji-data; hand-written names are kept only while emoji-data has none
 #   review:   true if added automatically by the update task; remove after checking the readings
 # Other fields are refreshed from Unicode/CLDR by the update task.
 
@@ -17,6 +19,7 @@ emoji:
       - はっぴー
       - わらう
       - にこにこ
+    slack: [ grinning ]
     en: grinning face
     since: "1.0"
     subgroup: face-smiling
@@ -31,6 +34,7 @@ emoji:
       - はっぴー
       - うれしい
       - にこにこ
+    slack: [ smiley ]
     en: grinning face with big eyes
     since: "0.6"
     subgroup: face-smiling
@@ -46,6 +50,7 @@ emoji:
       - うれしい
       - にこにこ
       - わらう
+    slack: [ smile ]
     en: grinning face with smiling eyes
     since: "0.6"
     subgroup: face-smiling
@@ -61,6 +66,7 @@ emoji:
       - すまいる
       - はっぴー
       - ないす
+    slack: [ grin ]
     en: beaming face with smiling eyes
     since: "0.6"
     subgroup: face-smiling
@@ -76,6 +82,7 @@ emoji:
       - うれしい
       - えがお
       - わらう
+    slack: [ laughing, satisfied ]
     en: grinning squinting face
     since: "0.6"
     subgroup: face-smiling
@@ -91,6 +98,7 @@ emoji:
       - にがわらい
       - あせあせ
       - えがお
+    slack: [ sweat_smile ]
     en: grinning face with sweat
     since: "0.6"
     subgroup: face-smiling
@@ -107,6 +115,7 @@ emoji:
       - なきわらい
       - くさ
       - わら
+    slack: [ rolling_on_the_floor_laughing ]
     en: rolling on the floor laughing
     since: "3.0"
     subgroup: face-smiling
@@ -123,6 +132,7 @@ emoji:
       - ばくしょう
       - おおわらい
       - あはは
+    slack: [ joy ]
     en: face with tears of joy
     since: "0.6"
     subgroup: face-smiling
@@ -137,6 +147,7 @@ emoji:
       - えがお
       - にこっ
       - はっぴー
+    slack: [ slightly_smiling_face ]
     en: slightly smiling face
     since: "1.0"
     subgroup: face-smiling
@@ -151,6 +162,7 @@ emoji:
       - ぎゃく
       - ひにく
       - えがお
+    slack: [ upside_down_face ]
     en: upside-down face
     since: "1.0"
     subgroup: face-smiling
@@ -166,6 +178,7 @@ emoji:
       - あつい
       - えきたい
       - はずかしい
+    slack: [ melting_face ]
     en: melting face
     since: "14.0"
     subgroup: face-smiling
@@ -194,6 +207,7 @@ emoji:
       - うぃんく
       - めくばせ
       - ちゃめ
+    slack: [ wink ]
     en: winking face
     since: "0.6"
     subgroup: face-smiling
@@ -209,6 +223,7 @@ emoji:
       - まんぞく
       - てれ
       - うれしい
+    slack: [ blush ]
     en: smiling face with smiling eyes
     since: "0.6"
     subgroup: face-smiling
@@ -224,6 +239,7 @@ emoji:
       - へいわ
       - じょうぶつ
       - むじゃき
+    slack: [ innocent ]
     en: smiling face with halo
     since: "1.0"
     subgroup: face-smiling
@@ -239,6 +255,7 @@ emoji:
       - あいしてる
       - むちゅう
       - はーと
+    slack: [ smiling_face_with_3_hearts ]
     en: smiling face with hearts
     since: "11.0"
     subgroup: face-affection
@@ -254,6 +271,7 @@ emoji:
       - めろめろ
       - ほれる
       - すき
+    slack: [ heart_eyes ]
     en: smiling face with heart-eyes
     since: "0.6"
     subgroup: face-affection
@@ -269,6 +287,7 @@ emoji:
       - あこがれ
       - すごい
       - かんげき
+    slack: [ star-struck, grinning_face_with_star_eyes ]
     en: star-struck
     since: "5.0"
     subgroup: face-affection
@@ -283,6 +302,7 @@ emoji:
       - ちゅー
       - ぶちゅー
       - らぶ
+    slack: [ kissing_heart ]
     en: face blowing a kiss
     since: "0.6"
     subgroup: face-affection
@@ -296,6 +316,7 @@ emoji:
       - ちゅー
       - くちぶえ
       - でーと
+    slack: [ kissing ]
     en: kissing face
     since: "1.0"
     subgroup: face-affection
@@ -310,6 +331,7 @@ emoji:
       - ほっ
       - はっぴー
       - にっこり
+    slack: [ relaxed ]
     en: smiling face
     since: "0.6"
     subgroup: face-affection
@@ -323,6 +345,7 @@ emoji:
       - ちゅー
       - めをとじてきす
       - でーと
+    slack: [ kissing_closed_eyes ]
     en: kissing face with closed eyes
     since: "0.6"
     subgroup: face-affection
@@ -337,6 +360,7 @@ emoji:
       - ちゅー
       - くちぶえ
       - えがお
+    slack: [ kissing_smiling_eyes ]
     en: kissing face with smiling eyes
     since: "1.0"
     subgroup: face-affection
@@ -352,6 +376,7 @@ emoji:
       - かんげき
       - なみだ
       - なきわらい
+    slack: [ smiling_face_with_tear ]
     en: smiling face with tear
     since: "13.0"
     subgroup: face-affection
@@ -368,6 +393,7 @@ emoji:
       - はらぺこ
       - じゅるり
       - いただきます
+    slack: [ yum ]
     en: face savoring food
     since: "0.6"
     subgroup: face-tongue
@@ -382,6 +408,7 @@ emoji:
       - した
       - あっかんべー
       - ぺろっ
+    slack: [ stuck_out_tongue ]
     en: face with tongue
     since: "1.0"
     subgroup: face-tongue
@@ -397,6 +424,7 @@ emoji:
       - じょーく
       - ういんく
       - ふざける
+    slack: [ stuck_out_tongue_winking_eye ]
     en: winking face with tongue
     since: "0.6"
     subgroup: face-tongue
@@ -412,6 +440,7 @@ emoji:
       - くれいじー
       - はいてんしょん
       - じょーく
+    slack: [ zany_face, grinning_face_with_one_large_and_one_small_eye ]
     en: zany face
     since: "5.0"
     subgroup: face-tongue
@@ -426,6 +455,7 @@ emoji:
       - あっかんべー
       - わーい
       - あじみ
+    slack: [ stuck_out_tongue_closed_eyes ]
     en: squinting face with tongue
     since: "0.6"
     subgroup: face-tongue
@@ -441,6 +471,7 @@ emoji:
       - ぼろもうけ
       - しゅせんど
       - どる
+    slack: [ money_mouth_face ]
     en: money-mouth face
     since: "1.0"
     subgroup: face-tongue
@@ -455,6 +486,7 @@ emoji:
       - えがお
       - わーい
       - うぇるかむ
+    slack: [ hugging_face ]
     en: smiling face with open hands
     since: "1.0"
     subgroup: face-hand
@@ -469,6 +501,7 @@ emoji:
       - ないしょ
       - ぷぷっ
       - しのびわらい
+    slack: [ face_with_hand_over_mouth, smiling_face_with_smiling_eyes_and_hand_covering_mouth ]
     en: face with hand over mouth
     since: "5.0"
     subgroup: face-hand
@@ -484,6 +517,7 @@ emoji:
       - おののき
       - まさか
       - えっ
+    slack: [ face_with_open_eyes_and_hand_over_mouth ]
     en: face with open eyes and hand over mouth
     since: "14.0"
     subgroup: face-hand
@@ -499,6 +533,7 @@ emoji:
       - ぬすみみ
       - こわい
       - みたくない
+    slack: [ face_with_peeking_eye ]
     en: face with peeking eye
     since: "14.0"
     subgroup: face-hand
@@ -514,6 +549,7 @@ emoji:
       - ないしょ
       - ひみつ
       - おしずかに
+    slack: [ shushing_face, face_with_finger_covering_closed_lips ]
     en: shushing face
     since: "5.0"
     subgroup: face-hand
@@ -529,6 +565,7 @@ emoji:
       - なやむ
       - ぎもん
       - しんきんぐ
+    slack: [ thinking_face ]
     en: thinking face
     since: "1.0"
     subgroup: face-hand
@@ -543,6 +580,7 @@ emoji:
       - らじゃー
       - おーけー
       - しょうち
+    slack: [ saluting_face ]
     en: saluting face
     since: "14.0"
     subgroup: face-hand
@@ -557,6 +595,7 @@ emoji:
       - ひみつ
       - おくちちゃっく
       - だまる
+    slack: [ zipper_mouth_face ]
     en: zipper-mouth face
     since: "1.0"
     subgroup: face-neutral-skeptical
@@ -571,6 +610,7 @@ emoji:
       - あやしい
       - ぎわく
       - ほんとう
+    slack: [ face_with_raised_eyebrow, face_with_one_eyebrow_raised ]
     en: face with raised eyebrow
     since: "5.0"
     subgroup: face-neutral-skeptical
@@ -584,6 +624,7 @@ emoji:
       - しんがお
       - わらえない
       - まがお
+    slack: [ neutral_face ]
     en: neutral face
     since: "0.7"
     subgroup: face-neutral-skeptical
@@ -598,6 +639,7 @@ emoji:
       - まがお
       - しらけ
       - やきもち
+    slack: [ expressionless ]
     en: expressionless face
     since: "1.0"
     subgroup: face-neutral-skeptical
@@ -613,6 +655,7 @@ emoji:
       - だんまり
       - むひょうじょう
       - ことばがない
+    slack: [ no_mouth ]
     en: face without mouth
     since: "1.0"
     subgroup: face-neutral-skeptical
@@ -629,6 +672,7 @@ emoji:
       - うちき
       - らくたん
       - ゆううつ
+    slack: [ dotted_line_face ]
     en: dotted line face
     since: "14.0"
     subgroup: face-neutral-skeptical
@@ -643,6 +687,7 @@ emoji:
       - ほうしん
       - むちゅう
       - もやもや
+    slack: [ face_in_clouds ]
     en: face in clouds
     since: "13.1"
     subgroup: face-neutral-skeptical
@@ -657,6 +702,7 @@ emoji:
       - ふっ
       - どやがお
       - にやにや
+    slack: [ smirk ]
     en: smirking face
     since: "0.6"
     subgroup: face-neutral-skeptical
@@ -672,6 +718,7 @@ emoji:
       - ふまん
       - やきもち
       - しらー
+    slack: [ unamused ]
     en: unamused face
     since: "0.6"
     subgroup: face-neutral-skeptical
@@ -687,6 +734,7 @@ emoji:
       - めをむく
       - うーん
       - やれやれ
+    slack: [ face_with_rolling_eyes ]
     en: face with rolling eyes
     since: "1.0"
     subgroup: face-neutral-skeptical
@@ -701,6 +749,7 @@ emoji:
       - いー
       - きまずい
       - ぐぬぬ
+    slack: [ grimacing ]
     en: grimacing face
     since: "1.0"
     subgroup: face-neutral-skeptical
@@ -717,6 +766,7 @@ emoji:
       - つかれた
       - いきぎれ
       - ふー
+    slack: [ face_exhaling ]
     en: face exhaling
     since: "13.1"
     subgroup: face-neutral-skeptical
@@ -730,6 +780,7 @@ emoji:
       - うそ
       - ぴのきお
       - ぴのきおのかお
+    slack: [ lying_face ]
     en: lying face
     since: "3.0"
     subgroup: face-neutral-skeptical
@@ -746,6 +797,7 @@ emoji:
       - びっくり
       - じしん
       - しんどう
+    slack: [ shaking_face ]
     en: shaking face
     since: "15.0"
     subgroup: face-neutral-skeptical
@@ -760,6 +812,7 @@ emoji:
       - ふさんせい
       - ひてい
       - のー
+    slack: [ head_shaking_horizontally ]
     en: head shaking horizontally
     since: "15.1"
     subgroup: face-neutral-skeptical
@@ -774,6 +827,7 @@ emoji:
       - うんうん
       - こうてい
       - さんせい
+    slack: [ head_shaking_vertically ]
     en: head shaking vertically
     since: "15.1"
     subgroup: face-neutral-skeptical
@@ -788,6 +842,7 @@ emoji:
       - あんしん
       - あんど
       - やすらぎ
+    slack: [ relieved ]
     en: relieved face
     since: "0.6"
     subgroup: face-sleepy
@@ -802,6 +857,7 @@ emoji:
       - かなしい
       - かんがえこむ
       - おちこむ
+    slack: [ pensive ]
     en: pensive face
     since: "0.6"
     subgroup: face-sleepy
@@ -817,6 +873,7 @@ emoji:
       - つかれた
       - はなちょうちん
       - うとうと
+    slack: [ sleepy ]
     en: sleepy face
     since: "0.6"
     subgroup: face-sleepy
@@ -830,6 +887,7 @@ emoji:
       - じゅるり
       - おいしそう
       - ほしい
+    slack: [ drooling_face ]
     en: drooling face
     since: "3.0"
     subgroup: face-sleepy
@@ -846,6 +904,7 @@ emoji:
       - ぐーぐー
       - すやすや
       - zzz
+    slack: [ sleeping ]
     en: sleeping face
     since: "1.0"
     subgroup: face-sleepy
@@ -860,6 +919,7 @@ emoji:
       - つかれた
       - ねむい
       - ねぶそく
+    slack: [ face_with_bags_under_eyes ]
     en: face with bags under eyes
     since: "16.0"
     subgroup: face-sleepy
@@ -874,6 +934,7 @@ emoji:
       - かふんしょう
       - びょうき
       - よぼう
+    slack: [ mask ]
     en: face with medical mask
     since: "0.6"
     subgroup: face-unwell
@@ -888,6 +949,7 @@ emoji:
       - たいおんけい
       - かぜ
       - びょうき
+    slack: [ face_with_thermometer ]
     en: face with thermometer
     since: "1.0"
     subgroup: face-unwell
@@ -901,6 +963,7 @@ emoji:
       - けが
       - いたい
       - ふしょう
+    slack: [ face_with_head_bandage ]
     en: face with head-bandage
     since: "1.0"
     subgroup: face-unwell
@@ -916,6 +979,7 @@ emoji:
       - ぐあいがわるい
       - びょうき
       - むかむか
+    slack: [ nauseated_face ]
     en: nauseated face
     since: "3.0"
     subgroup: face-unwell
@@ -930,6 +994,7 @@ emoji:
       - げろ
       - きもちわるい
       - おえー
+    slack: [ face_vomiting, face_with_open_mouth_vomiting ]
     en: face vomiting
     since: "5.0"
     subgroup: face-unwell
@@ -944,6 +1009,7 @@ emoji:
       - かふんしょう
       - かぜ
       - はっくしょん
+    slack: [ sneezing_face ]
     en: sneezing face
     since: "3.0"
     subgroup: face-unwell
@@ -959,6 +1025,7 @@ emoji:
       - はつねつ
       - しにそう
       - あせ
+    slack: [ hot_face ]
     en: hot face
     since: "11.0"
     subgroup: face-unwell
@@ -974,6 +1041,7 @@ emoji:
       - しもやけ
       - ひょうてんか
       - つらら
+    slack: [ cold_face ]
     en: cold face
     since: "11.0"
     subgroup: face-unwell
@@ -989,6 +1057,7 @@ emoji:
       - べろんべろん
       - めまい
       - うつろ
+    slack: [ woozy_face ]
     en: woozy face
     since: "11.0"
     subgroup: face-unwell
@@ -1003,6 +1072,7 @@ emoji:
       - つかれた
       - ばたんきゅー
       - きぜつ
+    slack: [ dizzy_face ]
     en: face with crossed-out eyes
     since: "0.6"
     subgroup: face-unwell
@@ -1018,6 +1088,7 @@ emoji:
       - めまい
       - ぐるぐる
       - うずまき
+    slack: [ face_with_spiral_eyes ]
     en: face with spiral eyes
     since: "13.1"
     subgroup: face-unwell
@@ -1033,6 +1104,7 @@ emoji:
       - おどろき
       - ぼんっ
       - しょうげき
+    slack: [ exploding_head, shocked_face_with_exploding_head ]
     en: exploding head
     since: "5.0"
     subgroup: face-unwell
@@ -1046,6 +1118,7 @@ emoji:
       - かうがーる
       - ぼうし
       - せいぶ
+    slack: [ face_with_cowboy_hat ]
     en: cowboy hat face
     since: "3.0"
     subgroup: face-hat
@@ -1061,6 +1134,7 @@ emoji:
       - たんじょうび
       - はっぴーばーすでー
       - いえーい
+    slack: [ partying_face ]
     en: partying face
     since: "11.0"
     subgroup: face-hat
@@ -1076,6 +1150,7 @@ emoji:
       - くちひげ
       - ひげ
       - しのび
+    slack: [ disguised_face ]
     en: disguised face
     since: "13.0"
     subgroup: face-hat
@@ -1090,6 +1165,7 @@ emoji:
       - かっこいい
       - どや
       - いけてる
+    slack: [ sunglasses ]
     en: smiling face with sunglasses
     since: "1.0"
     subgroup: face-glasses
@@ -1105,6 +1181,7 @@ emoji:
       - めがね
       - しゅうさい
       - なーど
+    slack: [ nerd_face ]
     en: nerd face
     since: "1.0"
     subgroup: face-glasses
@@ -1120,6 +1197,7 @@ emoji:
       - かんがえる
       - ふむ
       - かんてい
+    slack: [ face_with_monocle ]
     en: face with monocle
     since: "5.0"
     subgroup: face-glasses
@@ -1134,6 +1212,7 @@ emoji:
       - ふーん
       - とまどい
       - はてな
+    slack: [ confused ]
     en: confused face
     since: "1.0"
     subgroup: face-concerned
@@ -1149,6 +1228,7 @@ emoji:
       - むかんしん
       - むきりょく
       - びみょう
+    slack: [ face_with_diagonal_mouth ]
     en: face with diagonal mouth
     since: "14.0"
     subgroup: face-concerned
@@ -1163,6 +1243,7 @@ emoji:
       - こまった
       - かなしい
       - ふあん
+    slack: [ worried ]
     en: worried face
     since: "1.0"
     subgroup: face-concerned
@@ -1176,6 +1257,7 @@ emoji:
       - こまった
       - しかめつら
       - ざんねん
+    slack: [ slightly_frowning_face ]
     en: slightly frowning face
     since: "1.0"
     subgroup: face-concerned
@@ -1189,6 +1271,7 @@ emoji:
       - しかめつら
       - かなしい
       - ざんねん
+    slack: [ white_frowning_face ]
     en: frowning face
     since: "0.7"
     subgroup: face-concerned
@@ -1203,6 +1286,7 @@ emoji:
       - しんじられない
       - おー
       - びっくり
+    slack: [ open_mouth ]
     en: face with open mouth
     since: "1.0"
     subgroup: face-concerned
@@ -1217,6 +1301,7 @@ emoji:
       - おどろき
       - すごいね
       - あぜん
+    slack: [ hushed ]
     en: hushed face
     since: "1.0"
     subgroup: face-concerned
@@ -1231,6 +1316,7 @@ emoji:
       - おどろき
       - きょうがく
       - びっくりしたかお
+    slack: [ astonished ]
     en: astonished face
     since: "0.6"
     subgroup: face-concerned
@@ -1246,6 +1332,7 @@ emoji:
       - とまどい
       - てれる
       - かおまっか
+    slack: [ flushed ]
     en: flushed face
     since: "0.6"
     subgroup: face-concerned
@@ -1260,6 +1347,7 @@ emoji:
       - ぼうぜん
       - しょっく
       - ふあん
+    slack: [ distorted_face ]
     en: distorted face
     since: "17.0"
     subgroup: face-concerned
@@ -1275,6 +1363,7 @@ emoji:
       - こいぬのめ
       - こんがん
       - ぴえんぱおん
+    slack: [ pleading_face ]
     en: pleading face
     since: "11.0"
     subgroup: face-concerned
@@ -1290,6 +1379,7 @@ emoji:
       - なみだ
       - かんどう
       - えもい
+    slack: [ face_holding_back_tears ]
     en: face holding back tears
     since: "14.0"
     subgroup: face-concerned
@@ -1304,6 +1394,7 @@ emoji:
       - ぼうぜん
       - ふまん
       - しかめつら
+    slack: [ frowning ]
     en: frowning face with open mouth
     since: "1.0"
     subgroup: face-concerned
@@ -1317,6 +1408,7 @@ emoji:
       - こまったかお
       - なやみ
       - おどろき
+    slack: [ anguished ]
     en: anguished face
     since: "1.0"
     subgroup: face-concerned
@@ -1331,6 +1423,7 @@ emoji:
       - こわい
       - ふあん
       - きょうふ
+    slack: [ fearful ]
     en: fearful face
     since: "0.6"
     subgroup: face-concerned
@@ -1346,6 +1439,7 @@ emoji:
       - あせる
       - ふあん
       - やばい
+    slack: [ cold_sweat ]
     en: anxious face with sweat
     since: "0.6"
     subgroup: face-concerned
@@ -1360,6 +1454,7 @@ emoji:
       - しつぼう
       - ほっ
       - ざんねん
+    slack: [ disappointed_relieved ]
     en: sad but relieved face
     since: "0.6"
     subgroup: face-concerned
@@ -1375,6 +1470,7 @@ emoji:
       - さびしい
       - ひどい
       - しくしく
+    slack: [ cry ]
     en: crying face
     since: "0.6"
     subgroup: face-concerned
@@ -1390,6 +1486,7 @@ emoji:
       - かなしい
       - うわーん
       - えーん
+    slack: [ sob ]
     en: loudly crying face
     since: "0.6"
     subgroup: face-concerned
@@ -1405,6 +1502,7 @@ emoji:
       - しょっく
       - ぎゃー
       - こわい
+    slack: [ scream ]
     en: face screaming in fear
     since: "0.6"
     subgroup: face-concerned
@@ -1418,6 +1516,7 @@ emoji:
       - こまった
       - こんらん
       - くやしい
+    slack: [ confounded ]
     en: confounded face
     since: "0.6"
     subgroup: face-concerned
@@ -1432,6 +1531,7 @@ emoji:
       - たえる
       - ぐぬぬ
       - つらい
+    slack: [ persevere ]
     en: persevering face
     since: "0.6"
     subgroup: face-concerned
@@ -1447,6 +1547,7 @@ emoji:
       - ざんねん
       - かなしい
       - おちこむ
+    slack: [ disappointed ]
     en: disappointed face
     since: "0.6"
     subgroup: face-concerned
@@ -1461,6 +1562,7 @@ emoji:
       - ずつう
       - さむけ
       - あせあせ
+    slack: [ sweat ]
     en: downcast face with sweat
     since: "0.6"
     subgroup: face-concerned
@@ -1475,6 +1577,7 @@ emoji:
       - うんざり
       - はらぺこ
       - もうだめ
+    slack: [ weary ]
     en: weary face
     since: "0.6"
     subgroup: face-concerned
@@ -1489,6 +1592,7 @@ emoji:
       - つかれたかお
       - もうむり
       - ぐったり
+    slack: [ tired_face ]
     en: tired face
     since: "0.6"
     subgroup: face-concerned
@@ -1504,6 +1608,7 @@ emoji:
       - ふあー
       - おやすみ
       - つかれ
+    slack: [ yawning_face ]
     en: yawning face
     since: "12.0"
     subgroup: face-concerned
@@ -1519,6 +1624,7 @@ emoji:
       - はないき
       - いかり
       - むふー
+    slack: [ triumph ]
     en: face with steam from nose
     since: "0.6"
     subgroup: face-negative
@@ -1535,6 +1641,7 @@ emoji:
       - いかり
       - おこ
       - むかつく
+    slack: [ rage ]
     en: enraged face
     since: "0.6"
     subgroup: face-negative
@@ -1549,6 +1656,7 @@ emoji:
       - いかり
       - おこ
       - ふまん
+    slack: [ angry ]
     en: angry face
     since: "0.6"
     subgroup: face-negative
@@ -1564,6 +1672,7 @@ emoji:
       - げきおこ
       - いかり
       - ばとう
+    slack: [ face_with_symbols_on_mouth, serious_face_with_symbols_covering_mouth ]
     en: face with symbols on mouth
     since: "5.0"
     subgroup: face-negative
@@ -1579,6 +1688,7 @@ emoji:
       - わるだくみ
       - いたずら
       - つの
+    slack: [ smiling_imp ]
     en: smiling face with horns
     since: "1.0"
     subgroup: face-negative
@@ -1593,6 +1703,7 @@ emoji:
       - かんかん
       - げきど
       - つの
+    slack: [ imp ]
     en: angry face with horns
     since: "0.6"
     subgroup: face-negative
@@ -1608,6 +1719,7 @@ emoji:
       - し
       - しんだ
       - おわた
+    slack: [ skull ]
     en: skull
     since: "0.6"
     subgroup: face-negative
@@ -1623,6 +1735,7 @@ emoji:
       - かいぞく
       - どく
       - きけん
+    slack: [ skull_and_crossbones ]
     en: skull and crossbones
     since: "1.0"
     subgroup: face-negative
@@ -1637,6 +1750,7 @@ emoji:
       - ふん
       - くさい
       - うん
+    slack: [ hankey, poop, shit ]
     en: pile of poo
     since: "0.6"
     subgroup: face-costume
@@ -1649,6 +1763,7 @@ emoji:
       - ぴえろ
       - どうけし
       - くらうん
+    slack: [ clown_face ]
     en: clown face
     since: "3.0"
     subgroup: face-costume
@@ -1664,6 +1779,7 @@ emoji:
       - あかおに
       - せつぶん
       - こわい
+    slack: [ japanese_ogre ]
     en: ogre
     since: "0.6"
     subgroup: face-costume
@@ -1676,6 +1792,7 @@ emoji:
       - おめん
       - いかり
       - はながたかい
+    slack: [ japanese_goblin ]
     en: goblin
     since: "0.6"
     subgroup: face-costume
@@ -1690,6 +1807,7 @@ emoji:
       - はろうぃーん
       - こわい
       - ばけ
+    slack: [ ghost ]
     en: ghost
     since: "0.6"
     subgroup: face-costume
@@ -1704,6 +1822,7 @@ emoji:
       - ufo
       - ゆーふぉー
       - ぐれい
+    slack: [ alien ]
     en: alien
     since: "0.6"
     subgroup: face-costume
@@ -1719,6 +1838,7 @@ emoji:
       - もんすたー
       - うちゅうじん
       - れとろげーむ
+    slack: [ space_invader ]
     en: alien monster
     since: "0.6"
     subgroup: face-costume
@@ -1733,6 +1853,7 @@ emoji:
       - あんどろいど
       - じんこうちのう
       - ぼっと
+    slack: [ robot_face ]
     en: robot
     since: "1.0"
     subgroup: face-costume
@@ -1746,6 +1867,7 @@ emoji:
       - にゃんこ
       - えがお
       - すまいる
+    slack: [ smiley_cat ]
     en: grinning cat
     since: "0.6"
     subgroup: cat-face
@@ -1759,6 +1881,7 @@ emoji:
       - にゃんこ
       - えがお
       - わらう
+    slack: [ smile_cat ]
     en: grinning cat with smiling eyes
     since: "0.6"
     subgroup: cat-face
@@ -1773,6 +1896,7 @@ emoji:
       - なきわらい
       - ばくしょう
       - わら
+    slack: [ joy_cat ]
     en: cat with tears of joy
     since: "0.6"
     subgroup: cat-face
@@ -1787,6 +1911,7 @@ emoji:
       - だいすき
       - めろめろ
       - らぶ
+    slack: [ heart_eyes_cat ]
     en: smiling cat with heart-eyes
     since: "0.6"
     subgroup: cat-face
@@ -1801,6 +1926,7 @@ emoji:
       - ふっ
       - にやにや
       - どやがお
+    slack: [ smirk_cat ]
     en: cat with wry smile
     since: "0.6"
     subgroup: cat-face
@@ -1814,6 +1940,7 @@ emoji:
       - きす
       - ちゅっ
       - ちゅー
+    slack: [ kissing_cat ]
     en: kissing cat
     since: "0.6"
     subgroup: cat-face
@@ -1828,6 +1955,7 @@ emoji:
       - がーん
       - しょっく
       - びっくり
+    slack: [ scream_cat ]
     en: weary cat
     since: "0.6"
     subgroup: cat-face
@@ -1841,6 +1969,7 @@ emoji:
       - なく
       - なみだ
       - かなしい
+    slack: [ crying_cat_face ]
     en: crying cat
     since: "0.6"
     subgroup: cat-face
@@ -1854,6 +1983,7 @@ emoji:
       - ふきげん
       - ぷんぷん
       - むすっ
+    slack: [ pouting_cat ]
     en: pouting cat
     since: "0.6"
     subgroup: cat-face
@@ -1869,6 +1999,7 @@ emoji:
       - みてない
       - はずかしい
       - みないふり
+    slack: [ see_no_evil ]
     en: see-no-evil monkey
     since: "0.6"
     subgroup: monkey-face
@@ -1882,6 +2013,7 @@ emoji:
       - さる
       - きこえない
       - きいてない
+    slack: [ hear_no_evil ]
     en: hear-no-evil monkey
     since: "0.6"
     subgroup: monkey-face
@@ -1897,6 +2029,7 @@ emoji:
       - ひみつ
       - だまる
       - しつげん
+    slack: [ speak_no_evil ]
     en: speak-no-evil monkey
     since: "0.6"
     subgroup: monkey-face
@@ -1911,6 +2044,7 @@ emoji:
       - ふうとう
       - ばれんたいん
       - こくはく
+    slack: [ love_letter ]
     en: love letter
     since: "0.6"
     subgroup: heart
@@ -1925,6 +2059,7 @@ emoji:
       - こい
       - はーと
       - ずきゅん
+    slack: [ cupid ]
     en: heart with arrow
     since: "0.6"
     subgroup: heart
@@ -1939,6 +2074,7 @@ emoji:
       - きねんび
       - りぼん
       - はーと
+    slack: [ gift_heart ]
     en: heart with ribbon
     since: "0.6"
     subgroup: heart
@@ -1952,6 +2088,7 @@ emoji:
       - はーと
       - らぶ
       - かわいい
+    slack: [ sparkling_heart ]
     en: sparkling heart
     since: "0.6"
     subgroup: heart
@@ -1965,6 +2102,7 @@ emoji:
       - ときめき
       - はーと
       - らぶ
+    slack: [ heartpulse ]
     en: growing heart
     since: "0.6"
     subgroup: heart
@@ -1979,6 +2117,7 @@ emoji:
       - どうき
       - はーと
       - ときめき
+    slack: [ heartbeat ]
     en: beating heart
     since: "0.6"
     subgroup: heart
@@ -1993,6 +2132,7 @@ emoji:
       - かわいい
       - らぶらぶ
       - そうしそうあい
+    slack: [ revolving_hearts ]
     en: revolving hearts
     since: "0.6"
     subgroup: heart
@@ -2007,6 +2147,7 @@ emoji:
       - らぶらぶ
       - でーと
       - きねんび
+    slack: [ two_hearts ]
     en: two hearts
     since: "0.6"
     subgroup: heart
@@ -2019,6 +2160,7 @@ emoji:
       - はーとでこれーしょん
       - はーと
       - しろいはーと
+    slack: [ heart_decoration ]
     en: heart decoration
     since: "0.6"
     subgroup: heart
@@ -2032,6 +2174,7 @@ emoji:
       - はーと
       - びっくりまーく
       - かんたんふ
+    slack: [ heavy_heart_exclamation_mark_ornament ]
     en: heart exclamation
     since: "1.0"
     subgroup: heart
@@ -2047,6 +2190,7 @@ emoji:
       - わかれ
       - きずつく
       - こわれたはーと
+    slack: [ broken_heart ]
     en: broken heart
     since: "0.6"
     subgroup: heart
@@ -2061,6 +2205,7 @@ emoji:
       - ほのお
       - はーと
       - もえ
+    slack: [ heart_on_fire ]
     en: heart on fire
     since: "13.1"
     subgroup: heart
@@ -2075,6 +2220,7 @@ emoji:
       - いやし
       - かいふく
       - はーと
+    slack: [ mending_heart ]
     en: mending heart
     since: "13.1"
     subgroup: heart
@@ -2089,6 +2235,7 @@ emoji:
       - らぶ
       - すき
       - こい
+    slack: [ heart ]
     en: red heart
     since: "0.6"
     subgroup: heart
@@ -2103,6 +2250,7 @@ emoji:
       - かわいい
       - すき
       - らぶ
+    slack: [ pink_heart ]
     en: pink heart
     since: "15.0"
     subgroup: heart
@@ -2115,6 +2263,7 @@ emoji:
       - おれんじ
       - だいだいいろ
       - はーと
+    slack: [ orange_heart ]
     en: orange heart
     since: "5.0"
     subgroup: heart
@@ -2127,6 +2276,7 @@ emoji:
       - きいろいはーと
       - きいろ
       - はーと
+    slack: [ yellow_heart ]
     en: yellow heart
     since: "0.6"
     subgroup: heart
@@ -2138,6 +2288,7 @@ emoji:
       - みどりのはーと
       - みどり
       - はーと
+    slack: [ green_heart ]
     en: green heart
     since: "0.6"
     subgroup: heart
@@ -2149,6 +2300,7 @@ emoji:
       - あおいはーと
       - あお
       - はーと
+    slack: [ blue_heart ]
     en: blue heart
     since: "0.6"
     subgroup: heart
@@ -2162,6 +2314,7 @@ emoji:
       - みずいろ
       - そらいろ
       - はーと
+    slack: [ light_blue_heart ]
     en: light blue heart
     since: "15.0"
     subgroup: heart
@@ -2173,6 +2326,7 @@ emoji:
       - むらさきのはーと
       - むらさき
       - はーと
+    slack: [ purple_heart ]
     en: purple heart
     since: "0.6"
     subgroup: heart
@@ -2184,6 +2338,7 @@ emoji:
       - ちゃいろいはーと
       - ちゃいろ
       - はーと
+    slack: [ brown_heart ]
     en: brown heart
     since: "12.0"
     subgroup: heart
@@ -2197,6 +2352,7 @@ emoji:
       - はーと
       - あくい
       - はらぐろ
+    slack: [ black_heart ]
     en: black heart
     since: "3.0"
     subgroup: heart
@@ -2210,6 +2366,7 @@ emoji:
       - ぐれー
       - ぎんいろ
       - はーと
+    slack: [ grey_heart ]
     en: grey heart
     since: "15.0"
     subgroup: heart
@@ -2221,6 +2378,7 @@ emoji:
       - しろいはーと
       - しろ
       - はーと
+    slack: [ white_heart ]
     en: white heart
     since: "12.0"
     subgroup: heart
@@ -2234,6 +2392,7 @@ emoji:
       - くちびる
       - ちゅっ
       - せくしー
+    slack: [ kiss ]
     en: kiss mark
     since: "0.6"
     subgroup: emotion
@@ -2249,6 +2408,7 @@ emoji:
       - ひゃくてん
       - まんてん
       - かんぺき
+    slack: [ "100" ]
     en: hundred points
     since: "0.6"
     subgroup: emotion
@@ -2263,6 +2423,7 @@ emoji:
       - むかつく
       - いらいら
       - おこ
+    slack: [ anger ]
     en: anger symbol
     since: "0.6"
     subgroup: emotion
@@ -2277,6 +2438,7 @@ emoji:
       - あらそい
       - とっくみあい
       - つちけむり
+    slack: [ fight_cloud ]
     en: fight cloud
     since: "17.0"
     subgroup: emotion
@@ -2291,6 +2453,7 @@ emoji:
       - どかーん
       - どんっ
       - ぼんっ
+    slack: [ boom, collision ]
     en: collision
     since: "0.6"
     subgroup: emotion
@@ -2304,6 +2467,7 @@ emoji:
       - ほし
       - きらきら
       - ぴよぴよ
+    slack: [ dizzy ]
     en: dizzy
     since: "0.6"
     subgroup: emotion
@@ -2318,6 +2482,7 @@ emoji:
       - すいてき
       - みず
       - あせる
+    slack: [ sweat_drops ]
     en: sweat droplets
     since: "0.6"
     subgroup: emotion
@@ -2333,6 +2498,7 @@ emoji:
       - ぴゅー
       - かぜ
       - おなら
+    slack: [ dash ]
     en: dashing away
     since: "0.6"
     subgroup: emotion
@@ -2344,6 +2510,7 @@ emoji:
       - あな
       - ほーる
       - あなにはいりたい
+    slack: [ hole ]
     en: hole
     since: "0.7"
     subgroup: emotion
@@ -2359,6 +2526,7 @@ emoji:
       - めっせーじ
       - とーく
       - ちゃっと
+    slack: [ speech_balloon ]
     en: speech balloon
     since: "0.6"
     subgroup: emotion
@@ -2371,6 +2539,7 @@ emoji:
       - もくげき
       - めのふきだし
       - しょうげん
+    slack: [ eye-in-speech-bubble ]
     en: eye in speech bubble
     since: "2.0"
     subgroup: emotion
@@ -2384,6 +2553,7 @@ emoji:
       - ふきだし
       - かいわ
       - せりふ
+    slack: [ left_speech_bubble ]
     en: left speech bubble
     since: "2.0"
     subgroup: emotion
@@ -2397,6 +2567,7 @@ emoji:
       - いかり
       - さけび
       - どなる
+    slack: [ right_anger_bubble ]
     en: right anger bubble
     since: "0.7"
     subgroup: emotion
@@ -2411,6 +2582,7 @@ emoji:
       - くうそう
       - もくもく
       - もうそう
+    slack: [ thought_balloon ]
     en: thought balloon
     since: "1.0"
     subgroup: emotion
@@ -2426,6 +2598,7 @@ emoji:
       - おやすみ
       - すやすや
       - ねむい
+    slack: [ zzz ]
     en: ZZZ
     since: "0.6"
     subgroup: emotion

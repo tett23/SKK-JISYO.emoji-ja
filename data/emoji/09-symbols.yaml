@@ -1,6 +1,8 @@
 # SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
 #   name:     annotation shown in SKK (Japanese name; no "/" or ";")
 #   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   slack:    Slack-style short names (":thumbsup:" without colons), registered as headwords.
+#             Refreshed from iamcal/emoji-data; hand-written names are kept only while emoji-data has none
 #   review:   true if added automatically by the update task; remove after checking the readings
 # Other fields are refreshed from Unicode/CLDR by the update task.
 
@@ -15,6 +17,7 @@ emoji:
       - げんきんじどうあずけばらいき
       - ぎんこう
       - おかね
+    slack: [ atm ]
     en: ATM sign
     since: "0.6"
     subgroup: transport-sign
@@ -27,6 +30,7 @@ emoji:
       - ごみすて
       - くずかご
       - ごみ
+    slack: [ put_litter_in_its_place ]
     en: litter in bin sign
     since: "1.0"
     subgroup: transport-sign
@@ -40,6 +44,7 @@ emoji:
       - みず
       - すいどう
       - じゃぐち
+    slack: [ potable_water ]
     en: potable water
     since: "1.0"
     subgroup: transport-sign
@@ -52,6 +57,7 @@ emoji:
       - ばりあふりー
       - しょうがいしゃ
       - たもくてきといれ
+    slack: [ wheelchair ]
     en: wheelchair symbol
     since: "0.6"
     subgroup: transport-sign
@@ -66,6 +72,7 @@ emoji:
       - けしょうしつ
       - だんせい
       - wc
+    slack: [ mens ]
     en: men’s room
     since: "0.6"
     subgroup: transport-sign
@@ -80,6 +87,7 @@ emoji:
       - けしょうしつ
       - じょせい
       - wc
+    slack: [ womens ]
     en: women’s room
     since: "0.6"
     subgroup: transport-sign
@@ -94,6 +102,7 @@ emoji:
       - べんじょ
       - wc
       - れすとるーむ
+    slack: [ restroom ]
     en: restroom
     since: "0.6"
     subgroup: transport-sign
@@ -107,6 +116,7 @@ emoji:
       - べびー
       - あかんぼう
       - おむつがえ
+    slack: [ baby_symbol ]
     en: baby symbol
     since: "0.6"
     subgroup: transport-sign
@@ -120,6 +130,7 @@ emoji:
       - といれ
       - おてあらい
       - けしょうしつ
+    slack: [ wc ]
     en: water closet
     since: "0.6"
     subgroup: transport-sign
@@ -133,6 +144,7 @@ emoji:
       - ぱすぽーと
       - にゅうかん
       - しゅっこく
+    slack: [ passport_control ]
     en: passport control
     since: "1.0"
     subgroup: transport-sign
@@ -144,6 +156,7 @@ emoji:
       - ぜいかん
       - つうかん
       - くうこう
+    slack: [ customs ]
     en: customs
     since: "1.0"
     subgroup: transport-sign
@@ -157,6 +170,7 @@ emoji:
       - ばげっじくれーむ
       - すーつけーす
       - あずけにもつ
+    slack: [ baggage_claim ]
     en: baggage claim
     since: "1.0"
     subgroup: transport-sign
@@ -169,6 +183,7 @@ emoji:
       - こいんろっかー
       - ろっかー
       - にもつ
+    slack: [ left_luggage ]
     en: left luggage
     since: "1.0"
     subgroup: transport-sign
@@ -182,6 +197,7 @@ emoji:
       - きけん
       - あぶない
       - わーにんぐ
+    slack: [ warning ]
     en: warning
     since: "0.6"
     subgroup: warning
@@ -194,6 +210,7 @@ emoji:
       - つうがくろ
       - こども
       - おうだんほどう
+    slack: [ children_crossing ]
     en: children crossing
     since: "1.0"
     subgroup: warning
@@ -207,6 +224,7 @@ emoji:
       - きんし
       - だめ
       - たちいりきんし
+    slack: [ no_entry ]
     en: no entry
     since: "0.6"
     subgroup: warning
@@ -221,6 +239,7 @@ emoji:
       - だめ
       - ng
       - ふか
+    slack: [ no_entry_sign ]
     en: prohibited
     since: "0.6"
     subgroup: warning
@@ -233,6 +252,7 @@ emoji:
       - じてんしゃ
       - きんし
       - ちゅうりんきんし
+    slack: [ no_bicycles ]
     en: no bicycles
     since: "1.0"
     subgroup: warning
@@ -245,6 +265,7 @@ emoji:
       - たばこきんし
       - のーすもーきんぐ
       - きつえんきんし
+    slack: [ no_smoking ]
     en: no smoking
     since: "0.6"
     subgroup: warning
@@ -257,6 +278,7 @@ emoji:
       - ごみすてきんし
       - ぽいすて
       - きんし
+    slack: [ do_not_litter ]
     en: no littering
     since: "1.0"
     subgroup: warning
@@ -269,6 +291,7 @@ emoji:
       - のめないみず
       - いんようきんし
       - のむな
+    slack: [ non-potable_water ]
     en: non-potable water
     since: "1.0"
     subgroup: warning
@@ -281,6 +304,7 @@ emoji:
       - ほこうしゃきんし
       - つうこうきんし
       - たちいりきんし
+    slack: [ no_pedestrians ]
     en: no pedestrians
     since: "1.0"
     subgroup: warning
@@ -293,6 +317,7 @@ emoji:
       - けいたいきんし
       - すまほきんし
       - でんげんおふ
+    slack: [ no_mobile_phones ]
     en: no mobile phones
     since: "1.0"
     subgroup: warning
@@ -306,6 +331,7 @@ emoji:
       - ねんれいせいげん
       - みせいねん
       - あだると
+    slack: [ underage ]
     en: no one under eighteen
     since: "0.6"
     subgroup: warning
@@ -319,6 +345,7 @@ emoji:
       - ほうしゃせい
       - げんしりょく
       - きけん
+    slack: [ radioactive_sign ]
     en: radioactive
     since: "1.0"
     subgroup: warning
@@ -331,6 +358,7 @@ emoji:
       - ゆうがいぶっしつ
       - せいぶつさいがい
       - きけん
+    slack: [ biohazard_sign ]
     en: biohazard
     since: "1.0"
     subgroup: warning
@@ -344,6 +372,7 @@ emoji:
       - やじるし
       - きた
       - あっぷ
+    slack: [ arrow_up ]
     en: up arrow
     since: "0.6"
     subgroup: arrow
@@ -356,6 +385,7 @@ emoji:
       - みぎうえ
       - ほくとう
       - ななめうえ
+    slack: [ arrow_upper_right ]
     en: up-right arrow
     since: "0.6"
     subgroup: arrow
@@ -369,6 +399,7 @@ emoji:
       - やじるし
       - ひがし
       - つぎ
+    slack: [ arrow_right ]
     en: right arrow
     since: "0.6"
     subgroup: arrow
@@ -381,6 +412,7 @@ emoji:
       - みぎした
       - なんとう
       - ななめした
+    slack: [ arrow_lower_right ]
     en: down-right arrow
     since: "0.6"
     subgroup: arrow
@@ -394,6 +426,7 @@ emoji:
       - やじるし
       - みなみ
       - だうん
+    slack: [ arrow_down ]
     en: down arrow
     since: "0.6"
     subgroup: arrow
@@ -405,6 +438,7 @@ emoji:
       - ひだりしたやじるし
       - ひだりした
       - なんせい
+    slack: [ arrow_lower_left ]
     en: down-left arrow
     since: "0.6"
     subgroup: arrow
@@ -418,6 +452,7 @@ emoji:
       - やじるし
       - にし
       - もどる
+    slack: [ arrow_left ]
     en: left arrow
     since: "0.6"
     subgroup: arrow
@@ -429,6 +464,7 @@ emoji:
       - ひだりうえやじるし
       - ひだりうえ
       - ほくせい
+    slack: [ arrow_upper_left ]
     en: up-left arrow
     since: "0.6"
     subgroup: arrow
@@ -440,6 +476,7 @@ emoji:
       - じょうげやじるし
       - じょうげ
       - うえした
+    slack: [ arrow_up_down ]
     en: up-down arrow
     since: "0.6"
     subgroup: arrow
@@ -451,6 +488,7 @@ emoji:
       - さゆうやじるし
       - さゆう
       - みぎひだり
+    slack: [ left_right_arrow ]
     en: left-right arrow
     since: "0.6"
     subgroup: arrow
@@ -464,6 +502,7 @@ emoji:
       - もどる
       - りたーん
       - ゆーたーん
+    slack: [ leftwards_arrow_with_hook ]
     en: right arrow curving left
     since: "0.6"
     subgroup: arrow
@@ -476,6 +515,7 @@ emoji:
       - かーぶやじるし
       - すすむ
       - てんそう
+    slack: [ arrow_right_hook ]
     en: left arrow curving right
     since: "0.6"
     subgroup: arrow
@@ -487,6 +527,7 @@ emoji:
       - うえかーぶやじるし
       - かーぶやじるし
       - うえ
+    slack: [ arrow_heading_up ]
     en: right arrow curving up
     since: "0.6"
     subgroup: arrow
@@ -498,6 +539,7 @@ emoji:
       - したかーぶやじるし
       - かーぶやじるし
       - した
+    slack: [ arrow_heading_down ]
     en: right arrow curving down
     since: "0.6"
     subgroup: arrow
@@ -511,6 +553,7 @@ emoji:
       - とけいまわり
       - りろーど
       - さいよみこみ
+    slack: [ arrows_clockwise ]
     en: clockwise vertical arrows
     since: "0.6"
     subgroup: arrow
@@ -525,6 +568,7 @@ emoji:
       - こうしん
       - くりかえし
       - りぴーと
+    slack: [ arrows_counterclockwise ]
     en: counterclockwise arrows button
     since: "1.0"
     subgroup: arrow
@@ -537,6 +581,7 @@ emoji:
       - ばっく
       - もどる
       - back
+    slack: [ back ]
     en: BACK arrow
     since: "0.6"
     subgroup: arrow
@@ -549,6 +594,7 @@ emoji:
       - えんど
       - おわり
       - end
+    slack: [ end ]
     en: END arrow
     since: "0.6"
     subgroup: arrow
@@ -560,6 +606,7 @@ emoji:
       - おんやじるし
       - おん
       - on
+    slack: [ on ]
     en: ON! arrow
     since: "0.6"
     subgroup: arrow
@@ -573,6 +620,7 @@ emoji:
       - すぐ
       - まもなく
       - soon
+    slack: [ soon ]
     en: SOON arrow
     since: "0.6"
     subgroup: arrow
@@ -585,6 +633,7 @@ emoji:
       - とっぷ
       - うえ
       - top
+    slack: [ top ]
     en: TOP arrow
     since: "0.6"
     subgroup: arrow
@@ -598,6 +647,7 @@ emoji:
       - いのり
       - しゅうきょう
       - きとう
+    slack: [ place_of_worship ]
     en: place of worship
     since: "1.0"
     subgroup: religion
@@ -612,6 +662,7 @@ emoji:
       - ぶんし
       - げんそ
       - ぶつり
+    slack: [ atom_symbol ]
     en: atom symbol
     since: "1.0"
     subgroup: religion
@@ -624,6 +675,7 @@ emoji:
       - おーん
       - ひんずーきょう
       - ひんどぅーきょう
+    slack: [ om_symbol ]
     en: om
     since: "0.7"
     subgroup: religion
@@ -636,6 +688,7 @@ emoji:
       - ゆだやきょう
       - ろくぼうせい
       - へきさぐらむ
+    slack: [ star_of_david ]
     en: star of David
     since: "0.7"
     subgroup: religion
@@ -648,6 +701,7 @@ emoji:
       - てんぽうりん
       - ぶっきょう
       - だるま
+    slack: [ wheel_of_dharma ]
     en: wheel of dharma
     since: "0.7"
     subgroup: religion
@@ -661,6 +715,7 @@ emoji:
       - たいきょくず
       - いんやん
       - どうきょう
+    slack: [ yin_yang ]
     en: yin yang
     since: "0.7"
     subgroup: religion
@@ -673,6 +728,7 @@ emoji:
       - くろす
       - きりすときょう
       - らてんじゅうじ
+    slack: [ latin_cross ]
     en: latin cross
     since: "0.7"
     subgroup: religion
@@ -685,6 +741,7 @@ emoji:
       - じゅうじか
       - せいきょう
       - くろす
+    slack: [ orthodox_cross ]
     en: orthodox cross
     since: "1.0"
     subgroup: religion
@@ -697,6 +754,7 @@ emoji:
       - いすらむきょう
       - みかづき
       - むすりむ
+    slack: [ star_and_crescent ]
     en: star and crescent
     since: "0.7"
     subgroup: religion
@@ -709,6 +767,7 @@ emoji:
       - へいわ
       - ぴーす
       - はんせん
+    slack: [ peace_symbol ]
     en: peace symbol
     since: "1.0"
     subgroup: religion
@@ -722,6 +781,7 @@ emoji:
       - しょくだい
       - はぬかー
       - ゆだやきょう
+    slack: [ menorah_with_nine_branches ]
     en: menorah
     since: "1.0"
     subgroup: religion
@@ -735,6 +795,7 @@ emoji:
       - うらない
       - だびで
       - ほし
+    slack: [ six_pointed_star ]
     en: dotted six-pointed star
     since: "0.6"
     subgroup: religion
@@ -746,6 +807,7 @@ emoji:
       - かんだ
       - しーくきょう
       - しくきょう
+    slack: [ khanda ]
     en: khanda
     since: "15.0"
     subgroup: religion
@@ -758,6 +820,7 @@ emoji:
       - せいざ
       - ぼようざ
       - ありえす
+    slack: [ aries ]
     en: Aries
     since: "0.6"
     subgroup: zodiac
@@ -769,6 +832,7 @@ emoji:
       - おうしざ
       - せいざ
       - ぼぎゅうざ
+    slack: [ taurus ]
     en: Taurus
     since: "0.6"
     subgroup: zodiac
@@ -780,6 +844,7 @@ emoji:
       - ふたござ
       - せいざ
       - じぇみに
+    slack: [ gemini ]
     en: Gemini
     since: "0.6"
     subgroup: zodiac
@@ -790,6 +855,7 @@ emoji:
     readings:
       - かにざ
       - せいざ
+    slack: [ cancer ]
     en: Cancer
     since: "0.6"
     subgroup: zodiac
@@ -801,6 +867,7 @@ emoji:
       - ししざ
       - せいざ
       - れお
+    slack: [ leo ]
     en: Leo
     since: "0.6"
     subgroup: zodiac
@@ -811,6 +878,7 @@ emoji:
     readings:
       - おとめざ
       - せいざ
+    slack: [ virgo ]
     en: Virgo
     since: "0.6"
     subgroup: zodiac
@@ -821,6 +889,7 @@ emoji:
     readings:
       - てんびんざ
       - せいざ
+    slack: [ libra ]
     en: Libra
     since: "0.6"
     subgroup: zodiac
@@ -831,6 +900,7 @@ emoji:
     readings:
       - さそりざ
       - せいざ
+    slack: [ scorpius ]
     en: Scorpio
     since: "0.6"
     subgroup: zodiac
@@ -841,6 +911,7 @@ emoji:
     readings:
       - いてざ
       - せいざ
+    slack: [ sagittarius ]
     en: Sagittarius
     since: "0.6"
     subgroup: zodiac
@@ -851,6 +922,7 @@ emoji:
     readings:
       - やぎざ
       - せいざ
+    slack: [ capricorn ]
     en: Capricorn
     since: "0.6"
     subgroup: zodiac
@@ -861,6 +933,7 @@ emoji:
     readings:
       - みずがめざ
       - せいざ
+    slack: [ aquarius ]
     en: Aquarius
     since: "0.6"
     subgroup: zodiac
@@ -871,6 +944,7 @@ emoji:
     readings:
       - うおざ
       - せいざ
+    slack: [ pisces ]
     en: Pisces
     since: "0.6"
     subgroup: zodiac
@@ -881,6 +955,7 @@ emoji:
     readings:
       - へびつかいざ
       - せいざ
+    slack: [ ophiuchus ]
     en: Ophiuchus
     since: "0.6"
     subgroup: zodiac
@@ -893,6 +968,7 @@ emoji:
       - しゃっふる
       - らんだむ
       - らんだむさいせい
+    slack: [ twisted_rightwards_arrows ]
     en: shuffle tracks button
     since: "1.0"
     subgroup: av-symbol
@@ -906,6 +982,7 @@ emoji:
       - くりかえし
       - ぜんきょくりぴーと
       - るーぷ
+    slack: [ repeat ]
     en: repeat button
     since: "1.0"
     subgroup: av-symbol
@@ -918,6 +995,7 @@ emoji:
       - いっきょくりぴーと
       - りぴーと
       - くりかえし
+    slack: [ repeat_one ]
     en: repeat single button
     since: "1.0"
     subgroup: av-symbol
@@ -931,6 +1009,7 @@ emoji:
       - ぷれい
       - すたーと
       - みぎさんかく
+    slack: [ arrow_forward ]
     en: play button
     since: "0.6"
     subgroup: av-symbol
@@ -943,6 +1022,7 @@ emoji:
       - はやおくり
       - ばいそく
       - すきっぷ
+    slack: [ fast_forward ]
     en: fast-forward button
     since: "0.6"
     subgroup: av-symbol
@@ -956,6 +1036,7 @@ emoji:
       - すきっぷ
       - つぎ
       - ねくすと
+    slack: [ black_right_pointing_double_triangle_with_vertical_bar ]
     en: next track button
     since: "0.7"
     subgroup: av-symbol
@@ -968,6 +1049,7 @@ emoji:
       - さいせい
       - いちじていし
       - ぽーず
+    slack: [ black_right_pointing_triangle_with_double_vertical_bar ]
     en: play or pause button
     since: "1.0"
     subgroup: av-symbol
@@ -980,6 +1062,7 @@ emoji:
       - ぎゃくさいせい
       - ひだりさんかく
       - まきもどし
+    slack: [ arrow_backward ]
     en: reverse button
     since: "0.6"
     subgroup: av-symbol
@@ -992,6 +1075,7 @@ emoji:
       - はやもどし
       - まきもどし
       - ばいそく
+    slack: [ rewind ]
     en: fast reverse button
     since: "0.6"
     subgroup: av-symbol
@@ -1004,6 +1088,7 @@ emoji:
       - まえのきょく
       - まえ
       - もどる
+    slack: [ black_left_pointing_double_triangle_with_vertical_bar ]
     en: last track button
     since: "0.7"
     subgroup: av-symbol
@@ -1015,6 +1100,7 @@ emoji:
       - うえぼたん
       - うえ
       - うえさんかく
+    slack: [ arrow_up_small ]
     en: upwards button
     since: "0.6"
     subgroup: av-symbol
@@ -1027,6 +1113,7 @@ emoji:
       - うえ
       - こうそく
       - にじゅうやじるし
+    slack: [ arrow_double_up ]
     en: fast up button
     since: "0.6"
     subgroup: av-symbol
@@ -1038,6 +1125,7 @@ emoji:
       - したぼたん
       - した
       - したさんかく
+    slack: [ arrow_down_small ]
     en: downwards button
     since: "0.6"
     subgroup: av-symbol
@@ -1050,6 +1138,7 @@ emoji:
       - した
       - こうそく
       - にじゅうやじるし
+    slack: [ arrow_double_down ]
     en: fast down button
     since: "0.6"
     subgroup: av-symbol
@@ -1062,6 +1151,7 @@ emoji:
       - いちじていし
       - ぽーず
       - ていし
+    slack: [ double_vertical_bar ]
     en: pause button
     since: "0.7"
     subgroup: av-symbol
@@ -1074,6 +1164,7 @@ emoji:
       - ていし
       - すとっぷ
       - しかく
+    slack: [ black_square_for_stop ]
     en: stop button
     since: "0.7"
     subgroup: av-symbol
@@ -1087,6 +1178,7 @@ emoji:
       - ろくおん
       - れこーど
       - きろく
+    slack: [ black_circle_for_record ]
     en: record button
     since: "0.7"
     subgroup: av-symbol
@@ -1098,6 +1190,7 @@ emoji:
       - とりだしぼたん
       - とりだし
       - いじぇくと
+    slack: [ eject ]
     en: eject button
     since: "1.0"
     subgroup: av-symbol
@@ -1111,6 +1204,7 @@ emoji:
       - しねま
       - どうが
       - むーびー
+    slack: [ cinema ]
     en: cinema
     since: "0.6"
     subgroup: av-symbol
@@ -1124,6 +1218,7 @@ emoji:
       - あかるさ
       - きど
       - ぶらいとねす
+    slack: [ low_brightness ]
     en: dim button
     since: "1.0"
     subgroup: av-symbol
@@ -1137,6 +1232,7 @@ emoji:
       - あかるさ
       - きど
       - ぶらいとねす
+    slack: [ high_brightness ]
     en: bright button
     since: "1.0"
     subgroup: av-symbol
@@ -1150,6 +1246,7 @@ emoji:
       - あんてな
       - けんない
       - ばりさん
+    slack: [ signal_strength ]
     en: antenna bars
     since: "0.6"
     subgroup: av-symbol
@@ -1164,6 +1261,7 @@ emoji:
       - でんぱ
       - ねっと
       - いんたーねっと
+    slack: [ wireless ]
     en: wireless
     since: "15.0"
     subgroup: av-symbol
@@ -1176,6 +1274,7 @@ emoji:
       - ばいぶ
       - しんどう
       - ばいぶれーしょん
+    slack: [ vibration_mode ]
     en: vibration mode
     since: "0.6"
     subgroup: av-symbol
@@ -1188,6 +1287,7 @@ emoji:
       - でんげんおふ
       - けいたいおふ
       - おふ
+    slack: [ mobile_phone_off ]
     en: mobile phone off
     since: "0.6"
     subgroup: av-symbol
@@ -1201,6 +1301,7 @@ emoji:
       - おんな
       - めす
       - ひーなす
+    slack: [ female_sign ]
     en: female sign
     since: "4.0"
     subgroup: gender
@@ -1214,6 +1315,7 @@ emoji:
       - おとこ
       - おす
       - まーず
+    slack: [ male_sign ]
     en: male sign
     since: "4.0"
     subgroup: gender
@@ -1226,6 +1328,7 @@ emoji:
       - とらんすじぇんだー
       - せいべつ
       - lgbt
+    slack: [ transgender_symbol ]
     en: transgender symbol
     since: "13.0"
     subgroup: gender
@@ -1239,6 +1342,7 @@ emoji:
       - ばつ
       - ぺけ
       - じょうざん
+    slack: [ heavy_multiplication_x ]
     en: multiply
     since: "0.6"
     subgroup: math
@@ -1251,6 +1355,7 @@ emoji:
       - たしざん
       - たす
       - かさん
+    slack: [ heavy_plus_sign ]
     en: plus
     since: "0.6"
     subgroup: math
@@ -1263,6 +1368,7 @@ emoji:
       - ひきざん
       - ひく
       - げんざん
+    slack: [ heavy_minus_sign ]
     en: minus
     since: "0.6"
     subgroup: math
@@ -1274,6 +1380,7 @@ emoji:
       - わりざん
       - わる
       - じょざん
+    slack: [ heavy_division_sign ]
     en: divide
     since: "0.6"
     subgroup: math
@@ -1286,6 +1393,7 @@ emoji:
       - いこーる
       - ひとしい
       - ふとじのとうごう
+    slack: [ heavy_equals_sign ]
     en: heavy equals sign
     since: "14.0"
     subgroup: math
@@ -1298,6 +1406,7 @@ emoji:
       - むげん
       - えいえん
       - いんふぃにてぃ
+    slack: [ infinity ]
     en: infinity
     since: "11.0"
     subgroup: math
@@ -1311,6 +1420,7 @@ emoji:
       - かんたんふ
       - えくすくらめーしょんまーく
       - びっくり
+    slack: [ bangbang ]
     en: double exclamation mark
     since: "0.6"
     subgroup: punctuation
@@ -1324,6 +1434,7 @@ emoji:
       - はてなびっくり
       - はてな
       - びっくりまーく
+    slack: [ interrobang ]
     en: exclamation question mark
     since: "0.6"
     subgroup: punctuation
@@ -1338,6 +1449,7 @@ emoji:
       - はてなまーく
       - くえすちょんまーく
       - なぜ
+    slack: [ question ]
     en: red question mark
     since: "0.6"
     subgroup: punctuation
@@ -1351,6 +1463,7 @@ emoji:
       - はてな
       - はてなまーく
       - くえすちょんまーく
+    slack: [ grey_question ]
     en: white question mark
     since: "0.6"
     subgroup: punctuation
@@ -1363,6 +1476,7 @@ emoji:
       - かんたんふ
       - びっくりまーく
       - えくすくらめーしょんまーく
+    slack: [ grey_exclamation ]
     en: white exclamation mark
     since: "0.6"
     subgroup: punctuation
@@ -1377,6 +1491,7 @@ emoji:
       - えくすくらめーしょんまーく
       - びっくり
       - ちゅうい
+    slack: [ exclamation, heavy_exclamation_mark ]
     en: red exclamation mark
     since: "0.6"
     subgroup: punctuation
@@ -1389,6 +1504,7 @@ emoji:
       - なみ
       - にょろにょろ
       - ちるだ
+    slack: [ wavy_dash ]
     en: wavy dash
     since: "0.6"
     subgroup: punctuation
@@ -1404,6 +1520,7 @@ emoji:
       - つうか
       - どるえん
       - えんどる
+    slack: [ currency_exchange ]
     en: currency exchange
     since: "0.6"
     subgroup: currency
@@ -1418,6 +1535,7 @@ emoji:
       - だらー
       - おかね
       - つうか
+    slack: [ heavy_dollar_sign ]
     en: heavy dollar sign
     since: "0.6"
     subgroup: currency
@@ -1432,6 +1550,7 @@ emoji:
       - いしゃ
       - ちりょう
       - いりょうまーく
+    slack: [ medical_symbol, staff_of_aesculapius ]
     en: medical symbol
     since: "4.0"
     subgroup: other-symbol
@@ -1446,6 +1565,7 @@ emoji:
       - さいせい
       - えこ
       - しげん
+    slack: [ recycle ]
     en: recycling symbol
     since: "0.6"
     subgroup: other-symbol
@@ -1460,6 +1580,7 @@ emoji:
       - えんぶれむ
       - ふらんすおうけ
       - ゆり
+    slack: [ fleur_de_lis ]
     en: fleur-de-lis
     since: "1.0"
     subgroup: other-symbol
@@ -1474,6 +1595,7 @@ emoji:
       - ほこ
       - ぽせいどん
       - えんぶれむ
+    slack: [ trident ]
     en: trident emblem
     since: "0.6"
     subgroup: other-symbol
@@ -1488,6 +1610,7 @@ emoji:
       - なまえ
       - ようちえん
       - ほいくえん
+    slack: [ name_badge ]
     en: name badge
     since: "0.6"
     subgroup: other-symbol
@@ -1503,6 +1626,7 @@ emoji:
       - びぎなー
       - しんまい
       - しょしん
+    slack: [ beginner ]
     en: Japanese symbol for beginner
     since: "0.6"
     subgroup: other-symbol
@@ -1518,6 +1642,7 @@ emoji:
       - おーけー
       - わ
       - ただしい
+    slack: [ o ]
     en: hollow red circle
     since: "0.6"
     subgroup: other-symbol
@@ -1533,6 +1658,7 @@ emoji:
       - かんりょう
       - ok
       - おーけー
+    slack: [ white_check_mark ]
     en: check mark button
     since: "0.6"
     subgroup: other-symbol
@@ -1546,6 +1672,7 @@ emoji:
       - ちぇっくまーく
       - すみ
       - かんりょう
+    slack: [ ballot_box_with_check ]
     en: check box with check
     since: "0.6"
     subgroup: other-symbol
@@ -1560,6 +1687,7 @@ emoji:
       - すみ
       - かんりょう
       - れ
+    slack: [ heavy_check_mark ]
     en: check mark
     since: "0.6"
     subgroup: other-symbol
@@ -1576,6 +1704,7 @@ emoji:
       - まちがい
       - ng
       - かける
+    slack: [ x ]
     en: cross mark
     since: "0.6"
     subgroup: other-symbol
@@ -1590,6 +1719,7 @@ emoji:
       - ばってん
       - きゃんせる
       - だめ
+    slack: [ negative_squared_cross_mark ]
     en: cross mark button
     since: "0.6"
     subgroup: other-symbol
@@ -1603,6 +1733,7 @@ emoji:
       - くるくる
       - ちょうおん
       - にょろ
+    slack: [ curly_loop ]
     en: curly loop
     since: "0.6"
     subgroup: other-symbol
@@ -1615,6 +1746,7 @@ emoji:
       - るーぷ
       - ふりーだいやる
       - わっか
+    slack: [ loop ]
     en: double curly loop
     since: "1.0"
     subgroup: other-symbol
@@ -1626,6 +1758,7 @@ emoji:
       - いおりてん
       - うたきごう
       - やくもの
+    slack: [ part_alternation_mark ]
     en: part alternation mark
     since: "0.6"
     subgroup: other-symbol
@@ -1639,6 +1772,7 @@ emoji:
       - こめじるし
       - ほし
       - やくもの
+    slack: [ eight_spoked_asterisk ]
     en: eight-spoked asterisk
     since: "0.6"
     subgroup: other-symbol
@@ -1651,6 +1785,7 @@ emoji:
       - はちぼうせい
       - ほし
       - やくもの
+    slack: [ eight_pointed_black_star ]
     en: eight-pointed star
     since: "0.6"
     subgroup: other-symbol
@@ -1664,6 +1799,7 @@ emoji:
       - ぴかぴか
       - かがやき
       - あすたりすく
+    slack: [ sparkle ]
     en: sparkle
     since: "0.6"
     subgroup: other-symbol
@@ -1677,6 +1813,7 @@ emoji:
       - こぴーらいと
       - しーまーく
       - まるしー
+    slack: [ copyright ]
     en: copyright
     since: "0.6"
     subgroup: other-symbol
@@ -1690,6 +1827,7 @@ emoji:
       - あーるまーく
       - まるあーる
       - しょうひょう
+    slack: [ registered ]
     en: registered
     since: "0.6"
     subgroup: other-symbol
@@ -1703,6 +1841,7 @@ emoji:
       - とれーどまーく
       - tm
       - てぃーえむ
+    slack: [ tm ]
     en: trade mark
     since: "0.6"
     subgroup: other-symbol
@@ -1718,6 +1857,7 @@ emoji:
       - すぷらった
       - すぷらっしゅ
       - とびちり
+    slack: [ splatter ]
     en: splatter
     since: "16.0"
     subgroup: other-symbol
@@ -1731,6 +1871,7 @@ emoji:
       - はっしゅ
       - なんばー
       - ばんごう
+    slack: [ hash ]
     en: "keycap: #"
     since: "0.6"
     subgroup: keycap
@@ -1743,6 +1884,7 @@ emoji:
       - こめじるし
       - ほし
       - すたー
+    slack: [ keycap_star ]
     en: "keycap: *"
     since: "2.0"
     subgroup: keycap
@@ -1755,6 +1897,7 @@ emoji:
       - "0"
       - れい
       - まる
+    slack: [ zero ]
     en: "keycap: 0"
     since: "0.6"
     subgroup: keycap
@@ -1767,6 +1910,7 @@ emoji:
       - "1"
       - わん
       - ひとつ
+    slack: [ one ]
     en: "keycap: 1"
     since: "0.6"
     subgroup: keycap
@@ -1779,6 +1923,7 @@ emoji:
       - "2"
       - つー
       - ふたつ
+    slack: [ two ]
     en: "keycap: 2"
     since: "0.6"
     subgroup: keycap
@@ -1791,6 +1936,7 @@ emoji:
       - "3"
       - すりー
       - みっつ
+    slack: [ three ]
     en: "keycap: 3"
     since: "0.6"
     subgroup: keycap
@@ -1804,6 +1950,7 @@ emoji:
       - し
       - ふぉー
       - よっつ
+    slack: [ four ]
     en: "keycap: 4"
     since: "0.6"
     subgroup: keycap
@@ -1816,6 +1963,7 @@ emoji:
       - "5"
       - ふぁいぶ
       - いつつ
+    slack: [ five ]
     en: "keycap: 5"
     since: "0.6"
     subgroup: keycap
@@ -1828,6 +1976,7 @@ emoji:
       - "6"
       - しっくす
       - むっつ
+    slack: [ six ]
     en: "keycap: 6"
     since: "0.6"
     subgroup: keycap
@@ -1841,6 +1990,7 @@ emoji:
       - しち
       - せぶん
       - ななつ
+    slack: [ seven ]
     en: "keycap: 7"
     since: "0.6"
     subgroup: keycap
@@ -1853,6 +2003,7 @@ emoji:
       - "8"
       - えいと
       - やっつ
+    slack: [ eight ]
     en: "keycap: 8"
     since: "0.6"
     subgroup: keycap
@@ -1866,6 +2017,7 @@ emoji:
       - く
       - ないん
       - ここのつ
+    slack: [ nine ]
     en: "keycap: 9"
     since: "0.6"
     subgroup: keycap
@@ -1878,6 +2030,7 @@ emoji:
       - "10"
       - てん
       - とお
+    slack: [ keycap_ten ]
     en: "keycap: 10"
     since: "0.6"
     subgroup: keycap
@@ -1892,6 +2045,7 @@ emoji:
       - あるふぁべっと
       - ろーまじ
       - abcd
+    slack: [ capital_abcd ]
     en: input latin uppercase
     since: "0.6"
     subgroup: alphanum
@@ -1906,6 +2060,7 @@ emoji:
       - あるふぁべっと
       - ろーまじ
       - abcd
+    slack: [ abcd ]
     en: input latin lowercase
     since: "0.6"
     subgroup: alphanum
@@ -1918,6 +2073,7 @@ emoji:
       - すうじ
       - "1234"
       - ばんごう
+    slack: [ "1234" ]
     en: input numbers
     since: "0.6"
     subgroup: alphanum
@@ -1929,6 +2085,7 @@ emoji:
       - きごうのにゅうりょく
       - きごう
       - しんぼる
+    slack: [ symbols ]
     en: input symbols
     since: "0.6"
     subgroup: alphanum
@@ -1942,6 +2099,7 @@ emoji:
       - あるふぁべっと
       - ろーまじ
       - abc
+    slack: [ abc ]
     en: input latin letters
     since: "0.6"
     subgroup: alphanum
@@ -1954,6 +2112,7 @@ emoji:
       - えーがた
       - えー
       - けつえきがた
+    slack: [ a ]
     en: A button (blood type)
     since: "0.6"
     subgroup: alphanum
@@ -1966,6 +2125,7 @@ emoji:
       - えーびーがた
       - えーびー
       - けつえきがた
+    slack: [ ab ]
     en: AB button (blood type)
     since: "0.6"
     subgroup: alphanum
@@ -1978,6 +2138,7 @@ emoji:
       - びーがた
       - びー
       - けつえきがた
+    slack: [ b ]
     en: B button (blood type)
     since: "0.6"
     subgroup: alphanum
@@ -1990,6 +2151,7 @@ emoji:
       - くりあ
       - しーえる
       - しーえるまーく
+    slack: [ cl ]
     en: CL button
     since: "0.6"
     subgroup: alphanum
@@ -2002,6 +2164,7 @@ emoji:
       - くーる
       - かっこいい
       - cool
+    slack: [ cool ]
     en: COOL button
     since: "0.6"
     subgroup: alphanum
@@ -2015,6 +2178,7 @@ emoji:
       - むりょう
       - ただ
       - free
+    slack: [ free ]
     en: FREE button
     since: "0.6"
     subgroup: alphanum
@@ -2029,6 +2193,7 @@ emoji:
       - あんないじょ
       - あんない
       - いんふぉ
+    slack: [ information_source ]
     en: information
     since: "0.6"
     subgroup: alphanum
@@ -2041,6 +2206,7 @@ emoji:
       - あいでぃー
       - あいでぃーまーく
       - しきべつ
+    slack: [ id ]
     en: ID button
     since: "0.6"
     subgroup: alphanum
@@ -2054,6 +2220,7 @@ emoji:
       - えむ
       - えむまーく
       - ちかてつ
+    slack: [ m ]
     en: circled M
     since: "0.6"
     subgroup: alphanum
@@ -2068,6 +2235,7 @@ emoji:
       - しん
       - しんちゃく
       - new
+    slack: [ new ]
     en: NEW button
     since: "0.6"
     subgroup: alphanum
@@ -2081,6 +2249,7 @@ emoji:
       - えぬじーまーく
       - ぼつ
       - だめ
+    slack: [ ng ]
     en: NG button
     since: "0.6"
     subgroup: alphanum
@@ -2093,6 +2262,7 @@ emoji:
       - おーがた
       - おー
       - けつえきがた
+    slack: [ o2 ]
     en: O button (blood type)
     since: "0.6"
     subgroup: alphanum
@@ -2107,6 +2277,7 @@ emoji:
       - おけ
       - おーけーまーく
       - りょうかい
+    slack: [ ok ]
     en: OK button
     since: "0.6"
     subgroup: alphanum
@@ -2119,6 +2290,7 @@ emoji:
       - ぱーきんぐ
       - ちゅうしゃじょう
       - ぴー
+    slack: [ parking ]
     en: P button
     since: "0.6"
     subgroup: alphanum
@@ -2132,6 +2304,7 @@ emoji:
       - たすけて
       - きゅうじょ
       - えすおーえすまーく
+    slack: [ sos ]
     en: SOS button
     since: "0.6"
     subgroup: alphanum
@@ -2145,6 +2318,7 @@ emoji:
       - こうしん
       - あっぷでーと
       - じょうしょう
+    slack: [ up ]
     en: UP! button
     since: "0.6"
     subgroup: alphanum
@@ -2158,6 +2332,7 @@ emoji:
       - ばーさす
       - たい
       - たいせん
+    slack: [ vs ]
     en: VS button
     since: "0.6"
     subgroup: alphanum
@@ -2170,6 +2345,7 @@ emoji:
       - ここ
       - こちら
       - げんざいち
+    slack: [ koko ]
     en: Japanese “here” button
     since: "0.6"
     subgroup: alphanum
@@ -2182,6 +2358,7 @@ emoji:
       - さーびすりょう
       - さ
       - さーびす
+    slack: [ sa ]
     en: Japanese “service charge” button
     since: "0.6"
     subgroup: alphanum
@@ -2195,6 +2372,7 @@ emoji:
       - つきぎめ
       - つき
       - まいつき
+    slack: [ u6708 ]
     en: Japanese “monthly amount” button
     since: "0.6"
     subgroup: alphanum
@@ -2207,6 +2385,7 @@ emoji:
       - ゆうりょう
       - ゆう
       - ありょう
+    slack: [ u6709 ]
     en: Japanese “not free of charge” button
     since: "0.6"
     subgroup: alphanum
@@ -2220,6 +2399,7 @@ emoji:
       - してい
       - よやく
       - ゆび
+    slack: [ u6307 ]
     en: Japanese “reserved” button
     since: "0.6"
     subgroup: alphanum
@@ -2233,6 +2413,7 @@ emoji:
       - とく
       - ばーげん
       - おかいどく
+    slack: [ ideograph_advantage ]
     en: Japanese “bargain” button
     since: "0.6"
     subgroup: alphanum
@@ -2246,6 +2427,7 @@ emoji:
       - わり
       - でぃすかうんと
       - せーる
+    slack: [ u5272 ]
     en: Japanese “discount” button
     since: "0.6"
     subgroup: alphanum
@@ -2259,6 +2441,7 @@ emoji:
       - ただ
       - む
       - ふりー
+    slack: [ u7121 ]
     en: Japanese “free of charge” button
     since: "0.6"
     subgroup: alphanum
@@ -2272,6 +2455,7 @@ emoji:
       - げんきん
       - きん
       - だめ
+    slack: [ u7981 ]
     en: Japanese “prohibited” button
     since: "0.6"
     subgroup: alphanum
@@ -2285,6 +2469,7 @@ emoji:
       - かのう
       - きょか
       - おーけー
+    slack: [ accept ]
     en: Japanese “acceptable” button
     since: "0.6"
     subgroup: alphanum
@@ -2297,6 +2482,7 @@ emoji:
       - もうしこみ
       - しんせい
       - しん
+    slack: [ u7533 ]
     en: Japanese “application” button
     since: "0.6"
     subgroup: alphanum
@@ -2309,6 +2495,7 @@ emoji:
       - ごうかく
       - ごう
       - ぱす
+    slack: [ u5408 ]
     en: Japanese “passing grade” button
     since: "0.6"
     subgroup: alphanum
@@ -2323,6 +2510,7 @@ emoji:
       - あき
       - くう
       - くうしゃ
+    slack: [ u7a7a ]
     en: Japanese “vacancy” button
     since: "0.6"
     subgroup: alphanum
@@ -2337,6 +2525,7 @@ emoji:
       - おめでとう
       - しゅく
       - まるいわい
+    slack: [ congratulations ]
     en: Japanese “congratulations” button
     since: "0.6"
     subgroup: alphanum
@@ -2351,6 +2540,7 @@ emoji:
       - しゃがいひ
       - ひ
       - ないしょ
+    slack: [ secret ]
     en: Japanese “secret” button
     since: "0.6"
     subgroup: alphanum
@@ -2364,6 +2554,7 @@ emoji:
       - えいぎょう
       - えいぎょうび
       - えい
+    slack: [ u55b6 ]
     en: Japanese “open for business” button
     since: "0.6"
     subgroup: alphanum
@@ -2378,6 +2569,7 @@ emoji:
       - まんせき
       - まんしゃ
       - まん
+    slack: [ u6e80 ]
     en: Japanese “no vacancy” button
     since: "0.6"
     subgroup: alphanum
@@ -2391,6 +2583,7 @@ emoji:
       - あか
       - まる
       - れっど
+    slack: [ red_circle ]
     en: red circle
     since: "0.6"
     subgroup: geometric
@@ -2404,6 +2597,7 @@ emoji:
       - おれんじ
       - だいだい
       - まる
+    slack: [ large_orange_circle ]
     en: orange circle
     since: "12.0"
     subgroup: geometric
@@ -2418,6 +2612,7 @@ emoji:
       - きまる
       - まる
       - いえろー
+    slack: [ large_yellow_circle ]
     en: yellow circle
     since: "12.0"
     subgroup: geometric
@@ -2431,6 +2626,7 @@ emoji:
       - みどり
       - まる
       - ぐりーん
+    slack: [ large_green_circle ]
     en: green circle
     since: "12.0"
     subgroup: geometric
@@ -2444,6 +2640,7 @@ emoji:
       - あお
       - まる
       - ぶるー
+    slack: [ large_blue_circle ]
     en: blue circle
     since: "0.6"
     subgroup: geometric
@@ -2457,6 +2654,7 @@ emoji:
       - むらさき
       - まる
       - ぱーぷる
+    slack: [ large_purple_circle ]
     en: purple circle
     since: "12.0"
     subgroup: geometric
@@ -2470,6 +2668,7 @@ emoji:
       - ちゃいろ
       - まる
       - ぶらうん
+    slack: [ large_brown_circle ]
     en: brown circle
     since: "12.0"
     subgroup: geometric
@@ -2483,6 +2682,7 @@ emoji:
       - くろ
       - まる
       - ぶらっく
+    slack: [ black_circle ]
     en: black circle
     since: "0.6"
     subgroup: geometric
@@ -2496,6 +2696,7 @@ emoji:
       - しろ
       - まる
       - ほわいと
+    slack: [ white_circle ]
     en: white circle
     since: "0.6"
     subgroup: geometric
@@ -2509,6 +2710,7 @@ emoji:
       - あか
       - しかく
       - せいほうけい
+    slack: [ large_red_square ]
     en: red square
     since: "12.0"
     subgroup: geometric
@@ -2522,6 +2724,7 @@ emoji:
       - おれんじ
       - しかく
       - せいほうけい
+    slack: [ large_orange_square ]
     en: orange square
     since: "12.0"
     subgroup: geometric
@@ -2535,6 +2738,7 @@ emoji:
       - きいろ
       - しかく
       - せいほうけい
+    slack: [ large_yellow_square ]
     en: yellow square
     since: "12.0"
     subgroup: geometric
@@ -2548,6 +2752,7 @@ emoji:
       - みどり
       - しかく
       - せいほうけい
+    slack: [ large_green_square ]
     en: green square
     since: "12.0"
     subgroup: geometric
@@ -2561,6 +2766,7 @@ emoji:
       - あお
       - しかく
       - せいほうけい
+    slack: [ large_blue_square ]
     en: blue square
     since: "12.0"
     subgroup: geometric
@@ -2574,6 +2780,7 @@ emoji:
       - むらさき
       - しかく
       - せいほうけい
+    slack: [ large_purple_square ]
     en: purple square
     since: "12.0"
     subgroup: geometric
@@ -2587,6 +2794,7 @@ emoji:
       - ちゃいろ
       - しかく
       - せいほうけい
+    slack: [ large_brown_square ]
     en: brown square
     since: "12.0"
     subgroup: geometric
@@ -2600,6 +2808,7 @@ emoji:
       - くろ
       - しかく
       - せいほうけい
+    slack: [ black_large_square ]
     en: black large square
     since: "0.6"
     subgroup: geometric
@@ -2613,6 +2822,7 @@ emoji:
       - しろ
       - しかく
       - せいほうけい
+    slack: [ white_large_square ]
     en: white large square
     since: "0.6"
     subgroup: geometric
@@ -2626,6 +2836,7 @@ emoji:
       - くろ
       - しかく
       - せいほうけい
+    slack: [ black_medium_square ]
     en: black medium square
     since: "0.6"
     subgroup: geometric
@@ -2639,6 +2850,7 @@ emoji:
       - しろ
       - しかく
       - せいほうけい
+    slack: [ white_medium_square ]
     en: white medium square
     since: "0.6"
     subgroup: geometric
@@ -2652,6 +2864,7 @@ emoji:
       - くろ
       - しかく
       - せいほうけい
+    slack: [ black_medium_small_square ]
     en: black medium-small square
     since: "0.6"
     subgroup: geometric
@@ -2665,6 +2878,7 @@ emoji:
       - しろ
       - しかく
       - せいほうけい
+    slack: [ white_medium_small_square ]
     en: white medium-small square
     since: "0.6"
     subgroup: geometric
@@ -2678,6 +2892,7 @@ emoji:
       - くろ
       - しかく
       - せいほうけい
+    slack: [ black_small_square ]
     en: black small square
     since: "0.6"
     subgroup: geometric
@@ -2691,6 +2906,7 @@ emoji:
       - しろ
       - しかく
       - せいほうけい
+    slack: [ white_small_square ]
     en: white small square
     since: "0.6"
     subgroup: geometric
@@ -2704,6 +2920,7 @@ emoji:
       - ひしがた
       - だいや
       - おれんじ
+    slack: [ large_orange_diamond ]
     en: large orange diamond
     since: "0.6"
     subgroup: geometric
@@ -2717,6 +2934,7 @@ emoji:
       - ひしがた
       - だいや
       - あお
+    slack: [ large_blue_diamond ]
     en: large blue diamond
     since: "0.6"
     subgroup: geometric
@@ -2730,6 +2948,7 @@ emoji:
       - ひしがた
       - だいや
       - おれんじ
+    slack: [ small_orange_diamond ]
     en: small orange diamond
     since: "0.6"
     subgroup: geometric
@@ -2743,6 +2962,7 @@ emoji:
       - ひしがた
       - だいや
       - あお
+    slack: [ small_blue_diamond ]
     en: small blue diamond
     since: "0.6"
     subgroup: geometric
@@ -2757,6 +2977,7 @@ emoji:
       - うえ
       - あか
       - じょうしょう
+    slack: [ small_red_triangle ]
     en: red triangle pointed up
     since: "0.6"
     subgroup: geometric
@@ -2771,6 +2992,7 @@ emoji:
       - さんかく
       - した
       - あか
+    slack: [ small_red_triangle_down ]
     en: red triangle pointed down
     since: "0.6"
     subgroup: geometric
@@ -2784,6 +3006,7 @@ emoji:
       - だいや
       - はな
       - かわいい
+    slack: [ diamond_shape_with_a_dot_inside ]
     en: diamond with a dot
     since: "0.6"
     subgroup: geometric
@@ -2796,6 +3019,7 @@ emoji:
       - ぼたん
       - にじゅうまる
       - せんたく
+    slack: [ radio_button ]
     en: radio button
     since: "0.6"
     subgroup: geometric
@@ -2809,6 +3033,7 @@ emoji:
       - ぼたん
       - しかく
       - わく
+    slack: [ white_square_button ]
     en: white square button
     since: "0.6"
     subgroup: geometric
@@ -2822,6 +3047,7 @@ emoji:
       - ぼたん
       - しかく
       - わく
+    slack: [ black_square_button ]
     en: black square button
     since: "0.6"
     subgroup: geometric

@@ -1,6 +1,8 @@
 # SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
 #   name:     annotation shown in SKK (Japanese name; no "/" or ";")
 #   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   slack:    Slack-style short names (":thumbsup:" without colons), registered as headwords.
+#             Refreshed from iamcal/emoji-data; hand-written names are kept only while emoji-data has none
 #   review:   true if added automatically by the update task; remove after checking the readings
 # Other fields are refreshed from Unicode/CLDR by the update task.
 
@@ -14,6 +16,7 @@ emoji:
       - よーろっぱ
       - あふりか
       - せかい
+    slack: [ earth_africa ]
     en: globe showing Europe-Africa
     since: "0.7"
     subgroup: place-map
@@ -26,6 +29,7 @@ emoji:
       - あめりかたいりく
       - あめりか
       - せかい
+    slack: [ earth_americas ]
     en: globe showing Americas
     since: "0.7"
     subgroup: place-map
@@ -38,6 +42,7 @@ emoji:
       - あじあ
       - おーすとらりあ
       - せかい
+    slack: [ earth_asia ]
     en: globe showing Asia-Australia
     since: "0.6"
     subgroup: place-map
@@ -51,6 +56,7 @@ emoji:
       - いんたーねっと
       - うぇぶ
       - ぐろーばる
+    slack: [ globe_with_meridians ]
     en: globe with meridians
     since: "1.0"
     subgroup: place-map
@@ -64,6 +70,7 @@ emoji:
       - まっぷ
       - わーるどまっぷ
       - りょこう
+    slack: [ world_map ]
     en: world map
     since: "0.7"
     subgroup: place-map
@@ -76,6 +83,7 @@ emoji:
       - にっぽんちず
       - にほん
       - ちず
+    slack: [ japan ]
     en: map of Japan
     since: "0.6"
     subgroup: place-map
@@ -88,6 +96,7 @@ emoji:
       - ほういじしん
       - らしんばん
       - ほうがく
+    slack: [ compass ]
     en: compass
     since: "11.0"
     subgroup: place-map
@@ -100,6 +109,7 @@ emoji:
       - やま
       - ゆきげしょう
       - まうんてん
+    slack: [ snow_capped_mountain ]
     en: snow-capped mountain
     since: "0.7"
     subgroup: place-geographic
@@ -113,6 +123,7 @@ emoji:
       - まうんてん
       - とざん
       - さんちょう
+    slack: [ mountain ]
     en: mountain
     since: "0.7"
     subgroup: place-geographic
@@ -127,6 +138,7 @@ emoji:
       - がけくずれ
       - らくせき
       - どしゃさいがい
+    slack: [ landslide ]
     en: landslide
     since: "17.0"
     subgroup: place-geographic
@@ -140,6 +152,7 @@ emoji:
       - ようがん
       - ふんかこう
       - まぐま
+    slack: [ volcano ]
     en: volcano
     since: "0.6"
     subgroup: place-geographic
@@ -152,6 +165,7 @@ emoji:
       - ふじ
       - やま
       - ふじのやま
+    slack: [ mount_fuji ]
     en: mount fuji
     since: "0.6"
     subgroup: place-geographic
@@ -165,6 +179,7 @@ emoji:
       - あうとどあ
       - やえい
       - きゃんぷじょう
+    slack: [ camping ]
     en: camping
     since: "0.7"
     subgroup: place-geographic
@@ -177,6 +192,7 @@ emoji:
       - びーち
       - かいすいよく
       - すなはま
+    slack: [ beach_with_umbrella ]
     en: beach with umbrella
     since: "0.7"
     subgroup: place-geographic
@@ -188,6 +204,7 @@ emoji:
       - さばく
       - さぼてん
       - さきゅう
+    slack: [ desert ]
     en: desert
     since: "0.7"
     subgroup: place-geographic
@@ -202,6 +219,7 @@ emoji:
       - りぞーと
       - やしのき
       - あいらんど
+    slack: [ desert_island ]
     en: desert island
     since: "0.7"
     subgroup: place-geographic
@@ -215,6 +233,7 @@ emoji:
       - しぜん
       - けいこく
       - あうとどあ
+    slack: [ national_park ]
     en: national park
     since: "0.7"
     subgroup: place-geographic
@@ -228,6 +247,7 @@ emoji:
       - やきゅうじょう
       - さっかーじょう
       - ありーな
+    slack: [ stadium ]
     en: stadium
     since: "0.7"
     subgroup: place-building
@@ -243,6 +263,7 @@ emoji:
       - れきし
       - いせき
       - ぎんこう
+    slack: [ classical_building ]
     en: classical building
     since: "0.7"
     subgroup: place-building
@@ -255,6 +276,7 @@ emoji:
       - こうじちゅう
       - くれーん
       - こうじ
+    slack: [ building_construction ]
     en: building construction
     since: "0.7"
     subgroup: place-building
@@ -268,6 +290,7 @@ emoji:
       - かべ
       - ねんど
       - じょうへき
+    slack: [ bricks ]
     en: brick
     since: "11.0"
     subgroup: place-building
@@ -281,6 +304,7 @@ emoji:
       - いし
       - ろっく
       - がんぺき
+    slack: [ rock ]
     en: rock
     since: "13.0"
     subgroup: place-building
@@ -295,6 +319,7 @@ emoji:
       - き
       - きりかぶ
       - たきぎ
+    slack: [ wood ]
     en: wood
     since: "13.0"
     subgroup: place-building
@@ -306,6 +331,7 @@ emoji:
       - わらぶきごや
       - こや
       - ばんがろー
+    slack: [ hut ]
     en: hut
     since: "13.0"
     subgroup: place-building
@@ -318,6 +344,7 @@ emoji:
       - いえ
       - じゅうたく
       - ぶんじょう
+    slack: [ house_buildings ]
     en: houses
     since: "0.7"
     subgroup: place-building
@@ -330,6 +357,7 @@ emoji:
       - あきや
       - はいきょ
       - おばけやしき
+    slack: [ derelict_house_building ]
     en: derelict house
     since: "0.7"
     subgroup: place-building
@@ -344,6 +372,7 @@ emoji:
       - うち
       - はうす
       - こだて
+    slack: [ house ]
     en: house
     since: "0.6"
     subgroup: place-building
@@ -357,6 +386,7 @@ emoji:
       - まいほーむ
       - はうす
       - にわ
+    slack: [ house_with_garden ]
     en: house with garden
     since: "0.6"
     subgroup: place-building
@@ -370,6 +400,7 @@ emoji:
       - びる
       - しゃおく
       - おふぃす
+    slack: [ office ]
     en: office building
     since: "0.6"
     subgroup: place-building
@@ -381,6 +412,7 @@ emoji:
       - ゆうびんきょく
       - ゆうびん
       - ぽすと
+    slack: [ post_office ]
     en: Japanese post office
     since: "0.6"
     subgroup: place-building
@@ -393,6 +425,7 @@ emoji:
       - ゆうびんきょく
       - ぽすと
       - ゆうびん
+    slack: [ european_post_office ]
     en: post office
     since: "1.0"
     subgroup: place-building
@@ -405,6 +438,7 @@ emoji:
       - いしゃ
       - いいん
       - くりにっく
+    slack: [ hospital ]
     en: hospital
     since: "0.6"
     subgroup: place-building
@@ -415,6 +449,7 @@ emoji:
     readings:
       - ぎんこう
       - ばんく
+    slack: [ bank ]
     en: bank
     since: "0.6"
     subgroup: place-building
@@ -426,6 +461,7 @@ emoji:
       - ほてる
       - しゅくはく
       - りょかん
+    slack: [ hotel ]
     en: hotel
     since: "0.6"
     subgroup: place-building
@@ -436,6 +472,7 @@ emoji:
     readings:
       - らぶほてる
       - らぶほ
+    slack: [ love_hotel ]
     en: love hotel
     since: "0.6"
     subgroup: place-building
@@ -447,6 +484,7 @@ emoji:
       - こんびに
       - こんびにえんすすとあ
       - みせ
+    slack: [ convenience_store ]
     en: convenience store
     since: "0.6"
     subgroup: place-building
@@ -461,6 +499,7 @@ emoji:
       - ちゅうがっこう
       - こうこう
       - すくーる
+    slack: [ school ]
     en: school
     since: "0.6"
     subgroup: place-building
@@ -472,6 +511,7 @@ emoji:
       - でぱーと
       - ひゃっかてん
       - しょうてん
+    slack: [ department_store ]
     en: department store
     since: "0.6"
     subgroup: place-building
@@ -483,6 +523,7 @@ emoji:
       - こうじょう
       - ふぁくとりー
       - えんとつ
+    slack: [ factory ]
     en: factory
     since: "0.6"
     subgroup: place-building
@@ -495,6 +536,7 @@ emoji:
       - にほんのしろ
       - てんしゅかく
       - おしろ
+    slack: [ japanese_castle ]
     en: Japanese castle
     since: "0.6"
     subgroup: place-building
@@ -507,6 +549,7 @@ emoji:
       - しろ
       - きゃっする
       - おしろ
+    slack: [ european_castle ]
     en: castle
     since: "0.6"
     subgroup: place-building
@@ -520,6 +563,7 @@ emoji:
       - ちゃぺる
       - ういでぃんぐ
       - ぶらいだる
+    slack: [ wedding ]
     en: wedding
     since: "0.6"
     subgroup: place-building
@@ -531,6 +575,7 @@ emoji:
       - とうきょうたわー
       - たわー
       - とうきょう
+    slack: [ tokyo_tower ]
     en: Tokyo tower
     since: "0.6"
     subgroup: place-building
@@ -542,6 +587,7 @@ emoji:
       - じゆうのめがみ
       - にゅーよーく
       - あめりか
+    slack: [ statue_of_liberty ]
     en: Statue of Liberty
     since: "0.6"
     subgroup: place-building
@@ -554,6 +600,7 @@ emoji:
       - ちゃぺる
       - ちゃーち
       - きりすときょう
+    slack: [ church ]
     en: church
     since: "0.6"
     subgroup: place-religious
@@ -564,6 +611,7 @@ emoji:
     readings:
       - もすく
       - いすらむきょう
+    slack: [ mosque ]
     en: mosque
     since: "1.0"
     subgroup: place-religious
@@ -575,6 +623,7 @@ emoji:
       - ひんどぅーきょうのじいん
       - ひんどぅーきょう
       - じいん
+    slack: [ hindu_temple ]
     en: hindu temple
     since: "12.0"
     subgroup: place-religious
@@ -585,6 +634,7 @@ emoji:
     readings:
       - しなごーぐ
       - ゆだやきょう
+    slack: [ synagogue ]
     en: synagogue
     since: "1.0"
     subgroup: place-religious
@@ -596,6 +646,7 @@ emoji:
       - とりい
       - じんじゃ
       - しんとう
+    slack: [ shinto_shrine ]
     en: shinto shrine
     since: "0.7"
     subgroup: place-religious
@@ -608,6 +659,7 @@ emoji:
       - めっか
       - いすらむきょう
       - せいち
+    slack: [ kaaba ]
     en: kaaba
     since: "1.0"
     subgroup: place-religious
@@ -619,6 +671,7 @@ emoji:
       - ふんすい
       - ふんすいひろば
       - こうえん
+    slack: [ fountain ]
     en: fountain
     since: "0.6"
     subgroup: place-other
@@ -630,6 +683,7 @@ emoji:
       - てんと
       - きゃんぷ
       - やえい
+    slack: [ tent ]
     en: tent
     since: "0.6"
     subgroup: place-other
@@ -641,6 +695,7 @@ emoji:
       - きりのとかい
       - きり
       - もや
+    slack: [ foggy ]
     en: foggy
     since: "0.6"
     subgroup: place-other
@@ -654,6 +709,7 @@ emoji:
       - やけい
       - ほしぞら
       - よるのまち
+    slack: [ night_with_stars ]
     en: night with stars
     since: "0.6"
     subgroup: place-other
@@ -667,6 +723,7 @@ emoji:
       - とかい
       - とし
       - まてんろう
+    slack: [ cityscape ]
     en: cityscape
     since: "0.7"
     subgroup: place-other
@@ -679,6 +736,7 @@ emoji:
       - ひので
       - ごらいこう
       - あさひ
+    slack: [ sunrise_over_mountains ]
     en: sunrise over mountains
     since: "0.6"
     subgroup: place-other
@@ -692,6 +750,7 @@ emoji:
       - よあけ
       - さんらいず
       - にちのしゅつ
+    slack: [ sunrise ]
     en: sunrise
     since: "0.6"
     subgroup: place-other
@@ -704,6 +763,7 @@ emoji:
       - ゆうぐれ
       - ゆうがた
       - たそがれ
+    slack: [ city_sunset ]
     en: cityscape at dusk
     since: "0.6"
     subgroup: place-other
@@ -718,6 +778,7 @@ emoji:
       - ひぐれ
       - さんせっと
       - ゆうぐれ
+    slack: [ city_sunrise ]
     en: sunset
     since: "0.6"
     subgroup: place-other
@@ -730,6 +791,7 @@ emoji:
       - はし
       - やけい
       - ぶりっじ
+    slack: [ bridge_at_night ]
     en: bridge at night
     since: "0.6"
     subgroup: place-other
@@ -741,6 +803,7 @@ emoji:
       - おんせん
       - おんせんまーく
       - ゆけむり
+    slack: [ hotsprings ]
     en: hot springs
     since: "0.6"
     subgroup: place-other
@@ -753,6 +816,7 @@ emoji:
       - めりーごーらうんど
       - かいてんもくば
       - ゆうえんち
+    slack: [ carousel_horse ]
     en: carousel horse
     since: "0.6"
     subgroup: place-other
@@ -764,6 +828,7 @@ emoji:
       - すべりだい
       - こうえん
       - ゆうぐ
+    slack: [ playground_slide ]
     en: playground slide
     since: "14.0"
     subgroup: place-other
@@ -774,6 +839,7 @@ emoji:
     readings:
       - かんらんしゃ
       - ゆうえんち
+    slack: [ ferris_wheel ]
     en: ferris wheel
     since: "0.6"
     subgroup: place-other
@@ -786,6 +852,7 @@ emoji:
       - ゆうえんち
       - こーすたー
       - ぜっきょうましん
+    slack: [ roller_coaster ]
     en: roller coaster
     since: "0.6"
     subgroup: place-other
@@ -801,6 +868,7 @@ emoji:
       - びようしつ
       - びよういん
       - ばーばー
+    slack: [ barber ]
     en: barber pole
     since: "0.6"
     subgroup: place-other
@@ -812,6 +880,7 @@ emoji:
       - さーかす
       - さーかすごや
       - てんと
+    slack: [ circus_tent ]
     en: circus tent
     since: "0.6"
     subgroup: place-other
@@ -826,6 +895,7 @@ emoji:
       - えすえる
       - sl
       - てつどう
+    slack: [ steam_locomotive ]
     en: locomotive
     since: "1.0"
     subgroup: transport-ground
@@ -838,6 +908,7 @@ emoji:
       - てつどう
       - れっしゃ
       - のりもの
+    slack: [ railway_car ]
     en: railway car
     since: "0.6"
     subgroup: transport-ground
@@ -849,6 +920,7 @@ emoji:
       - しんかんせん
       - こうそくてつどう
       - のぞみ
+    slack: [ bullettrain_side ]
     en: high-speed train
     since: "0.6"
     subgroup: transport-ground
@@ -861,6 +933,7 @@ emoji:
       - しんかんせん
       - だんがんれっしゃ
       - ぜろけい
+    slack: [ bullettrain_front ]
     en: bullet train
     since: "0.6"
     subgroup: transport-ground
@@ -872,6 +945,7 @@ emoji:
       - でんしゃしょうめん
       - でんしゃ
       - れっしゃ
+    slack: [ train2 ]
     en: train
     since: "1.0"
     subgroup: transport-ground
@@ -883,6 +957,7 @@ emoji:
       - ちかてつ
       - めとろ
       - さぶうぇい
+    slack: [ metro ]
     en: metro
     since: "0.6"
     subgroup: transport-ground
@@ -893,6 +968,7 @@ emoji:
     readings:
       - らいとれーる
       - てつどう
+    slack: [ light_rail ]
     en: light rail
     since: "1.0"
     subgroup: transport-ground
@@ -903,6 +979,7 @@ emoji:
     readings:
       - えき
       - すてーしょん
+    slack: [ station ]
     en: station
     since: "0.6"
     subgroup: transport-ground
@@ -915,6 +992,7 @@ emoji:
       - ろめんでんしゃ
       - しでん
       - とらむ
+    slack: [ tram ]
     en: tram
     since: "1.0"
     subgroup: transport-ground
@@ -925,6 +1003,7 @@ emoji:
     readings:
       - ものれーる
       - てつどう
+    slack: [ monorail ]
     en: monorail
     since: "1.0"
     subgroup: transport-ground
@@ -936,6 +1015,7 @@ emoji:
       - とざんてつどう
       - とざんでんしゃ
       - さんがくてつどう
+    slack: [ mountain_railway ]
     en: mountain railway
     since: "1.0"
     subgroup: transport-ground
@@ -947,6 +1027,7 @@ emoji:
       - ろめんでんしゃ
       - しでん
       - ちんちんでんしゃ
+    slack: [ train ]
     en: tram car
     since: "1.0"
     subgroup: transport-ground
@@ -957,6 +1038,7 @@ emoji:
     readings:
       - ばす
       - ろせんばす
+    slack: [ bus ]
     en: bus
     since: "0.6"
     subgroup: transport-ground
@@ -968,6 +1050,7 @@ emoji:
       - ばすしょうめん
       - ばす
       - ろせんばす
+    slack: [ oncoming_bus ]
     en: oncoming bus
     since: "0.7"
     subgroup: transport-ground
@@ -977,6 +1060,7 @@ emoji:
     name: トロリーバス
     readings:
       - とろりーばす
+    slack: [ trolleybus ]
     en: trolleybus
     since: "1.0"
     subgroup: transport-ground
@@ -989,6 +1073,7 @@ emoji:
       - ばす
       - みにばす
       - わごん
+    slack: [ minibus ]
     en: minibus
     since: "1.0"
     subgroup: transport-ground
@@ -1000,6 +1085,7 @@ emoji:
       - きゅうきゅうしゃ
       - あんびゅらんす
       - きゅうきゅう
+    slack: [ ambulance ]
     en: ambulance
     since: "0.6"
     subgroup: transport-ground
@@ -1010,6 +1096,7 @@ emoji:
     readings:
       - しょうぼうしゃ
       - しょうぼう
+    slack: [ fire_engine ]
     en: fire engine
     since: "0.6"
     subgroup: transport-ground
@@ -1021,6 +1108,7 @@ emoji:
       - ぱとかー
       - けいさつ
       - ぱとろーる
+    slack: [ police_car ]
     en: police car
     since: "0.6"
     subgroup: transport-ground
@@ -1032,6 +1120,7 @@ emoji:
       - ぱとかーしょうめん
       - ぱとかー
       - けいさつ
+    slack: [ oncoming_police_car ]
     en: oncoming police car
     since: "0.7"
     subgroup: transport-ground
@@ -1042,6 +1131,7 @@ emoji:
     readings:
       - たくしー
       - いえろーきゃぶ
+    slack: [ taxi ]
     en: taxi
     since: "0.6"
     subgroup: transport-ground
@@ -1053,6 +1143,7 @@ emoji:
       - たくしーしょうめん
       - たくしー
       - いえろーきゃぶ
+    slack: [ oncoming_taxi ]
     en: oncoming taxi
     since: "1.0"
     subgroup: transport-ground
@@ -1066,6 +1157,7 @@ emoji:
       - かー
       - まいかー
       - どらいぶ
+    slack: [ car, red_car ]
     en: automobile
     since: "0.6"
     subgroup: transport-ground
@@ -1077,6 +1169,7 @@ emoji:
       - じどうしゃしょうめん
       - じどうしゃ
       - くるま
+    slack: [ oncoming_automobile ]
     en: oncoming automobile
     since: "0.7"
     subgroup: transport-ground
@@ -1088,6 +1181,7 @@ emoji:
       - あーるぶいしゃ
       - あーるぶい
       - えすゆーぶい
+    slack: [ blue_car ]
     en: sport utility vehicle
     since: "0.6"
     subgroup: transport-ground
@@ -1099,6 +1193,7 @@ emoji:
       - けいとらっく
       - ぴっくあっぷ
       - けいとら
+    slack: [ pickup_truck ]
     en: pickup truck
     since: "13.0"
     subgroup: transport-ground
@@ -1111,6 +1206,7 @@ emoji:
       - はいたつ
       - はいそう
       - たくはいびん
+    slack: [ truck ]
     en: delivery truck
     since: "0.6"
     subgroup: transport-ground
@@ -1122,6 +1218,7 @@ emoji:
       - とれーらー
       - とらっく
       - おおがた
+    slack: [ articulated_lorry ]
     en: articulated lorry
     since: "1.0"
     subgroup: transport-ground
@@ -1132,6 +1229,7 @@ emoji:
     readings:
       - とらくたー
       - のうぎょう
+    slack: [ tractor ]
     en: tractor
     since: "1.0"
     subgroup: transport-ground
@@ -1142,6 +1240,7 @@ emoji:
     readings:
       - れーしんぐかー
       - えふわん
+    slack: [ racing_car ]
     en: racing car
     since: "0.7"
     subgroup: transport-ground
@@ -1153,6 +1252,7 @@ emoji:
       - おーとばい
       - ばいく
       - おーとれーす
+    slack: [ racing_motorcycle ]
     en: motorcycle
     since: "0.7"
     subgroup: transport-ground
@@ -1164,6 +1264,7 @@ emoji:
       - すくーたー
       - げんつき
       - げんちゃり
+    slack: [ motor_scooter ]
     en: motor scooter
     since: "3.0"
     subgroup: transport-ground
@@ -1174,6 +1275,7 @@ emoji:
     readings:
       - しゅどうしきくるまいす
       - くるまいす
+    slack: [ manual_wheelchair ]
     en: manual wheelchair
     since: "12.0"
     subgroup: transport-ground
@@ -1184,6 +1286,7 @@ emoji:
     readings:
       - でんどうくるまいす
       - くるまいす
+    slack: [ motorized_wheelchair ]
     en: motorized wheelchair
     since: "12.0"
     subgroup: transport-ground
@@ -1195,6 +1298,7 @@ emoji:
       - さんりんたくしー
       - とぅくとぅく
       - りくしゃー
+    slack: [ auto_rickshaw ]
     en: auto rickshaw
     since: "12.0"
     subgroup: transport-ground
@@ -1207,6 +1311,7 @@ emoji:
       - ちゃり
       - ちゃりんこ
       - さいくりんぐ
+    slack: [ bike ]
     en: bicycle
     since: "0.6"
     subgroup: transport-ground
@@ -1217,6 +1322,7 @@ emoji:
     readings:
       - きっくぼーど
       - きっくすけーたー
+    slack: [ scooter ]
     en: kick scooter
     since: "3.0"
     subgroup: transport-ground
@@ -1227,6 +1333,7 @@ emoji:
     readings:
       - すけーとぼーど
       - すけぼー
+    slack: [ skateboard ]
     en: skateboard
     since: "11.0"
     subgroup: transport-ground
@@ -1237,6 +1344,7 @@ emoji:
     readings:
       - ろーらーすけーと
       - すけーと
+    slack: [ roller_skate ]
     en: roller skate
     since: "13.0"
     subgroup: transport-ground
@@ -1250,6 +1358,7 @@ emoji:
       - ていりゅうじょ
       - ばすすとっぷ
       - ばす
+    slack: [ busstop ]
     en: bus stop
     since: "0.6"
     subgroup: transport-ground
@@ -1263,6 +1372,7 @@ emoji:
       - はいうぇい
       - どうろ
       - もーたーうぇい
+    slack: [ motorway ]
     en: motorway
     since: "0.7"
     subgroup: transport-ground
@@ -1275,6 +1385,7 @@ emoji:
       - てつどう
       - きどう
       - れーる
+    slack: [ railway_track ]
     en: railway track
     since: "0.7"
     subgroup: transport-ground
@@ -1287,6 +1398,7 @@ emoji:
       - おいる
       - せきゆ
       - どらむ
+    slack: [ oil_drum ]
     en: oil drum
     since: "0.7"
     subgroup: transport-ground
@@ -1300,6 +1412,7 @@ emoji:
       - きゅうゆ
       - すたんど
       - ねんりょう
+    slack: [ fuelpump ]
     en: fuel pump
     since: "0.6"
     subgroup: transport-ground
@@ -1312,6 +1425,7 @@ emoji:
       - しゃりん
       - たいや
       - くるま
+    slack: [ wheel ]
     en: wheel
     since: "14.0"
     subgroup: transport-ground
@@ -1326,6 +1440,7 @@ emoji:
       - きんきゅう
       - けいさつ
       - せきしょくとう
+    slack: [ rotating_light ]
     en: police car light
     since: "0.6"
     subgroup: transport-ground
@@ -1339,6 +1454,7 @@ emoji:
       - しんごうき
       - こうさてん
       - こうつう
+    slack: [ traffic_light ]
     en: horizontal traffic light
     since: "0.6"
     subgroup: transport-ground
@@ -1352,6 +1468,7 @@ emoji:
       - しんごうき
       - こうさてん
       - こうつう
+    slack: [ vertical_traffic_light ]
     en: vertical traffic light
     since: "1.0"
     subgroup: transport-ground
@@ -1365,6 +1482,7 @@ emoji:
       - すとっぷ
       - ひょうしき
       - ていし
+    slack: [ octagonal_sign ]
     en: stop sign
     since: "3.0"
     subgroup: transport-ground
@@ -1377,6 +1495,7 @@ emoji:
       - こうじ
       - つうこうどめ
       - けんせつ
+    slack: [ construction ]
     en: construction
     since: "0.6"
     subgroup: transport-ground
@@ -1400,6 +1519,7 @@ emoji:
       - あんかー
       - ふね
       - みなと
+    slack: [ anchor ]
     en: anchor
     since: "0.6"
     subgroup: transport-water
@@ -1413,6 +1533,7 @@ emoji:
       - きゅうめいぐ
       - きゅうじょ
       - ぶい
+    slack: [ ring_buoy ]
     en: ring buoy
     since: "14.0"
     subgroup: transport-water
@@ -1425,6 +1546,7 @@ emoji:
       - はんせん
       - せーりんぐ
       - ふね
+    slack: [ boat, sailboat ]
     en: sailboat
     since: "0.6"
     subgroup: transport-water
@@ -1436,6 +1558,7 @@ emoji:
       - かぬー
       - かやっく
       - ぼーと
+    slack: [ canoe ]
     en: canoe
     since: "3.0"
     subgroup: transport-water
@@ -1448,6 +1571,7 @@ emoji:
       - もーたーぼーと
       - ぼーと
       - かいそくてい
+    slack: [ speedboat ]
     en: speedboat
     since: "0.6"
     subgroup: transport-water
@@ -1460,6 +1584,7 @@ emoji:
       - りょかくせん
       - ふね
       - くるーず
+    slack: [ passenger_ship ]
     en: passenger ship
     since: "0.7"
     subgroup: transport-water
@@ -1471,6 +1596,7 @@ emoji:
       - ふぇりー
       - きゃくせん
       - ふね
+    slack: [ ferry ]
     en: ferry
     since: "0.7"
     subgroup: transport-water
@@ -1482,6 +1608,7 @@ emoji:
       - もーたーぼーと
       - ぼーと
       - ふね
+    slack: [ motor_boat ]
     en: motor boat
     since: "0.7"
     subgroup: transport-water
@@ -1495,6 +1622,7 @@ emoji:
       - せんぱく
       - しっぷ
       - たいたにっく
+    slack: [ ship ]
     en: ship
     since: "0.6"
     subgroup: transport-water
@@ -1508,6 +1636,7 @@ emoji:
       - じぇっとき
       - りょこう
       - くうこう
+    slack: [ airplane ]
     en: airplane
     since: "0.6"
     subgroup: transport-air
@@ -1520,6 +1649,7 @@ emoji:
       - こがたき
       - ひこうき
       - せすな
+    slack: [ small_airplane ]
     en: small airplane
     since: "0.7"
     subgroup: transport-air
@@ -1532,6 +1662,7 @@ emoji:
       - りりく
       - しゅっぱつ
       - ひこうき
+    slack: [ airplane_departure ]
     en: airplane departure
     since: "1.0"
     subgroup: transport-air
@@ -1544,6 +1675,7 @@ emoji:
       - ちゃくりく
       - とうちゃく
       - ひこうき
+    slack: [ airplane_arriving ]
     en: airplane arrival
     since: "1.0"
     subgroup: transport-air
@@ -1556,6 +1688,7 @@ emoji:
       - すかいだいびんぐ
       - ぱらぐらいだー
       - らっかさん
+    slack: [ parachute ]
     en: parachute
     since: "12.0"
     subgroup: transport-air
@@ -1568,6 +1701,7 @@ emoji:
       - せき
       - しーと
       - いす
+    slack: [ seat ]
     en: seat
     since: "0.6"
     subgroup: transport-air
@@ -1578,6 +1712,7 @@ emoji:
     readings:
       - へりこぷたー
       - へり
+    slack: [ helicopter ]
     en: helicopter
     since: "1.0"
     subgroup: transport-air
@@ -1588,6 +1723,7 @@ emoji:
     readings:
       - けんすいしきものれーる
       - ものれーる
+    slack: [ suspension_railway ]
     en: suspension railway
     since: "1.0"
     subgroup: transport-air
@@ -1599,6 +1735,7 @@ emoji:
       - けーぶるかー
       - ごんどら
       - りふと
+    slack: [ mountain_cableway ]
     en: mountain cableway
     since: "1.0"
     subgroup: transport-air
@@ -1609,6 +1746,7 @@ emoji:
     readings:
       - ろーぷうぇい
       - ごんどら
+    slack: [ aerial_tramway ]
     en: aerial tramway
     since: "1.0"
     subgroup: transport-air
@@ -1620,6 +1758,7 @@ emoji:
       - じんこうえいせい
       - えいせい
       - さてらいと
+    slack: [ satellite ]
     en: satellite
     since: "0.7"
     subgroup: transport-air
@@ -1632,6 +1771,7 @@ emoji:
       - はっしゃ
       - うちゅう
       - うちゅうりょこう
+    slack: [ rocket ]
     en: rocket
     since: "0.6"
     subgroup: transport-air
@@ -1645,6 +1785,7 @@ emoji:
       - ゆーふぉー
       - うちゅうじん
       - みかくにんひこうぶったい
+    slack: [ flying_saucer ]
     en: flying saucer
     since: "5.0"
     subgroup: transport-air
@@ -1657,6 +1798,7 @@ emoji:
       - べる
       - よびりん
       - ほてる
+    slack: [ bellhop_bell ]
     en: bellhop bell
     since: "0.7"
     subgroup: hotel
@@ -1669,6 +1811,7 @@ emoji:
       - きゃりーけーす
       - にもつ
       - りょこう
+    slack: [ luggage ]
     en: luggage
     since: "11.0"
     subgroup: hotel
@@ -1680,6 +1823,7 @@ emoji:
       - すなどけい
       - たいまー
       - じかんぎれ
+    slack: [ hourglass ]
     en: hourglass done
     since: "0.6"
     subgroup: time
@@ -1692,6 +1836,7 @@ emoji:
       - すなどけい
       - たいまー
       - まち
+    slack: [ hourglass_flowing_sand ]
     en: hourglass not done
     since: "0.6"
     subgroup: time
@@ -1703,6 +1848,7 @@ emoji:
       - うでどけい
       - とけい
       - うぉっち
+    slack: [ watch ]
     en: watch
     since: "0.6"
     subgroup: time
@@ -1715,6 +1861,7 @@ emoji:
       - めざまし
       - あらーむ
       - とけい
+    slack: [ alarm_clock ]
     en: alarm clock
     since: "0.6"
     subgroup: time
@@ -1726,6 +1873,7 @@ emoji:
       - すとっぷうぉっち
       - たいむ
       - けいそく
+    slack: [ stopwatch ]
     en: stopwatch
     since: "1.0"
     subgroup: time
@@ -1735,6 +1883,7 @@ emoji:
     name: タイマー
     readings:
       - たいまー
+    slack: [ timer_clock ]
     en: timer clock
     since: "1.0"
     subgroup: time
@@ -1746,6 +1895,7 @@ emoji:
       - おきどけい
       - とけい
       - まんてるくろっく
+    slack: [ mantelpiece_clock ]
     en: mantelpiece clock
     since: "0.7"
     subgroup: time
@@ -1758,6 +1908,7 @@ emoji:
       - 12じ
       - しょうご
       - れいじ
+    slack: [ clock12 ]
     en: twelve o’clock
     since: "0.6"
     subgroup: time
@@ -1769,6 +1920,7 @@ emoji:
       - じゅうにじはん
       - 12じはん
       - じゅうにじさんじゅっぷん
+    slack: [ clock1230 ]
     en: twelve-thirty
     since: "0.7"
     subgroup: time
@@ -1779,6 +1931,7 @@ emoji:
     readings:
       - いちじ
       - 1じ
+    slack: [ clock1 ]
     en: one o’clock
     since: "0.6"
     subgroup: time
@@ -1789,6 +1942,7 @@ emoji:
     readings:
       - いちじはん
       - 1じはん
+    slack: [ clock130 ]
     en: one-thirty
     since: "0.7"
     subgroup: time
@@ -1799,6 +1953,7 @@ emoji:
     readings:
       - にじ
       - 2じ
+    slack: [ clock2 ]
     en: two o’clock
     since: "0.6"
     subgroup: time
@@ -1809,6 +1964,7 @@ emoji:
     readings:
       - にじはん
       - 2じはん
+    slack: [ clock230 ]
     en: two-thirty
     since: "0.7"
     subgroup: time
@@ -1820,6 +1976,7 @@ emoji:
       - さんじ
       - 3じ
       - おやつ
+    slack: [ clock3 ]
     en: three o’clock
     since: "0.6"
     subgroup: time
@@ -1830,6 +1987,7 @@ emoji:
     readings:
       - さんじはん
       - 3じはん
+    slack: [ clock330 ]
     en: three-thirty
     since: "0.7"
     subgroup: time
@@ -1840,6 +1998,7 @@ emoji:
     readings:
       - よじ
       - 4じ
+    slack: [ clock4 ]
     en: four o’clock
     since: "0.6"
     subgroup: time
@@ -1850,6 +2009,7 @@ emoji:
     readings:
       - よじはん
       - 4じはん
+    slack: [ clock430 ]
     en: four-thirty
     since: "0.7"
     subgroup: time
@@ -1860,6 +2020,7 @@ emoji:
     readings:
       - ごじ
       - 5じ
+    slack: [ clock5 ]
     en: five o’clock
     since: "0.6"
     subgroup: time
@@ -1870,6 +2031,7 @@ emoji:
     readings:
       - ごじはん
       - 5じはん
+    slack: [ clock530 ]
     en: five-thirty
     since: "0.7"
     subgroup: time
@@ -1880,6 +2042,7 @@ emoji:
     readings:
       - ろくじ
       - 6じ
+    slack: [ clock6 ]
     en: six o’clock
     since: "0.6"
     subgroup: time
@@ -1890,6 +2053,7 @@ emoji:
     readings:
       - ろくじはん
       - 6じはん
+    slack: [ clock630 ]
     en: six-thirty
     since: "0.7"
     subgroup: time
@@ -1901,6 +2065,7 @@ emoji:
       - しちじ
       - ななじ
       - 7じ
+    slack: [ clock7 ]
     en: seven o’clock
     since: "0.6"
     subgroup: time
@@ -1912,6 +2077,7 @@ emoji:
       - しちじはん
       - ななじはん
       - 7じはん
+    slack: [ clock730 ]
     en: seven-thirty
     since: "0.7"
     subgroup: time
@@ -1922,6 +2088,7 @@ emoji:
     readings:
       - はちじ
       - 8じ
+    slack: [ clock8 ]
     en: eight o’clock
     since: "0.6"
     subgroup: time
@@ -1932,6 +2099,7 @@ emoji:
     readings:
       - はちじはん
       - 8じはん
+    slack: [ clock830 ]
     en: eight-thirty
     since: "0.7"
     subgroup: time
@@ -1942,6 +2110,7 @@ emoji:
     readings:
       - くじ
       - 9じ
+    slack: [ clock9 ]
     en: nine o’clock
     since: "0.6"
     subgroup: time
@@ -1952,6 +2121,7 @@ emoji:
     readings:
       - くじはん
       - 9じはん
+    slack: [ clock930 ]
     en: nine-thirty
     since: "0.7"
     subgroup: time
@@ -1962,6 +2132,7 @@ emoji:
     readings:
       - じゅうじ
       - 10じ
+    slack: [ clock10 ]
     en: ten o’clock
     since: "0.6"
     subgroup: time
@@ -1972,6 +2143,7 @@ emoji:
     readings:
       - じゅうじはん
       - 10じはん
+    slack: [ clock1030 ]
     en: ten-thirty
     since: "0.7"
     subgroup: time
@@ -1982,6 +2154,7 @@ emoji:
     readings:
       - じゅういちじ
       - 11じ
+    slack: [ clock11 ]
     en: eleven o’clock
     since: "0.6"
     subgroup: time
@@ -1992,6 +2165,7 @@ emoji:
     readings:
       - じゅういちじはん
       - 11じはん
+    slack: [ clock1130 ]
     en: eleven-thirty
     since: "0.7"
     subgroup: time
@@ -2003,6 +2177,7 @@ emoji:
       - しんげつ
       - つき
       - やみ
+    slack: [ new_moon ]
     en: new moon
     since: "0.6"
     subgroup: sky & weather
@@ -2014,6 +2189,7 @@ emoji:
       - はつづき
       - みかづき
       - つき
+    slack: [ waxing_crescent_moon ]
     en: waxing crescent moon
     since: "1.0"
     subgroup: sky & weather
@@ -2026,6 +2202,7 @@ emoji:
       - じょうげん
       - はんげつ
       - つき
+    slack: [ first_quarter_moon ]
     en: first quarter moon
     since: "0.6"
     subgroup: sky & weather
@@ -2037,6 +2214,7 @@ emoji:
       - じゅうさんやづき
       - とおかんやのつき
       - つき
+    slack: [ moon, waxing_gibbous_moon ]
     en: waxing gibbous moon
     since: "0.6"
     subgroup: sky & weather
@@ -2048,6 +2226,7 @@ emoji:
       - まんげつ
       - つき
       - じゅうごや
+    slack: [ full_moon ]
     en: full moon
     since: "0.6"
     subgroup: sky & weather
@@ -2059,6 +2238,7 @@ emoji:
       - ねまちづき
       - いまちづき
       - つき
+    slack: [ waning_gibbous_moon ]
     en: waning gibbous moon
     since: "1.0"
     subgroup: sky & weather
@@ -2071,6 +2251,7 @@ emoji:
       - かげん
       - はんげつ
       - つき
+    slack: [ last_quarter_moon ]
     en: last quarter moon
     since: "1.0"
     subgroup: sky & weather
@@ -2082,6 +2263,7 @@ emoji:
       - ありあけづき
       - みかづき
       - つき
+    slack: [ waning_crescent_moon ]
     en: waning crescent moon
     since: "1.0"
     subgroup: sky & weather
@@ -2093,6 +2275,7 @@ emoji:
       - みかづき
       - つき
       - よる
+    slack: [ crescent_moon ]
     en: crescent moon
     since: "0.6"
     subgroup: sky & weather
@@ -2104,6 +2287,7 @@ emoji:
       - かおのあるしんげつ
       - しんげつ
       - つき
+    slack: [ new_moon_with_face ]
     en: new moon face
     since: "1.0"
     subgroup: sky & weather
@@ -2116,6 +2300,7 @@ emoji:
       - じょうげんのつき
       - はんげつ
       - つき
+    slack: [ first_quarter_moon_with_face ]
     en: first quarter moon face
     since: "0.6"
     subgroup: sky & weather
@@ -2128,6 +2313,7 @@ emoji:
       - かげんのつき
       - はんげつ
       - つき
+    slack: [ last_quarter_moon_with_face ]
     en: last quarter moon face
     since: "0.7"
     subgroup: sky & weather
@@ -2141,6 +2327,7 @@ emoji:
       - きおん
       - おんど
       - たいおんけい
+    slack: [ thermometer ]
     en: thermometer
     since: "0.7"
     subgroup: sky & weather
@@ -2153,6 +2340,7 @@ emoji:
       - はれ
       - にっこう
       - おひさま
+    slack: [ sunny ]
     en: sun
     since: "0.6"
     subgroup: sky & weather
@@ -2164,6 +2352,7 @@ emoji:
       - かおのあるまんげつ
       - まんげつ
       - つき
+    slack: [ full_moon_with_face ]
     en: full moon face
     since: "1.0"
     subgroup: sky & weather
@@ -2175,6 +2364,7 @@ emoji:
       - かおのあるたいよう
       - たいよう
       - おひさま
+    slack: [ sun_with_face ]
     en: sun with face
     since: "1.0"
     subgroup: sky & weather
@@ -2186,6 +2376,7 @@ emoji:
       - わのあるわくせい
       - どせい
       - わくせい
+    slack: [ ringed_planet ]
     en: ringed planet
     since: "12.0"
     subgroup: sky & weather
@@ -2196,6 +2387,7 @@ emoji:
     readings:
       - すたー
       - ほし
+    slack: [ star ]
     en: star
     since: "0.6"
     subgroup: sky & weather
@@ -2208,6 +2400,7 @@ emoji:
       - きらきら
       - かがやき
       - ほし
+    slack: [ star2 ]
     en: glowing star
     since: "0.6"
     subgroup: sky & weather
@@ -2219,6 +2412,7 @@ emoji:
       - ながれぼし
       - りゅうせい
       - ほし
+    slack: [ stars ]
     en: shooting star
     since: "0.6"
     subgroup: sky & weather
@@ -2231,6 +2425,7 @@ emoji:
       - ぎんが
       - みるきーうぇい
       - ほしぞら
+    slack: [ milky_way ]
     en: milky way
     since: "0.6"
     subgroup: sky & weather
@@ -2241,6 +2436,7 @@ emoji:
     readings:
       - くも
       - くもり
+    slack: [ cloud ]
     en: cloud
     since: "0.6"
     subgroup: sky & weather
@@ -2252,6 +2448,7 @@ emoji:
       - くもりときどきはれ
       - くもり
       - てんき
+    slack: [ partly_sunny ]
     en: sun behind cloud
     since: "0.6"
     subgroup: sky & weather
@@ -2264,6 +2461,7 @@ emoji:
       - かみなり
       - いなずま
       - らいうん
+    slack: [ thunder_cloud_and_rain ]
     en: cloud with lightning and rain
     since: "0.7"
     subgroup: sky & weather
@@ -2275,6 +2473,7 @@ emoji:
       - はれときどきくもり
       - はれ
       - てんき
+    slack: [ mostly_sunny, sun_small_cloud ]
     en: sun behind small cloud
     since: "0.7"
     subgroup: sky & weather
@@ -2286,6 +2485,7 @@ emoji:
       - くもりいちじはれ
       - くもり
       - てんき
+    slack: [ barely_sunny, sun_behind_cloud ]
     en: sun behind large cloud
     since: "0.7"
     subgroup: sky & weather
@@ -2297,6 +2497,7 @@ emoji:
       - あめときどきはれ
       - てんきあめ
       - てんき
+    slack: [ partly_sunny_rain, sun_behind_rain_cloud ]
     en: sun behind rain cloud
     since: "0.7"
     subgroup: sky & weather
@@ -2307,6 +2508,7 @@ emoji:
     readings:
       - あまぐも
       - あめ
+    slack: [ rain_cloud ]
     en: cloud with rain
     since: "0.7"
     subgroup: sky & weather
@@ -2317,6 +2519,7 @@ emoji:
     readings:
       - ゆきぐも
       - ゆき
+    slack: [ snow_cloud ]
     en: cloud with snow
     since: "0.7"
     subgroup: sky & weather
@@ -2328,6 +2531,7 @@ emoji:
       - らいうん
       - かみなり
       - いなずま
+    slack: [ lightning, lightning_cloud ]
     en: cloud with lightning
     since: "0.7"
     subgroup: sky & weather
@@ -2338,6 +2542,7 @@ emoji:
     readings:
       - たつまき
       - とるねーど
+    slack: [ tornado, tornado_cloud ]
     en: tornado
     since: "0.7"
     subgroup: sky & weather
@@ -2347,6 +2552,7 @@ emoji:
     name: 霧
     readings:
       - きり
+    slack: [ fog ]
     en: fog
     since: "0.7"
     subgroup: sky & weather
@@ -2358,6 +2564,7 @@ emoji:
       - かおのあるかぜ
       - かぜ
       - ふー
+    slack: [ wind_blowing_face ]
     en: wind face
     since: "0.7"
     subgroup: sky & weather
@@ -2371,6 +2578,7 @@ emoji:
       - さいくろん
       - はりけーん
       - ぐるぐる
+    slack: [ cyclone ]
     en: cyclone
     since: "0.6"
     subgroup: sky & weather
@@ -2382,6 +2590,7 @@ emoji:
       - にじ
       - れいんぼー
       - lgbt
+    slack: [ rainbow ]
     en: rainbow
     since: "0.6"
     subgroup: sky & weather
@@ -2392,6 +2601,7 @@ emoji:
     readings:
       - とじたかさ
       - かさ
+    slack: [ closed_umbrella ]
     en: closed umbrella
     since: "0.6"
     subgroup: sky & weather
@@ -2403,6 +2613,7 @@ emoji:
       - かさ
       - あまがさ
       - あめ
+    slack: [ umbrella ]
     en: umbrella
     since: "0.7"
     subgroup: sky & weather
@@ -2414,6 +2625,7 @@ emoji:
       - かさとあめ
       - あめ
       - かさ
+    slack: [ umbrella_with_rain_drops ]
     en: umbrella with rain drops
     since: "0.6"
     subgroup: sky & weather
@@ -2425,6 +2637,7 @@ emoji:
       - ぱらそる
       - ひがさ
       - びーち
+    slack: [ umbrella_on_ground ]
     en: umbrella on ground
     since: "0.7"
     subgroup: sky & weather
@@ -2438,6 +2651,7 @@ emoji:
       - かみなり
       - でんき
       - きけん
+    slack: [ zap ]
     en: high voltage
     since: "0.6"
     subgroup: sky & weather
@@ -2449,6 +2663,7 @@ emoji:
       - ゆきのけっしょう
       - ゆき
       - けっしょう
+    slack: [ snowflake ]
     en: snowflake
     since: "0.6"
     subgroup: sky & weather
@@ -2459,6 +2674,7 @@ emoji:
     readings:
       - ゆきだるまとゆき
       - ゆきだるま
+    slack: [ snowman ]
     en: snowman
     since: "0.7"
     subgroup: sky & weather
@@ -2468,6 +2684,7 @@ emoji:
     name: 雪だるま
     readings:
       - ゆきだるま
+    slack: [ snowman_without_snow ]
     en: snowman without snow
     since: "0.6"
     subgroup: sky & weather
@@ -2478,6 +2695,7 @@ emoji:
     readings:
       - すいせい
       - ほうきぼし
+    slack: [ comet ]
     en: comet
     since: "1.0"
     subgroup: sky & weather
@@ -2502,6 +2720,7 @@ emoji:
       - もえる
       - あつい
       - ふぁいやー
+    slack: [ fire ]
     en: fire
     since: "0.6"
     subgroup: sky & weather
@@ -2513,6 +2732,7 @@ emoji:
       - すいてき
       - しずく
       - みず
+    slack: [ droplet ]
     en: droplet
     since: "0.6"
     subgroup: sky & weather
@@ -2523,6 +2743,7 @@ emoji:
     readings:
       - なみ
       - うみ
+    slack: [ ocean ]
     en: water wave
     since: "0.6"
     subgroup: sky & weather

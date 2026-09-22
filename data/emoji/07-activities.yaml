@@ -1,6 +1,8 @@
 # SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
 #   name:     annotation shown in SKK (Japanese name; no "/" or ";")
 #   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   slack:    Slack-style short names (":thumbsup:" without colons), registered as headwords.
+#             Refreshed from iamcal/emoji-data; hand-written names are kept only while emoji-data has none
 #   review:   true if added automatically by the update task; remove after checking the readings
 # Other fields are refreshed from Unicode/CLDR by the update task.
 
@@ -14,6 +16,7 @@ emoji:
       - かぼちゃ
       - はろうぃん
       - はろうぃーん
+    slack: [ jack_o_lantern ]
     en: jack-o-lantern
     since: "0.6"
     subgroup: event
@@ -25,6 +28,7 @@ emoji:
       - くりすますつりー
       - くりすます
       - つりー
+    slack: [ christmas_tree ]
     en: Christmas tree
     since: "0.6"
     subgroup: event
@@ -37,6 +41,7 @@ emoji:
       - はなび
       - はなびたいかい
       - どーん
+    slack: [ fireworks ]
     en: fireworks
     since: "0.6"
     subgroup: event
@@ -47,6 +52,7 @@ emoji:
     readings:
       - せんこうはなび
       - はなび
+    slack: [ sparkler ]
     en: sparkler
     since: "0.6"
     subgroup: event
@@ -58,6 +64,7 @@ emoji:
       - ばくちく
       - だいなまいと
       - ばくはつ
+    slack: [ firecracker ]
     en: firecracker
     since: "11.0"
     subgroup: event
@@ -69,6 +76,7 @@ emoji:
       - きらきら
       - ぴかぴか
       - かがやき
+    slack: [ sparkles ]
     en: sparkles
     since: "0.6"
     subgroup: event
@@ -79,6 +87,7 @@ emoji:
     readings:
       - ふうせん
       - ばるーん
+    slack: [ balloon ]
     en: balloon
     since: "0.6"
     subgroup: event
@@ -91,6 +100,7 @@ emoji:
       - ぱーてぃー
       - おいわい
       - おめでとう
+    slack: [ tada ]
     en: party popper
     since: "0.6"
     subgroup: event
@@ -103,6 +113,7 @@ emoji:
       - おいわい
       - かみふぶき
       - おめでとう
+    slack: [ confetti_ball ]
     en: confetti ball
     since: "0.6"
     subgroup: event
@@ -114,6 +125,7 @@ emoji:
       - たなばた
       - ささかざり
       - たんざく
+    slack: [ tanabata_tree ]
     en: tanabata tree
     since: "0.6"
     subgroup: event
@@ -124,6 +136,7 @@ emoji:
     readings:
       - かどまつ
       - しょうがつ
+    slack: [ bamboo ]
     en: pine decoration
     since: "0.6"
     subgroup: event
@@ -135,6 +148,7 @@ emoji:
       - ひなまつり
       - ひなにんぎょう
       - おひなさま
+    slack: [ dolls ]
     en: Japanese dolls
     since: "0.6"
     subgroup: event
@@ -145,6 +159,7 @@ emoji:
     readings:
       - こいのぼり
       - こどものひ
+    slack: [ flags ]
     en: carp streamer
     since: "0.6"
     subgroup: event
@@ -154,6 +169,7 @@ emoji:
     name: 風鈴
     readings:
       - ふうりん
+    slack: [ wind_chime ]
     en: wind chime
     since: "0.6"
     subgroup: event
@@ -165,6 +181,7 @@ emoji:
       - つきみ
       - じゅうごや
       - おつきみ
+    slack: [ rice_scene ]
     en: moon viewing ceremony
     since: "0.6"
     subgroup: event
@@ -177,6 +194,7 @@ emoji:
       - おとしだま
       - ほんばお
       - ごしゅうぎ
+    slack: [ red_envelope ]
     en: red envelope
     since: "11.0"
     subgroup: event
@@ -186,6 +204,7 @@ emoji:
     name: リボン
     readings:
       - りぼん
+    slack: [ ribbon ]
     en: ribbon
     since: "0.6"
     subgroup: event
@@ -197,6 +216,7 @@ emoji:
       - ぷれぜんと
       - ぎふと
       - おくりもの
+    slack: [ gift ]
     en: wrapped gift
     since: "0.6"
     subgroup: event
@@ -208,6 +228,7 @@ emoji:
       - りまいんだーりぼん
       - りぼん
       - あうぇあねすりぼん
+    slack: [ reminder_ribbon ]
     en: reminder ribbon
     since: "0.7"
     subgroup: event
@@ -218,6 +239,7 @@ emoji:
     readings:
       - にゅうじょうけん
       - ちけっと
+    slack: [ admission_tickets ]
     en: admission tickets
     since: "0.7"
     subgroup: event
@@ -229,6 +251,7 @@ emoji:
       - ちけっと
       - きっぷ
       - にゅうじょうけん
+    slack: [ ticket ]
     en: ticket
     since: "0.6"
     subgroup: event
@@ -239,6 +262,7 @@ emoji:
     readings:
       - くんしょう
       - めだる
+    slack: [ medal ]
     en: military medal
     since: "0.7"
     subgroup: award-medal
@@ -251,6 +275,7 @@ emoji:
       - ゆうしょう
       - ちゃんぴおん
       - ゆうしょうかっぷ
+    slack: [ trophy ]
     en: trophy
     since: "0.6"
     subgroup: award-medal
@@ -260,6 +285,7 @@ emoji:
     name: メダル
     readings:
       - めだる
+    slack: [ sports_medal ]
     en: sports medal
     since: "1.0"
     subgroup: award-medal
@@ -271,6 +297,7 @@ emoji:
       - きんめだる
       - いちい
       - ゆうしょう
+    slack: [ first_place_medal ]
     en: 1st place medal
     since: "3.0"
     subgroup: award-medal
@@ -281,6 +308,7 @@ emoji:
     readings:
       - ぎんめだる
       - にい
+    slack: [ second_place_medal ]
     en: 2nd place medal
     since: "3.0"
     subgroup: award-medal
@@ -291,6 +319,7 @@ emoji:
     readings:
       - どうめだる
       - さんい
+    slack: [ third_place_medal ]
     en: 3rd place medal
     since: "3.0"
     subgroup: award-medal
@@ -301,6 +330,7 @@ emoji:
     readings:
       - さっかー
       - さっかーぼーる
+    slack: [ soccer ]
     en: soccer ball
     since: "0.6"
     subgroup: sport
@@ -311,6 +341,7 @@ emoji:
     readings:
       - やきゅう
       - べーすぼーる
+    slack: [ baseball ]
     en: baseball
     since: "0.6"
     subgroup: sport
@@ -320,6 +351,7 @@ emoji:
     name: ソフトボール
     readings:
       - そふとぼーる
+    slack: [ softball ]
     en: softball
     since: "11.0"
     subgroup: sport
@@ -330,6 +362,7 @@ emoji:
     readings:
       - ばすけっとぼーる
       - ばすけ
+    slack: [ basketball ]
     en: basketball
     since: "0.6"
     subgroup: sport
@@ -340,6 +373,7 @@ emoji:
     readings:
       - ばれーぼーる
       - ばれー
+    slack: [ volleyball ]
     en: volleyball
     since: "1.0"
     subgroup: sport
@@ -350,6 +384,7 @@ emoji:
     readings:
       - あめふと
       - あめりかんふっとぼーる
+    slack: [ football ]
     en: american football
     since: "0.6"
     subgroup: sport
@@ -360,6 +395,7 @@ emoji:
     readings:
       - らぐびー
       - らぐびーぼーる
+    slack: [ rugby_football ]
     en: rugby football
     since: "1.0"
     subgroup: sport
@@ -370,6 +406,7 @@ emoji:
     readings:
       - てにす
       - てにすぼーる
+    slack: [ tennis ]
     en: tennis
     since: "0.6"
     subgroup: sport
@@ -380,6 +417,7 @@ emoji:
     readings:
       - ふりすびー
       - ふらいんぐでぃすく
+    slack: [ flying_disc ]
     en: flying disc
     since: "11.0"
     subgroup: sport
@@ -390,6 +428,7 @@ emoji:
     readings:
       - ぼうりんぐ
       - すとらいく
+    slack: [ bowling ]
     en: bowling
     since: "0.6"
     subgroup: sport
@@ -399,6 +438,7 @@ emoji:
     name: クリケット
     readings:
       - くりけっと
+    slack: [ cricket_bat_and_ball ]
     en: cricket game
     since: "1.0"
     subgroup: sport
@@ -409,6 +449,7 @@ emoji:
     readings:
       - ほっけー
       - ふぃーるどほっけー
+    slack: [ field_hockey_stick_and_ball ]
     en: field hockey
     since: "1.0"
     subgroup: sport
@@ -419,6 +460,7 @@ emoji:
     readings:
       - あいすほっけー
       - ほっけー
+    slack: [ ice_hockey_stick_and_puck ]
     en: ice hockey
     since: "1.0"
     subgroup: sport
@@ -428,6 +470,7 @@ emoji:
     name: ラクロス
     readings:
       - らくろす
+    slack: [ lacrosse ]
     en: lacrosse
     since: "11.0"
     subgroup: sport
@@ -438,6 +481,7 @@ emoji:
     readings:
       - たっきゅう
       - ぴんぽん
+    slack: [ table_tennis_paddle_and_ball ]
     en: ping pong
     since: "1.0"
     subgroup: sport
@@ -447,6 +491,7 @@ emoji:
     name: バドミントン
     readings:
       - ばどみんとん
+    slack: [ badminton_racquet_and_shuttlecock ]
     en: badminton
     since: "1.0"
     subgroup: sport
@@ -457,6 +502,7 @@ emoji:
     readings:
       - ぼくしんぐ
       - ぐろーぶ
+    slack: [ boxing_glove ]
     en: boxing glove
     since: "3.0"
     subgroup: sport
@@ -470,6 +516,7 @@ emoji:
       - からて
       - じゅうどう
       - かくとうぎ
+    slack: [ martial_arts_uniform ]
     en: martial arts uniform
     since: "3.0"
     subgroup: sport
@@ -480,6 +527,7 @@ emoji:
     readings:
       - ごーるねっと
       - ごーる
+    slack: [ goal_net ]
     en: goal net
     since: "3.0"
     subgroup: sport
@@ -489,6 +537,7 @@ emoji:
     name: ゴルフ
     readings:
       - ごるふ
+    slack: [ golf ]
     en: flag in hole
     since: "0.6"
     subgroup: sport
@@ -500,6 +549,7 @@ emoji:
       - あいすすけーと
       - すけーと
       - ふぃぎゅあすけーと
+    slack: [ ice_skate ]
     en: ice skate
     since: "0.7"
     subgroup: sport
@@ -511,6 +561,7 @@ emoji:
       - つり
       - つりざお
       - ふぃっしんぐ
+    slack: [ fishing_pole_and_fish ]
     en: fishing pole
     since: "0.6"
     subgroup: sport
@@ -523,6 +574,7 @@ emoji:
       - だいびんぐ
       - しゅのーける
       - すきゅーば
+    slack: [ diving_mask ]
     en: diving mask
     since: "12.0"
     subgroup: sport
@@ -535,6 +587,7 @@ emoji:
       - らんにんぐ
       - えきでん
       - たすき
+    slack: [ running_shirt_with_sash ]
     en: running shirt
     since: "0.6"
     subgroup: sport
@@ -544,6 +597,7 @@ emoji:
     name: スキー
     readings:
       - すきー
+    slack: [ ski ]
     en: skis
     since: "0.6"
     subgroup: sport
@@ -555,6 +609,7 @@ emoji:
       - そりきょうぎ
       - そり
       - ぼぶすれー
+    slack: [ sled ]
     en: sled
     since: "5.0"
     subgroup: sport
@@ -564,6 +619,7 @@ emoji:
     name: カーリング
     readings:
       - かーりんぐ
+    slack: [ curling_stone ]
     en: curling stone
     since: "5.0"
     subgroup: sport
@@ -575,6 +631,7 @@ emoji:
       - まと
       - だーつ
       - てきちゅう
+    slack: [ dart ]
     en: bullseye
     since: "0.6"
     subgroup: game
@@ -584,6 +641,7 @@ emoji:
     name: ヨーヨー
     readings:
       - よーよー
+    slack: [ yo-yo ]
     en: yo-yo
     since: "12.0"
     subgroup: game
@@ -595,6 +653,7 @@ emoji:
       - たこ
       - たこあげ
       - かいと
+    slack: [ kite ]
     en: kite
     since: "12.0"
     subgroup: game
@@ -606,6 +665,7 @@ emoji:
       - みずでっぽう
       - ぴすとる
       - じゅう
+    slack: [ gun ]
     en: water pistol
     since: "0.6"
     subgroup: game
@@ -617,6 +677,7 @@ emoji:
       - びりやーど
       - えいとぼーる
       - たまつき
+    slack: [ 8ball ]
     en: pool 8 ball
     since: "0.6"
     subgroup: game
@@ -628,6 +689,7 @@ emoji:
       - すいしょうだま
       - うらない
       - すいしょう
+    slack: [ crystal_ball ]
     en: crystal ball
     since: "0.6"
     subgroup: game
@@ -640,6 +702,7 @@ emoji:
       - まほう
       - つえ
       - まじっく
+    slack: [ magic_wand ]
     en: magic wand
     since: "13.0"
     subgroup: game
@@ -652,6 +715,7 @@ emoji:
       - げーむ
       - こんとろーら
       - びでおげーむ
+    slack: [ video_game ]
     en: video game
     since: "0.6"
     subgroup: game
@@ -662,6 +726,7 @@ emoji:
     readings:
       - じょいすてぃっく
       - げーむ
+    slack: [ joystick ]
     en: joystick
     since: "0.7"
     subgroup: game
@@ -674,6 +739,7 @@ emoji:
       - すろっと
       - かじの
       - すりーせぶん
+    slack: [ slot_machine ]
     en: slot machine
     since: "0.6"
     subgroup: game
@@ -684,6 +750,7 @@ emoji:
     readings:
       - さいころ
       - だいす
+    slack: [ game_die ]
     en: game die
     since: "0.6"
     subgroup: game
@@ -695,6 +762,7 @@ emoji:
       - じぐそーぱずる
       - ぱずる
       - ぴーす
+    slack: [ jigsaw ]
     en: puzzle piece
     since: "11.0"
     subgroup: game
@@ -706,6 +774,7 @@ emoji:
       - てでぃべあ
       - ぬいぐるみ
       - くま
+    slack: [ teddy_bear ]
     en: teddy bear
     since: "11.0"
     subgroup: game
@@ -715,6 +784,7 @@ emoji:
     name: ピニャータ
     readings:
       - ぴにゃーた
+    slack: [ pinata ]
     en: piñata
     since: "13.0"
     subgroup: game
@@ -725,6 +795,7 @@ emoji:
     readings:
       - みらーぼーる
       - でぃすこ
+    slack: [ mirror_ball ]
     en: mirror ball
     since: "14.0"
     subgroup: game
@@ -734,6 +805,7 @@ emoji:
     name: マトリョーシカ
     readings:
       - まとりょーしか
+    slack: [ nesting_dolls ]
     en: nesting dolls
     since: "13.0"
     subgroup: game
@@ -743,6 +815,7 @@ emoji:
     name: スペード
     readings:
       - すぺーど
+    slack: [ spades ]
     en: spade suit
     since: "0.6"
     subgroup: game
@@ -752,6 +825,7 @@ emoji:
     name: ハート
     readings:
       - はーと
+    slack: [ hearts ]
     en: heart suit
     since: "0.6"
     subgroup: game
@@ -761,6 +835,7 @@ emoji:
     name: ダイヤ
     readings:
       - だいや
+    slack: [ diamonds ]
     en: diamond suit
     since: "0.6"
     subgroup: game
@@ -771,6 +846,7 @@ emoji:
     readings:
       - くらぶ
       - くろーばー
+    slack: [ clubs ]
     en: club suit
     since: "0.6"
     subgroup: game
@@ -783,6 +859,7 @@ emoji:
       - ちぇす
       - こま
       - すてごま
+    slack: [ chess_pawn ]
     en: chess pawn
     since: "11.0"
     subgroup: game
@@ -794,6 +871,7 @@ emoji:
       - じょーかー
       - ばば
       - とらんぷ
+    slack: [ black_joker ]
     en: joker
     since: "0.6"
     subgroup: game
@@ -805,6 +883,7 @@ emoji:
       - まーじゃん
       - ちゅん
       - まーじゃんぱい
+    slack: [ mahjong ]
     en: mahjong red dragon
     since: "0.6"
     subgroup: game
@@ -814,6 +893,7 @@ emoji:
     name: 花札
     readings:
       - はなふだ
+    slack: [ flower_playing_cards ]
     en: flower playing cards
     since: "0.6"
     subgroup: game
@@ -826,6 +906,7 @@ emoji:
       - えんげき
       - かめん
       - げきじょう
+    slack: [ performing_arts ]
     en: performing arts
     since: "0.6"
     subgroup: arts & crafts
@@ -841,6 +922,7 @@ emoji:
       - がくぶち
       - びじゅつ
       - げいじゅつ
+    slack: [ frame_with_picture ]
     en: framed picture
     since: "0.7"
     subgroup: arts & crafts
@@ -856,6 +938,7 @@ emoji:
       - おえかき
       - びじゅつ
       - げいじゅつ
+    slack: [ art ]
     en: artist palette
     since: "0.6"
     subgroup: arts & crafts
@@ -869,6 +952,7 @@ emoji:
       - さいほう
       - そーいんぐ
       - ほうせん
+    slack: [ thread ]
     en: thread
     since: "11.0"
     subgroup: arts & crafts
@@ -884,6 +968,7 @@ emoji:
       - ししゅう
       - すてっち
       - いととはり
+    slack: [ sewing_needle ]
     en: sewing needle
     since: "13.0"
     subgroup: arts & crafts
@@ -897,6 +982,7 @@ emoji:
       - あみもの
       - にっと
       - よーん
+    slack: [ yarn ]
     en: yarn
     since: "11.0"
     subgroup: arts & crafts
@@ -910,6 +996,7 @@ emoji:
       - のっと
       - ろーぷ
       - ひも
+    slack: [ knot ]
     en: knot
     since: "13.0"
     subgroup: arts & crafts
