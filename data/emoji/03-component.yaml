@@ -1,0 +1,123 @@
+# SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
+#   name:     annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   review:   true if added automatically by the update task; remove after checking the readings
+# Other fields are refreshed from Unicode/CLDR by the update task.
+
+group: Component
+emoji:
+  - emoji: 🏻
+    code: 1F3FB
+    name: 薄い肌色
+    readings:
+      - うすいはだいろ
+      - はだいろ
+      - はだのいろ
+      - すきんとーん
+    en: light skin tone
+    since: "1.0"
+    subgroup: skin-tone
+    keywords: [ 肌の色, 肌色1–2, 薄い肌色 ]
+  - emoji: 🏼
+    code: 1F3FC
+    name: やや薄い肌色
+    readings:
+      - ややうすいはだいろ
+      - はだいろ
+      - はだのいろ
+      - すきんとーん
+    en: medium-light skin tone
+    since: "1.0"
+    subgroup: skin-tone
+    keywords: [ やや薄い肌色, 肌の色, 肌色3, 薄い～中間の肌色 ]
+  - emoji: 🏽
+    code: 1F3FD
+    name: 中間の肌色
+    readings:
+      - ちゅうかんのはだいろ
+      - はだいろ
+      - はだのいろ
+      - すきんとーん
+    en: medium skin tone
+    since: "1.0"
+    subgroup: skin-tone
+    keywords: [ 中間の肌色, 肌の色, 肌色4 ]
+  - emoji: 🏾
+    code: 1F3FE
+    name: やや濃い肌色
+    readings:
+      - ややこいはだいろ
+      - はだいろ
+      - はだのいろ
+      - すきんとーん
+    en: medium-dark skin tone
+    since: "1.0"
+    subgroup: skin-tone
+    keywords: [ やや濃い肌色, 中間～濃い肌色, 肌の色, 肌色5 ]
+  - emoji: 🏿
+    code: 1F3FF
+    name: 濃い肌色
+    readings:
+      - こいはだいろ
+      - はだいろ
+      - はだのいろ
+      - すきんとーん
+    en: dark skin tone
+    since: "1.0"
+    subgroup: skin-tone
+    keywords: [ 濃い肌色, 肌の色, 肌色6 ]
+  - emoji: 🦰
+    code: 1F9B0
+    name: 赤毛
+    readings:
+      - あかげ
+      - あかがみ
+      - れっどへあ
+      - ちゃぱつ
+    en: red hair
+    since: "11.0"
+    subgroup: hair-style
+    keywords: [ 赤毛, 赤毛の人, 赤茶 ]
+  - emoji: 🦱
+    code: 1F9B1
+    name: 巻き毛
+    readings:
+      - まきげ
+      - くせげ
+      - てんぱ
+      - てんねんぱーま
+      - かーる
+      - あふろ
+      - ちぢれげ
+    en: curly hair
+    since: "11.0"
+    subgroup: hair-style
+    keywords: [ アフロ, カール, くせ毛, パンチパーマ, 巻き毛 ]
+  - emoji: 🦳
+    code: 1F9B3
+    name: 白髪
+    readings:
+      - しらが
+      - はくはつ
+      - ぐれーへあ
+      - ろうじん
+      - こうれいしゃ
+      - ぎんぱつ
+    en: white hair
+    since: "11.0"
+    subgroup: hair-style
+    keywords: [ グレー, 年配, 白髪, 老人, 高齢者 ]
+  - emoji: 🦲
+    code: 1F9B2
+    name: はげ頭
+    readings:
+      - はげあたま
+      - はげ
+      - すきんへっど
+      - ぼうず
+      - つるつる
+      - ぼうずあたま
+    en: bald
+    since: "11.0"
+    subgroup: hair-style
+    keywords: [ スキンヘッド, はげ頭, 化学療法, 坊主, 毛がない ]

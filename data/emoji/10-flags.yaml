@@ -1,0 +1,3087 @@
+# SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
+#   name:     annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   review:   true if added automatically by the update task; remove after checking the readings
+# Other fields are refreshed from Unicode/CLDR by the update task.
+
+group: Flags
+emoji:
+  - emoji: 🏁
+    code: 1F3C1
+    name: チェッカーフラッグ
+    readings:
+      - ちぇっかーふらっぐ
+      - ごーる
+      - れーす
+      - ゆうしょう
+      - しょうり
+      - はた
+      - ふらっぐ
+    en: chequered flag
+    since: "0.6"
+    subgroup: flag
+    keywords: [ スポーツ, チェッカーフラッグ, フラグ, フラッグ, レーシング, レース, 勝利, 旗 ]
+  - emoji: 🚩
+    code: 1F6A9
+    name: 三角の旗
+    readings:
+      - さんかくのはた
+      - はた
+      - ふらっぐ
+      - ふらぐ
+      - ふらぐがたった
+      - ごるふ
+    en: triangular flag
+    since: "0.6"
+    subgroup: flag
+    keywords: [ ゴルフ, スポーツ, フラグ, フラッグ, 三角の旗, 建築, 旗 ]
+  - emoji: 🎌
+    code: 1F38C
+    name: 祝日の旗
+    readings:
+      - しゅくじつのはた
+      - こうさしたはた
+      - ひのまる
+      - にほん
+      - しゅくじつ
+      - はた
+      - にっぽん
+    en: crossed flags
+    since: "0.6"
+    subgroup: flag
+    keywords: [ フラグ, フラッグ, 交差した旗, 旗, 日の丸, 日本, 祝日, 祝日の旗 ]
+  - emoji: 🏴
+    code: 1F3F4
+    name: 黒旗
+    readings:
+      - くろはた
+      - こっき
+      - くろいはた
+      - はた
+      - ふらっぐ
+    en: black flag
+    since: "1.0"
+    subgroup: flag
+    keywords: [ フラグ, フラッグ, 旗, 黒, 黒旗 ]
+  - emoji: 🏳️
+    code: 1F3F3 FE0F
+    name: 白旗
+    readings:
+      - しろはた
+      - はっき
+      - しろいはた
+      - こうさん
+      - はた
+      - ふらっぐ
+    en: white flag
+    since: "0.7"
+    subgroup: flag
+    keywords: [ フラグ, フラッグ, 旗, 白, 白旗 ]
+  - emoji: 🏳️‍🌈
+    code: 1F3F3 FE0F 200D 1F308
+    name: レインボーフラッグ
+    readings:
+      - れいんぼーふらっぐ
+      - にじいろのはた
+      - にじのはた
+      - lgbt
+      - ぷらいど
+      - れいんぼー
+    en: rainbow flag
+    since: "4.0"
+    subgroup: flag
+    keywords: [ GLBT, LGBT, LGBTQ, LGBTQIA, ゲイ, トランスジェンダー, バイセクシュアル, プライド, フラグ, レズビアン, 虹色の旗 ]
+  - emoji: 🏳️‍⚧️
+    code: 1F3F3 FE0F 200D 26A7 FE0F
+    name: トランスジェンダーフラッグ
+    readings:
+      - とらんすじぇんだーふらっぐ
+      - とらんすじぇんだー
+      - とらんすじぇんだーのはた
+      - lgbt
+      - ぷらいど
+    en: transgender flag
+    since: "13.0"
+    subgroup: flag
+    keywords: [ LGBT, TG, トランスジェンダー, トランスジェンダーフラッグ, フラグ, フラッグ, 旗 ]
+  - emoji: 🏴‍☠️
+    code: 1F3F4 200D 2620 FE0F
+    name: 海賊旗
+    readings:
+      - かいぞくき
+      - かいぞく
+      - じょりーろじゃー
+      - どくろ
+      - かいぞくのはた
+      - どくろのはた
+    en: pirate flag
+    since: "11.0"
+    subgroup: flag
+    keywords: [ ジョリー・ロジャー, 宝物, 海賊, 海賊旗, 略奪 ]
+  - emoji: 🇦🇨
+    code: 1F1E6 1F1E8
+    name: アセンション島の旗
+    readings:
+      - あせんしょんとうのはた
+      - あせんしょんとう
+      - あせんしょん
+    en: "flag: Ascension Island"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇦🇩
+    code: 1F1E6 1F1E9
+    name: アンドラの国旗
+    readings:
+      - あんどらのこっき
+      - あんどら
+      - あんどらのはた
+    en: "flag: Andorra"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇦🇪
+    code: 1F1E6 1F1EA
+    name: アラブ首長国連邦の国旗
+    readings:
+      - あらぶしゅちょうこくれんぽうのこっき
+      - あらぶしゅちょうこくれんぽう
+      - uae
+      - どばい
+      - あらぶしゅちょうこくれんぽうのはた
+    en: "flag: United Arab Emirates"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇦🇫
+    code: 1F1E6 1F1EB
+    name: アフガニスタンの国旗
+    readings:
+      - あふがにすたんのこっき
+      - あふがにすたん
+      - あふがん
+      - あふがにすたんのはた
+    en: "flag: Afghanistan"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇦🇬
+    code: 1F1E6 1F1EC
+    name: アンティグア・バーブーダの国旗
+    readings:
+      - あんてぃぐあばーぶーだのこっき
+      - あんてぃぐあばーぶーだ
+      - あんてぃぐあ
+      - あんてぃぐあばーぶーだのはた
+    en: "flag: Antigua & Barbuda"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇦🇮
+    code: 1F1E6 1F1EE
+    name: アンギラの旗
+    readings:
+      - あんぎらのはた
+      - あんぎら
+    en: "flag: Anguilla"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇦🇱
+    code: 1F1E6 1F1F1
+    name: アルバニアの国旗
+    readings:
+      - あるばにあのこっき
+      - あるばにあ
+      - あるばにあのはた
+    en: "flag: Albania"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇦🇲
+    code: 1F1E6 1F1F2
+    name: アルメニアの国旗
+    readings:
+      - あるめにあのこっき
+      - あるめにあ
+      - あるめにあのはた
+    en: "flag: Armenia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇦🇴
+    code: 1F1E6 1F1F4
+    name: アンゴラの国旗
+    readings:
+      - あんごらのこっき
+      - あんごら
+      - あんごらのはた
+    en: "flag: Angola"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇦🇶
+    code: 1F1E6 1F1F6
+    name: 南極の旗
+    readings:
+      - なんきょくのはた
+      - なんきょく
+      - なんきょくたいりく
+    en: "flag: Antarctica"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇦🇷
+    code: 1F1E6 1F1F7
+    name: アルゼンチンの国旗
+    readings:
+      - あるぜんちんのこっき
+      - あるぜんちん
+      - あるぜんちんのはた
+    en: "flag: Argentina"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇦🇸
+    code: 1F1E6 1F1F8
+    name: 米領サモアの旗
+    readings:
+      - べいりょうさもあのはた
+      - べいりょうさもあ
+      - あめりかりょうさもあ
+      - さもあ
+    en: "flag: American Samoa"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇦🇹
+    code: 1F1E6 1F1F9
+    name: オーストリアの国旗
+    readings:
+      - おーすとりあのこっき
+      - おーすとりあ
+      - うぃーん
+      - おーすとりあのはた
+    en: "flag: Austria"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇦🇺
+    code: 1F1E6 1F1FA
+    name: オーストラリアの国旗
+    readings:
+      - おーすとらりあのこっき
+      - おーすとらりあ
+      - ごうしゅう
+      - おーじー
+      - おーすとらりあのはた
+    en: "flag: Australia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇦🇼
+    code: 1F1E6 1F1FC
+    name: アルバの旗
+    readings:
+      - あるばのはた
+      - あるば
+    en: "flag: Aruba"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇦🇽
+    code: 1F1E6 1F1FD
+    name: オーランド諸島の旗
+    readings:
+      - おーらんどしょとうのはた
+      - おーらんどしょとう
+      - おーらんど
+    en: "flag: Åland Islands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇦🇿
+    code: 1F1E6 1F1FF
+    name: アゼルバイジャンの国旗
+    readings:
+      - あぜるばいじゃんのこっき
+      - あぜるばいじゃん
+      - あぜるばいじゃんのはた
+    en: "flag: Azerbaijan"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇦
+    code: 1F1E7 1F1E6
+    name: ボスニア・ヘルツェゴビナの国旗
+    readings:
+      - ぼすにあへるつぇごびなのこっき
+      - ぼすにあへるつぇごびな
+      - ぼすにあ
+      - ぼすにあへるつぇごびなのはた
+    en: "flag: Bosnia & Herzegovina"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇧
+    code: 1F1E7 1F1E7
+    name: バルバドスの国旗
+    readings:
+      - ばるばどすのこっき
+      - ばるばどす
+      - ばるばどすのはた
+    en: "flag: Barbados"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇩
+    code: 1F1E7 1F1E9
+    name: バングラデシュの国旗
+    readings:
+      - ばんぐらでしゅのこっき
+      - ばんぐらでしゅ
+      - ばんぐらでしゅのはた
+    en: "flag: Bangladesh"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇪
+    code: 1F1E7 1F1EA
+    name: ベルギーの国旗
+    readings:
+      - べるぎーのこっき
+      - べるぎー
+      - べるぎーのはた
+    en: "flag: Belgium"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇫
+    code: 1F1E7 1F1EB
+    name: ブルキナファソの国旗
+    readings:
+      - ぶるきなふぁそのこっき
+      - ぶるきなふぁそ
+      - ぶるきなふぁそのはた
+    en: "flag: Burkina Faso"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇬
+    code: 1F1E7 1F1EC
+    name: ブルガリアの国旗
+    readings:
+      - ぶるがりあのこっき
+      - ぶるがりあ
+      - ぶるがりあのはた
+    en: "flag: Bulgaria"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇭
+    code: 1F1E7 1F1ED
+    name: バーレーンの国旗
+    readings:
+      - ばーれーんのこっき
+      - ばーれーん
+      - ばーれーんのはた
+    en: "flag: Bahrain"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇮
+    code: 1F1E7 1F1EE
+    name: ブルンジの国旗
+    readings:
+      - ぶるんじのこっき
+      - ぶるんじ
+      - ぶるんじのはた
+    en: "flag: Burundi"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇯
+    code: 1F1E7 1F1EF
+    name: ベナンの国旗
+    readings:
+      - べなんのこっき
+      - べなん
+      - べなんのはた
+    en: "flag: Benin"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇱
+    code: 1F1E7 1F1F1
+    name: サン・バルテルミーの旗
+    readings:
+      - さんばるてるみーのはた
+      - さんばるてるみー
+      - さんばるてるみーとう
+    en: "flag: St. Barthélemy"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇲
+    code: 1F1E7 1F1F2
+    name: バミューダの旗
+    readings:
+      - ばみゅーだのはた
+      - ばみゅーだ
+      - ばみゅーだしょとう
+    en: "flag: Bermuda"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇳
+    code: 1F1E7 1F1F3
+    name: ブルネイの国旗
+    readings:
+      - ぶるねいのこっき
+      - ぶるねい
+      - ぶるねいのはた
+    en: "flag: Brunei"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇴
+    code: 1F1E7 1F1F4
+    name: ボリビアの国旗
+    readings:
+      - ぼりびあのこっき
+      - ぼりびあ
+      - ぼりびあのはた
+    en: "flag: Bolivia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇶
+    code: 1F1E7 1F1F6
+    name: オランダ領カリブの旗
+    readings:
+      - おらんだりょうかりぶのはた
+      - おらんだりょうかりぶ
+      - かりぶおらんだ
+      - ぼねーる
+    en: "flag: Caribbean Netherlands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇷
+    code: 1F1E7 1F1F7
+    name: ブラジルの国旗
+    readings:
+      - ぶらじるのこっき
+      - ぶらじる
+      - ぶらじるのはた
+    en: "flag: Brazil"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇸
+    code: 1F1E7 1F1F8
+    name: バハマの国旗
+    readings:
+      - ばはまのこっき
+      - ばはま
+      - ばはまのはた
+    en: "flag: Bahamas"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇹
+    code: 1F1E7 1F1F9
+    name: ブータンの国旗
+    readings:
+      - ぶーたんのこっき
+      - ぶーたん
+      - ぶーたんのはた
+    en: "flag: Bhutan"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇻
+    code: 1F1E7 1F1FB
+    name: ブーベ島の旗
+    readings:
+      - ぶーべとうのはた
+      - ぶーべとう
+      - ぶーべ
+    en: "flag: Bouvet Island"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇼
+    code: 1F1E7 1F1FC
+    name: ボツワナの国旗
+    readings:
+      - ぼつわなのこっき
+      - ぼつわな
+      - ぼつわなのはた
+    en: "flag: Botswana"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇾
+    code: 1F1E7 1F1FE
+    name: ベラルーシの国旗
+    readings:
+      - べらるーしのこっき
+      - べらるーし
+      - べらるーしのはた
+    en: "flag: Belarus"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇧🇿
+    code: 1F1E7 1F1FF
+    name: ベリーズの国旗
+    readings:
+      - べりーずのこっき
+      - べりーず
+      - べりーずのはた
+    en: "flag: Belize"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇦
+    code: 1F1E8 1F1E6
+    name: カナダの国旗
+    readings:
+      - かなだのこっき
+      - かなだ
+      - めーぷるりーふき
+      - かなだのはた
+    en: "flag: Canada"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇨
+    code: 1F1E8 1F1E8
+    name: ココス諸島の旗
+    readings:
+      - ここすしょとうのはた
+      - ここすしょとう
+      - きーりんぐしょとう
+      - ここす
+    en: "flag: Cocos (Keeling) Islands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇩
+    code: 1F1E8 1F1E9
+    name: コンゴ民主共和国の国旗
+    readings:
+      - こんごみんしゅきょうわこくのこっき
+      - こんごみんしゅきょうわこく
+      - こんご
+      - きんしゃさ
+      - こんごみんしゅきょうわこくのはた
+    en: "flag: Congo - Kinshasa"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇫
+    code: 1F1E8 1F1EB
+    name: 中央アフリカ共和国の国旗
+    readings:
+      - ちゅうおうあふりかきょうわこくのこっき
+      - ちゅうおうあふりかきょうわこく
+      - ちゅうおうあふりか
+      - ちゅうおうあふりかのはた
+    en: "flag: Central African Republic"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇬
+    code: 1F1E8 1F1EC
+    name: コンゴ共和国の国旗
+    readings:
+      - こんごきょうわこくのこっき
+      - こんごきょうわこく
+      - こんご
+      - ぶらざびる
+      - こんごきょうわこくのはた
+    en: "flag: Congo - Brazzaville"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇭
+    code: 1F1E8 1F1ED
+    name: スイスの国旗
+    readings:
+      - すいすのこっき
+      - すいす
+      - すいすのはた
+    en: "flag: Switzerland"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇮
+    code: 1F1E8 1F1EE
+    name: コートジボワールの国旗
+    readings:
+      - こーとじぼわーるのこっき
+      - こーとじぼわーる
+      - ぞうげかいがん
+      - こーとじぼわーるのはた
+    en: "flag: Côte d’Ivoire"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇰
+    code: 1F1E8 1F1F0
+    name: クック諸島の旗
+    readings:
+      - くっくしょとうのはた
+      - くっくしょとう
+    en: "flag: Cook Islands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇱
+    code: 1F1E8 1F1F1
+    name: チリの国旗
+    readings:
+      - ちりのこっき
+      - ちり
+      - ちりのはた
+    en: "flag: Chile"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇲
+    code: 1F1E8 1F1F2
+    name: カメルーンの国旗
+    readings:
+      - かめるーんのこっき
+      - かめるーん
+      - かめるーんのはた
+    en: "flag: Cameroon"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇳
+    code: 1F1E8 1F1F3
+    name: 中国の国旗
+    readings:
+      - ちゅうごくのこっき
+      - ちゅうごく
+      - ちゅうか
+      - ちゅうかじんみんきょうわこく
+      - ごせいこうき
+      - ちゅうごくのはた
+    en: "flag: China"
+    since: "0.6"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇴
+    code: 1F1E8 1F1F4
+    name: コロンビアの国旗
+    readings:
+      - ころんびあのこっき
+      - ころんびあ
+      - ころんびあのはた
+    en: "flag: Colombia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇵
+    code: 1F1E8 1F1F5
+    name: クリッパートン島の旗
+    readings:
+      - くりっぱーとんとうのはた
+      - くりっぱーとんとう
+      - くりっぱーとん
+    en: "flag: Clipperton Island"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇶
+    code: 1F1E8 1F1F6
+    name: サーク島の旗
+    readings:
+      - さーくとうのはた
+      - さーくとう
+      - さーく
+    en: "flag: Sark"
+    since: "16.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇷
+    code: 1F1E8 1F1F7
+    name: コスタリカの国旗
+    readings:
+      - こすたりかのこっき
+      - こすたりか
+      - こすたりかのはた
+    en: "flag: Costa Rica"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇺
+    code: 1F1E8 1F1FA
+    name: キューバの国旗
+    readings:
+      - きゅーばのこっき
+      - きゅーば
+      - きゅーばのはた
+    en: "flag: Cuba"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇻
+    code: 1F1E8 1F1FB
+    name: カーボベルデの国旗
+    readings:
+      - かーぼべるでのこっき
+      - かーぼべるで
+      - かーぼべるでのはた
+    en: "flag: Cape Verde"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇼
+    code: 1F1E8 1F1FC
+    name: キュラソーの旗
+    readings:
+      - きゅらそーのはた
+      - きゅらそー
+      - きゅらそーとう
+    en: "flag: Curaçao"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇽
+    code: 1F1E8 1F1FD
+    name: クリスマス島の旗
+    readings:
+      - くりすますとうのはた
+      - くりすますとう
+    en: "flag: Christmas Island"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇾
+    code: 1F1E8 1F1FE
+    name: キプロスの国旗
+    readings:
+      - きぷろすのこっき
+      - きぷろす
+      - さいぷらす
+      - きぷろすのはた
+    en: "flag: Cyprus"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇨🇿
+    code: 1F1E8 1F1FF
+    name: チェコの国旗
+    readings:
+      - ちぇこのこっき
+      - ちぇこ
+      - ちぇこきょうわこく
+      - ちぇこのはた
+    en: "flag: Czechia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇩🇪
+    code: 1F1E9 1F1EA
+    name: ドイツの国旗
+    readings:
+      - どいつのこっき
+      - どいつ
+      - どくいつ
+      - じゃーまにー
+      - どいつのはた
+    en: "flag: Germany"
+    since: "0.6"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇩🇬
+    code: 1F1E9 1F1EC
+    name: ディエゴガルシア島の旗
+    readings:
+      - でぃえごがるしあとうのはた
+      - でぃえごがるしあとう
+      - でぃえごがるしあ
+    en: "flag: Diego Garcia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇩🇯
+    code: 1F1E9 1F1EF
+    name: ジブチの国旗
+    readings:
+      - じぶちのこっき
+      - じぶち
+      - じぶちのはた
+    en: "flag: Djibouti"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇩🇰
+    code: 1F1E9 1F1F0
+    name: デンマークの国旗
+    readings:
+      - でんまーくのこっき
+      - でんまーく
+      - だんねぶろ
+      - でんまーくのはた
+    en: "flag: Denmark"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇩🇲
+    code: 1F1E9 1F1F2
+    name: ドミニカ国の国旗
+    readings:
+      - どみにかこくのこっき
+      - どみにかこく
+      - どみにか
+      - どみにかこくのはた
+    en: "flag: Dominica"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇩🇴
+    code: 1F1E9 1F1F4
+    name: ドミニカ共和国の国旗
+    readings:
+      - どみにかきょうわこくのこっき
+      - どみにかきょうわこく
+      - どみにか
+      - どみにかきょうわこくのはた
+    en: "flag: Dominican Republic"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇩🇿
+    code: 1F1E9 1F1FF
+    name: アルジェリアの国旗
+    readings:
+      - あるじぇりあのこっき
+      - あるじぇりあ
+      - あるじぇりあのはた
+    en: "flag: Algeria"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇪🇦
+    code: 1F1EA 1F1E6
+    name: セウタ・メリリャの旗
+    readings:
+      - せうためりりゃのはた
+      - せうためりりゃ
+      - せうた
+      - めりりゃ
+    en: "flag: Ceuta & Melilla"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇪🇨
+    code: 1F1EA 1F1E8
+    name: エクアドルの国旗
+    readings:
+      - えくあどるのこっき
+      - えくあどる
+      - えくあどるのはた
+    en: "flag: Ecuador"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇪🇪
+    code: 1F1EA 1F1EA
+    name: エストニアの国旗
+    readings:
+      - えすとにあのこっき
+      - えすとにあ
+      - えすとにあのはた
+    en: "flag: Estonia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇪🇬
+    code: 1F1EA 1F1EC
+    name: エジプトの国旗
+    readings:
+      - えじぷとのこっき
+      - えじぷと
+      - えじぷとのはた
+    en: "flag: Egypt"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇪🇭
+    code: 1F1EA 1F1ED
+    name: 西サハラの旗
+    readings:
+      - にしさはらのはた
+      - にしさはら
+      - さはら
+    en: "flag: Western Sahara"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇪🇷
+    code: 1F1EA 1F1F7
+    name: エリトリアの国旗
+    readings:
+      - えりとりあのこっき
+      - えりとりあ
+      - えりとりあのはた
+    en: "flag: Eritrea"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇪🇸
+    code: 1F1EA 1F1F8
+    name: スペインの国旗
+    readings:
+      - すぺいんのこっき
+      - すぺいん
+      - すぺいんのはた
+    en: "flag: Spain"
+    since: "0.6"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇪🇹
+    code: 1F1EA 1F1F9
+    name: エチオピアの国旗
+    readings:
+      - えちおぴあのこっき
+      - えちおぴあ
+      - えちおぴあのはた
+    en: "flag: Ethiopia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇪🇺
+    code: 1F1EA 1F1FA
+    name: 欧州連合の旗
+    readings:
+      - おうしゅうれんごうのはた
+      - おうしゅうれんごう
+      - eu
+      - いーゆー
+      - よーろっぱ
+      - おうしゅう
+    en: "flag: European Union"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇫🇮
+    code: 1F1EB 1F1EE
+    name: フィンランドの国旗
+    readings:
+      - ふぃんらんどのこっき
+      - ふぃんらんど
+      - ふぃんらんどのはた
+    en: "flag: Finland"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇫🇯
+    code: 1F1EB 1F1EF
+    name: フィジーの国旗
+    readings:
+      - ふぃじーのこっき
+      - ふぃじー
+      - ふぃじーのはた
+    en: "flag: Fiji"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇫🇰
+    code: 1F1EB 1F1F0
+    name: フォークランド諸島の旗
+    readings:
+      - ふぉーくらんどしょとうのはた
+      - ふぉーくらんどしょとう
+      - ふぉーくらんど
+      - まるびなすしょとう
+    en: "flag: Falkland Islands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇫🇲
+    code: 1F1EB 1F1F2
+    name: ミクロネシア連邦の国旗
+    readings:
+      - みくろねしあれんぽうのこっき
+      - みくろねしあれんぽう
+      - みくろねしあ
+      - みくろねしあれんぽうのはた
+    en: "flag: Micronesia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇫🇴
+    code: 1F1EB 1F1F4
+    name: フェロー諸島の旗
+    readings:
+      - ふぇろーしょとうのはた
+      - ふぇろーしょとう
+      - ふぇろー
+    en: "flag: Faroe Islands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇫🇷
+    code: 1F1EB 1F1F7
+    name: フランスの国旗
+    readings:
+      - ふらんすのこっき
+      - ふらんす
+      - ふつ
+      - ふっこく
+      - さんしょくき
+      - とりころーる
+      - ふらんすのはた
+    en: "flag: France"
+    since: "0.6"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇦
+    code: 1F1EC 1F1E6
+    name: ガボンの国旗
+    readings:
+      - がぼんのこっき
+      - がぼん
+      - がぼんのはた
+    en: "flag: Gabon"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇧
+    code: 1F1EC 1F1E7
+    name: イギリスの国旗
+    readings:
+      - いぎりすのこっき
+      - いぎりす
+      - えいこく
+      - ゆないてっどきんぐだむ
+      - ゆにおんじゃっく
+      - ぶりてん
+      - uk
+      - いぎりすのはた
+    en: "flag: United Kingdom"
+    since: "0.6"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇩
+    code: 1F1EC 1F1E9
+    name: グレナダの国旗
+    readings:
+      - ぐれなだのこっき
+      - ぐれなだ
+      - ぐれなだのはた
+    en: "flag: Grenada"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇪
+    code: 1F1EC 1F1EA
+    name: ジョージアの国旗
+    readings:
+      - じょーじあのこっき
+      - じょーじあ
+      - ぐるじあ
+      - じょーじあのはた
+    en: "flag: Georgia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇫
+    code: 1F1EC 1F1EB
+    name: 仏領ギアナの旗
+    readings:
+      - ふつりょうぎあなのはた
+      - ふつりょうぎあな
+      - ふらんすりょうぎあな
+      - ぎあな
+    en: "flag: French Guiana"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇬
+    code: 1F1EC 1F1EC
+    name: ガーンジーの旗
+    readings:
+      - がーんじーのはた
+      - がーんじー
+      - がーんじーとう
+    en: "flag: Guernsey"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇭
+    code: 1F1EC 1F1ED
+    name: ガーナの国旗
+    readings:
+      - がーなのこっき
+      - がーな
+      - がーなのはた
+    en: "flag: Ghana"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇮
+    code: 1F1EC 1F1EE
+    name: ジブラルタルの旗
+    readings:
+      - じぶらるたるのはた
+      - じぶらるたる
+    en: "flag: Gibraltar"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇱
+    code: 1F1EC 1F1F1
+    name: グリーンランドの旗
+    readings:
+      - ぐりーんらんどのはた
+      - ぐりーんらんど
+    en: "flag: Greenland"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇲
+    code: 1F1EC 1F1F2
+    name: ガンビアの国旗
+    readings:
+      - がんびあのこっき
+      - がんびあ
+      - がんびあのはた
+    en: "flag: Gambia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇳
+    code: 1F1EC 1F1F3
+    name: ギニアの国旗
+    readings:
+      - ぎにあのこっき
+      - ぎにあ
+      - ぎにあのはた
+    en: "flag: Guinea"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇵
+    code: 1F1EC 1F1F5
+    name: グアドループの旗
+    readings:
+      - ぐあどるーぷのはた
+      - ぐあどるーぷ
+    en: "flag: Guadeloupe"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇶
+    code: 1F1EC 1F1F6
+    name: 赤道ギニアの国旗
+    readings:
+      - せきどうぎにあのこっき
+      - せきどうぎにあ
+      - せきどうぎにあのはた
+    en: "flag: Equatorial Guinea"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇷
+    code: 1F1EC 1F1F7
+    name: ギリシャの国旗
+    readings:
+      - ぎりしゃのこっき
+      - ぎりしゃ
+      - ぎりしあ
+      - へらす
+      - ぎりしゃのはた
+    en: "flag: Greece"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇸
+    code: 1F1EC 1F1F8
+    name: サウスジョージア・サウスサンドウィッチ諸島の旗
+    readings:
+      - さうすじょーじあのはた
+      - さうすじょーじあ
+      - さうすさんどうぃっちしょとう
+      - さうすじょーじあとう
+    en: "flag: South Georgia & South Sandwich Islands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇹
+    code: 1F1EC 1F1F9
+    name: グアテマラの国旗
+    readings:
+      - ぐあてまらのこっき
+      - ぐあてまら
+      - ぐあてまらのはた
+    en: "flag: Guatemala"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇺
+    code: 1F1EC 1F1FA
+    name: グアムの旗
+    readings:
+      - ぐあむのはた
+      - ぐあむ
+      - ぐあむとう
+    en: "flag: Guam"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇼
+    code: 1F1EC 1F1FC
+    name: ギニアビサウの国旗
+    readings:
+      - ぎにあびさうのこっき
+      - ぎにあびさう
+      - ぎにあびさうのはた
+    en: "flag: Guinea-Bissau"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇬🇾
+    code: 1F1EC 1F1FE
+    name: ガイアナの国旗
+    readings:
+      - がいあなのこっき
+      - がいあな
+      - がいあなのはた
+    en: "flag: Guyana"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇭🇰
+    code: 1F1ED 1F1F0
+    name: 香港の旗
+    readings:
+      - ほんこんのはた
+      - ほんこん
+      - ほんこんとくべつぎょうせいく
+      - ほんこんのこっき
+    en: "flag: Hong Kong SAR China"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇭🇲
+    code: 1F1ED 1F1F2
+    name: ハード島・マクドナルド諸島の旗
+    readings:
+      - はーどとうのはた
+      - はーどとう
+      - まくどなるどしょとう
+    en: "flag: Heard Island & McDonald Islands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇭🇳
+    code: 1F1ED 1F1F3
+    name: ホンジュラスの国旗
+    readings:
+      - ほんじゅらすのこっき
+      - ほんじゅらす
+      - ほんじゅらすのはた
+    en: "flag: Honduras"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇭🇷
+    code: 1F1ED 1F1F7
+    name: クロアチアの国旗
+    readings:
+      - くろあちあのこっき
+      - くろあちあ
+      - くろあちあのはた
+    en: "flag: Croatia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇭🇹
+    code: 1F1ED 1F1F9
+    name: ハイチの国旗
+    readings:
+      - はいちのこっき
+      - はいち
+      - はいちのはた
+    en: "flag: Haiti"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇭🇺
+    code: 1F1ED 1F1FA
+    name: ハンガリーの国旗
+    readings:
+      - はんがりーのこっき
+      - はんがりー
+      - はんがりーのはた
+    en: "flag: Hungary"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇮🇨
+    code: 1F1EE 1F1E8
+    name: カナリア諸島の旗
+    readings:
+      - かなりあしょとうのはた
+      - かなりあしょとう
+      - かなりあ
+    en: "flag: Canary Islands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇮🇩
+    code: 1F1EE 1F1E9
+    name: インドネシアの国旗
+    readings:
+      - いんどねしあのこっき
+      - いんどねしあ
+      - いんどねしあのはた
+    en: "flag: Indonesia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇮🇪
+    code: 1F1EE 1F1EA
+    name: アイルランドの国旗
+    readings:
+      - あいるらんどのこっき
+      - あいるらんど
+      - えーる
+      - あいるらんどのはた
+    en: "flag: Ireland"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇮🇱
+    code: 1F1EE 1F1F1
+    name: イスラエルの国旗
+    readings:
+      - いすらえるのこっき
+      - いすらえる
+      - いすらえるのはた
+    en: "flag: Israel"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇮🇲
+    code: 1F1EE 1F1F2
+    name: マン島の旗
+    readings:
+      - まんとうのはた
+      - まんとう
+    en: "flag: Isle of Man"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇮🇳
+    code: 1F1EE 1F1F3
+    name: インドの国旗
+    readings:
+      - いんどのこっき
+      - いんど
+      - いんどのはた
+    en: "flag: India"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇮🇴
+    code: 1F1EE 1F1F4
+    name: 英領インド洋地域の旗
+    readings:
+      - えいりょういんどようちいきのはた
+      - えいりょういんどようちいき
+      - ちゃごすしょとう
+    en: "flag: British Indian Ocean Territory"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇮🇶
+    code: 1F1EE 1F1F6
+    name: イラクの国旗
+    readings:
+      - いらくのこっき
+      - いらく
+      - いらくのはた
+    en: "flag: Iraq"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇮🇷
+    code: 1F1EE 1F1F7
+    name: イランの国旗
+    readings:
+      - いらんのこっき
+      - いらん
+      - いらんのはた
+    en: "flag: Iran"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇮🇸
+    code: 1F1EE 1F1F8
+    name: アイスランドの国旗
+    readings:
+      - あいすらんどのこっき
+      - あいすらんど
+      - あいすらんどのはた
+    en: "flag: Iceland"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇮🇹
+    code: 1F1EE 1F1F9
+    name: イタリアの国旗
+    readings:
+      - いたりあのこっき
+      - いたりあ
+      - いたりー
+      - さんしょくき
+      - いたりあのはた
+    en: "flag: Italy"
+    since: "0.6"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇯🇪
+    code: 1F1EF 1F1EA
+    name: ジャージーの旗
+    readings:
+      - じゃーじーのはた
+      - じゃーじー
+      - じゃーじーとう
+    en: "flag: Jersey"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇯🇲
+    code: 1F1EF 1F1F2
+    name: ジャマイカの国旗
+    readings:
+      - じゃまいかのこっき
+      - じゃまいか
+      - じゃまいかのはた
+    en: "flag: Jamaica"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇯🇴
+    code: 1F1EF 1F1F4
+    name: ヨルダンの国旗
+    readings:
+      - よるだんのこっき
+      - よるだん
+      - よるだんのはた
+    en: "flag: Jordan"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇯🇵
+    code: 1F1EF 1F1F5
+    name: 日本の国旗
+    readings:
+      - にほんのこっき
+      - にほん
+      - にっぽん
+      - ひのまる
+      - にっぽんのこっき
+      - にほんのはた
+      - じゃぱん
+      - jp
+    en: "flag: Japan"
+    since: "0.6"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇰🇪
+    code: 1F1F0 1F1EA
+    name: ケニアの国旗
+    readings:
+      - けにあのこっき
+      - けにあ
+      - けにあのはた
+    en: "flag: Kenya"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇰🇬
+    code: 1F1F0 1F1EC
+    name: キルギスの国旗
+    readings:
+      - きるぎすのこっき
+      - きるぎす
+      - きるぎすたん
+      - きるぎすのはた
+    en: "flag: Kyrgyzstan"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇰🇭
+    code: 1F1F0 1F1ED
+    name: カンボジアの国旗
+    readings:
+      - かんぼじあのこっき
+      - かんぼじあ
+      - かんぼじあのはた
+    en: "flag: Cambodia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇰🇮
+    code: 1F1F0 1F1EE
+    name: キリバスの国旗
+    readings:
+      - きりばすのこっき
+      - きりばす
+      - きりばすのはた
+    en: "flag: Kiribati"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇰🇲
+    code: 1F1F0 1F1F2
+    name: コモロの国旗
+    readings:
+      - こもろのこっき
+      - こもろ
+      - こもろのはた
+    en: "flag: Comoros"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇰🇳
+    code: 1F1F0 1F1F3
+    name: セントクリストファー・ネーヴィスの国旗
+    readings:
+      - せんとくりすとふぁーねーびすのこっき
+      - せんとくりすとふぁーねーびす
+      - せんとくりすとふぁー
+      - せんときっつ
+      - ねーびす
+      - せんとくりすとふぁーねーびすのはた
+    en: "flag: St. Kitts & Nevis"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇰🇵
+    code: 1F1F0 1F1F5
+    name: 北朝鮮の国旗
+    readings:
+      - きたちょうせんのこっき
+      - きたちょうせん
+      - ちょうせんみんしゅしゅぎじんみんきょうわこく
+      - きたちょうせんのはた
+    en: "flag: North Korea"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇰🇷
+    code: 1F1F0 1F1F7
+    name: 韓国の国旗
+    readings:
+      - かんこくのこっき
+      - かんこく
+      - だいかんみんこく
+      - たいきょくき
+      - さうすこりあ
+      - かんこくのはた
+    en: "flag: South Korea"
+    since: "0.6"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇰🇼
+    code: 1F1F0 1F1FC
+    name: クウェートの国旗
+    readings:
+      - くうぇーとのこっき
+      - くうぇーと
+      - くうぇーとのはた
+    en: "flag: Kuwait"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇰🇾
+    code: 1F1F0 1F1FE
+    name: ケイマン諸島の旗
+    readings:
+      - けいまんしょとうのはた
+      - けいまんしょとう
+      - けいまん
+    en: "flag: Cayman Islands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇰🇿
+    code: 1F1F0 1F1FF
+    name: カザフスタンの国旗
+    readings:
+      - かざふすたんのこっき
+      - かざふすたん
+      - かざふすたんのはた
+    en: "flag: Kazakhstan"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇱🇦
+    code: 1F1F1 1F1E6
+    name: ラオスの国旗
+    readings:
+      - らおすのこっき
+      - らおす
+      - らおすのはた
+    en: "flag: Laos"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇱🇧
+    code: 1F1F1 1F1E7
+    name: レバノンの国旗
+    readings:
+      - ればのんのこっき
+      - ればのん
+      - ればのんのはた
+    en: "flag: Lebanon"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇱🇨
+    code: 1F1F1 1F1E8
+    name: セントルシアの国旗
+    readings:
+      - せんとるしあのこっき
+      - せんとるしあ
+      - せんとるしあのはた
+    en: "flag: St. Lucia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇱🇮
+    code: 1F1F1 1F1EE
+    name: リヒテンシュタインの国旗
+    readings:
+      - りひてんしゅたいんのこっき
+      - りひてんしゅたいん
+      - りひてんしゅたいんのはた
+    en: "flag: Liechtenstein"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇱🇰
+    code: 1F1F1 1F1F0
+    name: スリランカの国旗
+    readings:
+      - すりらんかのこっき
+      - すりらんか
+      - せいろん
+      - すりらんかのはた
+    en: "flag: Sri Lanka"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇱🇷
+    code: 1F1F1 1F1F7
+    name: リベリアの国旗
+    readings:
+      - りべりあのこっき
+      - りべりあ
+      - りべりあのはた
+    en: "flag: Liberia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇱🇸
+    code: 1F1F1 1F1F8
+    name: レソトの国旗
+    readings:
+      - れそとのこっき
+      - れそと
+      - れそとのはた
+    en: "flag: Lesotho"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇱🇹
+    code: 1F1F1 1F1F9
+    name: リトアニアの国旗
+    readings:
+      - りとあにあのこっき
+      - りとあにあ
+      - りとあにあのはた
+    en: "flag: Lithuania"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇱🇺
+    code: 1F1F1 1F1FA
+    name: ルクセンブルクの国旗
+    readings:
+      - るくせんぶるくのこっき
+      - るくせんぶるく
+      - るくせんぶるぐ
+      - るくせんぶるくのはた
+    en: "flag: Luxembourg"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇱🇻
+    code: 1F1F1 1F1FB
+    name: ラトビアの国旗
+    readings:
+      - らとびあのこっき
+      - らとびあ
+      - らとびあのはた
+    en: "flag: Latvia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇱🇾
+    code: 1F1F1 1F1FE
+    name: リビアの国旗
+    readings:
+      - りびあのこっき
+      - りびあ
+      - りびあのはた
+    en: "flag: Libya"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇦
+    code: 1F1F2 1F1E6
+    name: モロッコの国旗
+    readings:
+      - もろっこのこっき
+      - もろっこ
+      - もろっこのはた
+    en: "flag: Morocco"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇨
+    code: 1F1F2 1F1E8
+    name: モナコの国旗
+    readings:
+      - もなこのこっき
+      - もなこ
+      - もなこのはた
+    en: "flag: Monaco"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇩
+    code: 1F1F2 1F1E9
+    name: モルドバの国旗
+    readings:
+      - もるどばのこっき
+      - もるどば
+      - もるどばのはた
+    en: "flag: Moldova"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇪
+    code: 1F1F2 1F1EA
+    name: モンテネグロの国旗
+    readings:
+      - もんてねぐろのこっき
+      - もんてねぐろ
+      - もんてねぐろのはた
+    en: "flag: Montenegro"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇫
+    code: 1F1F2 1F1EB
+    name: サン・マルタンの旗
+    readings:
+      - さんまるたんのはた
+      - さんまるたん
+    en: "flag: St. Martin"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇬
+    code: 1F1F2 1F1EC
+    name: マダガスカルの国旗
+    readings:
+      - まだがすかるのこっき
+      - まだがすかる
+      - まだがすかるのはた
+    en: "flag: Madagascar"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇭
+    code: 1F1F2 1F1ED
+    name: マーシャル諸島の国旗
+    readings:
+      - まーしゃるしょとうのこっき
+      - まーしゃるしょとう
+      - まーしゃる
+      - まーしゃるしょとうのはた
+    en: "flag: Marshall Islands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇰
+    code: 1F1F2 1F1F0
+    name: 北マケドニアの国旗
+    readings:
+      - きたまけどにあのこっき
+      - きたまけどにあ
+      - まけどにあ
+      - きたまけどにあのはた
+    en: "flag: North Macedonia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇱
+    code: 1F1F2 1F1F1
+    name: マリの国旗
+    readings:
+      - まりのこっき
+      - まり
+      - まりのはた
+    en: "flag: Mali"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇲
+    code: 1F1F2 1F1F2
+    name: ミャンマーの国旗
+    readings:
+      - みゃんまーのこっき
+      - みゃんまー
+      - びるま
+      - みゃんまーのはた
+    en: "flag: Myanmar (Burma)"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇳
+    code: 1F1F2 1F1F3
+    name: モンゴルの国旗
+    readings:
+      - もんごるのこっき
+      - もんごる
+      - もんごるのはた
+    en: "flag: Mongolia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇴
+    code: 1F1F2 1F1F4
+    name: マカオの旗
+    readings:
+      - まかおのはた
+      - まかお
+      - まかおとくべつぎょうせいく
+    en: "flag: Macao SAR China"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇵
+    code: 1F1F2 1F1F5
+    name: 北マリアナ諸島の旗
+    readings:
+      - きたまりあなしょとうのはた
+      - きたまりあなしょとう
+      - さいぱん
+      - まりあなしょとう
+    en: "flag: Northern Mariana Islands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇶
+    code: 1F1F2 1F1F6
+    name: マルティニークの旗
+    readings:
+      - まるてぃにーくのはた
+      - まるてぃにーく
+    en: "flag: Martinique"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇷
+    code: 1F1F2 1F1F7
+    name: モーリタニアの国旗
+    readings:
+      - もーりたにあのこっき
+      - もーりたにあ
+      - もーりたにあのはた
+    en: "flag: Mauritania"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇸
+    code: 1F1F2 1F1F8
+    name: モントセラトの旗
+    readings:
+      - もんとせらとのはた
+      - もんとせらと
+    en: "flag: Montserrat"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇹
+    code: 1F1F2 1F1F9
+    name: マルタの国旗
+    readings:
+      - まるたのこっき
+      - まるた
+      - まるたのはた
+    en: "flag: Malta"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇺
+    code: 1F1F2 1F1FA
+    name: モーリシャスの国旗
+    readings:
+      - もーりしゃすのこっき
+      - もーりしゃす
+      - もーりしゃすのはた
+    en: "flag: Mauritius"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇻
+    code: 1F1F2 1F1FB
+    name: モルディブの国旗
+    readings:
+      - もるでぃぶのこっき
+      - もるでぃぶ
+      - もるでぃぶのはた
+    en: "flag: Maldives"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇼
+    code: 1F1F2 1F1FC
+    name: マラウイの国旗
+    readings:
+      - まらういのこっき
+      - まらうい
+      - まらういのはた
+    en: "flag: Malawi"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇽
+    code: 1F1F2 1F1FD
+    name: メキシコの国旗
+    readings:
+      - めきしこのこっき
+      - めきしこ
+      - めきしこのはた
+    en: "flag: Mexico"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇾
+    code: 1F1F2 1F1FE
+    name: マレーシアの国旗
+    readings:
+      - まれーしあのこっき
+      - まれーしあ
+      - まれーしあのはた
+    en: "flag: Malaysia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇲🇿
+    code: 1F1F2 1F1FF
+    name: モザンビークの国旗
+    readings:
+      - もざんびーくのこっき
+      - もざんびーく
+      - もざんびーくのはた
+    en: "flag: Mozambique"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇳🇦
+    code: 1F1F3 1F1E6
+    name: ナミビアの国旗
+    readings:
+      - なみびあのこっき
+      - なみびあ
+      - なみびあのはた
+    en: "flag: Namibia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇳🇨
+    code: 1F1F3 1F1E8
+    name: ニューカレドニアの旗
+    readings:
+      - にゅーかれどにあのはた
+      - にゅーかれどにあ
+    en: "flag: New Caledonia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇳🇪
+    code: 1F1F3 1F1EA
+    name: ニジェールの国旗
+    readings:
+      - にじぇーるのこっき
+      - にじぇーる
+      - にじぇーるのはた
+    en: "flag: Niger"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇳🇫
+    code: 1F1F3 1F1EB
+    name: ノーフォーク島の旗
+    readings:
+      - のーふぉーくとうのはた
+      - のーふぉーくとう
+    en: "flag: Norfolk Island"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇳🇬
+    code: 1F1F3 1F1EC
+    name: ナイジェリアの国旗
+    readings:
+      - ないじぇりあのこっき
+      - ないじぇりあ
+      - ないじぇりあのはた
+    en: "flag: Nigeria"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇳🇮
+    code: 1F1F3 1F1EE
+    name: ニカラグアの国旗
+    readings:
+      - にからぐあのこっき
+      - にからぐあ
+      - にからぐあのはた
+    en: "flag: Nicaragua"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇳🇱
+    code: 1F1F3 1F1F1
+    name: オランダの国旗
+    readings:
+      - おらんだのこっき
+      - おらんだ
+      - ねーでるらんと
+      - ねざーらんど
+      - おらんだのはた
+    en: "flag: Netherlands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇳🇴
+    code: 1F1F3 1F1F4
+    name: ノルウェーの国旗
+    readings:
+      - のるうぇーのこっき
+      - のるうぇー
+      - のるうぇーのはた
+    en: "flag: Norway"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇳🇵
+    code: 1F1F3 1F1F5
+    name: ネパールの国旗
+    readings:
+      - ねぱーるのこっき
+      - ねぱーる
+      - ねぱーるのはた
+    en: "flag: Nepal"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇳🇷
+    code: 1F1F3 1F1F7
+    name: ナウルの国旗
+    readings:
+      - なうるのこっき
+      - なうる
+      - なうるのはた
+    en: "flag: Nauru"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇳🇺
+    code: 1F1F3 1F1FA
+    name: ニウエの旗
+    readings:
+      - にうえのはた
+      - にうえ
+    en: "flag: Niue"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇳🇿
+    code: 1F1F3 1F1FF
+    name: ニュージーランドの国旗
+    readings:
+      - にゅーじーらんどのこっき
+      - にゅーじーらんど
+      - nz
+      - にゅーじーらんどのはた
+    en: "flag: New Zealand"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇴🇲
+    code: 1F1F4 1F1F2
+    name: オマーンの国旗
+    readings:
+      - おまーんのこっき
+      - おまーん
+      - おまーんのはた
+    en: "flag: Oman"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇵🇦
+    code: 1F1F5 1F1E6
+    name: パナマの国旗
+    readings:
+      - ぱなまのこっき
+      - ぱなま
+      - ぱなまのはた
+    en: "flag: Panama"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇵🇪
+    code: 1F1F5 1F1EA
+    name: ペルーの国旗
+    readings:
+      - ぺるーのこっき
+      - ぺるー
+      - ぺるーのはた
+    en: "flag: Peru"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇵🇫
+    code: 1F1F5 1F1EB
+    name: 仏領ポリネシアの旗
+    readings:
+      - ふつりょうぽりねしあのはた
+      - ふつりょうぽりねしあ
+      - ふらんすりょうぽりねしあ
+      - たひち
+      - ぽりねしあ
+    en: "flag: French Polynesia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇵🇬
+    code: 1F1F5 1F1EC
+    name: パプアニューギニアの国旗
+    readings:
+      - ぱぷあにゅーぎにあのこっき
+      - ぱぷあにゅーぎにあ
+      - ぱぷあにゅーぎにあのはた
+    en: "flag: Papua New Guinea"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇵🇭
+    code: 1F1F5 1F1ED
+    name: フィリピンの国旗
+    readings:
+      - ふぃりぴんのこっき
+      - ふぃりぴん
+      - ふぃりぴんのはた
+    en: "flag: Philippines"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇵🇰
+    code: 1F1F5 1F1F0
+    name: パキスタンの国旗
+    readings:
+      - ぱきすたんのこっき
+      - ぱきすたん
+      - ぱきすたんのはた
+    en: "flag: Pakistan"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇵🇱
+    code: 1F1F5 1F1F1
+    name: ポーランドの国旗
+    readings:
+      - ぽーらんどのこっき
+      - ぽーらんど
+      - ぽーらんどのはた
+    en: "flag: Poland"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇵🇲
+    code: 1F1F5 1F1F2
+    name: サンピエール島・ミクロン島の旗
+    readings:
+      - さんぴえーるとうのはた
+      - さんぴえーるとう
+      - みくろんとう
+      - さんぴえーるみくろん
+    en: "flag: St. Pierre & Miquelon"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇵🇳
+    code: 1F1F5 1F1F3
+    name: ピトケアン諸島の旗
+    readings:
+      - ぴとけあんしょとうのはた
+      - ぴとけあんしょとう
+      - ぴとけあん
+    en: "flag: Pitcairn Islands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇵🇷
+    code: 1F1F5 1F1F7
+    name: プエルトリコの旗
+    readings:
+      - ぷえるとりこのはた
+      - ぷえるとりこ
+    en: "flag: Puerto Rico"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇵🇸
+    code: 1F1F5 1F1F8
+    name: パレスチナの国旗
+    readings:
+      - ぱれすちなのこっき
+      - ぱれすちな
+      - ぱれすちなじちく
+      - ぱれすちなのはた
+    en: "flag: Palestinian Territories"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇵🇹
+    code: 1F1F5 1F1F9
+    name: ポルトガルの国旗
+    readings:
+      - ぽるとがるのこっき
+      - ぽるとがる
+      - ぽるとがるのはた
+    en: "flag: Portugal"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇵🇼
+    code: 1F1F5 1F1FC
+    name: パラオの国旗
+    readings:
+      - ぱらおのこっき
+      - ぱらお
+      - ぱらおのはた
+    en: "flag: Palau"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇵🇾
+    code: 1F1F5 1F1FE
+    name: パラグアイの国旗
+    readings:
+      - ぱらぐあいのこっき
+      - ぱらぐあい
+      - ぱらぐあいのはた
+    en: "flag: Paraguay"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇶🇦
+    code: 1F1F6 1F1E6
+    name: カタールの国旗
+    readings:
+      - かたーるのこっき
+      - かたーる
+      - かたーるのはた
+    en: "flag: Qatar"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇷🇪
+    code: 1F1F7 1F1EA
+    name: レユニオンの旗
+    readings:
+      - れゆにおんのはた
+      - れゆにおん
+    en: "flag: Réunion"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇷🇴
+    code: 1F1F7 1F1F4
+    name: ルーマニアの国旗
+    readings:
+      - るーまにあのこっき
+      - るーまにあ
+      - るーまにあのはた
+    en: "flag: Romania"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇷🇸
+    code: 1F1F7 1F1F8
+    name: セルビアの国旗
+    readings:
+      - せるびあのこっき
+      - せるびあ
+      - せるびあのはた
+    en: "flag: Serbia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇷🇺
+    code: 1F1F7 1F1FA
+    name: ロシアの国旗
+    readings:
+      - ろしあのこっき
+      - ろしあ
+      - ろしあれんぽう
+      - ろしあのはた
+    en: "flag: Russia"
+    since: "0.6"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇷🇼
+    code: 1F1F7 1F1FC
+    name: ルワンダの国旗
+    readings:
+      - るわんだのこっき
+      - るわんだ
+      - るわんだのはた
+    en: "flag: Rwanda"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇦
+    code: 1F1F8 1F1E6
+    name: サウジアラビアの国旗
+    readings:
+      - さうじあらびあのこっき
+      - さうじあらびあ
+      - さうじ
+      - さうじあらびあのはた
+    en: "flag: Saudi Arabia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇧
+    code: 1F1F8 1F1E7
+    name: ソロモン諸島の国旗
+    readings:
+      - そろもんしょとうのこっき
+      - そろもんしょとう
+      - そろもん
+      - そろもんしょとうのはた
+    en: "flag: Solomon Islands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇨
+    code: 1F1F8 1F1E8
+    name: セーシェルの国旗
+    readings:
+      - せーしぇるのこっき
+      - せーしぇる
+      - せーしぇるのはた
+    en: "flag: Seychelles"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇩
+    code: 1F1F8 1F1E9
+    name: スーダンの国旗
+    readings:
+      - すーだんのこっき
+      - すーだん
+      - すーだんのはた
+    en: "flag: Sudan"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇪
+    code: 1F1F8 1F1EA
+    name: スウェーデンの国旗
+    readings:
+      - すうぇーでんのこっき
+      - すうぇーでん
+      - すうぇーでんのはた
+    en: "flag: Sweden"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇬
+    code: 1F1F8 1F1EC
+    name: シンガポールの国旗
+    readings:
+      - しんがぽーるのこっき
+      - しんがぽーる
+      - しんがぽーるのはた
+    en: "flag: Singapore"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇭
+    code: 1F1F8 1F1ED
+    name: セントヘレナの旗
+    readings:
+      - せんとへれなのはた
+      - せんとへれな
+      - あせんしょんとう
+      - せんとへれなとう
+    en: "flag: St. Helena, Ascension & Tristan da Cunha"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇮
+    code: 1F1F8 1F1EE
+    name: スロベニアの国旗
+    readings:
+      - すろべにあのこっき
+      - すろべにあ
+      - すろべにあのはた
+    en: "flag: Slovenia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇯
+    code: 1F1F8 1F1EF
+    name: スバールバル諸島・ヤンマイエン島の旗
+    readings:
+      - すばーるばるしょとうのはた
+      - すばーるばるしょとう
+      - やんまいえんとう
+      - すばーるばる
+    en: "flag: Svalbard & Jan Mayen"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇰
+    code: 1F1F8 1F1F0
+    name: スロバキアの国旗
+    readings:
+      - すろばきあのこっき
+      - すろばきあ
+      - すろばきあのはた
+    en: "flag: Slovakia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇱
+    code: 1F1F8 1F1F1
+    name: シエラレオネの国旗
+    readings:
+      - しえられおねのこっき
+      - しえられおね
+      - しえられおねのはた
+    en: "flag: Sierra Leone"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇲
+    code: 1F1F8 1F1F2
+    name: サンマリノの国旗
+    readings:
+      - さんまりののこっき
+      - さんまりの
+      - さんまりののはた
+    en: "flag: San Marino"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇳
+    code: 1F1F8 1F1F3
+    name: セネガルの国旗
+    readings:
+      - せねがるのこっき
+      - せねがる
+      - せねがるのはた
+    en: "flag: Senegal"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇴
+    code: 1F1F8 1F1F4
+    name: ソマリアの国旗
+    readings:
+      - そまりあのこっき
+      - そまりあ
+      - そまりあのはた
+    en: "flag: Somalia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇷
+    code: 1F1F8 1F1F7
+    name: スリナムの国旗
+    readings:
+      - すりなむのこっき
+      - すりなむ
+      - すりなむのはた
+    en: "flag: Suriname"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇸
+    code: 1F1F8 1F1F8
+    name: 南スーダンの国旗
+    readings:
+      - みなみすーだんのこっき
+      - みなみすーだん
+      - みなみすーだんのはた
+    en: "flag: South Sudan"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇹
+    code: 1F1F8 1F1F9
+    name: サントメ・プリンシペの国旗
+    readings:
+      - さんとめぷりんしぺのこっき
+      - さんとめぷりんしぺ
+      - さんとめ
+      - さんとめぷりんしぺのはた
+    en: "flag: São Tomé & Príncipe"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇻
+    code: 1F1F8 1F1FB
+    name: エルサルバドルの国旗
+    readings:
+      - えるさるばどるのこっき
+      - えるさるばどる
+      - えるさるばどるのはた
+    en: "flag: El Salvador"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇽
+    code: 1F1F8 1F1FD
+    name: シント・マールテンの旗
+    readings:
+      - しんとまーるてんのはた
+      - しんとまーるてん
+    en: "flag: Sint Maarten"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇾
+    code: 1F1F8 1F1FE
+    name: シリアの国旗
+    readings:
+      - しりあのこっき
+      - しりあ
+      - しりあのはた
+    en: "flag: Syria"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇸🇿
+    code: 1F1F8 1F1FF
+    name: エスワティニの国旗
+    readings:
+      - えすわてぃにのこっき
+      - えすわてぃに
+      - すわじらんど
+      - えすわてぃにのはた
+    en: "flag: Eswatini"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇹🇦
+    code: 1F1F9 1F1E6
+    name: トリスタン・ダ・クーニャの旗
+    readings:
+      - とりすたんだくーにゃのはた
+      - とりすたんだくーにゃ
+    en: "flag: Tristan da Cunha"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇹🇨
+    code: 1F1F9 1F1E8
+    name: タークス・カイコス諸島の旗
+    readings:
+      - たーくすかいこすしょとうのはた
+      - たーくすかいこすしょとう
+      - たーくすかいこす
+    en: "flag: Turks & Caicos Islands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇹🇩
+    code: 1F1F9 1F1E9
+    name: チャドの国旗
+    readings:
+      - ちゃどのこっき
+      - ちゃど
+      - ちゃどのはた
+    en: "flag: Chad"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇹🇫
+    code: 1F1F9 1F1EB
+    name: 仏領極南諸島の旗
+    readings:
+      - ふつりょうきょくなんしょとうのはた
+      - ふつりょうきょくなんしょとう
+      - ふらんすりょうきょくなんしょとう
+    en: "flag: French Southern and Antarctic Lands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇹🇬
+    code: 1F1F9 1F1EC
+    name: トーゴの国旗
+    readings:
+      - とーごのこっき
+      - とーご
+      - とーごのはた
+    en: "flag: Togo"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇹🇭
+    code: 1F1F9 1F1ED
+    name: タイの国旗
+    readings:
+      - たいのこっき
+      - たい
+      - たいおうこく
+      - たいのはた
+    en: "flag: Thailand"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇹🇯
+    code: 1F1F9 1F1EF
+    name: タジキスタンの国旗
+    readings:
+      - たじきすたんのこっき
+      - たじきすたん
+      - たじきすたんのはた
+    en: "flag: Tajikistan"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇹🇰
+    code: 1F1F9 1F1F0
+    name: トケラウの旗
+    readings:
+      - とけらうのはた
+      - とけらう
+    en: "flag: Tokelau"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇹🇱
+    code: 1F1F9 1F1F1
+    name: 東ティモールの国旗
+    readings:
+      - ひがしてぃもーるのこっき
+      - ひがしてぃもーる
+      - てぃもーるれすて
+      - ひがしてぃもーるのはた
+    en: "flag: Timor-Leste"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇹🇲
+    code: 1F1F9 1F1F2
+    name: トルクメニスタンの国旗
+    readings:
+      - とるくめにすたんのこっき
+      - とるくめにすたん
+      - とるくめにすたんのはた
+    en: "flag: Turkmenistan"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇹🇳
+    code: 1F1F9 1F1F3
+    name: チュニジアの国旗
+    readings:
+      - ちゅにじあのこっき
+      - ちゅにじあ
+      - ちゅにじあのはた
+    en: "flag: Tunisia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇹🇴
+    code: 1F1F9 1F1F4
+    name: トンガの国旗
+    readings:
+      - とんがのこっき
+      - とんが
+      - とんがのはた
+    en: "flag: Tonga"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇹🇷
+    code: 1F1F9 1F1F7
+    name: トルコの国旗
+    readings:
+      - とるこのこっき
+      - とるこ
+      - てゅるきえ
+      - とるこのはた
+    en: "flag: Türkiye"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇹🇹
+    code: 1F1F9 1F1F9
+    name: トリニダード・トバゴの国旗
+    readings:
+      - とりにだーどとばごのこっき
+      - とりにだーどとばご
+      - とりにだーど
+      - とりにだーどとばごのはた
+    en: "flag: Trinidad & Tobago"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇹🇻
+    code: 1F1F9 1F1FB
+    name: ツバルの国旗
+    readings:
+      - つばるのこっき
+      - つばる
+      - つばるのはた
+    en: "flag: Tuvalu"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇹🇼
+    code: 1F1F9 1F1FC
+    name: 台湾の国旗
+    readings:
+      - たいわんのこっき
+      - たいわん
+      - ちゅうかみんこく
+      - たいわんのはた
+    en: "flag: Taiwan"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇹🇿
+    code: 1F1F9 1F1FF
+    name: タンザニアの国旗
+    readings:
+      - たんざにあのこっき
+      - たんざにあ
+      - たんざにあのはた
+    en: "flag: Tanzania"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇺🇦
+    code: 1F1FA 1F1E6
+    name: ウクライナの国旗
+    readings:
+      - うくらいなのこっき
+      - うくらいな
+      - うくらいなのはた
+    en: "flag: Ukraine"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇺🇬
+    code: 1F1FA 1F1EC
+    name: ウガンダの国旗
+    readings:
+      - うがんだのこっき
+      - うがんだ
+      - うがんだのはた
+    en: "flag: Uganda"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇺🇲
+    code: 1F1FA 1F1F2
+    name: 合衆国領有小離島の旗
+    readings:
+      - がっしゅうこくりょうゆうしょうりとうのはた
+      - がっしゅうこくりょうゆうしょうりとう
+      - べいりょうしょうりとう
+    en: "flag: U.S. Outlying Islands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇺🇳
+    code: 1F1FA 1F1F3
+    name: 国際連合の旗
+    readings:
+      - こくさいれんごうのはた
+      - こくさいれんごう
+      - こくれん
+      - こくれんき
+      - un
+    en: "flag: United Nations"
+    since: "4.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇺🇸
+    code: 1F1FA 1F1F8
+    name: アメリカ合衆国の国旗
+    readings:
+      - あめりかがっしゅうこくのこっき
+      - あめりかがっしゅうこく
+      - あめりか
+      - べいこく
+      - がっしゅうこく
+      - せいじょうき
+      - ゆーえすえー
+      - usa
+      - us
+      - あめりかがっしゅうこくのはた
+    en: "flag: United States"
+    since: "0.6"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇺🇾
+    code: 1F1FA 1F1FE
+    name: ウルグアイの国旗
+    readings:
+      - うるぐあいのこっき
+      - うるぐあい
+      - うるぐあいのはた
+    en: "flag: Uruguay"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇺🇿
+    code: 1F1FA 1F1FF
+    name: ウズベキスタンの国旗
+    readings:
+      - うずべきすたんのこっき
+      - うずべきすたん
+      - うずべきすたんのはた
+    en: "flag: Uzbekistan"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇻🇦
+    code: 1F1FB 1F1E6
+    name: バチカン市国の国旗
+    readings:
+      - ばちかんしこくのこっき
+      - ばちかんしこく
+      - ばちかん
+      - ばちかんしこくのはた
+    en: "flag: Vatican City"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇻🇨
+    code: 1F1FB 1F1E8
+    name: セントビンセント及びグレナディーン諸島の国旗
+    readings:
+      - せんとびんせんとおよびぐれなでぃーんしょとうのこっき
+      - せんとびんせんとおよびぐれなでぃーんしょとう
+      - せんとびんせんと
+      - ぐれなでぃーんしょとう
+      - せんとびんせんとおよびぐれなでぃーんしょとうのはた
+    en: "flag: St. Vincent & Grenadines"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇻🇪
+    code: 1F1FB 1F1EA
+    name: ベネズエラの国旗
+    readings:
+      - べねずえらのこっき
+      - べねずえら
+      - べねずえらのはた
+    en: "flag: Venezuela"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇻🇬
+    code: 1F1FB 1F1EC
+    name: 英領ヴァージン諸島の旗
+    readings:
+      - えいりょうばーじんしょとうのはた
+      - えいりょうばーじんしょとう
+      - えいりょうゔぁーじんしょとう
+      - ばーじんしょとう
+    en: "flag: British Virgin Islands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇻🇮
+    code: 1F1FB 1F1EE
+    name: 米領ヴァージン諸島の旗
+    readings:
+      - べいりょうばーじんしょとうのはた
+      - べいりょうばーじんしょとう
+      - べいりょうゔぁーじんしょとう
+      - あめりかりょうばーじんしょとう
+    en: "flag: U.S. Virgin Islands"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇻🇳
+    code: 1F1FB 1F1F3
+    name: ベトナムの国旗
+    readings:
+      - べとなむのこっき
+      - べとなむ
+      - べとなむのはた
+    en: "flag: Vietnam"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇻🇺
+    code: 1F1FB 1F1FA
+    name: バヌアツの国旗
+    readings:
+      - ばぬあつのこっき
+      - ばぬあつ
+      - ばぬあつのはた
+    en: "flag: Vanuatu"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇼🇫
+    code: 1F1FC 1F1EB
+    name: ウォリス・フツナの旗
+    readings:
+      - うぉりすふつなのはた
+      - うぉりすふつな
+    en: "flag: Wallis & Futuna"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇼🇸
+    code: 1F1FC 1F1F8
+    name: サモアの国旗
+    readings:
+      - さもあのこっき
+      - さもあ
+      - さもあのはた
+    en: "flag: Samoa"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇽🇰
+    code: 1F1FD 1F1F0
+    name: コソボの国旗
+    readings:
+      - こそぼのこっき
+      - こそぼ
+      - こそぼのはた
+    en: "flag: Kosovo"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇾🇪
+    code: 1F1FE 1F1EA
+    name: イエメンの国旗
+    readings:
+      - いえめんのこっき
+      - いえめん
+      - いえめんのはた
+    en: "flag: Yemen"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇾🇹
+    code: 1F1FE 1F1F9
+    name: マヨットの旗
+    readings:
+      - まよっとのはた
+      - まよっと
+    en: "flag: Mayotte"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇿🇦
+    code: 1F1FF 1F1E6
+    name: 南アフリカの国旗
+    readings:
+      - みなみあふりかのこっき
+      - みなみあふりか
+      - みなみあふりかきょうわこく
+      - なんあ
+      - みなみあふりかのはた
+    en: "flag: South Africa"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇿🇲
+    code: 1F1FF 1F1F2
+    name: ザンビアの国旗
+    readings:
+      - ざんびあのこっき
+      - ざんびあ
+      - ざんびあのはた
+    en: "flag: Zambia"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🇿🇼
+    code: 1F1FF 1F1FC
+    name: ジンバブエの国旗
+    readings:
+      - じんばぶえのこっき
+      - じんばぶえ
+      - じんばぶえのはた
+    en: "flag: Zimbabwe"
+    since: "2.0"
+    subgroup: country-flag
+    keywords: [ 旗 ]
+  - emoji: 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+    code: 1F3F4 E0067 E0062 E0065 E006E E0067 E007F
+    name: イングランドの旗
+    readings:
+      - いんぐらんどのはた
+      - いんぐらんど
+      - せんとじょーじくろす
+    en: "flag: England"
+    since: "5.0"
+    subgroup: subdivision-flag
+    keywords: [ 旗 ]
+  - emoji: 🏴󠁧󠁢󠁳󠁣󠁴󠁿
+    code: 1F3F4 E0067 E0062 E0073 E0063 E0074 E007F
+    name: スコットランドの旗
+    readings:
+      - すこっとらんどのはた
+      - すこっとらんど
+      - せんとあんどりゅーくろす
+    en: "flag: Scotland"
+    since: "5.0"
+    subgroup: subdivision-flag
+    keywords: [ 旗 ]
+  - emoji: 🏴󠁧󠁢󠁷󠁬󠁳󠁿
+    code: 1F3F4 E0067 E0062 E0077 E006C E0073 E007F
+    name: ウェールズの旗
+    readings:
+      - うぇーるずのはた
+      - うぇーるず
+      - れっどどらごん
+    en: "flag: Wales"
+    since: "5.0"
+    subgroup: subdivision-flag
+    keywords: [ 旗 ]

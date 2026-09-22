@@ -1,0 +1,1948 @@
+# SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
+#   name:     annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   review:   true if added automatically by the update task; remove after checking the readings
+# Other fields are refreshed from Unicode/CLDR by the update task.
+
+group: Animals & Nature
+emoji:
+  - emoji: 🐵
+    code: 1F435
+    name: サルの顔
+    readings:
+      - さるのかお
+      - さる
+      - おさる
+      - もんきー
+      - みざる
+      - さるかお
+    en: monkey face
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ サル, サルの顔, 動物, 猿, 顔 ]
+  - emoji: 🐒
+    code: 1F412
+    name: サル
+    readings:
+      - さる
+      - おさる
+      - もんきー
+      - にほんざる
+      - さるまね
+    en: monkey
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ サル, 動物, 猿 ]
+  - emoji: 🦍
+    code: 1F98D
+    name: ゴリラ
+    readings:
+      - ごりら
+      - ごりらのかお
+      - うほ
+      - うほうほ
+      - ごりおし
+    en: gorilla
+    since: "3.0"
+    subgroup: animal-mammal
+    keywords: [ ゴリラ, 動物, 顔 ]
+  - emoji: 🦧
+    code: 1F9A7
+    name: オランウータン
+    readings:
+      - おらんうーたん
+      - さる
+      - もりのひと
+      - るいじんえん
+    en: orangutan
+    since: "12.0"
+    subgroup: animal-mammal
+    keywords: [ オランウータン, サル, 動物, 森の人, 猿 ]
+  - emoji: 🐶
+    code: 1F436
+    name: イヌの顔
+    readings:
+      - いぬのかお
+      - いぬ
+      - わんこ
+      - わんちゃん
+      - こいぬ
+      - どっぐ
+      - わんわん
+      - ぺっと
+    en: dog face
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ イヌ, イヌの顔, ペット, 動物, 子犬, 犬, 顔 ]
+  - emoji: 🐕
+    code: 1F415
+    name: イヌ
+    readings:
+      - いぬ
+      - わんこ
+      - わんちゃん
+      - どっぐ
+      - しばいぬ
+      - ぺっと
+    en: dog
+    since: "0.7"
+    subgroup: animal-mammal
+    keywords: [ イヌ, ペット, 動物, 犬 ]
+  - emoji: 🦮
+    code: 1F9AE
+    name: 盲導犬
+    readings:
+      - もうどうけん
+      - ほじょけん
+      - がいどどっぐ
+      - いぬ
+      - あくせしびりてぃ
+    en: guide dog
+    since: "12.0"
+    subgroup: animal-mammal
+    keywords: [ アクセシビリティ, 犬, 盲導犬, 視覚, 補助, 補助犬, 障がい ]
+  - emoji: 🐕‍🦺
+    code: 1F415 200D 1F9BA
+    name: 介助犬
+    readings:
+      - かいじょけん
+      - ほじょけん
+      - さーびすどっぐ
+      - いぬ
+      - あくせしびりてぃ
+    en: service dog
+    since: "12.0"
+    subgroup: animal-mammal
+    keywords: [ アクセシビリティ, サービス, 介助犬, 犬, 補助 ]
+  - emoji: 🐩
+    code: 1F429
+    name: プードル
+    readings:
+      - ぷーどる
+      - といぷーどる
+      - といぷー
+      - いぬ
+      - ぺっと
+    en: poodle
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ プードル, ペット, 動物, 犬 ]
+  - emoji: 🐺
+    code: 1F43A
+    name: オオカミの顔
+    readings:
+      - おおかみのかお
+      - おおかみ
+      - うるふ
+      - じんろう
+      - おおかみおとこ
+      - とおぼえ
+    en: wolf
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ オオカミ, オオカミの顔, 動物, 狼, 顔 ]
+  - emoji: 🦊
+    code: 1F98A
+    name: キツネの顔
+    readings:
+      - きつねのかお
+      - きつね
+      - ふぉっくす
+      - こんこん
+      - おいなりさん
+      - きつねがお
+    en: fox
+    since: "3.0"
+    subgroup: animal-mammal
+    keywords: [ キツネ, キツネの顔, 動物, 狐, 顔 ]
+  - emoji: 🦝
+    code: 1F99D
+    name: アライグマ
+    readings:
+      - あらいぐま
+      - らくーん
+      - たぬき
+      - どうぶつ
+    en: raccoon
+    since: "11.0"
+    subgroup: animal-mammal
+    keywords: [ アライグマ, ずる賢い, 動物, 好奇心, 詮索好き ]
+  - emoji: 🐱
+    code: 1F431
+    name: ネコの顔
+    readings:
+      - ねこのかお
+      - ねこ
+      - にゃんこ
+      - にゃー
+      - こねこ
+      - きゃっと
+      - ぺっと
+    en: cat face
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ ネコ, ネコの顔, ペット, 動物, 子猫, 猫, 顔 ]
+  - emoji: 🐈
+    code: 1F408
+    name: ネコ
+    readings:
+      - ねこ
+      - にゃんこ
+      - にゃー
+      - きゃっと
+      - ぺっと
+    en: cat
+    since: "0.7"
+    subgroup: animal-mammal
+    keywords: [ ネコ, ペット, 動物, 猫 ]
+  - emoji: 🐈‍⬛
+    code: 1F408 200D 2B1B
+    name: 黒猫
+    readings:
+      - くろねこ
+      - ねこ
+      - ぶらっくきゃっと
+      - ふきつ
+      - にゃんこ
+    en: black cat
+    since: "13.0"
+    subgroup: animal-mammal
+    keywords: [ ネコ, 不吉, 動物, 猫, 黒, 黒猫 ]
+  - emoji: 🦁
+    code: 1F981
+    name: ライオンの顔
+    readings:
+      - らいおんのかお
+      - らいおん
+      - しし
+      - ししざ
+      - ひゃくじゅうのおう
+    en: lion
+    since: "1.0"
+    subgroup: animal-mammal
+    keywords: [ しし座, ライオン, ライオンの顔, 動物, 星座, 顔 ]
+  - emoji: 🐯
+    code: 1F42F
+    name: トラの顔
+    readings:
+      - とらのかお
+      - とら
+      - たいがー
+      - こどら
+    en: tiger face
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ トラ, トラの顔, 動物, 虎, 顔 ]
+  - emoji: 🐅
+    code: 1F405
+    name: トラ
+    readings:
+      - とら
+      - たいがー
+      - もうじゅう
+    en: tiger
+    since: "1.0"
+    subgroup: animal-mammal
+    keywords: [ タイガー, トラ, 動物, 肉食動物, 虎 ]
+  - emoji: 🐆
+    code: 1F406
+    name: ヒョウ
+    readings:
+      - ひょう
+      - れおぱーど
+      - ちーたー
+      - じゃがー
+    en: leopard
+    since: "1.0"
+    subgroup: animal-mammal
+    keywords: [ ヒョウ, 動物, 肉食動物 ]
+  - emoji: 🐴
+    code: 1F434
+    name: 馬の顔
+    readings:
+      - うまのかお
+      - うま
+      - ほーす
+      - ひひーん
+    en: horse face
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ ウマ, 動物, 顔, 馬, 馬の顔 ]
+  - emoji: 🫎
+    code: 1FACE
+    name: ヘラジカ
+    readings:
+      - へらじか
+      - むーす
+      - えるく
+      - しか
+      - おおじか
+    en: moose
+    since: "15.0"
+    subgroup: animal-mammal
+    keywords: [ エルク, ヘラジカ, ムース, 動物, 哺乳類, 枝角, 鹿 ]
+  - emoji: 🫏
+    code: 1FACF
+    name: ロバ
+    readings:
+      - ろば
+      - どんきー
+      - らば
+    en: donkey
+    since: "15.0"
+    subgroup: animal-mammal
+    keywords: [ ケッテイ, ラバ, ロバ, 動物, 哺乳類, 馬 ]
+  - emoji: 🐎
+    code: 1F40E
+    name: 馬
+    readings:
+      - うま
+      - けいば
+      - じょうば
+      - ほーす
+      - きょうそうば
+      - だーびー
+    en: horse
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ ウマ, ダービー, 乗馬, 動物, 家畜, 競走馬, 競馬, 馬 ]
+  - emoji: 🦄
+    code: 1F984
+    name: ユニコーンの顔
+    readings:
+      - ゆにこーんのかお
+      - ゆにこーん
+      - いっかくじゅう
+      - ゆめかわ
+    en: unicorn
+    since: "1.0"
+    subgroup: animal-mammal
+    keywords: [ ユニコーン, ユニコーンの顔, 一角獣, 動物, 顔 ]
+  - emoji: 🦓
+    code: 1F993
+    name: シマウマ
+    readings:
+      - しまうま
+      - ぜぶら
+      - しましま
+    en: zebra
+    since: "5.0"
+    subgroup: animal-mammal
+    keywords: [ シマウマ, しましま, ゼブラ, 動物, 縞 ]
+  - emoji: 🦌
+    code: 1F98C
+    name: シカ
+    readings:
+      - しか
+      - でぃあ
+      - となかい
+      - ばんび
+    en: deer
+    since: "3.0"
+    subgroup: animal-mammal
+    keywords: [ シカ, 動物, 顔, 鹿 ]
+  - emoji: 🦬
+    code: 1F9AC
+    name: バイソン
+    readings:
+      - ばいそん
+      - ばっふぁろー
+      - やぎゅう
+    en: bison
+    since: "13.0"
+    subgroup: animal-mammal
+    keywords: [ バイソン, バッファロー, 動物, 牛, 群れ, 野牛 ]
+  - emoji: 🐮
+    code: 1F42E
+    name: 牛の顔
+    readings:
+      - うしのかお
+      - うし
+      - もー
+      - かう
+    en: cow face
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ ウシ, 動物, 牛, 牛の顔, 顔 ]
+  - emoji: 🐂
+    code: 1F402
+    name: 牡牛
+    readings:
+      - おうし
+      - うし
+      - おうしざ
+      - おっくす
+    en: ox
+    since: "1.0"
+    subgroup: animal-mammal
+    keywords: [ ウシ, おうし座, 動物, 星座, 牛, 牡牛 ]
+  - emoji: 🐃
+    code: 1F403
+    name: 水牛
+    readings:
+      - すいぎゅう
+      - うし
+      - ばっふぁろー
+    en: water buffalo
+    since: "1.0"
+    subgroup: animal-mammal
+    keywords: [ バッファロー, 動物, 水牛, 牛 ]
+  - emoji: 🐄
+    code: 1F404
+    name: 牝牛
+    readings:
+      - めうし
+      - うし
+      - にゅうぎゅう
+      - かう
+      - もー
+    en: cow
+    since: "1.0"
+    subgroup: animal-mammal
+    keywords: [ ウシ, 乳牛, 動物, 家畜, 牛, 牝牛 ]
+  - emoji: 🐷
+    code: 1F437
+    name: ブタの顔
+    readings:
+      - ぶたのかお
+      - ぶた
+      - ぶーぶー
+      - ぴっぐ
+    en: pig face
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ ブタ, ブタの顔, 動物, 豚, 顔 ]
+  - emoji: 🐖
+    code: 1F416
+    name: ブタ
+    readings:
+      - ぶた
+      - ぴっぐ
+      - ぽーく
+      - ぶーぶー
+    en: pig
+    since: "1.0"
+    subgroup: animal-mammal
+    keywords: [ ブタ, ポーク, 動物, 家畜, 豚 ]
+  - emoji: 🐗
+    code: 1F417
+    name: イノシシ
+    readings:
+      - いのしし
+      - しし
+      - ぼあ
+      - うりぼう
+    en: boar
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ イノシシ, 動物, 猪, 顔 ]
+  - emoji: 🐽
+    code: 1F43D
+    name: ブタ鼻
+    readings:
+      - ぶたばな
+      - ぶた
+      - はな
+      - ぶひ
+    en: pig nose
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ ブタ, ブタ鼻, 動物, 豚, 顔, 鼻 ]
+  - emoji: 🐏
+    code: 1F40F
+    name: 牡羊
+    readings:
+      - おひつじ
+      - ひつじ
+      - おひつじざ
+      - らむ
+    en: ram
+    since: "1.0"
+    subgroup: animal-mammal
+    keywords: [ おひつじ座, ヒツジ, 動物, 星座, 牡羊, 羊 ]
+  - emoji: 🐑
+    code: 1F411
+    name: 羊
+    readings:
+      - ひつじ
+      - めえ
+      - うーる
+      - ようもう
+      - しーぷ
+    en: ewe
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ ウール, ヒツジ, 動物, 家畜, 羊, 羊毛 ]
+  - emoji: 🐐
+    code: 1F410
+    name: 山羊
+    readings:
+      - やぎ
+      - やぎざ
+      - ごーと
+      - めえ
+    en: goat
+    since: "1.0"
+    subgroup: animal-mammal
+    keywords: [ ヤギ, やぎ座, 動物, 家畜, 山羊, 星座 ]
+  - emoji: 🐪
+    code: 1F42A
+    name: ラクダ
+    readings:
+      - らくだ
+      - ひとこぶらくだ
+      - きゃめる
+      - さばく
+    en: camel
+    since: "1.0"
+    subgroup: animal-mammal
+    keywords: [ コブ, ヒトコブラクダ, ラクダ, 動物, 砂漠 ]
+  - emoji: 🐫
+    code: 1F42B
+    name: フタコブラクダ
+    readings:
+      - ふたこぶらくだ
+      - らくだ
+      - こぶ
+      - さばく
+    en: two-hump camel
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ コブ, フタコブ, フタコブラクダ, ラクダ, 動物, 砂漠 ]
+  - emoji: 🦙
+    code: 1F999
+    name: ラマ
+    readings:
+      - らま
+      - あるぱか
+      - りゃま
+    en: llama
+    since: "11.0"
+    subgroup: animal-mammal
+    keywords: [ アルパカ, ウール, グアナコ, ビクーナ, ラマ, 動物, 羊毛 ]
+  - emoji: 🦒
+    code: 1F992
+    name: キリン
+    readings:
+      - きりん
+      - じらふ
+    en: giraffe
+    since: "5.0"
+    subgroup: animal-mammal
+    keywords: [ キリン, 動物 ]
+  - emoji: 🐘
+    code: 1F418
+    name: ゾウ
+    readings:
+      - ぞう
+      - えれふぁんと
+      - ぱおーん
+    en: elephant
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ ゾウ, 動物, 象 ]
+  - emoji: 🦣
+    code: 1F9A3
+    name: マンモス
+    readings:
+      - まんもす
+      - ぜつめつ
+      - きば
+    en: mammoth
+    since: "13.0"
+    subgroup: animal-mammal
+    keywords: [ マンモス, 動物, 巨大, 牙, 絶滅 ]
+  - emoji: 🦏
+    code: 1F98F
+    name: サイ
+    readings:
+      - さい
+      - らいの
+    en: rhinoceros
+    since: "3.0"
+    subgroup: animal-mammal
+    keywords: [ サイ, 動物, 顔 ]
+  - emoji: 🦛
+    code: 1F99B
+    name: カバ
+    readings:
+      - かば
+      - ひぽ
+    en: hippopotamus
+    since: "11.0"
+    subgroup: animal-mammal
+    keywords: [ カバ, 動物 ]
+  - emoji: 🐭
+    code: 1F42D
+    name: ネズミの顔
+    readings:
+      - ねずみのかお
+      - ねずみ
+      - ちゅー
+      - まうす
+    en: mouse face
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ ねずみ, ネズミ, ネズミの顔, 動物, 顔 ]
+  - emoji: 🐁
+    code: 1F401
+    name: ハツカネズミ
+    readings:
+      - はつかねずみ
+      - ねずみ
+      - まうす
+      - ちゅー
+    en: mouse
+    since: "1.0"
+    subgroup: animal-mammal
+    keywords: [ ねずみ, ネズミ, ハツカネズミ, マウス, 動物 ]
+  - emoji: 🐀
+    code: 1F400
+    name: ネズミ
+    readings:
+      - ねずみ
+      - らっと
+      - どぶねずみ
+      - ちゅー
+    en: rat
+    since: "1.0"
+    subgroup: animal-mammal
+    keywords: [ ねずみ, ネズミ, ラット, 動物 ]
+  - emoji: 🐹
+    code: 1F439
+    name: ハムスターの顔
+    readings:
+      - はむすたーのかお
+      - はむすたー
+      - はむ
+      - はむちゃん
+    en: hamster
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ ネズミ, ハムスター, ハムスターの顔, ペット, 動物, 顔 ]
+  - emoji: 🐰
+    code: 1F430
+    name: ウサギの顔
+    readings:
+      - うさぎのかお
+      - うさぎ
+      - うさちゃん
+      - らびっと
+      - ばにー
+    en: rabbit face
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ うさぎ, ウサギ, ウサギの顔, ペット, 動物, 顔 ]
+  - emoji: 🐇
+    code: 1F407
+    name: ウサギ
+    readings:
+      - うさぎ
+      - らびっと
+      - ばにー
+      - うさちゃん
+    en: rabbit
+    since: "1.0"
+    subgroup: animal-mammal
+    keywords: [ うさぎ, ウサギ, ペット, 動物 ]
+  - emoji: 🐿️
+    code: 1F43F FE0F
+    name: リス
+    readings:
+      - りす
+      - しまりす
+      - ちっぷまんく
+    en: chipmunk
+    since: "0.7"
+    subgroup: animal-mammal
+    keywords: [ シマリス, りす, リス, 動物 ]
+  - emoji: 🦫
+    code: 1F9AB
+    name: ビーバー
+    readings:
+      - びーばー
+      - だむ
+    en: beaver
+    since: "13.0"
+    subgroup: animal-mammal
+    keywords: [ ダム作り, ビーバー, 動物 ]
+  - emoji: 🦔
+    code: 1F994
+    name: ハリネズミ
+    readings:
+      - はりねずみ
+      - やまあらし
+      - へっじほっぐ
+      - とげ
+    en: hedgehog
+    since: "5.0"
+    subgroup: animal-mammal
+    keywords: [ とげ, はりねずみ, ハリネズミ, ヤマアラシ, 動物 ]
+  - emoji: 🦇
+    code: 1F987
+    name: コウモリ
+    readings:
+      - こうもり
+      - ばっと
+      - きゅうけつき
+      - ばんぱいあ
+    en: bat
+    since: "3.0"
+    subgroup: animal-mammal
+    keywords: [ こうもり, コウモリ, バンパイア, 動物, 吸血鬼 ]
+  - emoji: 🐻
+    code: 1F43B
+    name: クマの顔
+    readings:
+      - くまのかお
+      - くま
+      - べあ
+      - くまさん
+    en: bear
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ くま, クマ, クマの顔, 動物, 熊, 顔 ]
+  - emoji: 🐻‍❄️
+    code: 1F43B 200D 2744 FE0F
+    name: シロクマ
+    readings:
+      - しろくま
+      - ほっきょくぐま
+      - くま
+      - ぽーらーべあ
+    en: polar bear
+    since: "13.0"
+    subgroup: animal-mammal
+    keywords: [ クマ, シロクマ, ホッキョクグマ, 動物, 北極, 白 ]
+  - emoji: 🐨
+    code: 1F428
+    name: コアラ
+    readings:
+      - こあら
+      - おーすとらりあ
+    en: koala
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ コアラ, 動物, 顔 ]
+  - emoji: 🐼
+    code: 1F43C
+    name: パンダの顔
+    readings:
+      - ぱんだのかお
+      - ぱんだ
+      - じゃいあんとぱんだ
+    en: panda
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ パンダ, パンダの顔, 動物, 顔 ]
+  - emoji: 🦥
+    code: 1F9A5
+    name: ナマケモノ
+    readings:
+      - なまけもの
+      - のんびり
+      - ものぐさ
+      - すろーす
+    en: sloth
+    since: "12.0"
+    subgroup: animal-mammal
+    keywords: [ ナマケモノ, のんびり, ものぐさ, 動物 ]
+  - emoji: 🦦
+    code: 1F9A6
+    name: カワウソ
+    readings:
+      - かわうそ
+      - らっこ
+      - おったー
+    en: otter
+    since: "12.0"
+    subgroup: animal-mammal
+    keywords: [ カワウソ, ラッコ, 動物, 遊び好き, 魚を食べる ]
+  - emoji: 🦨
+    code: 1F9A8
+    name: スカンク
+    readings:
+      - すかんく
+      - くさい
+      - あくしゅう
+    en: skunk
+    since: "12.0"
+    subgroup: animal-mammal
+    keywords: [ スカンク, 動物, 悪臭 ]
+  - emoji: 🦘
+    code: 1F998
+    name: カンガルー
+    readings:
+      - かんがるー
+      - おーすとらりあ
+      - ゆうたいるい
+      - じゃんぷ
+    en: kangaroo
+    since: "11.0"
+    subgroup: animal-mammal
+    keywords: [ オーストラリア, カンガルー, ジャンプ, ジョーイ, 動物, 有袋類 ]
+  - emoji: 🦡
+    code: 1F9A1
+    name: アナグマ
+    readings:
+      - あなぐま
+      - みつあなぐま
+      - らーてる
+      - ばじゃー
+    en: badger
+    since: "11.0"
+    subgroup: animal-mammal
+    keywords: [ アナグマ, ミツアナグマ, ラーテル, 動物 ]
+  - emoji: 🐾
+    code: 1F43E
+    name: 肉球
+    readings:
+      - にくきゅう
+      - あしあと
+      - ぷにぷに
+      - いぬ
+      - ねこ
+    en: paw prints
+    since: "0.6"
+    subgroup: animal-mammal
+    keywords: [ 動物, 犬, 猫, 肉球, 足跡 ]
+  - emoji: 🦃
+    code: 1F983
+    name: 七面鳥
+    readings:
+      - しちめんちょう
+      - たーきー
+      - かんしゃさい
+    en: turkey
+    since: "1.0"
+    subgroup: animal-bird
+    keywords: [ ターキー, 七面鳥, 動物, 鳥 ]
+  - emoji: 🐔
+    code: 1F414
+    name: ニワトリ
+    readings:
+      - にわとり
+      - ちきん
+      - とり
+      - こけこっこー
+    en: chicken
+    since: "0.6"
+    subgroup: animal-bird
+    keywords: [ にわとり, ニワトリ, 動物, 顔, 鳥 ]
+  - emoji: 🐓
+    code: 1F413
+    name: おんどり
+    readings:
+      - おんどり
+      - にわとり
+      - こけこっこー
+      - とり
+    en: rooster
+    since: "1.0"
+    subgroup: animal-bird
+    keywords: [ おんどり, にわとり, ニワトリ, 動物, 鳥 ]
+  - emoji: 🐣
+    code: 1F423
+    name: 卵からかえったひよこ
+    readings:
+      - たまごからかえったひよこ
+      - ひよこ
+      - ふか
+      - うまれた
+      - たんじょう
+      - ひな
+    en: hatching chick
+    since: "0.6"
+    subgroup: animal-bird
+    keywords: [ ひな, ひよこ, 動物, 卵, 卵からかえったひよこ, 顔, 鳥 ]
+  - emoji: 🐤
+    code: 1F424
+    name: ひよこ
+    readings:
+      - ひよこ
+      - ひな
+      - ぴよぴよ
+      - とり
+    en: baby chick
+    since: "0.6"
+    subgroup: animal-bird
+    keywords: [ ひな, ひよこ, 動物, 横を向いているひよこ, 顔, 鳥 ]
+  - emoji: 🐥
+    code: 1F425
+    name: 前を向いているひよこ
+    readings:
+      - まえをむいているひよこ
+      - ひよこ
+      - ひな
+      - ぴよぴよ
+    en: front-facing baby chick
+    since: "0.6"
+    subgroup: animal-bird
+    keywords: [ ひな, ひよこ, 前を向いているひよこ, 動物, 鳥 ]
+  - emoji: 🐦
+    code: 1F426
+    name: 鳥
+    readings:
+      - とり
+      - ことり
+      - ばーど
+      - ついったー
+    en: bird
+    since: "0.6"
+    subgroup: animal-bird
+    keywords: [ 動物, 顔, 鳥 ]
+  - emoji: 🐧
+    code: 1F427
+    name: ペンギン
+    readings:
+      - ぺんぎん
+      - とり
+    en: penguin
+    since: "0.6"
+    subgroup: animal-bird
+    keywords: [ ペンギン, 動物, 顔, 鳥 ]
+  - emoji: 🕊️
+    code: 1F54A FE0F
+    name: ハト
+    readings:
+      - はと
+      - へいわ
+      - しろいはと
+      - ぴーす
+    en: dove
+    since: "0.7"
+    subgroup: animal-bird
+    keywords: [ ハト, 動物, 平和, 鳥, 鳩 ]
+  - emoji: 🦅
+    code: 1F985
+    name: ワシ
+    readings:
+      - わし
+      - いーぐる
+      - たか
+      - もうきん
+    en: eagle
+    since: "3.0"
+    subgroup: animal-bird
+    keywords: [ イーグル, ワシ, 動物, 鳥 ]
+  - emoji: 🦆
+    code: 1F986
+    name: カモ
+    readings:
+      - かも
+      - あひる
+      - だっく
+      - があがあ
+    en: duck
+    since: "3.0"
+    subgroup: animal-bird
+    keywords: [ カモ, 動物, 鳥 ]
+  - emoji: 🦢
+    code: 1F9A2
+    name: 白鳥
+    readings:
+      - はくちょう
+      - すわん
+      - みにくいあひるのこ
+    en: swan
+    since: "11.0"
+    subgroup: animal-bird
+    keywords: [ ひな, みにくいアヒルの子, 動物, 白鳥, 鳥 ]
+  - emoji: 🦉
+    code: 1F989
+    name: フクロウ
+    readings:
+      - ふくろう
+      - みみずく
+      - おうる
+      - ほーほー
+    en: owl
+    since: "3.0"
+    subgroup: animal-bird
+    keywords: [ フクロウ, ミミズク, 動物, 鳥 ]
+  - emoji: 🦤
+    code: 1F9A4
+    name: ドードー
+    readings:
+      - どーどー
+      - ぜつめつ
+      - とべないとり
+    en: dodo
+    since: "13.0"
+    subgroup: animal-bird
+    keywords: [ ドードー, モーリシャス島, 絶滅, 飛べない鳥, 鳥 ]
+  - emoji: 🪶
+    code: 1FAB6
+    name: 羽
+    readings:
+      - はね
+      - うもう
+      - かるい
+      - ふぇざー
+    en: feather
+    since: "13.0"
+    subgroup: animal-bird
+    keywords: [ 羽, 羽根, 羽毛, 軽い, 飛ぶ, 鳥 ]
+  - emoji: 🦩
+    code: 1F9A9
+    name: フラミンゴ
+    readings:
+      - ふらみんご
+      - とり
+      - ぴんく
+    en: flamingo
+    since: "12.0"
+    subgroup: animal-bird
+    keywords: [ ピンク色, フラミンゴ, 動物, 派手, 熱帯, 鳥 ]
+  - emoji: 🦚
+    code: 1F99A
+    name: クジャク
+    readings:
+      - くじゃく
+      - ぴーこっく
+      - とり
+    en: peacock
+    since: "11.0"
+    subgroup: animal-bird
+    keywords: [ クジャク, ピーコック, 孔雀, 派手, 鳥 ]
+  - emoji: 🦜
+    code: 1F99C
+    name: オウム
+    readings:
+      - おうむ
+      - いんこ
+      - ぱろっと
+      - かいぞく
+    en: parrot
+    since: "11.0"
+    subgroup: animal-bird
+    keywords: [ オウム, しゃべる, 動物, 海賊, 鳥 ]
+  - emoji: 🪽
+    code: 1FABD
+    name: 翼
+    readings:
+      - つばさ
+      - はね
+      - うぃんぐ
+      - てんし
+      - とぶ
+    en: wing
+    since: "15.0"
+    subgroup: animal-bird
+    keywords: [ 天使, 天国, 神話, 空, 羽, 翼, 飛び立つ, 飛ぶ, 飛行, 鳥 ]
+  - emoji: 🐦‍⬛
+    code: 1F426 200D 2B1B
+    name: 黒い鳥
+    readings:
+      - くろいとり
+      - からす
+      - かーかー
+      - くろどり
+    en: black bird
+    since: "15.0"
+    subgroup: animal-bird
+    keywords: [ カーカー, カラス, くちばし, コクチョウ, ミヤマガラス, ワタリガラス, 烏, 鳥, 鳥類, 黒 ]
+  - emoji: 🪿
+    code: 1FABF
+    name: ガチョウ
+    readings:
+      - がちょう
+      - あひる
+      - があがあ
+      - ぐーす
+    en: goose
+    since: "15.0"
+    subgroup: animal-bird
+    keywords: [ アヒル, ガーガー, ガチョウ, まぬけ, 鳥, 鳥類 ]
+  - emoji: 🐦‍🔥
+    code: 1F426 200D 1F525
+    name: フェニックス
+    readings:
+      - ふぇにっくす
+      - ふしちょう
+      - ひのとり
+      - ふっかつ
+      - さいせい
+      - てんせい
+    en: phoenix
+    since: "15.1"
+    subgroup: animal-bird
+    keywords: [ ファンタジー, フェニックス, 不死鳥, 再生, 復活, 火の鳥, 生まれ変わり, 神話, 転生, 輪廻 ]
+  - emoji: 🐸
+    code: 1F438
+    name: カエルの顔
+    readings:
+      - かえるのかお
+      - かえる
+      - けろけろ
+      - げこげこ
+      - ふろっぐ
+    en: frog
+    since: "0.6"
+    subgroup: animal-amphibian
+    keywords: [ カエル, カエルの顔, 動物, 顔 ]
+  - emoji: 🐊
+    code: 1F40A
+    name: ワニ
+    readings:
+      - わに
+      - くろこだいる
+      - あにげーたー
+      - はちゅうるい
+    en: crocodile
+    since: "1.0"
+    subgroup: animal-reptile
+    keywords: [ クロコダイル, ワニ, 動物, 爬虫類 ]
+  - emoji: 🐢
+    code: 1F422
+    name: カメ
+    readings:
+      - かめ
+      - たーとる
+      - のろのろ
+      - はちゅうるい
+    en: turtle
+    since: "0.6"
+    subgroup: animal-reptile
+    keywords: [ カメ, 亀, 動物, 爬虫類 ]
+  - emoji: 🦎
+    code: 1F98E
+    name: トカゲ
+    readings:
+      - とかげ
+      - やもり
+      - りざーど
+      - はちゅうるい
+    en: lizard
+    since: "3.0"
+    subgroup: animal-reptile
+    keywords: [ トカゲ, ヤモリ, 動物, 爬虫類 ]
+  - emoji: 🐍
+    code: 1F40D
+    name: ヘビ
+    readings:
+      - へび
+      - じゃ
+      - すねーく
+      - へびつかいざ
+    en: snake
+    since: "0.6"
+    subgroup: animal-reptile
+    keywords: [ ヘビ, へびつかい座, 動物, 星座, 毒, 爬虫類 ]
+  - emoji: 🐲
+    code: 1F432
+    name: ドラゴンの顔
+    readings:
+      - どらごんのかお
+      - どらごん
+      - りゅう
+      - たつ
+    en: dragon face
+    since: "0.6"
+    subgroup: animal-reptile
+    keywords: [ ドラゴン, ドラゴンの顔, 動物, 竜, 顔, 龍 ]
+  - emoji: 🐉
+    code: 1F409
+    name: ドラゴン
+    readings:
+      - どらごん
+      - りゅう
+      - たつ
+    en: dragon
+    since: "1.0"
+    subgroup: animal-reptile
+    keywords: [ ドラゴン, 動物, 竜, 龍 ]
+  - emoji: 🦕
+    code: 1F995
+    name: 草食恐竜
+    readings:
+      - そうしょくきょうりゅう
+      - きょうりゅう
+      - ぶらきおさうるす
+      - ぶろんとさうるす
+      - でぃぷろどくす
+      - りゅうきゃくるい
+    en: sauropod
+    since: "5.0"
+    subgroup: animal-reptile
+    keywords: [ ディプロドクス, ブラキオサウルス, ブロントサウルス, 恐竜, 竜脚類, 草食恐竜 ]
+  - emoji: 🦖
+    code: 1F996
+    name: ティラノサウルス
+    readings:
+      - てぃらのさうるす
+      - きょうりゅう
+      - てぃーれっくす
+      - にくしょくきょうりゅう
+    en: T-Rex
+    since: "5.0"
+    subgroup: animal-reptile
+    keywords: [ ティラノサウルス, 恐竜 ]
+  - emoji: 🐳
+    code: 1F433
+    name: 潮吹きクジラ
+    readings:
+      - しおふきくじら
+      - くじら
+      - しおふき
+      - ほえーる
+    en: spouting whale
+    since: "0.6"
+    subgroup: animal-marine
+    keywords: [ クジラ, 動物, 潮吹き, 潮吹きクジラ ]
+  - emoji: 🐋
+    code: 1F40B
+    name: クジラ
+    readings:
+      - くじら
+      - ほえーる
+    en: whale
+    since: "1.0"
+    subgroup: animal-marine
+    keywords: [ クジラ, 動物 ]
+  - emoji: 🐬
+    code: 1F42C
+    name: イルカ
+    readings:
+      - いるか
+      - どるふぃん
+    en: dolphin
+    since: "0.6"
+    subgroup: animal-marine
+    keywords: [ イルカ, ドルフィン, 動物 ]
+  - emoji: 🫍
+    code: 1FACD
+    name: シャチ
+    readings:
+      - しゃち
+      - おるか
+      - くじら
+      - うみ
+    en: orca
+    since: "17.0"
+    subgroup: animal-marine
+    keywords: [ クジラ, 海, 海洋 ]
+  - emoji: 🦭
+    code: 1F9AD
+    name: アザラシ
+    readings:
+      - あざらし
+      - あしか
+      - おっとせい
+      - とど
+      - しーる
+    en: seal
+    since: "13.0"
+    subgroup: animal-marine
+    keywords: [ アザラシ, アシカ, オットセイ, トド, 動物, 海獣 ]
+  - emoji: 🐟
+    code: 1F41F
+    name: 魚
+    readings:
+      - さかな
+      - うお
+      - うおざ
+      - ふぃっしゅ
+      - つり
+    en: fish
+    since: "0.6"
+    subgroup: animal-marine
+    keywords: [ うお座, フィッシング, 動物, 星座, 釣り, 魚 ]
+  - emoji: 🐠
+    code: 1F420
+    name: 熱帯魚
+    readings:
+      - ねったいぎょ
+      - さかな
+      - かくれくまのみ
+    en: tropical fish
+    since: "0.6"
+    subgroup: animal-marine
+    keywords: [ 動物, 熱帯魚, 魚 ]
+  - emoji: 🐡
+    code: 1F421
+    name: フグ
+    readings:
+      - ふぐ
+      - さかな
+      - はりせんぼん
+    en: blowfish
+    since: "0.6"
+    subgroup: animal-marine
+    keywords: [ フグ, 動物, 魚 ]
+  - emoji: 🦈
+    code: 1F988
+    name: サメ
+    readings:
+      - さめ
+      - ふか
+      - しゃーく
+      - じょーず
+    en: shark
+    since: "3.0"
+    subgroup: animal-marine
+    keywords: [ サメ, 動物, 魚 ]
+  - emoji: 🐙
+    code: 1F419
+    name: タコ
+    readings:
+      - たこ
+      - おくとぱす
+    en: octopus
+    since: "0.6"
+    subgroup: animal-marine
+    keywords: [ オクトパス, タコ, 動物, 軟体動物 ]
+  - emoji: 🐚
+    code: 1F41A
+    name: 巻き貝
+    readings:
+      - まきがい
+      - かい
+      - かいがら
+      - ほらがい
+    en: spiral shell
+    since: "0.6"
+    subgroup: animal-marine
+    keywords: [ 動物, 巻き貝, 貝, 貝殻 ]
+  - emoji: 🪸
+    code: 1FAB8
+    name: サンゴ
+    readings:
+      - さんご
+      - さんごしょう
+      - うみ
+    en: coral
+    since: "14.0"
+    subgroup: animal-marine
+    keywords: [ サンゴ, 気候変動, 海, 珊瑚礁 ]
+  - emoji: 🪼
+    code: 1FABC
+    name: クラゲ
+    readings:
+      - くらげ
+      - じぇりーふぃっしゅ
+      - うみ
+      - すいぞくかん
+    en: jellyfish
+    since: "15.0"
+    subgroup: animal-marine
+    keywords: [ クラゲ, プランクトン, 刺す, 毒, 水族館, 海, 海洋生物, 無脊椎動物, 触手, 針 ]
+  - emoji: 🦀
+    code: 1F980
+    name: カニ
+    readings:
+      - かに
+      - きゃんさー
+      - かにざ
+    en: crab
+    since: "1.0"
+    subgroup: animal-marine
+    keywords: [ カニ, 動物, 星座 ]
+  - emoji: 🦞
+    code: 1F99E
+    name: ロブスター
+    readings:
+      - ろぶすたー
+      - ざりがに
+      - いせえび
+      - えび
+    en: lobster
+    since: "11.0"
+    subgroup: animal-marine
+    keywords: [ ザリガニ, シーフード, はさみ, ビスク, レッドロブスター, ロブスター, 動物 ]
+  - emoji: 🦐
+    code: 1F990
+    name: エビ
+    readings:
+      - えび
+      - しゅりんぷ
+      - こえび
+      - えびふらい
+    en: shrimp
+    since: "3.0"
+    subgroup: animal-marine
+    keywords: [ エビ, シーフード, シュリンプ, 動物, 小エビ ]
+  - emoji: 🦑
+    code: 1F991
+    name: イカ
+    readings:
+      - いか
+      - すくいっど
+    en: squid
+    since: "3.0"
+    subgroup: animal-marine
+    keywords: [ イカ, シーフード, 動物, 軟体動物 ]
+  - emoji: 🦪
+    code: 1F9AA
+    name: 牡蠣
+    readings:
+      - かき
+      - おいすたー
+      - なまがき
+      - しんじゅ
+      - かい
+    en: oyster
+    since: "12.0"
+    subgroup: animal-marine
+    keywords: [ オイスター, カキ, シーフード, ダイビング, 牡蠣, 生ガキ, 真珠, 貝, 魚介 ]
+  - emoji: 🐌
+    code: 1F40C
+    name: かたつむり
+    readings:
+      - かたつむり
+      - でんでんむし
+      - まいまい
+      - えすかるご
+    en: snail
+    since: "0.6"
+    subgroup: animal-bug
+    keywords: [ エスカルゴ, かたつむり, カタツムリ, でんでん虫, 虫 ]
+  - emoji: 🦋
+    code: 1F98B
+    name: チョウ
+    readings:
+      - ちょう
+      - ちょうちょ
+      - ちょうちょう
+      - ばたふらい
+    en: butterfly
+    since: "3.0"
+    subgroup: animal-bug
+    keywords: [ チョウ, バタフライ, 昆虫, 虫, 蝶 ]
+  - emoji: 🫌
+    code: 1FACC
+    name: オオカバマダラ
+    readings:
+      - おおかばまだら
+      - ちょう
+      - ちょうちょ
+      - へんしん
+      - せいちょう
+    en: monarch butterfly
+    since: "18.0"
+    subgroup: animal-bug
+    keywords: [ 変態, 変身, 希望, 成長, 芋虫, 虫, 蛹から蝶, 蝶 ]
+  - emoji: 🐛
+    code: 1F41B
+    name: 毛虫
+    readings:
+      - けむし
+      - いもむし
+      - むし
+      - ばぐ
+    en: bug
+    since: "0.6"
+    subgroup: animal-bug
+    keywords: [ イモムシ, 毛虫, 芋虫, 虫 ]
+  - emoji: 🐜
+    code: 1F41C
+    name: アリ
+    readings:
+      - あり
+      - むし
+      - あんと
+    en: ant
+    since: "0.6"
+    subgroup: animal-bug
+    keywords: [ アリ, 昆虫, 虫 ]
+  - emoji: 🐝
+    code: 1F41D
+    name: ミツバチ
+    readings:
+      - みつばち
+      - はち
+      - むし
+      - びー
+    en: honeybee
+    since: "0.6"
+    subgroup: animal-bug
+    keywords: [ ハチ, ミツバチ, 虫, 蜂 ]
+  - emoji: 🪲
+    code: 1FAB2
+    name: カブトムシ
+    readings:
+      - かぶとむし
+      - こうちゅう
+      - むし
+      - びーとる
+    en: beetle
+    since: "13.0"
+    subgroup: animal-bug
+    keywords: [ カブトムシ, つの, 昆虫, 虫 ]
+  - emoji: 🐞
+    code: 1F41E
+    name: テントウムシ
+    readings:
+      - てんとうむし
+      - むし
+      - れでぃばぐ
+    en: lady beetle
+    since: "0.6"
+    subgroup: animal-bug
+    keywords: [ テントウムシ, てんとう虫, 虫 ]
+  - emoji: 🦗
+    code: 1F997
+    name: コオロギ
+    readings:
+      - こおろぎ
+      - ばった
+      - きりぎりす
+      - むし
+    en: cricket
+    since: "5.0"
+    subgroup: animal-bug
+    keywords: [ コオロギ, バッタ, 昆虫, 直翅目, 虫 ]
+  - emoji: 🪳
+    code: 1FAB3
+    name: ゴキブリ
+    readings:
+      - ごきぶり
+      - ごき
+      - がいちゅう
+      - むし
+      - じー
+    en: cockroach
+    since: "13.0"
+    subgroup: animal-bug
+    keywords: [ ゴキブリ, 害虫, 虫 ]
+  - emoji: 🕷️
+    code: 1F577 FE0F
+    name: クモ
+    readings:
+      - くも
+      - すぱいだー
+      - むし
+    en: spider
+    since: "0.7"
+    subgroup: animal-bug
+    keywords: [ クモ, スパイダー, 虫 ]
+  - emoji: 🕸️
+    code: 1F578 FE0F
+    name: クモの巣
+    readings:
+      - くものす
+      - くも
+      - うぇぶ
+      - すぱいだー
+    en: spider web
+    since: "0.7"
+    subgroup: animal-bug
+    keywords: [ ウェブ, クモ, クモの巣, スパイダー ]
+  - emoji: 🦂
+    code: 1F982
+    name: サソリ
+    readings:
+      - さそり
+      - さそりざ
+      - すこーぴおん
+    en: scorpion
+    since: "1.0"
+    subgroup: animal-bug
+    keywords: [ サソリ, さそり座, 星座, 虫 ]
+  - emoji: 🦟
+    code: 1F99F
+    name: 蚊
+    readings:
+      - か
+      - もすきーと
+      - むし
+      - まらりあ
+    en: mosquito
+    since: "11.0"
+    subgroup: animal-bug
+    keywords: [ ウイルス, マラリア, 刺す, 熱, 病気, 虫, 蚊 ]
+  - emoji: 🪰
+    code: 1FAB0
+    name: ハエ
+    readings:
+      - はえ
+      - むし
+      - がいちゅう
+      - ふらい
+    en: fly
+    since: "13.0"
+    subgroup: animal-bug
+    keywords: [ ハエ, 不潔, 害虫, 病原菌, 虫 ]
+  - emoji: 🪱
+    code: 1FAB1
+    name: ミミズ
+    readings:
+      - みみず
+      - わーむ
+      - むし
+      - きせいちゅう
+    en: worm
+    since: "13.0"
+    subgroup: animal-bug
+    keywords: [ ミミズ, 寄生虫, 虫 ]
+  - emoji: 🦠
+    code: 1F9A0
+    name: 微生物
+    readings:
+      - びせいぶつ
+      - ういるす
+      - さいきん
+      - ばくてりあ
+      - きん
+      - あめーば
+    en: microbe
+    since: "11.0"
+    subgroup: animal-bug
+    keywords: [ アメーバ, ウイルス, バクテリア, 微生物, 科学, 細菌 ]
+  - emoji: 💐
+    code: 1F490
+    name: 花束
+    readings:
+      - はなたば
+      - ぶーけ
+      - はな
+    en: bouquet
+    since: "0.6"
+    subgroup: plant-flower
+    keywords: [ ブーケ, 植物, 花, 花束 ]
+  - emoji: 🌸
+    code: 1F338
+    name: 桜
+    readings:
+      - さくら
+      - はな
+      - はなみ
+      - かいか
+      - まんかい
+    en: cherry blossom
+    since: "0.6"
+    subgroup: plant-flower
+    keywords: [ サクラ, 桜, 植物, 花, 開花 ]
+  - emoji: 💮
+    code: 1F4AE
+    name: 大変よくできました
+    readings:
+      - たいへんよくできました
+      - はなまる
+      - よくできました
+      - ごうかく
+    en: white flower
+    since: "0.6"
+    subgroup: plant-flower
+    keywords: [ はなまる, よくできました, 大変よくできました, 花 ]
+  - emoji: 🪷
+    code: 1FAB7
+    name: ハスの花
+    readings:
+      - はすのはな
+      - はす
+      - ろーたす
+      - ぶっきょう
+      - ごくらく
+    en: lotus
+    since: "14.0"
+    subgroup: plant-flower
+    keywords: [ ハスの花, ヒンドゥー教, 仏教, 極楽, 清浄, 花 ]
+  - emoji: 🏵️
+    code: 1F3F5 FE0F
+    name: 花飾り
+    readings:
+      - はなかざり
+      - ろぜっと
+      - はな
+    en: rosette
+    since: "0.7"
+    subgroup: plant-flower
+    keywords: [ 植物, 花, 花飾り ]
+  - emoji: 🌹
+    code: 1F339
+    name: バラ
+    readings:
+      - ばら
+      - ろーず
+      - あかいばら
+      - はな
+    en: rose
+    since: "0.6"
+    subgroup: plant-flower
+    keywords: [ バラ, ローズ, 植物, 花, 薔薇, 赤いバラ ]
+  - emoji: 🥀
+    code: 1F940
+    name: しおれた花
+    readings:
+      - しおれたはな
+      - かれたはな
+      - しつれん
+      - はな
+    en: wilted flower
+    since: "3.0"
+    subgroup: plant-flower
+    keywords: [ しおれた, しおれた花, 花 ]
+  - emoji: 🌺
+    code: 1F33A
+    name: ハイビスカス
+    readings:
+      - はいびすかす
+      - はな
+      - はわい
+      - なんごく
+    en: hibiscus
+    since: "0.6"
+    subgroup: plant-flower
+    keywords: [ ハイビスカス, 植物, 花 ]
+  - emoji: 🌻
+    code: 1F33B
+    name: ヒマワリ
+    readings:
+      - ひまわり
+      - さんふらわー
+      - なつ
+      - はな
+    en: sunflower
+    since: "0.6"
+    subgroup: plant-flower
+    keywords: [ ひまわり, ヒマワリ, 花 ]
+  - emoji: 🌼
+    code: 1F33C
+    name: 開花
+    readings:
+      - かいか
+      - はな
+      - きんぽうげ
+      - さいたはな
+    en: blossom
+    since: "0.6"
+    subgroup: plant-flower
+    keywords: [ キンポウゲ, 咲いた花, 植物, 花, 開花 ]
+  - emoji: 🌷
+    code: 1F337
+    name: チューリップ
+    readings:
+      - ちゅーりっぷ
+      - はな
+      - はる
+    en: tulip
+    since: "0.6"
+    subgroup: plant-flower
+    keywords: [ チューリップ, 植物, 花, 開花 ]
+  - emoji: 🪻
+    code: 1FABB
+    name: ヒヤシンス
+    readings:
+      - ひやしんす
+      - らべんだー
+      - らいらっく
+      - はな
+      - むらさき
+    en: hyacinth
+    since: "15.0"
+    subgroup: plant-flower
+    keywords: [ スミレ色, ヒヤシンス, ブルーボネット, ライラック, ラベンダー, 植物, 紫色, 花, 青紫 ]
+  - emoji: 🌱
+    code: 1F331
+    name: 新芽
+    readings:
+      - しんめ
+      - ふたば
+      - め
+      - わかば
+      - はつが
+    en: seedling
+    since: "0.6"
+    subgroup: plant-other
+    keywords: [ 双葉, 新芽, 芽 ]
+  - emoji: 🪴
+    code: 1FAB4
+    name: 鉢植え
+    readings:
+      - はちうえ
+      - かんようしょくぶつ
+      - うえきばち
+      - しょくぶつ
+      - みどり
+    en: potted plant
+    since: "13.0"
+    subgroup: plant-other
+    keywords: [ ベランダ, 植木鉢, 植物, 水やり, 緑, 苗, 観葉植物, 鉢植え ]
+  - emoji: 🌲
+    code: 1F332
+    name: 常緑樹
+    readings:
+      - じょうりょくじゅ
+      - き
+      - もみのき
+      - もり
+      - まつ
+    en: evergreen tree
+    since: "1.0"
+    subgroup: plant-other
+    keywords: [ 常緑樹, 木, 森 ]
+  - emoji: 🌳
+    code: 1F333
+    name: 落葉樹
+    readings:
+      - らくようじゅ
+      - き
+      - もり
+      - じゅもく
+    en: deciduous tree
+    since: "1.0"
+    subgroup: plant-other
+    keywords: [ 木, 森, 落葉樹 ]
+  - emoji: 🌴
+    code: 1F334
+    name: ヤシの木
+    readings:
+      - やしのき
+      - やし
+      - ぱーむつりー
+      - なんごく
+      - びーち
+    en: palm tree
+    since: "0.6"
+    subgroup: plant-other
+    keywords: [ ビーチ, ヤシ, ヤシの木, 木, 熱帯 ]
+  - emoji: 🌵
+    code: 1F335
+    name: サボテン
+    readings:
+      - さぼてん
+      - さばく
+      - かくたす
+    en: cactus
+    since: "0.6"
+    subgroup: plant-other
+    keywords: [ サボテン, 植物, 砂漠 ]
+  - emoji: 🌾
+    code: 1F33E
+    name: 稲
+    readings:
+      - いね
+      - いなほ
+      - すすき
+      - こめ
+      - こくもつ
+      - つきみ
+    en: sheaf of rice
+    since: "0.6"
+    subgroup: plant-other
+    keywords: [ ススキ, 稲, 稲穂, 穀物, 米, 草 ]
+  - emoji: 🌿
+    code: 1F33F
+    name: ハーブ
+    readings:
+      - はーぶ
+      - やくそう
+      - こうそう
+      - くさ
+      - は
+    en: herb
+    since: "0.6"
+    subgroup: plant-other
+    keywords: [ ハーブ, 草, 葉, 薬草, 香草 ]
+  - emoji: ☘️
+    code: 2618 FE0F
+    name: クローバー
+    readings:
+      - くろーばー
+      - しゃむろっく
+      - みつば
+    en: shamrock
+    since: "1.0"
+    subgroup: plant-other
+    keywords: [ クローバー, 植物, 草, 葉 ]
+  - emoji: 🍀
+    code: 1F340
+    name: 四つ葉のクローバー
+    readings:
+      - よつばのくろーばー
+      - よつば
+      - くろーばー
+      - こううん
+      - らっきー
+    en: four leaf clover
+    since: "0.6"
+    subgroup: plant-other
+    keywords: [ "4", クローバー, 四つ葉のクローバー, 植物, 草, 葉 ]
+  - emoji: 🍁
+    code: 1F341
+    name: カエデ
+    readings:
+      - かえで
+      - もみじ
+      - こうよう
+      - めーぷる
+      - あき
+    en: maple leaf
+    since: "0.6"
+    subgroup: plant-other
+    keywords: [ かえで, カエデ, もみじ, 紅葉, 落ち葉, 葉 ]
+  - emoji: 🍂
+    code: 1F342
+    name: 落ち葉
+    readings:
+      - おちば
+      - かれは
+      - こうよう
+      - あき
+      - このは
+    en: fallen leaf
+    since: "0.6"
+    subgroup: plant-other
+    keywords: [ 木の葉, 枯れ葉, 落ち葉, 葉, 葉っぱ ]
+  - emoji: 🍃
+    code: 1F343
+    name: 風に揺れる葉
+    readings:
+      - かぜにゆれるは
+      - このは
+      - はっぱ
+      - かぜ
+      - そよかぜ
+    en: leaf fluttering in wind
+    since: "0.6"
+    subgroup: plant-other
+    keywords: [ 木の葉, 落ち葉, 葉, 葉っぱ, 風, 風に揺れる葉 ]
+  - emoji: 🪹
+    code: 1FAB9
+    name: 空っぽの巣
+    readings:
+      - からっぽのす
+      - す
+      - とりのす
+      - からのす
+    en: empty nest
+    since: "14.0"
+    subgroup: plant-other
+    keywords: [ 営巣, 巣, 巣作り, 空っぽの巣 ]
+  - emoji: 🪺
+    code: 1FABA
+    name: 鳥の卵と巣
+    readings:
+      - とりのたまごとす
+      - とりのす
+      - す
+      - たまご
+    en: nest with eggs
+    since: "14.0"
+    subgroup: plant-other
+    keywords: [ 卵, 営巣, 巣, 巣作り, 鳥の卵と巣, 鳥の巣 ]
+  - emoji: 🍄
+    code: 1F344
+    name: キノコ
+    readings:
+      - きのこ
+      - まっしゅるーむ
+      - どくきのこ
+      - べにてんぐたけ
+    en: mushroom
+    since: "0.6"
+    subgroup: plant-other
+    keywords: [ きのこ, キノコ, マッシュルーム, 毒, 菌類, 野菜 ]
+  - emoji: 🪾
+    code: 1FABE
+    name: 枯れ木
+    readings:
+      - かれき
+      - はのないき
+      - ふゆ
+      - き
+    en: leafless tree
+    since: "16.0"
+    subgroup: plant-other
+    keywords: [ 不毛, 冬, 干ばつ, 葉のない木 ]

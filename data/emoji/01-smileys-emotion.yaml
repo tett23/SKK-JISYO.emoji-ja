@@ -1,0 +1,2432 @@
+# SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
+#   name:     annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   review:   true if added automatically by the update task; remove after checking the readings
+# Other fields are refreshed from Unicode/CLDR by the update task.
+
+group: Smileys & Emotion
+emoji:
+  - emoji: 😀
+    code: 1F600
+    name: にっこり笑う
+    readings:
+      - にっこりわらう
+      - にっこり
+      - えがお
+      - すまいる
+      - はっぴー
+      - わらう
+      - にこにこ
+    en: grinning face
+    since: "1.0"
+    subgroup: face-smiling
+    keywords: [ スマイル, ナイス, にっこり, にっこり笑う, ハッピー, 笑う, 笑顔, 顔 ]
+  - emoji: 😃
+    code: 1F603
+    name: わーい
+    readings:
+      - わーい
+      - えがお
+      - すまいる
+      - はっぴー
+      - うれしい
+      - にこにこ
+    en: grinning face with big eyes
+    since: "0.6"
+    subgroup: face-smiling
+    keywords: [ スマイル, ハッピー, わーい, 口を開けた笑顔, 笑顔, 顔 ]
+  - emoji: 😄
+    code: 1F604
+    name: 笑顔
+    readings:
+      - えがお
+      - すまいる
+      - はっぴー
+      - わーい
+      - うれしい
+      - にこにこ
+      - わらう
+    en: grinning face with smiling eyes
+    since: "0.6"
+    subgroup: face-smiling
+    keywords: [ スマイル, ハッピー, わーい, 笑顔, 顔 ]
+  - emoji: 😁
+    code: 1F601
+    name: にやっと笑う
+    readings:
+      - にやっとわらう
+      - にやっ
+      - にかっ
+      - えがお
+      - すまいる
+      - はっぴー
+      - ないす
+    en: beaming face with smiling eyes
+    since: "0.6"
+    subgroup: face-smiling
+    keywords: [ スマイル, ナイス, にやっと笑う, ハッピー, 笑う, 笑顔, 顔 ]
+  - emoji: 😆
+    code: 1F606
+    name: きゃー
+    readings:
+      - きゃー
+      - あはは
+      - うける
+      - まんぞく
+      - うれしい
+      - えがお
+      - わらう
+    en: grinning squinting face
+    since: "0.6"
+    subgroup: face-smiling
+    keywords: [ あはは, うけるね, きゃー, スマイル, 嬉しい, 満足, 笑, 笑顔, 顔 ]
+  - emoji: 😅
+    code: 1F605
+    name: 冷や汗笑顔
+    readings:
+      - ひやあせえがお
+      - ひやあせ
+      - とほほ
+      - あせ
+      - にがわらい
+      - あせあせ
+      - えがお
+    en: grinning face with sweat
+    since: "0.6"
+    subgroup: face-smiling
+    keywords: [ スマイル, とほほ, 冷や汗, 冷や汗笑顔, 汗, 笑顔, 顔 ]
+  - emoji: 🤣
+    code: 1F923
+    name: 笑い転げる
+    readings:
+      - わらいころげる
+      - ばくしょう
+      - おおわらい
+      - あはは
+      - うける
+      - なきわらい
+      - くさ
+      - わら
+    en: rolling on the floor laughing
+    since: "3.0"
+    subgroup: face-smiling
+    keywords: [ あはは, うけるね, スマイル, 泣き笑い, 涙, 爆笑, 笑い転げる, 笑う, 笑顔, 顔 ]
+  - emoji: 😂
+    code: 1F602
+    name: うれし泣き
+    readings:
+      - うれしなき
+      - なきわらい
+      - わらいなき
+      - わら
+      - くさ
+      - ばくしょう
+      - おおわらい
+      - あはは
+    en: face with tears of joy
+    since: "0.6"
+    subgroup: face-smiling
+    keywords: [ あはは, スマイル, 大笑い, 嬉し泣き, 泣き笑い, 涙, 爆笑, 笑う, 笑顔, 顔 ]
+  - emoji: 🙂
+    code: 1F642
+    name: 微笑む
+    readings:
+      - ほほえむ
+      - ほほえみ
+      - すまいる
+      - えがお
+      - にこっ
+      - はっぴー
+    en: slightly smiling face
+    since: "1.0"
+    subgroup: face-smiling
+    keywords: [ スマイル, ハッピー, ほほえみ, 微笑み, 微笑む, 笑顔, 顔 ]
+  - emoji: 🙃
+    code: 1F643
+    name: さかさまの顔
+    readings:
+      - さかさまのかお
+      - さかさま
+      - さかさ
+      - ぎゃく
+      - ひにく
+      - えがお
+    en: upside-down face
+    since: "1.0"
+    subgroup: face-smiling
+    keywords: [ さかさま, さかさまの顔, 笑顔, 顔 ]
+  - emoji: 🫠
+    code: 1FAE0
+    name: 溶けている顔
+    readings:
+      - とけているかお
+      - とける
+      - とろける
+      - とけそう
+      - あつい
+      - えきたい
+      - はずかしい
+    en: melting face
+    since: "14.0"
+    subgroup: face-smiling
+    keywords: [ とろける, 暑い, 液体, 溶けそう, 溶けている顔, 溶ける, 顔 ]
+  - emoji: 🫫
+    code: 1FAEB
+    name: ひび割れた顔
+    readings:
+      - ひびわれたかお
+      - ひびわれ
+      - ひび
+      - われる
+      - こわれる
+      - しょうたい
+      - へんしん
+      - きんちょう
+    en: cracking face
+    since: "18.0"
+    subgroup: face-smiling
+    keywords: [ ひび, マスク, 割れる, 壊れる, 変身, 正体, 緊張 ]
+  - emoji: 😉
+    code: 1F609
+    name: ウインク
+    readings:
+      - ういんく
+      - うぃんく
+      - めくばせ
+      - ちゃめ
+    en: winking face
+    since: "0.6"
+    subgroup: face-smiling
+    keywords: [ ウィンク, ウインク, ウィンクする顔, 顔 ]
+  - emoji: 😊
+    code: 1F60A
+    name: にこにこ
+    readings:
+      - にこにこ
+      - ほほえみ
+      - すまいる
+      - えがお
+      - まんぞく
+      - てれ
+      - うれしい
+    en: smiling face with smiling eyes
+    since: "0.6"
+    subgroup: face-smiling
+    keywords: [ スマイル, にこにこ, 微笑み, 満足, 目を細める, 頬を赤らめる, 顔 ]
+  - emoji: 😇
+    code: 1F607
+    name: 天使の輪がついた笑顔
+    readings:
+      - てんしのわがついたえがお
+      - てんし
+      - てんしのわ
+      - えんじぇる
+      - へいわ
+      - じょうぶつ
+      - むじゃき
+    en: smiling face with halo
+    since: "1.0"
+    subgroup: face-smiling
+    keywords: [ スマイル, ハッピー, 天使の輪, 天使の輪がついた笑顔, 平和, 笑顔, 顔 ]
+  - emoji: 🥰
+    code: 1F970
+    name: ハートの笑顔
+    readings:
+      - はーとのえがお
+      - めろめろ
+      - らぶ
+      - だいすき
+      - あいしてる
+      - むちゅう
+      - はーと
+    en: smiling face with hearts
+    since: "11.0"
+    subgroup: face-affection
+    keywords: [ ハート, ハートの笑顔, メロメロ, ラブ, 夢中, 愛してる, 笑顔, 顔 ]
+  - emoji: 😍
+    code: 1F60D
+    name: 目がハートの笑顔
+    readings:
+      - めがはーとのえがお
+      - めがはーと
+      - だいすき
+      - らぶ
+      - めろめろ
+      - ほれる
+      - すき
+    en: smiling face with heart-eyes
+    since: "0.6"
+    subgroup: face-affection
+    keywords: [ スマイル, ハート, ラブ, 大好き, 目がハートの笑顔, 笑顔, 顔 ]
+  - emoji: 🤩
+    code: 1F929
+    name: 目が星の笑顔
+    readings:
+      - めがほしのえがお
+      - めがほし
+      - きらきら
+      - わくわく
+      - あこがれ
+      - すごい
+      - かんげき
+    en: star-struck
+    since: "5.0"
+    subgroup: face-affection
+    keywords: [ スマイル, わーい, 星, 目が星の笑顔, 笑顔, 顔 ]
+  - emoji: 😘
+    code: 1F618
+    name: 投げキッス
+    readings:
+      - なげきっす
+      - きす
+      - ちゅっ
+      - ちゅー
+      - ぶちゅー
+      - らぶ
+    en: face blowing a kiss
+    since: "0.6"
+    subgroup: face-affection
+    keywords: [ キス, ちゅっ, ハート, 投げキッス, 顔 ]
+  - emoji: 😗
+    code: 1F617
+    name: キス
+    readings:
+      - きす
+      - ちゅっ
+      - ちゅー
+      - くちぶえ
+      - でーと
+    en: kissing face
+    since: "1.0"
+    subgroup: face-affection
+    keywords: [ キス, ちゅっ, デート, 顔 ]
+  - emoji: ☺️
+    code: 263A FE0F
+    name: スマイリー
+    readings:
+      - すまいりー
+      - すまいる
+      - えがお
+      - ほっ
+      - はっぴー
+      - にっこり
+    en: smiling face
+    since: "0.6"
+    subgroup: face-affection
+    keywords: [ スマイリー, スマイル, ハッピー, ほっ, 笑顔, 顔 ]
+  - emoji: 😚
+    code: 1F61A
+    name: ちゅっ
+    readings:
+      - ちゅっ
+      - きす
+      - ちゅー
+      - めをとじてきす
+      - でーと
+    en: kissing face with closed eyes
+    since: "0.6"
+    subgroup: face-affection
+    keywords: [ キス, ちゅっ, デート, 目を閉じてキス, 目を閉じる, 顔 ]
+  - emoji: 😙
+    code: 1F619
+    name: にっこりキス
+    readings:
+      - にっこりきす
+      - きす
+      - ちゅっ
+      - ちゅー
+      - くちぶえ
+      - えがお
+    en: kissing face with smiling eyes
+    since: "1.0"
+    subgroup: face-affection
+    keywords: [ キス, スマイル, ちゅっ, にっこりキス, 笑顔, 顔 ]
+  - emoji: 🥲
+    code: 1F972
+    name: うれし涙の顔
+    readings:
+      - うれしなみだのかお
+      - うれしなみだ
+      - じーん
+      - かんどう
+      - かんげき
+      - なみだ
+      - なきわらい
+    en: smiling face with tear
+    since: "13.0"
+    subgroup: face-affection
+    keywords: [ じーん, 嬉し涙の顔, 感動, 感激, 泣く, 涙, 顔 ]
+  - emoji: 😋
+    code: 1F60B
+    name: にこにこぺろり
+    readings:
+      - にこにこぺろり
+      - ぺろり
+      - おいしい
+      - うまい
+      - おいしそう
+      - はらぺこ
+      - じゅるり
+      - いただきます
+    en: face savoring food
+    since: "0.6"
+    subgroup: face-tongue
+    keywords: [ うまい, おいしい, おいしそう, スマイル, にこにこぺろり, ぺろり, 笑顔, 腹ぺこ, 顔 ]
+  - emoji: 😛
+    code: 1F61B
+    name: 舌を出した顔
+    readings:
+      - したをだしたかお
+      - べー
+      - べろ
+      - した
+      - あっかんべー
+      - ぺろっ
+    en: face with tongue
+    since: "1.0"
+    subgroup: face-tongue
+    keywords: [ べー, べろ, 甘い, 舌, 舌を出した顔, 顔 ]
+  - emoji: 😜
+    code: 1F61C
+    name: あっかんべー
+    readings:
+      - あっかんべー
+      - てへぺろ
+      - べー
+      - じょーだん
+      - じょーく
+      - ういんく
+      - ふざける
+    en: winking face with tongue
+    since: "0.6"
+    subgroup: face-tongue
+    keywords: [ あっかんべー, ウィンク, ジョーク, べー, 冗談, 舌, 顔 ]
+  - emoji: 🤪
+    code: 1F92A
+    name: ふざけた顔
+    readings:
+      - ふざけたかお
+      - ふざける
+      - へんがお
+      - おかしい
+      - くれいじー
+      - はいてんしょん
+      - じょーく
+    en: zany face
+    since: "5.0"
+    subgroup: face-tongue
+    keywords: [ おかしい, ジョーク, ふざけ, ふざけた顔, 顔 ]
+  - emoji: 😝
+    code: 1F61D
+    name: 目を閉じてべー
+    readings:
+      - めをとじてべー
+      - べー
+      - べろ
+      - あっかんべー
+      - わーい
+      - あじみ
+    en: squinting face with tongue
+    since: "0.6"
+    subgroup: face-tongue
+    keywords: [ べー, べろ, わーい, 味見, 目を閉じてべー, 舌, 顔 ]
+  - emoji: 🤑
+    code: 1F911
+    name: お金の顔
+    readings:
+      - おかねのかお
+      - おかね
+      - かね
+      - もうかる
+      - ぼろもうけ
+      - しゅせんど
+      - どる
+    en: money-mouth face
+    since: "1.0"
+    subgroup: face-tongue
+    keywords: [ お金, お金の顔, べー, べろ, 舌, 顔 ]
+  - emoji: 🤗
+    code: 1F917
+    name: ハグ
+    readings:
+      - はぐ
+      - だきしめる
+      - ほうよう
+      - えがお
+      - わーい
+      - うぇるかむ
+    en: smiling face with open hands
+    since: "1.0"
+    subgroup: face-hand
+    keywords: [ スマイル, ハグ, 笑顔, 顔 ]
+  - emoji: 🤭
+    code: 1F92D
+    name: 口に手を当てた顔
+    readings:
+      - くちにてをあてたかお
+      - くすくす
+      - おっと
+      - ないしょ
+      - ぷぷっ
+      - しのびわらい
+    en: face with hand over mouth
+    since: "5.0"
+    subgroup: face-hand
+    keywords: [ おっと, クスクス, スマイル, 内緒, 口に手を当てた顔, 笑顔, 顔 ]
+  - emoji: 🫢
+    code: 1FAE2
+    name: 目を開けて口に手を当てた顔
+    readings:
+      - めをあけてくちにてをあてたかお
+      - びっくり
+      - おどろき
+      - おそれ
+      - おののき
+      - まさか
+      - えっ
+    en: face with open eyes and hand over mouth
+    since: "14.0"
+    subgroup: face-hand
+    keywords: [ おそれ, おののき, びっくり, 目を開けて口に手を当てた顔, 静かに, 顔, 驚き ]
+  - emoji: 🫣
+    code: 1FAE3
+    name: 指の間からのぞき見る顔
+    readings:
+      - ゆびのあいだからのぞきみるかお
+      - のぞきみ
+      - ちらっ
+      - こわごわ
+      - ぬすみみ
+      - こわい
+      - みたくない
+    en: face with peeking eye
+    since: "14.0"
+    subgroup: face-hand
+    keywords: [ こわごわ, ちらっ, のぞき見, 指の間からのぞき見る顔, 盗み見, 顔 ]
+  - emoji: 🤫
+    code: 1F92B
+    name: しーっ
+    readings:
+      - しーっ
+      - しー
+      - しっ
+      - しずかに
+      - ないしょ
+      - ひみつ
+      - おしずかに
+    en: shushing face
+    since: "5.0"
+    subgroup: face-hand
+    keywords: [ しー, しーっ, シーッ, しっ, 静かに, 顔 ]
+  - emoji: 🤔
+    code: 1F914
+    name: 考える顔
+    readings:
+      - かんがえるかお
+      - かんがえる
+      - かんがえちゅう
+      - うーん
+      - なやむ
+      - ぎもん
+      - しんきんぐ
+    en: thinking face
+    since: "1.0"
+    subgroup: face-hand
+    keywords: [ うーん, 考える, 考える顔, 考え中, 顎に手, 顔 ]
+  - emoji: 🫡
+    code: 1FAE1
+    name: 敬礼する顔
+    readings:
+      - けいれいするかお
+      - けいれい
+      - りょうかい
+      - らじゃー
+      - おーけー
+      - しょうち
+    en: saluting face
+    since: "14.0"
+    subgroup: face-hand
+    keywords: [ オーケー, 了解, 敬礼, 敬礼する顔, 軍隊, 顔 ]
+  - emoji: 🤐
+    code: 1F910
+    name: 口チャック
+    readings:
+      - くちちゃっく
+      - ちゃっく
+      - ないしょ
+      - ひみつ
+      - おくちちゃっく
+      - だまる
+    en: zipper-mouth face
+    since: "1.0"
+    subgroup: face-neutral-skeptical
+    keywords: [ チャック, 内緒, 口, 口チャック, 秘密, 顔 ]
+  - emoji: 🤨
+    code: 1F928
+    name: 眉を上げた顔
+    readings:
+      - まゆをあげたかお
+      - ふしん
+      - うたがい
+      - あやしい
+      - ぎわく
+      - ほんとう
+    en: face with raised eyebrow
+    since: "5.0"
+    subgroup: face-neutral-skeptical
+    keywords: [ 不審, 疑い, 眉を上げた顔, 顔, 驚き ]
+  - emoji: 😐
+    code: 1F610
+    name: ポーカーフェイス
+    readings:
+      - ぽーかーふぇいす
+      - むひょうじょう
+      - しんがお
+      - わらえない
+      - まがお
+    en: neutral face
+    since: "0.7"
+    subgroup: face-neutral-skeptical
+    keywords: [ ポーカーフェイス, 無表情, 笑えない, 顔 ]
+  - emoji: 😑
+    code: 1F611
+    name: 無表情
+    readings:
+      - むひょうじょう
+      - ふーん
+      - むかんじょう
+      - まがお
+      - しらけ
+      - やきもち
+    en: expressionless face
+    since: "1.0"
+    subgroup: face-neutral-skeptical
+    keywords: [ ふーん, やきもち, 無感情, 無表情, 顔 ]
+  - emoji: 😶
+    code: 1F636
+    name: 口のない顔
+    readings:
+      - くちのないかお
+      - くちなし
+      - むごん
+      - ちんもく
+      - だんまり
+      - むひょうじょう
+      - ことばがない
+    en: face without mouth
+    since: "1.0"
+    subgroup: face-neutral-skeptical
+    keywords: [ だんまり, 口なし, 口のない顔, 沈黙, 無表情, 無言, 顔 ]
+  - emoji: 🫥
+    code: 1FAE5
+    name: 点線の顔
+    readings:
+      - てんせんのかお
+      - てんせん
+      - きえたい
+      - ふーん
+      - どうでもいい
+      - うちき
+      - らくたん
+      - ゆううつ
+    en: dotted line face
+    since: "14.0"
+    subgroup: face-neutral-skeptical
+    keywords: [ どうでもいい, ふーん, 内向的, 内気, 憂鬱, 点線の顔, 落胆, 顔 ]
+  - emoji: 😶‍🌫️
+    code: 1F636 200D 1F32B FE0F
+    name: 雲の中の顔
+    readings:
+      - くものなかのかお
+      - うわのそら
+      - ぼんやり
+      - ほうしん
+      - むちゅう
+      - もやもや
+    en: face in clouds
+    since: "13.1"
+    subgroup: face-neutral-skeptical
+    keywords: [ うわの空, ぼんやり, 夢中, 放心状態, 雲の中の顔, 顔 ]
+  - emoji: 😏
+    code: 1F60F
+    name: 薄笑いをする顔
+    readings:
+      - うすわらいをするかお
+      - うすわらい
+      - にやり
+      - ふっ
+      - どやがお
+      - にやにや
+    en: smirking face
+    since: "0.6"
+    subgroup: face-neutral-skeptical
+    keywords: [ にやり, ふっ, 薄笑いをする顔, 顔 ]
+  - emoji: 😒
+    code: 1F612
+    name: しらけた
+    readings:
+      - しらけた
+      - しらける
+      - じとめ
+      - つまらない
+      - ふまん
+      - やきもち
+      - しらー
+    en: unamused face
+    since: "0.6"
+    subgroup: face-neutral-skeptical
+    keywords: [ ジト目, しらけ, しらけた, しらける, つまらない, やきもち, 不満, 顔 ]
+  - emoji: 🙄
+    code: 1F644
+    name: 上を見る顔
+    readings:
+      - うえをみるかお
+      - あきれた
+      - あきれ
+      - うわめ
+      - めをむく
+      - うーん
+      - やれやれ
+    en: face with rolling eyes
+    since: "1.0"
+    subgroup: face-neutral-skeptical
+    keywords: [ あきれた, うーん, 上を見る顔, 上目, 目をむく, 顔 ]
+  - emoji: 😬
+    code: 1F62C
+    name: しかめ面
+    readings:
+      - しかめつら
+      - しかめっつら
+      - しかめがお
+      - いー
+      - きまずい
+      - ぐぬぬ
+    en: grimacing face
+    since: "1.0"
+    subgroup: face-neutral-skeptical
+    keywords: [ いー, しかめっ面, しかめ面, しかめ顔, 顔 ]
+  - emoji: 😮‍💨
+    code: 1F62E 200D 1F4A8
+    name: 息を吐く顔
+    readings:
+      - いきをはくかお
+      - ためいき
+      - ほっとした
+      - あんしん
+      - あきらめ
+      - つかれた
+      - いきぎれ
+      - ふー
+    en: face exhaling
+    since: "13.1"
+    subgroup: face-neutral-skeptical
+    keywords: [ あきらめ, ため息, ほっとした, 安心, 息を吐く顔, 息切れ, 疲れた, 顔 ]
+  - emoji: 🤥
+    code: 1F925
+    name: うそつきの顔
+    readings:
+      - うそつきのかお
+      - うそつき
+      - うそ
+      - ぴのきお
+      - ぴのきおのかお
+    en: lying face
+    since: "3.0"
+    subgroup: face-neutral-skeptical
+    keywords: [ うそつきの顔, ピノキオの顔, 嘘, 嘘つき, 顔 ]
+  - emoji: 🫨
+    code: 1FAE8
+    name: 震えている顔
+    readings:
+      - ふるえているかお
+      - ふるえる
+      - がーん
+      - しょっく
+      - ぱにっく
+      - びっくり
+      - じしん
+      - しんどう
+    en: shaking face
+    since: "15.0"
+    subgroup: face-neutral-skeptical
+    keywords: [ ガーン, ショック, なんてこった, パニック, ビックリ, まいった, 地震, 振動, 震えている, 顔 ]
+  - emoji: 🙂‍↔️
+    code: 1F642 200D 2194 FE0F
+    name: 首を横に振る
+    readings:
+      - くびをよこにふる
+      - いいえ
+      - いやいや
+      - ふさんせい
+      - ひてい
+      - のー
+    en: head shaking horizontally
+    since: "15.1"
+    subgroup: face-neutral-skeptical
+    keywords: [ いいえ, 不賛成, 顔, 首を振る, 首を横に振る ]
+  - emoji: 🙂‍↕️
+    code: 1F642 200D 2195 FE0F
+    name: 首を縦に振る
+    readings:
+      - くびをたてにふる
+      - はい
+      - うなずく
+      - うんうん
+      - こうてい
+      - さんせい
+    en: head shaking vertically
+    since: "15.1"
+    subgroup: face-neutral-skeptical
+    keywords: [ はい, 頷く, 顔, 首を振る, 首を縦に振る ]
+  - emoji: 😌
+    code: 1F60C
+    name: ほっとした顔
+    readings:
+      - ほっとしたかお
+      - ほっ
+      - ほっと
+      - あんしん
+      - あんど
+      - やすらぎ
+    en: relieved face
+    since: "0.6"
+    subgroup: face-sleepy
+    keywords: [ ほっ, ほっとした顔, 安心, 顔 ]
+  - emoji: 😔
+    code: 1F614
+    name: しょぼーん
+    readings:
+      - しょぼーん
+      - しょんぼり
+      - がっかり
+      - かなしい
+      - かんがえこむ
+      - おちこむ
+    en: pensive face
+    since: "0.6"
+    subgroup: face-sleepy
+    keywords: [ がっかり, しょぼーん, しょんぼり, 悲しい, 考え込む顔, 顔 ]
+  - emoji: 😪
+    code: 1F62A
+    name: 眠い
+    readings:
+      - ねむい
+      - ねむそう
+      - ねる
+      - ねむる
+      - つかれた
+      - はなちょうちん
+      - うとうと
+    en: sleepy face
+    since: "0.6"
+    subgroup: face-sleepy
+    keywords: [ 寝る, 疲れた, 眠い, 眠そうな顔, 眠っている顔, 眠る, 顔 ]
+  - emoji: 🤤
+    code: 1F924
+    name: よだれを垂らした顔
+    readings:
+      - よだれをたらしたかお
+      - よだれ
+      - じゅるり
+      - おいしそう
+      - ほしい
+    en: drooling face
+    since: "3.0"
+    subgroup: face-sleepy
+    keywords: [ よだれ, よだれを垂らした顔, 顔 ]
+  - emoji: 😴
+    code: 1F634
+    name: 寝る
+    readings:
+      - ねる
+      - ねがお
+      - ねむい
+      - ねむる
+      - おやすみ
+      - ぐーぐー
+      - すやすや
+      - zzz
+    en: sleeping face
+    since: "1.0"
+    subgroup: face-sleepy
+    keywords: [ zzz, おやすみ, グーグー, 寝る, 寝顔, 眠い, 眠る, 顔 ]
+  - emoji: 🫩
+    code: 1FAE9
+    name: 目にクマがある顔
+    readings:
+      - めにくまがあるかお
+      - くま
+      - てつや
+      - つかれた
+      - ねむい
+      - ねぶそく
+    en: face with bags under eyes
+    since: "16.0"
+    subgroup: face-sleepy
+    keywords: [ クマ, 徹夜, 疲れた, 眠い, 顔 ]
+  - emoji: 😷
+    code: 1F637
+    name: マスク顔
+    readings:
+      - ますくがお
+      - ますく
+      - かぜ
+      - かふんしょう
+      - びょうき
+      - よぼう
+    en: face with medical mask
+    since: "0.6"
+    subgroup: face-unwell
+    keywords: [ ドクター, マスク, マスク顔, 医師, 歯科医, 病気, 花粉症, 顔, 風邪 ]
+  - emoji: 🤒
+    code: 1F912
+    name: 熱がある顔
+    readings:
+      - ねつがあるかお
+      - ねつ
+      - はつねつ
+      - たいおんけい
+      - かぜ
+      - びょうき
+    en: face with thermometer
+    since: "1.0"
+    subgroup: face-unwell
+    keywords: [ 体温計, 熱がある顔, 熱を測る, 病気, 顔, 風邪 ]
+  - emoji: 🤕
+    code: 1F915
+    name: 包帯を巻いた顔
+    readings:
+      - ほうたいをまいたかお
+      - ほうたい
+      - けが
+      - いたい
+      - ふしょう
+    en: face with head-bandage
+    since: "1.0"
+    subgroup: face-unwell
+    keywords: [ ケガ, ケガしてる顔, 包帯, 包帯を巻いた顔, 痛い, 顔 ]
+  - emoji: 🤢
+    code: 1F922
+    name: 吐き気を催している顔
+    readings:
+      - はきけをもよおしているかお
+      - はきけ
+      - はきそう
+      - きもちわるい
+      - ぐあいがわるい
+      - びょうき
+      - むかむか
+    en: nauseated face
+    since: "3.0"
+    subgroup: face-unwell
+    keywords: [ 具合の悪い顔, 吐きそう, 吐き気を催している顔, 気持ち悪い, 病気, 顔 ]
+  - emoji: 🤮
+    code: 1F92E
+    name: 嘔吐する顔
+    readings:
+      - おうとするかお
+      - おうと
+      - はく
+      - げろ
+      - きもちわるい
+      - おえー
+    en: face vomiting
+    since: "5.0"
+    subgroup: face-unwell
+    keywords: [ げろ, 吐く, 嘔吐する顔, 気持ち悪い, 病気, 顔 ]
+  - emoji: 🤧
+    code: 1F927
+    name: くしゃみする顔
+    readings:
+      - くしゃみするかお
+      - くしゃみ
+      - はなみず
+      - かふんしょう
+      - かぜ
+      - はっくしょん
+    en: sneezing face
+    since: "3.0"
+    subgroup: face-unwell
+    keywords: [ くしゃみ, くしゃみする顔, 花粉症, 顔, 風邪 ]
+  - emoji: 🥵
+    code: 1F975
+    name: 暑い顔
+    readings:
+      - あついかお
+      - あつい
+      - あつさ
+      - ねっちゅうしょう
+      - はつねつ
+      - しにそう
+      - あせ
+    en: hot face
+    since: "11.0"
+    subgroup: face-unwell
+    keywords: [ 暑い顔, 暑さ, 死にそう, 汗, 熱中症, 発熱, 舌を出した顔, 赤い顔 ]
+  - emoji: 🥶
+    code: 1F976
+    name: 寒い顔
+    readings:
+      - さむいかお
+      - さむい
+      - さむさ
+      - こごえる
+      - しもやけ
+      - ひょうてんか
+      - つらら
+    en: cold face
+    since: "11.0"
+    subgroup: face-unwell
+    keywords: [ しもやけ, つらら, 凍え, 寒い顔, 寒さ, 氷点下, 青, 青い顔, 顔 ]
+  - emoji: 🥴
+    code: 1F974
+    name: ふらふらの顔
+    readings:
+      - ふらふらのかお
+      - ふらふら
+      - ほろよい
+      - よっぱらい
+      - べろんべろん
+      - めまい
+      - うつろ
+    en: woozy face
+    since: "11.0"
+    subgroup: face-unwell
+    keywords: [ うつろな目, ふらふらの顔, べろんべろん, ほろ酔い, めまい, 中毒 ]
+  - emoji: 😵
+    code: 1F635
+    name: めまい
+    readings:
+      - めまい
+      - ふらふら
+      - くらくら
+      - つかれた
+      - ばたんきゅー
+      - きぜつ
+    en: face with crossed-out eyes
+    since: "0.6"
+    subgroup: face-unwell
+    keywords: [ ふらふら, めまい, 疲れた, 病気, 顔 ]
+  - emoji: 😵‍💫
+    code: 1F635 200D 1F4AB
+    name: 目を回した顔
+    readings:
+      - めをまわしたかお
+      - めがまわる
+      - くらくら
+      - ふらふら
+      - めまい
+      - ぐるぐる
+      - うずまき
+    en: face with spiral eyes
+    since: "13.1"
+    subgroup: face-unwell
+    keywords: [ くらくら, ふらふら, めまい, 渦巻き, 目がぐるぐる, 目が回る, 目を回した顔 ]
+  - emoji: 🤯
+    code: 1F92F
+    name: 頭爆発
+    readings:
+      - あたまばくはつ
+      - ばくはつ
+      - しょっく
+      - びっくり
+      - おどろき
+      - ぼんっ
+      - しょうげき
+    en: exploding head
+    since: "5.0"
+    subgroup: face-unwell
+    keywords: [ ショック, びっくり, ぼんっ, 爆発, 頭爆発, 顔, 驚き ]
+  - emoji: 🤠
+    code: 1F920
+    name: カウボーイの顔
+    readings:
+      - かうぼーいのかお
+      - かうぼーい
+      - かうがーる
+      - ぼうし
+      - せいぶ
+    en: cowboy hat face
+    since: "3.0"
+    subgroup: face-hat
+    keywords: [ カウガール, カウボーイ, カウボーイの顔, 帽子, 顔 ]
+  - emoji: 🥳
+    code: 1F973
+    name: パーティーの顔
+    readings:
+      - ぱーてぃーのかお
+      - ぱーてぃー
+      - おめでとう
+      - おいわい
+      - たんじょうび
+      - はっぴーばーすでー
+      - いえーい
+    en: partying face
+    since: "11.0"
+    subgroup: face-hat
+    keywords: [ おめでとう, お祝い, パーティー, パーティーの顔, ハッピーバースデー, 帽子, 笑顔, 笛, 誕生日 ]
+  - emoji: 🥸
+    code: 1F978
+    name: 変装した顔
+    readings:
+      - へんそうしたかお
+      - へんそう
+      - かそう
+      - めがね
+      - くちひげ
+      - ひげ
+      - しのび
+    en: disguised face
+    since: "13.0"
+    subgroup: face-hat
+    keywords: [ ひげ, メガネ, 仮装, 口ひげ, 変装, 変装した顔, 顔 ]
+  - emoji: 😎
+    code: 1F60E
+    name: サングラスで笑顔
+    readings:
+      - さんぐらすでえがお
+      - さんぐらす
+      - くーる
+      - かっこいい
+      - どや
+      - いけてる
+    en: smiling face with sunglasses
+    since: "1.0"
+    subgroup: face-glasses
+    keywords: [ クール, サングラス, サングラスで笑顔, スマイル, 眼鏡, 笑顔, 顔 ]
+  - emoji: 🤓
+    code: 1F913
+    name: オタク
+    readings:
+      - おたく
+      - がりべん
+      - まにあ
+      - ゆうとうせい
+      - めがね
+      - しゅうさい
+      - なーど
+    en: nerd face
+    since: "1.0"
+    subgroup: face-glasses
+    keywords: [ エキスパート, オタク, ガリ勉, マニア, メガネ, 優等生, 利口, 知的, 秀才, 顔 ]
+  - emoji: 🧐
+    code: 1F9D0
+    name: モノクルを付けた顔
+    readings:
+      - ものくるをつけたかお
+      - ものくる
+      - かためがね
+      - じょうひん
+      - かんがえる
+      - ふむ
+      - かんてい
+    en: face with monocle
+    since: "5.0"
+    subgroup: face-glasses
+    keywords: [ メガネ, モノクルを付けた顔, 上品, 片眼鏡, 考える, 顔 ]
+  - emoji: 😕
+    code: 1F615
+    name: 混乱
+    readings:
+      - こんらん
+      - こんわく
+      - わからない
+      - ふーん
+      - とまどい
+      - はてな
+    en: confused face
+    since: "1.0"
+    subgroup: face-concerned
+    keywords: [ しかめ面, ふーん, わからない, 困惑, 混乱, 顔 ]
+  - emoji: 🫤
+    code: 1FAE4
+    name: 口が斜めの顔
+    readings:
+      - くちがななめのかお
+      - ふまん
+      - ふしん
+      - こんわく
+      - むかんしん
+      - むきりょく
+      - びみょう
+    en: face with diagonal mouth
+    since: "14.0"
+    subgroup: face-concerned
+    keywords: [ 不信, 不満, 口が斜めの顔, 困惑, 無気力, 無関心, 顔 ]
+  - emoji: 😟
+    code: 1F61F
+    name: 悩む顔
+    readings:
+      - なやむかお
+      - なやむ
+      - しんぱい
+      - こまった
+      - かなしい
+      - ふあん
+    en: worried face
+    since: "1.0"
+    subgroup: face-concerned
+    keywords: [ 困った, 心配, 悩む顔, 悲しい, 顔 ]
+  - emoji: 🙁
+    code: 1F641
+    name: 少し困った顔
+    readings:
+      - すこしこまったかお
+      - すこしこまった
+      - こまった
+      - しかめつら
+      - ざんねん
+    en: slightly frowning face
+    since: "1.0"
+    subgroup: face-concerned
+    keywords: [ しかめ面, 困った, 少し困った, 少し困った顔, 顔 ]
+  - emoji: ☹️
+    code: 2639 FE0F
+    name: 困った顔
+    readings:
+      - こまったかお
+      - こまった
+      - しかめつら
+      - かなしい
+      - ざんねん
+    en: frowning face
+    since: "0.7"
+    subgroup: face-concerned
+    keywords: [ しかめ面, 困った, 困った顔, 悲しい, 顔 ]
+  - emoji: 😮
+    code: 1F62E
+    name: 口が開いた顔
+    readings:
+      - くちがあいたかお
+      - へー
+      - おどろき
+      - しんじられない
+      - おー
+      - びっくり
+    en: face with open mouth
+    since: "1.0"
+    subgroup: face-concerned
+    keywords: [ へー, 信じられない, 共感, 口が開いた顔, 顔, 驚き ]
+  - emoji: 😯
+    code: 1F62F
+    name: ぽかーん
+    readings:
+      - ぽかーん
+      - びっくり
+      - びっくりがお
+      - おどろき
+      - すごいね
+      - あぜん
+    en: hushed face
+    since: "1.0"
+    subgroup: face-concerned
+    keywords: [ すごいね, びっくり, びっくり顔, ぽかーん, 顔, 驚き ]
+  - emoji: 😲
+    code: 1F632
+    name: びっくり
+    readings:
+      - びっくり
+      - えーっ
+      - まさか
+      - おどろき
+      - きょうがく
+      - びっくりしたかお
+    en: astonished face
+    since: "0.6"
+    subgroup: face-concerned
+    keywords: [ えーっ, びっくり, びっくりした顔, まさか, 顔, 驚き, 驚愕 ]
+  - emoji: 😳
+    code: 1F633
+    name: 赤面
+    readings:
+      - せきめん
+      - あかくなる
+      - はずかしい
+      - えーっ
+      - とまどい
+      - てれる
+      - かおまっか
+    en: flushed face
+    since: "0.6"
+    subgroup: face-concerned
+    keywords: [ えーっ, とまどい, 赤くなる, 赤面, 顔, 驚き ]
+  - emoji: 🫪
+    code: 1FAEA
+    name: ゆがんだ顔
+    readings:
+      - ゆがんだかお
+      - ゆがむ
+      - あぜん
+      - ぼうぜん
+      - しょっく
+      - ふあん
+    en: distorted face
+    since: "17.0"
+    subgroup: face-concerned
+    keywords: [ あぜん, ショック, ぼう然, 不安, 膨れた, 驚いた ]
+  - emoji: 🥺
+    code: 1F97A
+    name: 訴えるような顔
+    readings:
+      - うったえるようなかお
+      - ぴえん
+      - うるうる
+      - おねがい
+      - こいぬのめ
+      - こんがん
+      - ぴえんぱおん
+    en: pleading face
+    since: "11.0"
+    subgroup: face-concerned
+    keywords: [ お願い, ぴえん, 大きな目, 子犬の目, 悲しみ, 情け, 懇願, 訴えるような顔, 顔 ]
+  - emoji: 🥹
+    code: 1F979
+    name: 涙をこらえた顔
+    readings:
+      - なみだをこらえたかお
+      - うるうる
+      - うれしなき
+      - なきがお
+      - なみだ
+      - かんどう
+      - えもい
+    en: face holding back tears
+    since: "14.0"
+    subgroup: face-concerned
+    keywords: [ うるうる, 嬉し泣き, 懇願, 泣き顔, 涙, 涙をこらえた顔, 顔 ]
+  - emoji: 😦
+    code: 1F626
+    name: あきれ顔
+    readings:
+      - あきれがお
+      - あきれ
+      - ぽかーん
+      - ぼうぜん
+      - ふまん
+      - しかめつら
+    en: frowning face with open mouth
+    since: "1.0"
+    subgroup: face-concerned
+    keywords: [ あきれ顔, しかめ面, しかめ顔, ぽかーん, 不本意, 不満, 口を開けた顔, 呆然, 顔, 驚き ]
+  - emoji: 😧
+    code: 1F627
+    name: 苦悩
+    readings:
+      - くのう
+      - くもん
+      - こまったかお
+      - なやみ
+      - おどろき
+    en: anguished face
+    since: "1.0"
+    subgroup: face-concerned
+    keywords: [ 困った顔, 苦悩, 苦悶, 顔, 驚き ]
+  - emoji: 😨
+    code: 1F628
+    name: 青ざめ
+    readings:
+      - あおざめ
+      - あおざめたかお
+      - がーん
+      - こわい
+      - ふあん
+      - きょうふ
+    en: fearful face
+    since: "0.6"
+    subgroup: face-concerned
+    keywords: [ がーん, 不安, 怖い, 青ざめ, 青ざめた顔, 顔 ]
+  - emoji: 😰
+    code: 1F630
+    name: 冷や汗青ざめ
+    readings:
+      - ひやあせあおざめ
+      - ひやあせ
+      - あおざめ
+      - あせ
+      - あせる
+      - ふあん
+      - やばい
+    en: anxious face with sweat
+    since: "0.6"
+    subgroup: face-concerned
+    keywords: [ 冷や汗, 冷や汗青ざめ, 寒い, 汗, 青い顔, 青ざめ, 顔 ]
+  - emoji: 😥
+    code: 1F625
+    name: どうしよう
+    readings:
+      - どうしよう
+      - こまった
+      - あせ
+      - しつぼう
+      - ほっ
+      - ざんねん
+    en: sad but relieved face
+    since: "0.6"
+    subgroup: face-concerned
+    keywords: [ どうしよう, 困った, 汗, 顔 ]
+  - emoji: 😢
+    code: 1F622
+    name: 泣き顔
+    readings:
+      - なきがお
+      - なく
+      - なみだ
+      - かなしい
+      - さびしい
+      - ひどい
+      - しくしく
+    en: crying face
+    since: "0.6"
+    subgroup: face-concerned
+    keywords: [ ひどい, 寂しい, 悲しい, 泣き顔, 泣く, 涙, 顔 ]
+  - emoji: 😭
+    code: 1F62D
+    name: 大泣き
+    readings:
+      - おおなき
+      - ごうきゅう
+      - なく
+      - なみだ
+      - かなしい
+      - うわーん
+      - えーん
+    en: loudly crying face
+    since: "0.6"
+    subgroup: face-concerned
+    keywords: [ 号泣, 号泣する顔, 大泣き, 悲しい, 泣く, 涙, 顔 ]
+  - emoji: 😱
+    code: 1F631
+    name: 恐怖
+    readings:
+      - きょうふ
+      - さけび
+      - むんく
+      - がーん
+      - しょっく
+      - ぎゃー
+      - こわい
+    en: face screaming in fear
+    since: "0.6"
+    subgroup: face-concerned
+    keywords: [ がーん, ショック, 叫び, 叫んでいる顔, 恐怖, 顔, 驚き ]
+  - emoji: 😖
+    code: 1F616
+    name: 困惑した顔
+    readings:
+      - こんわくしたかお
+      - こんわく
+      - こまった
+      - こんらん
+      - くやしい
+    en: confounded face
+    since: "0.6"
+    subgroup: face-concerned
+    keywords: [ 困った, 困惑, 困惑した顔, 混乱, 顔 ]
+  - emoji: 😣
+    code: 1F623
+    name: 我慢
+    readings:
+      - がまん
+      - がまんするかお
+      - ずつう
+      - たえる
+      - ぐぬぬ
+      - つらい
+    en: persevering face
+    since: "0.6"
+    subgroup: face-concerned
+    keywords: [ 我慢, 我慢する顔, 頭痛, 顔 ]
+  - emoji: 😞
+    code: 1F61E
+    name: 失望した顔
+    readings:
+      - しつぼうしたかお
+      - しつぼう
+      - がっかり
+      - がっくり
+      - ざんねん
+      - かなしい
+      - おちこむ
+    en: disappointed face
+    since: "0.6"
+    subgroup: face-concerned
+    keywords: [ がっかり, がっくり, 失望した顔, 悲しい, 残念, 顔 ]
+  - emoji: 😓
+    code: 1F613
+    name: 冷や汗
+    readings:
+      - ひやあせ
+      - あせ
+      - きもをひやした
+      - ずつう
+      - さむけ
+      - あせあせ
+    en: downcast face with sweat
+    since: "0.6"
+    subgroup: face-concerned
+    keywords: [ さむけ, 冷や汗, 汗, 肝を冷やした, 頭痛, 顔 ]
+  - emoji: 😩
+    code: 1F629
+    name: あきらめ
+    readings:
+      - あきらめ
+      - へとへと
+      - つかれ
+      - うんざり
+      - はらぺこ
+      - もうだめ
+    en: weary face
+    since: "0.6"
+    subgroup: face-concerned
+    keywords: [ あきらめ, へとへと, 泣き顔, 疲れ, 腹ぺこ, 顔 ]
+  - emoji: 😫
+    code: 1F62B
+    name: 疲れた
+    readings:
+      - つかれた
+      - つかれ
+      - げんかい
+      - つかれたかお
+      - もうむり
+      - ぐったり
+    en: tired face
+    since: "0.6"
+    subgroup: face-concerned
+    keywords: [ くしゃみ, 疲れ, 疲れた, 疲れた顔, 限界, 顔 ]
+  - emoji: 🥱
+    code: 1F971
+    name: あくびした顔
+    readings:
+      - あくびしたかお
+      - あくび
+      - ねむい
+      - たいくつ
+      - ふあー
+      - おやすみ
+      - つかれ
+    en: yawning face
+    since: "12.0"
+    subgroup: face-concerned
+    keywords: [ あくびした顔, おやすみ, ふあ～, 疲れ, 眠い, 退屈, 顔 ]
+  - emoji: 😤
+    code: 1F624
+    name: 勝ち誇った顔
+    readings:
+      - かちほこったかお
+      - どやがお
+      - ふんっ
+      - とくいげ
+      - はないき
+      - いかり
+      - むふー
+    en: face with steam from nose
+    since: "0.6"
+    subgroup: face-negative
+    keywords: [ ふんっ, 勝ち誇った顔, 得意気, 怒り, 顔, 鼻息 ]
+  - emoji: 😡
+    code: 1F621
+    name: ふくれっ面
+    readings:
+      - ふくれっつら
+      - かんかん
+      - ぷんぷん
+      - げきおこ
+      - げきど
+      - いかり
+      - おこ
+      - むかつく
+    en: enraged face
+    since: "0.6"
+    subgroup: face-negative
+    keywords: [ かんかん, ふくれっ面, ぷんぷん, 怒り, 激怒, 赤い顔, 顔 ]
+  - emoji: 😠
+    code: 1F620
+    name: ぷんぷん
+    readings:
+      - ぷんぷん
+      - おこった
+      - おこったかお
+      - いかり
+      - おこ
+      - ふまん
+    en: angry face
+    since: "0.6"
+    subgroup: face-negative
+    keywords: [ ぷんぷん, 不満, 怒った, 怒った顔, 怒り, 顔 ]
+  - emoji: 🤬
+    code: 1F92C
+    name: ののしる
+    readings:
+      - ののしる
+      - ののしり
+      - わるくち
+      - ぶちぎれ
+      - げきおこ
+      - いかり
+      - ばとう
+    en: face with symbols on mouth
+    since: "5.0"
+    subgroup: face-negative
+    keywords: [ シンボルが口にある顔, ののしり, ののしる, 怒り, 悪口, 検閲, 顔 ]
+  - emoji: 😈
+    code: 1F608
+    name: 笑った悪魔
+    readings:
+      - わらったあくま
+      - あくま
+      - でびる
+      - こあくま
+      - わるだくみ
+      - いたずら
+      - つの
+    en: smiling face with horns
+    since: "1.0"
+    subgroup: face-negative
+    keywords: [ スマイル, デビル, 悪魔, 笑った悪魔, 笑顔, 角, 顔 ]
+  - emoji: 👿
+    code: 1F47F
+    name: 怒った悪魔
+    readings:
+      - おこったあくま
+      - あくま
+      - でびる
+      - かんかん
+      - げきど
+      - つの
+    en: angry face with horns
+    since: "0.6"
+    subgroup: face-negative
+    keywords: [ かんかん, デビル, 怒った悪魔, 悪魔, 激怒, 角, 顔 ]
+  - emoji: 💀
+    code: 1F480
+    name: ドクロ
+    readings:
+      - どくろ
+      - がいこつ
+      - ずがいこつ
+      - すかる
+      - し
+      - しんだ
+      - おわた
+    en: skull
+    since: "0.6"
+    subgroup: face-negative
+    keywords: [ スカル, ドクロ, 死, 死者, 頭蓋骨, 顔, 骸骨 ]
+  - emoji: ☠️
+    code: 2620 FE0F
+    name: ドクロと骨
+    readings:
+      - どくろとほね
+      - どくろ
+      - がいこつ
+      - すかる
+      - かいぞく
+      - どく
+      - きけん
+    en: skull and crossbones
+    since: "1.0"
+    subgroup: face-negative
+    keywords: [ スカル, ドクロ, ドクロと骨, 死, 顔, 骨, 骸骨 ]
+  - emoji: 💩
+    code: 1F4A9
+    name: うんち
+    readings:
+      - うんち
+      - うんこ
+      - くそ
+      - ふん
+      - くさい
+      - うん
+    en: pile of poo
+    since: "0.6"
+    subgroup: face-costume
+    keywords: [ うんこ, うんち, 臭い, 顔 ]
+  - emoji: 🤡
+    code: 1F921
+    name: ピエロの顔
+    readings:
+      - ぴえろのかお
+      - ぴえろ
+      - どうけし
+      - くらうん
+    en: clown face
+    since: "3.0"
+    subgroup: face-costume
+    keywords: [ ピエロ, ピエロの顔, 道化師, 顔 ]
+  - emoji: 👹
+    code: 1F479
+    name: 鬼
+    readings:
+      - おに
+      - なまはげ
+      - ばけもの
+      - おめん
+      - あかおに
+      - せつぶん
+      - こわい
+    en: ogre
+    since: "0.6"
+    subgroup: face-costume
+    keywords: [ お面, なまはげ, 化け物, 怖い, 顔, 鬼 ]
+  - emoji: 👺
+    code: 1F47A
+    name: 天狗
+    readings:
+      - てんぐ
+      - おめん
+      - いかり
+      - はながたかい
+    en: goblin
+    since: "0.6"
+    subgroup: face-costume
+    keywords: [ お面, 天狗, 怒り ]
+  - emoji: 👻
+    code: 1F47B
+    name: お化け
+    readings:
+      - おばけ
+      - ゆうれい
+      - ごーすと
+      - はろうぃーん
+      - こわい
+      - ばけ
+    en: ghost
+    since: "0.6"
+    subgroup: face-costume
+    keywords: [ お化け, ゴースト, ハロウィーン, ユーレイ, 幽霊, 怖い ]
+  - emoji: 👽
+    code: 1F47D
+    name: エイリアン
+    readings:
+      - えいりあん
+      - うちゅうじん
+      - いせいじん
+      - ufo
+      - ゆーふぉー
+      - ぐれい
+    en: alien
+    since: "0.6"
+    subgroup: face-costume
+    keywords: [ UFO, エイリアン, ユーフォー, 宇宙人, 異星人, 顔 ]
+  - emoji: 👾
+    code: 1F47E
+    name: インベーダー
+    readings:
+      - いんべーだー
+      - すぺーすいんべーだー
+      - えいりあん
+      - げーむ
+      - もんすたー
+      - うちゅうじん
+      - れとろげーむ
+    en: alien monster
+    since: "0.6"
+    subgroup: face-costume
+    keywords: [ インベーダー, エイリアン, ゲーム, スペースインベーダー, モンスター, 宇宙人, 異星人 ]
+  - emoji: 🤖
+    code: 1F916
+    name: ロボット
+    readings:
+      - ろぼっと
+      - ろぼ
+      - ろぼっとのかお
+      - あんどろいど
+      - じんこうちのう
+      - ぼっと
+    en: robot
+    since: "1.0"
+    subgroup: face-costume
+    keywords: [ ロボット, ロボットの顔, 顔 ]
+  - emoji: 😺
+    code: 1F63A
+    name: にっこり笑う猫
+    readings:
+      - にっこりわらうねこ
+      - ねこ
+      - にゃんこ
+      - えがお
+      - すまいる
+    en: grinning cat
+    since: "0.6"
+    subgroup: cat-face
+    keywords: [ スマイル, にっこり笑う猫, 動物, 猫, 笑顔, 顔 ]
+  - emoji: 😸
+    code: 1F638
+    name: にやっと笑う猫
+    readings:
+      - にやっとわらうねこ
+      - ねこ
+      - にゃんこ
+      - えがお
+      - わらう
+    en: grinning cat with smiling eyes
+    since: "0.6"
+    subgroup: cat-face
+    keywords: [ スマイル, にやっと笑う猫, 動物, 猫, 笑う, 笑顔, 顔 ]
+  - emoji: 😹
+    code: 1F639
+    name: うれし泣きする猫
+    readings:
+      - うれしなきするねこ
+      - ねこ
+      - うれしなき
+      - なきわらい
+      - ばくしょう
+      - わら
+    en: cat with tears of joy
+    since: "0.6"
+    subgroup: cat-face
+    keywords: [ スマイル, 動物, 嬉し泣きする猫, 涙, 爆笑, 猫, 笑顔, 顔 ]
+  - emoji: 😻
+    code: 1F63B
+    name: 目がハートの猫
+    readings:
+      - めがはーとのねこ
+      - ねこ
+      - めがはーと
+      - だいすき
+      - めろめろ
+      - らぶ
+    en: smiling cat with heart-eyes
+    since: "0.6"
+    subgroup: cat-face
+    keywords: [ スマイル, ハート, 動物, 猫, 目がハートの猫, 笑顔, 顔 ]
+  - emoji: 😼
+    code: 1F63C
+    name: にやりとする猫
+    readings:
+      - にやりとするねこ
+      - ねこ
+      - にやり
+      - ふっ
+      - にやにや
+      - どやがお
+    en: cat with wry smile
+    since: "0.6"
+    subgroup: cat-face
+    keywords: [ にやり, にやりとする猫, ふっ, 動物, 猫, 顔 ]
+  - emoji: 😽
+    code: 1F63D
+    name: 猫のキス
+    readings:
+      - ねこのきす
+      - ねこ
+      - きす
+      - ちゅっ
+      - ちゅー
+    en: kissing cat
+    since: "0.6"
+    subgroup: cat-face
+    keywords: [ キス, ちゅっ, 動物, 猫, 猫のキス, 顔 ]
+  - emoji: 🙀
+    code: 1F640
+    name: 絶望する猫
+    readings:
+      - ぜつぼうするねこ
+      - ねこ
+      - ぜつぼう
+      - がーん
+      - しょっく
+      - びっくり
+    en: weary cat
+    since: "0.6"
+    subgroup: cat-face
+    keywords: [ がーん, ショック, びっくり, 動物, 猫, 絶望する猫, 顔 ]
+  - emoji: 😿
+    code: 1F63F
+    name: 泣いている猫
+    readings:
+      - ないているねこ
+      - ねこ
+      - なく
+      - なみだ
+      - かなしい
+    en: crying cat
+    since: "0.6"
+    subgroup: cat-face
+    keywords: [ 動物, 悲しい, 泣いている猫, 泣く, 涙, 猫, 顔 ]
+  - emoji: 😾
+    code: 1F63E
+    name: 不機嫌な猫
+    readings:
+      - ふきげんなねこ
+      - ねこ
+      - ふきげん
+      - ぷんぷん
+      - むすっ
+    en: pouting cat
+    since: "0.6"
+    subgroup: cat-face
+    keywords: [ ぷんぷん, 不機嫌, 不機嫌な猫, 動物, 猫, 顔 ]
+  - emoji: 🙈
+    code: 1F648
+    name: 見ざる
+    readings:
+      - みざる
+      - さんえん
+      - さる
+      - めかくし
+      - みてない
+      - はずかしい
+      - みないふり
+    en: see-no-evil monkey
+    since: "0.6"
+    subgroup: monkey-face
+    keywords: [ 三猿, 動物, 猿, 目隠し, 見ざる, 隠す ]
+  - emoji: 🙉
+    code: 1F649
+    name: 聞かざる
+    readings:
+      - きかざる
+      - さんえん
+      - さる
+      - きこえない
+      - きいてない
+    en: hear-no-evil monkey
+    since: "0.6"
+    subgroup: monkey-face
+    keywords: [ 三猿, 猿, 秘密, 聞かざる ]
+  - emoji: 🙊
+    code: 1F64A
+    name: 言わざる
+    readings:
+      - いわざる
+      - さんえん
+      - さる
+      - ないしょ
+      - ひみつ
+      - だまる
+      - しつげん
+    en: speak-no-evil monkey
+    since: "0.6"
+    subgroup: monkey-face
+    keywords: [ 三猿, 内緒, 黙る, 猿, 秘密, 言わざる ]
+  - emoji: 💌
+    code: 1F48C
+    name: ラブレター
+    readings:
+      - らぶれたー
+      - こいぶみ
+      - てがみ
+      - ふうとう
+      - ばれんたいん
+      - こくはく
+    en: love letter
+    since: "0.6"
+    subgroup: heart
+    keywords: [ ハート, バレンタインデー, ラブレター, 封筒, 恋文, 手紙 ]
+  - emoji: 💘
+    code: 1F498
+    name: ハートに矢
+    readings:
+      - はーとにや
+      - きゅーぴっど
+      - ひとめぼれ
+      - こい
+      - はーと
+      - ずきゅん
+    en: heart with arrow
+    since: "0.6"
+    subgroup: heart
+    keywords: [ キューピッド, ハート, ハートに矢, 矢 ]
+  - emoji: 💝
+    code: 1F49D
+    name: ハートにリボン
+    readings:
+      - はーとにりぼん
+      - ぷれぜんと
+      - ばれんたいん
+      - きねんび
+      - りぼん
+      - はーと
+    en: heart with ribbon
+    since: "0.6"
+    subgroup: heart
+    keywords: [ ハート, ハートにリボン, バレンタインデー, リボン, 記念日 ]
+  - emoji: 💖
+    code: 1F496
+    name: きらきらハート
+    readings:
+      - きらきらはーと
+      - きらきら
+      - はーと
+      - らぶ
+      - かわいい
+    en: sparkling heart
+    since: "0.6"
+    subgroup: heart
+    keywords: [ きらきら, キラキラ, きらきらハート, ハート ]
+  - emoji: 💗
+    code: 1F497
+    name: 大きくなるハート
+    readings:
+      - おおきくなるはーと
+      - どきどき
+      - ときめき
+      - はーと
+      - らぶ
+    en: growing heart
+    since: "0.6"
+    subgroup: heart
+    keywords: [ ドキドキ, ときめき, ハート, 大きくなるハート ]
+  - emoji: 💓
+    code: 1F493
+    name: ドキドキするハート
+    readings:
+      - どきどきするはーと
+      - どきどき
+      - こどう
+      - どうき
+      - はーと
+      - ときめき
+    en: beating heart
+    since: "0.6"
+    subgroup: heart
+    keywords: [ ドキドキ, ドキドキするハート, ハート, 動悸, 鼓動 ]
+  - emoji: 💞
+    code: 1F49E
+    name: 回転するハート
+    readings:
+      - かいてんするはーと
+      - はーと
+      - らぶ
+      - かわいい
+      - らぶらぶ
+      - そうしそうあい
+    en: revolving hearts
+    since: "0.6"
+    subgroup: heart
+    keywords: [ かわいい, ハート, 回転するハート ]
+  - emoji: 💕
+    code: 1F495
+    name: 2つのハート
+    readings:
+      - ふたつのはーと
+      - はーと
+      - らぶ
+      - らぶらぶ
+      - でーと
+      - きねんび
+    en: two hearts
+    since: "0.6"
+    subgroup: heart
+    keywords: [ 2つのハート, デート, ハート, ラブ, 記念日 ]
+  - emoji: 💟
+    code: 1F49F
+    name: ハートデコ
+    readings:
+      - はーとでこ
+      - はーとでこれーしょん
+      - はーと
+      - しろいはーと
+    en: heart decoration
+    since: "0.6"
+    subgroup: heart
+    keywords: [ ハート, ハートデコ, ハートデコレーション, 白いハート, 紫のハート ]
+  - emoji: ❣️
+    code: 2763 FE0F
+    name: ハートのびっくりマーク
+    readings:
+      - はーとのびっくりまーく
+      - はーとのびっくり
+      - はーと
+      - びっくりまーく
+      - かんたんふ
+    en: heart exclamation
+    since: "1.0"
+    subgroup: heart
+    keywords: [ エクスクラメーションマーク, ハート, ハートのびっくり, びっくりマーク ]
+  - emoji: 💔
+    code: 1F494
+    name: 割れたハート
+    readings:
+      - われたはーと
+      - しつれん
+      - はーとぶれいく
+      - ぶろーくんはーと
+      - わかれ
+      - きずつく
+      - こわれたはーと
+    en: broken heart
+    since: "0.6"
+    subgroup: heart
+    keywords: [ ハート, ハートブレイク, 別れ, 別れた, 割れたハート, 壊れたハート, 失恋 ]
+  - emoji: ❤️‍🔥
+    code: 2764 FE0F 200D 1F525
+    name: 燃えるハート
+    readings:
+      - もえるはーと
+      - じょうねつ
+      - あつい
+      - ほのお
+      - はーと
+      - もえ
+    en: heart on fire
+    since: "13.1"
+    subgroup: heart
+    keywords: [ ハート, 愛, 火の付いた, 炎, 燃えるハート, 聖なる心臓 ]
+  - emoji: ❤️‍🩹
+    code: 2764 FE0F 200D 1FA79
+    name: 包帯を巻いたハート
+    readings:
+      - ほうたいをまいたはーと
+      - しょうしん
+      - きずついた
+      - いやし
+      - かいふく
+      - はーと
+    en: mending heart
+    since: "13.1"
+    subgroup: heart
+    keywords: [ ケガ, ハート, 傷ついた, 傷心, 包帯, 包帯を巻いたハート ]
+  - emoji: ❤️
+    code: 2764 FE0F
+    name: 赤いハート
+    readings:
+      - あかいはーと
+      - はーと
+      - あい
+      - らぶ
+      - すき
+      - こい
+    en: red heart
+    since: "0.6"
+    subgroup: heart
+    keywords: [ ハート, 愛, 赤, 赤いハート ]
+  - emoji: 🩷
+    code: 1FA77
+    name: ピンクのハート
+    readings:
+      - ぴんくのはーと
+      - ぴんく
+      - はーと
+      - かわいい
+      - すき
+      - らぶ
+    en: pink heart
+    since: "15.0"
+    subgroup: heart
+    keywords: [ かわいい, スペシャル, ハート, ピンク, ピンクのハート, ラブ, 好き, 愛, 愛してる, 気持ち ]
+  - emoji: 🧡
+    code: 1F9E1
+    name: オレンジのハート
+    readings:
+      - おれんじのはーと
+      - おれんじ
+      - だいだいいろ
+      - はーと
+    en: orange heart
+    since: "5.0"
+    subgroup: heart
+    keywords: [ オレンジ, オレンジのハート, ハート ]
+  - emoji: 💛
+    code: 1F49B
+    name: 黄色のハート
+    readings:
+      - きいろのはーと
+      - きいろいはーと
+      - きいろ
+      - はーと
+    en: yellow heart
+    since: "0.6"
+    subgroup: heart
+    keywords: [ ハート, 愛, 黄色, 黄色いハート, 黄色のハート ]
+  - emoji: 💚
+    code: 1F49A
+    name: 緑のハート
+    readings:
+      - みどりのはーと
+      - みどり
+      - はーと
+    en: green heart
+    since: "0.6"
+    subgroup: heart
+    keywords: [ ハート, 緑, 緑のハート ]
+  - emoji: 💙
+    code: 1F499
+    name: 青いハート
+    readings:
+      - あおいはーと
+      - あお
+      - はーと
+    en: blue heart
+    since: "0.6"
+    subgroup: heart
+    keywords: [ ハート, 青, 青いハート ]
+  - emoji: 🩵
+    code: 1FA75
+    name: 水色のハート
+    readings:
+      - みずいろのはーと
+      - うすいあおのはーと
+      - みずいろ
+      - そらいろ
+      - はーと
+    en: light blue heart
+    since: "15.0"
+    subgroup: heart
+    keywords: [ かわいい, シアン, ティールブルー, ハート, ラブ, 好き, 愛, 水色, 空色, 薄い青 ]
+  - emoji: 💜
+    code: 1F49C
+    name: 紫のハート
+    readings:
+      - むらさきのはーと
+      - むらさき
+      - はーと
+    en: purple heart
+    since: "0.6"
+    subgroup: heart
+    keywords: [ ハート, 愛, 紫, 紫のハート ]
+  - emoji: 🤎
+    code: 1F90E
+    name: 茶色いハート
+    readings:
+      - ちゃいろいはーと
+      - ちゃいろ
+      - はーと
+    en: brown heart
+    since: "12.0"
+    subgroup: heart
+    keywords: [ ハート, 茶色, 茶色いハート ]
+  - emoji: 🖤
+    code: 1F5A4
+    name: 黒いハート
+    readings:
+      - くろいはーと
+      - くろ
+      - はーと
+      - あくい
+      - はらぐろ
+    en: black heart
+    since: "3.0"
+    subgroup: heart
+    keywords: [ ハート, 悪意, 黒, 黒いハート ]
+  - emoji: 🩶
+    code: 1FA76
+    name: 灰色のハート
+    readings:
+      - はいいろのはーと
+      - はいいろ
+      - ぐれー
+      - ぎんいろ
+      - はーと
+    en: grey heart
+    since: "15.0"
+    subgroup: heart
+    keywords: [ グレー, スレートグレー, ハート, ラブ, 好き, 愛, 灰色, 灰色のハート, 銀色 ]
+  - emoji: 🤍
+    code: 1F90D
+    name: 白いハート
+    readings:
+      - しろいはーと
+      - しろ
+      - はーと
+    en: white heart
+    since: "12.0"
+    subgroup: heart
+    keywords: [ ハート, 白, 白いハート ]
+  - emoji: 💋
+    code: 1F48B
+    name: キスマーク
+    readings:
+      - きすまーく
+      - きす
+      - くちびる
+      - ちゅっ
+      - せくしー
+    en: kiss mark
+    since: "0.6"
+    subgroup: emotion
+    keywords: [ キス, キスマーク, セクシー, ちゅっ, 唇 ]
+  - emoji: 💯
+    code: 1F4AF
+    name: 100点満点
+    readings:
+      - 100てんまんてん
+      - ひゃくてんまんてん
+      - "100"
+      - 100てん
+      - ひゃくてん
+      - まんてん
+      - かんぺき
+    en: hundred points
+    since: "0.6"
+    subgroup: emotion
+    keywords: [ "100", 100点, 100点満点, 全問正解, 満点 ]
+  - emoji: 💢
+    code: 1F4A2
+    name: むかっ
+    readings:
+      - むかっ
+      - いかりまーく
+      - いかり
+      - むかつく
+      - いらいら
+      - おこ
+    en: anger symbol
+    since: "0.6"
+    subgroup: emotion
+    keywords: [ ＃, マンガ, むかっ, 怒った, 怒り, 怒りマーク ]
+  - emoji: 🫯
+    code: 1FAEF
+    name: ボカスカ
+    readings:
+      - ぼかすか
+      - けんか
+      - ばとる
+      - あらそい
+      - とっくみあい
+      - つちけむり
+    en: fight cloud
+    since: "17.0"
+    subgroup: emotion
+    keywords: [ ケンカ, バトル, ボカスカ, 争い, 取っ組み合い, 喧嘩, 土煙 ]
+  - emoji: 💥
+    code: 1F4A5
+    name: 衝突
+    readings:
+      - しょうとつ
+      - ばくはつ
+      - しょうげき
+      - どかーん
+      - どんっ
+      - ぼんっ
+    en: collision
+    since: "0.6"
+    subgroup: emotion
+    keywords: [ どんっ, ぼんっ, マンガ, 爆発, 衝撃, 衝突 ]
+  - emoji: 💫
+    code: 1F4AB
+    name: くらくら
+    readings:
+      - くらくら
+      - めがまわる
+      - ほし
+      - きらきら
+      - ぴよぴよ
+    en: dizzy
+    since: "0.6"
+    subgroup: emotion
+    keywords: [ きらきら, キラキラ, くらくら, 星, 流れ星, 目が回る ]
+  - emoji: 💦
+    code: 1F4A6
+    name: あせあせ
+    readings:
+      - あせあせ
+      - あせ
+      - しずく
+      - すいてき
+      - みず
+      - あせる
+    en: sweat droplets
+    since: "0.6"
+    subgroup: emotion
+    keywords: [ あせあせ, しずく, 水滴, 汗 ]
+  - emoji: 💨
+    code: 1F4A8
+    name: ダッシュ
+    readings:
+      - だっしゅ
+      - はしる
+      - いそぐ
+      - にげる
+      - ぴゅー
+      - かぜ
+      - おなら
+    en: dashing away
+    since: "0.6"
+    subgroup: emotion
+    keywords: [ ダッシュ, マンガ, 急ぐ, 急げ, 走る, 逃げる ]
+  - emoji: 🕳️
+    code: 1F573 FE0F
+    name: 穴
+    readings:
+      - あな
+      - ほーる
+      - あなにはいりたい
+    en: hole
+    since: "0.7"
+    subgroup: emotion
+    keywords: [ 穴 ]
+  - emoji: 💬
+    code: 1F4AC
+    name: 会話の吹き出し
+    readings:
+      - かいわのふきだし
+      - ふきだし
+      - かいわ
+      - せりふ
+      - めっせーじ
+      - とーく
+      - ちゃっと
+    en: speech balloon
+    since: "0.6"
+    subgroup: emotion
+    keywords: [ セリフ, トーク, マンガ, メッセージ, 会話, 会話の吹き出し, 吹き出し ]
+  - emoji: 👁️‍🗨️
+    code: 1F441 FE0F 200D 1F5E8 FE0F
+    name: 吹き出しの目
+    readings:
+      - ふきだしのめ
+      - もくげき
+      - めのふきだし
+      - しょうげん
+    en: eye in speech bubble
+    since: "2.0"
+    subgroup: emotion
+    keywords: [ 吹き出し, 吹き出しの目, 目, 目撃 ]
+  - emoji: 🗨️
+    code: 1F5E8 FE0F
+    name: 左向きの吹き出し
+    readings:
+      - ひだりむきのふきだし
+      - ふきだしひだり
+      - ふきだし
+      - かいわ
+      - せりふ
+    en: left speech bubble
+    since: "2.0"
+    subgroup: emotion
+    keywords: [ セリフ, 会話, 吹き出し, 吹き出し左 ]
+  - emoji: 🗯️
+    code: 1F5EF FE0F
+    name: 怒りの吹き出し
+    readings:
+      - いかりのふきだし
+      - ふきだし
+      - いかり
+      - さけび
+      - どなる
+    en: right anger bubble
+    since: "0.7"
+    subgroup: emotion
+    keywords: [ 吹き出し, 怒り, 怒りの吹き出し ]
+  - emoji: 💭
+    code: 1F4AD
+    name: 雲形の吹き出し
+    readings:
+      - くもがたのふきだし
+      - ふきだし
+      - かんがえごと
+      - くうそう
+      - もくもく
+      - もうそう
+    en: thought balloon
+    since: "1.0"
+    subgroup: emotion
+    keywords: [ マンガ, もくもく, 吹き出し, 空想, 考え事, 雲, 雲形の吹き出し ]
+  - emoji: 💤
+    code: 1F4A4
+    name: グーグー
+    readings:
+      - ぐーぐー
+      - zzz
+      - いびき
+      - ねる
+      - おやすみ
+      - すやすや
+      - ねむい
+    en: ZZZ
+    since: "0.6"
+    subgroup: emotion
+    keywords: [ zzz, いびき, おやすみ, グーグー, マンガ, 寝る, 就寝中 ]
