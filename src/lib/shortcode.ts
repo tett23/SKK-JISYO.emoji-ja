@@ -1,4 +1,4 @@
-/** Slack-style short names (e.g. "thumbsup") from iamcal/emoji-data `emoji.json`. */
+/** Emoji shortcodes (e.g. "thumbsup" for `:thumbsup:`) from iamcal/emoji-data `emoji.json`. */
 
 interface EmojiDataEntry {
   unified: string; // "1F44D" / "2764-FE0F"
@@ -6,8 +6,8 @@ interface EmojiDataEntry {
   short_names: string[];
 }
 
-/** Valid Slack short name headword (used without the surrounding colons). */
-export const VALID_SLACK_NAME = /^[a-z0-9_+-]+$/;
+/** Valid shortcode headword (used without the surrounding colons). */
+export const VALID_SHORTCODE = /^[a-z0-9_+-]+$/;
 
 const normalize = (code: string) => code.toUpperCase().replaceAll("-", " ").replace(/ FE0F/g, "");
 
@@ -21,6 +21,6 @@ export function parseEmojiData(json: string): Map<string, string[]> {
   return result;
 }
 
-export function lookupSlack(names: Map<string, string[]>, code: string): string[] {
+export function lookupShortcodes(names: Map<string, string[]>, code: string): string[] {
   return names.get(normalize(code)) ?? [];
 }

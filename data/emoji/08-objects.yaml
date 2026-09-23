@@ -1,9 +1,9 @@
 # SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
-#   name:     annotation shown in SKK (Japanese name; no "/" or ";")
-#   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
-#   slack:    Slack-style short names (":thumbsup:" without colons), registered as headwords.
-#             Refreshed from iamcal/emoji-data; hand-written names are kept only while emoji-data has none
-#   review:   true if added automatically by the update task; remove after checking the readings
+#   name:       annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings:   SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   shortcodes: emoji shortcodes (":thumbsup:" without colons), registered as headwords.
+#               Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
+#   review:     true if added automatically by the update task; remove after checking the readings
 # Other fields are refreshed from Unicode/CLDR by the update task.
 
 group: Objects
@@ -14,7 +14,7 @@ emoji:
     readings:
       - めがね
       - がんきょう
-    slack: [ eyeglasses ]
+    shortcodes: [ eyeglasses ]
     en: glasses
     since: "0.6"
     subgroup: clothing
@@ -26,7 +26,7 @@ emoji:
       - さんぐらす
       - ぐらさん
       - めがね
-    slack: [ dark_sunglasses ]
+    shortcodes: [ dark_sunglasses ]
     en: sunglasses
     since: "0.7"
     subgroup: clothing
@@ -40,7 +40,7 @@ emoji:
       - すいえい
       - だいびんぐ
       - すきゅーば
-    slack: [ goggles ]
+    shortcodes: [ goggles ]
     en: goggles
     since: "11.0"
     subgroup: clothing
@@ -54,7 +54,7 @@ emoji:
       - かがくしゃ
       - じっけん
       - らぼこーと
-    slack: [ lab_coat ]
+    shortcodes: [ lab_coat ]
     en: lab coat
     since: "11.0"
     subgroup: clothing
@@ -69,7 +69,7 @@ emoji:
       - こうじ
       - はんしゃ
       - あんぜん
-    slack: [ safety_vest ]
+    shortcodes: [ safety_vest ]
     en: safety vest
     since: "12.0"
     subgroup: clothing
@@ -84,7 +84,7 @@ emoji:
       - さらりーまん
       - すーつ
       - びじねす
-    slack: [ necktie ]
+    shortcodes: [ necktie ]
     en: necktie
     since: "0.6"
     subgroup: clothing
@@ -97,7 +97,7 @@ emoji:
       - しゃつ
       - ふく
       - はんそで
-    slack: [ shirt, tshirt ]
+    shortcodes: [ shirt, tshirt ]
     en: t-shirt
     since: "0.6"
     subgroup: clothing
@@ -112,7 +112,7 @@ emoji:
       - ずぼん
       - ぱんつ
       - ぶるーじーんず
-    slack: [ jeans ]
+    shortcodes: [ jeans ]
     en: jeans
     since: "0.6"
     subgroup: clothing
@@ -126,7 +126,7 @@ emoji:
       - えりまき
       - くびまき
       - さむい
-    slack: [ scarf ]
+    shortcodes: [ scarf ]
     en: scarf
     since: "5.0"
     subgroup: clothing
@@ -139,7 +139,7 @@ emoji:
       - ぐろーぶ
       - みとん
       - さむい
-    slack: [ gloves ]
+    shortcodes: [ gloves ]
     en: gloves
     since: "5.0"
     subgroup: clothing
@@ -153,7 +153,7 @@ emoji:
       - あうたー
       - うわぎ
       - さむい
-    slack: [ coat ]
+    shortcodes: [ coat ]
     en: coat
     since: "5.0"
     subgroup: clothing
@@ -164,7 +164,7 @@ emoji:
     readings:
       - そっくす
       - くつした
-    slack: [ socks ]
+    shortcodes: [ socks ]
     en: socks
     since: "5.0"
     subgroup: clothing
@@ -176,7 +176,7 @@ emoji:
       - わんぴーす
       - どれす
       - ふく
-    slack: [ dress ]
+    shortcodes: [ dress ]
     en: dress
     since: "0.6"
     subgroup: clothing
@@ -189,7 +189,7 @@ emoji:
       - わふく
       - ゆかた
       - ふりそで
-    slack: [ kimono ]
+    shortcodes: [ kimono ]
     en: kimono
     since: "0.6"
     subgroup: clothing
@@ -201,7 +201,7 @@ emoji:
       - さりー
       - みんぞくいしょう
       - いんど
-    slack: [ sari ]
+    shortcodes: [ sari ]
     en: sari
     since: "12.0"
     subgroup: clothing
@@ -214,7 +214,7 @@ emoji:
       - みずぎ
       - すいむうぇあ
       - すくみず
-    slack: [ one-piece_swimsuit ]
+    shortcodes: [ one-piece_swimsuit ]
     en: one-piece swimsuit
     since: "12.0"
     subgroup: clothing
@@ -228,7 +228,7 @@ emoji:
       - ぱんつ
       - かいぱん
       - みずぎ
-    slack: [ briefs ]
+    shortcodes: [ briefs ]
     en: briefs
     since: "12.0"
     subgroup: clothing
@@ -242,7 +242,7 @@ emoji:
       - しょーとぱんつ
       - たんぱん
       - かいぱん
-    slack: [ shorts ]
+    shortcodes: [ shorts ]
     en: shorts
     since: "12.0"
     subgroup: clothing
@@ -256,7 +256,7 @@ emoji:
       - びーち
       - ぷーる
       - なつ
-    slack: [ bikini ]
+    shortcodes: [ bikini ]
     en: bikini
     since: "0.6"
     subgroup: clothing
@@ -269,7 +269,7 @@ emoji:
       - ぶらうす
       - しゃつ
       - ふく
-    slack: [ womans_clothes ]
+    shortcodes: [ womans_clothes ]
     en: woman’s clothes
     since: "0.6"
     subgroup: clothing
@@ -284,7 +284,7 @@ emoji:
       - あおぐ
       - すずむ
       - ぱたぱた
-    slack: [ folding_hand_fan ]
+    shortcodes: [ folding_hand_fan ]
     en: folding hand fan
     since: "15.0"
     subgroup: clothing
@@ -297,7 +297,7 @@ emoji:
       - さいふ
       - こぜにいれ
       - ぱーす
-    slack: [ purse ]
+    shortcodes: [ purse ]
     en: purse
     since: "0.6"
     subgroup: clothing
@@ -310,7 +310,7 @@ emoji:
       - ばっぐ
       - かばん
       - しょっぴんぐ
-    slack: [ handbag ]
+    shortcodes: [ handbag ]
     en: handbag
     since: "0.6"
     subgroup: clothing
@@ -322,7 +322,7 @@ emoji:
       - ぽーち
       - くらっちばっぐ
       - ばっぐ
-    slack: [ pouch ]
+    shortcodes: [ pouch ]
     en: clutch bag
     since: "0.6"
     subgroup: clothing
@@ -336,7 +336,7 @@ emoji:
       - かいもの
       - しょっぴんぐ
       - てさげ
-    slack: [ shopping_bags ]
+    shortcodes: [ shopping_bags ]
     en: shopping bags
     since: "0.7"
     subgroup: clothing
@@ -350,7 +350,7 @@ emoji:
       - りゅっくさっく
       - らんどせる
       - がっこう
-    slack: [ school_satchel ]
+    shortcodes: [ school_satchel ]
     en: backpack
     since: "0.6"
     subgroup: clothing
@@ -364,7 +364,7 @@ emoji:
       - ぞうり
       - ごむぞうり
       - さんだる
-    slack: [ thong_sandal ]
+    shortcodes: [ thong_sandal ]
     en: thong sandal
     since: "13.0"
     subgroup: clothing
@@ -377,7 +377,7 @@ emoji:
       - かわぐつ
       - くつ
       - ろーふぁー
-    slack: [ mans_shoe, shoe ]
+    shortcodes: [ mans_shoe, shoe ]
     en: man’s shoe
     since: "0.6"
     subgroup: clothing
@@ -390,7 +390,7 @@ emoji:
       - うんどうぐつ
       - らんにんぐしゅーず
       - くつ
-    slack: [ athletic_shoe ]
+    shortcodes: [ athletic_shoe ]
     en: running shoe
     since: "0.6"
     subgroup: clothing
@@ -405,7 +405,7 @@ emoji:
       - はいきんぐ
       - とざん
       - きゃんぷ
-    slack: [ hiking_boot ]
+    shortcodes: [ hiking_boot ]
     en: hiking boot
     since: "11.0"
     subgroup: clothing
@@ -418,7 +418,7 @@ emoji:
       - ぺたんこぐつ
       - ばれえしゅーず
       - すりっぽん
-    slack: [ womans_flat_shoe ]
+    shortcodes: [ womans_flat_shoe ]
     en: flat shoe
     since: "11.0"
     subgroup: clothing
@@ -431,7 +431,7 @@ emoji:
       - ひーる
       - ぴんひーる
       - くつ
-    slack: [ high_heel ]
+    shortcodes: [ high_heel ]
     en: high-heeled shoe
     since: "0.6"
     subgroup: clothing
@@ -443,7 +443,7 @@ emoji:
       - さんだる
       - みゅーる
       - くつ
-    slack: [ sandal ]
+    shortcodes: [ sandal ]
     en: woman’s sandal
     since: "0.6"
     subgroup: clothing
@@ -456,7 +456,7 @@ emoji:
       - ばれえしゅーず
       - ばれえ
       - だんす
-    slack: [ ballet_shoes ]
+    shortcodes: [ ballet_shoes ]
     en: ballet shoes
     since: "12.0"
     subgroup: clothing
@@ -469,7 +469,7 @@ emoji:
       - ろんぐぶーつ
       - ながぐつ
       - くつ
-    slack: [ boot ]
+    shortcodes: [ boot ]
     en: woman’s boot
     since: "0.6"
     subgroup: clothing
@@ -483,7 +483,7 @@ emoji:
       - こーむ
       - あふろ
       - へあぴっく
-    slack: [ hair_pick ]
+    shortcodes: [ hair_pick ]
     en: hair pick
     since: "15.0"
     subgroup: clothing
@@ -497,7 +497,7 @@ emoji:
       - くらうん
       - おうさま
       - おう
-    slack: [ crown ]
+    shortcodes: [ crown ]
     en: crown
     since: "0.6"
     subgroup: clothing
@@ -510,7 +510,7 @@ emoji:
       - むぎわらぼうし
       - ぼうし
       - むぎわら
-    slack: [ womans_hat ]
+    shortcodes: [ womans_hat ]
     en: woman’s hat
     since: "0.6"
     subgroup: clothing
@@ -523,7 +523,7 @@ emoji:
       - ぼうし
       - てじな
       - しんし
-    slack: [ tophat ]
+    shortcodes: [ tophat ]
     en: top hat
     since: "0.6"
     subgroup: clothing
@@ -536,7 +536,7 @@ emoji:
       - そつぎょう
       - そつぎょうしき
       - がくい
-    slack: [ mortar_board ]
+    shortcodes: [ mortar_board ]
     en: graduation cap
     since: "0.6"
     subgroup: clothing
@@ -548,7 +548,7 @@ emoji:
       - きゃっぷ
       - やきゅうぼう
       - ぼうし
-    slack: [ billed_cap ]
+    shortcodes: [ billed_cap ]
     en: billed cap
     since: "5.0"
     subgroup: clothing
@@ -562,7 +562,7 @@ emoji:
       - ぐんたい
       - へいし
       - みりたりー
-    slack: [ military_helmet ]
+    shortcodes: [ military_helmet ]
     en: military helmet
     since: "13.0"
     subgroup: clothing
@@ -576,7 +576,7 @@ emoji:
       - きゅうじょ
       - きゅうきゅう
       - あんぜん
-    slack: [ helmet_with_white_cross ]
+    shortcodes: [ helmet_with_white_cross ]
     en: rescue worker’s helmet
     since: "0.7"
     subgroup: clothing
@@ -590,7 +590,7 @@ emoji:
       - ろざりお
       - いのる
       - おいのり
-    slack: [ prayer_beads ]
+    shortcodes: [ prayer_beads ]
     en: prayer beads
     since: "1.0"
     subgroup: clothing
@@ -606,7 +606,7 @@ emoji:
       - めいく
       - めーく
       - こすめ
-    slack: [ lipstick ]
+    shortcodes: [ lipstick ]
     en: lipstick
     since: "0.6"
     subgroup: clothing
@@ -620,7 +620,7 @@ emoji:
       - こんやくゆびわ
       - けっこんゆびわ
       - だいや
-    slack: [ ring ]
+    shortcodes: [ ring ]
     en: ring
     since: "0.6"
     subgroup: clothing
@@ -634,7 +634,7 @@ emoji:
       - だいやもんど
       - じゅえりー
       - じぇむ
-    slack: [ gem ]
+    shortcodes: [ gem ]
     en: gem stone
     since: "0.6"
     subgroup: clothing
@@ -648,7 +648,7 @@ emoji:
       - しょうおん
       - むおん
       - おとなし
-    slack: [ mute ]
+    shortcodes: [ mute ]
     en: muted speaker
     since: "1.0"
     subgroup: sound
@@ -661,7 +661,7 @@ emoji:
       - おんりょう
       - ぼりゅーむ
       - おんりょうしょう
-    slack: [ speaker ]
+    shortcodes: [ speaker ]
     en: speaker low volume
     since: "0.7"
     subgroup: sound
@@ -674,7 +674,7 @@ emoji:
       - おんりょうしょう
       - すぴーかー
       - おんりょう
-    slack: [ sound ]
+    shortcodes: [ sound ]
     en: speaker medium volume
     since: "1.0"
     subgroup: sound
@@ -688,7 +688,7 @@ emoji:
       - だいおんりょう
       - すぴーかー
       - おんりょう
-    slack: [ loud_sound ]
+    shortcodes: [ loud_sound ]
     en: speaker high volume
     since: "0.6"
     subgroup: sound
@@ -702,7 +702,7 @@ emoji:
       - めがほん
       - ほうそう
       - あなうんす
-    slack: [ loudspeaker ]
+    shortcodes: [ loudspeaker ]
     en: loudspeaker
     since: "0.6"
     subgroup: sound
@@ -715,7 +715,7 @@ emoji:
       - おうえん
       - かくせいき
       - すぴーかー
-    slack: [ mega ]
+    shortcodes: [ mega ]
     en: megaphone
     since: "0.6"
     subgroup: sound
@@ -728,7 +728,7 @@ emoji:
       - らっぱ
       - ほるん
       - ゆうびん
-    slack: [ postal_horn ]
+    shortcodes: [ postal_horn ]
     en: postal horn
     since: "1.0"
     subgroup: sound
@@ -742,7 +742,7 @@ emoji:
       - すず
       - ちゃいむ
       - つうち
-    slack: [ bell ]
+    shortcodes: [ bell ]
     en: bell
     since: "0.6"
     subgroup: sound
@@ -756,7 +756,7 @@ emoji:
       - つうちおふ
       - しょうおん
       - おとなし
-    slack: [ no_bell ]
+    shortcodes: [ no_bell ]
     en: bell with slash
     since: "1.0"
     subgroup: sound
@@ -770,7 +770,7 @@ emoji:
       - すこあ
       - とおんきごう
       - おんがく
-    slack: [ musical_score ]
+    shortcodes: [ musical_score ]
     en: musical score
     since: "0.6"
     subgroup: music
@@ -784,7 +784,7 @@ emoji:
       - おんがく
       - みゅーじっく
       - きょく
-    slack: [ musical_note ]
+    shortcodes: [ musical_note ]
     en: musical note
     since: "0.6"
     subgroup: music
@@ -799,7 +799,7 @@ emoji:
       - みゅーじっく
       - うた
       - はなうた
-    slack: [ notes ]
+    shortcodes: [ notes ]
     en: musical notes
     since: "0.6"
     subgroup: music
@@ -813,7 +813,7 @@ emoji:
       - ろくおん
       - はいしん
       - ぽっどきゃすと
-    slack: [ studio_microphone ]
+    shortcodes: [ studio_microphone ]
     en: studio microphone
     since: "0.7"
     subgroup: music
@@ -826,7 +826,7 @@ emoji:
       - すらいだー
       - ふぇーだー
       - みきさー
-    slack: [ level_slider ]
+    shortcodes: [ level_slider ]
     en: level slider
     since: "0.7"
     subgroup: music
@@ -839,7 +839,7 @@ emoji:
       - つまみ
       - のぶ
       - ちょうせい
-    slack: [ control_knobs ]
+    shortcodes: [ control_knobs ]
     en: control knobs
     since: "0.7"
     subgroup: music
@@ -853,7 +853,7 @@ emoji:
       - うた
       - うたう
       - まいくろふぉん
-    slack: [ microphone ]
+    shortcodes: [ microphone ]
     en: microphone
     since: "0.6"
     subgroup: music
@@ -866,7 +866,7 @@ emoji:
       - へっどふぉん
       - いやほん
       - おんがく
-    slack: [ headphones ]
+    shortcodes: [ headphones ]
     en: headphone
     since: "0.6"
     subgroup: music
@@ -878,7 +878,7 @@ emoji:
       - らじお
       - ほうそう
       - じゅしんき
-    slack: [ radio ]
+    shortcodes: [ radio ]
     en: radio
     since: "0.6"
     subgroup: music
@@ -892,7 +892,7 @@ emoji:
       - さくそふぉん
       - じゃず
       - がっき
-    slack: [ saxophone ]
+    shortcodes: [ saxophone ]
     en: saxophone
     since: "0.6"
     subgroup: musical-instrument
@@ -905,7 +905,7 @@ emoji:
       - らっぱ
       - すいそうがく
       - がっき
-    slack: [ trumpet ]
+    shortcodes: [ trumpet ]
     en: trumpet
     since: "0.6"
     subgroup: musical-instrument
@@ -919,7 +919,7 @@ emoji:
       - すいそうがく
       - かんがっき
       - がっき
-    slack: [ trombone ]
+    shortcodes: [ trombone ]
     en: trombone
     since: "17.0"
     subgroup: musical-instrument
@@ -931,7 +931,7 @@ emoji:
       - あこーでぃおん
       - じゃばら
       - がっき
-    slack: [ accordion ]
+    shortcodes: [ accordion ]
     en: accordion
     since: "13.0"
     subgroup: musical-instrument
@@ -945,7 +945,7 @@ emoji:
       - えれき
       - ろっく
       - ばんど
-    slack: [ guitar ]
+    shortcodes: [ guitar ]
     en: guitar
     since: "0.6"
     subgroup: musical-instrument
@@ -958,7 +958,7 @@ emoji:
       - ぴあの
       - きーぼーど
       - がっき
-    slack: [ musical_keyboard ]
+    shortcodes: [ musical_keyboard ]
     en: musical keyboard
     since: "0.6"
     subgroup: musical-instrument
@@ -971,7 +971,7 @@ emoji:
       - びおら
       - げんがっき
       - がっき
-    slack: [ violin ]
+    shortcodes: [ violin ]
     en: violin
     since: "0.6"
     subgroup: musical-instrument
@@ -984,7 +984,7 @@ emoji:
       - げんがっき
       - かんとりー
       - がっき
-    slack: [ banjo ]
+    shortcodes: [ banjo ]
     en: banjo
     since: "12.0"
     subgroup: musical-instrument
@@ -997,7 +997,7 @@ emoji:
       - たいこ
       - どらむすてぃっく
       - がっき
-    slack: [ drum_with_drumsticks ]
+    shortcodes: [ drum_with_drumsticks ]
     en: drum
     since: "3.0"
     subgroup: musical-instrument
@@ -1011,7 +1011,7 @@ emoji:
       - どらむ
       - りずむ
       - びーと
-    slack: [ long_drum ]
+    shortcodes: [ long_drum ]
     en: long drum
     since: "13.0"
     subgroup: musical-instrument
@@ -1025,7 +1025,7 @@ emoji:
       - りずむ
       - だがっき
       - ふる
-    slack: [ maracas ]
+    shortcodes: [ maracas ]
     en: maracas
     since: "15.0"
     subgroup: musical-instrument
@@ -1040,7 +1040,7 @@ emoji:
       - りこーだー
       - ぴっころ
       - かんがっき
-    slack: [ flute ]
+    shortcodes: [ flute ]
     en: flute
     since: "15.0"
     subgroup: musical-instrument
@@ -1053,7 +1053,7 @@ emoji:
       - たてごと
       - げんがっき
       - がっき
-    slack: [ harp ]
+    shortcodes: [ harp ]
     en: harp
     since: "16.0"
     subgroup: musical-instrument
@@ -1068,7 +1068,7 @@ emoji:
       - すまーとふぉん
       - もばいる
       - でんわ
-    slack: [ iphone ]
+    shortcodes: [ iphone ]
     en: mobile phone
     since: "0.6"
     subgroup: phone
@@ -1082,7 +1082,7 @@ emoji:
       - じゅしん
       - すまほ
       - けいたい
-    slack: [ calling ]
+    shortcodes: [ calling ]
     en: mobile phone with arrow
     since: "0.6"
     subgroup: phone
@@ -1095,7 +1095,7 @@ emoji:
       - でんわ
       - くろでんわ
       - いえでん
-    slack: [ phone, telephone ]
+    shortcodes: [ phone, telephone ]
     en: telephone
     since: "0.6"
     subgroup: phone
@@ -1108,7 +1108,7 @@ emoji:
       - でんわ
       - こき
       - でんわする
-    slack: [ telephone_receiver ]
+    shortcodes: [ telephone_receiver ]
     en: telephone receiver
     since: "0.6"
     subgroup: phone
@@ -1120,7 +1120,7 @@ emoji:
       - ぽけべる
       - ぽけっとべる
       - ぺーじゃー
-    slack: [ pager ]
+    shortcodes: [ pager ]
     en: pager
     since: "0.6"
     subgroup: phone
@@ -1133,7 +1133,7 @@ emoji:
       - fax
       - ふぁっくすき
       - ふくごうき
-    slack: [ fax ]
+    shortcodes: [ fax ]
     en: fax machine
     since: "0.6"
     subgroup: phone
@@ -1146,7 +1146,7 @@ emoji:
       - ばってりー
       - かんでんち
       - じゅうでん
-    slack: [ battery ]
+    shortcodes: [ battery ]
     en: battery
     since: "0.6"
     subgroup: computer
@@ -1160,7 +1160,7 @@ emoji:
       - じゅうでんぶそく
       - ばってりーぎれ
       - ていでんりょく
-    slack: [ low_battery ]
+    shortcodes: [ low_battery ]
     en: low battery
     since: "14.0"
     subgroup: computer
@@ -1174,7 +1174,7 @@ emoji:
       - でんげん
       - じゅうでん
       - でんき
-    slack: [ electric_plug ]
+    shortcodes: [ electric_plug ]
     en: electric plug
     since: "0.6"
     subgroup: computer
@@ -1189,7 +1189,7 @@ emoji:
       - ぱそこん
       - pc
       - こんぴゅーたー
-    slack: [ computer ]
+    shortcodes: [ computer ]
     en: laptop
     since: "0.6"
     subgroup: computer
@@ -1204,7 +1204,7 @@ emoji:
       - pc
       - こんぴゅーたー
       - もにたー
-    slack: [ desktop_computer ]
+    shortcodes: [ desktop_computer ]
     en: desktop computer
     since: "0.7"
     subgroup: computer
@@ -1219,7 +1219,7 @@ emoji:
       - いんさつき
       - こぴーき
       - ふくごうき
-    slack: [ printer ]
+    shortcodes: [ printer ]
     en: printer
     since: "0.7"
     subgroup: computer
@@ -1232,7 +1232,7 @@ emoji:
       - たいぴんぐ
       - だけん
       - ぱそこん
-    slack: [ keyboard ]
+    shortcodes: [ keyboard ]
     en: keyboard
     since: "1.0"
     subgroup: computer
@@ -1244,7 +1244,7 @@ emoji:
       - まうす
       - くりっく
       - ぱそこん
-    slack: [ three_button_mouse ]
+    shortcodes: [ three_button_mouse ]
     en: computer mouse
     since: "0.7"
     subgroup: computer
@@ -1256,7 +1256,7 @@ emoji:
       - とらっくぼーる
       - まうす
       - ぱそこん
-    slack: [ trackball ]
+    shortcodes: [ trackball ]
     en: trackball
     since: "0.7"
     subgroup: computer
@@ -1269,7 +1269,7 @@ emoji:
       - md
       - mo
       - でぃすく
-    slack: [ minidisc ]
+    shortcodes: [ minidisc ]
     en: computer disk
     since: "0.6"
     subgroup: computer
@@ -1283,7 +1283,7 @@ emoji:
       - fd
       - ほぞん
       - せーぶ
-    slack: [ floppy_disk ]
+    shortcodes: [ floppy_disk ]
     en: floppy disk
     since: "0.6"
     subgroup: computer
@@ -1297,7 +1297,7 @@ emoji:
       - でぃすく
       - こうでぃすく
       - ぶるーれい
-    slack: [ cd ]
+    shortcodes: [ cd ]
     en: optical disk
     since: "0.6"
     subgroup: computer
@@ -1310,7 +1310,7 @@ emoji:
       - dvd
       - でぃすく
       - ぶるーれい
-    slack: [ dvd ]
+    shortcodes: [ dvd ]
     en: dvd
     since: "0.6"
     subgroup: computer
@@ -1323,7 +1323,7 @@ emoji:
       - さんばん
       - けいさん
       - あばかす
-    slack: [ abacus ]
+    shortcodes: [ abacus ]
     en: abacus
     since: "11.0"
     subgroup: computer
@@ -1338,7 +1338,7 @@ emoji:
       - しねま
       - むーびー
       - はりうっど
-    slack: [ movie_camera ]
+    shortcodes: [ movie_camera ]
     en: movie camera
     since: "0.6"
     subgroup: light & video
@@ -1352,7 +1352,7 @@ emoji:
       - えいが
       - しねま
       - むーびー
-    slack: [ film_frames ]
+    shortcodes: [ film_frames ]
     en: film frames
     since: "0.7"
     subgroup: light & video
@@ -1365,7 +1365,7 @@ emoji:
       - ぷろじぇくたー
       - えいが
       - ふぃるむ
-    slack: [ film_projector ]
+    shortcodes: [ film_projector ]
     en: film projector
     since: "0.7"
     subgroup: light & video
@@ -1378,7 +1378,7 @@ emoji:
       - えいが
       - さつえい
       - くらんくいん
-    slack: [ clapper ]
+    shortcodes: [ clapper ]
     en: clapper board
     since: "0.6"
     subgroup: light & video
@@ -1391,7 +1391,7 @@ emoji:
       - tv
       - てぃーびー
       - ばんぐみ
-    slack: [ tv ]
+    shortcodes: [ tv ]
     en: television
     since: "0.6"
     subgroup: light & video
@@ -1403,7 +1403,7 @@ emoji:
       - かめら
       - しゃしん
       - さつえい
-    slack: [ camera ]
+    shortcodes: [ camera ]
     en: camera
     since: "0.6"
     subgroup: light & video
@@ -1418,7 +1418,7 @@ emoji:
       - しゃしん
       - さつえい
       - しゃめ
-    slack: [ camera_with_flash ]
+    shortcodes: [ camera_with_flash ]
     en: camera with flash
     since: "1.0"
     subgroup: light & video
@@ -1432,7 +1432,7 @@ emoji:
       - どうが
       - ろくが
       - さつえい
-    slack: [ video_camera ]
+    shortcodes: [ video_camera ]
     en: video camera
     since: "0.6"
     subgroup: light & video
@@ -1446,7 +1446,7 @@ emoji:
       - vhs
       - びでおかせっと
       - てーぷ
-    slack: [ vhs ]
+    shortcodes: [ vhs ]
     en: videocassette
     since: "0.6"
     subgroup: light & video
@@ -1461,7 +1461,7 @@ emoji:
       - かくだいきょう
       - けんさく
       - さがす
-    slack: [ mag ]
+    shortcodes: [ mag ]
     en: magnifying glass tilted left
     since: "0.6"
     subgroup: light & video
@@ -1476,7 +1476,7 @@ emoji:
       - かくだいきょう
       - けんさく
       - しらべる
-    slack: [ mag_right ]
+    shortcodes: [ mag_right ]
     en: magnifying glass tilted right
     since: "0.6"
     subgroup: light & video
@@ -1488,7 +1488,7 @@ emoji:
       - ろうそく
       - きゃんどる
       - あかり
-    slack: [ candle ]
+    shortcodes: [ candle ]
     en: candle
     since: "0.7"
     subgroup: light & video
@@ -1504,7 +1504,7 @@ emoji:
       - あいであ
       - ぴこーん
       - あかり
-    slack: [ bulb ]
+    shortcodes: [ bulb ]
     en: light bulb
     since: "0.6"
     subgroup: light & video
@@ -1516,7 +1516,7 @@ emoji:
       - かいちゅうでんとう
       - らいと
       - あかり
-    slack: [ flashlight ]
+    shortcodes: [ flashlight ]
     en: flashlight
     since: "0.6"
     subgroup: light & video
@@ -1529,7 +1529,7 @@ emoji:
       - ちょうちん
       - いざかや
       - のみや
-    slack: [ izakaya_lantern, lantern ]
+    shortcodes: [ izakaya_lantern, lantern ]
     en: red paper lantern
     since: "0.6"
     subgroup: light & video
@@ -1543,7 +1543,7 @@ emoji:
       - おいるらんぷ
       - あかり
       - でぃわり
-    slack: [ diya_lamp ]
+    shortcodes: [ diya_lamp ]
     en: diya lamp
     since: "12.0"
     subgroup: light & video
@@ -1556,7 +1556,7 @@ emoji:
       - のーと
       - てちょう
       - ぶんぼうぐ
-    slack: [ notebook_with_decorative_cover ]
+    shortcodes: [ notebook_with_decorative_cover ]
     en: notebook with decorative cover
     since: "0.6"
     subgroup: book-paper
@@ -1569,7 +1569,7 @@ emoji:
       - ほん
       - あかいほん
       - しょせき
-    slack: [ closed_book ]
+    shortcodes: [ closed_book ]
     en: closed book
     since: "0.6"
     subgroup: book-paper
@@ -1584,7 +1584,7 @@ emoji:
       - よむ
       - しょうせつ
       - しょせき
-    slack: [ book, open_book ]
+    shortcodes: [ book, open_book ]
     en: open book
     since: "0.6"
     subgroup: book-paper
@@ -1597,7 +1597,7 @@ emoji:
       - ほん
       - どくしょ
       - しょせき
-    slack: [ green_book ]
+    shortcodes: [ green_book ]
     en: green book
     since: "0.6"
     subgroup: book-paper
@@ -1611,7 +1611,7 @@ emoji:
       - ほん
       - どくしょ
       - しょせき
-    slack: [ blue_book ]
+    shortcodes: [ blue_book ]
     en: blue book
     since: "0.6"
     subgroup: book-paper
@@ -1624,7 +1624,7 @@ emoji:
       - ほん
       - どくしょ
       - しょせき
-    slack: [ orange_book ]
+    shortcodes: [ orange_book ]
     en: orange book
     since: "0.6"
     subgroup: book-paper
@@ -1639,7 +1639,7 @@ emoji:
       - どくしょ
       - としょかん
       - しょせき
-    slack: [ books ]
+    shortcodes: [ books ]
     en: books
     since: "0.6"
     subgroup: book-paper
@@ -1651,7 +1651,7 @@ emoji:
       - のーと
       - てちょう
       - ぶんぼうぐ
-    slack: [ notebook ]
+    shortcodes: [ notebook ]
     en: notebook
     since: "0.6"
     subgroup: book-paper
@@ -1664,7 +1664,7 @@ emoji:
       - だいちょう
       - ちょうぼ
       - のーと
-    slack: [ ledger ]
+    shortcodes: [ ledger ]
     en: ledger
     since: "0.6"
     subgroup: book-paper
@@ -1677,7 +1677,7 @@ emoji:
       - ぶんしょ
       - しょるい
       - どきゅめんと
-    slack: [ page_with_curl ]
+    shortcodes: [ page_with_curl ]
     en: page with curl
     since: "0.6"
     subgroup: book-paper
@@ -1690,7 +1690,7 @@ emoji:
       - ぶんしょ
       - こもんじょ
       - しょるい
-    slack: [ scroll ]
+    shortcodes: [ scroll ]
     en: scroll
     since: "0.6"
     subgroup: book-paper
@@ -1704,7 +1704,7 @@ emoji:
       - しょるい
       - どきゅめんと
       - ふぁいる
-    slack: [ page_facing_up ]
+    shortcodes: [ page_facing_up ]
     en: page facing up
     since: "0.6"
     subgroup: book-paper
@@ -1716,7 +1716,7 @@ emoji:
       - しんぶん
       - にゅーす
       - しんぶんし
-    slack: [ newspaper ]
+    shortcodes: [ newspaper ]
     en: newspaper
     since: "0.6"
     subgroup: book-paper
@@ -1729,7 +1729,7 @@ emoji:
       - しんぶん
       - にゅーす
       - しんぶんし
-    slack: [ rolled_up_newspaper ]
+    shortcodes: [ rolled_up_newspaper ]
     en: rolled-up newspaper
     since: "0.7"
     subgroup: book-paper
@@ -1742,7 +1742,7 @@ emoji:
       - ふせん
       - いんでっくす
       - たぶ
-    slack: [ bookmark_tabs ]
+    shortcodes: [ bookmark_tabs ]
     en: bookmark tabs
     since: "0.6"
     subgroup: book-paper
@@ -1755,7 +1755,7 @@ emoji:
       - ぶっくまーく
       - ふせん
       - たぐ
-    slack: [ bookmark ]
+    shortcodes: [ bookmark ]
     en: bookmark
     since: "0.6"
     subgroup: book-paper
@@ -1768,7 +1768,7 @@ emoji:
       - たぐ
       - らべる
       - ねふだ
-    slack: [ label ]
+    shortcodes: [ label ]
     en: label
     since: "0.7"
     subgroup: book-paper
@@ -1783,7 +1783,7 @@ emoji:
       - おかね
       - きんか
       - ぎんか
-    slack: [ coin ]
+    shortcodes: [ coin ]
     en: coin
     since: "13.0"
     subgroup: money
@@ -1799,7 +1799,7 @@ emoji:
       - どるぶくろ
       - げんきん
       - しょうきん
-    slack: [ moneybag ]
+    shortcodes: [ moneybag ]
     en: money bag
     since: "0.6"
     subgroup: money
@@ -1813,7 +1813,7 @@ emoji:
       - たから
       - ざいほう
       - ほうせき
-    slack: [ treasure_chest ]
+    shortcodes: [ treasure_chest ]
     en: treasure chest
     since: "17.0"
     subgroup: money
@@ -1828,7 +1828,7 @@ emoji:
       - おかね
       - さつたば
       - えん
-    slack: [ yen ]
+    shortcodes: [ yen ]
     en: yen banknote
     since: "0.6"
     subgroup: money
@@ -1843,7 +1843,7 @@ emoji:
       - しへい
       - おかね
       - さつたば
-    slack: [ dollar ]
+    shortcodes: [ dollar ]
     en: dollar banknote
     since: "0.6"
     subgroup: money
@@ -1857,7 +1857,7 @@ emoji:
       - おさつ
       - しへい
       - おかね
-    slack: [ euro ]
+    shortcodes: [ euro ]
     en: euro banknote
     since: "1.0"
     subgroup: money
@@ -1871,7 +1871,7 @@ emoji:
       - おさつ
       - しへい
       - おかね
-    slack: [ pound ]
+    shortcodes: [ pound ]
     en: pound banknote
     since: "1.0"
     subgroup: money
@@ -1886,7 +1886,7 @@ emoji:
       - むだづかい
       - おかねがとぶ
       - きんけつ
-    slack: [ money_with_wings ]
+    shortcodes: [ money_with_wings ]
     en: money with wings
     since: "0.6"
     subgroup: money
@@ -1901,7 +1901,7 @@ emoji:
       - しはらい
       - けっさい
       - きゃっしゅかーど
-    slack: [ credit_card ]
+    shortcodes: [ credit_card ]
     en: credit card
     since: "0.6"
     subgroup: money
@@ -1915,7 +1915,7 @@ emoji:
       - せいきゅうしょ
       - かいけい
       - けいひ
-    slack: [ receipt ]
+    shortcodes: [ receipt ]
     en: receipt
     since: "11.0"
     subgroup: money
@@ -1930,7 +1930,7 @@ emoji:
       - しじょう
       - ちゃーと
       - ぐらふ
-    slack: [ chart ]
+    shortcodes: [ chart ]
     en: chart increasing with yen
     since: "0.6"
     subgroup: money
@@ -1943,7 +1943,7 @@ emoji:
       - てがみ
       - めーる
       - ゆうびん
-    slack: [ email, envelope ]
+    shortcodes: [ email, envelope ]
     en: envelope
     since: "0.6"
     subgroup: mail
@@ -1956,7 +1956,7 @@ emoji:
       - めーる
       - でんしめーる
       - てがみ
-    slack: [ e-mail ]
+    shortcodes: [ e-mail ]
     en: e-mail
     since: "0.6"
     subgroup: mail
@@ -1969,7 +1969,7 @@ emoji:
       - じゅしんちゅう
       - じゅしん
       - めーる
-    slack: [ incoming_envelope ]
+    shortcodes: [ incoming_envelope ]
     en: incoming envelope
     since: "0.6"
     subgroup: mail
@@ -1983,7 +1983,7 @@ emoji:
       - そうしん
       - めーるそうしん
       - めーる
-    slack: [ envelope_with_arrow ]
+    shortcodes: [ envelope_with_arrow ]
     en: envelope with arrow
     since: "0.6"
     subgroup: mail
@@ -1996,7 +1996,7 @@ emoji:
       - そうしん
       - そうしんばこ
       - とれい
-    slack: [ outbox_tray ]
+    shortcodes: [ outbox_tray ]
     en: outbox tray
     since: "0.6"
     subgroup: mail
@@ -2009,7 +2009,7 @@ emoji:
       - じゅしん
       - じゅしんばこ
       - とれい
-    slack: [ inbox_tray ]
+    shortcodes: [ inbox_tray ]
     en: inbox tray
     since: "0.6"
     subgroup: mail
@@ -2024,7 +2024,7 @@ emoji:
       - たっきゅうびん
       - だんぼーる
       - はいたつ
-    slack: [ package ]
+    shortcodes: [ package ]
     en: package
     since: "0.6"
     subgroup: mail
@@ -2037,7 +2037,7 @@ emoji:
       - ゆうびんうけ
       - ぽすと
       - てがみあり
-    slack: [ mailbox ]
+    shortcodes: [ mailbox ]
     en: closed mailbox with raised flag
     since: "0.6"
     subgroup: mail
@@ -2050,7 +2050,7 @@ emoji:
       - ゆうびんうけ
       - ぽすと
       - てがみなし
-    slack: [ mailbox_closed ]
+    shortcodes: [ mailbox_closed ]
     en: closed mailbox with lowered flag
     since: "0.6"
     subgroup: mail
@@ -2063,7 +2063,7 @@ emoji:
       - ゆうびんうけ
       - ぽすと
       - てがみあり
-    slack: [ mailbox_with_mail ]
+    shortcodes: [ mailbox_with_mail ]
     en: open mailbox with raised flag
     since: "0.7"
     subgroup: mail
@@ -2076,7 +2076,7 @@ emoji:
       - ゆうびんうけ
       - ぽすと
       - てがみなし
-    slack: [ mailbox_with_no_mail ]
+    shortcodes: [ mailbox_with_no_mail ]
     en: open mailbox with lowered flag
     since: "0.7"
     subgroup: mail
@@ -2089,7 +2089,7 @@ emoji:
       - ぽすと
       - ゆうびん
       - てがみ
-    slack: [ postbox ]
+    shortcodes: [ postbox ]
     en: postbox
     since: "0.6"
     subgroup: mail
@@ -2101,7 +2101,7 @@ emoji:
       - とうひょうばこ
       - とうひょう
       - せんきょ
-    slack: [ ballot_box_with_ballot ]
+    shortcodes: [ ballot_box_with_ballot ]
     en: ballot box with ballot
     since: "0.7"
     subgroup: mail
@@ -2113,7 +2113,7 @@ emoji:
       - えんぴつ
       - ぶんぼうぐ
       - かく
-    slack: [ pencil2 ]
+    shortcodes: [ pencil2 ]
     en: pencil
     since: "0.6"
     subgroup: writing
@@ -2125,7 +2125,7 @@ emoji:
       - ぺんさき
       - まんねんひつ
       - ぺん
-    slack: [ black_nib ]
+    shortcodes: [ black_nib ]
     en: black nib
     since: "0.6"
     subgroup: writing
@@ -2137,7 +2137,7 @@ emoji:
       - まんねんひつ
       - ぺん
       - ぶんぼうぐ
-    slack: [ lower_left_fountain_pen ]
+    shortcodes: [ lower_left_fountain_pen ]
     en: fountain pen
     since: "0.7"
     subgroup: writing
@@ -2149,7 +2149,7 @@ emoji:
       - ぺん
       - ぼーるぺん
       - ぶんぼうぐ
-    slack: [ lower_left_ballpoint_pen ]
+    shortcodes: [ lower_left_ballpoint_pen ]
     en: pen
     since: "0.7"
     subgroup: writing
@@ -2163,7 +2163,7 @@ emoji:
       - えのぐ
       - ぶらし
       - おえかき
-    slack: [ lower_left_paintbrush ]
+    shortcodes: [ lower_left_paintbrush ]
     en: paintbrush
     since: "0.7"
     subgroup: writing
@@ -2175,7 +2175,7 @@ emoji:
       - くれよん
       - おえかき
       - ぶんぼうぐ
-    slack: [ lower_left_crayon ]
+    shortcodes: [ lower_left_crayon ]
     en: crayon
     since: "0.7"
     subgroup: writing
@@ -2189,7 +2189,7 @@ emoji:
       - めもする
       - かきこみ
       - ひっき
-    slack: [ memo, pencil ]
+    shortcodes: [ memo, pencil ]
     en: memo
     since: "0.6"
     subgroup: writing
@@ -2216,7 +2216,7 @@ emoji:
       - かばん
       - びじねすばっぐ
       - しごと
-    slack: [ briefcase ]
+    shortcodes: [ briefcase ]
     en: briefcase
     since: "0.6"
     subgroup: office
@@ -2228,7 +2228,7 @@ emoji:
       - ふぉるだー
       - ふぉるだ
       - ふぁいる
-    slack: [ file_folder ]
+    shortcodes: [ file_folder ]
     en: file folder
     since: "0.6"
     subgroup: office
@@ -2241,7 +2241,7 @@ emoji:
       - ふぉるだー
       - ふぁいる
       - ひらく
-    slack: [ open_file_folder ]
+    shortcodes: [ open_file_folder ]
     en: open file folder
     since: "0.6"
     subgroup: office
@@ -2254,7 +2254,7 @@ emoji:
       - いんでっくす
       - ふぉるだー
       - ぶんるい
-    slack: [ card_index_dividers ]
+    shortcodes: [ card_index_dividers ]
     en: card index dividers
     since: "0.7"
     subgroup: office
@@ -2267,7 +2267,7 @@ emoji:
       - よてい
       - すけじゅーる
       - ひづけ
-    slack: [ date ]
+    shortcodes: [ date ]
     en: calendar
     since: "0.6"
     subgroup: office
@@ -2281,7 +2281,7 @@ emoji:
       - かれんだー
       - ひづけ
       - よてい
-    slack: [ calendar ]
+    shortcodes: [ calendar ]
     en: tear-off calendar
     since: "0.6"
     subgroup: office
@@ -2294,7 +2294,7 @@ emoji:
       - めも
       - りんぐめも
       - のーと
-    slack: [ spiral_note_pad ]
+    shortcodes: [ spiral_note_pad ]
     en: spiral notepad
     since: "0.7"
     subgroup: office
@@ -2307,7 +2307,7 @@ emoji:
       - かれんだー
       - すけじゅーる
       - よてい
-    slack: [ spiral_calendar_pad ]
+    shortcodes: [ spiral_calendar_pad ]
     en: spiral calendar
     since: "0.7"
     subgroup: office
@@ -2320,7 +2320,7 @@ emoji:
       - めいしいれ
       - めいし
       - いんでっくす
-    slack: [ card_index ]
+    shortcodes: [ card_index ]
     en: card index
     since: "0.6"
     subgroup: office
@@ -2335,7 +2335,7 @@ emoji:
       - せいちょう
       - ぐらふ
       - ちゃーと
-    slack: [ chart_with_upwards_trend ]
+    shortcodes: [ chart_with_upwards_trend ]
     en: chart increasing
     since: "0.6"
     subgroup: office
@@ -2350,7 +2350,7 @@ emoji:
       - げらく
       - ぐらふ
       - ちゃーと
-    slack: [ chart_with_downwards_trend ]
+    shortcodes: [ chart_with_downwards_trend ]
     en: chart decreasing
     since: "0.6"
     subgroup: office
@@ -2364,7 +2364,7 @@ emoji:
       - ちゃーと
       - でーた
       - とうけい
-    slack: [ bar_chart ]
+    shortcodes: [ bar_chart ]
     en: bar chart
     since: "0.6"
     subgroup: office
@@ -2377,7 +2377,7 @@ emoji:
       - ばいんだー
       - めも
       - ちぇっくりすと
-    slack: [ clipboard ]
+    shortcodes: [ clipboard ]
     en: clipboard
     since: "0.6"
     subgroup: office
@@ -2389,7 +2389,7 @@ emoji:
       - おしぴん
       - がびょう
       - ぴん
-    slack: [ pushpin ]
+    shortcodes: [ pushpin ]
     en: pushpin
     since: "0.6"
     subgroup: office
@@ -2404,7 +2404,7 @@ emoji:
       - ばしょ
       - ちず
       - がびょう
-    slack: [ round_pushpin ]
+    shortcodes: [ round_pushpin ]
     en: round pushpin
     since: "0.6"
     subgroup: office
@@ -2417,7 +2417,7 @@ emoji:
       - ぜむくりっぷ
       - ぺーぱーくりっぷ
       - てんぷ
-    slack: [ paperclip ]
+    shortcodes: [ paperclip ]
     en: paperclip
     since: "0.6"
     subgroup: office
@@ -2430,7 +2430,7 @@ emoji:
       - くりっぷ
       - ぺーぱーくりっぷ
       - りんく
-    slack: [ linked_paperclips ]
+    shortcodes: [ linked_paperclips ]
     en: linked paperclips
     since: "0.7"
     subgroup: office
@@ -2442,7 +2442,7 @@ emoji:
       - じょうぎ
       - ものさし
       - さし
-    slack: [ straight_ruler ]
+    shortcodes: [ straight_ruler ]
     en: straight ruler
     since: "0.6"
     subgroup: office
@@ -2454,7 +2454,7 @@ emoji:
       - さんかくじょうぎ
       - じょうぎ
       - さんかく
-    slack: [ triangular_ruler ]
+    shortcodes: [ triangular_ruler ]
     en: triangular ruler
     since: "0.6"
     subgroup: office
@@ -2467,7 +2467,7 @@ emoji:
       - きる
       - かっと
       - ちょきちょき
-    slack: [ scissors ]
+    shortcodes: [ scissors ]
     en: scissors
     since: "0.6"
     subgroup: office
@@ -2480,7 +2480,7 @@ emoji:
       - ふぁいるぼっくす
       - はこ
       - ふぁいる
-    slack: [ card_file_box ]
+    shortcodes: [ card_file_box ]
     en: card file box
     since: "0.7"
     subgroup: office
@@ -2493,7 +2493,7 @@ emoji:
       - きゃびねっと
       - ひきだし
       - しょるいだな
-    slack: [ file_cabinet ]
+    shortcodes: [ file_cabinet ]
     en: file cabinet
     since: "0.7"
     subgroup: office
@@ -2507,7 +2507,7 @@ emoji:
       - ごみ
       - すてる
       - とらっしゅ
-    slack: [ wastebasket ]
+    shortcodes: [ wastebasket ]
     en: wastebasket
     since: "0.7"
     subgroup: office
@@ -2522,7 +2522,7 @@ emoji:
       - せじょう
       - なんきんじょう
       - ひみつ
-    slack: [ lock ]
+    shortcodes: [ lock ]
     en: locked
     since: "0.6"
     subgroup: lock
@@ -2536,7 +2536,7 @@ emoji:
       - かいじょう
       - かぎ
       - なんきんじょう
-    slack: [ unlock ]
+    shortcodes: [ unlock ]
     en: unlocked
     since: "0.6"
     subgroup: lock
@@ -2551,7 +2551,7 @@ emoji:
       - なんきんじょう
       - ぷらいばしー
       - しょめい
-    slack: [ lock_with_ink_pen ]
+    shortcodes: [ lock_with_ink_pen ]
     en: locked with pen
     since: "0.6"
     subgroup: lock
@@ -2567,7 +2567,7 @@ emoji:
       - なんきんじょう
       - あんぜん
       - きー
-    slack: [ closed_lock_with_key ]
+    shortcodes: [ closed_lock_with_key ]
     en: locked with key
     since: "0.6"
     subgroup: lock
@@ -2581,7 +2581,7 @@ emoji:
       - ぱすわーど
       - かいじょう
       - あいかぎ
-    slack: [ key ]
+    shortcodes: [ key ]
     en: key
     since: "0.6"
     subgroup: lock
@@ -2596,7 +2596,7 @@ emoji:
       - てがかり
       - あんてぃーくきー
       - ひみつ
-    slack: [ old_key ]
+    shortcodes: [ old_key ]
     en: old key
     since: "0.7"
     subgroup: lock
@@ -2624,7 +2624,7 @@ emoji:
       - とんかち
       - こうぐ
       - だいく
-    slack: [ hammer ]
+    shortcodes: [ hammer ]
     en: hammer
     since: "0.6"
     subgroup: tool
@@ -2638,7 +2638,7 @@ emoji:
       - まきわり
       - ておの
       - はちぇっと
-    slack: [ axe ]
+    shortcodes: [ axe ]
     en: axe
     since: "12.0"
     subgroup: tool
@@ -2652,7 +2652,7 @@ emoji:
       - さいくつ
       - こうぐ
       - ほる
-    slack: [ pick ]
+    shortcodes: [ pick ]
     en: pick
     since: "0.7"
     subgroup: tool
@@ -2666,7 +2666,7 @@ emoji:
       - つるはし
       - こうぐ
       - さいくつ
-    slack: [ hammer_and_pick ]
+    shortcodes: [ hammer_and_pick ]
     en: hammer and pick
     since: "1.0"
     subgroup: tool
@@ -2682,7 +2682,7 @@ emoji:
       - しゅうり
       - せってい
       - ついーる
-    slack: [ hammer_and_wrench ]
+    shortcodes: [ hammer_and_wrench ]
     en: hammer and wrench
     since: "0.7"
     subgroup: tool
@@ -2696,7 +2696,7 @@ emoji:
       - だがー
       - ないふ
       - ぶき
-    slack: [ dagger_knife ]
+    shortcodes: [ dagger_knife ]
     en: dagger
     since: "0.7"
     subgroup: tool
@@ -2712,7 +2712,7 @@ emoji:
       - たたかい
       - けっとう
       - ちゃんばら
-    slack: [ crossed_swords ]
+    shortcodes: [ crossed_swords ]
     en: crossed swords
     since: "1.0"
     subgroup: tool
@@ -2726,7 +2726,7 @@ emoji:
       - ばくはつ
       - きけん
       - ばくは
-    slack: [ bomb ]
+    shortcodes: [ bomb ]
     en: bomb
     since: "0.6"
     subgroup: tool
@@ -2739,7 +2739,7 @@ emoji:
       - おーすとらりあ
       - はねかえり
       - ぶーめらんはつげん
-    slack: [ boomerang ]
+    shortcodes: [ boomerang ]
     en: boomerang
     since: "13.0"
     subgroup: tool
@@ -2754,7 +2754,7 @@ emoji:
       - いてざ
       - あーちぇりー
       - きゅうどう
-    slack: [ bow_and_arrow ]
+    shortcodes: [ bow_and_arrow ]
     en: bow and arrow
     since: "1.0"
     subgroup: tool
@@ -2768,7 +2768,7 @@ emoji:
       - ぼうぐ
       - まもる
       - ぼうぎょ
-    slack: [ shield ]
+    shortcodes: [ shield ]
     en: shield
     since: "0.7"
     subgroup: tool
@@ -2782,7 +2782,7 @@ emoji:
       - だいく
       - もっこう
       - きる
-    slack: [ carpentry_saw ]
+    shortcodes: [ carpentry_saw ]
     en: carpentry saw
     since: "13.0"
     subgroup: tool
@@ -2795,7 +2795,7 @@ emoji:
       - すぱな
       - こうぐ
       - しゅうり
-    slack: [ wrench ]
+    shortcodes: [ wrench ]
     en: wrench
     since: "0.6"
     subgroup: tool
@@ -2809,7 +2809,7 @@ emoji:
       - まいなすどらいばー
       - すくりゅーどらいばー
       - こうぐ
-    slack: [ screwdriver ]
+    shortcodes: [ screwdriver ]
     en: screwdriver
     since: "13.0"
     subgroup: tool
@@ -2823,7 +2823,7 @@ emoji:
       - なっと
       - ねじ
       - こうぐ
-    slack: [ nut_and_bolt ]
+    shortcodes: [ nut_and_bolt ]
     en: nut and bolt
     since: "0.6"
     subgroup: tool
@@ -2836,7 +2836,7 @@ emoji:
       - ぎあ
       - せってい
       - きかい
-    slack: [ gear ]
+    shortcodes: [ gear ]
     en: gear
     since: "1.0"
     subgroup: tool
@@ -2850,7 +2850,7 @@ emoji:
       - ばいす
       - こうぐ
       - しめつけ
-    slack: [ compression ]
+    shortcodes: [ compression ]
     en: clamp
     since: "0.7"
     subgroup: tool
@@ -2866,7 +2866,7 @@ emoji:
       - ほう
       - さいばん
       - こうへい
-    slack: [ scales ]
+    shortcodes: [ scales ]
     en: balance scale
     since: "1.0"
     subgroup: tool
@@ -2880,7 +2880,7 @@ emoji:
       - つえ
       - しかくしょうがい
       - もうじんよう
-    slack: [ probing_cane ]
+    shortcodes: [ probing_cane ]
     en: white cane
     since: "12.0"
     subgroup: tool
@@ -2894,7 +2894,7 @@ emoji:
       - つながり
       - れんけつ
       - ゆーあーるえる
-    slack: [ link ]
+    shortcodes: [ link ]
     en: link
     since: "0.6"
     subgroup: tool
@@ -2908,7 +2908,7 @@ emoji:
       - ちぇーん
       - かいほう
       - じゆう
-    slack: [ broken_chain ]
+    shortcodes: [ broken_chain ]
     en: broken chain
     since: "15.1"
     subgroup: tool
@@ -2920,7 +2920,7 @@ emoji:
       - くさり
       - ちぇーん
       - こうそく
-    slack: [ chains ]
+    shortcodes: [ chains ]
     en: chains
     since: "0.7"
     subgroup: tool
@@ -2934,7 +2934,7 @@ emoji:
       - ひっかけ
       - かけがね
       - とめがね
-    slack: [ hook ]
+    shortcodes: [ hook ]
     en: hook
     since: "13.0"
     subgroup: tool
@@ -2948,7 +2948,7 @@ emoji:
       - つーるぼっくす
       - こうぐ
       - せいび
-    slack: [ toolbox ]
+    shortcodes: [ toolbox ]
     en: toolbox
     since: "11.0"
     subgroup: tool
@@ -2961,7 +2961,7 @@ emoji:
       - じしゃく
       - まぐねっと
       - ひきつける
-    slack: [ magnet ]
+    shortcodes: [ magnet ]
     en: magnet
     since: "11.0"
     subgroup: tool
@@ -2974,7 +2974,7 @@ emoji:
       - らだー
       - のぼる
       - きゃたつ
-    slack: [ ladder ]
+    shortcodes: [ ladder ]
     en: ladder
     since: "13.0"
     subgroup: tool
@@ -2988,7 +2988,7 @@ emoji:
       - しょべる
       - ほる
       - あなほり
-    slack: [ shovel ]
+    shortcodes: [ shovel ]
     en: shovel
     since: "16.0"
     subgroup: tool
@@ -3002,7 +3002,7 @@ emoji:
       - かがく
       - じっけん
       - れんきんじゅつ
-    slack: [ alembic ]
+    shortcodes: [ alembic ]
     en: alembic
     since: "1.0"
     subgroup: science
@@ -3016,7 +3016,7 @@ emoji:
       - かがく
       - かがくしゃ
       - らぼ
-    slack: [ test_tube ]
+    shortcodes: [ test_tube ]
     en: test tube
     since: "11.0"
     subgroup: science
@@ -3031,7 +3031,7 @@ emoji:
       - ばくてりあ
       - さいきん
       - せいぶつがく
-    slack: [ petri_dish ]
+    shortcodes: [ petri_dish ]
     en: petri dish
     since: "11.0"
     subgroup: science
@@ -3046,7 +3046,7 @@ emoji:
       - にじゅうらせん
       - せいぶつがく
       - しんか
-    slack: [ dna ]
+    shortcodes: [ dna ]
     en: dna
     since: "11.0"
     subgroup: science
@@ -3060,7 +3060,7 @@ emoji:
       - けんきゅう
       - かがく
       - みくろ
-    slack: [ microscope ]
+    shortcodes: [ microscope ]
     en: microscope
     since: "1.0"
     subgroup: science
@@ -3074,7 +3074,7 @@ emoji:
       - かんそく
       - うちゅう
       - てんもん
-    slack: [ telescope ]
+    shortcodes: [ telescope ]
     en: telescope
     since: "1.0"
     subgroup: science
@@ -3088,7 +3088,7 @@ emoji:
       - えいせいあんてな
       - でんぱ
       - つうしん
-    slack: [ satellite_antenna ]
+    shortcodes: [ satellite_antenna ]
     en: satellite antenna
     since: "0.6"
     subgroup: science
@@ -3102,7 +3102,7 @@ emoji:
       - よぼうせっしゅ
       - わくちん
       - はり
-    slack: [ syringe ]
+    shortcodes: [ syringe ]
     en: syringe
     since: "0.6"
     subgroup: medical
@@ -3117,7 +3117,7 @@ emoji:
       - しゅっけつ
       - けんけつ
       - せいり
-    slack: [ drop_of_blood ]
+    shortcodes: [ drop_of_blood ]
     en: drop of blood
     since: "12.0"
     subgroup: medical
@@ -3132,7 +3132,7 @@ emoji:
       - さぷり
       - びたみんざい
       - ぴる
-    slack: [ pill ]
+    shortcodes: [ pill ]
     en: pill
     since: "0.6"
     subgroup: medical
@@ -3146,7 +3146,7 @@ emoji:
       - けが
       - てあて
       - きず
-    slack: [ adhesive_bandage ]
+    shortcodes: [ adhesive_bandage ]
     en: adhesive bandage
     since: "12.0"
     subgroup: medical
@@ -3159,7 +3159,7 @@ emoji:
       - つえ
       - けが
       - こっせつ
-    slack: [ crutch ]
+    shortcodes: [ crutch ]
     en: crutch
     since: "14.0"
     subgroup: medical
@@ -3173,7 +3173,7 @@ emoji:
       - いりょう
       - しんさつ
       - けんしん
-    slack: [ stethoscope ]
+    shortcodes: [ stethoscope ]
     en: stethoscope
     since: "12.0"
     subgroup: medical
@@ -3187,7 +3187,7 @@ emoji:
       - ほね
       - こっかく
       - けんさ
-    slack: [ x-ray ]
+    shortcodes: [ x-ray ]
     en: x-ray
     since: "14.0"
     subgroup: medical
@@ -3201,7 +3201,7 @@ emoji:
       - と
       - げんかん
       - いりぐち
-    slack: [ door ]
+    shortcodes: [ door ]
     en: door
     since: "0.6"
     subgroup: household
@@ -3214,7 +3214,7 @@ emoji:
       - しょうこうき
       - りふと
       - ばりあふりー
-    slack: [ elevator ]
+    shortcodes: [ elevator ]
     en: elevator
     since: "13.0"
     subgroup: household
@@ -3228,7 +3228,7 @@ emoji:
       - すがたみ
       - はんしゃ
       - みだしなみ
-    slack: [ mirror ]
+    shortcodes: [ mirror ]
     en: mirror
     since: "13.0"
     subgroup: household
@@ -3241,7 +3241,7 @@ emoji:
       - うぃんどう
       - かんき
       - まどがらす
-    slack: [ window ]
+    shortcodes: [ window ]
     en: window
     since: "13.0"
     subgroup: household
@@ -3256,7 +3256,7 @@ emoji:
       - すいみん
       - ほてる
       - おやすみ
-    slack: [ bed ]
+    shortcodes: [ bed ]
     en: bed
     since: "0.7"
     subgroup: household
@@ -3271,7 +3271,7 @@ emoji:
       - らんぷ
       - いま
       - りびんぐ
-    slack: [ couch_and_lamp ]
+    shortcodes: [ couch_and_lamp ]
     en: couch and lamp
     since: "0.7"
     subgroup: household
@@ -3285,7 +3285,7 @@ emoji:
       - こしかけ
       - かぐ
       - せき
-    slack: [ chair ]
+    shortcodes: [ chair ]
     en: chair
     since: "12.0"
     subgroup: household
@@ -3299,7 +3299,7 @@ emoji:
       - べんざ
       - おてあらい
       - べんじょ
-    slack: [ toilet ]
+    shortcodes: [ toilet ]
     en: toilet
     since: "0.6"
     subgroup: household
@@ -3313,7 +3313,7 @@ emoji:
       - ぷらんじゃー
       - つまり
       - といれ
-    slack: [ plunger ]
+    shortcodes: [ plunger ]
     en: plunger
     since: "13.0"
     subgroup: household
@@ -3326,7 +3326,7 @@ emoji:
       - ふろ
       - あびる
       - あせ
-    slack: [ shower ]
+    shortcodes: [ shower ]
     en: shower
     since: "1.0"
     subgroup: household
@@ -3341,7 +3341,7 @@ emoji:
       - おふろ
       - にゅうよく
       - あわぶろ
-    slack: [ bathtub ]
+    shortcodes: [ bathtub ]
     en: bathtub
     since: "1.0"
     subgroup: household
@@ -3355,7 +3355,7 @@ emoji:
       - まうすとらっぷ
       - しかけ
       - ちーず
-    slack: [ mouse_trap ]
+    shortcodes: [ mouse_trap ]
     en: mouse trap
     since: "13.0"
     subgroup: household
@@ -3369,7 +3369,7 @@ emoji:
       - れざー
       - かみそりのは
       - するどい
-    slack: [ razor ]
+    shortcodes: [ razor ]
     en: razor
     since: "12.0"
     subgroup: household
@@ -3384,7 +3384,7 @@ emoji:
       - ひやけどめ
       - にゅうえき
       - ぼとる
-    slack: [ lotion_bottle ]
+    shortcodes: [ lotion_bottle ]
     en: lotion bottle
     since: "11.0"
     subgroup: household
@@ -3396,7 +3396,7 @@ emoji:
       - あんぜんぴん
       - ぴん
       - とめぴん
-    slack: [ safety_pin ]
+    shortcodes: [ safety_pin ]
     en: safety pin
     since: "11.0"
     subgroup: household
@@ -3409,7 +3409,7 @@ emoji:
       - そうじ
       - はく
       - まじょ
-    slack: [ broom ]
+    shortcodes: [ broom ]
     en: broom
     since: "11.0"
     subgroup: household
@@ -3423,7 +3423,7 @@ emoji:
       - せんたくかご
       - ぴくにっく
       - しゅうかく
-    slack: [ basket ]
+    shortcodes: [ basket ]
     en: basket
     since: "11.0"
     subgroup: household
@@ -3437,7 +3437,7 @@ emoji:
       - きっちんぺーぱー
       - かみ
       - ぺーぱー
-    slack: [ roll_of_paper ]
+    shortcodes: [ roll_of_paper ]
     en: roll of paper
     since: "11.0"
     subgroup: household
@@ -3450,7 +3450,7 @@ emoji:
       - おけ
       - ぽりばけつ
       - ようき
-    slack: [ bucket ]
+    shortcodes: [ bucket ]
     en: bucket
     since: "13.0"
     subgroup: household
@@ -3464,7 +3464,7 @@ emoji:
       - あわ
       - せいけつ
       - てあらい
-    slack: [ soap ]
+    shortcodes: [ soap ]
     en: soap
     since: "11.0"
     subgroup: household
@@ -3478,7 +3478,7 @@ emoji:
       - ばぶる
       - あぶく
       - ぶくぶく
-    slack: [ bubbles ]
+    shortcodes: [ bubbles ]
     en: bubbles
     since: "14.0"
     subgroup: household
@@ -3492,7 +3492,7 @@ emoji:
       - ぶらし
       - むしば
       - ようじ
-    slack: [ toothbrush ]
+    shortcodes: [ toothbrush ]
     en: toothbrush
     since: "13.0"
     subgroup: household
@@ -3505,7 +3505,7 @@ emoji:
       - かいめん
       - そうじ
       - あらいもの
-    slack: [ sponge ]
+    shortcodes: [ sponge ]
     en: sponge
     since: "11.0"
     subgroup: household
@@ -3518,7 +3518,7 @@ emoji:
       - しょうか
       - かじ
       - しょうぼう
-    slack: [ fire_extinguisher ]
+    shortcodes: [ fire_extinguisher ]
     en: fire extinguisher
     since: "11.0"
     subgroup: household
@@ -3533,7 +3533,7 @@ emoji:
       - すーぱー
       - しょっぴんぐ
       - かいものかご
-    slack: [ shopping_trolley ]
+    shortcodes: [ shopping_trolley ]
     en: shopping cart
     since: "3.0"
     subgroup: household
@@ -3547,7 +3547,7 @@ emoji:
       - しがれっと
       - けむり
       - いっぷく
-    slack: [ smoking ]
+    shortcodes: [ smoking ]
     en: cigarette
     since: "0.6"
     subgroup: other-object
@@ -3561,7 +3561,7 @@ emoji:
       - し
       - まいそう
       - きゅうけつき
-    slack: [ coffin ]
+    shortcodes: [ coffin ]
     en: coffin
     since: "1.0"
     subgroup: other-object
@@ -3577,7 +3577,7 @@ emoji:
       - まいそう
       - ついとう
       - りっぷ
-    slack: [ headstone ]
+    shortcodes: [ headstone ]
     en: headstone
     since: "13.0"
     subgroup: other-object
@@ -3591,7 +3591,7 @@ emoji:
       - いはい
       - そうぎ
       - まいそう
-    slack: [ funeral_urn ]
+    shortcodes: [ funeral_urn ]
     en: funeral urn
     since: "1.0"
     subgroup: other-object
@@ -3606,7 +3606,7 @@ emoji:
       - まよけ
       - じゃし
       - あおいめ
-    slack: [ nazar_amulet ]
+    shortcodes: [ nazar_amulet ]
     en: nazar amulet
     since: "11.0"
     subgroup: other-object
@@ -3620,7 +3620,7 @@ emoji:
       - ごふ
       - ふぁーてぃまのて
       - まよけ
-    slack: [ hamsa ]
+    shortcodes: [ hamsa ]
     en: hamsa
     since: "14.0"
     subgroup: other-object
@@ -3634,7 +3634,7 @@ emoji:
       - せきぞう
       - いーすたーとう
       - むひょうじょう
-    slack: [ moyai ]
+    shortcodes: [ moyai ]
     en: moai
     since: "0.6"
     subgroup: other-object
@@ -3648,7 +3648,7 @@ emoji:
       - こうぎ
       - かんばん
       - しゅちょう
-    slack: [ placard ]
+    shortcodes: [ placard ]
     en: placard
     since: "13.0"
     subgroup: other-object
@@ -3663,7 +3663,7 @@ emoji:
       - めんきょしょう
       - うんてんめんきょしょう
       - しゃいんしょう
-    slack: [ identification_card ]
+    shortcodes: [ identification_card ]
     en: identification card
     since: "14.0"
     subgroup: other-object

@@ -1,9 +1,9 @@
 # SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
-#   name:     annotation shown in SKK (Japanese name; no "/" or ";")
-#   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
-#   slack:    Slack-style short names (":thumbsup:" without colons), registered as headwords.
-#             Refreshed from iamcal/emoji-data; hand-written names are kept only while emoji-data has none
-#   review:   true if added automatically by the update task; remove after checking the readings
+#   name:       annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings:   SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   shortcodes: emoji shortcodes (":thumbsup:" without colons), registered as headwords.
+#               Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
+#   review:     true if added automatically by the update task; remove after checking the readings
 # Other fields are refreshed from Unicode/CLDR by the update task.
 
 group: Food & Drink
@@ -16,7 +16,7 @@ emoji:
       - ぐれーぷ
       - くだもの
       - ふるーつ
-    slack: [ grapes ]
+    shortcodes: [ grapes ]
     en: grapes
     since: "0.6"
     subgroup: food-fruit
@@ -28,7 +28,7 @@ emoji:
       - めろん
       - ますくめろん
       - くだもの
-    slack: [ melon ]
+    shortcodes: [ melon ]
     en: melon
     since: "0.6"
     subgroup: food-fruit
@@ -41,7 +41,7 @@ emoji:
       - うぉーたーめろん
       - なつ
       - すいかわり
-    slack: [ watermelon ]
+    shortcodes: [ watermelon ]
     en: watermelon
     since: "0.6"
     subgroup: food-fruit
@@ -54,7 +54,7 @@ emoji:
       - おれんじ
       - かんきつ
       - くだもの
-    slack: [ tangerine ]
+    shortcodes: [ tangerine ]
     en: tangerine
     since: "0.6"
     subgroup: food-fruit
@@ -67,7 +67,7 @@ emoji:
       - すっぱい
       - かんきつ
       - くだもの
-    slack: [ lemon ]
+    shortcodes: [ lemon ]
     en: lemon
     since: "1.0"
     subgroup: food-fruit
@@ -80,7 +80,7 @@ emoji:
       - かんきつ
       - すっぱい
       - もひーと
-    slack: [ lime ]
+    shortcodes: [ lime ]
     en: lime
     since: "15.1"
     subgroup: food-fruit
@@ -92,7 +92,7 @@ emoji:
       - ばなな
       - くだもの
       - ふるーつ
-    slack: [ banana ]
+    shortcodes: [ banana ]
     en: banana
     since: "0.6"
     subgroup: food-fruit
@@ -105,7 +105,7 @@ emoji:
       - ぱいん
       - くだもの
       - とろぴかる
-    slack: [ pineapple ]
+    shortcodes: [ pineapple ]
     en: pineapple
     since: "0.6"
     subgroup: food-fruit
@@ -117,7 +117,7 @@ emoji:
       - まんごー
       - くだもの
       - とろぴかる
-    slack: [ mango ]
+    shortcodes: [ mango ]
     en: mango
     since: "11.0"
     subgroup: food-fruit
@@ -130,7 +130,7 @@ emoji:
       - りんご
       - あっぷる
       - くだもの
-    slack: [ apple ]
+    shortcodes: [ apple ]
     en: red apple
     since: "0.6"
     subgroup: food-fruit
@@ -143,7 +143,7 @@ emoji:
       - りんご
       - あっぷる
       - くだもの
-    slack: [ green_apple ]
+    shortcodes: [ green_apple ]
     en: green apple
     since: "0.6"
     subgroup: food-fruit
@@ -157,7 +157,7 @@ emoji:
       - せいようなし
       - ぺあー
       - らふらんす
-    slack: [ pear ]
+    shortcodes: [ pear ]
     en: pear
     since: "1.0"
     subgroup: food-fruit
@@ -170,7 +170,7 @@ emoji:
       - ぴーち
       - おしり
       - くだもの
-    slack: [ peach ]
+    shortcodes: [ peach ]
     en: peach
     since: "0.6"
     subgroup: food-fruit
@@ -182,7 +182,7 @@ emoji:
       - さくらんぼ
       - ちぇりー
       - くだもの
-    slack: [ cherries ]
+    shortcodes: [ cherries ]
     en: cherries
     since: "0.6"
     subgroup: food-fruit
@@ -194,7 +194,7 @@ emoji:
       - いちご
       - すとろべりー
       - くだもの
-    slack: [ strawberry ]
+    shortcodes: [ strawberry ]
     en: strawberry
     since: "0.6"
     subgroup: food-fruit
@@ -206,7 +206,7 @@ emoji:
       - ぶるーべりー
       - べりー
       - くだもの
-    slack: [ blueberries ]
+    shortcodes: [ blueberries ]
     en: blueberries
     since: "13.0"
     subgroup: food-fruit
@@ -218,7 +218,7 @@ emoji:
       - きういふるーつ
       - きうい
       - くだもの
-    slack: [ kiwifruit ]
+    shortcodes: [ kiwifruit ]
     en: kiwi fruit
     since: "3.0"
     subgroup: food-fruit
@@ -230,7 +230,7 @@ emoji:
       - とまと
       - やさい
       - みにとまと
-    slack: [ tomato ]
+    shortcodes: [ tomato ]
     en: tomato
     since: "0.6"
     subgroup: food-fruit
@@ -241,7 +241,7 @@ emoji:
     readings:
       - おりーぶ
       - おりーぶおいる
-    slack: [ olive ]
+    shortcodes: [ olive ]
     en: olive
     since: "13.0"
     subgroup: food-fruit
@@ -253,7 +253,7 @@ emoji:
       - ここなっつ
       - ここなつ
       - やしのみ
-    slack: [ coconut ]
+    shortcodes: [ coconut ]
     en: coconut
     since: "5.0"
     subgroup: food-fruit
@@ -265,7 +265,7 @@ emoji:
       - あぼかど
       - あぼがど
       - わかもれ
-    slack: [ avocado ]
+    shortcodes: [ avocado ]
     en: avocado
     since: "3.0"
     subgroup: food-vegetable
@@ -278,7 +278,7 @@ emoji:
       - なすび
       - やさい
       - えっぐぷらんと
-    slack: [ eggplant ]
+    shortcodes: [ eggplant ]
     en: eggplant
     since: "0.6"
     subgroup: food-vegetable
@@ -291,7 +291,7 @@ emoji:
       - いも
       - ぽてと
       - やさい
-    slack: [ potato ]
+    shortcodes: [ potato ]
     en: potato
     since: "3.0"
     subgroup: food-vegetable
@@ -303,7 +303,7 @@ emoji:
       - にんじん
       - きゃろっと
       - やさい
-    slack: [ carrot ]
+    shortcodes: [ carrot ]
     en: carrot
     since: "3.0"
     subgroup: food-vegetable
@@ -315,7 +315,7 @@ emoji:
       - とうもろこし
       - こーん
       - やさい
-    slack: [ corn ]
+    shortcodes: [ corn ]
     en: ear of corn
     since: "0.6"
     subgroup: food-vegetable
@@ -329,7 +329,7 @@ emoji:
       - ちりぺっぱー
       - げきから
       - ほっと
-    slack: [ hot_pepper ]
+    shortcodes: [ hot_pepper ]
     en: hot pepper
     since: "0.7"
     subgroup: food-vegetable
@@ -341,7 +341,7 @@ emoji:
       - ぴーまん
       - ぱぷりか
       - やさい
-    slack: [ bell_pepper ]
+    shortcodes: [ bell_pepper ]
     en: bell pepper
     since: "13.0"
     subgroup: food-vegetable
@@ -353,7 +353,7 @@ emoji:
       - きゅうり
       - やさい
       - かっぱ
-    slack: [ cucumber ]
+    shortcodes: [ cucumber ]
     en: cucumber
     since: "3.0"
     subgroup: food-vegetable
@@ -380,7 +380,7 @@ emoji:
       - ちんげんさい
       - けーる
       - さらだ
-    slack: [ leafy_green ]
+    shortcodes: [ leafy_green ]
     en: leafy green
     since: "11.0"
     subgroup: food-vegetable
@@ -391,7 +391,7 @@ emoji:
     readings:
       - ぶろっこりー
       - やさい
-    slack: [ broccoli ]
+    shortcodes: [ broccoli ]
     en: broccoli
     since: "5.0"
     subgroup: food-vegetable
@@ -403,7 +403,7 @@ emoji:
       - にんにく
       - がーりっく
       - やくみ
-    slack: [ garlic ]
+    shortcodes: [ garlic ]
     en: garlic
     since: "12.0"
     subgroup: food-vegetable
@@ -416,7 +416,7 @@ emoji:
       - おにおん
       - ねぎ
       - やさい
-    slack: [ onion ]
+    shortcodes: [ onion ]
     en: onion
     since: "12.0"
     subgroup: food-vegetable
@@ -429,7 +429,7 @@ emoji:
       - らっかせい
       - なっつ
       - まめ
-    slack: [ peanuts ]
+    shortcodes: [ peanuts ]
     en: peanuts
     since: "3.0"
     subgroup: food-vegetable
@@ -443,7 +443,7 @@ emoji:
       - あずき
       - きんときまめ
       - いんげんまめ
-    slack: [ beans ]
+    shortcodes: [ beans ]
     en: beans
     since: "14.0"
     subgroup: food-vegetable
@@ -455,7 +455,7 @@ emoji:
       - くり
       - まろん
       - あき
-    slack: [ chestnut ]
+    shortcodes: [ chestnut ]
     en: chestnut
     since: "0.6"
     subgroup: food-vegetable
@@ -468,7 +468,7 @@ emoji:
       - じんじゃー
       - やくみ
       - すぱいす
-    slack: [ ginger_root ]
+    shortcodes: [ ginger_root ]
     en: ginger root
     since: "15.0"
     subgroup: food-vegetable
@@ -482,7 +482,7 @@ emoji:
       - えだまめ
       - まめ
       - さや
-    slack: [ pea_pod ]
+    shortcodes: [ pea_pod ]
     en: pea pod
     since: "15.0"
     subgroup: food-vegetable
@@ -496,7 +496,7 @@ emoji:
       - まっしゅるーむ
       - ぶらうんまっしゅるーむ
       - とりゅふ
-    slack: [ brown_mushroom ]
+    shortcodes: [ brown_mushroom ]
     en: brown mushroom
     since: "15.1"
     subgroup: food-vegetable
@@ -509,7 +509,7 @@ emoji:
       - かぶ
       - びーつ
       - やさい
-    slack: [ root_vegetable ]
+    shortcodes: [ root_vegetable ]
     en: root vegetable
     since: "16.0"
     subgroup: food-vegetable
@@ -522,7 +522,7 @@ emoji:
       - ぱん
       - ぶれっど
       - とーすと
-    slack: [ bread ]
+    shortcodes: [ bread ]
     en: bread
     since: "0.6"
     subgroup: food-prepared
@@ -533,7 +533,7 @@ emoji:
     readings:
       - くろわっさん
       - ぱん
-    slack: [ croissant ]
+    shortcodes: [ croissant ]
     en: croissant
     since: "3.0"
     subgroup: food-prepared
@@ -545,7 +545,7 @@ emoji:
       - ばげっと
       - ふらんすぱん
       - ぱん
-    slack: [ baguette_bread ]
+    shortcodes: [ baguette_bread ]
     en: baguette bread
     since: "3.0"
     subgroup: food-prepared
@@ -558,7 +558,7 @@ emoji:
       - なん
       - ぴたぱん
       - ぱん
-    slack: [ flatbread ]
+    shortcodes: [ flatbread ]
     en: flatbread
     since: "13.0"
     subgroup: food-prepared
@@ -571,7 +571,7 @@ emoji:
       - ねじりぱん
       - ぷれっつる
       - ぱん
-    slack: [ pretzel ]
+    shortcodes: [ pretzel ]
     en: pretzel
     since: "5.0"
     subgroup: food-prepared
@@ -584,7 +584,7 @@ emoji:
       - ぱん
       - ちょうしょく
       - くりーむちーず
-    slack: [ bagel ]
+    shortcodes: [ bagel ]
     en: bagel
     since: "11.0"
     subgroup: food-prepared
@@ -596,7 +596,7 @@ emoji:
       - ぱんけーき
       - ほっとけーき
       - ちょうしょく
-    slack: [ pancakes ]
+    shortcodes: [ pancakes ]
     en: pancakes
     since: "3.0"
     subgroup: food-prepared
@@ -608,7 +608,7 @@ emoji:
       - わっふる
       - やきがし
       - ちょうしょく
-    slack: [ waffle ]
+    shortcodes: [ waffle ]
     en: waffle
     since: "12.0"
     subgroup: food-prepared
@@ -621,7 +621,7 @@ emoji:
       - にゅうせいひん
       - ちーずけーき
       - おつまみ
-    slack: [ cheese_wedge ]
+    shortcodes: [ cheese_wedge ]
     en: cheese wedge
     since: "1.0"
     subgroup: food-prepared
@@ -635,7 +635,7 @@ emoji:
       - まんがにく
       - ほね
       - もも
-    slack: [ meat_on_bone ]
+    shortcodes: [ meat_on_bone ]
     en: meat on bone
     since: "0.6"
     subgroup: food-prepared
@@ -650,7 +650,7 @@ emoji:
       - ふらいどちきん
       - とりにく
       - ほねつきにく
-    slack: [ poultry_leg ]
+    shortcodes: [ poultry_leg ]
     en: poultry leg
     since: "0.6"
     subgroup: food-prepared
@@ -666,7 +666,7 @@ emoji:
       - ぎゅうにく
       - びーふ
       - やきにく
-    slack: [ cut_of_meat ]
+    shortcodes: [ cut_of_meat ]
     en: cut of meat
     since: "5.0"
     subgroup: food-prepared
@@ -677,7 +677,7 @@ emoji:
     readings:
       - べーこん
       - にく
-    slack: [ bacon ]
+    shortcodes: [ bacon ]
     en: bacon
     since: "3.0"
     subgroup: food-prepared
@@ -690,7 +690,7 @@ emoji:
       - ばーがー
       - ふぁすとふーど
       - まっく
-    slack: [ hamburger ]
+    shortcodes: [ hamburger ]
     en: hamburger
     since: "0.6"
     subgroup: food-prepared
@@ -704,7 +704,7 @@ emoji:
       - ふれんちふらい
       - ぽてとふらい
       - ふぁすとふーど
-    slack: [ fries ]
+    shortcodes: [ fries ]
     en: french fries
     since: "0.6"
     subgroup: food-prepared
@@ -716,7 +716,7 @@ emoji:
       - ぴざ
       - ぴっつぁ
       - ぺぱろに
-    slack: [ pizza ]
+    shortcodes: [ pizza ]
     en: pizza
     since: "0.6"
     subgroup: food-prepared
@@ -728,7 +728,7 @@ emoji:
       - ほっとどっぐ
       - そーせーじ
       - ふらんくふると
-    slack: [ hotdog ]
+    shortcodes: [ hotdog ]
     en: hot dog
     since: "1.0"
     subgroup: food-prepared
@@ -740,7 +740,7 @@ emoji:
       - さんどいっち
       - さんど
       - ぱん
-    slack: [ sandwich ]
+    shortcodes: [ sandwich ]
     en: sandwich
     since: "5.0"
     subgroup: food-prepared
@@ -752,7 +752,7 @@ emoji:
       - たこす
       - めきしかん
       - めきしこりょうり
-    slack: [ taco ]
+    shortcodes: [ taco ]
     en: taco
     since: "1.0"
     subgroup: food-prepared
@@ -765,7 +765,7 @@ emoji:
       - らっぷさんど
       - めきしかん
       - めきしこりょうり
-    slack: [ burrito ]
+    shortcodes: [ burrito ]
     en: burrito
     since: "1.0"
     subgroup: food-prepared
@@ -778,7 +778,7 @@ emoji:
       - たまれす
       - ちまき
       - めきしかん
-    slack: [ tamale ]
+    shortcodes: [ tamale ]
     en: tamale
     since: "13.0"
     subgroup: food-prepared
@@ -791,7 +791,7 @@ emoji:
       - けばぶ
       - ぴたぱん
       - らっぷさんど
-    slack: [ stuffed_flatbread ]
+    shortcodes: [ stuffed_flatbread ]
     en: stuffed flatbread
     since: "3.0"
     subgroup: food-prepared
@@ -803,7 +803,7 @@ emoji:
       - ふぁらふぇる
       - ころっけ
       - ひよこまめ
-    slack: [ falafel ]
+    shortcodes: [ falafel ]
     en: falafel
     since: "12.0"
     subgroup: food-prepared
@@ -814,7 +814,7 @@ emoji:
     readings:
       - たまご
       - えっぐ
-    slack: [ egg ]
+    shortcodes: [ egg ]
     en: egg
     since: "3.0"
     subgroup: food-prepared
@@ -829,7 +829,7 @@ emoji:
       - ちょうしょく
       - たまごやき
       - くっきんぐ
-    slack: [ fried_egg, cooking ]
+    shortcodes: [ fried_egg, cooking ]
     en: cooking
     since: "0.6"
     subgroup: food-prepared
@@ -841,7 +841,7 @@ emoji:
       - ぱえりあ
       - ぱえりあなべ
       - しーふーど
-    slack: [ shallow_pan_of_food ]
+    shortcodes: [ shallow_pan_of_food ]
     en: shallow pan of food
     since: "3.0"
     subgroup: food-prepared
@@ -856,7 +856,7 @@ emoji:
       - すーぷ
       - にもの
       - にこみ
-    slack: [ stew ]
+    shortcodes: [ stew ]
     en: pot of food
     since: "0.6"
     subgroup: food-prepared
@@ -869,7 +869,7 @@ emoji:
       - ちーずふぉんでゅ
       - ちょこれーとふぉんでゅ
       - なべ
-    slack: [ fondue ]
+    shortcodes: [ fondue ]
     en: fondue
     since: "13.0"
     subgroup: food-prepared
@@ -884,7 +884,7 @@ emoji:
       - おかゆ
       - かゆ
       - ぼうる
-    slack: [ bowl_with_spoon ]
+    shortcodes: [ bowl_with_spoon ]
     en: bowl with spoon
     since: "5.0"
     subgroup: food-prepared
@@ -896,7 +896,7 @@ emoji:
       - ぐりーんさらだ
       - さらだ
       - やさい
-    slack: [ green_salad ]
+    shortcodes: [ green_salad ]
     en: green salad
     since: "3.0"
     subgroup: food-prepared
@@ -908,7 +908,7 @@ emoji:
       - ぽっぷこーん
       - えいが
       - おかし
-    slack: [ popcorn ]
+    shortcodes: [ popcorn ]
     en: popcorn
     since: "1.0"
     subgroup: food-prepared
@@ -919,7 +919,7 @@ emoji:
     readings:
       - ばたー
       - にゅうせいひん
-    slack: [ butter ]
+    shortcodes: [ butter ]
     en: butter
     since: "12.0"
     subgroup: food-prepared
@@ -934,7 +934,7 @@ emoji:
       - そると
       - しおあじ
       - えんぶん
-    slack: [ salt ]
+    shortcodes: [ salt ]
     en: salt
     since: "11.0"
     subgroup: food-prepared
@@ -948,7 +948,7 @@ emoji:
       - ひじょうしょく
       - かんきり
       - すーぷかん
-    slack: [ canned_food ]
+    shortcodes: [ canned_food ]
     en: canned food
     since: "5.0"
     subgroup: food-prepared
@@ -961,7 +961,7 @@ emoji:
       - べんとうばこ
       - まくのうち
       - えきべん
-    slack: [ bento ]
+    shortcodes: [ bento ]
     en: bento box
     since: "0.6"
     subgroup: food-asian
@@ -973,7 +973,7 @@ emoji:
       - せんべい
       - おせんべい
       - おかし
-    slack: [ rice_cracker ]
+    shortcodes: [ rice_cracker ]
     en: rice cracker
     since: "0.6"
     subgroup: food-asian
@@ -985,7 +985,7 @@ emoji:
       - おにぎり
       - おむすび
       - こめ
-    slack: [ rice_ball ]
+    shortcodes: [ rice_ball ]
     en: rice ball
     since: "0.6"
     subgroup: food-asian
@@ -999,7 +999,7 @@ emoji:
       - こめ
       - はくまい
       - めし
-    slack: [ rice ]
+    shortcodes: [ rice ]
     en: cooked rice
     since: "0.6"
     subgroup: food-asian
@@ -1011,7 +1011,7 @@ emoji:
       - かれーらいす
       - かれー
       - らいす
-    slack: [ curry ]
+    shortcodes: [ curry ]
     en: curry rice
     since: "0.6"
     subgroup: food-asian
@@ -1026,7 +1026,7 @@ emoji:
       - どんぶり
       - そば
       - うどん
-    slack: [ ramen ]
+    shortcodes: [ ramen ]
     en: steaming bowl
     since: "0.6"
     subgroup: food-asian
@@ -1040,7 +1040,7 @@ emoji:
       - すぱげてぃ
       - ぱすた
       - みーとそーす
-    slack: [ spaghetti ]
+    shortcodes: [ spaghetti ]
     en: spaghetti
     since: "0.6"
     subgroup: food-asian
@@ -1052,7 +1052,7 @@ emoji:
       - やきいも
       - さつまいも
       - いも
-    slack: [ sweet_potato ]
+    shortcodes: [ sweet_potato ]
     en: roasted sweet potato
     since: "0.6"
     subgroup: food-asian
@@ -1064,7 +1064,7 @@ emoji:
       - おでん
       - くし
       - ねりもの
-    slack: [ oden ]
+    shortcodes: [ oden ]
     en: oden
     since: "0.6"
     subgroup: food-asian
@@ -1076,7 +1076,7 @@ emoji:
       - すし
       - おすし
       - にぎり
-    slack: [ sushi ]
+    shortcodes: [ sushi ]
     en: sushi
     since: "0.6"
     subgroup: food-asian
@@ -1090,7 +1090,7 @@ emoji:
       - えびてん
       - てんぷら
       - ふらい
-    slack: [ fried_shrimp ]
+    shortcodes: [ fried_shrimp ]
     en: fried shrimp
     since: "0.6"
     subgroup: food-asian
@@ -1103,7 +1103,7 @@ emoji:
       - なるとまき
       - うずまき
       - ねりもの
-    slack: [ fish_cake ]
+    shortcodes: [ fish_cake ]
     en: fish cake with swirl
     since: "0.6"
     subgroup: food-asian
@@ -1115,7 +1115,7 @@ emoji:
       - げっぺい
       - ちゅうかがし
       - ちゅうしゅうせつ
-    slack: [ moon_cake ]
+    shortcodes: [ moon_cake ]
     en: moon cake
     since: "11.0"
     subgroup: food-asian
@@ -1129,7 +1129,7 @@ emoji:
       - わがし
       - くし
       - はなよりだんご
-    slack: [ dango ]
+    shortcodes: [ dango ]
     en: dango
     since: "0.6"
     subgroup: food-asian
@@ -1143,7 +1143,7 @@ emoji:
       - にくまん
       - しょうろんぽう
       - だんぷりんぐ
-    slack: [ dumpling ]
+    shortcodes: [ dumpling ]
     en: dumpling
     since: "5.0"
     subgroup: food-asian
@@ -1154,7 +1154,7 @@ emoji:
     readings:
       - ふぉーちゅんくっきー
       - おみくじ
-    slack: [ fortune_cookie ]
+    shortcodes: [ fortune_cookie ]
     en: fortune cookie
     since: "5.0"
     subgroup: food-asian
@@ -1167,7 +1167,7 @@ emoji:
       - もちかえり
       - ちゅうか
       - でりばりー
-    slack: [ takeout_box ]
+    shortcodes: [ takeout_box ]
     en: takeout box
     since: "5.0"
     subgroup: food-asian
@@ -1179,7 +1179,7 @@ emoji:
       - そふとくりーむ
       - そふと
       - あいす
-    slack: [ icecream ]
+    shortcodes: [ icecream ]
     en: soft ice cream
     since: "0.6"
     subgroup: food-sweet
@@ -1192,7 +1192,7 @@ emoji:
       - かきこおり
       - あいす
       - こおり
-    slack: [ shaved_ice ]
+    shortcodes: [ shaved_ice ]
     en: shaved ice
     since: "0.6"
     subgroup: food-sweet
@@ -1205,7 +1205,7 @@ emoji:
       - あいす
       - でざーと
       - すいーつ
-    slack: [ ice_cream ]
+    shortcodes: [ ice_cream ]
     en: ice cream
     since: "0.6"
     subgroup: food-sweet
@@ -1218,7 +1218,7 @@ emoji:
       - どーなっつ
       - すいーつ
       - おかし
-    slack: [ doughnut ]
+    shortcodes: [ doughnut ]
     en: doughnut
     since: "0.6"
     subgroup: food-sweet
@@ -1230,7 +1230,7 @@ emoji:
       - くっきー
       - びすけっと
       - おかし
-    slack: [ cookie ]
+    shortcodes: [ cookie ]
     en: cookie
     since: "0.6"
     subgroup: food-sweet
@@ -1245,7 +1245,7 @@ emoji:
       - ばーすでー
       - おたんじょうび
       - はっぴーばーすでー
-    slack: [ birthday ]
+    shortcodes: [ birthday ]
     en: birthday cake
     since: "0.6"
     subgroup: food-sweet
@@ -1258,7 +1258,7 @@ emoji:
       - けーき
       - すいーつ
       - でざーと
-    slack: [ cake ]
+    shortcodes: [ cake ]
     en: shortcake
     since: "0.6"
     subgroup: food-sweet
@@ -1270,7 +1270,7 @@ emoji:
       - かっぷけーき
       - けーき
       - おかし
-    slack: [ cupcake ]
+    shortcodes: [ cupcake ]
     en: cupcake
     since: "11.0"
     subgroup: food-sweet
@@ -1283,7 +1283,7 @@ emoji:
       - あっぷるぱい
       - たると
       - みーとぱい
-    slack: [ pie ]
+    shortcodes: [ pie ]
     en: pie
     since: "5.0"
     subgroup: food-sweet
@@ -1296,7 +1296,7 @@ emoji:
       - ちょこ
       - いたちょこ
       - ばれんたいん
-    slack: [ chocolate_bar ]
+    shortcodes: [ chocolate_bar ]
     en: chocolate bar
     since: "0.6"
     subgroup: food-sweet
@@ -1309,7 +1309,7 @@ emoji:
       - きゃんでぃー
       - あめ
       - おかし
-    slack: [ candy ]
+    shortcodes: [ candy ]
     en: candy
     since: "0.6"
     subgroup: food-sweet
@@ -1323,7 +1323,7 @@ emoji:
       - ぼうつきあめ
       - ろりぽっぷ
       - あめ
-    slack: [ lollipop ]
+    shortcodes: [ lollipop ]
     en: lollipop
     since: "0.6"
     subgroup: food-sweet
@@ -1335,7 +1335,7 @@ emoji:
       - ぷりん
       - かすたーど
       - ぷでぃんぐ
-    slack: [ custard ]
+    shortcodes: [ custard ]
     en: custard
     since: "0.6"
     subgroup: food-sweet
@@ -1346,7 +1346,7 @@ emoji:
     readings:
       - はちみつ
       - はにー
-    slack: [ honey_pot ]
+    shortcodes: [ honey_pot ]
     en: honey pot
     since: "0.6"
     subgroup: food-sweet
@@ -1358,7 +1358,7 @@ emoji:
       - ほにゅうびん
       - みるく
       - あかちゃん
-    slack: [ baby_bottle ]
+    shortcodes: [ baby_bottle ]
     en: baby bottle
     since: "1.0"
     subgroup: drink
@@ -1370,7 +1370,7 @@ emoji:
       - ぎゅうにゅう
       - みるく
       - こっぷ
-    slack: [ glass_of_milk ]
+    shortcodes: [ glass_of_milk ]
     en: glass of milk
     since: "3.0"
     subgroup: drink
@@ -1385,7 +1385,7 @@ emoji:
       - こうちゃ
       - ほっと
       - ほっとどりんく
-    slack: [ coffee ]
+    shortcodes: [ coffee ]
     en: hot beverage
     since: "0.6"
     subgroup: drink
@@ -1397,7 +1397,7 @@ emoji:
       - てぃーぽっと
       - きゅうす
       - おちゃ
-    slack: [ teapot ]
+    shortcodes: [ teapot ]
     en: teapot
     since: "13.0"
     subgroup: drink
@@ -1410,7 +1410,7 @@ emoji:
       - おちゃ
       - りょくちゃ
       - ちゃ
-    slack: [ tea ]
+    shortcodes: [ tea ]
     en: teacup without handle
     since: "0.6"
     subgroup: drink
@@ -1423,7 +1423,7 @@ emoji:
       - にほんしゅ
       - さけ
       - おちょこ
-    slack: [ sake ]
+    shortcodes: [ sake ]
     en: sake
     since: "0.6"
     subgroup: drink
@@ -1436,7 +1436,7 @@ emoji:
       - しゃんぺん
       - すぱーくりんぐわいん
       - ぼとる
-    slack: [ champagne ]
+    shortcodes: [ champagne ]
     en: bottle with popping cork
     since: "1.0"
     subgroup: drink
@@ -1448,7 +1448,7 @@ emoji:
       - わいんぐらす
       - わいん
       - おさけ
-    slack: [ wine_glass ]
+    shortcodes: [ wine_glass ]
     en: wine glass
     since: "0.6"
     subgroup: drink
@@ -1461,7 +1461,7 @@ emoji:
       - かくてる
       - まてぃーに
       - ばー
-    slack: [ cocktail ]
+    shortcodes: [ cocktail ]
     en: cocktail glass
     since: "0.6"
     subgroup: drink
@@ -1473,7 +1473,7 @@ emoji:
       - とろぴかるどりんく
       - とろぴかる
       - かくてる
-    slack: [ tropical_drink ]
+    shortcodes: [ tropical_drink ]
     en: tropical drink
     since: "0.6"
     subgroup: drink
@@ -1487,7 +1487,7 @@ emoji:
       - じょっき
       - なまびー
       - いざかや
-    slack: [ beer ]
+    shortcodes: [ beer ]
     en: beer mug
     since: "0.6"
     subgroup: drink
@@ -1501,7 +1501,7 @@ emoji:
       - びーる
       - のみかい
       - えんかい
-    slack: [ beers ]
+    shortcodes: [ beers ]
     en: clinking beer mugs
     since: "0.6"
     subgroup: drink
@@ -1514,7 +1514,7 @@ emoji:
       - かんぱい
       - しゃんぱん
       - おいわい
-    slack: [ clinking_glasses ]
+    shortcodes: [ clinking_glasses ]
     en: clinking glasses
     since: "3.0"
     subgroup: drink
@@ -1528,7 +1528,7 @@ emoji:
       - ういすきー
       - ろっく
       - はいぼーる
-    slack: [ tumbler_glass ]
+    shortcodes: [ tumbler_glass ]
     en: tumbler glass
     since: "3.0"
     subgroup: drink
@@ -1542,7 +1542,7 @@ emoji:
       - こぼす
       - こぼれる
       - えきたい
-    slack: [ pouring_liquid ]
+    shortcodes: [ pouring_liquid ]
     en: pouring liquid
     since: "14.0"
     subgroup: drink
@@ -1555,7 +1555,7 @@ emoji:
       - じゅーす
       - そーだ
       - そふとどりんく
-    slack: [ cup_with_straw ]
+    shortcodes: [ cup_with_straw ]
     en: cup with straw
     since: "5.0"
     subgroup: drink
@@ -1568,7 +1568,7 @@ emoji:
       - たぴおか
       - ばぶるてぃー
       - みるくてぃー
-    slack: [ bubble_tea ]
+    shortcodes: [ bubble_tea ]
     en: bubble tea
     since: "13.0"
     subgroup: drink
@@ -1580,7 +1580,7 @@ emoji:
       - かみぱっくいんりょう
       - じゅーす
       - かみぱっく
-    slack: [ beverage_box ]
+    shortcodes: [ beverage_box ]
     en: beverage box
     since: "12.0"
     subgroup: drink
@@ -1591,7 +1591,7 @@ emoji:
     readings:
       - まてちゃ
       - まて
-    slack: [ mate_drink ]
+    shortcodes: [ mate_drink ]
     en: mate
     since: "12.0"
     subgroup: drink
@@ -1603,7 +1603,7 @@ emoji:
       - かくごおり
       - こおり
       - あいす
-    slack: [ ice_cube ]
+    shortcodes: [ ice_cube ]
     en: ice
     since: "12.0"
     subgroup: drink
@@ -1614,7 +1614,7 @@ emoji:
     readings:
       - はし
       - おはし
-    slack: [ chopsticks ]
+    shortcodes: [ chopsticks ]
     en: chopsticks
     since: "5.0"
     subgroup: dishware
@@ -1626,7 +1626,7 @@ emoji:
       - ないふとふぉーくとさら
       - しょっき
       - でぃなー
-    slack: [ knife_fork_plate ]
+    shortcodes: [ knife_fork_plate ]
     en: fork and knife with plate
     since: "0.7"
     subgroup: dishware
@@ -1639,7 +1639,7 @@ emoji:
       - しょくじ
       - れすとらん
       - かとらりー
-    slack: [ fork_and_knife ]
+    shortcodes: [ fork_and_knife ]
     en: fork and knife
     since: "0.6"
     subgroup: dishware
@@ -1650,7 +1650,7 @@ emoji:
     readings:
       - すぷーん
       - さじ
-    slack: [ spoon ]
+    shortcodes: [ spoon ]
     en: spoon
     since: "3.0"
     subgroup: dishware
@@ -1661,7 +1661,7 @@ emoji:
     readings:
       - ほうちょう
       - ないふ
-    slack: [ hocho, knife ]
+    shortcodes: [ hocho, knife ]
     en: kitchen knife
     since: "0.6"
     subgroup: dishware
@@ -1674,7 +1674,7 @@ emoji:
       - じゃー
       - ようき
       - あきびん
-    slack: [ jar ]
+    shortcodes: [ jar ]
     en: jar
     since: "14.0"
     subgroup: dishware
@@ -1689,7 +1689,7 @@ emoji:
       - みずがめ
       - みずがめざ
       - どき
-    slack: [ amphora ]
+    shortcodes: [ amphora ]
     en: amphora
     since: "1.0"
     subgroup: dishware

@@ -1,9 +1,9 @@
 # SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
-#   name:     annotation shown in SKK (Japanese name; no "/" or ";")
-#   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
-#   slack:    Slack-style short names (":thumbsup:" without colons), registered as headwords.
-#             Refreshed from iamcal/emoji-data; hand-written names are kept only while emoji-data has none
-#   review:   true if added automatically by the update task; remove after checking the readings
+#   name:       annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings:   SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   shortcodes: emoji shortcodes (":thumbsup:" without colons), registered as headwords.
+#               Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
+#   review:     true if added automatically by the update task; remove after checking the readings
 # Other fields are refreshed from Unicode/CLDR by the update task.
 
 group: Component
@@ -16,7 +16,7 @@ emoji:
       - はだいろ
       - はだのいろ
       - すきんとーん
-    slack: [ skin-tone-2 ]
+    shortcodes: [ skin-tone-2 ]
     en: light skin tone
     since: "1.0"
     subgroup: skin-tone
@@ -29,7 +29,7 @@ emoji:
       - はだいろ
       - はだのいろ
       - すきんとーん
-    slack: [ skin-tone-3 ]
+    shortcodes: [ skin-tone-3 ]
     en: medium-light skin tone
     since: "1.0"
     subgroup: skin-tone
@@ -42,7 +42,7 @@ emoji:
       - はだいろ
       - はだのいろ
       - すきんとーん
-    slack: [ skin-tone-4 ]
+    shortcodes: [ skin-tone-4 ]
     en: medium skin tone
     since: "1.0"
     subgroup: skin-tone
@@ -55,7 +55,7 @@ emoji:
       - はだいろ
       - はだのいろ
       - すきんとーん
-    slack: [ skin-tone-5 ]
+    shortcodes: [ skin-tone-5 ]
     en: medium-dark skin tone
     since: "1.0"
     subgroup: skin-tone
@@ -68,7 +68,7 @@ emoji:
       - はだいろ
       - はだのいろ
       - すきんとーん
-    slack: [ skin-tone-6 ]
+    shortcodes: [ skin-tone-6 ]
     en: dark skin tone
     since: "1.0"
     subgroup: skin-tone

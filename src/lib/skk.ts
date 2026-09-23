@@ -2,7 +2,7 @@
 import { codeToEmoji, skinToneLabel } from "./emoji-test.ts";
 import { compareBytes, encodeEucJp, isEucJpEncodable } from "./eucjp.ts";
 import { expandVu, isValidReading } from "./kana.ts";
-import { VALID_SLACK_NAME } from "./slack.ts";
+import { VALID_SHORTCODE } from "./shortcode.ts";
 import type { GroupData, Meta } from "./store.ts";
 
 export interface Candidate {
@@ -53,14 +53,14 @@ export function collect(groups: GroupData[]): Dictionary {
         for (const v of expandVu(r)) if (!readings.includes(v)) readings.push(v);
       }
       if (readings.length === 0) warnings.push(`no readings: ${base.emoji} ${e.code} ${e.en}`);
-      const slack = (e.slack ?? []).filter((s) => {
-        const ok = VALID_SLACK_NAME.test(s);
-        if (!ok) warnings.push(`invalid slack name ${JSON.stringify(s)}: ${base.emoji} ${e.code} ${e.en}`);
+      const shortcodes = (e.shortcodes ?? []).filter((s) => {
+        const ok = VALID_SHORTCODE.test(s);
+        if (!ok) warnings.push(`invalid shortcode ${JSON.stringify(s)}: ${base.emoji} ${e.code} ${e.en}`);
         return ok;
       });
-      // A Slack short name identifies exactly one emoji, so it outranks every reading.
+      // A shortcode identifies exactly one emoji, so it outranks every reading.
       const headwords = new Map<string, number>(readings.map((r, rank) => [r, rank]));
-      for (const s of slack) headwords.set(s, -1);
+      for (const s of shortcodes) headwords.set(s, -1);
       for (const [r, rank] of headwords) {
         const list = hits.get(r) ?? [];
         list.push({ rank, order, base, variants });

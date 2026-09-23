@@ -12,8 +12,8 @@ export interface EmojiEntry {
   name: string;
   /** SKK readings, most important first. */
   readings: string[];
-  /** Slack-style short names without colons (from iamcal/emoji-data), e.g. "thumbsup". Ranked first for their headword. */
-  slack?: string[];
+  /** Emoji shortcodes without colons (from iamcal/emoji-data), e.g. "thumbsup". Ranked first for their headword. */
+  shortcodes?: string[];
   /** Unicode English name. */
   en: string;
   /** Emoji version the sequence was introduced in. */
@@ -42,7 +42,7 @@ const KEY_ORDER: (keyof EmojiEntry)[] = [
   "code",
   "name",
   "readings",
-  "slack",
+  "shortcodes",
   "en",
   "since",
   "subgroup",
@@ -52,11 +52,11 @@ const KEY_ORDER: (keyof EmojiEntry)[] = [
 ];
 
 const FILE_HEADER = ` SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
-   name:     annotation shown in SKK (Japanese name; no "/" or ";")
-   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
-   slack:    Slack-style short names (":thumbsup:" without colons), registered as headwords.
-             Refreshed from iamcal/emoji-data; hand-written names are kept only while emoji-data has none
-   review:   true if added automatically by the update task; remove after checking the readings
+   name:       annotation shown in SKK (Japanese name; no "/" or ";")
+   readings:   SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+   shortcodes: emoji shortcodes (":thumbsup:" without colons), registered as headwords.
+               Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
+   review:     true if added automatically by the update task; remove after checking the readings
  Other fields are refreshed from Unicode/CLDR by the update task.`;
 
 export function groupSlug(group: string): string {
@@ -106,7 +106,9 @@ function toYaml(group: GroupData): string {
   visit(doc, {
     Pair(_, pair) {
       const key = (pair.key as { value?: unknown })?.value;
-      if ((key === "keywords" || key === "variants" || key === "slack") && isSeq(pair.value)) pair.value.flow = true;
+      if ((key === "keywords" || key === "variants" || key === "shortcodes") && isSeq(pair.value)) {
+        pair.value.flow = true;
+      }
     },
     Map(_, map) {
       if (isMap(map)) map.flow = false;

@@ -24,7 +24,7 @@ AquaSKK、macSKK、libskk、fcitx5-skk などでは UTF-8 版を使ってくだ�
 ありがとう → 🙏 🫂 …
 にほん    → 🇯🇵 🗾 🎌
 てをふる  → 👋 👋🏻 👋🏼 …
-thumbsup  → 👍 👍🏻 …   （Slack 形式の名前。abbrev モードで入力する）
+thumbsup  → 👍 👍🏻 …   （ショートコード。abbrev モードで入力する）
 +1        → 👍 …
 ```
 
@@ -32,9 +32,9 @@ thumbsup  → 👍 👍🏻 …   （Slack 形式の名前。abbrev モードで
 - 候補の注釈は日本語名です。
 - 肌の色違いは、元の絵文字の後ろにまとめて並べています（例「手を振る（薄い肌色）」）。
 - 「ゔ」を含む読みには、「ぶ」表記の読みも自動で追加します。
-- Slack 形式の名前（`:thumbsup:` の前後のコロンを除いたもの）も見出し語として登録しています。
+- 絵文字のショートコード（Slack や GitHub などで使われる `:thumbsup:` 形式。前後のコロンは除く）も見出し語として登録しています。
   - DDSKK では abbrev モード（`/` で入る）で入力します。
-  - その名前に対応する絵文字が、候補の先頭に来ます。
+  - そのショートコードに対応する絵文字が、候補の先頭に来ます。
 
 ## 設定例 (DDSKK)
 
@@ -71,7 +71,7 @@ YAML の 1 件は次の形式です。
       - てをふる
       - ばいばい
       - またね
-    slack: [ wave ]          # Slack 形式の名前（コロンなし）。これも見出し語になる
+    shortcodes: [ wave ]     # ショートコード（コロンなし）。これも見出し語になる
     en: waving hand          # 以下は update で自動更新される
     since: "0.6"
     subgroup: hand-fingers-open
@@ -82,10 +82,10 @@ YAML の 1 件は次の形式です。
 手で編集するのは `name` と `readings` だけです。
 それ以外の項目は `update` を実行すると上書きされます。
 
-`slack` は [iamcal/emoji-data](https://github.com/iamcal/emoji-data)（Slack が使っている絵文字データ）から取得します。
+`shortcodes` は [iamcal/emoji-data](https://github.com/iamcal/emoji-data)（Slack などが使っている絵文字データ）から取得します。
 emoji-data は Unicode の新しい版への対応が遅れることがあります。
-emoji-data に名前がない絵文字に限り、手で書いた `slack` を `update` 後も残します。
-2026 年 9 月時点では、emoji-data が Emoji 17.0 までの対応のため、Emoji 18.0 で追加された 9 件には Slack 形式の名前がありません。
+emoji-data に名前がない絵文字に限り、手で書いた `shortcodes` を `update` 後も残します。
+2026 年 9 月時点では、emoji-data が Emoji 17.0 までの対応のため、Emoji 18.0 で追加された 9 件にはショートコードがありません。
 
 ### 読みの付け方
 
@@ -140,7 +140,7 @@ npm test
 | `--offline` | `data/sources/` にキャッシュ済みのファイルを使う |
 | `--cldr-ref <ref>` | 参照する CLDR の git ref を指定する（既定は `data/meta.yaml` の値。現在は `main`） |
 | `--emoji-url <url>` | `emoji-test.txt` の取得元を指定する |
-| `--emoji-data-url <url>` | Slack 形式の名前を取得する `emoji.json` の取得元を指定する |
+| `--emoji-data-url <url>` | ショートコードを取得する `emoji.json` の取得元を指定する |
 
 ## CI / リリース
 
@@ -159,7 +159,7 @@ git push origin v1.0.0
 ## データの出典
 
 - 絵文字一覧: [emoji-test.txt](https://unicode.org/Public/emoji/latest/emoji-test.txt)
-- Slack 形式の名前: [iamcal/emoji-data](https://github.com/iamcal/emoji-data)（MIT License）
+- ショートコード: [iamcal/emoji-data](https://github.com/iamcal/emoji-data)（MIT License）
 - 日本語名とキーワード: [Unicode CLDR](https://github.com/unicode-org/cldr) の `annotations/ja.xml` と `annotationsDerived/ja.xml`
 
 ## 謝辞

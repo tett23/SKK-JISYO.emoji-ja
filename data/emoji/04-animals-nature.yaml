@@ -1,9 +1,9 @@
 # SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
-#   name:     annotation shown in SKK (Japanese name; no "/" or ";")
-#   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
-#   slack:    Slack-style short names (":thumbsup:" without colons), registered as headwords.
-#             Refreshed from iamcal/emoji-data; hand-written names are kept only while emoji-data has none
-#   review:   true if added automatically by the update task; remove after checking the readings
+#   name:       annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings:   SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   shortcodes: emoji shortcodes (":thumbsup:" without colons), registered as headwords.
+#               Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
+#   review:     true if added automatically by the update task; remove after checking the readings
 # Other fields are refreshed from Unicode/CLDR by the update task.
 
 group: Animals & Nature
@@ -18,7 +18,7 @@ emoji:
       - もんきー
       - みざる
       - さるかお
-    slack: [ monkey_face ]
+    shortcodes: [ monkey_face ]
     en: monkey face
     since: "0.6"
     subgroup: animal-mammal
@@ -32,7 +32,7 @@ emoji:
       - もんきー
       - にほんざる
       - さるまね
-    slack: [ monkey ]
+    shortcodes: [ monkey ]
     en: monkey
     since: "0.6"
     subgroup: animal-mammal
@@ -46,7 +46,7 @@ emoji:
       - うほ
       - うほうほ
       - ごりおし
-    slack: [ gorilla ]
+    shortcodes: [ gorilla ]
     en: gorilla
     since: "3.0"
     subgroup: animal-mammal
@@ -59,7 +59,7 @@ emoji:
       - さる
       - もりのひと
       - るいじんえん
-    slack: [ orangutan ]
+    shortcodes: [ orangutan ]
     en: orangutan
     since: "12.0"
     subgroup: animal-mammal
@@ -76,7 +76,7 @@ emoji:
       - どっぐ
       - わんわん
       - ぺっと
-    slack: [ dog ]
+    shortcodes: [ dog ]
     en: dog face
     since: "0.6"
     subgroup: animal-mammal
@@ -91,7 +91,7 @@ emoji:
       - どっぐ
       - しばいぬ
       - ぺっと
-    slack: [ dog2 ]
+    shortcodes: [ dog2 ]
     en: dog
     since: "0.7"
     subgroup: animal-mammal
@@ -105,7 +105,7 @@ emoji:
       - がいどどっぐ
       - いぬ
       - あくせしびりてぃ
-    slack: [ guide_dog ]
+    shortcodes: [ guide_dog ]
     en: guide dog
     since: "12.0"
     subgroup: animal-mammal
@@ -119,7 +119,7 @@ emoji:
       - さーびすどっぐ
       - いぬ
       - あくせしびりてぃ
-    slack: [ service_dog ]
+    shortcodes: [ service_dog ]
     en: service dog
     since: "12.0"
     subgroup: animal-mammal
@@ -133,7 +133,7 @@ emoji:
       - といぷー
       - いぬ
       - ぺっと
-    slack: [ poodle ]
+    shortcodes: [ poodle ]
     en: poodle
     since: "0.6"
     subgroup: animal-mammal
@@ -148,7 +148,7 @@ emoji:
       - じんろう
       - おおかみおとこ
       - とおぼえ
-    slack: [ wolf ]
+    shortcodes: [ wolf ]
     en: wolf
     since: "0.6"
     subgroup: animal-mammal
@@ -163,7 +163,7 @@ emoji:
       - こんこん
       - おいなりさん
       - きつねがお
-    slack: [ fox_face ]
+    shortcodes: [ fox_face ]
     en: fox
     since: "3.0"
     subgroup: animal-mammal
@@ -176,7 +176,7 @@ emoji:
       - らくーん
       - たぬき
       - どうぶつ
-    slack: [ raccoon ]
+    shortcodes: [ raccoon ]
     en: raccoon
     since: "11.0"
     subgroup: animal-mammal
@@ -192,7 +192,7 @@ emoji:
       - こねこ
       - きゃっと
       - ぺっと
-    slack: [ cat ]
+    shortcodes: [ cat ]
     en: cat face
     since: "0.6"
     subgroup: animal-mammal
@@ -206,7 +206,7 @@ emoji:
       - にゃー
       - きゃっと
       - ぺっと
-    slack: [ cat2 ]
+    shortcodes: [ cat2 ]
     en: cat
     since: "0.7"
     subgroup: animal-mammal
@@ -220,7 +220,7 @@ emoji:
       - ぶらっくきゃっと
       - ふきつ
       - にゃんこ
-    slack: [ black_cat ]
+    shortcodes: [ black_cat ]
     en: black cat
     since: "13.0"
     subgroup: animal-mammal
@@ -234,7 +234,7 @@ emoji:
       - しし
       - ししざ
       - ひゃくじゅうのおう
-    slack: [ lion_face ]
+    shortcodes: [ lion_face ]
     en: lion
     since: "1.0"
     subgroup: animal-mammal
@@ -247,7 +247,7 @@ emoji:
       - とら
       - たいがー
       - こどら
-    slack: [ tiger ]
+    shortcodes: [ tiger ]
     en: tiger face
     since: "0.6"
     subgroup: animal-mammal
@@ -259,7 +259,7 @@ emoji:
       - とら
       - たいがー
       - もうじゅう
-    slack: [ tiger2 ]
+    shortcodes: [ tiger2 ]
     en: tiger
     since: "1.0"
     subgroup: animal-mammal
@@ -272,7 +272,7 @@ emoji:
       - れおぱーど
       - ちーたー
       - じゃがー
-    slack: [ leopard ]
+    shortcodes: [ leopard ]
     en: leopard
     since: "1.0"
     subgroup: animal-mammal
@@ -285,7 +285,7 @@ emoji:
       - うま
       - ほーす
       - ひひーん
-    slack: [ horse ]
+    shortcodes: [ horse ]
     en: horse face
     since: "0.6"
     subgroup: animal-mammal
@@ -299,7 +299,7 @@ emoji:
       - えるく
       - しか
       - おおじか
-    slack: [ moose ]
+    shortcodes: [ moose ]
     en: moose
     since: "15.0"
     subgroup: animal-mammal
@@ -311,7 +311,7 @@ emoji:
       - ろば
       - どんきー
       - らば
-    slack: [ donkey ]
+    shortcodes: [ donkey ]
     en: donkey
     since: "15.0"
     subgroup: animal-mammal
@@ -326,7 +326,7 @@ emoji:
       - ほーす
       - きょうそうば
       - だーびー
-    slack: [ racehorse ]
+    shortcodes: [ racehorse ]
     en: horse
     since: "0.6"
     subgroup: animal-mammal
@@ -339,7 +339,7 @@ emoji:
       - ゆにこーん
       - いっかくじゅう
       - ゆめかわ
-    slack: [ unicorn_face ]
+    shortcodes: [ unicorn_face ]
     en: unicorn
     since: "1.0"
     subgroup: animal-mammal
@@ -351,7 +351,7 @@ emoji:
       - しまうま
       - ぜぶら
       - しましま
-    slack: [ zebra_face ]
+    shortcodes: [ zebra_face ]
     en: zebra
     since: "5.0"
     subgroup: animal-mammal
@@ -364,7 +364,7 @@ emoji:
       - でぃあ
       - となかい
       - ばんび
-    slack: [ deer ]
+    shortcodes: [ deer ]
     en: deer
     since: "3.0"
     subgroup: animal-mammal
@@ -376,7 +376,7 @@ emoji:
       - ばいそん
       - ばっふぁろー
       - やぎゅう
-    slack: [ bison ]
+    shortcodes: [ bison ]
     en: bison
     since: "13.0"
     subgroup: animal-mammal
@@ -389,7 +389,7 @@ emoji:
       - うし
       - もー
       - かう
-    slack: [ cow ]
+    shortcodes: [ cow ]
     en: cow face
     since: "0.6"
     subgroup: animal-mammal
@@ -402,7 +402,7 @@ emoji:
       - うし
       - おうしざ
       - おっくす
-    slack: [ ox ]
+    shortcodes: [ ox ]
     en: ox
     since: "1.0"
     subgroup: animal-mammal
@@ -414,7 +414,7 @@ emoji:
       - すいぎゅう
       - うし
       - ばっふぁろー
-    slack: [ water_buffalo ]
+    shortcodes: [ water_buffalo ]
     en: water buffalo
     since: "1.0"
     subgroup: animal-mammal
@@ -428,7 +428,7 @@ emoji:
       - にゅうぎゅう
       - かう
       - もー
-    slack: [ cow2 ]
+    shortcodes: [ cow2 ]
     en: cow
     since: "1.0"
     subgroup: animal-mammal
@@ -441,7 +441,7 @@ emoji:
       - ぶた
       - ぶーぶー
       - ぴっぐ
-    slack: [ pig ]
+    shortcodes: [ pig ]
     en: pig face
     since: "0.6"
     subgroup: animal-mammal
@@ -454,7 +454,7 @@ emoji:
       - ぴっぐ
       - ぽーく
       - ぶーぶー
-    slack: [ pig2 ]
+    shortcodes: [ pig2 ]
     en: pig
     since: "1.0"
     subgroup: animal-mammal
@@ -467,7 +467,7 @@ emoji:
       - しし
       - ぼあ
       - うりぼう
-    slack: [ boar ]
+    shortcodes: [ boar ]
     en: boar
     since: "0.6"
     subgroup: animal-mammal
@@ -480,7 +480,7 @@ emoji:
       - ぶた
       - はな
       - ぶひ
-    slack: [ pig_nose ]
+    shortcodes: [ pig_nose ]
     en: pig nose
     since: "0.6"
     subgroup: animal-mammal
@@ -493,7 +493,7 @@ emoji:
       - ひつじ
       - おひつじざ
       - らむ
-    slack: [ ram ]
+    shortcodes: [ ram ]
     en: ram
     since: "1.0"
     subgroup: animal-mammal
@@ -507,7 +507,7 @@ emoji:
       - うーる
       - ようもう
       - しーぷ
-    slack: [ sheep ]
+    shortcodes: [ sheep ]
     en: ewe
     since: "0.6"
     subgroup: animal-mammal
@@ -520,7 +520,7 @@ emoji:
       - やぎざ
       - ごーと
       - めえ
-    slack: [ goat ]
+    shortcodes: [ goat ]
     en: goat
     since: "1.0"
     subgroup: animal-mammal
@@ -533,7 +533,7 @@ emoji:
       - ひとこぶらくだ
       - きゃめる
       - さばく
-    slack: [ dromedary_camel ]
+    shortcodes: [ dromedary_camel ]
     en: camel
     since: "1.0"
     subgroup: animal-mammal
@@ -546,7 +546,7 @@ emoji:
       - らくだ
       - こぶ
       - さばく
-    slack: [ camel ]
+    shortcodes: [ camel ]
     en: two-hump camel
     since: "0.6"
     subgroup: animal-mammal
@@ -558,7 +558,7 @@ emoji:
       - らま
       - あるぱか
       - りゃま
-    slack: [ llama ]
+    shortcodes: [ llama ]
     en: llama
     since: "11.0"
     subgroup: animal-mammal
@@ -569,7 +569,7 @@ emoji:
     readings:
       - きりん
       - じらふ
-    slack: [ giraffe_face ]
+    shortcodes: [ giraffe_face ]
     en: giraffe
     since: "5.0"
     subgroup: animal-mammal
@@ -581,7 +581,7 @@ emoji:
       - ぞう
       - えれふぁんと
       - ぱおーん
-    slack: [ elephant ]
+    shortcodes: [ elephant ]
     en: elephant
     since: "0.6"
     subgroup: animal-mammal
@@ -593,7 +593,7 @@ emoji:
       - まんもす
       - ぜつめつ
       - きば
-    slack: [ mammoth ]
+    shortcodes: [ mammoth ]
     en: mammoth
     since: "13.0"
     subgroup: animal-mammal
@@ -604,7 +604,7 @@ emoji:
     readings:
       - さい
       - らいの
-    slack: [ rhinoceros ]
+    shortcodes: [ rhinoceros ]
     en: rhinoceros
     since: "3.0"
     subgroup: animal-mammal
@@ -615,7 +615,7 @@ emoji:
     readings:
       - かば
       - ひぽ
-    slack: [ hippopotamus ]
+    shortcodes: [ hippopotamus ]
     en: hippopotamus
     since: "11.0"
     subgroup: animal-mammal
@@ -628,7 +628,7 @@ emoji:
       - ねずみ
       - ちゅー
       - まうす
-    slack: [ mouse ]
+    shortcodes: [ mouse ]
     en: mouse face
     since: "0.6"
     subgroup: animal-mammal
@@ -641,7 +641,7 @@ emoji:
       - ねずみ
       - まうす
       - ちゅー
-    slack: [ mouse2 ]
+    shortcodes: [ mouse2 ]
     en: mouse
     since: "1.0"
     subgroup: animal-mammal
@@ -654,7 +654,7 @@ emoji:
       - らっと
       - どぶねずみ
       - ちゅー
-    slack: [ rat ]
+    shortcodes: [ rat ]
     en: rat
     since: "1.0"
     subgroup: animal-mammal
@@ -667,7 +667,7 @@ emoji:
       - はむすたー
       - はむ
       - はむちゃん
-    slack: [ hamster ]
+    shortcodes: [ hamster ]
     en: hamster
     since: "0.6"
     subgroup: animal-mammal
@@ -681,7 +681,7 @@ emoji:
       - うさちゃん
       - らびっと
       - ばにー
-    slack: [ rabbit ]
+    shortcodes: [ rabbit ]
     en: rabbit face
     since: "0.6"
     subgroup: animal-mammal
@@ -694,7 +694,7 @@ emoji:
       - らびっと
       - ばにー
       - うさちゃん
-    slack: [ rabbit2 ]
+    shortcodes: [ rabbit2 ]
     en: rabbit
     since: "1.0"
     subgroup: animal-mammal
@@ -706,7 +706,7 @@ emoji:
       - りす
       - しまりす
       - ちっぷまんく
-    slack: [ chipmunk ]
+    shortcodes: [ chipmunk ]
     en: chipmunk
     since: "0.7"
     subgroup: animal-mammal
@@ -717,7 +717,7 @@ emoji:
     readings:
       - びーばー
       - だむ
-    slack: [ beaver ]
+    shortcodes: [ beaver ]
     en: beaver
     since: "13.0"
     subgroup: animal-mammal
@@ -730,7 +730,7 @@ emoji:
       - やまあらし
       - へっじほっぐ
       - とげ
-    slack: [ hedgehog ]
+    shortcodes: [ hedgehog ]
     en: hedgehog
     since: "5.0"
     subgroup: animal-mammal
@@ -743,7 +743,7 @@ emoji:
       - ばっと
       - きゅうけつき
       - ばんぱいあ
-    slack: [ bat ]
+    shortcodes: [ bat ]
     en: bat
     since: "3.0"
     subgroup: animal-mammal
@@ -756,7 +756,7 @@ emoji:
       - くま
       - べあ
       - くまさん
-    slack: [ bear ]
+    shortcodes: [ bear ]
     en: bear
     since: "0.6"
     subgroup: animal-mammal
@@ -769,7 +769,7 @@ emoji:
       - ほっきょくぐま
       - くま
       - ぽーらーべあ
-    slack: [ polar_bear ]
+    shortcodes: [ polar_bear ]
     en: polar bear
     since: "13.0"
     subgroup: animal-mammal
@@ -780,7 +780,7 @@ emoji:
     readings:
       - こあら
       - おーすとらりあ
-    slack: [ koala ]
+    shortcodes: [ koala ]
     en: koala
     since: "0.6"
     subgroup: animal-mammal
@@ -792,7 +792,7 @@ emoji:
       - ぱんだのかお
       - ぱんだ
       - じゃいあんとぱんだ
-    slack: [ panda_face ]
+    shortcodes: [ panda_face ]
     en: panda
     since: "0.6"
     subgroup: animal-mammal
@@ -805,7 +805,7 @@ emoji:
       - のんびり
       - ものぐさ
       - すろーす
-    slack: [ sloth ]
+    shortcodes: [ sloth ]
     en: sloth
     since: "12.0"
     subgroup: animal-mammal
@@ -817,7 +817,7 @@ emoji:
       - かわうそ
       - らっこ
       - おったー
-    slack: [ otter ]
+    shortcodes: [ otter ]
     en: otter
     since: "12.0"
     subgroup: animal-mammal
@@ -829,7 +829,7 @@ emoji:
       - すかんく
       - くさい
       - あくしゅう
-    slack: [ skunk ]
+    shortcodes: [ skunk ]
     en: skunk
     since: "12.0"
     subgroup: animal-mammal
@@ -842,7 +842,7 @@ emoji:
       - おーすとらりあ
       - ゆうたいるい
       - じゃんぷ
-    slack: [ kangaroo ]
+    shortcodes: [ kangaroo ]
     en: kangaroo
     since: "11.0"
     subgroup: animal-mammal
@@ -855,7 +855,7 @@ emoji:
       - みつあなぐま
       - らーてる
       - ばじゃー
-    slack: [ badger ]
+    shortcodes: [ badger ]
     en: badger
     since: "11.0"
     subgroup: animal-mammal
@@ -869,7 +869,7 @@ emoji:
       - ぷにぷに
       - いぬ
       - ねこ
-    slack: [ feet, paw_prints ]
+    shortcodes: [ feet, paw_prints ]
     en: paw prints
     since: "0.6"
     subgroup: animal-mammal
@@ -881,7 +881,7 @@ emoji:
       - しちめんちょう
       - たーきー
       - かんしゃさい
-    slack: [ turkey ]
+    shortcodes: [ turkey ]
     en: turkey
     since: "1.0"
     subgroup: animal-bird
@@ -894,7 +894,7 @@ emoji:
       - ちきん
       - とり
       - こけこっこー
-    slack: [ chicken ]
+    shortcodes: [ chicken ]
     en: chicken
     since: "0.6"
     subgroup: animal-bird
@@ -907,7 +907,7 @@ emoji:
       - にわとり
       - こけこっこー
       - とり
-    slack: [ rooster ]
+    shortcodes: [ rooster ]
     en: rooster
     since: "1.0"
     subgroup: animal-bird
@@ -922,7 +922,7 @@ emoji:
       - うまれた
       - たんじょう
       - ひな
-    slack: [ hatching_chick ]
+    shortcodes: [ hatching_chick ]
     en: hatching chick
     since: "0.6"
     subgroup: animal-bird
@@ -935,7 +935,7 @@ emoji:
       - ひな
       - ぴよぴよ
       - とり
-    slack: [ baby_chick ]
+    shortcodes: [ baby_chick ]
     en: baby chick
     since: "0.6"
     subgroup: animal-bird
@@ -948,7 +948,7 @@ emoji:
       - ひよこ
       - ひな
       - ぴよぴよ
-    slack: [ hatched_chick ]
+    shortcodes: [ hatched_chick ]
     en: front-facing baby chick
     since: "0.6"
     subgroup: animal-bird
@@ -961,7 +961,7 @@ emoji:
       - ことり
       - ばーど
       - ついったー
-    slack: [ bird ]
+    shortcodes: [ bird ]
     en: bird
     since: "0.6"
     subgroup: animal-bird
@@ -972,7 +972,7 @@ emoji:
     readings:
       - ぺんぎん
       - とり
-    slack: [ penguin ]
+    shortcodes: [ penguin ]
     en: penguin
     since: "0.6"
     subgroup: animal-bird
@@ -985,7 +985,7 @@ emoji:
       - へいわ
       - しろいはと
       - ぴーす
-    slack: [ dove_of_peace ]
+    shortcodes: [ dove_of_peace ]
     en: dove
     since: "0.7"
     subgroup: animal-bird
@@ -998,7 +998,7 @@ emoji:
       - いーぐる
       - たか
       - もうきん
-    slack: [ eagle ]
+    shortcodes: [ eagle ]
     en: eagle
     since: "3.0"
     subgroup: animal-bird
@@ -1011,7 +1011,7 @@ emoji:
       - あひる
       - だっく
       - があがあ
-    slack: [ duck ]
+    shortcodes: [ duck ]
     en: duck
     since: "3.0"
     subgroup: animal-bird
@@ -1023,7 +1023,7 @@ emoji:
       - はくちょう
       - すわん
       - みにくいあひるのこ
-    slack: [ swan ]
+    shortcodes: [ swan ]
     en: swan
     since: "11.0"
     subgroup: animal-bird
@@ -1036,7 +1036,7 @@ emoji:
       - みみずく
       - おうる
       - ほーほー
-    slack: [ owl ]
+    shortcodes: [ owl ]
     en: owl
     since: "3.0"
     subgroup: animal-bird
@@ -1048,7 +1048,7 @@ emoji:
       - どーどー
       - ぜつめつ
       - とべないとり
-    slack: [ dodo ]
+    shortcodes: [ dodo ]
     en: dodo
     since: "13.0"
     subgroup: animal-bird
@@ -1061,7 +1061,7 @@ emoji:
       - うもう
       - かるい
       - ふぇざー
-    slack: [ feather ]
+    shortcodes: [ feather ]
     en: feather
     since: "13.0"
     subgroup: animal-bird
@@ -1073,7 +1073,7 @@ emoji:
       - ふらみんご
       - とり
       - ぴんく
-    slack: [ flamingo ]
+    shortcodes: [ flamingo ]
     en: flamingo
     since: "12.0"
     subgroup: animal-bird
@@ -1085,7 +1085,7 @@ emoji:
       - くじゃく
       - ぴーこっく
       - とり
-    slack: [ peacock ]
+    shortcodes: [ peacock ]
     en: peacock
     since: "11.0"
     subgroup: animal-bird
@@ -1098,7 +1098,7 @@ emoji:
       - いんこ
       - ぱろっと
       - かいぞく
-    slack: [ parrot ]
+    shortcodes: [ parrot ]
     en: parrot
     since: "11.0"
     subgroup: animal-bird
@@ -1112,7 +1112,7 @@ emoji:
       - うぃんぐ
       - てんし
       - とぶ
-    slack: [ wing ]
+    shortcodes: [ wing ]
     en: wing
     since: "15.0"
     subgroup: animal-bird
@@ -1125,7 +1125,7 @@ emoji:
       - からす
       - かーかー
       - くろどり
-    slack: [ black_bird ]
+    shortcodes: [ black_bird ]
     en: black bird
     since: "15.0"
     subgroup: animal-bird
@@ -1138,7 +1138,7 @@ emoji:
       - あひる
       - があがあ
       - ぐーす
-    slack: [ goose ]
+    shortcodes: [ goose ]
     en: goose
     since: "15.0"
     subgroup: animal-bird
@@ -1153,7 +1153,7 @@ emoji:
       - ふっかつ
       - さいせい
       - てんせい
-    slack: [ phoenix ]
+    shortcodes: [ phoenix ]
     en: phoenix
     since: "15.1"
     subgroup: animal-bird
@@ -1167,7 +1167,7 @@ emoji:
       - けろけろ
       - げこげこ
       - ふろっぐ
-    slack: [ frog ]
+    shortcodes: [ frog ]
     en: frog
     since: "0.6"
     subgroup: animal-amphibian
@@ -1180,7 +1180,7 @@ emoji:
       - くろこだいる
       - あにげーたー
       - はちゅうるい
-    slack: [ crocodile ]
+    shortcodes: [ crocodile ]
     en: crocodile
     since: "1.0"
     subgroup: animal-reptile
@@ -1193,7 +1193,7 @@ emoji:
       - たーとる
       - のろのろ
       - はちゅうるい
-    slack: [ turtle ]
+    shortcodes: [ turtle ]
     en: turtle
     since: "0.6"
     subgroup: animal-reptile
@@ -1206,7 +1206,7 @@ emoji:
       - やもり
       - りざーど
       - はちゅうるい
-    slack: [ lizard ]
+    shortcodes: [ lizard ]
     en: lizard
     since: "3.0"
     subgroup: animal-reptile
@@ -1219,7 +1219,7 @@ emoji:
       - じゃ
       - すねーく
       - へびつかいざ
-    slack: [ snake ]
+    shortcodes: [ snake ]
     en: snake
     since: "0.6"
     subgroup: animal-reptile
@@ -1232,7 +1232,7 @@ emoji:
       - どらごん
       - りゅう
       - たつ
-    slack: [ dragon_face ]
+    shortcodes: [ dragon_face ]
     en: dragon face
     since: "0.6"
     subgroup: animal-reptile
@@ -1244,7 +1244,7 @@ emoji:
       - どらごん
       - りゅう
       - たつ
-    slack: [ dragon ]
+    shortcodes: [ dragon ]
     en: dragon
     since: "1.0"
     subgroup: animal-reptile
@@ -1259,7 +1259,7 @@ emoji:
       - ぶろんとさうるす
       - でぃぷろどくす
       - りゅうきゃくるい
-    slack: [ sauropod ]
+    shortcodes: [ sauropod ]
     en: sauropod
     since: "5.0"
     subgroup: animal-reptile
@@ -1272,7 +1272,7 @@ emoji:
       - きょうりゅう
       - てぃーれっくす
       - にくしょくきょうりゅう
-    slack: [ t-rex ]
+    shortcodes: [ t-rex ]
     en: T-Rex
     since: "5.0"
     subgroup: animal-reptile
@@ -1285,7 +1285,7 @@ emoji:
       - くじら
       - しおふき
       - ほえーる
-    slack: [ whale ]
+    shortcodes: [ whale ]
     en: spouting whale
     since: "0.6"
     subgroup: animal-marine
@@ -1296,7 +1296,7 @@ emoji:
     readings:
       - くじら
       - ほえーる
-    slack: [ whale2 ]
+    shortcodes: [ whale2 ]
     en: whale
     since: "1.0"
     subgroup: animal-marine
@@ -1307,7 +1307,7 @@ emoji:
     readings:
       - いるか
       - どるふぃん
-    slack: [ dolphin, flipper ]
+    shortcodes: [ dolphin, flipper ]
     en: dolphin
     since: "0.6"
     subgroup: animal-marine
@@ -1320,7 +1320,7 @@ emoji:
       - おるか
       - くじら
       - うみ
-    slack: [ orca ]
+    shortcodes: [ orca ]
     en: orca
     since: "17.0"
     subgroup: animal-marine
@@ -1334,7 +1334,7 @@ emoji:
       - おっとせい
       - とど
       - しーる
-    slack: [ seal ]
+    shortcodes: [ seal ]
     en: seal
     since: "13.0"
     subgroup: animal-marine
@@ -1348,7 +1348,7 @@ emoji:
       - うおざ
       - ふぃっしゅ
       - つり
-    slack: [ fish ]
+    shortcodes: [ fish ]
     en: fish
     since: "0.6"
     subgroup: animal-marine
@@ -1360,7 +1360,7 @@ emoji:
       - ねったいぎょ
       - さかな
       - かくれくまのみ
-    slack: [ tropical_fish ]
+    shortcodes: [ tropical_fish ]
     en: tropical fish
     since: "0.6"
     subgroup: animal-marine
@@ -1372,7 +1372,7 @@ emoji:
       - ふぐ
       - さかな
       - はりせんぼん
-    slack: [ blowfish ]
+    shortcodes: [ blowfish ]
     en: blowfish
     since: "0.6"
     subgroup: animal-marine
@@ -1385,7 +1385,7 @@ emoji:
       - ふか
       - しゃーく
       - じょーず
-    slack: [ shark ]
+    shortcodes: [ shark ]
     en: shark
     since: "3.0"
     subgroup: animal-marine
@@ -1396,7 +1396,7 @@ emoji:
     readings:
       - たこ
       - おくとぱす
-    slack: [ octopus ]
+    shortcodes: [ octopus ]
     en: octopus
     since: "0.6"
     subgroup: animal-marine
@@ -1409,7 +1409,7 @@ emoji:
       - かい
       - かいがら
       - ほらがい
-    slack: [ shell ]
+    shortcodes: [ shell ]
     en: spiral shell
     since: "0.6"
     subgroup: animal-marine
@@ -1421,7 +1421,7 @@ emoji:
       - さんご
       - さんごしょう
       - うみ
-    slack: [ coral ]
+    shortcodes: [ coral ]
     en: coral
     since: "14.0"
     subgroup: animal-marine
@@ -1434,7 +1434,7 @@ emoji:
       - じぇりーふぃっしゅ
       - うみ
       - すいぞくかん
-    slack: [ jellyfish ]
+    shortcodes: [ jellyfish ]
     en: jellyfish
     since: "15.0"
     subgroup: animal-marine
@@ -1446,7 +1446,7 @@ emoji:
       - かに
       - きゃんさー
       - かにざ
-    slack: [ crab ]
+    shortcodes: [ crab ]
     en: crab
     since: "1.0"
     subgroup: animal-marine
@@ -1459,7 +1459,7 @@ emoji:
       - ざりがに
       - いせえび
       - えび
-    slack: [ lobster ]
+    shortcodes: [ lobster ]
     en: lobster
     since: "11.0"
     subgroup: animal-marine
@@ -1472,7 +1472,7 @@ emoji:
       - しゅりんぷ
       - こえび
       - えびふらい
-    slack: [ shrimp ]
+    shortcodes: [ shrimp ]
     en: shrimp
     since: "3.0"
     subgroup: animal-marine
@@ -1483,7 +1483,7 @@ emoji:
     readings:
       - いか
       - すくいっど
-    slack: [ squid ]
+    shortcodes: [ squid ]
     en: squid
     since: "3.0"
     subgroup: animal-marine
@@ -1497,7 +1497,7 @@ emoji:
       - なまがき
       - しんじゅ
       - かい
-    slack: [ oyster ]
+    shortcodes: [ oyster ]
     en: oyster
     since: "12.0"
     subgroup: animal-marine
@@ -1510,7 +1510,7 @@ emoji:
       - でんでんむし
       - まいまい
       - えすかるご
-    slack: [ snail ]
+    shortcodes: [ snail ]
     en: snail
     since: "0.6"
     subgroup: animal-bug
@@ -1523,7 +1523,7 @@ emoji:
       - ちょうちょ
       - ちょうちょう
       - ばたふらい
-    slack: [ butterfly ]
+    shortcodes: [ butterfly ]
     en: butterfly
     since: "3.0"
     subgroup: animal-bug
@@ -1549,7 +1549,7 @@ emoji:
       - いもむし
       - むし
       - ばぐ
-    slack: [ bug ]
+    shortcodes: [ bug ]
     en: bug
     since: "0.6"
     subgroup: animal-bug
@@ -1561,7 +1561,7 @@ emoji:
       - あり
       - むし
       - あんと
-    slack: [ ant ]
+    shortcodes: [ ant ]
     en: ant
     since: "0.6"
     subgroup: animal-bug
@@ -1574,7 +1574,7 @@ emoji:
       - はち
       - むし
       - びー
-    slack: [ bee, honeybee ]
+    shortcodes: [ bee, honeybee ]
     en: honeybee
     since: "0.6"
     subgroup: animal-bug
@@ -1587,7 +1587,7 @@ emoji:
       - こうちゅう
       - むし
       - びーとる
-    slack: [ beetle ]
+    shortcodes: [ beetle ]
     en: beetle
     since: "13.0"
     subgroup: animal-bug
@@ -1599,7 +1599,7 @@ emoji:
       - てんとうむし
       - むし
       - れでぃばぐ
-    slack: [ ladybug, lady_beetle ]
+    shortcodes: [ ladybug, lady_beetle ]
     en: lady beetle
     since: "0.6"
     subgroup: animal-bug
@@ -1612,7 +1612,7 @@ emoji:
       - ばった
       - きりぎりす
       - むし
-    slack: [ cricket ]
+    shortcodes: [ cricket ]
     en: cricket
     since: "5.0"
     subgroup: animal-bug
@@ -1626,7 +1626,7 @@ emoji:
       - がいちゅう
       - むし
       - じー
-    slack: [ cockroach ]
+    shortcodes: [ cockroach ]
     en: cockroach
     since: "13.0"
     subgroup: animal-bug
@@ -1638,7 +1638,7 @@ emoji:
       - くも
       - すぱいだー
       - むし
-    slack: [ spider ]
+    shortcodes: [ spider ]
     en: spider
     since: "0.7"
     subgroup: animal-bug
@@ -1651,7 +1651,7 @@ emoji:
       - くも
       - うぇぶ
       - すぱいだー
-    slack: [ spider_web ]
+    shortcodes: [ spider_web ]
     en: spider web
     since: "0.7"
     subgroup: animal-bug
@@ -1663,7 +1663,7 @@ emoji:
       - さそり
       - さそりざ
       - すこーぴおん
-    slack: [ scorpion ]
+    shortcodes: [ scorpion ]
     en: scorpion
     since: "1.0"
     subgroup: animal-bug
@@ -1676,7 +1676,7 @@ emoji:
       - もすきーと
       - むし
       - まらりあ
-    slack: [ mosquito ]
+    shortcodes: [ mosquito ]
     en: mosquito
     since: "11.0"
     subgroup: animal-bug
@@ -1689,7 +1689,7 @@ emoji:
       - むし
       - がいちゅう
       - ふらい
-    slack: [ fly ]
+    shortcodes: [ fly ]
     en: fly
     since: "13.0"
     subgroup: animal-bug
@@ -1702,7 +1702,7 @@ emoji:
       - わーむ
       - むし
       - きせいちゅう
-    slack: [ worm ]
+    shortcodes: [ worm ]
     en: worm
     since: "13.0"
     subgroup: animal-bug
@@ -1717,7 +1717,7 @@ emoji:
       - ばくてりあ
       - きん
       - あめーば
-    slack: [ microbe ]
+    shortcodes: [ microbe ]
     en: microbe
     since: "11.0"
     subgroup: animal-bug
@@ -1729,7 +1729,7 @@ emoji:
       - はなたば
       - ぶーけ
       - はな
-    slack: [ bouquet ]
+    shortcodes: [ bouquet ]
     en: bouquet
     since: "0.6"
     subgroup: plant-flower
@@ -1743,7 +1743,7 @@ emoji:
       - はなみ
       - かいか
       - まんかい
-    slack: [ cherry_blossom ]
+    shortcodes: [ cherry_blossom ]
     en: cherry blossom
     since: "0.6"
     subgroup: plant-flower
@@ -1756,7 +1756,7 @@ emoji:
       - はなまる
       - よくできました
       - ごうかく
-    slack: [ white_flower ]
+    shortcodes: [ white_flower ]
     en: white flower
     since: "0.6"
     subgroup: plant-flower
@@ -1770,7 +1770,7 @@ emoji:
       - ろーたす
       - ぶっきょう
       - ごくらく
-    slack: [ lotus ]
+    shortcodes: [ lotus ]
     en: lotus
     since: "14.0"
     subgroup: plant-flower
@@ -1782,7 +1782,7 @@ emoji:
       - はなかざり
       - ろぜっと
       - はな
-    slack: [ rosette ]
+    shortcodes: [ rosette ]
     en: rosette
     since: "0.7"
     subgroup: plant-flower
@@ -1795,7 +1795,7 @@ emoji:
       - ろーず
       - あかいばら
       - はな
-    slack: [ rose ]
+    shortcodes: [ rose ]
     en: rose
     since: "0.6"
     subgroup: plant-flower
@@ -1808,7 +1808,7 @@ emoji:
       - かれたはな
       - しつれん
       - はな
-    slack: [ wilted_flower ]
+    shortcodes: [ wilted_flower ]
     en: wilted flower
     since: "3.0"
     subgroup: plant-flower
@@ -1821,7 +1821,7 @@ emoji:
       - はな
       - はわい
       - なんごく
-    slack: [ hibiscus ]
+    shortcodes: [ hibiscus ]
     en: hibiscus
     since: "0.6"
     subgroup: plant-flower
@@ -1834,7 +1834,7 @@ emoji:
       - さんふらわー
       - なつ
       - はな
-    slack: [ sunflower ]
+    shortcodes: [ sunflower ]
     en: sunflower
     since: "0.6"
     subgroup: plant-flower
@@ -1847,7 +1847,7 @@ emoji:
       - はな
       - きんぽうげ
       - さいたはな
-    slack: [ blossom ]
+    shortcodes: [ blossom ]
     en: blossom
     since: "0.6"
     subgroup: plant-flower
@@ -1859,7 +1859,7 @@ emoji:
       - ちゅーりっぷ
       - はな
       - はる
-    slack: [ tulip ]
+    shortcodes: [ tulip ]
     en: tulip
     since: "0.6"
     subgroup: plant-flower
@@ -1873,7 +1873,7 @@ emoji:
       - らいらっく
       - はな
       - むらさき
-    slack: [ hyacinth ]
+    shortcodes: [ hyacinth ]
     en: hyacinth
     since: "15.0"
     subgroup: plant-flower
@@ -1887,7 +1887,7 @@ emoji:
       - め
       - わかば
       - はつが
-    slack: [ seedling ]
+    shortcodes: [ seedling ]
     en: seedling
     since: "0.6"
     subgroup: plant-other
@@ -1901,7 +1901,7 @@ emoji:
       - うえきばち
       - しょくぶつ
       - みどり
-    slack: [ potted_plant ]
+    shortcodes: [ potted_plant ]
     en: potted plant
     since: "13.0"
     subgroup: plant-other
@@ -1915,7 +1915,7 @@ emoji:
       - もみのき
       - もり
       - まつ
-    slack: [ evergreen_tree ]
+    shortcodes: [ evergreen_tree ]
     en: evergreen tree
     since: "1.0"
     subgroup: plant-other
@@ -1928,7 +1928,7 @@ emoji:
       - き
       - もり
       - じゅもく
-    slack: [ deciduous_tree ]
+    shortcodes: [ deciduous_tree ]
     en: deciduous tree
     since: "1.0"
     subgroup: plant-other
@@ -1942,7 +1942,7 @@ emoji:
       - ぱーむつりー
       - なんごく
       - びーち
-    slack: [ palm_tree ]
+    shortcodes: [ palm_tree ]
     en: palm tree
     since: "0.6"
     subgroup: plant-other
@@ -1954,7 +1954,7 @@ emoji:
       - さぼてん
       - さばく
       - かくたす
-    slack: [ cactus ]
+    shortcodes: [ cactus ]
     en: cactus
     since: "0.6"
     subgroup: plant-other
@@ -1969,7 +1969,7 @@ emoji:
       - こめ
       - こくもつ
       - つきみ
-    slack: [ ear_of_rice ]
+    shortcodes: [ ear_of_rice ]
     en: sheaf of rice
     since: "0.6"
     subgroup: plant-other
@@ -1983,7 +1983,7 @@ emoji:
       - こうそう
       - くさ
       - は
-    slack: [ herb ]
+    shortcodes: [ herb ]
     en: herb
     since: "0.6"
     subgroup: plant-other
@@ -1995,7 +1995,7 @@ emoji:
       - くろーばー
       - しゃむろっく
       - みつば
-    slack: [ shamrock ]
+    shortcodes: [ shamrock ]
     en: shamrock
     since: "1.0"
     subgroup: plant-other
@@ -2009,7 +2009,7 @@ emoji:
       - くろーばー
       - こううん
       - らっきー
-    slack: [ four_leaf_clover ]
+    shortcodes: [ four_leaf_clover ]
     en: four leaf clover
     since: "0.6"
     subgroup: plant-other
@@ -2023,7 +2023,7 @@ emoji:
       - こうよう
       - めーぷる
       - あき
-    slack: [ maple_leaf ]
+    shortcodes: [ maple_leaf ]
     en: maple leaf
     since: "0.6"
     subgroup: plant-other
@@ -2037,7 +2037,7 @@ emoji:
       - こうよう
       - あき
       - このは
-    slack: [ fallen_leaf ]
+    shortcodes: [ fallen_leaf ]
     en: fallen leaf
     since: "0.6"
     subgroup: plant-other
@@ -2051,7 +2051,7 @@ emoji:
       - はっぱ
       - かぜ
       - そよかぜ
-    slack: [ leaves ]
+    shortcodes: [ leaves ]
     en: leaf fluttering in wind
     since: "0.6"
     subgroup: plant-other
@@ -2064,7 +2064,7 @@ emoji:
       - す
       - とりのす
       - からのす
-    slack: [ empty_nest ]
+    shortcodes: [ empty_nest ]
     en: empty nest
     since: "14.0"
     subgroup: plant-other
@@ -2077,7 +2077,7 @@ emoji:
       - とりのす
       - す
       - たまご
-    slack: [ nest_with_eggs ]
+    shortcodes: [ nest_with_eggs ]
     en: nest with eggs
     since: "14.0"
     subgroup: plant-other
@@ -2090,7 +2090,7 @@ emoji:
       - まっしゅるーむ
       - どくきのこ
       - べにてんぐたけ
-    slack: [ mushroom ]
+    shortcodes: [ mushroom ]
     en: mushroom
     since: "0.6"
     subgroup: plant-other
@@ -2103,7 +2103,7 @@ emoji:
       - はのないき
       - ふゆ
       - き
-    slack: [ leafless_tree ]
+    shortcodes: [ leafless_tree ]
     en: leafless tree
     since: "16.0"
     subgroup: plant-other

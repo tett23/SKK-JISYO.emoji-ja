@@ -1,9 +1,9 @@
 # SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
-#   name:     annotation shown in SKK (Japanese name; no "/" or ";")
-#   readings: SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
-#   slack:    Slack-style short names (":thumbsup:" without colons), registered as headwords.
-#             Refreshed from iamcal/emoji-data; hand-written names are kept only while emoji-data has none
-#   review:   true if added automatically by the update task; remove after checking the readings
+#   name:       annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings:   SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   shortcodes: emoji shortcodes (":thumbsup:" without colons), registered as headwords.
+#               Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
+#   review:     true if added automatically by the update task; remove after checking the readings
 # Other fields are refreshed from Unicode/CLDR by the update task.
 
 group: Flags
@@ -19,7 +19,7 @@ emoji:
       - しょうり
       - はた
       - ふらっぐ
-    slack: [ checkered_flag ]
+    shortcodes: [ checkered_flag ]
     en: chequered flag
     since: "0.6"
     subgroup: flag
@@ -34,7 +34,7 @@ emoji:
       - ふらぐ
       - ふらぐがたった
       - ごるふ
-    slack: [ triangular_flag_on_post ]
+    shortcodes: [ triangular_flag_on_post ]
     en: triangular flag
     since: "0.6"
     subgroup: flag
@@ -50,7 +50,7 @@ emoji:
       - しゅくじつ
       - はた
       - にっぽん
-    slack: [ crossed_flags ]
+    shortcodes: [ crossed_flags ]
     en: crossed flags
     since: "0.6"
     subgroup: flag
@@ -64,7 +64,7 @@ emoji:
       - くろいはた
       - はた
       - ふらっぐ
-    slack: [ waving_black_flag ]
+    shortcodes: [ waving_black_flag ]
     en: black flag
     since: "1.0"
     subgroup: flag
@@ -79,7 +79,7 @@ emoji:
       - こうさん
       - はた
       - ふらっぐ
-    slack: [ waving_white_flag ]
+    shortcodes: [ waving_white_flag ]
     en: white flag
     since: "0.7"
     subgroup: flag
@@ -94,7 +94,7 @@ emoji:
       - lgbt
       - ぷらいど
       - れいんぼー
-    slack: [ rainbow-flag ]
+    shortcodes: [ rainbow-flag ]
     en: rainbow flag
     since: "4.0"
     subgroup: flag
@@ -108,7 +108,7 @@ emoji:
       - とらんすじぇんだーのはた
       - lgbt
       - ぷらいど
-    slack: [ transgender_flag ]
+    shortcodes: [ transgender_flag ]
     en: transgender flag
     since: "13.0"
     subgroup: flag
@@ -123,7 +123,7 @@ emoji:
       - どくろ
       - かいぞくのはた
       - どくろのはた
-    slack: [ pirate_flag ]
+    shortcodes: [ pirate_flag ]
     en: pirate flag
     since: "11.0"
     subgroup: flag
@@ -135,7 +135,7 @@ emoji:
       - あせんしょんとうのはた
       - あせんしょんとう
       - あせんしょん
-    slack: [ flag-ac ]
+    shortcodes: [ flag-ac ]
     en: "flag: Ascension Island"
     since: "2.0"
     subgroup: country-flag
@@ -147,7 +147,7 @@ emoji:
       - あんどらのこっき
       - あんどら
       - あんどらのはた
-    slack: [ flag-ad ]
+    shortcodes: [ flag-ad ]
     en: "flag: Andorra"
     since: "2.0"
     subgroup: country-flag
@@ -161,7 +161,7 @@ emoji:
       - uae
       - どばい
       - あらぶしゅちょうこくれんぽうのはた
-    slack: [ flag-ae ]
+    shortcodes: [ flag-ae ]
     en: "flag: United Arab Emirates"
     since: "2.0"
     subgroup: country-flag
@@ -174,7 +174,7 @@ emoji:
       - あふがにすたん
       - あふがん
       - あふがにすたんのはた
-    slack: [ flag-af ]
+    shortcodes: [ flag-af ]
     en: "flag: Afghanistan"
     since: "2.0"
     subgroup: country-flag
@@ -187,7 +187,7 @@ emoji:
       - あんてぃぐあばーぶーだ
       - あんてぃぐあ
       - あんてぃぐあばーぶーだのはた
-    slack: [ flag-ag ]
+    shortcodes: [ flag-ag ]
     en: "flag: Antigua & Barbuda"
     since: "2.0"
     subgroup: country-flag
@@ -198,7 +198,7 @@ emoji:
     readings:
       - あんぎらのはた
       - あんぎら
-    slack: [ flag-ai ]
+    shortcodes: [ flag-ai ]
     en: "flag: Anguilla"
     since: "2.0"
     subgroup: country-flag
@@ -210,7 +210,7 @@ emoji:
       - あるばにあのこっき
       - あるばにあ
       - あるばにあのはた
-    slack: [ flag-al ]
+    shortcodes: [ flag-al ]
     en: "flag: Albania"
     since: "2.0"
     subgroup: country-flag
@@ -222,7 +222,7 @@ emoji:
       - あるめにあのこっき
       - あるめにあ
       - あるめにあのはた
-    slack: [ flag-am ]
+    shortcodes: [ flag-am ]
     en: "flag: Armenia"
     since: "2.0"
     subgroup: country-flag
@@ -234,7 +234,7 @@ emoji:
       - あんごらのこっき
       - あんごら
       - あんごらのはた
-    slack: [ flag-ao ]
+    shortcodes: [ flag-ao ]
     en: "flag: Angola"
     since: "2.0"
     subgroup: country-flag
@@ -246,7 +246,7 @@ emoji:
       - なんきょくのはた
       - なんきょく
       - なんきょくたいりく
-    slack: [ flag-aq ]
+    shortcodes: [ flag-aq ]
     en: "flag: Antarctica"
     since: "2.0"
     subgroup: country-flag
@@ -258,7 +258,7 @@ emoji:
       - あるぜんちんのこっき
       - あるぜんちん
       - あるぜんちんのはた
-    slack: [ flag-ar ]
+    shortcodes: [ flag-ar ]
     en: "flag: Argentina"
     since: "2.0"
     subgroup: country-flag
@@ -271,7 +271,7 @@ emoji:
       - べいりょうさもあ
       - あめりかりょうさもあ
       - さもあ
-    slack: [ flag-as ]
+    shortcodes: [ flag-as ]
     en: "flag: American Samoa"
     since: "2.0"
     subgroup: country-flag
@@ -284,7 +284,7 @@ emoji:
       - おーすとりあ
       - うぃーん
       - おーすとりあのはた
-    slack: [ flag-at ]
+    shortcodes: [ flag-at ]
     en: "flag: Austria"
     since: "2.0"
     subgroup: country-flag
@@ -298,7 +298,7 @@ emoji:
       - ごうしゅう
       - おーじー
       - おーすとらりあのはた
-    slack: [ flag-au ]
+    shortcodes: [ flag-au ]
     en: "flag: Australia"
     since: "2.0"
     subgroup: country-flag
@@ -309,7 +309,7 @@ emoji:
     readings:
       - あるばのはた
       - あるば
-    slack: [ flag-aw ]
+    shortcodes: [ flag-aw ]
     en: "flag: Aruba"
     since: "2.0"
     subgroup: country-flag
@@ -321,7 +321,7 @@ emoji:
       - おーらんどしょとうのはた
       - おーらんどしょとう
       - おーらんど
-    slack: [ flag-ax ]
+    shortcodes: [ flag-ax ]
     en: "flag: Åland Islands"
     since: "2.0"
     subgroup: country-flag
@@ -333,7 +333,7 @@ emoji:
       - あぜるばいじゃんのこっき
       - あぜるばいじゃん
       - あぜるばいじゃんのはた
-    slack: [ flag-az ]
+    shortcodes: [ flag-az ]
     en: "flag: Azerbaijan"
     since: "2.0"
     subgroup: country-flag
@@ -346,7 +346,7 @@ emoji:
       - ぼすにあへるつぇごびな
       - ぼすにあ
       - ぼすにあへるつぇごびなのはた
-    slack: [ flag-ba ]
+    shortcodes: [ flag-ba ]
     en: "flag: Bosnia & Herzegovina"
     since: "2.0"
     subgroup: country-flag
@@ -358,7 +358,7 @@ emoji:
       - ばるばどすのこっき
       - ばるばどす
       - ばるばどすのはた
-    slack: [ flag-bb ]
+    shortcodes: [ flag-bb ]
     en: "flag: Barbados"
     since: "2.0"
     subgroup: country-flag
@@ -370,7 +370,7 @@ emoji:
       - ばんぐらでしゅのこっき
       - ばんぐらでしゅ
       - ばんぐらでしゅのはた
-    slack: [ flag-bd ]
+    shortcodes: [ flag-bd ]
     en: "flag: Bangladesh"
     since: "2.0"
     subgroup: country-flag
@@ -382,7 +382,7 @@ emoji:
       - べるぎーのこっき
       - べるぎー
       - べるぎーのはた
-    slack: [ flag-be ]
+    shortcodes: [ flag-be ]
     en: "flag: Belgium"
     since: "2.0"
     subgroup: country-flag
@@ -394,7 +394,7 @@ emoji:
       - ぶるきなふぁそのこっき
       - ぶるきなふぁそ
       - ぶるきなふぁそのはた
-    slack: [ flag-bf ]
+    shortcodes: [ flag-bf ]
     en: "flag: Burkina Faso"
     since: "2.0"
     subgroup: country-flag
@@ -406,7 +406,7 @@ emoji:
       - ぶるがりあのこっき
       - ぶるがりあ
       - ぶるがりあのはた
-    slack: [ flag-bg ]
+    shortcodes: [ flag-bg ]
     en: "flag: Bulgaria"
     since: "2.0"
     subgroup: country-flag
@@ -418,7 +418,7 @@ emoji:
       - ばーれーんのこっき
       - ばーれーん
       - ばーれーんのはた
-    slack: [ flag-bh ]
+    shortcodes: [ flag-bh ]
     en: "flag: Bahrain"
     since: "2.0"
     subgroup: country-flag
@@ -430,7 +430,7 @@ emoji:
       - ぶるんじのこっき
       - ぶるんじ
       - ぶるんじのはた
-    slack: [ flag-bi ]
+    shortcodes: [ flag-bi ]
     en: "flag: Burundi"
     since: "2.0"
     subgroup: country-flag
@@ -442,7 +442,7 @@ emoji:
       - べなんのこっき
       - べなん
       - べなんのはた
-    slack: [ flag-bj ]
+    shortcodes: [ flag-bj ]
     en: "flag: Benin"
     since: "2.0"
     subgroup: country-flag
@@ -454,7 +454,7 @@ emoji:
       - さんばるてるみーのはた
       - さんばるてるみー
       - さんばるてるみーとう
-    slack: [ flag-bl ]
+    shortcodes: [ flag-bl ]
     en: "flag: St. Barthélemy"
     since: "2.0"
     subgroup: country-flag
@@ -466,7 +466,7 @@ emoji:
       - ばみゅーだのはた
       - ばみゅーだ
       - ばみゅーだしょとう
-    slack: [ flag-bm ]
+    shortcodes: [ flag-bm ]
     en: "flag: Bermuda"
     since: "2.0"
     subgroup: country-flag
@@ -478,7 +478,7 @@ emoji:
       - ぶるねいのこっき
       - ぶるねい
       - ぶるねいのはた
-    slack: [ flag-bn ]
+    shortcodes: [ flag-bn ]
     en: "flag: Brunei"
     since: "2.0"
     subgroup: country-flag
@@ -490,7 +490,7 @@ emoji:
       - ぼりびあのこっき
       - ぼりびあ
       - ぼりびあのはた
-    slack: [ flag-bo ]
+    shortcodes: [ flag-bo ]
     en: "flag: Bolivia"
     since: "2.0"
     subgroup: country-flag
@@ -503,7 +503,7 @@ emoji:
       - おらんだりょうかりぶ
       - かりぶおらんだ
       - ぼねーる
-    slack: [ flag-bq ]
+    shortcodes: [ flag-bq ]
     en: "flag: Caribbean Netherlands"
     since: "2.0"
     subgroup: country-flag
@@ -515,7 +515,7 @@ emoji:
       - ぶらじるのこっき
       - ぶらじる
       - ぶらじるのはた
-    slack: [ flag-br ]
+    shortcodes: [ flag-br ]
     en: "flag: Brazil"
     since: "2.0"
     subgroup: country-flag
@@ -527,7 +527,7 @@ emoji:
       - ばはまのこっき
       - ばはま
       - ばはまのはた
-    slack: [ flag-bs ]
+    shortcodes: [ flag-bs ]
     en: "flag: Bahamas"
     since: "2.0"
     subgroup: country-flag
@@ -539,7 +539,7 @@ emoji:
       - ぶーたんのこっき
       - ぶーたん
       - ぶーたんのはた
-    slack: [ flag-bt ]
+    shortcodes: [ flag-bt ]
     en: "flag: Bhutan"
     since: "2.0"
     subgroup: country-flag
@@ -551,7 +551,7 @@ emoji:
       - ぶーべとうのはた
       - ぶーべとう
       - ぶーべ
-    slack: [ flag-bv ]
+    shortcodes: [ flag-bv ]
     en: "flag: Bouvet Island"
     since: "2.0"
     subgroup: country-flag
@@ -563,7 +563,7 @@ emoji:
       - ぼつわなのこっき
       - ぼつわな
       - ぼつわなのはた
-    slack: [ flag-bw ]
+    shortcodes: [ flag-bw ]
     en: "flag: Botswana"
     since: "2.0"
     subgroup: country-flag
@@ -575,7 +575,7 @@ emoji:
       - べらるーしのこっき
       - べらるーし
       - べらるーしのはた
-    slack: [ flag-by ]
+    shortcodes: [ flag-by ]
     en: "flag: Belarus"
     since: "2.0"
     subgroup: country-flag
@@ -587,7 +587,7 @@ emoji:
       - べりーずのこっき
       - べりーず
       - べりーずのはた
-    slack: [ flag-bz ]
+    shortcodes: [ flag-bz ]
     en: "flag: Belize"
     since: "2.0"
     subgroup: country-flag
@@ -600,7 +600,7 @@ emoji:
       - かなだ
       - めーぷるりーふき
       - かなだのはた
-    slack: [ flag-ca ]
+    shortcodes: [ flag-ca ]
     en: "flag: Canada"
     since: "2.0"
     subgroup: country-flag
@@ -613,7 +613,7 @@ emoji:
       - ここすしょとう
       - きーりんぐしょとう
       - ここす
-    slack: [ flag-cc ]
+    shortcodes: [ flag-cc ]
     en: "flag: Cocos (Keeling) Islands"
     since: "2.0"
     subgroup: country-flag
@@ -627,7 +627,7 @@ emoji:
       - こんご
       - きんしゃさ
       - こんごみんしゅきょうわこくのはた
-    slack: [ flag-cd ]
+    shortcodes: [ flag-cd ]
     en: "flag: Congo - Kinshasa"
     since: "2.0"
     subgroup: country-flag
@@ -640,7 +640,7 @@ emoji:
       - ちゅうおうあふりかきょうわこく
       - ちゅうおうあふりか
       - ちゅうおうあふりかのはた
-    slack: [ flag-cf ]
+    shortcodes: [ flag-cf ]
     en: "flag: Central African Republic"
     since: "2.0"
     subgroup: country-flag
@@ -654,7 +654,7 @@ emoji:
       - こんご
       - ぶらざびる
       - こんごきょうわこくのはた
-    slack: [ flag-cg ]
+    shortcodes: [ flag-cg ]
     en: "flag: Congo - Brazzaville"
     since: "2.0"
     subgroup: country-flag
@@ -666,7 +666,7 @@ emoji:
       - すいすのこっき
       - すいす
       - すいすのはた
-    slack: [ flag-ch ]
+    shortcodes: [ flag-ch ]
     en: "flag: Switzerland"
     since: "2.0"
     subgroup: country-flag
@@ -679,7 +679,7 @@ emoji:
       - こーとじぼわーる
       - ぞうげかいがん
       - こーとじぼわーるのはた
-    slack: [ flag-ci ]
+    shortcodes: [ flag-ci ]
     en: "flag: Côte d’Ivoire"
     since: "2.0"
     subgroup: country-flag
@@ -690,7 +690,7 @@ emoji:
     readings:
       - くっくしょとうのはた
       - くっくしょとう
-    slack: [ flag-ck ]
+    shortcodes: [ flag-ck ]
     en: "flag: Cook Islands"
     since: "2.0"
     subgroup: country-flag
@@ -702,7 +702,7 @@ emoji:
       - ちりのこっき
       - ちり
       - ちりのはた
-    slack: [ flag-cl ]
+    shortcodes: [ flag-cl ]
     en: "flag: Chile"
     since: "2.0"
     subgroup: country-flag
@@ -714,7 +714,7 @@ emoji:
       - かめるーんのこっき
       - かめるーん
       - かめるーんのはた
-    slack: [ flag-cm ]
+    shortcodes: [ flag-cm ]
     en: "flag: Cameroon"
     since: "2.0"
     subgroup: country-flag
@@ -729,7 +729,7 @@ emoji:
       - ちゅうかじんみんきょうわこく
       - ごせいこうき
       - ちゅうごくのはた
-    slack: [ cn, flag-cn ]
+    shortcodes: [ cn, flag-cn ]
     en: "flag: China"
     since: "0.6"
     subgroup: country-flag
@@ -741,7 +741,7 @@ emoji:
       - ころんびあのこっき
       - ころんびあ
       - ころんびあのはた
-    slack: [ flag-co ]
+    shortcodes: [ flag-co ]
     en: "flag: Colombia"
     since: "2.0"
     subgroup: country-flag
@@ -753,7 +753,7 @@ emoji:
       - くりっぱーとんとうのはた
       - くりっぱーとんとう
       - くりっぱーとん
-    slack: [ flag-cp ]
+    shortcodes: [ flag-cp ]
     en: "flag: Clipperton Island"
     since: "2.0"
     subgroup: country-flag
@@ -765,7 +765,7 @@ emoji:
       - さーくとうのはた
       - さーくとう
       - さーく
-    slack: [ flag-sark ]
+    shortcodes: [ flag-sark ]
     en: "flag: Sark"
     since: "16.0"
     subgroup: country-flag
@@ -777,7 +777,7 @@ emoji:
       - こすたりかのこっき
       - こすたりか
       - こすたりかのはた
-    slack: [ flag-cr ]
+    shortcodes: [ flag-cr ]
     en: "flag: Costa Rica"
     since: "2.0"
     subgroup: country-flag
@@ -789,7 +789,7 @@ emoji:
       - きゅーばのこっき
       - きゅーば
       - きゅーばのはた
-    slack: [ flag-cu ]
+    shortcodes: [ flag-cu ]
     en: "flag: Cuba"
     since: "2.0"
     subgroup: country-flag
@@ -801,7 +801,7 @@ emoji:
       - かーぼべるでのこっき
       - かーぼべるで
       - かーぼべるでのはた
-    slack: [ flag-cv ]
+    shortcodes: [ flag-cv ]
     en: "flag: Cape Verde"
     since: "2.0"
     subgroup: country-flag
@@ -813,7 +813,7 @@ emoji:
       - きゅらそーのはた
       - きゅらそー
       - きゅらそーとう
-    slack: [ flag-cw ]
+    shortcodes: [ flag-cw ]
     en: "flag: Curaçao"
     since: "2.0"
     subgroup: country-flag
@@ -824,7 +824,7 @@ emoji:
     readings:
       - くりすますとうのはた
       - くりすますとう
-    slack: [ flag-cx ]
+    shortcodes: [ flag-cx ]
     en: "flag: Christmas Island"
     since: "2.0"
     subgroup: country-flag
@@ -837,7 +837,7 @@ emoji:
       - きぷろす
       - さいぷらす
       - きぷろすのはた
-    slack: [ flag-cy ]
+    shortcodes: [ flag-cy ]
     en: "flag: Cyprus"
     since: "2.0"
     subgroup: country-flag
@@ -850,7 +850,7 @@ emoji:
       - ちぇこ
       - ちぇこきょうわこく
       - ちぇこのはた
-    slack: [ flag-cz ]
+    shortcodes: [ flag-cz ]
     en: "flag: Czechia"
     since: "2.0"
     subgroup: country-flag
@@ -864,7 +864,7 @@ emoji:
       - どくいつ
       - じゃーまにー
       - どいつのはた
-    slack: [ de, flag-de ]
+    shortcodes: [ de, flag-de ]
     en: "flag: Germany"
     since: "0.6"
     subgroup: country-flag
@@ -876,7 +876,7 @@ emoji:
       - でぃえごがるしあとうのはた
       - でぃえごがるしあとう
       - でぃえごがるしあ
-    slack: [ flag-dg ]
+    shortcodes: [ flag-dg ]
     en: "flag: Diego Garcia"
     since: "2.0"
     subgroup: country-flag
@@ -888,7 +888,7 @@ emoji:
       - じぶちのこっき
       - じぶち
       - じぶちのはた
-    slack: [ flag-dj ]
+    shortcodes: [ flag-dj ]
     en: "flag: Djibouti"
     since: "2.0"
     subgroup: country-flag
@@ -901,7 +901,7 @@ emoji:
       - でんまーく
       - だんねぶろ
       - でんまーくのはた
-    slack: [ flag-dk ]
+    shortcodes: [ flag-dk ]
     en: "flag: Denmark"
     since: "2.0"
     subgroup: country-flag
@@ -914,7 +914,7 @@ emoji:
       - どみにかこく
       - どみにか
       - どみにかこくのはた
-    slack: [ flag-dm ]
+    shortcodes: [ flag-dm ]
     en: "flag: Dominica"
     since: "2.0"
     subgroup: country-flag
@@ -927,7 +927,7 @@ emoji:
       - どみにかきょうわこく
       - どみにか
       - どみにかきょうわこくのはた
-    slack: [ flag-do ]
+    shortcodes: [ flag-do ]
     en: "flag: Dominican Republic"
     since: "2.0"
     subgroup: country-flag
@@ -939,7 +939,7 @@ emoji:
       - あるじぇりあのこっき
       - あるじぇりあ
       - あるじぇりあのはた
-    slack: [ flag-dz ]
+    shortcodes: [ flag-dz ]
     en: "flag: Algeria"
     since: "2.0"
     subgroup: country-flag
@@ -952,7 +952,7 @@ emoji:
       - せうためりりゃ
       - せうた
       - めりりゃ
-    slack: [ flag-ea ]
+    shortcodes: [ flag-ea ]
     en: "flag: Ceuta & Melilla"
     since: "2.0"
     subgroup: country-flag
@@ -964,7 +964,7 @@ emoji:
       - えくあどるのこっき
       - えくあどる
       - えくあどるのはた
-    slack: [ flag-ec ]
+    shortcodes: [ flag-ec ]
     en: "flag: Ecuador"
     since: "2.0"
     subgroup: country-flag
@@ -976,7 +976,7 @@ emoji:
       - えすとにあのこっき
       - えすとにあ
       - えすとにあのはた
-    slack: [ flag-ee ]
+    shortcodes: [ flag-ee ]
     en: "flag: Estonia"
     since: "2.0"
     subgroup: country-flag
@@ -988,7 +988,7 @@ emoji:
       - えじぷとのこっき
       - えじぷと
       - えじぷとのはた
-    slack: [ flag-eg ]
+    shortcodes: [ flag-eg ]
     en: "flag: Egypt"
     since: "2.0"
     subgroup: country-flag
@@ -1000,7 +1000,7 @@ emoji:
       - にしさはらのはた
       - にしさはら
       - さはら
-    slack: [ flag-eh ]
+    shortcodes: [ flag-eh ]
     en: "flag: Western Sahara"
     since: "2.0"
     subgroup: country-flag
@@ -1012,7 +1012,7 @@ emoji:
       - えりとりあのこっき
       - えりとりあ
       - えりとりあのはた
-    slack: [ flag-er ]
+    shortcodes: [ flag-er ]
     en: "flag: Eritrea"
     since: "2.0"
     subgroup: country-flag
@@ -1024,7 +1024,7 @@ emoji:
       - すぺいんのこっき
       - すぺいん
       - すぺいんのはた
-    slack: [ es, flag-es ]
+    shortcodes: [ es, flag-es ]
     en: "flag: Spain"
     since: "0.6"
     subgroup: country-flag
@@ -1036,7 +1036,7 @@ emoji:
       - えちおぴあのこっき
       - えちおぴあ
       - えちおぴあのはた
-    slack: [ flag-et ]
+    shortcodes: [ flag-et ]
     en: "flag: Ethiopia"
     since: "2.0"
     subgroup: country-flag
@@ -1051,7 +1051,7 @@ emoji:
       - いーゆー
       - よーろっぱ
       - おうしゅう
-    slack: [ flag-eu ]
+    shortcodes: [ flag-eu ]
     en: "flag: European Union"
     since: "2.0"
     subgroup: country-flag
@@ -1063,7 +1063,7 @@ emoji:
       - ふぃんらんどのこっき
       - ふぃんらんど
       - ふぃんらんどのはた
-    slack: [ flag-fi ]
+    shortcodes: [ flag-fi ]
     en: "flag: Finland"
     since: "2.0"
     subgroup: country-flag
@@ -1075,7 +1075,7 @@ emoji:
       - ふぃじーのこっき
       - ふぃじー
       - ふぃじーのはた
-    slack: [ flag-fj ]
+    shortcodes: [ flag-fj ]
     en: "flag: Fiji"
     since: "2.0"
     subgroup: country-flag
@@ -1088,7 +1088,7 @@ emoji:
       - ふぉーくらんどしょとう
       - ふぉーくらんど
       - まるびなすしょとう
-    slack: [ flag-fk ]
+    shortcodes: [ flag-fk ]
     en: "flag: Falkland Islands"
     since: "2.0"
     subgroup: country-flag
@@ -1101,7 +1101,7 @@ emoji:
       - みくろねしあれんぽう
       - みくろねしあ
       - みくろねしあれんぽうのはた
-    slack: [ flag-fm ]
+    shortcodes: [ flag-fm ]
     en: "flag: Micronesia"
     since: "2.0"
     subgroup: country-flag
@@ -1113,7 +1113,7 @@ emoji:
       - ふぇろーしょとうのはた
       - ふぇろーしょとう
       - ふぇろー
-    slack: [ flag-fo ]
+    shortcodes: [ flag-fo ]
     en: "flag: Faroe Islands"
     since: "2.0"
     subgroup: country-flag
@@ -1129,7 +1129,7 @@ emoji:
       - さんしょくき
       - とりころーる
       - ふらんすのはた
-    slack: [ fr, flag-fr ]
+    shortcodes: [ fr, flag-fr ]
     en: "flag: France"
     since: "0.6"
     subgroup: country-flag
@@ -1141,7 +1141,7 @@ emoji:
       - がぼんのこっき
       - がぼん
       - がぼんのはた
-    slack: [ flag-ga ]
+    shortcodes: [ flag-ga ]
     en: "flag: Gabon"
     since: "2.0"
     subgroup: country-flag
@@ -1158,7 +1158,7 @@ emoji:
       - ぶりてん
       - uk
       - いぎりすのはた
-    slack: [ gb, uk, flag-gb ]
+    shortcodes: [ gb, uk, flag-gb ]
     en: "flag: United Kingdom"
     since: "0.6"
     subgroup: country-flag
@@ -1170,7 +1170,7 @@ emoji:
       - ぐれなだのこっき
       - ぐれなだ
       - ぐれなだのはた
-    slack: [ flag-gd ]
+    shortcodes: [ flag-gd ]
     en: "flag: Grenada"
     since: "2.0"
     subgroup: country-flag
@@ -1183,7 +1183,7 @@ emoji:
       - じょーじあ
       - ぐるじあ
       - じょーじあのはた
-    slack: [ flag-ge ]
+    shortcodes: [ flag-ge ]
     en: "flag: Georgia"
     since: "2.0"
     subgroup: country-flag
@@ -1196,7 +1196,7 @@ emoji:
       - ふつりょうぎあな
       - ふらんすりょうぎあな
       - ぎあな
-    slack: [ flag-gf ]
+    shortcodes: [ flag-gf ]
     en: "flag: French Guiana"
     since: "2.0"
     subgroup: country-flag
@@ -1208,7 +1208,7 @@ emoji:
       - がーんじーのはた
       - がーんじー
       - がーんじーとう
-    slack: [ flag-gg ]
+    shortcodes: [ flag-gg ]
     en: "flag: Guernsey"
     since: "2.0"
     subgroup: country-flag
@@ -1220,7 +1220,7 @@ emoji:
       - がーなのこっき
       - がーな
       - がーなのはた
-    slack: [ flag-gh ]
+    shortcodes: [ flag-gh ]
     en: "flag: Ghana"
     since: "2.0"
     subgroup: country-flag
@@ -1231,7 +1231,7 @@ emoji:
     readings:
       - じぶらるたるのはた
       - じぶらるたる
-    slack: [ flag-gi ]
+    shortcodes: [ flag-gi ]
     en: "flag: Gibraltar"
     since: "2.0"
     subgroup: country-flag
@@ -1242,7 +1242,7 @@ emoji:
     readings:
       - ぐりーんらんどのはた
       - ぐりーんらんど
-    slack: [ flag-gl ]
+    shortcodes: [ flag-gl ]
     en: "flag: Greenland"
     since: "2.0"
     subgroup: country-flag
@@ -1254,7 +1254,7 @@ emoji:
       - がんびあのこっき
       - がんびあ
       - がんびあのはた
-    slack: [ flag-gm ]
+    shortcodes: [ flag-gm ]
     en: "flag: Gambia"
     since: "2.0"
     subgroup: country-flag
@@ -1266,7 +1266,7 @@ emoji:
       - ぎにあのこっき
       - ぎにあ
       - ぎにあのはた
-    slack: [ flag-gn ]
+    shortcodes: [ flag-gn ]
     en: "flag: Guinea"
     since: "2.0"
     subgroup: country-flag
@@ -1277,7 +1277,7 @@ emoji:
     readings:
       - ぐあどるーぷのはた
       - ぐあどるーぷ
-    slack: [ flag-gp ]
+    shortcodes: [ flag-gp ]
     en: "flag: Guadeloupe"
     since: "2.0"
     subgroup: country-flag
@@ -1289,7 +1289,7 @@ emoji:
       - せきどうぎにあのこっき
       - せきどうぎにあ
       - せきどうぎにあのはた
-    slack: [ flag-gq ]
+    shortcodes: [ flag-gq ]
     en: "flag: Equatorial Guinea"
     since: "2.0"
     subgroup: country-flag
@@ -1303,7 +1303,7 @@ emoji:
       - ぎりしあ
       - へらす
       - ぎりしゃのはた
-    slack: [ flag-gr ]
+    shortcodes: [ flag-gr ]
     en: "flag: Greece"
     since: "2.0"
     subgroup: country-flag
@@ -1316,7 +1316,7 @@ emoji:
       - さうすじょーじあ
       - さうすさんどうぃっちしょとう
       - さうすじょーじあとう
-    slack: [ flag-gs ]
+    shortcodes: [ flag-gs ]
     en: "flag: South Georgia & South Sandwich Islands"
     since: "2.0"
     subgroup: country-flag
@@ -1328,7 +1328,7 @@ emoji:
       - ぐあてまらのこっき
       - ぐあてまら
       - ぐあてまらのはた
-    slack: [ flag-gt ]
+    shortcodes: [ flag-gt ]
     en: "flag: Guatemala"
     since: "2.0"
     subgroup: country-flag
@@ -1340,7 +1340,7 @@ emoji:
       - ぐあむのはた
       - ぐあむ
       - ぐあむとう
-    slack: [ flag-gu ]
+    shortcodes: [ flag-gu ]
     en: "flag: Guam"
     since: "2.0"
     subgroup: country-flag
@@ -1352,7 +1352,7 @@ emoji:
       - ぎにあびさうのこっき
       - ぎにあびさう
       - ぎにあびさうのはた
-    slack: [ flag-gw ]
+    shortcodes: [ flag-gw ]
     en: "flag: Guinea-Bissau"
     since: "2.0"
     subgroup: country-flag
@@ -1364,7 +1364,7 @@ emoji:
       - がいあなのこっき
       - がいあな
       - がいあなのはた
-    slack: [ flag-gy ]
+    shortcodes: [ flag-gy ]
     en: "flag: Guyana"
     since: "2.0"
     subgroup: country-flag
@@ -1377,7 +1377,7 @@ emoji:
       - ほんこん
       - ほんこんとくべつぎょうせいく
       - ほんこんのこっき
-    slack: [ flag-hk ]
+    shortcodes: [ flag-hk ]
     en: "flag: Hong Kong SAR China"
     since: "2.0"
     subgroup: country-flag
@@ -1389,7 +1389,7 @@ emoji:
       - はーどとうのはた
       - はーどとう
       - まくどなるどしょとう
-    slack: [ flag-hm ]
+    shortcodes: [ flag-hm ]
     en: "flag: Heard Island & McDonald Islands"
     since: "2.0"
     subgroup: country-flag
@@ -1401,7 +1401,7 @@ emoji:
       - ほんじゅらすのこっき
       - ほんじゅらす
       - ほんじゅらすのはた
-    slack: [ flag-hn ]
+    shortcodes: [ flag-hn ]
     en: "flag: Honduras"
     since: "2.0"
     subgroup: country-flag
@@ -1413,7 +1413,7 @@ emoji:
       - くろあちあのこっき
       - くろあちあ
       - くろあちあのはた
-    slack: [ flag-hr ]
+    shortcodes: [ flag-hr ]
     en: "flag: Croatia"
     since: "2.0"
     subgroup: country-flag
@@ -1425,7 +1425,7 @@ emoji:
       - はいちのこっき
       - はいち
       - はいちのはた
-    slack: [ flag-ht ]
+    shortcodes: [ flag-ht ]
     en: "flag: Haiti"
     since: "2.0"
     subgroup: country-flag
@@ -1437,7 +1437,7 @@ emoji:
       - はんがりーのこっき
       - はんがりー
       - はんがりーのはた
-    slack: [ flag-hu ]
+    shortcodes: [ flag-hu ]
     en: "flag: Hungary"
     since: "2.0"
     subgroup: country-flag
@@ -1449,7 +1449,7 @@ emoji:
       - かなりあしょとうのはた
       - かなりあしょとう
       - かなりあ
-    slack: [ flag-ic ]
+    shortcodes: [ flag-ic ]
     en: "flag: Canary Islands"
     since: "2.0"
     subgroup: country-flag
@@ -1461,7 +1461,7 @@ emoji:
       - いんどねしあのこっき
       - いんどねしあ
       - いんどねしあのはた
-    slack: [ flag-id ]
+    shortcodes: [ flag-id ]
     en: "flag: Indonesia"
     since: "2.0"
     subgroup: country-flag
@@ -1474,7 +1474,7 @@ emoji:
       - あいるらんど
       - えーる
       - あいるらんどのはた
-    slack: [ flag-ie ]
+    shortcodes: [ flag-ie ]
     en: "flag: Ireland"
     since: "2.0"
     subgroup: country-flag
@@ -1486,7 +1486,7 @@ emoji:
       - いすらえるのこっき
       - いすらえる
       - いすらえるのはた
-    slack: [ flag-il ]
+    shortcodes: [ flag-il ]
     en: "flag: Israel"
     since: "2.0"
     subgroup: country-flag
@@ -1497,7 +1497,7 @@ emoji:
     readings:
       - まんとうのはた
       - まんとう
-    slack: [ flag-im ]
+    shortcodes: [ flag-im ]
     en: "flag: Isle of Man"
     since: "2.0"
     subgroup: country-flag
@@ -1509,7 +1509,7 @@ emoji:
       - いんどのこっき
       - いんど
       - いんどのはた
-    slack: [ flag-in ]
+    shortcodes: [ flag-in ]
     en: "flag: India"
     since: "2.0"
     subgroup: country-flag
@@ -1521,7 +1521,7 @@ emoji:
       - えいりょういんどようちいきのはた
       - えいりょういんどようちいき
       - ちゃごすしょとう
-    slack: [ flag-io ]
+    shortcodes: [ flag-io ]
     en: "flag: British Indian Ocean Territory"
     since: "2.0"
     subgroup: country-flag
@@ -1533,7 +1533,7 @@ emoji:
       - いらくのこっき
       - いらく
       - いらくのはた
-    slack: [ flag-iq ]
+    shortcodes: [ flag-iq ]
     en: "flag: Iraq"
     since: "2.0"
     subgroup: country-flag
@@ -1545,7 +1545,7 @@ emoji:
       - いらんのこっき
       - いらん
       - いらんのはた
-    slack: [ flag-ir ]
+    shortcodes: [ flag-ir ]
     en: "flag: Iran"
     since: "2.0"
     subgroup: country-flag
@@ -1557,7 +1557,7 @@ emoji:
       - あいすらんどのこっき
       - あいすらんど
       - あいすらんどのはた
-    slack: [ flag-is ]
+    shortcodes: [ flag-is ]
     en: "flag: Iceland"
     since: "2.0"
     subgroup: country-flag
@@ -1571,7 +1571,7 @@ emoji:
       - いたりー
       - さんしょくき
       - いたりあのはた
-    slack: [ it, flag-it ]
+    shortcodes: [ it, flag-it ]
     en: "flag: Italy"
     since: "0.6"
     subgroup: country-flag
@@ -1583,7 +1583,7 @@ emoji:
       - じゃーじーのはた
       - じゃーじー
       - じゃーじーとう
-    slack: [ flag-je ]
+    shortcodes: [ flag-je ]
     en: "flag: Jersey"
     since: "2.0"
     subgroup: country-flag
@@ -1595,7 +1595,7 @@ emoji:
       - じゃまいかのこっき
       - じゃまいか
       - じゃまいかのはた
-    slack: [ flag-jm ]
+    shortcodes: [ flag-jm ]
     en: "flag: Jamaica"
     since: "2.0"
     subgroup: country-flag
@@ -1607,7 +1607,7 @@ emoji:
       - よるだんのこっき
       - よるだん
       - よるだんのはた
-    slack: [ flag-jo ]
+    shortcodes: [ flag-jo ]
     en: "flag: Jordan"
     since: "2.0"
     subgroup: country-flag
@@ -1624,7 +1624,7 @@ emoji:
       - にほんのはた
       - じゃぱん
       - jp
-    slack: [ jp, flag-jp ]
+    shortcodes: [ jp, flag-jp ]
     en: "flag: Japan"
     since: "0.6"
     subgroup: country-flag
@@ -1636,7 +1636,7 @@ emoji:
       - けにあのこっき
       - けにあ
       - けにあのはた
-    slack: [ flag-ke ]
+    shortcodes: [ flag-ke ]
     en: "flag: Kenya"
     since: "2.0"
     subgroup: country-flag
@@ -1649,7 +1649,7 @@ emoji:
       - きるぎす
       - きるぎすたん
       - きるぎすのはた
-    slack: [ flag-kg ]
+    shortcodes: [ flag-kg ]
     en: "flag: Kyrgyzstan"
     since: "2.0"
     subgroup: country-flag
@@ -1661,7 +1661,7 @@ emoji:
       - かんぼじあのこっき
       - かんぼじあ
       - かんぼじあのはた
-    slack: [ flag-kh ]
+    shortcodes: [ flag-kh ]
     en: "flag: Cambodia"
     since: "2.0"
     subgroup: country-flag
@@ -1673,7 +1673,7 @@ emoji:
       - きりばすのこっき
       - きりばす
       - きりばすのはた
-    slack: [ flag-ki ]
+    shortcodes: [ flag-ki ]
     en: "flag: Kiribati"
     since: "2.0"
     subgroup: country-flag
@@ -1685,7 +1685,7 @@ emoji:
       - こもろのこっき
       - こもろ
       - こもろのはた
-    slack: [ flag-km ]
+    shortcodes: [ flag-km ]
     en: "flag: Comoros"
     since: "2.0"
     subgroup: country-flag
@@ -1700,7 +1700,7 @@ emoji:
       - せんときっつ
       - ねーびす
       - せんとくりすとふぁーねーびすのはた
-    slack: [ flag-kn ]
+    shortcodes: [ flag-kn ]
     en: "flag: St. Kitts & Nevis"
     since: "2.0"
     subgroup: country-flag
@@ -1713,7 +1713,7 @@ emoji:
       - きたちょうせん
       - ちょうせんみんしゅしゅぎじんみんきょうわこく
       - きたちょうせんのはた
-    slack: [ flag-kp ]
+    shortcodes: [ flag-kp ]
     en: "flag: North Korea"
     since: "2.0"
     subgroup: country-flag
@@ -1728,7 +1728,7 @@ emoji:
       - たいきょくき
       - さうすこりあ
       - かんこくのはた
-    slack: [ kr, flag-kr ]
+    shortcodes: [ kr, flag-kr ]
     en: "flag: South Korea"
     since: "0.6"
     subgroup: country-flag
@@ -1740,7 +1740,7 @@ emoji:
       - くうぇーとのこっき
       - くうぇーと
       - くうぇーとのはた
-    slack: [ flag-kw ]
+    shortcodes: [ flag-kw ]
     en: "flag: Kuwait"
     since: "2.0"
     subgroup: country-flag
@@ -1752,7 +1752,7 @@ emoji:
       - けいまんしょとうのはた
       - けいまんしょとう
       - けいまん
-    slack: [ flag-ky ]
+    shortcodes: [ flag-ky ]
     en: "flag: Cayman Islands"
     since: "2.0"
     subgroup: country-flag
@@ -1764,7 +1764,7 @@ emoji:
       - かざふすたんのこっき
       - かざふすたん
       - かざふすたんのはた
-    slack: [ flag-kz ]
+    shortcodes: [ flag-kz ]
     en: "flag: Kazakhstan"
     since: "2.0"
     subgroup: country-flag
@@ -1776,7 +1776,7 @@ emoji:
       - らおすのこっき
       - らおす
       - らおすのはた
-    slack: [ flag-la ]
+    shortcodes: [ flag-la ]
     en: "flag: Laos"
     since: "2.0"
     subgroup: country-flag
@@ -1788,7 +1788,7 @@ emoji:
       - ればのんのこっき
       - ればのん
       - ればのんのはた
-    slack: [ flag-lb ]
+    shortcodes: [ flag-lb ]
     en: "flag: Lebanon"
     since: "2.0"
     subgroup: country-flag
@@ -1800,7 +1800,7 @@ emoji:
       - せんとるしあのこっき
       - せんとるしあ
       - せんとるしあのはた
-    slack: [ flag-lc ]
+    shortcodes: [ flag-lc ]
     en: "flag: St. Lucia"
     since: "2.0"
     subgroup: country-flag
@@ -1812,7 +1812,7 @@ emoji:
       - りひてんしゅたいんのこっき
       - りひてんしゅたいん
       - りひてんしゅたいんのはた
-    slack: [ flag-li ]
+    shortcodes: [ flag-li ]
     en: "flag: Liechtenstein"
     since: "2.0"
     subgroup: country-flag
@@ -1825,7 +1825,7 @@ emoji:
       - すりらんか
       - せいろん
       - すりらんかのはた
-    slack: [ flag-lk ]
+    shortcodes: [ flag-lk ]
     en: "flag: Sri Lanka"
     since: "2.0"
     subgroup: country-flag
@@ -1837,7 +1837,7 @@ emoji:
       - りべりあのこっき
       - りべりあ
       - りべりあのはた
-    slack: [ flag-lr ]
+    shortcodes: [ flag-lr ]
     en: "flag: Liberia"
     since: "2.0"
     subgroup: country-flag
@@ -1849,7 +1849,7 @@ emoji:
       - れそとのこっき
       - れそと
       - れそとのはた
-    slack: [ flag-ls ]
+    shortcodes: [ flag-ls ]
     en: "flag: Lesotho"
     since: "2.0"
     subgroup: country-flag
@@ -1861,7 +1861,7 @@ emoji:
       - りとあにあのこっき
       - りとあにあ
       - りとあにあのはた
-    slack: [ flag-lt ]
+    shortcodes: [ flag-lt ]
     en: "flag: Lithuania"
     since: "2.0"
     subgroup: country-flag
@@ -1874,7 +1874,7 @@ emoji:
       - るくせんぶるく
       - るくせんぶるぐ
       - るくせんぶるくのはた
-    slack: [ flag-lu ]
+    shortcodes: [ flag-lu ]
     en: "flag: Luxembourg"
     since: "2.0"
     subgroup: country-flag
@@ -1886,7 +1886,7 @@ emoji:
       - らとびあのこっき
       - らとびあ
       - らとびあのはた
-    slack: [ flag-lv ]
+    shortcodes: [ flag-lv ]
     en: "flag: Latvia"
     since: "2.0"
     subgroup: country-flag
@@ -1898,7 +1898,7 @@ emoji:
       - りびあのこっき
       - りびあ
       - りびあのはた
-    slack: [ flag-ly ]
+    shortcodes: [ flag-ly ]
     en: "flag: Libya"
     since: "2.0"
     subgroup: country-flag
@@ -1910,7 +1910,7 @@ emoji:
       - もろっこのこっき
       - もろっこ
       - もろっこのはた
-    slack: [ flag-ma ]
+    shortcodes: [ flag-ma ]
     en: "flag: Morocco"
     since: "2.0"
     subgroup: country-flag
@@ -1922,7 +1922,7 @@ emoji:
       - もなこのこっき
       - もなこ
       - もなこのはた
-    slack: [ flag-mc ]
+    shortcodes: [ flag-mc ]
     en: "flag: Monaco"
     since: "2.0"
     subgroup: country-flag
@@ -1934,7 +1934,7 @@ emoji:
       - もるどばのこっき
       - もるどば
       - もるどばのはた
-    slack: [ flag-md ]
+    shortcodes: [ flag-md ]
     en: "flag: Moldova"
     since: "2.0"
     subgroup: country-flag
@@ -1946,7 +1946,7 @@ emoji:
       - もんてねぐろのこっき
       - もんてねぐろ
       - もんてねぐろのはた
-    slack: [ flag-me ]
+    shortcodes: [ flag-me ]
     en: "flag: Montenegro"
     since: "2.0"
     subgroup: country-flag
@@ -1957,7 +1957,7 @@ emoji:
     readings:
       - さんまるたんのはた
       - さんまるたん
-    slack: [ flag-mf ]
+    shortcodes: [ flag-mf ]
     en: "flag: St. Martin"
     since: "2.0"
     subgroup: country-flag
@@ -1969,7 +1969,7 @@ emoji:
       - まだがすかるのこっき
       - まだがすかる
       - まだがすかるのはた
-    slack: [ flag-mg ]
+    shortcodes: [ flag-mg ]
     en: "flag: Madagascar"
     since: "2.0"
     subgroup: country-flag
@@ -1982,7 +1982,7 @@ emoji:
       - まーしゃるしょとう
       - まーしゃる
       - まーしゃるしょとうのはた
-    slack: [ flag-mh ]
+    shortcodes: [ flag-mh ]
     en: "flag: Marshall Islands"
     since: "2.0"
     subgroup: country-flag
@@ -1995,7 +1995,7 @@ emoji:
       - きたまけどにあ
       - まけどにあ
       - きたまけどにあのはた
-    slack: [ flag-mk ]
+    shortcodes: [ flag-mk ]
     en: "flag: North Macedonia"
     since: "2.0"
     subgroup: country-flag
@@ -2007,7 +2007,7 @@ emoji:
       - まりのこっき
       - まり
       - まりのはた
-    slack: [ flag-ml ]
+    shortcodes: [ flag-ml ]
     en: "flag: Mali"
     since: "2.0"
     subgroup: country-flag
@@ -2020,7 +2020,7 @@ emoji:
       - みゃんまー
       - びるま
       - みゃんまーのはた
-    slack: [ flag-mm ]
+    shortcodes: [ flag-mm ]
     en: "flag: Myanmar (Burma)"
     since: "2.0"
     subgroup: country-flag
@@ -2032,7 +2032,7 @@ emoji:
       - もんごるのこっき
       - もんごる
       - もんごるのはた
-    slack: [ flag-mn ]
+    shortcodes: [ flag-mn ]
     en: "flag: Mongolia"
     since: "2.0"
     subgroup: country-flag
@@ -2044,7 +2044,7 @@ emoji:
       - まかおのはた
       - まかお
       - まかおとくべつぎょうせいく
-    slack: [ flag-mo ]
+    shortcodes: [ flag-mo ]
     en: "flag: Macao SAR China"
     since: "2.0"
     subgroup: country-flag
@@ -2057,7 +2057,7 @@ emoji:
       - きたまりあなしょとう
       - さいぱん
       - まりあなしょとう
-    slack: [ flag-mp ]
+    shortcodes: [ flag-mp ]
     en: "flag: Northern Mariana Islands"
     since: "2.0"
     subgroup: country-flag
@@ -2068,7 +2068,7 @@ emoji:
     readings:
       - まるてぃにーくのはた
       - まるてぃにーく
-    slack: [ flag-mq ]
+    shortcodes: [ flag-mq ]
     en: "flag: Martinique"
     since: "2.0"
     subgroup: country-flag
@@ -2080,7 +2080,7 @@ emoji:
       - もーりたにあのこっき
       - もーりたにあ
       - もーりたにあのはた
-    slack: [ flag-mr ]
+    shortcodes: [ flag-mr ]
     en: "flag: Mauritania"
     since: "2.0"
     subgroup: country-flag
@@ -2091,7 +2091,7 @@ emoji:
     readings:
       - もんとせらとのはた
       - もんとせらと
-    slack: [ flag-ms ]
+    shortcodes: [ flag-ms ]
     en: "flag: Montserrat"
     since: "2.0"
     subgroup: country-flag
@@ -2103,7 +2103,7 @@ emoji:
       - まるたのこっき
       - まるた
       - まるたのはた
-    slack: [ flag-mt ]
+    shortcodes: [ flag-mt ]
     en: "flag: Malta"
     since: "2.0"
     subgroup: country-flag
@@ -2115,7 +2115,7 @@ emoji:
       - もーりしゃすのこっき
       - もーりしゃす
       - もーりしゃすのはた
-    slack: [ flag-mu ]
+    shortcodes: [ flag-mu ]
     en: "flag: Mauritius"
     since: "2.0"
     subgroup: country-flag
@@ -2127,7 +2127,7 @@ emoji:
       - もるでぃぶのこっき
       - もるでぃぶ
       - もるでぃぶのはた
-    slack: [ flag-mv ]
+    shortcodes: [ flag-mv ]
     en: "flag: Maldives"
     since: "2.0"
     subgroup: country-flag
@@ -2139,7 +2139,7 @@ emoji:
       - まらういのこっき
       - まらうい
       - まらういのはた
-    slack: [ flag-mw ]
+    shortcodes: [ flag-mw ]
     en: "flag: Malawi"
     since: "2.0"
     subgroup: country-flag
@@ -2151,7 +2151,7 @@ emoji:
       - めきしこのこっき
       - めきしこ
       - めきしこのはた
-    slack: [ flag-mx ]
+    shortcodes: [ flag-mx ]
     en: "flag: Mexico"
     since: "2.0"
     subgroup: country-flag
@@ -2163,7 +2163,7 @@ emoji:
       - まれーしあのこっき
       - まれーしあ
       - まれーしあのはた
-    slack: [ flag-my ]
+    shortcodes: [ flag-my ]
     en: "flag: Malaysia"
     since: "2.0"
     subgroup: country-flag
@@ -2175,7 +2175,7 @@ emoji:
       - もざんびーくのこっき
       - もざんびーく
       - もざんびーくのはた
-    slack: [ flag-mz ]
+    shortcodes: [ flag-mz ]
     en: "flag: Mozambique"
     since: "2.0"
     subgroup: country-flag
@@ -2187,7 +2187,7 @@ emoji:
       - なみびあのこっき
       - なみびあ
       - なみびあのはた
-    slack: [ flag-na ]
+    shortcodes: [ flag-na ]
     en: "flag: Namibia"
     since: "2.0"
     subgroup: country-flag
@@ -2198,7 +2198,7 @@ emoji:
     readings:
       - にゅーかれどにあのはた
       - にゅーかれどにあ
-    slack: [ flag-nc ]
+    shortcodes: [ flag-nc ]
     en: "flag: New Caledonia"
     since: "2.0"
     subgroup: country-flag
@@ -2210,7 +2210,7 @@ emoji:
       - にじぇーるのこっき
       - にじぇーる
       - にじぇーるのはた
-    slack: [ flag-ne ]
+    shortcodes: [ flag-ne ]
     en: "flag: Niger"
     since: "2.0"
     subgroup: country-flag
@@ -2221,7 +2221,7 @@ emoji:
     readings:
       - のーふぉーくとうのはた
       - のーふぉーくとう
-    slack: [ flag-nf ]
+    shortcodes: [ flag-nf ]
     en: "flag: Norfolk Island"
     since: "2.0"
     subgroup: country-flag
@@ -2233,7 +2233,7 @@ emoji:
       - ないじぇりあのこっき
       - ないじぇりあ
       - ないじぇりあのはた
-    slack: [ flag-ng ]
+    shortcodes: [ flag-ng ]
     en: "flag: Nigeria"
     since: "2.0"
     subgroup: country-flag
@@ -2245,7 +2245,7 @@ emoji:
       - にからぐあのこっき
       - にからぐあ
       - にからぐあのはた
-    slack: [ flag-ni ]
+    shortcodes: [ flag-ni ]
     en: "flag: Nicaragua"
     since: "2.0"
     subgroup: country-flag
@@ -2259,7 +2259,7 @@ emoji:
       - ねーでるらんと
       - ねざーらんど
       - おらんだのはた
-    slack: [ flag-nl ]
+    shortcodes: [ flag-nl ]
     en: "flag: Netherlands"
     since: "2.0"
     subgroup: country-flag
@@ -2271,7 +2271,7 @@ emoji:
       - のるうぇーのこっき
       - のるうぇー
       - のるうぇーのはた
-    slack: [ flag-no ]
+    shortcodes: [ flag-no ]
     en: "flag: Norway"
     since: "2.0"
     subgroup: country-flag
@@ -2283,7 +2283,7 @@ emoji:
       - ねぱーるのこっき
       - ねぱーる
       - ねぱーるのはた
-    slack: [ flag-np ]
+    shortcodes: [ flag-np ]
     en: "flag: Nepal"
     since: "2.0"
     subgroup: country-flag
@@ -2295,7 +2295,7 @@ emoji:
       - なうるのこっき
       - なうる
       - なうるのはた
-    slack: [ flag-nr ]
+    shortcodes: [ flag-nr ]
     en: "flag: Nauru"
     since: "2.0"
     subgroup: country-flag
@@ -2306,7 +2306,7 @@ emoji:
     readings:
       - にうえのはた
       - にうえ
-    slack: [ flag-nu ]
+    shortcodes: [ flag-nu ]
     en: "flag: Niue"
     since: "2.0"
     subgroup: country-flag
@@ -2319,7 +2319,7 @@ emoji:
       - にゅーじーらんど
       - nz
       - にゅーじーらんどのはた
-    slack: [ flag-nz ]
+    shortcodes: [ flag-nz ]
     en: "flag: New Zealand"
     since: "2.0"
     subgroup: country-flag
@@ -2331,7 +2331,7 @@ emoji:
       - おまーんのこっき
       - おまーん
       - おまーんのはた
-    slack: [ flag-om ]
+    shortcodes: [ flag-om ]
     en: "flag: Oman"
     since: "2.0"
     subgroup: country-flag
@@ -2343,7 +2343,7 @@ emoji:
       - ぱなまのこっき
       - ぱなま
       - ぱなまのはた
-    slack: [ flag-pa ]
+    shortcodes: [ flag-pa ]
     en: "flag: Panama"
     since: "2.0"
     subgroup: country-flag
@@ -2355,7 +2355,7 @@ emoji:
       - ぺるーのこっき
       - ぺるー
       - ぺるーのはた
-    slack: [ flag-pe ]
+    shortcodes: [ flag-pe ]
     en: "flag: Peru"
     since: "2.0"
     subgroup: country-flag
@@ -2369,7 +2369,7 @@ emoji:
       - ふらんすりょうぽりねしあ
       - たひち
       - ぽりねしあ
-    slack: [ flag-pf ]
+    shortcodes: [ flag-pf ]
     en: "flag: French Polynesia"
     since: "2.0"
     subgroup: country-flag
@@ -2381,7 +2381,7 @@ emoji:
       - ぱぷあにゅーぎにあのこっき
       - ぱぷあにゅーぎにあ
       - ぱぷあにゅーぎにあのはた
-    slack: [ flag-pg ]
+    shortcodes: [ flag-pg ]
     en: "flag: Papua New Guinea"
     since: "2.0"
     subgroup: country-flag
@@ -2393,7 +2393,7 @@ emoji:
       - ふぃりぴんのこっき
       - ふぃりぴん
       - ふぃりぴんのはた
-    slack: [ flag-ph ]
+    shortcodes: [ flag-ph ]
     en: "flag: Philippines"
     since: "2.0"
     subgroup: country-flag
@@ -2405,7 +2405,7 @@ emoji:
       - ぱきすたんのこっき
       - ぱきすたん
       - ぱきすたんのはた
-    slack: [ flag-pk ]
+    shortcodes: [ flag-pk ]
     en: "flag: Pakistan"
     since: "2.0"
     subgroup: country-flag
@@ -2417,7 +2417,7 @@ emoji:
       - ぽーらんどのこっき
       - ぽーらんど
       - ぽーらんどのはた
-    slack: [ flag-pl ]
+    shortcodes: [ flag-pl ]
     en: "flag: Poland"
     since: "2.0"
     subgroup: country-flag
@@ -2430,7 +2430,7 @@ emoji:
       - さんぴえーるとう
       - みくろんとう
       - さんぴえーるみくろん
-    slack: [ flag-pm ]
+    shortcodes: [ flag-pm ]
     en: "flag: St. Pierre & Miquelon"
     since: "2.0"
     subgroup: country-flag
@@ -2442,7 +2442,7 @@ emoji:
       - ぴとけあんしょとうのはた
       - ぴとけあんしょとう
       - ぴとけあん
-    slack: [ flag-pn ]
+    shortcodes: [ flag-pn ]
     en: "flag: Pitcairn Islands"
     since: "2.0"
     subgroup: country-flag
@@ -2453,7 +2453,7 @@ emoji:
     readings:
       - ぷえるとりこのはた
       - ぷえるとりこ
-    slack: [ flag-pr ]
+    shortcodes: [ flag-pr ]
     en: "flag: Puerto Rico"
     since: "2.0"
     subgroup: country-flag
@@ -2466,7 +2466,7 @@ emoji:
       - ぱれすちな
       - ぱれすちなじちく
       - ぱれすちなのはた
-    slack: [ flag-ps ]
+    shortcodes: [ flag-ps ]
     en: "flag: Palestinian Territories"
     since: "2.0"
     subgroup: country-flag
@@ -2478,7 +2478,7 @@ emoji:
       - ぽるとがるのこっき
       - ぽるとがる
       - ぽるとがるのはた
-    slack: [ flag-pt ]
+    shortcodes: [ flag-pt ]
     en: "flag: Portugal"
     since: "2.0"
     subgroup: country-flag
@@ -2490,7 +2490,7 @@ emoji:
       - ぱらおのこっき
       - ぱらお
       - ぱらおのはた
-    slack: [ flag-pw ]
+    shortcodes: [ flag-pw ]
     en: "flag: Palau"
     since: "2.0"
     subgroup: country-flag
@@ -2502,7 +2502,7 @@ emoji:
       - ぱらぐあいのこっき
       - ぱらぐあい
       - ぱらぐあいのはた
-    slack: [ flag-py ]
+    shortcodes: [ flag-py ]
     en: "flag: Paraguay"
     since: "2.0"
     subgroup: country-flag
@@ -2514,7 +2514,7 @@ emoji:
       - かたーるのこっき
       - かたーる
       - かたーるのはた
-    slack: [ flag-qa ]
+    shortcodes: [ flag-qa ]
     en: "flag: Qatar"
     since: "2.0"
     subgroup: country-flag
@@ -2525,7 +2525,7 @@ emoji:
     readings:
       - れゆにおんのはた
       - れゆにおん
-    slack: [ flag-re ]
+    shortcodes: [ flag-re ]
     en: "flag: Réunion"
     since: "2.0"
     subgroup: country-flag
@@ -2537,7 +2537,7 @@ emoji:
       - るーまにあのこっき
       - るーまにあ
       - るーまにあのはた
-    slack: [ flag-ro ]
+    shortcodes: [ flag-ro ]
     en: "flag: Romania"
     since: "2.0"
     subgroup: country-flag
@@ -2549,7 +2549,7 @@ emoji:
       - せるびあのこっき
       - せるびあ
       - せるびあのはた
-    slack: [ flag-rs ]
+    shortcodes: [ flag-rs ]
     en: "flag: Serbia"
     since: "2.0"
     subgroup: country-flag
@@ -2562,7 +2562,7 @@ emoji:
       - ろしあ
       - ろしあれんぽう
       - ろしあのはた
-    slack: [ ru, flag-ru ]
+    shortcodes: [ ru, flag-ru ]
     en: "flag: Russia"
     since: "0.6"
     subgroup: country-flag
@@ -2574,7 +2574,7 @@ emoji:
       - るわんだのこっき
       - るわんだ
       - るわんだのはた
-    slack: [ flag-rw ]
+    shortcodes: [ flag-rw ]
     en: "flag: Rwanda"
     since: "2.0"
     subgroup: country-flag
@@ -2587,7 +2587,7 @@ emoji:
       - さうじあらびあ
       - さうじ
       - さうじあらびあのはた
-    slack: [ flag-sa ]
+    shortcodes: [ flag-sa ]
     en: "flag: Saudi Arabia"
     since: "2.0"
     subgroup: country-flag
@@ -2600,7 +2600,7 @@ emoji:
       - そろもんしょとう
       - そろもん
       - そろもんしょとうのはた
-    slack: [ flag-sb ]
+    shortcodes: [ flag-sb ]
     en: "flag: Solomon Islands"
     since: "2.0"
     subgroup: country-flag
@@ -2612,7 +2612,7 @@ emoji:
       - せーしぇるのこっき
       - せーしぇる
       - せーしぇるのはた
-    slack: [ flag-sc ]
+    shortcodes: [ flag-sc ]
     en: "flag: Seychelles"
     since: "2.0"
     subgroup: country-flag
@@ -2624,7 +2624,7 @@ emoji:
       - すーだんのこっき
       - すーだん
       - すーだんのはた
-    slack: [ flag-sd ]
+    shortcodes: [ flag-sd ]
     en: "flag: Sudan"
     since: "2.0"
     subgroup: country-flag
@@ -2636,7 +2636,7 @@ emoji:
       - すうぇーでんのこっき
       - すうぇーでん
       - すうぇーでんのはた
-    slack: [ flag-se ]
+    shortcodes: [ flag-se ]
     en: "flag: Sweden"
     since: "2.0"
     subgroup: country-flag
@@ -2648,7 +2648,7 @@ emoji:
       - しんがぽーるのこっき
       - しんがぽーる
       - しんがぽーるのはた
-    slack: [ flag-sg ]
+    shortcodes: [ flag-sg ]
     en: "flag: Singapore"
     since: "2.0"
     subgroup: country-flag
@@ -2661,7 +2661,7 @@ emoji:
       - せんとへれな
       - あせんしょんとう
       - せんとへれなとう
-    slack: [ flag-sh ]
+    shortcodes: [ flag-sh ]
     en: "flag: St. Helena, Ascension & Tristan da Cunha"
     since: "2.0"
     subgroup: country-flag
@@ -2673,7 +2673,7 @@ emoji:
       - すろべにあのこっき
       - すろべにあ
       - すろべにあのはた
-    slack: [ flag-si ]
+    shortcodes: [ flag-si ]
     en: "flag: Slovenia"
     since: "2.0"
     subgroup: country-flag
@@ -2686,7 +2686,7 @@ emoji:
       - すばーるばるしょとう
       - やんまいえんとう
       - すばーるばる
-    slack: [ flag-sj ]
+    shortcodes: [ flag-sj ]
     en: "flag: Svalbard & Jan Mayen"
     since: "2.0"
     subgroup: country-flag
@@ -2698,7 +2698,7 @@ emoji:
       - すろばきあのこっき
       - すろばきあ
       - すろばきあのはた
-    slack: [ flag-sk ]
+    shortcodes: [ flag-sk ]
     en: "flag: Slovakia"
     since: "2.0"
     subgroup: country-flag
@@ -2710,7 +2710,7 @@ emoji:
       - しえられおねのこっき
       - しえられおね
       - しえられおねのはた
-    slack: [ flag-sl ]
+    shortcodes: [ flag-sl ]
     en: "flag: Sierra Leone"
     since: "2.0"
     subgroup: country-flag
@@ -2722,7 +2722,7 @@ emoji:
       - さんまりののこっき
       - さんまりの
       - さんまりののはた
-    slack: [ flag-sm ]
+    shortcodes: [ flag-sm ]
     en: "flag: San Marino"
     since: "2.0"
     subgroup: country-flag
@@ -2734,7 +2734,7 @@ emoji:
       - せねがるのこっき
       - せねがる
       - せねがるのはた
-    slack: [ flag-sn ]
+    shortcodes: [ flag-sn ]
     en: "flag: Senegal"
     since: "2.0"
     subgroup: country-flag
@@ -2746,7 +2746,7 @@ emoji:
       - そまりあのこっき
       - そまりあ
       - そまりあのはた
-    slack: [ flag-so ]
+    shortcodes: [ flag-so ]
     en: "flag: Somalia"
     since: "2.0"
     subgroup: country-flag
@@ -2758,7 +2758,7 @@ emoji:
       - すりなむのこっき
       - すりなむ
       - すりなむのはた
-    slack: [ flag-sr ]
+    shortcodes: [ flag-sr ]
     en: "flag: Suriname"
     since: "2.0"
     subgroup: country-flag
@@ -2770,7 +2770,7 @@ emoji:
       - みなみすーだんのこっき
       - みなみすーだん
       - みなみすーだんのはた
-    slack: [ flag-ss ]
+    shortcodes: [ flag-ss ]
     en: "flag: South Sudan"
     since: "2.0"
     subgroup: country-flag
@@ -2783,7 +2783,7 @@ emoji:
       - さんとめぷりんしぺ
       - さんとめ
       - さんとめぷりんしぺのはた
-    slack: [ flag-st ]
+    shortcodes: [ flag-st ]
     en: "flag: São Tomé & Príncipe"
     since: "2.0"
     subgroup: country-flag
@@ -2795,7 +2795,7 @@ emoji:
       - えるさるばどるのこっき
       - えるさるばどる
       - えるさるばどるのはた
-    slack: [ flag-sv ]
+    shortcodes: [ flag-sv ]
     en: "flag: El Salvador"
     since: "2.0"
     subgroup: country-flag
@@ -2806,7 +2806,7 @@ emoji:
     readings:
       - しんとまーるてんのはた
       - しんとまーるてん
-    slack: [ flag-sx ]
+    shortcodes: [ flag-sx ]
     en: "flag: Sint Maarten"
     since: "2.0"
     subgroup: country-flag
@@ -2818,7 +2818,7 @@ emoji:
       - しりあのこっき
       - しりあ
       - しりあのはた
-    slack: [ flag-sy ]
+    shortcodes: [ flag-sy ]
     en: "flag: Syria"
     since: "2.0"
     subgroup: country-flag
@@ -2831,7 +2831,7 @@ emoji:
       - えすわてぃに
       - すわじらんど
       - えすわてぃにのはた
-    slack: [ flag-sz ]
+    shortcodes: [ flag-sz ]
     en: "flag: Eswatini"
     since: "2.0"
     subgroup: country-flag
@@ -2842,7 +2842,7 @@ emoji:
     readings:
       - とりすたんだくーにゃのはた
       - とりすたんだくーにゃ
-    slack: [ flag-ta ]
+    shortcodes: [ flag-ta ]
     en: "flag: Tristan da Cunha"
     since: "2.0"
     subgroup: country-flag
@@ -2854,7 +2854,7 @@ emoji:
       - たーくすかいこすしょとうのはた
       - たーくすかいこすしょとう
       - たーくすかいこす
-    slack: [ flag-tc ]
+    shortcodes: [ flag-tc ]
     en: "flag: Turks & Caicos Islands"
     since: "2.0"
     subgroup: country-flag
@@ -2866,7 +2866,7 @@ emoji:
       - ちゃどのこっき
       - ちゃど
       - ちゃどのはた
-    slack: [ flag-td ]
+    shortcodes: [ flag-td ]
     en: "flag: Chad"
     since: "2.0"
     subgroup: country-flag
@@ -2878,7 +2878,7 @@ emoji:
       - ふつりょうきょくなんしょとうのはた
       - ふつりょうきょくなんしょとう
       - ふらんすりょうきょくなんしょとう
-    slack: [ flag-tf ]
+    shortcodes: [ flag-tf ]
     en: "flag: French Southern and Antarctic Lands"
     since: "2.0"
     subgroup: country-flag
@@ -2890,7 +2890,7 @@ emoji:
       - とーごのこっき
       - とーご
       - とーごのはた
-    slack: [ flag-tg ]
+    shortcodes: [ flag-tg ]
     en: "flag: Togo"
     since: "2.0"
     subgroup: country-flag
@@ -2903,7 +2903,7 @@ emoji:
       - たい
       - たいおうこく
       - たいのはた
-    slack: [ flag-th ]
+    shortcodes: [ flag-th ]
     en: "flag: Thailand"
     since: "2.0"
     subgroup: country-flag
@@ -2915,7 +2915,7 @@ emoji:
       - たじきすたんのこっき
       - たじきすたん
       - たじきすたんのはた
-    slack: [ flag-tj ]
+    shortcodes: [ flag-tj ]
     en: "flag: Tajikistan"
     since: "2.0"
     subgroup: country-flag
@@ -2926,7 +2926,7 @@ emoji:
     readings:
       - とけらうのはた
       - とけらう
-    slack: [ flag-tk ]
+    shortcodes: [ flag-tk ]
     en: "flag: Tokelau"
     since: "2.0"
     subgroup: country-flag
@@ -2939,7 +2939,7 @@ emoji:
       - ひがしてぃもーる
       - てぃもーるれすて
       - ひがしてぃもーるのはた
-    slack: [ flag-tl ]
+    shortcodes: [ flag-tl ]
     en: "flag: Timor-Leste"
     since: "2.0"
     subgroup: country-flag
@@ -2951,7 +2951,7 @@ emoji:
       - とるくめにすたんのこっき
       - とるくめにすたん
       - とるくめにすたんのはた
-    slack: [ flag-tm ]
+    shortcodes: [ flag-tm ]
     en: "flag: Turkmenistan"
     since: "2.0"
     subgroup: country-flag
@@ -2963,7 +2963,7 @@ emoji:
       - ちゅにじあのこっき
       - ちゅにじあ
       - ちゅにじあのはた
-    slack: [ flag-tn ]
+    shortcodes: [ flag-tn ]
     en: "flag: Tunisia"
     since: "2.0"
     subgroup: country-flag
@@ -2975,7 +2975,7 @@ emoji:
       - とんがのこっき
       - とんが
       - とんがのはた
-    slack: [ flag-to ]
+    shortcodes: [ flag-to ]
     en: "flag: Tonga"
     since: "2.0"
     subgroup: country-flag
@@ -2988,7 +2988,7 @@ emoji:
       - とるこ
       - てゅるきえ
       - とるこのはた
-    slack: [ flag-tr ]
+    shortcodes: [ flag-tr ]
     en: "flag: Türkiye"
     since: "2.0"
     subgroup: country-flag
@@ -3001,7 +3001,7 @@ emoji:
       - とりにだーどとばご
       - とりにだーど
       - とりにだーどとばごのはた
-    slack: [ flag-tt ]
+    shortcodes: [ flag-tt ]
     en: "flag: Trinidad & Tobago"
     since: "2.0"
     subgroup: country-flag
@@ -3013,7 +3013,7 @@ emoji:
       - つばるのこっき
       - つばる
       - つばるのはた
-    slack: [ flag-tv ]
+    shortcodes: [ flag-tv ]
     en: "flag: Tuvalu"
     since: "2.0"
     subgroup: country-flag
@@ -3026,7 +3026,7 @@ emoji:
       - たいわん
       - ちゅうかみんこく
       - たいわんのはた
-    slack: [ flag-tw ]
+    shortcodes: [ flag-tw ]
     en: "flag: Taiwan"
     since: "2.0"
     subgroup: country-flag
@@ -3038,7 +3038,7 @@ emoji:
       - たんざにあのこっき
       - たんざにあ
       - たんざにあのはた
-    slack: [ flag-tz ]
+    shortcodes: [ flag-tz ]
     en: "flag: Tanzania"
     since: "2.0"
     subgroup: country-flag
@@ -3050,7 +3050,7 @@ emoji:
       - うくらいなのこっき
       - うくらいな
       - うくらいなのはた
-    slack: [ flag-ua ]
+    shortcodes: [ flag-ua ]
     en: "flag: Ukraine"
     since: "2.0"
     subgroup: country-flag
@@ -3062,7 +3062,7 @@ emoji:
       - うがんだのこっき
       - うがんだ
       - うがんだのはた
-    slack: [ flag-ug ]
+    shortcodes: [ flag-ug ]
     en: "flag: Uganda"
     since: "2.0"
     subgroup: country-flag
@@ -3074,7 +3074,7 @@ emoji:
       - がっしゅうこくりょうゆうしょうりとうのはた
       - がっしゅうこくりょうゆうしょうりとう
       - べいりょうしょうりとう
-    slack: [ flag-um ]
+    shortcodes: [ flag-um ]
     en: "flag: U.S. Outlying Islands"
     since: "2.0"
     subgroup: country-flag
@@ -3088,7 +3088,7 @@ emoji:
       - こくれん
       - こくれんき
       - un
-    slack: [ flag-un ]
+    shortcodes: [ flag-un ]
     en: "flag: United Nations"
     since: "4.0"
     subgroup: country-flag
@@ -3107,7 +3107,7 @@ emoji:
       - usa
       - us
       - あめりかがっしゅうこくのはた
-    slack: [ us, flag-us ]
+    shortcodes: [ us, flag-us ]
     en: "flag: United States"
     since: "0.6"
     subgroup: country-flag
@@ -3119,7 +3119,7 @@ emoji:
       - うるぐあいのこっき
       - うるぐあい
       - うるぐあいのはた
-    slack: [ flag-uy ]
+    shortcodes: [ flag-uy ]
     en: "flag: Uruguay"
     since: "2.0"
     subgroup: country-flag
@@ -3131,7 +3131,7 @@ emoji:
       - うずべきすたんのこっき
       - うずべきすたん
       - うずべきすたんのはた
-    slack: [ flag-uz ]
+    shortcodes: [ flag-uz ]
     en: "flag: Uzbekistan"
     since: "2.0"
     subgroup: country-flag
@@ -3144,7 +3144,7 @@ emoji:
       - ばちかんしこく
       - ばちかん
       - ばちかんしこくのはた
-    slack: [ flag-va ]
+    shortcodes: [ flag-va ]
     en: "flag: Vatican City"
     since: "2.0"
     subgroup: country-flag
@@ -3158,7 +3158,7 @@ emoji:
       - せんとびんせんと
       - ぐれなでぃーんしょとう
       - せんとびんせんとおよびぐれなでぃーんしょとうのはた
-    slack: [ flag-vc ]
+    shortcodes: [ flag-vc ]
     en: "flag: St. Vincent & Grenadines"
     since: "2.0"
     subgroup: country-flag
@@ -3170,7 +3170,7 @@ emoji:
       - べねずえらのこっき
       - べねずえら
       - べねずえらのはた
-    slack: [ flag-ve ]
+    shortcodes: [ flag-ve ]
     en: "flag: Venezuela"
     since: "2.0"
     subgroup: country-flag
@@ -3183,7 +3183,7 @@ emoji:
       - えいりょうばーじんしょとう
       - えいりょうゔぁーじんしょとう
       - ばーじんしょとう
-    slack: [ flag-vg ]
+    shortcodes: [ flag-vg ]
     en: "flag: British Virgin Islands"
     since: "2.0"
     subgroup: country-flag
@@ -3196,7 +3196,7 @@ emoji:
       - べいりょうばーじんしょとう
       - べいりょうゔぁーじんしょとう
       - あめりかりょうばーじんしょとう
-    slack: [ flag-vi ]
+    shortcodes: [ flag-vi ]
     en: "flag: U.S. Virgin Islands"
     since: "2.0"
     subgroup: country-flag
@@ -3208,7 +3208,7 @@ emoji:
       - べとなむのこっき
       - べとなむ
       - べとなむのはた
-    slack: [ flag-vn ]
+    shortcodes: [ flag-vn ]
     en: "flag: Vietnam"
     since: "2.0"
     subgroup: country-flag
@@ -3220,7 +3220,7 @@ emoji:
       - ばぬあつのこっき
       - ばぬあつ
       - ばぬあつのはた
-    slack: [ flag-vu ]
+    shortcodes: [ flag-vu ]
     en: "flag: Vanuatu"
     since: "2.0"
     subgroup: country-flag
@@ -3231,7 +3231,7 @@ emoji:
     readings:
       - うぉりすふつなのはた
       - うぉりすふつな
-    slack: [ flag-wf ]
+    shortcodes: [ flag-wf ]
     en: "flag: Wallis & Futuna"
     since: "2.0"
     subgroup: country-flag
@@ -3243,7 +3243,7 @@ emoji:
       - さもあのこっき
       - さもあ
       - さもあのはた
-    slack: [ flag-ws ]
+    shortcodes: [ flag-ws ]
     en: "flag: Samoa"
     since: "2.0"
     subgroup: country-flag
@@ -3255,7 +3255,7 @@ emoji:
       - こそぼのこっき
       - こそぼ
       - こそぼのはた
-    slack: [ flag-xk ]
+    shortcodes: [ flag-xk ]
     en: "flag: Kosovo"
     since: "2.0"
     subgroup: country-flag
@@ -3267,7 +3267,7 @@ emoji:
       - いえめんのこっき
       - いえめん
       - いえめんのはた
-    slack: [ flag-ye ]
+    shortcodes: [ flag-ye ]
     en: "flag: Yemen"
     since: "2.0"
     subgroup: country-flag
@@ -3278,7 +3278,7 @@ emoji:
     readings:
       - まよっとのはた
       - まよっと
-    slack: [ flag-yt ]
+    shortcodes: [ flag-yt ]
     en: "flag: Mayotte"
     since: "2.0"
     subgroup: country-flag
@@ -3292,7 +3292,7 @@ emoji:
       - みなみあふりかきょうわこく
       - なんあ
       - みなみあふりかのはた
-    slack: [ flag-za ]
+    shortcodes: [ flag-za ]
     en: "flag: South Africa"
     since: "2.0"
     subgroup: country-flag
@@ -3304,7 +3304,7 @@ emoji:
       - ざんびあのこっき
       - ざんびあ
       - ざんびあのはた
-    slack: [ flag-zm ]
+    shortcodes: [ flag-zm ]
     en: "flag: Zambia"
     since: "2.0"
     subgroup: country-flag
@@ -3316,7 +3316,7 @@ emoji:
       - じんばぶえのこっき
       - じんばぶえ
       - じんばぶえのはた
-    slack: [ flag-zw ]
+    shortcodes: [ flag-zw ]
     en: "flag: Zimbabwe"
     since: "2.0"
     subgroup: country-flag
@@ -3328,7 +3328,7 @@ emoji:
       - いんぐらんどのはた
       - いんぐらんど
       - せんとじょーじくろす
-    slack: [ flag-england ]
+    shortcodes: [ flag-england ]
     en: "flag: England"
     since: "5.0"
     subgroup: subdivision-flag
@@ -3340,7 +3340,7 @@ emoji:
       - すこっとらんどのはた
       - すこっとらんど
       - せんとあんどりゅーくろす
-    slack: [ flag-scotland ]
+    shortcodes: [ flag-scotland ]
     en: "flag: Scotland"
     since: "5.0"
     subgroup: subdivision-flag
@@ -3352,7 +3352,7 @@ emoji:
       - うぇーるずのはた
       - うぇーるず
       - れっどどらごん
-    slack: [ flag-wales ]
+    shortcodes: [ flag-wales ]
     en: "flag: Wales"
     since: "5.0"
     subgroup: subdivision-flag

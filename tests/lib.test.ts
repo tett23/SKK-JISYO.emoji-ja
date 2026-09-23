@@ -5,7 +5,7 @@ import { parseEmojiTest, skinToneLabel } from "../src/lib/emoji-test.ts";
 import { encodeEucJp, isEucJpEncodable } from "../src/lib/eucjp.ts";
 import { expandVu, isValidReading, kanaToReading } from "../src/lib/kana.ts";
 import { collect, lispCandidate, renderEucJp, renderUtf8 } from "../src/lib/skk.ts";
-import { lookupSlack, parseEmojiData } from "../src/lib/slack.ts";
+import { lookupShortcodes, parseEmojiData } from "../src/lib/shortcode.ts";
 import type { GroupData } from "../src/lib/store.ts";
 
 const hex = (b: Uint8Array) => [...b].map((x) => x.toString(16).padStart(2, "0")).join("");
@@ -42,9 +42,9 @@ test("parseEmojiData maps qualified and non-qualified codes to short names", () 
     { unified: "1F44D", non_qualified: null, short_names: ["+1", "thumbsup"] },
     { unified: "2764-FE0F", non_qualified: "2764", short_names: ["heart"] },
   ]));
-  assert.deepEqual(lookupSlack(names, "1F44D"), ["+1", "thumbsup"]);
-  assert.deepEqual(lookupSlack(names, "2764 FE0F"), ["heart"]);
-  assert.deepEqual(lookupSlack(names, "1F600"), []);
+  assert.deepEqual(lookupShortcodes(names, "1F44D"), ["+1", "thumbsup"]);
+  assert.deepEqual(lookupShortcodes(names, "2764 FE0F"), ["heart"]);
+  assert.deepEqual(lookupShortcodes(names, "1F600"), []);
 });
 
 test("kana helpers", () => {
@@ -79,7 +79,7 @@ const groups: GroupData[] = [{
       code: "1F602",
       name: "うれし泣き",
       readings: ["うれしなき", "くさ"],
-      slack: ["joy"],
+      shortcodes: ["joy"],
       en: "",
       since: "0.6",
       subgroup: "",
@@ -89,7 +89,7 @@ const groups: GroupData[] = [{
       code: "1F33F",
       name: "ハーブ",
       readings: ["くさ", "joy"],
-      slack: ["herb"],
+      shortcodes: ["herb"],
       en: "",
       since: "1.0",
       subgroup: "",
@@ -99,7 +99,7 @@ const groups: GroupData[] = [{
       code: "1F639",
       name: "猫",
       readings: ["ねこ"],
-      slack: ["joy_cat", "Bad"],
+      shortcodes: ["joy_cat", "Bad"],
       en: "",
       since: "0.6",
       subgroup: "",
@@ -124,10 +124,10 @@ test("collect orders candidates by reading rank, then data order, variants last"
     { emoji: "👋", annotation: "手／振る" },
     { emoji: "👋🏻", annotation: "手／振る（薄い肌色）" },
   ]);
-  assert.deepEqual(d.entries.get("joy")!.map((c) => c.emoji), ["😂", "🌿"]); // Slack name outranks readings
+  assert.deepEqual(d.entries.get("joy")!.map((c) => c.emoji), ["😂", "🌿"]); // shortcode outranks readings
   assert.deepEqual(d.entries.get("herb")!.map((c) => c.emoji), ["🌿"]);
   assert.equal(d.emojiCount, 5);
-  assert.deepEqual(d.warnings, ['invalid slack name "Bad": 😹 1F639 ', 'invalid reading "bad!": 👋 1F44B ']);
+  assert.deepEqual(d.warnings, ['invalid shortcode "Bad": 😹 1F639 ', 'invalid reading "bad!": 👋 1F44B ']);
 });
 
 test("render UTF-8 and EUC-JP dictionaries", () => {
