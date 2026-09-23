@@ -173,7 +173,7 @@ git push origin v1.0.0
 
 - 絵文字一覧: [emoji-test.txt](https://unicode.org/Public/emoji/latest/emoji-test.txt)
 - 読みの一部: [Mozc](https://github.com/google/mozc) の `src/data/emoji/emoji_data.tsv`（BSD 3-Clause License。著作権表示は下記）
-- ショートコード: [iamcal/emoji-data](https://github.com/iamcal/emoji-data)（MIT License）
+- ショートコード: [iamcal/emoji-data](https://github.com/iamcal/emoji-data) の `emoji.json`（MIT License。著作権表示は下記）
 - 日本語名とキーワード: [Unicode CLDR](https://github.com/unicode-org/cldr) の `annotations/ja.xml` と `annotationsDerived/ja.xml`
 
 ## 謝辞
@@ -221,4 +221,34 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
+
+### emoji-data
+
+ショートコード（YAML の `shortcodes`）は、iamcal/emoji-data の `emoji.json` に由来します。
+emoji-data のライセンスは次のとおりです。
+この著作権表示は、生成した辞書ファイルのヘッダーにも含めています。
+
+```
+The MIT License (MIT)
+
+Copyright (c) 2013 Cal Henderson
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```

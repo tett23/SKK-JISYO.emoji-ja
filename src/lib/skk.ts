@@ -3,7 +3,7 @@ import { codeToEmoji, skinToneLabel } from "./emoji-test.ts";
 import { compareBytes, encodeEucJp, isEucJpEncodable } from "./eucjp.ts";
 import { expandVu, isValidReading } from "./kana.ts";
 import { MOZC_NOTICE } from "./mozc.ts";
-import { VALID_SHORTCODE } from "./shortcode.ts";
+import { EMOJI_DATA_NOTICE, VALID_SHORTCODE } from "./shortcode.ts";
 import type { GroupData, Meta } from "./store.ts";
 
 export interface Candidate {
@@ -100,6 +100,10 @@ export function lispCandidate(emoji: string): string {
   return `(concat "${body}")`;
 }
 
+function commentLines(text: string): string {
+  return text.split("\n").map((l) => `;; ${l}`.trimEnd()).join("\n");
+}
+
 function header(meta: Meta, dict: Dictionary, file: string, coding: string, note: string): string {
   return `;; -*- mode: fundamental; coding: ${coding} -*-
 ;; ${file} --- Japanese emoji dictionary for SKK
@@ -115,7 +119,12 @@ function header(meta: Meta, dict: Dictionary, file: string, coding: string, note
 ;; Some readings are taken from Mozc (https://github.com/google/mozc),
 ;; src/data/emoji/emoji_data.tsv, distributed under the following license:
 ;;
-${MOZC_NOTICE.split("\n").map((l) => `;; ${l}`.trimEnd()).join("\n")}
+${commentLines(MOZC_NOTICE)}
+;;
+;; Emoji shortcodes are taken from emoji-data (https://github.com/iamcal/emoji-data),
+;; emoji.json, distributed under the following license:
+;;
+${commentLines(EMOJI_DATA_NOTICE)}
 ;;
 ;; okuri-ari entries.
 ;; okuri-nasi entries.
