@@ -1,10 +1,12 @@
 # SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
-#   name:       annotation shown in SKK (Japanese name; no "/" or ";")
-#   readings:   SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
-#   shortcodes: emoji shortcodes (":thumbsup:" without colons), registered as headwords.
-#               Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
-#   review:     true if added automatically by the update task; remove after checking the readings
-# Other fields are refreshed from Unicode/CLDR by the update task.
+#   name:         annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings:     SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   ime_readings: readings from Mozc (Google Japanese Input), refreshed by the update task.
+#                 Ranked after "readings"; copy a reading to "readings" to rank it higher
+#   shortcodes:   emoji shortcodes (":thumbsup:" without colons), registered as headwords.
+#                 Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
+#   review:       true if added automatically by the update task; remove after checking the readings
+# Other fields are refreshed from Unicode/CLDR/Mozc by the update task.
 
 group: Smileys & Emotion
 emoji:
@@ -19,6 +21,7 @@ emoji:
       - はっぴー
       - わらう
       - にこにこ
+    ime_readings: [ かお, ないす ]
     shortcodes: [ grinning ]
     en: grinning face
     since: "1.0"
@@ -34,6 +37,7 @@ emoji:
       - はっぴー
       - うれしい
       - にこにこ
+    ime_readings: [ かお, くちをあけたえがお ]
     shortcodes: [ smiley ]
     en: grinning face with big eyes
     since: "0.6"
@@ -50,6 +54,7 @@ emoji:
       - うれしい
       - にこにこ
       - わらう
+    ime_readings: [ かお ]
     shortcodes: [ smile ]
     en: grinning face with smiling eyes
     since: "0.6"
@@ -66,6 +71,7 @@ emoji:
       - すまいる
       - はっぴー
       - ないす
+    ime_readings: [ かお, わらい, わらう ]
     shortcodes: [ grin ]
     en: beaming face with smiling eyes
     since: "0.6"
@@ -82,6 +88,7 @@ emoji:
       - うれしい
       - えがお
       - わらう
+    ime_readings: [ うけるね, かお, すまいる, わら ]
     shortcodes: [ laughing, satisfied ]
     en: grinning squinting face
     since: "0.6"
@@ -98,6 +105,7 @@ emoji:
       - にがわらい
       - あせあせ
       - えがお
+    ime_readings: [ かお, すまいる, わーい ]
     shortcodes: [ sweat_smile ]
     en: grinning face with sweat
     since: "0.6"
@@ -115,6 +123,7 @@ emoji:
       - なきわらい
       - くさ
       - わら
+    ime_readings: [ うけるね, えがお, かお, すまいる, なみだ, わらう ]
     shortcodes: [ rolling_on_the_floor_laughing ]
     en: rolling on the floor laughing
     since: "3.0"
@@ -132,6 +141,7 @@ emoji:
       - ばくしょう
       - おおわらい
       - あはは
+    ime_readings: [ えがお, かお, すまいる, なみだ, わらい, わらう ]
     shortcodes: [ joy ]
     en: face with tears of joy
     since: "0.6"
@@ -147,6 +157,7 @@ emoji:
       - えがお
       - にこっ
       - はっぴー
+    ime_readings: [ かお ]
     shortcodes: [ slightly_smiling_face ]
     en: slightly smiling face
     since: "1.0"
@@ -162,6 +173,7 @@ emoji:
       - ぎゃく
       - ひにく
       - えがお
+    ime_readings: [ かお ]
     shortcodes: [ upside_down_face ]
     en: upside-down face
     since: "1.0"
@@ -178,6 +190,7 @@ emoji:
       - あつい
       - えきたい
       - はずかしい
+    ime_readings: [ かお ]
     shortcodes: [ melting_face ]
     en: melting face
     since: "14.0"
@@ -207,6 +220,7 @@ emoji:
       - うぃんく
       - めくばせ
       - ちゃめ
+    ime_readings: [ うぃんくするかお, かお ]
     shortcodes: [ wink ]
     en: winking face
     since: "0.6"
@@ -223,6 +237,7 @@ emoji:
       - まんぞく
       - てれ
       - うれしい
+    ime_readings: [ かお, ほほをあからめる, めをほそめる ]
     shortcodes: [ blush ]
     en: smiling face with smiling eyes
     since: "0.6"
@@ -239,6 +254,7 @@ emoji:
       - へいわ
       - じょうぶつ
       - むじゃき
+    ime_readings: [ えがお, かお, すまいる, はっぴー ]
     shortcodes: [ innocent ]
     en: smiling face with halo
     since: "1.0"
@@ -255,6 +271,7 @@ emoji:
       - あいしてる
       - むちゅう
       - はーと
+    ime_readings: [ えがお, かお ]
     shortcodes: [ smiling_face_with_3_hearts ]
     en: smiling face with hearts
     since: "11.0"
@@ -271,6 +288,7 @@ emoji:
       - めろめろ
       - ほれる
       - すき
+    ime_readings: [ えがお, かお, すまいる, はーと ]
     shortcodes: [ heart_eyes ]
     en: smiling face with heart-eyes
     since: "0.6"
@@ -287,6 +305,7 @@ emoji:
       - あこがれ
       - すごい
       - かんげき
+    ime_readings: [ えがお, かお, すまいる, ほし, わーい ]
     shortcodes: [ star-struck, grinning_face_with_star_eyes ]
     en: star-struck
     since: "5.0"
@@ -302,6 +321,7 @@ emoji:
       - ちゅー
       - ぶちゅー
       - らぶ
+    ime_readings: [ かお, はーと ]
     shortcodes: [ kissing_heart ]
     en: face blowing a kiss
     since: "0.6"
@@ -316,6 +336,7 @@ emoji:
       - ちゅー
       - くちぶえ
       - でーと
+    ime_readings: [ かお ]
     shortcodes: [ kissing ]
     en: kissing face
     since: "1.0"
@@ -331,6 +352,7 @@ emoji:
       - ほっ
       - はっぴー
       - にっこり
+    ime_readings: [ かお ]
     shortcodes: [ relaxed ]
     en: smiling face
     since: "0.6"
@@ -345,6 +367,7 @@ emoji:
       - ちゅー
       - めをとじてきす
       - でーと
+    ime_readings: [ かお, めをとじる ]
     shortcodes: [ kissing_closed_eyes ]
     en: kissing face with closed eyes
     since: "0.6"
@@ -360,6 +383,7 @@ emoji:
       - ちゅー
       - くちぶえ
       - えがお
+    ime_readings: [ かお, すまいる ]
     shortcodes: [ kissing_smiling_eyes ]
     en: kissing face with smiling eyes
     since: "1.0"
@@ -376,6 +400,7 @@ emoji:
       - かんげき
       - なみだ
       - なきわらい
+    ime_readings: [ かお, なく ]
     shortcodes: [ smiling_face_with_tear ]
     en: smiling face with tear
     since: "13.0"
@@ -393,6 +418,7 @@ emoji:
       - はらぺこ
       - じゅるり
       - いただきます
+    ime_readings: [ えがお, かお, すまいる, にこにこ ]
     shortcodes: [ yum ]
     en: face savoring food
     since: "0.6"
@@ -408,6 +434,7 @@ emoji:
       - した
       - あっかんべー
       - ぺろっ
+    ime_readings: [ あまい, かお ]
     shortcodes: [ stuck_out_tongue ]
     en: face with tongue
     since: "1.0"
@@ -424,6 +451,7 @@ emoji:
       - じょーく
       - ういんく
       - ふざける
+    ime_readings: [ うぃんく, かお, した, じょうだん ]
     shortcodes: [ stuck_out_tongue_winking_eye ]
     en: winking face with tongue
     since: "0.6"
@@ -440,6 +468,7 @@ emoji:
       - くれいじー
       - はいてんしょん
       - じょーく
+    ime_readings: [ かお, ふざけ ]
     shortcodes: [ zany_face, grinning_face_with_one_large_and_one_small_eye ]
     en: zany face
     since: "5.0"
@@ -455,6 +484,7 @@ emoji:
       - あっかんべー
       - わーい
       - あじみ
+    ime_readings: [ かお, した ]
     shortcodes: [ stuck_out_tongue_closed_eyes ]
     en: squinting face with tongue
     since: "0.6"
@@ -471,6 +501,7 @@ emoji:
       - ぼろもうけ
       - しゅせんど
       - どる
+    ime_readings: [ かお, した, べろ, べー ]
     shortcodes: [ money_mouth_face ]
     en: money-mouth face
     since: "1.0"
@@ -486,6 +517,7 @@ emoji:
       - えがお
       - わーい
       - うぇるかむ
+    ime_readings: [ かお, すまいる ]
     shortcodes: [ hugging_face ]
     en: smiling face with open hands
     since: "1.0"
@@ -501,6 +533,7 @@ emoji:
       - ないしょ
       - ぷぷっ
       - しのびわらい
+    ime_readings: [ えがお, かお, すまいる ]
     shortcodes: [ face_with_hand_over_mouth, smiling_face_with_smiling_eyes_and_hand_covering_mouth ]
     en: face with hand over mouth
     since: "5.0"
@@ -517,6 +550,7 @@ emoji:
       - おののき
       - まさか
       - えっ
+    ime_readings: [ かお, しずかに ]
     shortcodes: [ face_with_open_eyes_and_hand_over_mouth ]
     en: face with open eyes and hand over mouth
     since: "14.0"
@@ -533,6 +567,7 @@ emoji:
       - ぬすみみ
       - こわい
       - みたくない
+    ime_readings: [ かお, ゆびのまからのぞきみるかお ]
     shortcodes: [ face_with_peeking_eye ]
     en: face with peeking eye
     since: "14.0"
@@ -549,6 +584,7 @@ emoji:
       - ないしょ
       - ひみつ
       - おしずかに
+    ime_readings: [ かお ]
     shortcodes: [ shushing_face, face_with_finger_covering_closed_lips ]
     en: shushing face
     since: "5.0"
@@ -565,6 +601,7 @@ emoji:
       - なやむ
       - ぎもん
       - しんきんぐ
+    ime_readings: [ あごにて, かお ]
     shortcodes: [ thinking_face ]
     en: thinking face
     since: "1.0"
@@ -580,6 +617,7 @@ emoji:
       - らじゃー
       - おーけー
       - しょうち
+    ime_readings: [ かお, ぐんたい ]
     shortcodes: [ saluting_face ]
     en: saluting face
     since: "14.0"
@@ -595,6 +633,7 @@ emoji:
       - ひみつ
       - おくちちゃっく
       - だまる
+    ime_readings: [ かお, くち ]
     shortcodes: [ zipper_mouth_face ]
     en: zipper-mouth face
     since: "1.0"
@@ -610,6 +649,7 @@ emoji:
       - あやしい
       - ぎわく
       - ほんとう
+    ime_readings: [ おどろき, かお ]
     shortcodes: [ face_with_raised_eyebrow, face_with_one_eyebrow_raised ]
     en: face with raised eyebrow
     since: "5.0"
@@ -624,6 +664,7 @@ emoji:
       - しんがお
       - わらえない
       - まがお
+    ime_readings: [ かお ]
     shortcodes: [ neutral_face ]
     en: neutral face
     since: "0.7"
@@ -639,6 +680,7 @@ emoji:
       - まがお
       - しらけ
       - やきもち
+    ime_readings: [ かお ]
     shortcodes: [ expressionless ]
     en: expressionless face
     since: "1.0"
@@ -655,6 +697,7 @@ emoji:
       - だんまり
       - むひょうじょう
       - ことばがない
+    ime_readings: [ かお ]
     shortcodes: [ no_mouth ]
     en: face without mouth
     since: "1.0"
@@ -672,6 +715,7 @@ emoji:
       - うちき
       - らくたん
       - ゆううつ
+    ime_readings: [ かお, ないこうてき ]
     shortcodes: [ dotted_line_face ]
     en: dotted line face
     since: "14.0"
@@ -687,6 +731,7 @@ emoji:
       - ほうしん
       - むちゅう
       - もやもや
+    ime_readings: [ かお, ほうしんじょうたい ]
     shortcodes: [ face_in_clouds ]
     en: face in clouds
     since: "13.1"
@@ -702,6 +747,7 @@ emoji:
       - ふっ
       - どやがお
       - にやにや
+    ime_readings: [ かお ]
     shortcodes: [ smirk ]
     en: smirking face
     since: "0.6"
@@ -718,6 +764,7 @@ emoji:
       - ふまん
       - やきもち
       - しらー
+    ime_readings: [ かお, しらけ ]
     shortcodes: [ unamused ]
     en: unamused face
     since: "0.6"
@@ -734,6 +781,7 @@ emoji:
       - めをむく
       - うーん
       - やれやれ
+    ime_readings: [ かお ]
     shortcodes: [ face_with_rolling_eyes ]
     en: face with rolling eyes
     since: "1.0"
@@ -749,6 +797,7 @@ emoji:
       - いー
       - きまずい
       - ぐぬぬ
+    ime_readings: [ かお ]
     shortcodes: [ grimacing ]
     en: grimacing face
     since: "1.0"
@@ -766,6 +815,7 @@ emoji:
       - つかれた
       - いきぎれ
       - ふー
+    ime_readings: [ かお ]
     shortcodes: [ face_exhaling ]
     en: face exhaling
     since: "13.1"
@@ -780,6 +830,7 @@ emoji:
       - うそ
       - ぴのきお
       - ぴのきおのかお
+    ime_readings: [ かお ]
     shortcodes: [ lying_face ]
     en: lying face
     since: "3.0"
@@ -797,6 +848,7 @@ emoji:
       - びっくり
       - じしん
       - しんどう
+    ime_readings: [ かお, なんてこった, ふるえている, まいった ]
     shortcodes: [ shaking_face ]
     en: shaking face
     since: "15.0"
@@ -812,6 +864,7 @@ emoji:
       - ふさんせい
       - ひてい
       - のー
+    ime_readings: [ ううん, かお, くびをふる ]
     shortcodes: [ head_shaking_horizontally ]
     en: head shaking horizontally
     since: "15.1"
@@ -827,6 +880,7 @@ emoji:
       - うんうん
       - こうてい
       - さんせい
+    ime_readings: [ うん, かお, くびをふる ]
     shortcodes: [ head_shaking_vertically ]
     en: head shaking vertically
     since: "15.1"
@@ -842,6 +896,7 @@ emoji:
       - あんしん
       - あんど
       - やすらぎ
+    ime_readings: [ かお ]
     shortcodes: [ relieved ]
     en: relieved face
     since: "0.6"
@@ -857,6 +912,7 @@ emoji:
       - かなしい
       - かんがえこむ
       - おちこむ
+    ime_readings: [ かお, かんがえこむかお ]
     shortcodes: [ pensive ]
     en: pensive face
     since: "0.6"
@@ -873,6 +929,7 @@ emoji:
       - つかれた
       - はなちょうちん
       - うとうと
+    ime_readings: [ かお, ねむそうなかお, ねむっているかお ]
     shortcodes: [ sleepy ]
     en: sleepy face
     since: "0.6"
@@ -887,6 +944,7 @@ emoji:
       - じゅるり
       - おいしそう
       - ほしい
+    ime_readings: [ かお ]
     shortcodes: [ drooling_face ]
     en: drooling face
     since: "3.0"
@@ -904,6 +962,7 @@ emoji:
       - ぐーぐー
       - すやすや
       - zzz
+    ime_readings: [ かお ]
     shortcodes: [ sleeping ]
     en: sleeping face
     since: "1.0"
@@ -919,6 +978,7 @@ emoji:
       - つかれた
       - ねむい
       - ねぶそく
+    ime_readings: [ かお ]
     shortcodes: [ face_with_bags_under_eyes ]
     en: face with bags under eyes
     since: "16.0"
@@ -934,6 +994,7 @@ emoji:
       - かふんしょう
       - びょうき
       - よぼう
+    ime_readings: [ いし, かお, しかい, どくたー ]
     shortcodes: [ mask ]
     en: face with medical mask
     since: "0.6"
@@ -949,6 +1010,7 @@ emoji:
       - たいおんけい
       - かぜ
       - びょうき
+    ime_readings: [ かお, ねつをはかる ]
     shortcodes: [ face_with_thermometer ]
     en: face with thermometer
     since: "1.0"
@@ -963,6 +1025,7 @@ emoji:
       - けが
       - いたい
       - ふしょう
+    ime_readings: [ かお, けがしてるかお ]
     shortcodes: [ face_with_head_bandage ]
     en: face with head-bandage
     since: "1.0"
@@ -979,6 +1042,7 @@ emoji:
       - ぐあいがわるい
       - びょうき
       - むかむか
+    ime_readings: [ かお, ぐあいのわるいかお ]
     shortcodes: [ nauseated_face ]
     en: nauseated face
     since: "3.0"
@@ -994,6 +1058,7 @@ emoji:
       - げろ
       - きもちわるい
       - おえー
+    ime_readings: [ かお, びょうき ]
     shortcodes: [ face_vomiting, face_with_open_mouth_vomiting ]
     en: face vomiting
     since: "5.0"
@@ -1009,6 +1074,7 @@ emoji:
       - かふんしょう
       - かぜ
       - はっくしょん
+    ime_readings: [ かお ]
     shortcodes: [ sneezing_face ]
     en: sneezing face
     since: "3.0"
@@ -1025,6 +1091,7 @@ emoji:
       - はつねつ
       - しにそう
       - あせ
+    ime_readings: [ あかいかお, したをだしたかお ]
     shortcodes: [ hot_face ]
     en: hot face
     since: "11.0"
@@ -1041,6 +1108,7 @@ emoji:
       - しもやけ
       - ひょうてんか
       - つらら
+    ime_readings: [ あお, あおいかお, かお, こごえ ]
     shortcodes: [ cold_face ]
     en: cold face
     since: "11.0"
@@ -1057,6 +1125,7 @@ emoji:
       - べろんべろん
       - めまい
       - うつろ
+    ime_readings: [ うつろなめ, ちゅうどく ]
     shortcodes: [ woozy_face ]
     en: woozy face
     since: "11.0"
@@ -1072,6 +1141,7 @@ emoji:
       - つかれた
       - ばたんきゅー
       - きぜつ
+    ime_readings: [ かお, びょうき ]
     shortcodes: [ dizzy_face ]
     en: face with crossed-out eyes
     since: "0.6"
@@ -1088,6 +1158,7 @@ emoji:
       - めまい
       - ぐるぐる
       - うずまき
+    ime_readings: [ めがぐるぐる ]
     shortcodes: [ face_with_spiral_eyes ]
     en: face with spiral eyes
     since: "13.1"
@@ -1104,6 +1175,7 @@ emoji:
       - おどろき
       - ぼんっ
       - しょうげき
+    ime_readings: [ かお ]
     shortcodes: [ exploding_head, shocked_face_with_exploding_head ]
     en: exploding head
     since: "5.0"
@@ -1118,6 +1190,7 @@ emoji:
       - かうがーる
       - ぼうし
       - せいぶ
+    ime_readings: [ かお ]
     shortcodes: [ face_with_cowboy_hat ]
     en: cowboy hat face
     since: "3.0"
@@ -1134,6 +1207,7 @@ emoji:
       - たんじょうび
       - はっぴーばーすでー
       - いえーい
+    ime_readings: [ えがお, ふえ, ぼうし ]
     shortcodes: [ partying_face ]
     en: partying face
     since: "11.0"
@@ -1150,6 +1224,7 @@ emoji:
       - くちひげ
       - ひげ
       - しのび
+    ime_readings: [ かお ]
     shortcodes: [ disguised_face ]
     en: disguised face
     since: "13.0"
@@ -1165,6 +1240,7 @@ emoji:
       - かっこいい
       - どや
       - いけてる
+    ime_readings: [ えがお, かお, すまいる, めがね ]
     shortcodes: [ sunglasses ]
     en: smiling face with sunglasses
     since: "1.0"
@@ -1181,6 +1257,7 @@ emoji:
       - めがね
       - しゅうさい
       - なーど
+    ime_readings: [ えきすぱーと, かお, ちてき, りこう ]
     shortcodes: [ nerd_face ]
     en: nerd face
     since: "1.0"
@@ -1197,6 +1274,7 @@ emoji:
       - かんがえる
       - ふむ
       - かんてい
+    ime_readings: [ かお, めがね ]
     shortcodes: [ face_with_monocle ]
     en: face with monocle
     since: "5.0"
@@ -1212,6 +1290,7 @@ emoji:
       - ふーん
       - とまどい
       - はてな
+    ime_readings: [ かお, しかめつら ]
     shortcodes: [ confused ]
     en: confused face
     since: "1.0"
@@ -1228,6 +1307,7 @@ emoji:
       - むかんしん
       - むきりょく
       - びみょう
+    ime_readings: [ かお ]
     shortcodes: [ face_with_diagonal_mouth ]
     en: face with diagonal mouth
     since: "14.0"
@@ -1243,6 +1323,7 @@ emoji:
       - こまった
       - かなしい
       - ふあん
+    ime_readings: [ かお ]
     shortcodes: [ worried ]
     en: worried face
     since: "1.0"
@@ -1257,6 +1338,7 @@ emoji:
       - こまった
       - しかめつら
       - ざんねん
+    ime_readings: [ かお ]
     shortcodes: [ slightly_frowning_face ]
     en: slightly frowning face
     since: "1.0"
@@ -1271,6 +1353,7 @@ emoji:
       - しかめつら
       - かなしい
       - ざんねん
+    ime_readings: [ かお ]
     shortcodes: [ white_frowning_face ]
     en: frowning face
     since: "0.7"
@@ -1286,6 +1369,7 @@ emoji:
       - しんじられない
       - おー
       - びっくり
+    ime_readings: [ かお, きょうかん, くちがひらいたかお ]
     shortcodes: [ open_mouth ]
     en: face with open mouth
     since: "1.0"
@@ -1301,6 +1385,7 @@ emoji:
       - おどろき
       - すごいね
       - あぜん
+    ime_readings: [ かお ]
     shortcodes: [ hushed ]
     en: hushed face
     since: "1.0"
@@ -1316,6 +1401,7 @@ emoji:
       - おどろき
       - きょうがく
       - びっくりしたかお
+    ime_readings: [ かお ]
     shortcodes: [ astonished ]
     en: astonished face
     since: "0.6"
@@ -1332,6 +1418,7 @@ emoji:
       - とまどい
       - てれる
       - かおまっか
+    ime_readings: [ おどろき, かお ]
     shortcodes: [ flushed ]
     en: flushed face
     since: "0.6"
@@ -1347,6 +1434,7 @@ emoji:
       - ぼうぜん
       - しょっく
       - ふあん
+    ime_readings: [ おどろいた, ふくれた ]
     shortcodes: [ distorted_face ]
     en: distorted face
     since: "17.0"
@@ -1363,6 +1451,7 @@ emoji:
       - こいぬのめ
       - こんがん
       - ぴえんぱおん
+    ime_readings: [ おおきなめ, かお, かなしみ, なさけ ]
     shortcodes: [ pleading_face ]
     en: pleading face
     since: "11.0"
@@ -1379,6 +1468,7 @@ emoji:
       - なみだ
       - かんどう
       - えもい
+    ime_readings: [ かお, こんがん ]
     shortcodes: [ face_holding_back_tears ]
     en: face holding back tears
     since: "14.0"
@@ -1394,6 +1484,7 @@ emoji:
       - ぼうぜん
       - ふまん
       - しかめつら
+    ime_readings: [ おどろき, かお, くちをあけたかお, しかめがお, ふほんい ]
     shortcodes: [ frowning ]
     en: frowning face with open mouth
     since: "1.0"
@@ -1408,6 +1499,7 @@ emoji:
       - こまったかお
       - なやみ
       - おどろき
+    ime_readings: [ かお ]
     shortcodes: [ anguished ]
     en: anguished face
     since: "1.0"
@@ -1423,6 +1515,7 @@ emoji:
       - こわい
       - ふあん
       - きょうふ
+    ime_readings: [ かお ]
     shortcodes: [ fearful ]
     en: fearful face
     since: "0.6"
@@ -1439,6 +1532,7 @@ emoji:
       - あせる
       - ふあん
       - やばい
+    ime_readings: [ あおいかお, かお, さむい ]
     shortcodes: [ cold_sweat ]
     en: anxious face with sweat
     since: "0.6"
@@ -1454,6 +1548,7 @@ emoji:
       - しつぼう
       - ほっ
       - ざんねん
+    ime_readings: [ かお ]
     shortcodes: [ disappointed_relieved ]
     en: sad but relieved face
     since: "0.6"
@@ -1470,6 +1565,7 @@ emoji:
       - さびしい
       - ひどい
       - しくしく
+    ime_readings: [ かお ]
     shortcodes: [ cry ]
     en: crying face
     since: "0.6"
@@ -1486,6 +1582,7 @@ emoji:
       - かなしい
       - うわーん
       - えーん
+    ime_readings: [ かお, ごうきゅうするかお ]
     shortcodes: [ sob ]
     en: loudly crying face
     since: "0.6"
@@ -1502,6 +1599,7 @@ emoji:
       - しょっく
       - ぎゃー
       - こわい
+    ime_readings: [ おどろき, かお, さけんでいるかお ]
     shortcodes: [ scream ]
     en: face screaming in fear
     since: "0.6"
@@ -1516,6 +1614,7 @@ emoji:
       - こまった
       - こんらん
       - くやしい
+    ime_readings: [ かお ]
     shortcodes: [ confounded ]
     en: confounded face
     since: "0.6"
@@ -1531,6 +1630,7 @@ emoji:
       - たえる
       - ぐぬぬ
       - つらい
+    ime_readings: [ かお ]
     shortcodes: [ persevere ]
     en: persevering face
     since: "0.6"
@@ -1547,6 +1647,7 @@ emoji:
       - ざんねん
       - かなしい
       - おちこむ
+    ime_readings: [ かお ]
     shortcodes: [ disappointed ]
     en: disappointed face
     since: "0.6"
@@ -1562,6 +1663,7 @@ emoji:
       - ずつう
       - さむけ
       - あせあせ
+    ime_readings: [ かお ]
     shortcodes: [ sweat ]
     en: downcast face with sweat
     since: "0.6"
@@ -1577,6 +1679,7 @@ emoji:
       - うんざり
       - はらぺこ
       - もうだめ
+    ime_readings: [ かお, なきがお ]
     shortcodes: [ weary ]
     en: weary face
     since: "0.6"
@@ -1592,6 +1695,7 @@ emoji:
       - つかれたかお
       - もうむり
       - ぐったり
+    ime_readings: [ かお, くしゃみ ]
     shortcodes: [ tired_face ]
     en: tired face
     since: "0.6"
@@ -1608,6 +1712,7 @@ emoji:
       - ふあー
       - おやすみ
       - つかれ
+    ime_readings: [ かお ]
     shortcodes: [ yawning_face ]
     en: yawning face
     since: "12.0"
@@ -1624,6 +1729,7 @@ emoji:
       - はないき
       - いかり
       - むふー
+    ime_readings: [ かお ]
     shortcodes: [ triumph ]
     en: face with steam from nose
     since: "0.6"
@@ -1641,6 +1747,7 @@ emoji:
       - いかり
       - おこ
       - むかつく
+    ime_readings: [ あかいかお, かお ]
     shortcodes: [ rage ]
     en: enraged face
     since: "0.6"
@@ -1656,6 +1763,7 @@ emoji:
       - いかり
       - おこ
       - ふまん
+    ime_readings: [ かお ]
     shortcodes: [ angry ]
     en: angry face
     since: "0.6"
@@ -1672,6 +1780,7 @@ emoji:
       - げきおこ
       - いかり
       - ばとう
+    ime_readings: [ かお, けんえつ, しんぼるがくちにあるかお, わるぐち ]
     shortcodes: [ face_with_symbols_on_mouth, serious_face_with_symbols_covering_mouth ]
     en: face with symbols on mouth
     since: "5.0"
@@ -1688,6 +1797,7 @@ emoji:
       - わるだくみ
       - いたずら
       - つの
+    ime_readings: [ えがお, かお, すまいる ]
     shortcodes: [ smiling_imp ]
     en: smiling face with horns
     since: "1.0"
@@ -1703,6 +1813,7 @@ emoji:
       - かんかん
       - げきど
       - つの
+    ime_readings: [ かお ]
     shortcodes: [ imp ]
     en: angry face with horns
     since: "0.6"
@@ -1719,6 +1830,7 @@ emoji:
       - し
       - しんだ
       - おわた
+    ime_readings: [ かお, ししゃ ]
     shortcodes: [ skull ]
     en: skull
     since: "0.6"
@@ -1735,6 +1847,7 @@ emoji:
       - かいぞく
       - どく
       - きけん
+    ime_readings: [ かお, し, ほね ]
     shortcodes: [ skull_and_crossbones ]
     en: skull and crossbones
     since: "1.0"
@@ -1750,6 +1863,7 @@ emoji:
       - ふん
       - くさい
       - うん
+    ime_readings: [ かお ]
     shortcodes: [ hankey, poop, shit ]
     en: pile of poo
     since: "0.6"
@@ -1763,6 +1877,7 @@ emoji:
       - ぴえろ
       - どうけし
       - くらうん
+    ime_readings: [ かお ]
     shortcodes: [ clown_face ]
     en: clown face
     since: "3.0"
@@ -1779,6 +1894,7 @@ emoji:
       - あかおに
       - せつぶん
       - こわい
+    ime_readings: [ かお ]
     shortcodes: [ japanese_ogre ]
     en: ogre
     since: "0.6"
@@ -1792,6 +1908,7 @@ emoji:
       - おめん
       - いかり
       - はながたかい
+    ime_readings: [ かお ]
     shortcodes: [ japanese_goblin ]
     en: goblin
     since: "0.6"
@@ -1807,6 +1924,7 @@ emoji:
       - はろうぃーん
       - こわい
       - ばけ
+    ime_readings: [ ゆーれい ]
     shortcodes: [ ghost ]
     en: ghost
     since: "0.6"
@@ -1822,6 +1940,7 @@ emoji:
       - ufo
       - ゆーふぉー
       - ぐれい
+    ime_readings: [ かお ]
     shortcodes: [ alien ]
     en: alien
     since: "0.6"
@@ -1838,6 +1957,7 @@ emoji:
       - もんすたー
       - うちゅうじん
       - れとろげーむ
+    ime_readings: [ いせいじん, かお ]
     shortcodes: [ space_invader ]
     en: alien monster
     since: "0.6"
@@ -1853,6 +1973,7 @@ emoji:
       - あんどろいど
       - じんこうちのう
       - ぼっと
+    ime_readings: [ かお ]
     shortcodes: [ robot_face ]
     en: robot
     since: "1.0"
@@ -1867,6 +1988,7 @@ emoji:
       - にゃんこ
       - えがお
       - すまいる
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ smiley_cat ]
     en: grinning cat
     since: "0.6"
@@ -1881,6 +2003,7 @@ emoji:
       - にゃんこ
       - えがお
       - わらう
+    ime_readings: [ かお, すまいる, どうぶつ ]
     shortcodes: [ smile_cat ]
     en: grinning cat with smiling eyes
     since: "0.6"
@@ -1896,6 +2019,7 @@ emoji:
       - なきわらい
       - ばくしょう
       - わら
+    ime_readings: [ えがお, かお, すまいる, どうぶつ, なみだ ]
     shortcodes: [ joy_cat ]
     en: cat with tears of joy
     since: "0.6"
@@ -1911,6 +2035,7 @@ emoji:
       - だいすき
       - めろめろ
       - らぶ
+    ime_readings: [ えがお, かお, すまいる, どうぶつ, はーと ]
     shortcodes: [ heart_eyes_cat ]
     en: smiling cat with heart-eyes
     since: "0.6"
@@ -1926,6 +2051,7 @@ emoji:
       - ふっ
       - にやにや
       - どやがお
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ smirk_cat ]
     en: cat with wry smile
     since: "0.6"
@@ -1940,6 +2066,7 @@ emoji:
       - きす
       - ちゅっ
       - ちゅー
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ kissing_cat ]
     en: kissing cat
     since: "0.6"
@@ -1955,6 +2082,7 @@ emoji:
       - がーん
       - しょっく
       - びっくり
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ scream_cat ]
     en: weary cat
     since: "0.6"
@@ -1969,6 +2097,7 @@ emoji:
       - なく
       - なみだ
       - かなしい
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ crying_cat_face ]
     en: crying cat
     since: "0.6"
@@ -1983,6 +2112,7 @@ emoji:
       - ふきげん
       - ぷんぷん
       - むすっ
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ pouting_cat ]
     en: pouting cat
     since: "0.6"
@@ -1999,6 +2129,7 @@ emoji:
       - みてない
       - はずかしい
       - みないふり
+    ime_readings: [ かくす, さんざる, どうぶつ ]
     shortcodes: [ see_no_evil ]
     en: see-no-evil monkey
     since: "0.6"
@@ -2013,6 +2144,7 @@ emoji:
       - さる
       - きこえない
       - きいてない
+    ime_readings: [ さんざる, ひみつ ]
     shortcodes: [ hear_no_evil ]
     en: hear-no-evil monkey
     since: "0.6"
@@ -2029,6 +2161,7 @@ emoji:
       - ひみつ
       - だまる
       - しつげん
+    ime_readings: [ さんざる ]
     shortcodes: [ speak_no_evil ]
     en: speak-no-evil monkey
     since: "0.6"
@@ -2044,6 +2177,7 @@ emoji:
       - ふうとう
       - ばれんたいん
       - こくはく
+    ime_readings: [ はーと, ばれんたいんでー ]
     shortcodes: [ love_letter ]
     en: love letter
     since: "0.6"
@@ -2059,6 +2193,7 @@ emoji:
       - こい
       - はーと
       - ずきゅん
+    ime_readings: [ はーとのや, や ]
     shortcodes: [ cupid ]
     en: heart with arrow
     since: "0.6"
@@ -2074,6 +2209,7 @@ emoji:
       - きねんび
       - りぼん
       - はーと
+    ime_readings: [ ばれんたいんでー ]
     shortcodes: [ gift_heart ]
     en: heart with ribbon
     since: "0.6"
@@ -2088,6 +2224,7 @@ emoji:
       - はーと
       - らぶ
       - かわいい
+    ime_readings: [ ぴかぴかはーと ]
     shortcodes: [ sparkling_heart ]
     en: sparkling heart
     since: "0.6"
@@ -2160,6 +2297,7 @@ emoji:
       - はーとでこれーしょん
       - はーと
       - しろいはーと
+    ime_readings: [ むらさきのはーと ]
     shortcodes: [ heart_decoration ]
     en: heart decoration
     since: "0.6"
@@ -2174,6 +2312,7 @@ emoji:
       - はーと
       - びっくりまーく
       - かんたんふ
+    ime_readings: [ えくすくらめーしょんまーく ]
     shortcodes: [ heavy_heart_exclamation_mark_ornament ]
     en: heart exclamation
     since: "1.0"
@@ -2190,6 +2329,7 @@ emoji:
       - わかれ
       - きずつく
       - こわれたはーと
+    ime_readings: [ はーと, わかれた ]
     shortcodes: [ broken_heart ]
     en: broken heart
     since: "0.6"
@@ -2205,6 +2345,7 @@ emoji:
       - ほのお
       - はーと
       - もえ
+    ime_readings: [ あい, せいなるしんぞう, ひのついた ]
     shortcodes: [ heart_on_fire ]
     en: heart on fire
     since: "13.1"
@@ -2220,6 +2361,7 @@ emoji:
       - いやし
       - かいふく
       - はーと
+    ime_readings: [ けが, ほうたい ]
     shortcodes: [ mending_heart ]
     en: mending heart
     since: "13.1"
@@ -2235,6 +2377,7 @@ emoji:
       - らぶ
       - すき
       - こい
+    ime_readings: [ あか, くろはーと, はーとまーく ]
     shortcodes: [ heart ]
     en: red heart
     since: "0.6"
@@ -2250,6 +2393,7 @@ emoji:
       - かわいい
       - すき
       - らぶ
+    ime_readings: [ あい, あいしてる, きもち, すぺしゃる ]
     shortcodes: [ pink_heart ]
     en: pink heart
     since: "15.0"
@@ -2276,6 +2420,7 @@ emoji:
       - きいろいはーと
       - きいろ
       - はーと
+    ime_readings: [ あい ]
     shortcodes: [ yellow_heart ]
     en: yellow heart
     since: "0.6"
@@ -2314,6 +2459,7 @@ emoji:
       - みずいろ
       - そらいろ
       - はーと
+    ime_readings: [ あい, うすいあお, かわいい, しあん, すき, てぃーるぶるー, らぶ ]
     shortcodes: [ light_blue_heart ]
     en: light blue heart
     since: "15.0"
@@ -2326,6 +2472,7 @@ emoji:
       - むらさきのはーと
       - むらさき
       - はーと
+    ime_readings: [ あい ]
     shortcodes: [ purple_heart ]
     en: purple heart
     since: "0.6"
@@ -2366,6 +2513,7 @@ emoji:
       - ぐれー
       - ぎんいろ
       - はーと
+    ime_readings: [ あい, すき, すれーとぐれー, らぶ ]
     shortcodes: [ grey_heart ]
     en: grey heart
     since: "15.0"
@@ -2408,6 +2556,7 @@ emoji:
       - ひゃくてん
       - まんてん
       - かんぺき
+    ime_readings: [ ぜんもんせいかい ]
     shortcodes: [ "100" ]
     en: hundred points
     since: "0.6"
@@ -2423,6 +2572,7 @@ emoji:
       - むかつく
       - いらいら
       - おこ
+    ime_readings: [ おこった, まんが ]
     shortcodes: [ anger ]
     en: anger symbol
     since: "0.6"
@@ -2453,6 +2603,7 @@ emoji:
       - どかーん
       - どんっ
       - ぼんっ
+    ime_readings: [ まんが ]
     shortcodes: [ boom, collision ]
     en: collision
     since: "0.6"
@@ -2467,6 +2618,7 @@ emoji:
       - ほし
       - きらきら
       - ぴよぴよ
+    ime_readings: [ ながれぼし ]
     shortcodes: [ dizzy ]
     en: dizzy
     since: "0.6"
@@ -2498,6 +2650,7 @@ emoji:
       - ぴゅー
       - かぜ
       - おなら
+    ime_readings: [ いそげ, まんが ]
     shortcodes: [ dash ]
     en: dashing away
     since: "0.6"
@@ -2526,6 +2679,7 @@ emoji:
       - めっせーじ
       - とーく
       - ちゃっと
+    ime_readings: [ まんが ]
     shortcodes: [ speech_balloon ]
     en: speech balloon
     since: "0.6"
@@ -2539,6 +2693,7 @@ emoji:
       - もくげき
       - めのふきだし
       - しょうげん
+    ime_readings: [ ふきだし, め ]
     shortcodes: [ eye-in-speech-bubble ]
     en: eye in speech bubble
     since: "2.0"
@@ -2582,6 +2737,7 @@ emoji:
       - くうそう
       - もくもく
       - もうそう
+    ime_readings: [ くも, まんが ]
     shortcodes: [ thought_balloon ]
     en: thought balloon
     since: "1.0"
@@ -2598,6 +2754,7 @@ emoji:
       - おやすみ
       - すやすや
       - ねむい
+    ime_readings: [ しゅうしんちゅう, まんが ]
     shortcodes: [ zzz ]
     en: ZZZ
     since: "0.6"

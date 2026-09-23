@@ -1,10 +1,12 @@
 # SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
-#   name:       annotation shown in SKK (Japanese name; no "/" or ";")
-#   readings:   SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
-#   shortcodes: emoji shortcodes (":thumbsup:" without colons), registered as headwords.
-#               Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
-#   review:     true if added automatically by the update task; remove after checking the readings
-# Other fields are refreshed from Unicode/CLDR by the update task.
+#   name:         annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings:     SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   ime_readings: readings from Mozc (Google Japanese Input), refreshed by the update task.
+#                 Ranked after "readings"; copy a reading to "readings" to rank it higher
+#   shortcodes:   emoji shortcodes (":thumbsup:" without colons), registered as headwords.
+#                 Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
+#   review:       true if added automatically by the update task; remove after checking the readings
+# Other fields are refreshed from Unicode/CLDR/Mozc by the update task.
 
 group: Flags
 emoji:
@@ -19,6 +21,7 @@ emoji:
       - しょうり
       - はた
       - ふらっぐ
+    ime_readings: [ すぽーつ, ちぇっかー, ちぇっかーふらぐ, ふらぐ, れーしんぐ ]
     shortcodes: [ checkered_flag ]
     en: chequered flag
     since: "0.6"
@@ -34,6 +37,7 @@ emoji:
       - ふらぐ
       - ふらぐがたった
       - ごるふ
+    ime_readings: [ けんちく, すぽーつ ]
     shortcodes: [ triangular_flag_on_post ]
     en: triangular flag
     since: "0.6"
@@ -50,6 +54,7 @@ emoji:
       - しゅくじつ
       - はた
       - にっぽん
+    ime_readings: [ ふらぐ, ふらっぐ ]
     shortcodes: [ crossed_flags ]
     en: crossed flags
     since: "0.6"
@@ -64,6 +69,7 @@ emoji:
       - くろいはた
       - はた
       - ふらっぐ
+    ime_readings: [ くろ, ふらぐ ]
     shortcodes: [ waving_black_flag ]
     en: black flag
     since: "1.0"
@@ -79,6 +85,7 @@ emoji:
       - こうさん
       - はた
       - ふらっぐ
+    ime_readings: [ しらはた, しろ, ふらぐ ]
     shortcodes: [ waving_white_flag ]
     en: white flag
     since: "0.7"
@@ -94,6 +101,7 @@ emoji:
       - lgbt
       - ぷらいど
       - れいんぼー
+    ime_readings: [ glbt, lgbtq, lgbtqia, げい, とらんすじぇんだー, ばいせくしゅある, ふらぐ, れずびあん ]
     shortcodes: [ rainbow-flag ]
     en: rainbow flag
     since: "4.0"
@@ -108,6 +116,7 @@ emoji:
       - とらんすじぇんだーのはた
       - lgbt
       - ぷらいど
+    ime_readings: [ てぃーじー, はた, ふらぐ, ふらっぐ ]
     shortcodes: [ transgender_flag ]
     en: transgender flag
     since: "13.0"
@@ -123,6 +132,7 @@ emoji:
       - どくろ
       - かいぞくのはた
       - どくろのはた
+    ime_readings: [ たからもの, りゃくだつ ]
     shortcodes: [ pirate_flag ]
     en: pirate flag
     since: "11.0"
@@ -135,6 +145,7 @@ emoji:
       - あせんしょんとうのはた
       - あせんしょんとう
       - あせんしょん
+    ime_readings: [ はた ]
     shortcodes: [ flag-ac ]
     en: "flag: Ascension Island"
     since: "2.0"
@@ -147,6 +158,7 @@ emoji:
       - あんどらのこっき
       - あんどら
       - あんどらのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ad ]
     en: "flag: Andorra"
     since: "2.0"
@@ -161,6 +173,7 @@ emoji:
       - uae
       - どばい
       - あらぶしゅちょうこくれんぽうのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ae ]
     en: "flag: United Arab Emirates"
     since: "2.0"
@@ -174,6 +187,7 @@ emoji:
       - あふがにすたん
       - あふがん
       - あふがにすたんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-af ]
     en: "flag: Afghanistan"
     since: "2.0"
@@ -187,6 +201,7 @@ emoji:
       - あんてぃぐあばーぶーだ
       - あんてぃぐあ
       - あんてぃぐあばーぶーだのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ag ]
     en: "flag: Antigua & Barbuda"
     since: "2.0"
@@ -198,6 +213,7 @@ emoji:
     readings:
       - あんぎらのはた
       - あんぎら
+    ime_readings: [ はた ]
     shortcodes: [ flag-ai ]
     en: "flag: Anguilla"
     since: "2.0"
@@ -210,6 +226,7 @@ emoji:
       - あるばにあのこっき
       - あるばにあ
       - あるばにあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-al ]
     en: "flag: Albania"
     since: "2.0"
@@ -222,6 +239,7 @@ emoji:
       - あるめにあのこっき
       - あるめにあ
       - あるめにあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-am ]
     en: "flag: Armenia"
     since: "2.0"
@@ -234,6 +252,7 @@ emoji:
       - あんごらのこっき
       - あんごら
       - あんごらのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ao ]
     en: "flag: Angola"
     since: "2.0"
@@ -246,6 +265,7 @@ emoji:
       - なんきょくのはた
       - なんきょく
       - なんきょくたいりく
+    ime_readings: [ はた ]
     shortcodes: [ flag-aq ]
     en: "flag: Antarctica"
     since: "2.0"
@@ -258,6 +278,7 @@ emoji:
       - あるぜんちんのこっき
       - あるぜんちん
       - あるぜんちんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ar ]
     en: "flag: Argentina"
     since: "2.0"
@@ -271,6 +292,7 @@ emoji:
       - べいりょうさもあ
       - あめりかりょうさもあ
       - さもあ
+    ime_readings: [ はた ]
     shortcodes: [ flag-as ]
     en: "flag: American Samoa"
     since: "2.0"
@@ -284,6 +306,7 @@ emoji:
       - おーすとりあ
       - うぃーん
       - おーすとりあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-at ]
     en: "flag: Austria"
     since: "2.0"
@@ -298,6 +321,7 @@ emoji:
       - ごうしゅう
       - おーじー
       - おーすとらりあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-au ]
     en: "flag: Australia"
     since: "2.0"
@@ -309,6 +333,7 @@ emoji:
     readings:
       - あるばのはた
       - あるば
+    ime_readings: [ はた ]
     shortcodes: [ flag-aw ]
     en: "flag: Aruba"
     since: "2.0"
@@ -321,6 +346,7 @@ emoji:
       - おーらんどしょとうのはた
       - おーらんどしょとう
       - おーらんど
+    ime_readings: [ はた ]
     shortcodes: [ flag-ax ]
     en: "flag: Åland Islands"
     since: "2.0"
@@ -333,6 +359,7 @@ emoji:
       - あぜるばいじゃんのこっき
       - あぜるばいじゃん
       - あぜるばいじゃんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-az ]
     en: "flag: Azerbaijan"
     since: "2.0"
@@ -346,6 +373,7 @@ emoji:
       - ぼすにあへるつぇごびな
       - ぼすにあ
       - ぼすにあへるつぇごびなのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ba ]
     en: "flag: Bosnia & Herzegovina"
     since: "2.0"
@@ -358,6 +386,7 @@ emoji:
       - ばるばどすのこっき
       - ばるばどす
       - ばるばどすのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-bb ]
     en: "flag: Barbados"
     since: "2.0"
@@ -370,6 +399,7 @@ emoji:
       - ばんぐらでしゅのこっき
       - ばんぐらでしゅ
       - ばんぐらでしゅのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-bd ]
     en: "flag: Bangladesh"
     since: "2.0"
@@ -382,6 +412,7 @@ emoji:
       - べるぎーのこっき
       - べるぎー
       - べるぎーのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-be ]
     en: "flag: Belgium"
     since: "2.0"
@@ -394,6 +425,7 @@ emoji:
       - ぶるきなふぁそのこっき
       - ぶるきなふぁそ
       - ぶるきなふぁそのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-bf ]
     en: "flag: Burkina Faso"
     since: "2.0"
@@ -406,6 +438,7 @@ emoji:
       - ぶるがりあのこっき
       - ぶるがりあ
       - ぶるがりあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-bg ]
     en: "flag: Bulgaria"
     since: "2.0"
@@ -418,6 +451,7 @@ emoji:
       - ばーれーんのこっき
       - ばーれーん
       - ばーれーんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-bh ]
     en: "flag: Bahrain"
     since: "2.0"
@@ -430,6 +464,7 @@ emoji:
       - ぶるんじのこっき
       - ぶるんじ
       - ぶるんじのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-bi ]
     en: "flag: Burundi"
     since: "2.0"
@@ -442,6 +477,7 @@ emoji:
       - べなんのこっき
       - べなん
       - べなんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-bj ]
     en: "flag: Benin"
     since: "2.0"
@@ -454,6 +490,7 @@ emoji:
       - さんばるてるみーのはた
       - さんばるてるみー
       - さんばるてるみーとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-bl ]
     en: "flag: St. Barthélemy"
     since: "2.0"
@@ -466,6 +503,7 @@ emoji:
       - ばみゅーだのはた
       - ばみゅーだ
       - ばみゅーだしょとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-bm ]
     en: "flag: Bermuda"
     since: "2.0"
@@ -478,6 +516,7 @@ emoji:
       - ぶるねいのこっき
       - ぶるねい
       - ぶるねいのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-bn ]
     en: "flag: Brunei"
     since: "2.0"
@@ -490,6 +529,7 @@ emoji:
       - ぼりびあのこっき
       - ぼりびあ
       - ぼりびあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-bo ]
     en: "flag: Bolivia"
     since: "2.0"
@@ -503,6 +543,7 @@ emoji:
       - おらんだりょうかりぶ
       - かりぶおらんだ
       - ぼねーる
+    ime_readings: [ はた ]
     shortcodes: [ flag-bq ]
     en: "flag: Caribbean Netherlands"
     since: "2.0"
@@ -515,6 +556,7 @@ emoji:
       - ぶらじるのこっき
       - ぶらじる
       - ぶらじるのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-br ]
     en: "flag: Brazil"
     since: "2.0"
@@ -527,6 +569,7 @@ emoji:
       - ばはまのこっき
       - ばはま
       - ばはまのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-bs ]
     en: "flag: Bahamas"
     since: "2.0"
@@ -539,6 +582,7 @@ emoji:
       - ぶーたんのこっき
       - ぶーたん
       - ぶーたんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-bt ]
     en: "flag: Bhutan"
     since: "2.0"
@@ -551,6 +595,7 @@ emoji:
       - ぶーべとうのはた
       - ぶーべとう
       - ぶーべ
+    ime_readings: [ はた ]
     shortcodes: [ flag-bv ]
     en: "flag: Bouvet Island"
     since: "2.0"
@@ -563,6 +608,7 @@ emoji:
       - ぼつわなのこっき
       - ぼつわな
       - ぼつわなのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-bw ]
     en: "flag: Botswana"
     since: "2.0"
@@ -575,6 +621,7 @@ emoji:
       - べらるーしのこっき
       - べらるーし
       - べらるーしのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-by ]
     en: "flag: Belarus"
     since: "2.0"
@@ -587,6 +634,7 @@ emoji:
       - べりーずのこっき
       - べりーず
       - べりーずのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-bz ]
     en: "flag: Belize"
     since: "2.0"
@@ -600,6 +648,7 @@ emoji:
       - かなだ
       - めーぷるりーふき
       - かなだのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ca ]
     en: "flag: Canada"
     since: "2.0"
@@ -613,6 +662,7 @@ emoji:
       - ここすしょとう
       - きーりんぐしょとう
       - ここす
+    ime_readings: [ はた ]
     shortcodes: [ flag-cc ]
     en: "flag: Cocos (Keeling) Islands"
     since: "2.0"
@@ -627,6 +677,7 @@ emoji:
       - こんご
       - きんしゃさ
       - こんごみんしゅきょうわこくのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-cd ]
     en: "flag: Congo - Kinshasa"
     since: "2.0"
@@ -640,6 +691,7 @@ emoji:
       - ちゅうおうあふりかきょうわこく
       - ちゅうおうあふりか
       - ちゅうおうあふりかのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-cf ]
     en: "flag: Central African Republic"
     since: "2.0"
@@ -654,6 +706,7 @@ emoji:
       - こんご
       - ぶらざびる
       - こんごきょうわこくのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-cg ]
     en: "flag: Congo - Brazzaville"
     since: "2.0"
@@ -666,6 +719,7 @@ emoji:
       - すいすのこっき
       - すいす
       - すいすのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ch ]
     en: "flag: Switzerland"
     since: "2.0"
@@ -679,6 +733,7 @@ emoji:
       - こーとじぼわーる
       - ぞうげかいがん
       - こーとじぼわーるのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ci ]
     en: "flag: Côte d’Ivoire"
     since: "2.0"
@@ -690,6 +745,7 @@ emoji:
     readings:
       - くっくしょとうのはた
       - くっくしょとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-ck ]
     en: "flag: Cook Islands"
     since: "2.0"
@@ -702,6 +758,7 @@ emoji:
       - ちりのこっき
       - ちり
       - ちりのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-cl ]
     en: "flag: Chile"
     since: "2.0"
@@ -714,6 +771,7 @@ emoji:
       - かめるーんのこっき
       - かめるーん
       - かめるーんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-cm ]
     en: "flag: Cameroon"
     since: "2.0"
@@ -729,6 +787,7 @@ emoji:
       - ちゅうかじんみんきょうわこく
       - ごせいこうき
       - ちゅうごくのはた
+    ime_readings: [ こっき, はた ]
     shortcodes: [ cn, flag-cn ]
     en: "flag: China"
     since: "0.6"
@@ -741,6 +800,7 @@ emoji:
       - ころんびあのこっき
       - ころんびあ
       - ころんびあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-co ]
     en: "flag: Colombia"
     since: "2.0"
@@ -753,6 +813,7 @@ emoji:
       - くりっぱーとんとうのはた
       - くりっぱーとんとう
       - くりっぱーとん
+    ime_readings: [ はた ]
     shortcodes: [ flag-cp ]
     en: "flag: Clipperton Island"
     since: "2.0"
@@ -765,6 +826,7 @@ emoji:
       - さーくとうのはた
       - さーくとう
       - さーく
+    ime_readings: [ はた ]
     shortcodes: [ flag-sark ]
     en: "flag: Sark"
     since: "16.0"
@@ -777,6 +839,7 @@ emoji:
       - こすたりかのこっき
       - こすたりか
       - こすたりかのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-cr ]
     en: "flag: Costa Rica"
     since: "2.0"
@@ -789,6 +852,7 @@ emoji:
       - きゅーばのこっき
       - きゅーば
       - きゅーばのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-cu ]
     en: "flag: Cuba"
     since: "2.0"
@@ -801,6 +865,7 @@ emoji:
       - かーぼべるでのこっき
       - かーぼべるで
       - かーぼべるでのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-cv ]
     en: "flag: Cape Verde"
     since: "2.0"
@@ -813,6 +878,7 @@ emoji:
       - きゅらそーのはた
       - きゅらそー
       - きゅらそーとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-cw ]
     en: "flag: Curaçao"
     since: "2.0"
@@ -824,6 +890,7 @@ emoji:
     readings:
       - くりすますとうのはた
       - くりすますとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-cx ]
     en: "flag: Christmas Island"
     since: "2.0"
@@ -837,6 +904,7 @@ emoji:
       - きぷろす
       - さいぷらす
       - きぷろすのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-cy ]
     en: "flag: Cyprus"
     since: "2.0"
@@ -850,6 +918,7 @@ emoji:
       - ちぇこ
       - ちぇこきょうわこく
       - ちぇこのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-cz ]
     en: "flag: Czechia"
     since: "2.0"
@@ -864,6 +933,7 @@ emoji:
       - どくいつ
       - じゃーまにー
       - どいつのはた
+    ime_readings: [ こっき, はた ]
     shortcodes: [ de, flag-de ]
     en: "flag: Germany"
     since: "0.6"
@@ -876,6 +946,7 @@ emoji:
       - でぃえごがるしあとうのはた
       - でぃえごがるしあとう
       - でぃえごがるしあ
+    ime_readings: [ はた ]
     shortcodes: [ flag-dg ]
     en: "flag: Diego Garcia"
     since: "2.0"
@@ -888,6 +959,7 @@ emoji:
       - じぶちのこっき
       - じぶち
       - じぶちのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-dj ]
     en: "flag: Djibouti"
     since: "2.0"
@@ -901,6 +973,7 @@ emoji:
       - でんまーく
       - だんねぶろ
       - でんまーくのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-dk ]
     en: "flag: Denmark"
     since: "2.0"
@@ -914,6 +987,7 @@ emoji:
       - どみにかこく
       - どみにか
       - どみにかこくのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-dm ]
     en: "flag: Dominica"
     since: "2.0"
@@ -927,6 +1001,7 @@ emoji:
       - どみにかきょうわこく
       - どみにか
       - どみにかきょうわこくのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-do ]
     en: "flag: Dominican Republic"
     since: "2.0"
@@ -939,6 +1014,7 @@ emoji:
       - あるじぇりあのこっき
       - あるじぇりあ
       - あるじぇりあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-dz ]
     en: "flag: Algeria"
     since: "2.0"
@@ -952,6 +1028,7 @@ emoji:
       - せうためりりゃ
       - せうた
       - めりりゃ
+    ime_readings: [ はた ]
     shortcodes: [ flag-ea ]
     en: "flag: Ceuta & Melilla"
     since: "2.0"
@@ -964,6 +1041,7 @@ emoji:
       - えくあどるのこっき
       - えくあどる
       - えくあどるのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ec ]
     en: "flag: Ecuador"
     since: "2.0"
@@ -976,6 +1054,7 @@ emoji:
       - えすとにあのこっき
       - えすとにあ
       - えすとにあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ee ]
     en: "flag: Estonia"
     since: "2.0"
@@ -988,6 +1067,7 @@ emoji:
       - えじぷとのこっき
       - えじぷと
       - えじぷとのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-eg ]
     en: "flag: Egypt"
     since: "2.0"
@@ -1000,6 +1080,7 @@ emoji:
       - にしさはらのはた
       - にしさはら
       - さはら
+    ime_readings: [ はた ]
     shortcodes: [ flag-eh ]
     en: "flag: Western Sahara"
     since: "2.0"
@@ -1012,6 +1093,7 @@ emoji:
       - えりとりあのこっき
       - えりとりあ
       - えりとりあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-er ]
     en: "flag: Eritrea"
     since: "2.0"
@@ -1024,6 +1106,7 @@ emoji:
       - すぺいんのこっき
       - すぺいん
       - すぺいんのはた
+    ime_readings: [ こっき, はた ]
     shortcodes: [ es, flag-es ]
     en: "flag: Spain"
     since: "0.6"
@@ -1036,6 +1119,7 @@ emoji:
       - えちおぴあのこっき
       - えちおぴあ
       - えちおぴあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-et ]
     en: "flag: Ethiopia"
     since: "2.0"
@@ -1051,6 +1135,7 @@ emoji:
       - いーゆー
       - よーろっぱ
       - おうしゅう
+    ime_readings: [ はた ]
     shortcodes: [ flag-eu ]
     en: "flag: European Union"
     since: "2.0"
@@ -1063,6 +1148,7 @@ emoji:
       - ふぃんらんどのこっき
       - ふぃんらんど
       - ふぃんらんどのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-fi ]
     en: "flag: Finland"
     since: "2.0"
@@ -1075,6 +1161,7 @@ emoji:
       - ふぃじーのこっき
       - ふぃじー
       - ふぃじーのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-fj ]
     en: "flag: Fiji"
     since: "2.0"
@@ -1088,6 +1175,7 @@ emoji:
       - ふぉーくらんどしょとう
       - ふぉーくらんど
       - まるびなすしょとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-fk ]
     en: "flag: Falkland Islands"
     since: "2.0"
@@ -1101,6 +1189,7 @@ emoji:
       - みくろねしあれんぽう
       - みくろねしあ
       - みくろねしあれんぽうのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-fm ]
     en: "flag: Micronesia"
     since: "2.0"
@@ -1113,6 +1202,7 @@ emoji:
       - ふぇろーしょとうのはた
       - ふぇろーしょとう
       - ふぇろー
+    ime_readings: [ はた ]
     shortcodes: [ flag-fo ]
     en: "flag: Faroe Islands"
     since: "2.0"
@@ -1129,6 +1219,7 @@ emoji:
       - さんしょくき
       - とりころーる
       - ふらんすのはた
+    ime_readings: [ こっき, はた ]
     shortcodes: [ fr, flag-fr ]
     en: "flag: France"
     since: "0.6"
@@ -1141,6 +1232,7 @@ emoji:
       - がぼんのこっき
       - がぼん
       - がぼんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ga ]
     en: "flag: Gabon"
     since: "2.0"
@@ -1158,6 +1250,7 @@ emoji:
       - ぶりてん
       - uk
       - いぎりすのはた
+    ime_readings: [ こっき, はた ]
     shortcodes: [ gb, uk, flag-gb ]
     en: "flag: United Kingdom"
     since: "0.6"
@@ -1170,6 +1263,7 @@ emoji:
       - ぐれなだのこっき
       - ぐれなだ
       - ぐれなだのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-gd ]
     en: "flag: Grenada"
     since: "2.0"
@@ -1183,6 +1277,7 @@ emoji:
       - じょーじあ
       - ぐるじあ
       - じょーじあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ge ]
     en: "flag: Georgia"
     since: "2.0"
@@ -1196,6 +1291,7 @@ emoji:
       - ふつりょうぎあな
       - ふらんすりょうぎあな
       - ぎあな
+    ime_readings: [ はた ]
     shortcodes: [ flag-gf ]
     en: "flag: French Guiana"
     since: "2.0"
@@ -1208,6 +1304,7 @@ emoji:
       - がーんじーのはた
       - がーんじー
       - がーんじーとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-gg ]
     en: "flag: Guernsey"
     since: "2.0"
@@ -1220,6 +1317,7 @@ emoji:
       - がーなのこっき
       - がーな
       - がーなのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-gh ]
     en: "flag: Ghana"
     since: "2.0"
@@ -1231,6 +1329,7 @@ emoji:
     readings:
       - じぶらるたるのはた
       - じぶらるたる
+    ime_readings: [ はた ]
     shortcodes: [ flag-gi ]
     en: "flag: Gibraltar"
     since: "2.0"
@@ -1242,6 +1341,7 @@ emoji:
     readings:
       - ぐりーんらんどのはた
       - ぐりーんらんど
+    ime_readings: [ はた ]
     shortcodes: [ flag-gl ]
     en: "flag: Greenland"
     since: "2.0"
@@ -1254,6 +1354,7 @@ emoji:
       - がんびあのこっき
       - がんびあ
       - がんびあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-gm ]
     en: "flag: Gambia"
     since: "2.0"
@@ -1266,6 +1367,7 @@ emoji:
       - ぎにあのこっき
       - ぎにあ
       - ぎにあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-gn ]
     en: "flag: Guinea"
     since: "2.0"
@@ -1277,6 +1379,7 @@ emoji:
     readings:
       - ぐあどるーぷのはた
       - ぐあどるーぷ
+    ime_readings: [ はた ]
     shortcodes: [ flag-gp ]
     en: "flag: Guadeloupe"
     since: "2.0"
@@ -1289,6 +1392,7 @@ emoji:
       - せきどうぎにあのこっき
       - せきどうぎにあ
       - せきどうぎにあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-gq ]
     en: "flag: Equatorial Guinea"
     since: "2.0"
@@ -1303,6 +1407,7 @@ emoji:
       - ぎりしあ
       - へらす
       - ぎりしゃのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-gr ]
     en: "flag: Greece"
     since: "2.0"
@@ -1316,6 +1421,7 @@ emoji:
       - さうすじょーじあ
       - さうすさんどうぃっちしょとう
       - さうすじょーじあとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-gs ]
     en: "flag: South Georgia & South Sandwich Islands"
     since: "2.0"
@@ -1328,6 +1434,7 @@ emoji:
       - ぐあてまらのこっき
       - ぐあてまら
       - ぐあてまらのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-gt ]
     en: "flag: Guatemala"
     since: "2.0"
@@ -1340,6 +1447,7 @@ emoji:
       - ぐあむのはた
       - ぐあむ
       - ぐあむとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-gu ]
     en: "flag: Guam"
     since: "2.0"
@@ -1352,6 +1460,7 @@ emoji:
       - ぎにあびさうのこっき
       - ぎにあびさう
       - ぎにあびさうのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-gw ]
     en: "flag: Guinea-Bissau"
     since: "2.0"
@@ -1364,6 +1473,7 @@ emoji:
       - がいあなのこっき
       - がいあな
       - がいあなのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-gy ]
     en: "flag: Guyana"
     since: "2.0"
@@ -1377,6 +1487,7 @@ emoji:
       - ほんこん
       - ほんこんとくべつぎょうせいく
       - ほんこんのこっき
+    ime_readings: [ ちゅうかじんみんきょうわこくほんこんとくべつぎょうせいく, はた ]
     shortcodes: [ flag-hk ]
     en: "flag: Hong Kong SAR China"
     since: "2.0"
@@ -1389,6 +1500,7 @@ emoji:
       - はーどとうのはた
       - はーどとう
       - まくどなるどしょとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-hm ]
     en: "flag: Heard Island & McDonald Islands"
     since: "2.0"
@@ -1401,6 +1513,7 @@ emoji:
       - ほんじゅらすのこっき
       - ほんじゅらす
       - ほんじゅらすのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-hn ]
     en: "flag: Honduras"
     since: "2.0"
@@ -1413,6 +1526,7 @@ emoji:
       - くろあちあのこっき
       - くろあちあ
       - くろあちあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-hr ]
     en: "flag: Croatia"
     since: "2.0"
@@ -1425,6 +1539,7 @@ emoji:
       - はいちのこっき
       - はいち
       - はいちのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ht ]
     en: "flag: Haiti"
     since: "2.0"
@@ -1437,6 +1552,7 @@ emoji:
       - はんがりーのこっき
       - はんがりー
       - はんがりーのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-hu ]
     en: "flag: Hungary"
     since: "2.0"
@@ -1449,6 +1565,7 @@ emoji:
       - かなりあしょとうのはた
       - かなりあしょとう
       - かなりあ
+    ime_readings: [ はた ]
     shortcodes: [ flag-ic ]
     en: "flag: Canary Islands"
     since: "2.0"
@@ -1461,6 +1578,7 @@ emoji:
       - いんどねしあのこっき
       - いんどねしあ
       - いんどねしあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-id ]
     en: "flag: Indonesia"
     since: "2.0"
@@ -1474,6 +1592,7 @@ emoji:
       - あいるらんど
       - えーる
       - あいるらんどのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ie ]
     en: "flag: Ireland"
     since: "2.0"
@@ -1486,6 +1605,7 @@ emoji:
       - いすらえるのこっき
       - いすらえる
       - いすらえるのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-il ]
     en: "flag: Israel"
     since: "2.0"
@@ -1497,6 +1617,7 @@ emoji:
     readings:
       - まんとうのはた
       - まんとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-im ]
     en: "flag: Isle of Man"
     since: "2.0"
@@ -1509,6 +1630,7 @@ emoji:
       - いんどのこっき
       - いんど
       - いんどのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-in ]
     en: "flag: India"
     since: "2.0"
@@ -1521,6 +1643,7 @@ emoji:
       - えいりょういんどようちいきのはた
       - えいりょういんどようちいき
       - ちゃごすしょとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-io ]
     en: "flag: British Indian Ocean Territory"
     since: "2.0"
@@ -1533,6 +1656,7 @@ emoji:
       - いらくのこっき
       - いらく
       - いらくのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-iq ]
     en: "flag: Iraq"
     since: "2.0"
@@ -1545,6 +1669,7 @@ emoji:
       - いらんのこっき
       - いらん
       - いらんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ir ]
     en: "flag: Iran"
     since: "2.0"
@@ -1557,6 +1682,7 @@ emoji:
       - あいすらんどのこっき
       - あいすらんど
       - あいすらんどのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-is ]
     en: "flag: Iceland"
     since: "2.0"
@@ -1571,6 +1697,7 @@ emoji:
       - いたりー
       - さんしょくき
       - いたりあのはた
+    ime_readings: [ こっき, はた ]
     shortcodes: [ it, flag-it ]
     en: "flag: Italy"
     since: "0.6"
@@ -1583,6 +1710,7 @@ emoji:
       - じゃーじーのはた
       - じゃーじー
       - じゃーじーとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-je ]
     en: "flag: Jersey"
     since: "2.0"
@@ -1595,6 +1723,7 @@ emoji:
       - じゃまいかのこっき
       - じゃまいか
       - じゃまいかのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-jm ]
     en: "flag: Jamaica"
     since: "2.0"
@@ -1607,6 +1736,7 @@ emoji:
       - よるだんのこっき
       - よるだん
       - よるだんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-jo ]
     en: "flag: Jordan"
     since: "2.0"
@@ -1624,6 +1754,7 @@ emoji:
       - にほんのはた
       - じゃぱん
       - jp
+    ime_readings: [ こっき, しゅくじつ, はた ]
     shortcodes: [ jp, flag-jp ]
     en: "flag: Japan"
     since: "0.6"
@@ -1636,6 +1767,7 @@ emoji:
       - けにあのこっき
       - けにあ
       - けにあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ke ]
     en: "flag: Kenya"
     since: "2.0"
@@ -1649,6 +1781,7 @@ emoji:
       - きるぎす
       - きるぎすたん
       - きるぎすのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-kg ]
     en: "flag: Kyrgyzstan"
     since: "2.0"
@@ -1661,6 +1794,7 @@ emoji:
       - かんぼじあのこっき
       - かんぼじあ
       - かんぼじあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-kh ]
     en: "flag: Cambodia"
     since: "2.0"
@@ -1673,6 +1807,7 @@ emoji:
       - きりばすのこっき
       - きりばす
       - きりばすのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ki ]
     en: "flag: Kiribati"
     since: "2.0"
@@ -1685,6 +1820,7 @@ emoji:
       - こもろのこっき
       - こもろ
       - こもろのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-km ]
     en: "flag: Comoros"
     since: "2.0"
@@ -1700,6 +1836,7 @@ emoji:
       - せんときっつ
       - ねーびす
       - せんとくりすとふぁーねーびすのはた
+    ime_readings: [ せんとくりすとふぁーねーゔぃす, はた ]
     shortcodes: [ flag-kn ]
     en: "flag: St. Kitts & Nevis"
     since: "2.0"
@@ -1713,6 +1850,7 @@ emoji:
       - きたちょうせん
       - ちょうせんみんしゅしゅぎじんみんきょうわこく
       - きたちょうせんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-kp ]
     en: "flag: North Korea"
     since: "2.0"
@@ -1728,6 +1866,7 @@ emoji:
       - たいきょくき
       - さうすこりあ
       - かんこくのはた
+    ime_readings: [ こっき, はた ]
     shortcodes: [ kr, flag-kr ]
     en: "flag: South Korea"
     since: "0.6"
@@ -1740,6 +1879,7 @@ emoji:
       - くうぇーとのこっき
       - くうぇーと
       - くうぇーとのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-kw ]
     en: "flag: Kuwait"
     since: "2.0"
@@ -1752,6 +1892,7 @@ emoji:
       - けいまんしょとうのはた
       - けいまんしょとう
       - けいまん
+    ime_readings: [ はた ]
     shortcodes: [ flag-ky ]
     en: "flag: Cayman Islands"
     since: "2.0"
@@ -1764,6 +1905,7 @@ emoji:
       - かざふすたんのこっき
       - かざふすたん
       - かざふすたんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-kz ]
     en: "flag: Kazakhstan"
     since: "2.0"
@@ -1776,6 +1918,7 @@ emoji:
       - らおすのこっき
       - らおす
       - らおすのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-la ]
     en: "flag: Laos"
     since: "2.0"
@@ -1788,6 +1931,7 @@ emoji:
       - ればのんのこっき
       - ればのん
       - ればのんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-lb ]
     en: "flag: Lebanon"
     since: "2.0"
@@ -1800,6 +1944,7 @@ emoji:
       - せんとるしあのこっき
       - せんとるしあ
       - せんとるしあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-lc ]
     en: "flag: St. Lucia"
     since: "2.0"
@@ -1812,6 +1957,7 @@ emoji:
       - りひてんしゅたいんのこっき
       - りひてんしゅたいん
       - りひてんしゅたいんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-li ]
     en: "flag: Liechtenstein"
     since: "2.0"
@@ -1825,6 +1971,7 @@ emoji:
       - すりらんか
       - せいろん
       - すりらんかのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-lk ]
     en: "flag: Sri Lanka"
     since: "2.0"
@@ -1837,6 +1984,7 @@ emoji:
       - りべりあのこっき
       - りべりあ
       - りべりあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-lr ]
     en: "flag: Liberia"
     since: "2.0"
@@ -1849,6 +1997,7 @@ emoji:
       - れそとのこっき
       - れそと
       - れそとのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ls ]
     en: "flag: Lesotho"
     since: "2.0"
@@ -1861,6 +2010,7 @@ emoji:
       - りとあにあのこっき
       - りとあにあ
       - りとあにあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-lt ]
     en: "flag: Lithuania"
     since: "2.0"
@@ -1874,6 +2024,7 @@ emoji:
       - るくせんぶるく
       - るくせんぶるぐ
       - るくせんぶるくのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-lu ]
     en: "flag: Luxembourg"
     since: "2.0"
@@ -1886,6 +2037,7 @@ emoji:
       - らとびあのこっき
       - らとびあ
       - らとびあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-lv ]
     en: "flag: Latvia"
     since: "2.0"
@@ -1898,6 +2050,7 @@ emoji:
       - りびあのこっき
       - りびあ
       - りびあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ly ]
     en: "flag: Libya"
     since: "2.0"
@@ -1910,6 +2063,7 @@ emoji:
       - もろっこのこっき
       - もろっこ
       - もろっこのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ma ]
     en: "flag: Morocco"
     since: "2.0"
@@ -1922,6 +2076,7 @@ emoji:
       - もなこのこっき
       - もなこ
       - もなこのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-mc ]
     en: "flag: Monaco"
     since: "2.0"
@@ -1934,6 +2089,7 @@ emoji:
       - もるどばのこっき
       - もるどば
       - もるどばのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-md ]
     en: "flag: Moldova"
     since: "2.0"
@@ -1946,6 +2102,7 @@ emoji:
       - もんてねぐろのこっき
       - もんてねぐろ
       - もんてねぐろのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-me ]
     en: "flag: Montenegro"
     since: "2.0"
@@ -1957,6 +2114,7 @@ emoji:
     readings:
       - さんまるたんのはた
       - さんまるたん
+    ime_readings: [ はた ]
     shortcodes: [ flag-mf ]
     en: "flag: St. Martin"
     since: "2.0"
@@ -1969,6 +2127,7 @@ emoji:
       - まだがすかるのこっき
       - まだがすかる
       - まだがすかるのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-mg ]
     en: "flag: Madagascar"
     since: "2.0"
@@ -1982,6 +2141,7 @@ emoji:
       - まーしゃるしょとう
       - まーしゃる
       - まーしゃるしょとうのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-mh ]
     en: "flag: Marshall Islands"
     since: "2.0"
@@ -1995,6 +2155,7 @@ emoji:
       - きたまけどにあ
       - まけどにあ
       - きたまけどにあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-mk ]
     en: "flag: North Macedonia"
     since: "2.0"
@@ -2007,6 +2168,7 @@ emoji:
       - まりのこっき
       - まり
       - まりのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ml ]
     en: "flag: Mali"
     since: "2.0"
@@ -2020,6 +2182,7 @@ emoji:
       - みゃんまー
       - びるま
       - みゃんまーのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-mm ]
     en: "flag: Myanmar (Burma)"
     since: "2.0"
@@ -2032,6 +2195,7 @@ emoji:
       - もんごるのこっき
       - もんごる
       - もんごるのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-mn ]
     en: "flag: Mongolia"
     since: "2.0"
@@ -2044,6 +2208,7 @@ emoji:
       - まかおのはた
       - まかお
       - まかおとくべつぎょうせいく
+    ime_readings: [ ちゅうかじんみんきょうわこくまかおとくべつぎょうせいく, はた ]
     shortcodes: [ flag-mo ]
     en: "flag: Macao SAR China"
     since: "2.0"
@@ -2057,6 +2222,7 @@ emoji:
       - きたまりあなしょとう
       - さいぱん
       - まりあなしょとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-mp ]
     en: "flag: Northern Mariana Islands"
     since: "2.0"
@@ -2068,6 +2234,7 @@ emoji:
     readings:
       - まるてぃにーくのはた
       - まるてぃにーく
+    ime_readings: [ はた ]
     shortcodes: [ flag-mq ]
     en: "flag: Martinique"
     since: "2.0"
@@ -2080,6 +2247,7 @@ emoji:
       - もーりたにあのこっき
       - もーりたにあ
       - もーりたにあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-mr ]
     en: "flag: Mauritania"
     since: "2.0"
@@ -2091,6 +2259,7 @@ emoji:
     readings:
       - もんとせらとのはた
       - もんとせらと
+    ime_readings: [ はた ]
     shortcodes: [ flag-ms ]
     en: "flag: Montserrat"
     since: "2.0"
@@ -2103,6 +2272,7 @@ emoji:
       - まるたのこっき
       - まるた
       - まるたのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-mt ]
     en: "flag: Malta"
     since: "2.0"
@@ -2115,6 +2285,7 @@ emoji:
       - もーりしゃすのこっき
       - もーりしゃす
       - もーりしゃすのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-mu ]
     en: "flag: Mauritius"
     since: "2.0"
@@ -2127,6 +2298,7 @@ emoji:
       - もるでぃぶのこっき
       - もるでぃぶ
       - もるでぃぶのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-mv ]
     en: "flag: Maldives"
     since: "2.0"
@@ -2139,6 +2311,7 @@ emoji:
       - まらういのこっき
       - まらうい
       - まらういのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-mw ]
     en: "flag: Malawi"
     since: "2.0"
@@ -2151,6 +2324,7 @@ emoji:
       - めきしこのこっき
       - めきしこ
       - めきしこのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-mx ]
     en: "flag: Mexico"
     since: "2.0"
@@ -2163,6 +2337,7 @@ emoji:
       - まれーしあのこっき
       - まれーしあ
       - まれーしあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-my ]
     en: "flag: Malaysia"
     since: "2.0"
@@ -2175,6 +2350,7 @@ emoji:
       - もざんびーくのこっき
       - もざんびーく
       - もざんびーくのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-mz ]
     en: "flag: Mozambique"
     since: "2.0"
@@ -2187,6 +2363,7 @@ emoji:
       - なみびあのこっき
       - なみびあ
       - なみびあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-na ]
     en: "flag: Namibia"
     since: "2.0"
@@ -2198,6 +2375,7 @@ emoji:
     readings:
       - にゅーかれどにあのはた
       - にゅーかれどにあ
+    ime_readings: [ はた ]
     shortcodes: [ flag-nc ]
     en: "flag: New Caledonia"
     since: "2.0"
@@ -2210,6 +2388,7 @@ emoji:
       - にじぇーるのこっき
       - にじぇーる
       - にじぇーるのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ne ]
     en: "flag: Niger"
     since: "2.0"
@@ -2221,6 +2400,7 @@ emoji:
     readings:
       - のーふぉーくとうのはた
       - のーふぉーくとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-nf ]
     en: "flag: Norfolk Island"
     since: "2.0"
@@ -2233,6 +2413,7 @@ emoji:
       - ないじぇりあのこっき
       - ないじぇりあ
       - ないじぇりあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ng ]
     en: "flag: Nigeria"
     since: "2.0"
@@ -2245,6 +2426,7 @@ emoji:
       - にからぐあのこっき
       - にからぐあ
       - にからぐあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ni ]
     en: "flag: Nicaragua"
     since: "2.0"
@@ -2259,6 +2441,7 @@ emoji:
       - ねーでるらんと
       - ねざーらんど
       - おらんだのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-nl ]
     en: "flag: Netherlands"
     since: "2.0"
@@ -2271,6 +2454,7 @@ emoji:
       - のるうぇーのこっき
       - のるうぇー
       - のるうぇーのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-no ]
     en: "flag: Norway"
     since: "2.0"
@@ -2283,6 +2467,7 @@ emoji:
       - ねぱーるのこっき
       - ねぱーる
       - ねぱーるのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-np ]
     en: "flag: Nepal"
     since: "2.0"
@@ -2295,6 +2480,7 @@ emoji:
       - なうるのこっき
       - なうる
       - なうるのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-nr ]
     en: "flag: Nauru"
     since: "2.0"
@@ -2306,6 +2492,7 @@ emoji:
     readings:
       - にうえのはた
       - にうえ
+    ime_readings: [ はた ]
     shortcodes: [ flag-nu ]
     en: "flag: Niue"
     since: "2.0"
@@ -2319,6 +2506,7 @@ emoji:
       - にゅーじーらんど
       - nz
       - にゅーじーらんどのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-nz ]
     en: "flag: New Zealand"
     since: "2.0"
@@ -2331,6 +2519,7 @@ emoji:
       - おまーんのこっき
       - おまーん
       - おまーんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-om ]
     en: "flag: Oman"
     since: "2.0"
@@ -2343,6 +2532,7 @@ emoji:
       - ぱなまのこっき
       - ぱなま
       - ぱなまのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-pa ]
     en: "flag: Panama"
     since: "2.0"
@@ -2355,6 +2545,7 @@ emoji:
       - ぺるーのこっき
       - ぺるー
       - ぺるーのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-pe ]
     en: "flag: Peru"
     since: "2.0"
@@ -2369,6 +2560,7 @@ emoji:
       - ふらんすりょうぽりねしあ
       - たひち
       - ぽりねしあ
+    ime_readings: [ はた ]
     shortcodes: [ flag-pf ]
     en: "flag: French Polynesia"
     since: "2.0"
@@ -2381,6 +2573,7 @@ emoji:
       - ぱぷあにゅーぎにあのこっき
       - ぱぷあにゅーぎにあ
       - ぱぷあにゅーぎにあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-pg ]
     en: "flag: Papua New Guinea"
     since: "2.0"
@@ -2393,6 +2586,7 @@ emoji:
       - ふぃりぴんのこっき
       - ふぃりぴん
       - ふぃりぴんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ph ]
     en: "flag: Philippines"
     since: "2.0"
@@ -2405,6 +2599,7 @@ emoji:
       - ぱきすたんのこっき
       - ぱきすたん
       - ぱきすたんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-pk ]
     en: "flag: Pakistan"
     since: "2.0"
@@ -2417,6 +2612,7 @@ emoji:
       - ぽーらんどのこっき
       - ぽーらんど
       - ぽーらんどのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-pl ]
     en: "flag: Poland"
     since: "2.0"
@@ -2430,6 +2626,7 @@ emoji:
       - さんぴえーるとう
       - みくろんとう
       - さんぴえーるみくろん
+    ime_readings: [ はた ]
     shortcodes: [ flag-pm ]
     en: "flag: St. Pierre & Miquelon"
     since: "2.0"
@@ -2442,6 +2639,7 @@ emoji:
       - ぴとけあんしょとうのはた
       - ぴとけあんしょとう
       - ぴとけあん
+    ime_readings: [ はた ]
     shortcodes: [ flag-pn ]
     en: "flag: Pitcairn Islands"
     since: "2.0"
@@ -2453,6 +2651,7 @@ emoji:
     readings:
       - ぷえるとりこのはた
       - ぷえるとりこ
+    ime_readings: [ はた ]
     shortcodes: [ flag-pr ]
     en: "flag: Puerto Rico"
     since: "2.0"
@@ -2466,6 +2665,7 @@ emoji:
       - ぱれすちな
       - ぱれすちなじちく
       - ぱれすちなのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ps ]
     en: "flag: Palestinian Territories"
     since: "2.0"
@@ -2478,6 +2678,7 @@ emoji:
       - ぽるとがるのこっき
       - ぽるとがる
       - ぽるとがるのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-pt ]
     en: "flag: Portugal"
     since: "2.0"
@@ -2490,6 +2691,7 @@ emoji:
       - ぱらおのこっき
       - ぱらお
       - ぱらおのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-pw ]
     en: "flag: Palau"
     since: "2.0"
@@ -2502,6 +2704,7 @@ emoji:
       - ぱらぐあいのこっき
       - ぱらぐあい
       - ぱらぐあいのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-py ]
     en: "flag: Paraguay"
     since: "2.0"
@@ -2514,6 +2717,7 @@ emoji:
       - かたーるのこっき
       - かたーる
       - かたーるのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-qa ]
     en: "flag: Qatar"
     since: "2.0"
@@ -2525,6 +2729,7 @@ emoji:
     readings:
       - れゆにおんのはた
       - れゆにおん
+    ime_readings: [ はた ]
     shortcodes: [ flag-re ]
     en: "flag: Réunion"
     since: "2.0"
@@ -2537,6 +2742,7 @@ emoji:
       - るーまにあのこっき
       - るーまにあ
       - るーまにあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ro ]
     en: "flag: Romania"
     since: "2.0"
@@ -2549,6 +2755,7 @@ emoji:
       - せるびあのこっき
       - せるびあ
       - せるびあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-rs ]
     en: "flag: Serbia"
     since: "2.0"
@@ -2562,6 +2769,7 @@ emoji:
       - ろしあ
       - ろしあれんぽう
       - ろしあのはた
+    ime_readings: [ こっき, はた ]
     shortcodes: [ ru, flag-ru ]
     en: "flag: Russia"
     since: "0.6"
@@ -2574,6 +2782,7 @@ emoji:
       - るわんだのこっき
       - るわんだ
       - るわんだのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-rw ]
     en: "flag: Rwanda"
     since: "2.0"
@@ -2587,6 +2796,7 @@ emoji:
       - さうじあらびあ
       - さうじ
       - さうじあらびあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-sa ]
     en: "flag: Saudi Arabia"
     since: "2.0"
@@ -2600,6 +2810,7 @@ emoji:
       - そろもんしょとう
       - そろもん
       - そろもんしょとうのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-sb ]
     en: "flag: Solomon Islands"
     since: "2.0"
@@ -2612,6 +2823,7 @@ emoji:
       - せーしぇるのこっき
       - せーしぇる
       - せーしぇるのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-sc ]
     en: "flag: Seychelles"
     since: "2.0"
@@ -2624,6 +2836,7 @@ emoji:
       - すーだんのこっき
       - すーだん
       - すーだんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-sd ]
     en: "flag: Sudan"
     since: "2.0"
@@ -2636,6 +2849,7 @@ emoji:
       - すうぇーでんのこっき
       - すうぇーでん
       - すうぇーでんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-se ]
     en: "flag: Sweden"
     since: "2.0"
@@ -2648,6 +2862,7 @@ emoji:
       - しんがぽーるのこっき
       - しんがぽーる
       - しんがぽーるのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-sg ]
     en: "flag: Singapore"
     since: "2.0"
@@ -2661,6 +2876,7 @@ emoji:
       - せんとへれな
       - あせんしょんとう
       - せんとへれなとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-sh ]
     en: "flag: St. Helena, Ascension & Tristan da Cunha"
     since: "2.0"
@@ -2673,6 +2889,7 @@ emoji:
       - すろべにあのこっき
       - すろべにあ
       - すろべにあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-si ]
     en: "flag: Slovenia"
     since: "2.0"
@@ -2686,6 +2903,7 @@ emoji:
       - すばーるばるしょとう
       - やんまいえんとう
       - すばーるばる
+    ime_readings: [ はた ]
     shortcodes: [ flag-sj ]
     en: "flag: Svalbard & Jan Mayen"
     since: "2.0"
@@ -2698,6 +2916,7 @@ emoji:
       - すろばきあのこっき
       - すろばきあ
       - すろばきあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-sk ]
     en: "flag: Slovakia"
     since: "2.0"
@@ -2710,6 +2929,7 @@ emoji:
       - しえられおねのこっき
       - しえられおね
       - しえられおねのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-sl ]
     en: "flag: Sierra Leone"
     since: "2.0"
@@ -2722,6 +2942,7 @@ emoji:
       - さんまりののこっき
       - さんまりの
       - さんまりののはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-sm ]
     en: "flag: San Marino"
     since: "2.0"
@@ -2734,6 +2955,7 @@ emoji:
       - せねがるのこっき
       - せねがる
       - せねがるのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-sn ]
     en: "flag: Senegal"
     since: "2.0"
@@ -2746,6 +2968,7 @@ emoji:
       - そまりあのこっき
       - そまりあ
       - そまりあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-so ]
     en: "flag: Somalia"
     since: "2.0"
@@ -2758,6 +2981,7 @@ emoji:
       - すりなむのこっき
       - すりなむ
       - すりなむのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-sr ]
     en: "flag: Suriname"
     since: "2.0"
@@ -2770,6 +2994,7 @@ emoji:
       - みなみすーだんのこっき
       - みなみすーだん
       - みなみすーだんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ss ]
     en: "flag: South Sudan"
     since: "2.0"
@@ -2783,6 +3008,7 @@ emoji:
       - さんとめぷりんしぺ
       - さんとめ
       - さんとめぷりんしぺのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-st ]
     en: "flag: São Tomé & Príncipe"
     since: "2.0"
@@ -2795,6 +3021,7 @@ emoji:
       - えるさるばどるのこっき
       - えるさるばどる
       - えるさるばどるのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-sv ]
     en: "flag: El Salvador"
     since: "2.0"
@@ -2806,6 +3033,7 @@ emoji:
     readings:
       - しんとまーるてんのはた
       - しんとまーるてん
+    ime_readings: [ はた ]
     shortcodes: [ flag-sx ]
     en: "flag: Sint Maarten"
     since: "2.0"
@@ -2818,6 +3046,7 @@ emoji:
       - しりあのこっき
       - しりあ
       - しりあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-sy ]
     en: "flag: Syria"
     since: "2.0"
@@ -2831,6 +3060,7 @@ emoji:
       - えすわてぃに
       - すわじらんど
       - えすわてぃにのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-sz ]
     en: "flag: Eswatini"
     since: "2.0"
@@ -2842,6 +3072,7 @@ emoji:
     readings:
       - とりすたんだくーにゃのはた
       - とりすたんだくーにゃ
+    ime_readings: [ はた ]
     shortcodes: [ flag-ta ]
     en: "flag: Tristan da Cunha"
     since: "2.0"
@@ -2854,6 +3085,7 @@ emoji:
       - たーくすかいこすしょとうのはた
       - たーくすかいこすしょとう
       - たーくすかいこす
+    ime_readings: [ はた ]
     shortcodes: [ flag-tc ]
     en: "flag: Turks & Caicos Islands"
     since: "2.0"
@@ -2866,6 +3098,7 @@ emoji:
       - ちゃどのこっき
       - ちゃど
       - ちゃどのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-td ]
     en: "flag: Chad"
     since: "2.0"
@@ -2878,6 +3111,7 @@ emoji:
       - ふつりょうきょくなんしょとうのはた
       - ふつりょうきょくなんしょとう
       - ふらんすりょうきょくなんしょとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-tf ]
     en: "flag: French Southern and Antarctic Lands"
     since: "2.0"
@@ -2890,6 +3124,7 @@ emoji:
       - とーごのこっき
       - とーご
       - とーごのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-tg ]
     en: "flag: Togo"
     since: "2.0"
@@ -2903,6 +3138,7 @@ emoji:
       - たい
       - たいおうこく
       - たいのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-th ]
     en: "flag: Thailand"
     since: "2.0"
@@ -2915,6 +3151,7 @@ emoji:
       - たじきすたんのこっき
       - たじきすたん
       - たじきすたんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-tj ]
     en: "flag: Tajikistan"
     since: "2.0"
@@ -2926,6 +3163,7 @@ emoji:
     readings:
       - とけらうのはた
       - とけらう
+    ime_readings: [ はた ]
     shortcodes: [ flag-tk ]
     en: "flag: Tokelau"
     since: "2.0"
@@ -2939,6 +3177,7 @@ emoji:
       - ひがしてぃもーる
       - てぃもーるれすて
       - ひがしてぃもーるのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-tl ]
     en: "flag: Timor-Leste"
     since: "2.0"
@@ -2951,6 +3190,7 @@ emoji:
       - とるくめにすたんのこっき
       - とるくめにすたん
       - とるくめにすたんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-tm ]
     en: "flag: Turkmenistan"
     since: "2.0"
@@ -2963,6 +3203,7 @@ emoji:
       - ちゅにじあのこっき
       - ちゅにじあ
       - ちゅにじあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-tn ]
     en: "flag: Tunisia"
     since: "2.0"
@@ -2975,6 +3216,7 @@ emoji:
       - とんがのこっき
       - とんが
       - とんがのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-to ]
     en: "flag: Tonga"
     since: "2.0"
@@ -2988,6 +3230,7 @@ emoji:
       - とるこ
       - てゅるきえ
       - とるこのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-tr ]
     en: "flag: Türkiye"
     since: "2.0"
@@ -3001,6 +3244,7 @@ emoji:
       - とりにだーどとばご
       - とりにだーど
       - とりにだーどとばごのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-tt ]
     en: "flag: Trinidad & Tobago"
     since: "2.0"
@@ -3013,6 +3257,7 @@ emoji:
       - つばるのこっき
       - つばる
       - つばるのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-tv ]
     en: "flag: Tuvalu"
     since: "2.0"
@@ -3026,6 +3271,7 @@ emoji:
       - たいわん
       - ちゅうかみんこく
       - たいわんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-tw ]
     en: "flag: Taiwan"
     since: "2.0"
@@ -3038,6 +3284,7 @@ emoji:
       - たんざにあのこっき
       - たんざにあ
       - たんざにあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-tz ]
     en: "flag: Tanzania"
     since: "2.0"
@@ -3050,6 +3297,7 @@ emoji:
       - うくらいなのこっき
       - うくらいな
       - うくらいなのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ua ]
     en: "flag: Ukraine"
     since: "2.0"
@@ -3062,6 +3310,7 @@ emoji:
       - うがんだのこっき
       - うがんだ
       - うがんだのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ug ]
     en: "flag: Uganda"
     since: "2.0"
@@ -3074,6 +3323,7 @@ emoji:
       - がっしゅうこくりょうゆうしょうりとうのはた
       - がっしゅうこくりょうゆうしょうりとう
       - べいりょうしょうりとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-um ]
     en: "flag: U.S. Outlying Islands"
     since: "2.0"
@@ -3088,6 +3338,7 @@ emoji:
       - こくれん
       - こくれんき
       - un
+    ime_readings: [ はた ]
     shortcodes: [ flag-un ]
     en: "flag: United Nations"
     since: "4.0"
@@ -3107,6 +3358,7 @@ emoji:
       - usa
       - us
       - あめりかがっしゅうこくのはた
+    ime_readings: [ こっき, はた ]
     shortcodes: [ us, flag-us ]
     en: "flag: United States"
     since: "0.6"
@@ -3119,6 +3371,7 @@ emoji:
       - うるぐあいのこっき
       - うるぐあい
       - うるぐあいのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-uy ]
     en: "flag: Uruguay"
     since: "2.0"
@@ -3131,6 +3384,7 @@ emoji:
       - うずべきすたんのこっき
       - うずべきすたん
       - うずべきすたんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-uz ]
     en: "flag: Uzbekistan"
     since: "2.0"
@@ -3144,6 +3398,7 @@ emoji:
       - ばちかんしこく
       - ばちかん
       - ばちかんしこくのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-va ]
     en: "flag: Vatican City"
     since: "2.0"
@@ -3158,6 +3413,7 @@ emoji:
       - せんとびんせんと
       - ぐれなでぃーんしょとう
       - せんとびんせんとおよびぐれなでぃーんしょとうのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-vc ]
     en: "flag: St. Vincent & Grenadines"
     since: "2.0"
@@ -3170,6 +3426,7 @@ emoji:
       - べねずえらのこっき
       - べねずえら
       - べねずえらのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ve ]
     en: "flag: Venezuela"
     since: "2.0"
@@ -3183,6 +3440,7 @@ emoji:
       - えいりょうばーじんしょとう
       - えいりょうゔぁーじんしょとう
       - ばーじんしょとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-vg ]
     en: "flag: British Virgin Islands"
     since: "2.0"
@@ -3196,6 +3454,7 @@ emoji:
       - べいりょうばーじんしょとう
       - べいりょうゔぁーじんしょとう
       - あめりかりょうばーじんしょとう
+    ime_readings: [ はた ]
     shortcodes: [ flag-vi ]
     en: "flag: U.S. Virgin Islands"
     since: "2.0"
@@ -3208,6 +3467,7 @@ emoji:
       - べとなむのこっき
       - べとなむ
       - べとなむのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-vn ]
     en: "flag: Vietnam"
     since: "2.0"
@@ -3220,6 +3480,7 @@ emoji:
       - ばぬあつのこっき
       - ばぬあつ
       - ばぬあつのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-vu ]
     en: "flag: Vanuatu"
     since: "2.0"
@@ -3231,6 +3492,7 @@ emoji:
     readings:
       - うぉりすふつなのはた
       - うぉりすふつな
+    ime_readings: [ はた ]
     shortcodes: [ flag-wf ]
     en: "flag: Wallis & Futuna"
     since: "2.0"
@@ -3243,6 +3505,7 @@ emoji:
       - さもあのこっき
       - さもあ
       - さもあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ws ]
     en: "flag: Samoa"
     since: "2.0"
@@ -3255,6 +3518,7 @@ emoji:
       - こそぼのこっき
       - こそぼ
       - こそぼのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-xk ]
     en: "flag: Kosovo"
     since: "2.0"
@@ -3267,6 +3531,7 @@ emoji:
       - いえめんのこっき
       - いえめん
       - いえめんのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-ye ]
     en: "flag: Yemen"
     since: "2.0"
@@ -3278,6 +3543,7 @@ emoji:
     readings:
       - まよっとのはた
       - まよっと
+    ime_readings: [ はた ]
     shortcodes: [ flag-yt ]
     en: "flag: Mayotte"
     since: "2.0"
@@ -3292,6 +3558,7 @@ emoji:
       - みなみあふりかきょうわこく
       - なんあ
       - みなみあふりかのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-za ]
     en: "flag: South Africa"
     since: "2.0"
@@ -3304,6 +3571,7 @@ emoji:
       - ざんびあのこっき
       - ざんびあ
       - ざんびあのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-zm ]
     en: "flag: Zambia"
     since: "2.0"
@@ -3316,6 +3584,7 @@ emoji:
       - じんばぶえのこっき
       - じんばぶえ
       - じんばぶえのはた
+    ime_readings: [ はた ]
     shortcodes: [ flag-zw ]
     en: "flag: Zimbabwe"
     since: "2.0"
@@ -3328,6 +3597,7 @@ emoji:
       - いんぐらんどのはた
       - いんぐらんど
       - せんとじょーじくろす
+    ime_readings: [ はた ]
     shortcodes: [ flag-england ]
     en: "flag: England"
     since: "5.0"
@@ -3340,6 +3610,7 @@ emoji:
       - すこっとらんどのはた
       - すこっとらんど
       - せんとあんどりゅーくろす
+    ime_readings: [ はた ]
     shortcodes: [ flag-scotland ]
     en: "flag: Scotland"
     since: "5.0"
@@ -3352,6 +3623,7 @@ emoji:
       - うぇーるずのはた
       - うぇーるず
       - れっどどらごん
+    ime_readings: [ はた ]
     shortcodes: [ flag-wales ]
     en: "flag: Wales"
     since: "5.0"

@@ -1,10 +1,12 @@
 # SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
-#   name:       annotation shown in SKK (Japanese name; no "/" or ";")
-#   readings:   SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
-#   shortcodes: emoji shortcodes (":thumbsup:" without colons), registered as headwords.
-#               Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
-#   review:     true if added automatically by the update task; remove after checking the readings
-# Other fields are refreshed from Unicode/CLDR by the update task.
+#   name:         annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings:     SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   ime_readings: readings from Mozc (Google Japanese Input), refreshed by the update task.
+#                 Ranked after "readings"; copy a reading to "readings" to rank it higher
+#   shortcodes:   emoji shortcodes (":thumbsup:" without colons), registered as headwords.
+#                 Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
+#   review:       true if added automatically by the update task; remove after checking the readings
+# Other fields are refreshed from Unicode/CLDR/Mozc by the update task.
 
 group: Component
 emoji:
@@ -81,6 +83,7 @@ emoji:
       - あかがみ
       - れっどへあ
       - ちゃぱつ
+    ime_readings: [ あかげのひと, あかちゃ ]
     en: red hair
     since: "11.0"
     subgroup: hair-style
@@ -96,6 +99,7 @@ emoji:
       - かーる
       - あふろ
       - ちぢれげ
+    ime_readings: [ ぱんちぱーま ]
     en: curly hair
     since: "11.0"
     subgroup: hair-style
@@ -110,6 +114,7 @@ emoji:
       - ろうじん
       - こうれいしゃ
       - ぎんぱつ
+    ime_readings: [ ぐれー, ねんぱい ]
     en: white hair
     since: "11.0"
     subgroup: hair-style
@@ -124,6 +129,7 @@ emoji:
       - ぼうず
       - つるつる
       - ぼうずあたま
+    ime_readings: [ かがくりょうほう, けがない ]
     en: bald
     since: "11.0"
     subgroup: hair-style

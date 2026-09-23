@@ -12,6 +12,8 @@ export interface EmojiEntry {
   name: string;
   /** SKK readings, most important first. */
   readings: string[];
+  /** Readings from Mozc (Google Japanese Input), excluding ones already in `readings`. Ranked after `readings`. */
+  ime_readings?: string[];
   /** Emoji shortcodes without colons (from iamcal/emoji-data), e.g. "thumbsup". Ranked first for their headword. */
   shortcodes?: string[];
   /** Unicode English name. */
@@ -42,6 +44,7 @@ const KEY_ORDER: (keyof EmojiEntry)[] = [
   "code",
   "name",
   "readings",
+  "ime_readings",
   "shortcodes",
   "en",
   "since",
@@ -52,12 +55,14 @@ const KEY_ORDER: (keyof EmojiEntry)[] = [
 ];
 
 const FILE_HEADER = ` SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
-   name:       annotation shown in SKK (Japanese name; no "/" or ";")
-   readings:   SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
-   shortcodes: emoji shortcodes (":thumbsup:" without colons), registered as headwords.
-               Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
-   review:     true if added automatically by the update task; remove after checking the readings
- Other fields are refreshed from Unicode/CLDR by the update task.`;
+   name:         annotation shown in SKK (Japanese name; no "/" or ";")
+   readings:     SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+   ime_readings: readings from Mozc (Google Japanese Input), refreshed by the update task.
+                 Ranked after "readings"; copy a reading to "readings" to rank it higher
+   shortcodes:   emoji shortcodes (":thumbsup:" without colons), registered as headwords.
+                 Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
+   review:       true if added automatically by the update task; remove after checking the readings
+ Other fields are refreshed from Unicode/CLDR/Mozc by the update task.`;
 
 export function groupSlug(group: string): string {
   return group.toLowerCase().replace(/&/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -106,7 +111,10 @@ function toYaml(group: GroupData): string {
   visit(doc, {
     Pair(_, pair) {
       const key = (pair.key as { value?: unknown })?.value;
-      if ((key === "keywords" || key === "variants" || key === "shortcodes") && isSeq(pair.value)) {
+      if (
+        (key === "keywords" || key === "variants" || key === "shortcodes" || key === "ime_readings") &&
+        isSeq(pair.value)
+      ) {
         pair.value.flow = true;
       }
     },

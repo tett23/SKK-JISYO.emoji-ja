@@ -1,10 +1,12 @@
 # SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
-#   name:       annotation shown in SKK (Japanese name; no "/" or ";")
-#   readings:   SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
-#   shortcodes: emoji shortcodes (":thumbsup:" without colons), registered as headwords.
-#               Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
-#   review:     true if added automatically by the update task; remove after checking the readings
-# Other fields are refreshed from Unicode/CLDR by the update task.
+#   name:         annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings:     SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   ime_readings: readings from Mozc (Google Japanese Input), refreshed by the update task.
+#                 Ranked after "readings"; copy a reading to "readings" to rank it higher
+#   shortcodes:   emoji shortcodes (":thumbsup:" without colons), registered as headwords.
+#                 Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
+#   review:       true if added automatically by the update task; remove after checking the readings
+# Other fields are refreshed from Unicode/CLDR/Mozc by the update task.
 
 group: Animals & Nature
 emoji:
@@ -18,6 +20,7 @@ emoji:
       - もんきー
       - みざる
       - さるかお
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ monkey_face ]
     en: monkey face
     since: "0.6"
@@ -32,6 +35,7 @@ emoji:
       - もんきー
       - にほんざる
       - さるまね
+    ime_readings: [ どうぶつ ]
     shortcodes: [ monkey ]
     en: monkey
     since: "0.6"
@@ -46,6 +50,7 @@ emoji:
       - うほ
       - うほうほ
       - ごりおし
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ gorilla ]
     en: gorilla
     since: "3.0"
@@ -59,6 +64,7 @@ emoji:
       - さる
       - もりのひと
       - るいじんえん
+    ime_readings: [ どうぶつ ]
     shortcodes: [ orangutan ]
     en: orangutan
     since: "12.0"
@@ -76,6 +82,7 @@ emoji:
       - どっぐ
       - わんわん
       - ぺっと
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ dog ]
     en: dog face
     since: "0.6"
@@ -91,6 +98,7 @@ emoji:
       - どっぐ
       - しばいぬ
       - ぺっと
+    ime_readings: [ どうぶつ ]
     shortcodes: [ dog2 ]
     en: dog
     since: "0.7"
@@ -105,6 +113,7 @@ emoji:
       - がいどどっぐ
       - いぬ
       - あくせしびりてぃ
+    ime_readings: [ しかく, しょうがい, ほじょ ]
     shortcodes: [ guide_dog ]
     en: guide dog
     since: "12.0"
@@ -119,6 +128,7 @@ emoji:
       - さーびすどっぐ
       - いぬ
       - あくせしびりてぃ
+    ime_readings: [ さーびす, ほじょ ]
     shortcodes: [ service_dog ]
     en: service dog
     since: "12.0"
@@ -133,6 +143,7 @@ emoji:
       - といぷー
       - いぬ
       - ぺっと
+    ime_readings: [ どうぶつ ]
     shortcodes: [ poodle ]
     en: poodle
     since: "0.6"
@@ -148,6 +159,7 @@ emoji:
       - じんろう
       - おおかみおとこ
       - とおぼえ
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ wolf ]
     en: wolf
     since: "0.6"
@@ -163,6 +175,7 @@ emoji:
       - こんこん
       - おいなりさん
       - きつねがお
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ fox_face ]
     en: fox
     since: "3.0"
@@ -176,6 +189,7 @@ emoji:
       - らくーん
       - たぬき
       - どうぶつ
+    ime_readings: [ こうきしん, ずるがしこい, せんさくずき ]
     shortcodes: [ raccoon ]
     en: raccoon
     since: "11.0"
@@ -192,6 +206,7 @@ emoji:
       - こねこ
       - きゃっと
       - ぺっと
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ cat ]
     en: cat face
     since: "0.6"
@@ -206,6 +221,7 @@ emoji:
       - にゃー
       - きゃっと
       - ぺっと
+    ime_readings: [ どうぶつ ]
     shortcodes: [ cat2 ]
     en: cat
     since: "0.7"
@@ -220,6 +236,7 @@ emoji:
       - ぶらっくきゃっと
       - ふきつ
       - にゃんこ
+    ime_readings: [ くろ, どうぶつ ]
     shortcodes: [ black_cat ]
     en: black cat
     since: "13.0"
@@ -234,6 +251,7 @@ emoji:
       - しし
       - ししざ
       - ひゃくじゅうのおう
+    ime_readings: [ かお, せいざ, どうぶつ ]
     shortcodes: [ lion_face ]
     en: lion
     since: "1.0"
@@ -247,6 +265,7 @@ emoji:
       - とら
       - たいがー
       - こどら
+    ime_readings: [ えと, かお, しし, じゅうにし, どうぶつ ]
     shortcodes: [ tiger ]
     en: tiger face
     since: "0.6"
@@ -259,6 +278,7 @@ emoji:
       - とら
       - たいがー
       - もうじゅう
+    ime_readings: [ どうぶつ, にくしょくどうぶつ ]
     shortcodes: [ tiger2 ]
     en: tiger
     since: "1.0"
@@ -272,6 +292,7 @@ emoji:
       - れおぱーど
       - ちーたー
       - じゃがー
+    ime_readings: [ どうぶつ, にくしょくどうぶつ ]
     shortcodes: [ leopard ]
     en: leopard
     since: "1.0"
@@ -285,6 +306,7 @@ emoji:
       - うま
       - ほーす
       - ひひーん
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ horse ]
     en: horse face
     since: "0.6"
@@ -299,6 +321,7 @@ emoji:
       - えるく
       - しか
       - おおじか
+    ime_readings: [ えだつの, どうぶつ, ほにゅうるい ]
     shortcodes: [ moose ]
     en: moose
     since: "15.0"
@@ -311,6 +334,7 @@ emoji:
       - ろば
       - どんきー
       - らば
+    ime_readings: [ うま, けってい, どうぶつ, ほにゅうるい ]
     shortcodes: [ donkey ]
     en: donkey
     since: "15.0"
@@ -326,6 +350,7 @@ emoji:
       - ほーす
       - きょうそうば
       - だーびー
+    ime_readings: [ かちく, どうぶつ ]
     shortcodes: [ racehorse ]
     en: horse
     since: "0.6"
@@ -339,6 +364,7 @@ emoji:
       - ゆにこーん
       - いっかくじゅう
       - ゆめかわ
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ unicorn_face ]
     en: unicorn
     since: "1.0"
@@ -351,6 +377,7 @@ emoji:
       - しまうま
       - ぜぶら
       - しましま
+    ime_readings: [ しま, どうぶつ ]
     shortcodes: [ zebra_face ]
     en: zebra
     since: "5.0"
@@ -364,6 +391,7 @@ emoji:
       - でぃあ
       - となかい
       - ばんび
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ deer ]
     en: deer
     since: "3.0"
@@ -376,6 +404,7 @@ emoji:
       - ばいそん
       - ばっふぁろー
       - やぎゅう
+    ime_readings: [ うし, どうぶつ, むれ ]
     shortcodes: [ bison ]
     en: bison
     since: "13.0"
@@ -389,6 +418,7 @@ emoji:
       - うし
       - もー
       - かう
+    ime_readings: [ えと, かお, じゅうにし, どうぶつ ]
     shortcodes: [ cow ]
     en: cow face
     since: "0.6"
@@ -402,6 +432,7 @@ emoji:
       - うし
       - おうしざ
       - おっくす
+    ime_readings: [ せいざ, どうぶつ ]
     shortcodes: [ ox ]
     en: ox
     since: "1.0"
@@ -414,6 +445,7 @@ emoji:
       - すいぎゅう
       - うし
       - ばっふぁろー
+    ime_readings: [ どうぶつ ]
     shortcodes: [ water_buffalo ]
     en: water buffalo
     since: "1.0"
@@ -428,6 +460,7 @@ emoji:
       - にゅうぎゅう
       - かう
       - もー
+    ime_readings: [ かちく, どうぶつ ]
     shortcodes: [ cow2 ]
     en: cow
     since: "1.0"
@@ -441,6 +474,7 @@ emoji:
       - ぶた
       - ぶーぶー
       - ぴっぐ
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ pig ]
     en: pig face
     since: "0.6"
@@ -454,6 +488,7 @@ emoji:
       - ぴっぐ
       - ぽーく
       - ぶーぶー
+    ime_readings: [ かちく, どうぶつ ]
     shortcodes: [ pig2 ]
     en: pig
     since: "1.0"
@@ -467,6 +502,7 @@ emoji:
       - しし
       - ぼあ
       - うりぼう
+    ime_readings: [ かお, どうぶつ, のぶた ]
     shortcodes: [ boar ]
     en: boar
     since: "0.6"
@@ -480,6 +516,7 @@ emoji:
       - ぶた
       - はな
       - ぶひ
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ pig_nose ]
     en: pig nose
     since: "0.6"
@@ -493,6 +530,7 @@ emoji:
       - ひつじ
       - おひつじざ
       - らむ
+    ime_readings: [ せいざ, どうぶつ ]
     shortcodes: [ ram ]
     en: ram
     since: "1.0"
@@ -507,6 +545,7 @@ emoji:
       - うーる
       - ようもう
       - しーぷ
+    ime_readings: [ かちく, どうぶつ ]
     shortcodes: [ sheep ]
     en: ewe
     since: "0.6"
@@ -520,6 +559,7 @@ emoji:
       - やぎざ
       - ごーと
       - めえ
+    ime_readings: [ かちく, せいざ, どうぶつ ]
     shortcodes: [ goat ]
     en: goat
     since: "1.0"
@@ -533,6 +573,7 @@ emoji:
       - ひとこぶらくだ
       - きゃめる
       - さばく
+    ime_readings: [ こぶ, どうぶつ ]
     shortcodes: [ dromedary_camel ]
     en: camel
     since: "1.0"
@@ -546,6 +587,7 @@ emoji:
       - らくだ
       - こぶ
       - さばく
+    ime_readings: [ どうぶつ, ふたこぶ ]
     shortcodes: [ camel ]
     en: two-hump camel
     since: "0.6"
@@ -558,6 +600,7 @@ emoji:
       - らま
       - あるぱか
       - りゃま
+    ime_readings: [ うーる, ぐあなこ, どうぶつ, びくーな, ようもう ]
     shortcodes: [ llama ]
     en: llama
     since: "11.0"
@@ -569,6 +612,7 @@ emoji:
     readings:
       - きりん
       - じらふ
+    ime_readings: [ どうぶつ ]
     shortcodes: [ giraffe_face ]
     en: giraffe
     since: "5.0"
@@ -581,6 +625,7 @@ emoji:
       - ぞう
       - えれふぁんと
       - ぱおーん
+    ime_readings: [ どうぶつ ]
     shortcodes: [ elephant ]
     en: elephant
     since: "0.6"
@@ -593,6 +638,7 @@ emoji:
       - まんもす
       - ぜつめつ
       - きば
+    ime_readings: [ きょだい, どうぶつ ]
     shortcodes: [ mammoth ]
     en: mammoth
     since: "13.0"
@@ -604,6 +650,7 @@ emoji:
     readings:
       - さい
       - らいの
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ rhinoceros ]
     en: rhinoceros
     since: "3.0"
@@ -615,6 +662,7 @@ emoji:
     readings:
       - かば
       - ひぽ
+    ime_readings: [ どうぶつ ]
     shortcodes: [ hippopotamus ]
     en: hippopotamus
     since: "11.0"
@@ -628,6 +676,7 @@ emoji:
       - ねずみ
       - ちゅー
       - まうす
+    ime_readings: [ えと, かお, じゅうにし, どうぶつ, ね ]
     shortcodes: [ mouse ]
     en: mouse face
     since: "0.6"
@@ -641,6 +690,7 @@ emoji:
       - ねずみ
       - まうす
       - ちゅー
+    ime_readings: [ どうぶつ ]
     shortcodes: [ mouse2 ]
     en: mouse
     since: "1.0"
@@ -654,6 +704,7 @@ emoji:
       - らっと
       - どぶねずみ
       - ちゅー
+    ime_readings: [ どうぶつ ]
     shortcodes: [ rat ]
     en: rat
     since: "1.0"
@@ -667,6 +718,7 @@ emoji:
       - はむすたー
       - はむ
       - はむちゃん
+    ime_readings: [ かお, どうぶつ, ねずみ, ぺっと ]
     shortcodes: [ hamster ]
     en: hamster
     since: "0.6"
@@ -681,6 +733,7 @@ emoji:
       - うさちゃん
       - らびっと
       - ばにー
+    ime_readings: [ う, えと, かお, じゅうにし, どうぶつ, ぺっと ]
     shortcodes: [ rabbit ]
     en: rabbit face
     since: "0.6"
@@ -694,6 +747,7 @@ emoji:
       - らびっと
       - ばにー
       - うさちゃん
+    ime_readings: [ どうぶつ, ぺっと ]
     shortcodes: [ rabbit2 ]
     en: rabbit
     since: "1.0"
@@ -706,6 +760,7 @@ emoji:
       - りす
       - しまりす
       - ちっぷまんく
+    ime_readings: [ どうぶつ ]
     shortcodes: [ chipmunk ]
     en: chipmunk
     since: "0.7"
@@ -717,6 +772,7 @@ emoji:
     readings:
       - びーばー
       - だむ
+    ime_readings: [ だむづくり, どうぶつ ]
     shortcodes: [ beaver ]
     en: beaver
     since: "13.0"
@@ -730,6 +786,7 @@ emoji:
       - やまあらし
       - へっじほっぐ
       - とげ
+    ime_readings: [ どうぶつ ]
     shortcodes: [ hedgehog ]
     en: hedgehog
     since: "5.0"
@@ -743,6 +800,7 @@ emoji:
       - ばっと
       - きゅうけつき
       - ばんぱいあ
+    ime_readings: [ どうぶつ ]
     shortcodes: [ bat ]
     en: bat
     since: "3.0"
@@ -756,6 +814,7 @@ emoji:
       - くま
       - べあ
       - くまさん
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ bear ]
     en: bear
     since: "0.6"
@@ -769,6 +828,7 @@ emoji:
       - ほっきょくぐま
       - くま
       - ぽーらーべあ
+    ime_readings: [ しろ, どうぶつ, ほっきょく ]
     shortcodes: [ polar_bear ]
     en: polar bear
     since: "13.0"
@@ -780,6 +840,7 @@ emoji:
     readings:
       - こあら
       - おーすとらりあ
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ koala ]
     en: koala
     since: "0.6"
@@ -792,6 +853,7 @@ emoji:
       - ぱんだのかお
       - ぱんだ
       - じゃいあんとぱんだ
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ panda_face ]
     en: panda
     since: "0.6"
@@ -805,6 +867,7 @@ emoji:
       - のんびり
       - ものぐさ
       - すろーす
+    ime_readings: [ どうぶつ ]
     shortcodes: [ sloth ]
     en: sloth
     since: "12.0"
@@ -817,6 +880,7 @@ emoji:
       - かわうそ
       - らっこ
       - おったー
+    ime_readings: [ あそびすき, さかなをたべる, どうぶつ ]
     shortcodes: [ otter ]
     en: otter
     since: "12.0"
@@ -829,6 +893,7 @@ emoji:
       - すかんく
       - くさい
       - あくしゅう
+    ime_readings: [ どうぶつ ]
     shortcodes: [ skunk ]
     en: skunk
     since: "12.0"
@@ -842,6 +907,7 @@ emoji:
       - おーすとらりあ
       - ゆうたいるい
       - じゃんぷ
+    ime_readings: [ じょーい, どうぶつ ]
     shortcodes: [ kangaroo ]
     en: kangaroo
     since: "11.0"
@@ -855,6 +921,7 @@ emoji:
       - みつあなぐま
       - らーてる
       - ばじゃー
+    ime_readings: [ どうぶつ ]
     shortcodes: [ badger ]
     en: badger
     since: "11.0"
@@ -869,6 +936,7 @@ emoji:
       - ぷにぷに
       - いぬ
       - ねこ
+    ime_readings: [ どうぶつ ]
     shortcodes: [ feet, paw_prints ]
     en: paw prints
     since: "0.6"
@@ -881,6 +949,7 @@ emoji:
       - しちめんちょう
       - たーきー
       - かんしゃさい
+    ime_readings: [ とり, どうぶつ ]
     shortcodes: [ turkey ]
     en: turkey
     since: "1.0"
@@ -894,6 +963,7 @@ emoji:
       - ちきん
       - とり
       - こけこっこー
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ chicken ]
     en: chicken
     since: "0.6"
@@ -907,6 +977,7 @@ emoji:
       - にわとり
       - こけこっこー
       - とり
+    ime_readings: [ どうぶつ ]
     shortcodes: [ rooster ]
     en: rooster
     since: "1.0"
@@ -922,6 +993,7 @@ emoji:
       - うまれた
       - たんじょう
       - ひな
+    ime_readings: [ かお, たまご, とり, どうぶつ, ひなどり ]
     shortcodes: [ hatching_chick ]
     en: hatching chick
     since: "0.6"
@@ -935,6 +1007,7 @@ emoji:
       - ひな
       - ぴよぴよ
       - とり
+    ime_readings: [ かお, どうぶつ, よこをむいているひよこ ]
     shortcodes: [ baby_chick ]
     en: baby chick
     since: "0.6"
@@ -948,6 +1021,7 @@ emoji:
       - ひよこ
       - ひな
       - ぴよぴよ
+    ime_readings: [ とり, どうぶつ ]
     shortcodes: [ hatched_chick ]
     en: front-facing baby chick
     since: "0.6"
@@ -961,6 +1035,7 @@ emoji:
       - ことり
       - ばーど
       - ついったー
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ bird ]
     en: bird
     since: "0.6"
@@ -972,6 +1047,7 @@ emoji:
     readings:
       - ぺんぎん
       - とり
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ penguin ]
     en: penguin
     since: "0.6"
@@ -985,6 +1061,7 @@ emoji:
       - へいわ
       - しろいはと
       - ぴーす
+    ime_readings: [ とり, どうぶつ ]
     shortcodes: [ dove_of_peace ]
     en: dove
     since: "0.7"
@@ -998,6 +1075,7 @@ emoji:
       - いーぐる
       - たか
       - もうきん
+    ime_readings: [ とり, どうぶつ ]
     shortcodes: [ eagle ]
     en: eagle
     since: "3.0"
@@ -1011,6 +1089,7 @@ emoji:
       - あひる
       - だっく
       - があがあ
+    ime_readings: [ とり, どうぶつ ]
     shortcodes: [ duck ]
     en: duck
     since: "3.0"
@@ -1023,6 +1102,7 @@ emoji:
       - はくちょう
       - すわん
       - みにくいあひるのこ
+    ime_readings: [ とり, どうぶつ, ひな ]
     shortcodes: [ swan ]
     en: swan
     since: "11.0"
@@ -1036,6 +1116,7 @@ emoji:
       - みみずく
       - おうる
       - ほーほー
+    ime_readings: [ とり, どうぶつ ]
     shortcodes: [ owl ]
     en: owl
     since: "3.0"
@@ -1048,6 +1129,7 @@ emoji:
       - どーどー
       - ぜつめつ
       - とべないとり
+    ime_readings: [ とり, もーりしゃすとう ]
     shortcodes: [ dodo ]
     en: dodo
     since: "13.0"
@@ -1061,6 +1143,7 @@ emoji:
       - うもう
       - かるい
       - ふぇざー
+    ime_readings: [ とぶ, とり ]
     shortcodes: [ feather ]
     en: feather
     since: "13.0"
@@ -1073,6 +1156,7 @@ emoji:
       - ふらみんご
       - とり
       - ぴんく
+    ime_readings: [ どうぶつ, ねったい, はで, ぴんくいろ ]
     shortcodes: [ flamingo ]
     en: flamingo
     since: "12.0"
@@ -1085,6 +1169,7 @@ emoji:
       - くじゃく
       - ぴーこっく
       - とり
+    ime_readings: [ はで ]
     shortcodes: [ peacock ]
     en: peacock
     since: "11.0"
@@ -1098,6 +1183,7 @@ emoji:
       - いんこ
       - ぱろっと
       - かいぞく
+    ime_readings: [ しゃべる, とり, どうぶつ ]
     shortcodes: [ parrot ]
     en: parrot
     since: "11.0"
@@ -1112,6 +1198,7 @@ emoji:
       - うぃんぐ
       - てんし
       - とぶ
+    ime_readings: [ あき, しんわ, てんごく, とびたつ, とり, ひこう ]
     shortcodes: [ wing ]
     en: wing
     since: "15.0"
@@ -1125,6 +1212,7 @@ emoji:
       - からす
       - かーかー
       - くろどり
+    ime_readings: [ くちばし, くろ, こくちょう, ちょうるい, とり, みやまがらす, わたりがらす ]
     shortcodes: [ black_bird ]
     en: black bird
     since: "15.0"
@@ -1138,6 +1226,7 @@ emoji:
       - あひる
       - があがあ
       - ぐーす
+    ime_readings: [ がーがー, ちょうるい, とり, まぬけ ]
     shortcodes: [ goose ]
     en: goose
     since: "15.0"
@@ -1153,6 +1242,7 @@ emoji:
       - ふっかつ
       - さいせい
       - てんせい
+    ime_readings: [ うまれかわり, しんわ, ふぁんたじー, りんね ]
     shortcodes: [ phoenix ]
     en: phoenix
     since: "15.1"
@@ -1167,6 +1257,7 @@ emoji:
       - けろけろ
       - げこげこ
       - ふろっぐ
+    ime_readings: [ かお, どうぶつ ]
     shortcodes: [ frog ]
     en: frog
     since: "0.6"
@@ -1180,6 +1271,7 @@ emoji:
       - くろこだいる
       - あにげーたー
       - はちゅうるい
+    ime_readings: [ どうぶつ ]
     shortcodes: [ crocodile ]
     en: crocodile
     since: "1.0"
@@ -1193,6 +1285,7 @@ emoji:
       - たーとる
       - のろのろ
       - はちゅうるい
+    ime_readings: [ どうぶつ ]
     shortcodes: [ turtle ]
     en: turtle
     since: "0.6"
@@ -1206,6 +1299,7 @@ emoji:
       - やもり
       - りざーど
       - はちゅうるい
+    ime_readings: [ どうぶつ ]
     shortcodes: [ lizard ]
     en: lizard
     since: "3.0"
@@ -1219,6 +1313,7 @@ emoji:
       - じゃ
       - すねーく
       - へびつかいざ
+    ime_readings: [ せいざ, どうぶつ, どく, はちゅうるい ]
     shortcodes: [ snake ]
     en: snake
     since: "0.6"
@@ -1232,6 +1327,7 @@ emoji:
       - どらごん
       - りゅう
       - たつ
+    ime_readings: [ えと, かお, じゅうにし, どうぶつ ]
     shortcodes: [ dragon_face ]
     en: dragon face
     since: "0.6"
@@ -1244,6 +1340,7 @@ emoji:
       - どらごん
       - りゅう
       - たつ
+    ime_readings: [ どうぶつ ]
     shortcodes: [ dragon ]
     en: dragon
     since: "1.0"
@@ -1285,6 +1382,7 @@ emoji:
       - くじら
       - しおふき
       - ほえーる
+    ime_readings: [ しお, どうぶつ ]
     shortcodes: [ whale ]
     en: spouting whale
     since: "0.6"
@@ -1296,6 +1394,7 @@ emoji:
     readings:
       - くじら
       - ほえーる
+    ime_readings: [ どうぶつ ]
     shortcodes: [ whale2 ]
     en: whale
     since: "1.0"
@@ -1307,6 +1406,7 @@ emoji:
     readings:
       - いるか
       - どるふぃん
+    ime_readings: [ どうぶつ ]
     shortcodes: [ dolphin, flipper ]
     en: dolphin
     since: "0.6"
@@ -1320,6 +1420,7 @@ emoji:
       - おるか
       - くじら
       - うみ
+    ime_readings: [ かいよう ]
     shortcodes: [ orca ]
     en: orca
     since: "17.0"
@@ -1334,6 +1435,7 @@ emoji:
       - おっとせい
       - とど
       - しーる
+    ime_readings: [ かいじゅう, どうぶつ ]
     shortcodes: [ seal ]
     en: seal
     since: "13.0"
@@ -1348,6 +1450,7 @@ emoji:
       - うおざ
       - ふぃっしゅ
       - つり
+    ime_readings: [ せいざ, どうぶつ, ふぃっしんぐ ]
     shortcodes: [ fish ]
     en: fish
     since: "0.6"
@@ -1360,6 +1463,7 @@ emoji:
       - ねったいぎょ
       - さかな
       - かくれくまのみ
+    ime_readings: [ どうぶつ ]
     shortcodes: [ tropical_fish ]
     en: tropical fish
     since: "0.6"
@@ -1372,6 +1476,7 @@ emoji:
       - ふぐ
       - さかな
       - はりせんぼん
+    ime_readings: [ どうぶつ ]
     shortcodes: [ blowfish ]
     en: blowfish
     since: "0.6"
@@ -1385,6 +1490,7 @@ emoji:
       - ふか
       - しゃーく
       - じょーず
+    ime_readings: [ さかな, どうぶつ ]
     shortcodes: [ shark ]
     en: shark
     since: "3.0"
@@ -1396,6 +1502,7 @@ emoji:
     readings:
       - たこ
       - おくとぱす
+    ime_readings: [ どうぶつ, なんたいどうぶつ ]
     shortcodes: [ octopus ]
     en: octopus
     since: "0.6"
@@ -1409,6 +1516,7 @@ emoji:
       - かい
       - かいがら
       - ほらがい
+    ime_readings: [ どうぶつ ]
     shortcodes: [ shell ]
     en: spiral shell
     since: "0.6"
@@ -1421,6 +1529,7 @@ emoji:
       - さんご
       - さんごしょう
       - うみ
+    ime_readings: [ きこうへんどう ]
     shortcodes: [ coral ]
     en: coral
     since: "14.0"
@@ -1434,6 +1543,7 @@ emoji:
       - じぇりーふぃっしゅ
       - うみ
       - すいぞくかん
+    ime_readings: [ かいようせいぶつ, さす, しょくしゅ, どく, はり, ぷらんくとん, むせきついどうぶつ ]
     shortcodes: [ jellyfish ]
     en: jellyfish
     since: "15.0"
@@ -1446,6 +1556,7 @@ emoji:
       - かに
       - きゃんさー
       - かにざ
+    ime_readings: [ せいざ, どうぶつ ]
     shortcodes: [ crab ]
     en: crab
     since: "1.0"
@@ -1459,6 +1570,7 @@ emoji:
       - ざりがに
       - いせえび
       - えび
+    ime_readings: [ しーふーど, どうぶつ, はさみ, びすく, れっどろぶすたー ]
     shortcodes: [ lobster ]
     en: lobster
     since: "11.0"
@@ -1472,6 +1584,7 @@ emoji:
       - しゅりんぷ
       - こえび
       - えびふらい
+    ime_readings: [ しーふーど, どうぶつ ]
     shortcodes: [ shrimp ]
     en: shrimp
     since: "3.0"
@@ -1483,6 +1596,7 @@ emoji:
     readings:
       - いか
       - すくいっど
+    ime_readings: [ しーふーど, どうぶつ, なんたいどうぶつ ]
     shortcodes: [ squid ]
     en: squid
     since: "3.0"
@@ -1497,6 +1611,7 @@ emoji:
       - なまがき
       - しんじゅ
       - かい
+    ime_readings: [ ぎょかい, しーふーど, だいびんぐ ]
     shortcodes: [ oyster ]
     en: oyster
     since: "12.0"
@@ -1510,6 +1625,7 @@ emoji:
       - でんでんむし
       - まいまい
       - えすかるご
+    ime_readings: [ むし ]
     shortcodes: [ snail ]
     en: snail
     since: "0.6"
@@ -1523,6 +1639,7 @@ emoji:
       - ちょうちょ
       - ちょうちょう
       - ばたふらい
+    ime_readings: [ こんちゅう, むし ]
     shortcodes: [ butterfly ]
     en: butterfly
     since: "3.0"
@@ -1549,6 +1666,7 @@ emoji:
       - いもむし
       - むし
       - ばぐ
+    ime_readings: [ げじげじ ]
     shortcodes: [ bug ]
     en: bug
     since: "0.6"
@@ -1561,6 +1679,7 @@ emoji:
       - あり
       - むし
       - あんと
+    ime_readings: [ こんちゅう ]
     shortcodes: [ ant ]
     en: ant
     since: "0.6"
@@ -1587,6 +1706,7 @@ emoji:
       - こうちゅう
       - むし
       - びーとる
+    ime_readings: [ こんちゅう, つの ]
     shortcodes: [ beetle ]
     en: beetle
     since: "13.0"
@@ -1612,6 +1732,7 @@ emoji:
       - ばった
       - きりぎりす
       - むし
+    ime_readings: [ こんちゅう, ちょくしもく ]
     shortcodes: [ cricket ]
     en: cricket
     since: "5.0"
@@ -1663,6 +1784,7 @@ emoji:
       - さそり
       - さそりざ
       - すこーぴおん
+    ime_readings: [ せいざ, むし ]
     shortcodes: [ scorpion ]
     en: scorpion
     since: "1.0"
@@ -1676,6 +1798,7 @@ emoji:
       - もすきーと
       - むし
       - まらりあ
+    ime_readings: [ ういるす, さす, ねつ, びょうき ]
     shortcodes: [ mosquito ]
     en: mosquito
     since: "11.0"
@@ -1689,6 +1812,7 @@ emoji:
       - むし
       - がいちゅう
       - ふらい
+    ime_readings: [ びょうげんきん, ふけつ ]
     shortcodes: [ fly ]
     en: fly
     since: "13.0"
@@ -1717,6 +1841,7 @@ emoji:
       - ばくてりあ
       - きん
       - あめーば
+    ime_readings: [ かがく ]
     shortcodes: [ microbe ]
     en: microbe
     since: "11.0"
@@ -1729,6 +1854,7 @@ emoji:
       - はなたば
       - ぶーけ
       - はな
+    ime_readings: [ しょくぶつ ]
     shortcodes: [ bouquet ]
     en: bouquet
     since: "0.6"
@@ -1743,6 +1869,7 @@ emoji:
       - はなみ
       - かいか
       - まんかい
+    ime_readings: [ しょくぶつ ]
     shortcodes: [ cherry_blossom ]
     en: cherry blossom
     since: "0.6"
@@ -1756,6 +1883,7 @@ emoji:
       - はなまる
       - よくできました
       - ごうかく
+    ime_readings: [ はな ]
     shortcodes: [ white_flower ]
     en: white flower
     since: "0.6"
@@ -1770,6 +1898,7 @@ emoji:
       - ろーたす
       - ぶっきょう
       - ごくらく
+    ime_readings: [ せいじょう, はな, ひんどぅーきょう ]
     shortcodes: [ lotus ]
     en: lotus
     since: "14.0"
@@ -1782,6 +1911,7 @@ emoji:
       - はなかざり
       - ろぜっと
       - はな
+    ime_readings: [ しょくぶつ ]
     shortcodes: [ rosette ]
     en: rosette
     since: "0.7"
@@ -1795,6 +1925,7 @@ emoji:
       - ろーず
       - あかいばら
       - はな
+    ime_readings: [ しょくぶつ ]
     shortcodes: [ rose ]
     en: rose
     since: "0.6"
@@ -1808,6 +1939,7 @@ emoji:
       - かれたはな
       - しつれん
       - はな
+    ime_readings: [ しおれた ]
     shortcodes: [ wilted_flower ]
     en: wilted flower
     since: "3.0"
@@ -1821,6 +1953,7 @@ emoji:
       - はな
       - はわい
       - なんごく
+    ime_readings: [ しょくぶつ ]
     shortcodes: [ hibiscus ]
     en: hibiscus
     since: "0.6"
@@ -1847,6 +1980,7 @@ emoji:
       - はな
       - きんぽうげ
       - さいたはな
+    ime_readings: [ しょくぶつ ]
     shortcodes: [ blossom ]
     en: blossom
     since: "0.6"
@@ -1859,6 +1993,7 @@ emoji:
       - ちゅーりっぷ
       - はな
       - はる
+    ime_readings: [ かいか, しょくぶつ ]
     shortcodes: [ tulip ]
     en: tulip
     since: "0.6"
@@ -1873,6 +2008,7 @@ emoji:
       - らいらっく
       - はな
       - むらさき
+    ime_readings: [ あおむらさき, しょくぶつ, すみれしょく, ぶるーぼねっと, むらさきいろ ]
     shortcodes: [ hyacinth ]
     en: hyacinth
     since: "15.0"
@@ -1901,6 +2037,7 @@ emoji:
       - うえきばち
       - しょくぶつ
       - みどり
+    ime_readings: [ なえ, べらんだ, みずやり ]
     shortcodes: [ potted_plant ]
     en: potted plant
     since: "13.0"
@@ -1942,6 +2079,7 @@ emoji:
       - ぱーむつりー
       - なんごく
       - びーち
+    ime_readings: [ き, ねったい ]
     shortcodes: [ palm_tree ]
     en: palm tree
     since: "0.6"
@@ -1954,6 +2092,7 @@ emoji:
       - さぼてん
       - さばく
       - かくたす
+    ime_readings: [ しょくぶつ ]
     shortcodes: [ cactus ]
     en: cactus
     since: "0.6"
@@ -1969,6 +2108,7 @@ emoji:
       - こめ
       - こくもつ
       - つきみ
+    ime_readings: [ くさ ]
     shortcodes: [ ear_of_rice ]
     en: sheaf of rice
     since: "0.6"
@@ -1983,6 +2123,7 @@ emoji:
       - こうそう
       - くさ
       - は
+    ime_readings: [ はっぱ ]
     shortcodes: [ herb ]
     en: herb
     since: "0.6"
@@ -1995,6 +2136,7 @@ emoji:
       - くろーばー
       - しゃむろっく
       - みつば
+    ime_readings: [ くさ, しょくぶつ, は ]
     shortcodes: [ shamrock ]
     en: shamrock
     since: "1.0"
@@ -2009,6 +2151,7 @@ emoji:
       - くろーばー
       - こううん
       - らっきー
+    ime_readings: [ "4", くさ, しょくぶつ, は ]
     shortcodes: [ four_leaf_clover ]
     en: four leaf clover
     since: "0.6"
@@ -2023,6 +2166,7 @@ emoji:
       - こうよう
       - めーぷる
       - あき
+    ime_readings: [ おちば, は ]
     shortcodes: [ maple_leaf ]
     en: maple leaf
     since: "0.6"
@@ -2037,6 +2181,7 @@ emoji:
       - こうよう
       - あき
       - このは
+    ime_readings: [ は, はっぱ ]
     shortcodes: [ fallen_leaf ]
     en: fallen leaf
     since: "0.6"
@@ -2051,6 +2196,7 @@ emoji:
       - はっぱ
       - かぜ
       - そよかぜ
+    ime_readings: [ おちば, は, びゅうびゅう ]
     shortcodes: [ leaves ]
     en: leaf fluttering in wind
     since: "0.6"
@@ -2064,6 +2210,7 @@ emoji:
       - す
       - とりのす
       - からのす
+    ime_readings: [ えいそう, すづくり ]
     shortcodes: [ empty_nest ]
     en: empty nest
     since: "14.0"
@@ -2077,6 +2224,7 @@ emoji:
       - とりのす
       - す
       - たまご
+    ime_readings: [ えいそう, すづくり ]
     shortcodes: [ nest_with_eggs ]
     en: nest with eggs
     since: "14.0"
@@ -2090,6 +2238,7 @@ emoji:
       - まっしゅるーむ
       - どくきのこ
       - べにてんぐたけ
+    ime_readings: [ きんるい, どく, やさい ]
     shortcodes: [ mushroom ]
     en: mushroom
     since: "0.6"
@@ -2103,6 +2252,7 @@ emoji:
       - はのないき
       - ふゆ
       - き
+    ime_readings: [ かんばつ, ふもう ]
     shortcodes: [ leafless_tree ]
     en: leafless tree
     since: "16.0"

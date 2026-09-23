@@ -1,10 +1,12 @@
 # SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
-#   name:       annotation shown in SKK (Japanese name; no "/" or ";")
-#   readings:   SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
-#   shortcodes: emoji shortcodes (":thumbsup:" without colons), registered as headwords.
-#               Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
-#   review:     true if added automatically by the update task; remove after checking the readings
-# Other fields are refreshed from Unicode/CLDR by the update task.
+#   name:         annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings:     SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   ime_readings: readings from Mozc (Google Japanese Input), refreshed by the update task.
+#                 Ranked after "readings"; copy a reading to "readings" to rank it higher
+#   shortcodes:   emoji shortcodes (":thumbsup:" without colons), registered as headwords.
+#                 Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
+#   review:       true if added automatically by the update task; remove after checking the readings
+# Other fields are refreshed from Unicode/CLDR/Mozc by the update task.
 
 group: Activities
 emoji:
@@ -28,6 +30,7 @@ emoji:
       - くりすますつりー
       - くりすます
       - つりー
+    ime_readings: [ くりすますいぶ ]
     shortcodes: [ christmas_tree ]
     en: Christmas tree
     since: "0.6"
@@ -41,6 +44,7 @@ emoji:
       - はなび
       - はなびたいかい
       - どーん
+    ime_readings: [ おまつり ]
     shortcodes: [ fireworks ]
     en: fireworks
     since: "0.6"
@@ -52,6 +56,7 @@ emoji:
     readings:
       - せんこうはなび
       - はなび
+    ime_readings: [ おまつり, ひばな ]
     shortcodes: [ sparkler ]
     en: sparkler
     since: "0.6"
@@ -64,6 +69,7 @@ emoji:
       - ばくちく
       - だいなまいと
       - ばくはつ
+    ime_readings: [ かやく, はなび, ばくはつぶつ, ばくやく, ひばな ]
     shortcodes: [ firecracker ]
     en: firecracker
     since: "11.0"
@@ -76,6 +82,7 @@ emoji:
       - きらきら
       - ぴかぴか
       - かがやき
+    ime_readings: [ すたー, ほし ]
     shortcodes: [ sparkles ]
     en: sparkles
     since: "0.6"
@@ -100,6 +107,7 @@ emoji:
       - ぱーてぃー
       - おいわい
       - おめでとう
+    ime_readings: [ たんじょうび, ぱーてぃーくらっかー ]
     shortcodes: [ tada ]
     en: party popper
     since: "0.6"
@@ -113,6 +121,7 @@ emoji:
       - おいわい
       - かみふぶき
       - おめでとう
+    ime_readings: [ ぱーてぃー ]
     shortcodes: [ confetti_ball ]
     en: confetti ball
     since: "0.6"
@@ -125,6 +134,7 @@ emoji:
       - たなばた
       - ささかざり
       - たんざく
+    ime_readings: [ にほん, わ ]
     shortcodes: [ tanabata_tree ]
     en: tanabata tree
     since: "0.6"
@@ -136,6 +146,7 @@ emoji:
     readings:
       - かどまつ
       - しょうがつ
+    ime_readings: [ おいわい, たけ, にほん, わ ]
     shortcodes: [ bamboo ]
     en: pine decoration
     since: "0.6"
@@ -148,6 +159,7 @@ emoji:
       - ひなまつり
       - ひなにんぎょう
       - おひなさま
+    ime_readings: [ おいわい, おだいりさま, にほん, にんぎょう, わ ]
     shortcodes: [ dolls ]
     en: Japanese dolls
     since: "0.6"
@@ -159,6 +171,7 @@ emoji:
     readings:
       - こいのぼり
       - こどものひ
+    ime_readings: [ おいわい ]
     shortcodes: [ flags ]
     en: carp streamer
     since: "0.6"
@@ -169,6 +182,7 @@ emoji:
     name: 風鈴
     readings:
       - ふうりん
+    ime_readings: [ かぜ, すず, なつ ]
     shortcodes: [ wind_chime ]
     en: wind chime
     since: "0.6"
@@ -181,6 +195,7 @@ emoji:
       - つきみ
       - じゅうごや
       - おつきみ
+    ime_readings: [ じゅうごよ, すすき, だんご, つき ]
     shortcodes: [ rice_scene ]
     en: moon viewing ceremony
     since: "0.6"
@@ -194,6 +209,7 @@ emoji:
       - おとしだま
       - ほんばお
       - ごしゅうぎ
+    ime_readings: [ おかね, こううん, ほんぱお ]
     shortcodes: [ red_envelope ]
     en: red envelope
     since: "11.0"
@@ -204,6 +220,7 @@ emoji:
     name: リボン
     readings:
       - りぼん
+    ime_readings: [ おいわい ]
     shortcodes: [ ribbon ]
     en: ribbon
     since: "0.6"
@@ -216,6 +233,7 @@ emoji:
       - ぷれぜんと
       - ぎふと
       - おくりもの
+    ime_readings: [ おいわい, はこ, りぼん ]
     shortcodes: [ gift ]
     en: wrapped gift
     since: "0.6"
@@ -228,6 +246,7 @@ emoji:
       - りまいんだーりぼん
       - りぼん
       - あうぇあねすりぼん
+    ime_readings: [ おいわい, りまいんだー ]
     shortcodes: [ reminder_ribbon ]
     en: reminder ribbon
     since: "0.7"
@@ -239,6 +258,7 @@ emoji:
     readings:
       - にゅうじょうけん
       - ちけっと
+    ime_readings: [ にゅうじょうぱす, はんけん ]
     shortcodes: [ admission_tickets ]
     en: admission tickets
     since: "0.7"
@@ -251,6 +271,7 @@ emoji:
       - ちけっと
       - きっぷ
       - にゅうじょうけん
+    ime_readings: [ はんけん ]
     shortcodes: [ ticket ]
     en: ticket
     since: "0.6"
@@ -262,6 +283,7 @@ emoji:
     readings:
       - くんしょう
       - めだる
+    ime_readings: [ おいわい, ひょうしょう ]
     shortcodes: [ medal ]
     en: military medal
     since: "0.7"
@@ -275,6 +297,7 @@ emoji:
       - ゆうしょう
       - ちゃんぴおん
       - ゆうしょうかっぷ
+    ime_readings: [ かっぷ, しょうはい, ひょうしょう ]
     shortcodes: [ trophy ]
     en: trophy
     since: "0.6"
@@ -285,6 +308,7 @@ emoji:
     name: メダル
     readings:
       - めだる
+    ime_readings: [ きん, きんめだる, すぽーつ, ひょうしょう, ゆうしょう ]
     shortcodes: [ sports_medal ]
     en: sports medal
     since: "1.0"
@@ -297,6 +321,7 @@ emoji:
       - きんめだる
       - いちい
       - ゆうしょう
+    ime_readings: [ 1い, きん, ごーるど, めだる ]
     shortcodes: [ first_place_medal ]
     en: 1st place medal
     since: "3.0"
@@ -308,6 +333,7 @@ emoji:
     readings:
       - ぎんめだる
       - にい
+    ime_readings: [ 2い, ぎん, しるばー, めだる ]
     shortcodes: [ second_place_medal ]
     en: 2nd place medal
     since: "3.0"
@@ -319,6 +345,7 @@ emoji:
     readings:
       - どうめだる
       - さんい
+    ime_readings: [ 3い, どう, ぶろんず, めだる ]
     shortcodes: [ third_place_medal ]
     en: 3rd place medal
     since: "3.0"
@@ -330,6 +357,7 @@ emoji:
     readings:
       - さっかー
       - さっかーぼーる
+    ime_readings: [ すぽーつ, ぼーる ]
     shortcodes: [ soccer ]
     en: soccer ball
     since: "0.6"
@@ -341,6 +369,7 @@ emoji:
     readings:
       - やきゅう
       - べーすぼーる
+    ime_readings: [ すぽーつ, ぼーる, やきゅうぼーる ]
     shortcodes: [ baseball ]
     en: baseball
     since: "0.6"
@@ -351,6 +380,7 @@ emoji:
     name: ソフトボール
     readings:
       - そふとぼーる
+    ime_readings: [ すぽーつ, へたなげ, ぼーる ]
     shortcodes: [ softball ]
     en: softball
     since: "11.0"
@@ -362,6 +392,7 @@ emoji:
     readings:
       - ばすけっとぼーる
       - ばすけ
+    ime_readings: [ すぽーつ, ぼーる ]
     shortcodes: [ basketball ]
     en: basketball
     since: "0.6"
@@ -373,6 +404,7 @@ emoji:
     readings:
       - ばれーぼーる
       - ばれー
+    ime_readings: [ すぽーつ, ぼーる ]
     shortcodes: [ volleyball ]
     en: volleyball
     since: "1.0"
@@ -384,6 +416,7 @@ emoji:
     readings:
       - あめふと
       - あめりかんふっとぼーる
+    ime_readings: [ すぽーつ, ふっとぼーる, ぼーる, らぐびー, らぐびーぼーる ]
     shortcodes: [ football ]
     en: american football
     since: "0.6"
@@ -395,6 +428,7 @@ emoji:
     readings:
       - らぐびー
       - らぐびーぼーる
+    ime_readings: [ すぽーつ, ぼーる ]
     shortcodes: [ rugby_football ]
     en: rugby football
     since: "1.0"
@@ -406,6 +440,7 @@ emoji:
     readings:
       - てにす
       - てにすぼーる
+    ime_readings: [ すぽーつ, ぼーる, らけっと ]
     shortcodes: [ tennis ]
     en: tennis
     since: "0.6"
@@ -417,6 +452,7 @@ emoji:
     readings:
       - ふりすびー
       - ふらいんぐでぃすく
+    ime_readings: [ あるてぃめっと, えんばん ]
     shortcodes: [ flying_disc ]
     en: flying disc
     since: "11.0"
@@ -428,6 +464,7 @@ emoji:
     readings:
       - ぼうりんぐ
       - すとらいく
+    ime_readings: [ すぽーつ, たま, ぼーる ]
     shortcodes: [ bowling ]
     en: bowling
     since: "0.6"
@@ -438,6 +475,7 @@ emoji:
     name: クリケット
     readings:
       - くりけっと
+    ime_readings: [ すぽーつ, ばっと, ぼーる ]
     shortcodes: [ cricket_bat_and_ball ]
     en: cricket game
     since: "1.0"
@@ -449,6 +487,7 @@ emoji:
     readings:
       - ほっけー
       - ふぃーるどほっけー
+    ime_readings: [ すてぃっく, すぽーつ, ぼーる ]
     shortcodes: [ field_hockey_stick_and_ball ]
     en: field hockey
     since: "1.0"
@@ -460,6 +499,7 @@ emoji:
     readings:
       - あいすほっけー
       - ほっけー
+    ime_readings: [ すてぃっく, すぽーつ, ぱっく ]
     shortcodes: [ ice_hockey_stick_and_puck ]
     en: ice hockey
     since: "1.0"
@@ -470,6 +510,7 @@ emoji:
     name: ラクロス
     readings:
       - らくろす
+    ime_readings: [ ごーる, すてぃっく, すぽーつ, ぼーる ]
     shortcodes: [ lacrosse ]
     en: lacrosse
     since: "11.0"
@@ -481,6 +522,7 @@ emoji:
     readings:
       - たっきゅう
       - ぴんぽん
+    ime_readings: [ すぽーつ, ぼーる, らけっと ]
     shortcodes: [ table_tennis_paddle_and_ball ]
     en: ping pong
     since: "1.0"
@@ -491,6 +533,7 @@ emoji:
     name: バドミントン
     readings:
       - ばどみんとん
+    ime_readings: [ しゃとる, すぽーつ, らけっと ]
     shortcodes: [ badminton_racquet_and_shuttlecock ]
     en: badminton
     since: "1.0"
@@ -502,6 +545,7 @@ emoji:
     readings:
       - ぼくしんぐ
       - ぐろーぶ
+    ime_readings: [ すぽーつ, ぼくしんぐぐろーぶ ]
     shortcodes: [ boxing_glove ]
     en: boxing glove
     since: "3.0"
@@ -516,6 +560,7 @@ emoji:
       - からて
       - じゅうどう
       - かくとうぎ
+    ime_readings: [ すぽーつ, てこんどー ]
     shortcodes: [ martial_arts_uniform ]
     en: martial arts uniform
     since: "3.0"
@@ -527,6 +572,7 @@ emoji:
     readings:
       - ごーるねっと
       - ごーる
+    ime_readings: [ すぽーつ, ねっと ]
     shortcodes: [ goal_net ]
     en: goal net
     since: "3.0"
@@ -537,6 +583,7 @@ emoji:
     name: ゴルフ
     readings:
       - ごるふ
+    ime_readings: [ すぽーつ, はた, ふらぐ, ふらっぐ, ほーる ]
     shortcodes: [ golf ]
     en: flag in hole
     since: "0.6"
@@ -549,6 +596,7 @@ emoji:
       - あいすすけーと
       - すけーと
       - ふぃぎゅあすけーと
+    ime_readings: [ すぽーつ ]
     shortcodes: [ ice_skate ]
     en: ice skate
     since: "0.7"
@@ -561,6 +609,7 @@ emoji:
       - つり
       - つりざお
       - ふぃっしんぐ
+    ime_readings: [ さかな, すぽーつ ]
     shortcodes: [ fishing_pole_and_fish ]
     en: fishing pole
     since: "0.6"
@@ -574,6 +623,7 @@ emoji:
       - だいびんぐ
       - しゅのーける
       - すきゅーば
+    ime_readings: [ しゅのーけりんぐ, すぽーつ, ますく ]
     shortcodes: [ diving_mask ]
     en: diving mask
     since: "12.0"
@@ -587,6 +637,7 @@ emoji:
       - らんにんぐ
       - えきでん
       - たすき
+    ime_readings: [ しゃつ, すぽーつ, まらそん, らんにんぐしゃつ ]
     shortcodes: [ running_shirt_with_sash ]
     en: running shirt
     since: "0.6"
@@ -597,6 +648,7 @@ emoji:
     name: スキー
     readings:
       - すきー
+    ime_readings: [ いた, すきーぶーつ, すとっく, すぽーつ, ゆき ]
     shortcodes: [ ski ]
     en: skis
     since: "0.6"
@@ -609,6 +661,7 @@ emoji:
       - そりきょうぎ
       - そり
       - ぼぶすれー
+    ime_readings: [ すけるとん, すぽーつ, とぼがん, りゅーじゅ ]
     shortcodes: [ sled ]
     en: sled
     since: "5.0"
@@ -619,6 +672,7 @@ emoji:
     name: カーリング
     readings:
       - かーりんぐ
+    ime_readings: [ げーむ, しあい, すとーん, すぽーつ ]
     shortcodes: [ curling_stone ]
     en: curling stone
     since: "5.0"
@@ -631,6 +685,7 @@ emoji:
       - まと
       - だーつ
       - てきちゅう
+    ime_readings: [ あたり, すぽーつ, てき, ぶるずあい ]
     shortcodes: [ dart ]
     en: bullseye
     since: "0.6"
@@ -641,6 +696,7 @@ emoji:
     name: ヨーヨー
     readings:
       - よーよー
+    ime_readings: [ おもちゃ, かいてん, がんぐ, じょうげ ]
     shortcodes: [ yo-yo ]
     en: yo-yo
     since: "12.0"
@@ -653,6 +709,7 @@ emoji:
       - たこ
       - たこあげ
       - かいと
+    ime_readings: [ おもちゃ, がんぐ ]
     shortcodes: [ kite ]
     en: kite
     since: "12.0"
@@ -665,6 +722,7 @@ emoji:
       - みずでっぽう
       - ぴすとる
       - じゅう
+    ime_readings: [ けんじゅう, ぶき, りぼるばー ]
     shortcodes: [ gun ]
     en: water pistol
     since: "0.6"
@@ -677,6 +735,7 @@ emoji:
       - びりやーど
       - えいとぼーる
       - たまつき
+    ime_readings: [ すぽーつ, ぼーる ]
     shortcodes: [ 8ball ]
     en: pool 8 ball
     since: "0.6"
@@ -689,6 +748,7 @@ emoji:
       - すいしょうだま
       - うらない
       - すいしょう
+    ime_readings: [ うんめい, くりすたる, すいしょうきゅう, たま, まほう ]
     shortcodes: [ crystal_ball ]
     en: crystal ball
     since: "0.6"
@@ -702,6 +762,7 @@ emoji:
       - まほう
       - つえ
       - まじっく
+    ime_readings: [ てじな, まじゅつ, まじゅつし ]
     shortcodes: [ magic_wand ]
     en: magic wand
     since: "13.0"
@@ -715,6 +776,7 @@ emoji:
       - げーむ
       - こんとろーら
       - びでおげーむ
+    ime_readings: [ こんとろーらー ]
     shortcodes: [ video_game ]
     en: video game
     since: "0.6"
@@ -726,6 +788,7 @@ emoji:
     readings:
       - じょいすてぃっく
       - げーむ
+    ime_readings: [ こんとろーら, すてぃっく, てれびげーむ, びでおげーむ ]
     shortcodes: [ joystick ]
     en: joystick
     since: "0.7"
@@ -739,6 +802,7 @@ emoji:
       - すろっと
       - かじの
       - すりーせぶん
+    ime_readings: [ ぎゃんぶる, げーむ ]
     shortcodes: [ slot_machine ]
     en: slot machine
     since: "0.6"
@@ -750,6 +814,7 @@ emoji:
     readings:
       - さいころ
       - だいす
+    ime_readings: [ げーむ ]
     shortcodes: [ game_die ]
     en: game die
     since: "0.6"
@@ -762,6 +827,7 @@ emoji:
       - じぐそーぱずる
       - ぱずる
       - ぴーす
+    ime_readings: [ かぎ, くみあわせ ]
     shortcodes: [ jigsaw ]
     en: puzzle piece
     since: "11.0"
@@ -774,6 +840,7 @@ emoji:
       - てでぃべあ
       - ぬいぐるみ
       - くま
+    ime_readings: [ おもちゃ, がんぐ ]
     shortcodes: [ teddy_bear ]
     en: teddy bear
     since: "11.0"
@@ -784,6 +851,7 @@ emoji:
     name: ピニャータ
     readings:
       - ぴにゃーた
+    ime_readings: [ おいわい, たんじょうび, にんぎょう, ぱーてぃー, めきしこ ]
     shortcodes: [ pinata ]
     en: piñata
     since: "13.0"
@@ -795,6 +863,7 @@ emoji:
     readings:
       - みらーぼーる
       - でぃすこ
+    ime_readings: [ きらきら, だんす, ぱーてぃー ]
     shortcodes: [ mirror_ball ]
     en: mirror ball
     since: "14.0"
@@ -805,6 +874,7 @@ emoji:
     name: マトリョーシカ
     readings:
       - まとりょーしか
+    ime_readings: [ いれこ, にんぎょう, ろしあ ]
     shortcodes: [ nesting_dolls ]
     en: nesting dolls
     since: "13.0"
@@ -815,6 +885,7 @@ emoji:
     name: スペード
     readings:
       - すぺーど
+    ime_readings: [ かーど, とらんぷ ]
     shortcodes: [ spades ]
     en: spade suit
     since: "0.6"
@@ -825,6 +896,7 @@ emoji:
     name: ハート
     readings:
       - はーと
+    ime_readings: [ かーど, とらんぷ ]
     shortcodes: [ hearts ]
     en: heart suit
     since: "0.6"
@@ -835,6 +907,7 @@ emoji:
     name: ダイヤ
     readings:
       - だいや
+    ime_readings: [ かーど, だいあ, とらんぷ ]
     shortcodes: [ diamonds ]
     en: diamond suit
     since: "0.6"
@@ -846,6 +919,7 @@ emoji:
     readings:
       - くらぶ
       - くろーばー
+    ime_readings: [ かーど, とらんぷ ]
     shortcodes: [ clubs ]
     en: club suit
     since: "0.6"
@@ -871,6 +945,7 @@ emoji:
       - じょーかー
       - ばば
       - とらんぷ
+    ime_readings: [ かーど, じじ ]
     shortcodes: [ black_joker ]
     en: joker
     since: "0.6"
@@ -883,6 +958,7 @@ emoji:
       - まーじゃん
       - ちゅん
       - まーじゃんぱい
+    ime_readings: [ げーむ, じゃんぱい, なか, ぱい ]
     shortcodes: [ mahjong ]
     en: mahjong red dragon
     since: "0.6"
@@ -893,6 +969,7 @@ emoji:
     name: 花札
     readings:
       - はなふだ
+    ime_readings: [ かーど, げーむ ]
     shortcodes: [ flower_playing_cards ]
     en: flower playing cards
     since: "0.6"
@@ -906,6 +983,7 @@ emoji:
       - えんげき
       - かめん
       - げきじょう
+    ime_readings: [ えんげい, げいじゅつ, じょゆう, はいゆう, やくしゃ ]
     shortcodes: [ performing_arts ]
     en: performing arts
     since: "0.6"
@@ -922,6 +1000,7 @@ emoji:
       - がくぶち
       - びじゅつ
       - げいじゅつ
+    ime_readings: [ びじゅつかん ]
     shortcodes: [ frame_with_picture ]
     en: framed picture
     since: "0.7"
@@ -938,6 +1017,7 @@ emoji:
       - おえかき
       - びじゅつ
       - げいじゅつ
+    ime_readings: [ あーと, え, かいが, びじゅつかん, ふで ]
     shortcodes: [ art ]
     en: artist palette
     since: "0.6"
@@ -952,6 +1032,7 @@ emoji:
       - さいほう
       - そーいんぐ
       - ほうせん
+    ime_readings: [ ぬいばり, ひも ]
     shortcodes: [ thread ]
     en: thread
     since: "11.0"
@@ -968,6 +1049,7 @@ emoji:
       - ししゅう
       - すてっち
       - いととはり
+    ime_readings: [ いと ]
     shortcodes: [ sewing_needle ]
     en: sewing needle
     since: "13.0"
@@ -982,6 +1064,7 @@ emoji:
       - あみもの
       - にっと
       - よーん
+    ime_readings: [ かぎばり ]
     shortcodes: [ yarn ]
     en: yarn
     since: "11.0"
@@ -996,6 +1079,7 @@ emoji:
       - のっと
       - ろーぷ
       - ひも
+    ime_readings: [ つな, ねじれ ]
     shortcodes: [ knot ]
     en: knot
     since: "13.0"

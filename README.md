@@ -29,6 +29,8 @@ thumbsup  → 👍 👍🏻 …   （ショートコード。abbrev モードで
 ```
 
 - 各絵文字には、日本語名の直訳の読み（例「にっこりわらう」）と、自然な別名（「すまいる」「えがお」など）の両方を登録しています。
+- [Google 日本語入力（Mozc）](https://github.com/google/mozc) の絵文字の読みも取り込んでいます。
+  - Mozc の読みは、この辞書で独自に付けた読みより後ろの候補になります。
 - 候補の注釈は日本語名です。
 - 肌の色違いは、元の絵文字の後ろにまとめて並べています（例「手を振る（薄い肌色）」）。
 - 「ゔ」を含む読みには、「ぶ」表記の読みも自動で追加します。
@@ -55,7 +57,7 @@ data/
   meta.yaml            # Unicode Emoji のバージョンと、参照する CLDR の git ref
   emoji/01-smileys-emotion.yaml … 10-flags.yaml   # 絵文字のグループごとのデータ
 src/
-  update.ts            # Unicode と CLDR から最新データを取得し、YAML に反映する
+  update.ts            # Unicode、CLDR、Mozc、emoji-data から最新データを取得し、YAML に反映する
   build.ts             # YAML から辞書を生成する
   lib/                 # パーサー、EUC-JP エンコーダーなど
 tests/
@@ -65,14 +67,15 @@ YAML の 1 件は次の形式です。
 
 ```yaml
   - emoji: 👋
-    code: 1F44B              # コードポイント（これが正）
-    name: 手を振る            # SKK の注釈（"/" と ";" は使用不可）
-    readings:                # 見出し語。重要なものから順に書く
+    code: 1F44B                    # コードポイント（これが正）
+    name: 手を振る                  # SKK の注釈（"/" と ";" は使用不可）
+    readings:                      # 見出し語。重要なものから順に書く
       - てをふる
       - ばいばい
       - またね
-    shortcodes: [ wave ]     # ショートコード（コロンなし）。これも見出し語になる
-    en: waving hand          # 以下は update で自動更新される
+    ime_readings: [ さよなら, て ]  # Mozc の読み（readings にないもの）。これも見出し語になる
+    shortcodes: [ wave ]           # ショートコード（コロンなし）。これも見出し語になる
+    en: waving hand                # 以下は update で自動更新される
     since: "0.6"
     subgroup: hand-fingers-open
     keywords: [ あいさつ, さようなら, バイバイ, ハロー, またね, 手, 手を振る ]
@@ -86,6 +89,14 @@ YAML の 1 件は次の形式です。
 emoji-data は Unicode の新しい版への対応が遅れることがあります。
 emoji-data に名前がない絵文字に限り、手で書いた `shortcodes` を `update` 後も残します。
 2026 年 9 月時点では、emoji-data が Emoji 17.0 までの対応のため、Emoji 18.0 で追加された 9 件にはショートコードがありません。
+
+`ime_readings` は、Mozc の [`src/data/emoji/emoji_data.tsv`](https://github.com/google/mozc/blob/master/src/data/emoji/emoji_data.tsv) から取得します。
+- `update` を実行するたびに取り直すので、手で編集しないでください。
+- `readings` にすでにある読みは除きます。
+- 全角英数字は半角に直します。記号を含む読み（`11:30` など）や、英字とかなが混ざった読み（`upまーく` など）は、SKK の見出し語に向かないので除外します。
+- Mozc の読みは五十音順に並んでいて、重要度の順ではありません。そのため辞書では、すべて `readings` より後ろの順位になります。
+- 順位を上げたい読みは `readings` にも書いてください。
+- 2026 年 9 月時点では、Mozc が Emoji 17.0 までの対応のため、Emoji 18.0 で追加された絵文字には `ime_readings` がありません。
 
 ### 読みの付け方
 
@@ -109,7 +120,7 @@ Deno と Node.js のどちらでも実行できます。
 ### Deno
 
 ```sh
-deno task update          # Unicode と CLDR の最新データを YAML に反映する
+deno task update          # Unicode、CLDR、Mozc、emoji-data の最新データを YAML に反映する
 deno task build           # dist/ に辞書を生成する（--strict を付けると警告をエラーにする）
 deno task test
 ```
@@ -129,6 +140,7 @@ npm test
 1. `deno task update` を実行します。
    新しい絵文字が YAML に追加され、`review: true` が付きます。
    `name` と、カナだけで書かれた CLDR の名称やキーワードから作った読みが、初期値として入ります。
+   Mozc が対応済みであれば、`ime_readings` も入ります。見直しの参考にしてください。
 2. `review: true` が付いた項目について、`name` と `readings` を見直します。
    見直し終わったら `review` の行を削除してください。
 3. `deno task build --strict` が警告なしで終わることを確認します。
@@ -141,6 +153,7 @@ npm test
 | `--cldr-ref <ref>` | 参照する CLDR の git ref を指定する（既定は `data/meta.yaml` の値。現在は `main`） |
 | `--emoji-url <url>` | `emoji-test.txt` の取得元を指定する |
 | `--emoji-data-url <url>` | ショートコードを取得する `emoji.json` の取得元を指定する |
+| `--mozc-url <url>` | Mozc の読みを取得する `emoji_data.tsv` の取得元を指定する |
 
 ## CI / リリース
 
@@ -159,6 +172,7 @@ git push origin v1.0.0
 ## データの出典
 
 - 絵文字一覧: [emoji-test.txt](https://unicode.org/Public/emoji/latest/emoji-test.txt)
+- 読みの一部: [Mozc](https://github.com/google/mozc) の `src/data/emoji/emoji_data.tsv`（BSD 3-Clause License。著作権表示は下記）
 - ショートコード: [iamcal/emoji-data](https://github.com/iamcal/emoji-data)（MIT License）
 - 日本語名とキーワード: [Unicode CLDR](https://github.com/unicode-org/cldr) の `annotations/ja.xml` と `annotationsDerived/ja.xml`
 
@@ -171,3 +185,40 @@ SKK で絵文字を入力するというアイデアと、その先行実装に�
 
 MIT License。
 絵文字データは Unicode, Inc. の [Terms of Use](https://www.unicode.org/terms_of_use.html) に従います。
+
+### Mozc
+
+辞書の読みの一部（YAML の `ime_readings`）は、Mozc の `src/data/emoji/emoji_data.tsv` に由来します。
+Mozc のライセンスは次のとおりです。
+この著作権表示は、生成した辞書ファイルのヘッダーにも含めています。
+
+```
+Copyright 2010-2018, Google Inc.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+  * Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above
+    copyright notice, this list of conditions and the following disclaimer
+    in the documentation and/or other materials provided with the
+    distribution.
+  * Neither the name of Google Inc. nor the names of its
+    contributors may be used to endorse or promote products derived from
+    this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```

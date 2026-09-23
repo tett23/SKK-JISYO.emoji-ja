@@ -1,10 +1,12 @@
 # SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
-#   name:       annotation shown in SKK (Japanese name; no "/" or ";")
-#   readings:   SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
-#   shortcodes: emoji shortcodes (":thumbsup:" without colons), registered as headwords.
-#               Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
-#   review:     true if added automatically by the update task; remove after checking the readings
-# Other fields are refreshed from Unicode/CLDR by the update task.
+#   name:         annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings:     SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   ime_readings: readings from Mozc (Google Japanese Input), refreshed by the update task.
+#                 Ranked after "readings"; copy a reading to "readings" to rank it higher
+#   shortcodes:   emoji shortcodes (":thumbsup:" without colons), registered as headwords.
+#                 Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
+#   review:       true if added automatically by the update task; remove after checking the readings
+# Other fields are refreshed from Unicode/CLDR/Mozc by the update task.
 
 group: Objects
 emoji:
@@ -40,6 +42,7 @@ emoji:
       - すいえい
       - だいびんぐ
       - すきゅーば
+    ime_readings: [ ようせつ ]
     shortcodes: [ goggles ]
     en: goggles
     since: "11.0"
@@ -54,6 +57,7 @@ emoji:
       - かがくしゃ
       - じっけん
       - らぼこーと
+    ime_readings: [ うわぎ, ふく ]
     shortcodes: [ lab_coat ]
     en: lab coat
     since: "11.0"
@@ -69,6 +73,7 @@ emoji:
       - こうじ
       - はんしゃ
       - あんぜん
+    ime_readings: [ きんきゅう ]
     shortcodes: [ safety_vest ]
     en: safety vest
     since: "12.0"
@@ -84,6 +89,7 @@ emoji:
       - さらりーまん
       - すーつ
       - びじねす
+    ime_readings: [ しゃつ, たい, ふく ]
     shortcodes: [ necktie ]
     en: necktie
     since: "0.6"
@@ -112,6 +118,7 @@ emoji:
       - ずぼん
       - ぱんつ
       - ぶるーじーんず
+    ime_readings: [ かじゅある, ふく ]
     shortcodes: [ jeans ]
     en: jeans
     since: "0.6"
@@ -126,6 +133,7 @@ emoji:
       - えりまき
       - くびまき
       - さむい
+    ime_readings: [ あつぎ ]
     shortcodes: [ scarf ]
     en: scarf
     since: "5.0"
@@ -139,6 +147,7 @@ emoji:
       - ぐろーぶ
       - みとん
       - さむい
+    ime_readings: [ て ]
     shortcodes: [ gloves ]
     en: gloves
     since: "5.0"
@@ -153,6 +162,7 @@ emoji:
       - あうたー
       - うわぎ
       - さむい
+    ime_readings: [ あつぎ, おーばー, ふく ]
     shortcodes: [ coat ]
     en: coat
     since: "5.0"
@@ -189,6 +199,7 @@ emoji:
       - わふく
       - ゆかた
       - ふりそで
+    ime_readings: [ ふく ]
     shortcodes: [ kimono ]
     en: kimono
     since: "0.6"
@@ -201,6 +212,7 @@ emoji:
       - さりー
       - みんぞくいしょう
       - いんど
+    ime_readings: [ どれす, ふく ]
     shortcodes: [ sari ]
     en: sari
     since: "12.0"
@@ -228,6 +240,7 @@ emoji:
       - ぱんつ
       - かいぱん
       - みずぎ
+    ime_readings: [ すいむうぇあ ]
     shortcodes: [ briefs ]
     en: briefs
     since: "12.0"
@@ -242,6 +255,7 @@ emoji:
       - しょーとぱんつ
       - たんぱん
       - かいぱん
+    ime_readings: [ したぎ, すいむうぇあ, ぱんつ, みずぎ ]
     shortcodes: [ shorts ]
     en: shorts
     since: "12.0"
@@ -256,6 +270,7 @@ emoji:
       - びーち
       - ぷーる
       - なつ
+    ime_readings: [ ふく ]
     shortcodes: [ bikini ]
     en: bikini
     since: "0.6"
@@ -284,6 +299,7 @@ emoji:
       - あおぐ
       - すずむ
       - ぱたぱた
+    ime_readings: [ かぜ, なつ ]
     shortcodes: [ folding_hand_fan ]
     en: folding hand fan
     since: "15.0"
@@ -297,6 +313,7 @@ emoji:
       - さいふ
       - こぜにいれ
       - ぱーす
+    ime_readings: [ がまぐちざいふ ]
     shortcodes: [ purse ]
     en: purse
     since: "0.6"
@@ -322,6 +339,7 @@ emoji:
       - ぽーち
       - くらっちばっぐ
       - ばっぐ
+    ime_readings: [ はんどばっぐ ]
     shortcodes: [ pouch ]
     en: clutch bag
     since: "0.6"
@@ -336,6 +354,7 @@ emoji:
       - かいもの
       - しょっぴんぐ
       - てさげ
+    ime_readings: [ かみてさげ, ばっぐ ]
     shortcodes: [ shopping_bags ]
     en: shopping bags
     since: "0.7"
@@ -350,6 +369,7 @@ emoji:
       - りゅっくさっく
       - らんどせる
       - がっこう
+    ime_readings: [ かばん, しょうがくせい, しょうがっこう ]
     shortcodes: [ school_satchel ]
     en: backpack
     since: "0.6"
@@ -364,6 +384,7 @@ emoji:
       - ぞうり
       - ごむぞうり
       - さんだる
+    ime_readings: [ くつ, とんぐさんだる ]
     shortcodes: [ thong_sandal ]
     en: thong sandal
     since: "13.0"
@@ -390,6 +411,7 @@ emoji:
       - うんどうぐつ
       - らんにんぐしゅーず
       - くつ
+    ime_readings: [ あすれちっくしゅーず, しゅーず, じょぎんぐしゅーず, てにすしゅーず ]
     shortcodes: [ athletic_shoe ]
     en: running shoe
     since: "0.6"
@@ -405,6 +427,7 @@ emoji:
       - はいきんぐ
       - とざん
       - きゃんぷ
+    ime_readings: [ あうとどあ, くつ, ちゃいろいくつ, ばっくぱっく ]
     shortcodes: [ hiking_boot ]
     en: hiking boot
     since: "11.0"
@@ -418,6 +441,7 @@ emoji:
       - ぺたんこぐつ
       - ばれえしゅーず
       - すりっぽん
+    ime_readings: [ ぺたんこくつ ]
     shortcodes: [ womans_flat_shoe ]
     en: flat shoe
     since: "11.0"
@@ -431,6 +455,7 @@ emoji:
       - ひーる
       - ぴんひーる
       - くつ
+    ime_readings: [ ふく, ふじんぐつ ]
     shortcodes: [ high_heel ]
     en: high-heeled shoe
     since: "0.6"
@@ -443,6 +468,7 @@ emoji:
       - さんだる
       - みゅーる
       - くつ
+    ime_readings: [ ふく, ふじんぐつ ]
     shortcodes: [ sandal ]
     en: woman’s sandal
     since: "0.6"
@@ -456,6 +482,7 @@ emoji:
       - ばれえしゅーず
       - ばれえ
       - だんす
+    ime_readings: [ くつ, しゅーず ]
     shortcodes: [ ballet_shoes ]
     en: ballet shoes
     since: "12.0"
@@ -469,6 +496,7 @@ emoji:
       - ろんぐぶーつ
       - ながぐつ
       - くつ
+    ime_readings: [ ふく, ふじんぐつ ]
     shortcodes: [ boot ]
     en: woman’s boot
     since: "0.6"
@@ -483,6 +511,7 @@ emoji:
       - こーむ
       - あふろ
       - へあぴっく
+    ime_readings: [ かみ ]
     shortcodes: [ hair_pick ]
     en: hair pick
     since: "15.0"
@@ -497,6 +526,7 @@ emoji:
       - くらうん
       - おうさま
       - おう
+    ime_readings: [ おうぞく ]
     shortcodes: [ crown ]
     en: crown
     since: "0.6"
@@ -510,6 +540,7 @@ emoji:
       - むぎわらぼうし
       - ぼうし
       - むぎわら
+    ime_readings: [ おんなのぼうし ]
     shortcodes: [ womans_hat ]
     en: woman’s hat
     since: "0.6"
@@ -523,6 +554,7 @@ emoji:
       - ぼうし
       - てじな
       - しんし
+    ime_readings: [ やまたかぼう ]
     shortcodes: [ tophat ]
     en: top hat
     since: "0.6"
@@ -536,6 +568,7 @@ emoji:
       - そつぎょう
       - そつぎょうしき
       - がくい
+    ime_readings: [ がくしゃ, ぼうし ]
     shortcodes: [ mortar_board ]
     en: graduation cap
     since: "0.6"
@@ -562,6 +595,7 @@ emoji:
       - ぐんたい
       - へいし
       - みりたりー
+    ime_readings: [ せんとう ]
     shortcodes: [ military_helmet ]
     en: military helmet
     since: "13.0"
@@ -576,6 +610,7 @@ emoji:
       - きゅうじょ
       - きゅうきゅう
       - あんぜん
+    ime_readings: [ きゅうじょたい, はくじゅうじ, はくじゅうじへるめっと, ぼうし ]
     shortcodes: [ helmet_with_white_cross ]
     en: rescue worker’s helmet
     since: "0.7"
@@ -590,6 +625,7 @@ emoji:
       - ろざりお
       - いのる
       - おいのり
+    ime_readings: [ しゅうきょう, ねっくれす ]
     shortcodes: [ prayer_beads ]
     en: prayer beads
     since: "1.0"
@@ -606,6 +642,7 @@ emoji:
       - めいく
       - めーく
       - こすめ
+    ime_readings: [ けしょうひん ]
     shortcodes: [ lipstick ]
     en: lipstick
     since: "0.6"
@@ -620,6 +657,7 @@ emoji:
       - こんやくゆびわ
       - けっこんゆびわ
       - だいや
+    ime_readings: [ じゅえりー, だいあ, だいやもんど ]
     shortcodes: [ ring ]
     en: ring
     since: "0.6"
@@ -634,6 +672,7 @@ emoji:
       - だいやもんど
       - じゅえりー
       - じぇむ
+    ime_readings: [ だいあ ]
     shortcodes: [ gem ]
     en: gem stone
     since: "0.6"
@@ -648,6 +687,7 @@ emoji:
       - しょうおん
       - むおん
       - おとなし
+    ime_readings: [ すぴーかー ]
     shortcodes: [ mute ]
     en: muted speaker
     since: "1.0"
@@ -674,6 +714,7 @@ emoji:
       - おんりょうしょう
       - すぴーかー
       - おんりょう
+    ime_readings: [ ぼりゅーむ ]
     shortcodes: [ sound ]
     en: speaker medium volume
     since: "1.0"
@@ -688,6 +729,7 @@ emoji:
       - だいおんりょう
       - すぴーかー
       - おんりょう
+    ime_readings: [ ぼりゅーむ ]
     shortcodes: [ loud_sound ]
     en: speaker high volume
     since: "0.6"
@@ -742,6 +784,7 @@ emoji:
       - すず
       - ちゃいむ
       - つうち
+    ime_readings: [ きょうかい, ちゃぺる ]
     shortcodes: [ bell ]
     en: bell
     since: "0.6"
@@ -756,6 +799,7 @@ emoji:
       - つうちおふ
       - しょうおん
       - おとなし
+    ime_readings: [ かね, すず ]
     shortcodes: [ no_bell ]
     en: bell with slash
     since: "1.0"
@@ -770,6 +814,7 @@ emoji:
       - すこあ
       - とおんきごう
       - おんがく
+    ime_readings: [ ごせん ]
     shortcodes: [ musical_score ]
     en: musical score
     since: "0.6"
@@ -784,6 +829,7 @@ emoji:
       - おんがく
       - みゅーじっく
       - きょく
+    ime_readings: [ れんぷ ]
     shortcodes: [ musical_note ]
     en: musical note
     since: "0.6"
@@ -799,6 +845,7 @@ emoji:
       - みゅーじっく
       - うた
       - はなうた
+    ime_readings: [ はちぶおんぷ ]
     shortcodes: [ notes ]
     en: musical notes
     since: "0.6"
@@ -813,6 +860,7 @@ emoji:
       - ろくおん
       - はいしん
       - ぽっどきゃすと
+    ime_readings: [ おんがく ]
     shortcodes: [ studio_microphone ]
     en: studio microphone
     since: "0.7"
@@ -826,6 +874,7 @@ emoji:
       - すらいだー
       - ふぇーだー
       - みきさー
+    ime_readings: [ おんがく, れべる ]
     shortcodes: [ level_slider ]
     en: level slider
     since: "0.7"
@@ -839,6 +888,7 @@ emoji:
       - つまみ
       - のぶ
       - ちょうせい
+    ime_readings: [ おんがく, こんとろーる ]
     shortcodes: [ control_knobs ]
     en: control knobs
     since: "0.7"
@@ -853,6 +903,7 @@ emoji:
       - うた
       - うたう
       - まいくろふぉん
+    ime_readings: [ おんがく ]
     shortcodes: [ microphone ]
     en: microphone
     since: "0.6"
@@ -866,6 +917,7 @@ emoji:
       - へっどふぉん
       - いやほん
       - おんがく
+    ime_readings: [ いやふぉん ]
     shortcodes: [ headphones ]
     en: headphone
     since: "0.6"
@@ -878,6 +930,7 @@ emoji:
       - らじお
       - ほうそう
       - じゅしんき
+    ime_readings: [ おんがく ]
     shortcodes: [ radio ]
     en: radio
     since: "0.6"
@@ -892,6 +945,7 @@ emoji:
       - さくそふぉん
       - じゃず
       - がっき
+    ime_readings: [ おんがく ]
     shortcodes: [ saxophone ]
     en: saxophone
     since: "0.6"
@@ -905,6 +959,7 @@ emoji:
       - らっぱ
       - すいそうがく
       - がっき
+    ime_readings: [ おんがく ]
     shortcodes: [ trumpet ]
     en: trumpet
     since: "0.6"
@@ -919,6 +974,7 @@ emoji:
       - すいそうがく
       - かんがっき
       - がっき
+    ime_readings: [ おんがく, すらいど ]
     shortcodes: [ trombone ]
     en: trombone
     since: "17.0"
@@ -931,6 +987,7 @@ emoji:
       - あこーでぃおん
       - じゃばら
       - がっき
+    ime_readings: [ おんがく ]
     shortcodes: [ accordion ]
     en: accordion
     since: "13.0"
@@ -945,6 +1002,7 @@ emoji:
       - えれき
       - ろっく
       - ばんど
+    ime_readings: [ おんがく, がっき ]
     shortcodes: [ guitar ]
     en: guitar
     since: "0.6"
@@ -958,6 +1016,7 @@ emoji:
       - ぴあの
       - きーぼーど
       - がっき
+    ime_readings: [ おんがく ]
     shortcodes: [ musical_keyboard ]
     en: musical keyboard
     since: "0.6"
@@ -971,6 +1030,7 @@ emoji:
       - びおら
       - げんがっき
       - がっき
+    ime_readings: [ おんがく, すとらでぃばりうす, ゔぃおら ]
     shortcodes: [ violin ]
     en: violin
     since: "0.6"
@@ -984,6 +1044,7 @@ emoji:
       - げんがっき
       - かんとりー
       - がっき
+    ime_readings: [ おんがく ]
     shortcodes: [ banjo ]
     en: banjo
     since: "12.0"
@@ -997,6 +1058,7 @@ emoji:
       - たいこ
       - どらむすてぃっく
       - がっき
+    ime_readings: [ おんがく ]
     shortcodes: [ drum_with_drumsticks ]
     en: drum
     since: "3.0"
@@ -1011,6 +1073,7 @@ emoji:
       - どらむ
       - りずむ
       - びーと
+    ime_readings: [ おんがく, がっき ]
     shortcodes: [ long_drum ]
     en: long drum
     since: "13.0"
@@ -1025,6 +1088,7 @@ emoji:
       - りずむ
       - だがっき
       - ふる
+    ime_readings: [ おんがく, がっき, だんす, ぱーてぃー, らとる ]
     shortcodes: [ maracas ]
     en: maracas
     since: "15.0"
@@ -1040,6 +1104,7 @@ emoji:
       - りこーだー
       - ぴっころ
       - かんがっき
+    ime_readings: [ おんがく, おーけすとら, がっき, ばんど, ふるーとそうしゃ ]
     shortcodes: [ flute ]
     en: flute
     since: "15.0"
@@ -1053,6 +1118,7 @@ emoji:
       - たてごと
       - げんがっき
       - がっき
+    ime_readings: [ あい, おんがく, おーけすとら, きゅーぴっど ]
     shortcodes: [ harp ]
     en: harp
     since: "16.0"
@@ -1082,6 +1148,7 @@ emoji:
       - じゅしん
       - すまほ
       - けいたい
+    ime_readings: [ けいたいじゅしん, けいたいでんわ, すまーとふぉん, でんわ, でんわはっしん, もばいる ]
     shortcodes: [ calling ]
     en: mobile phone with arrow
     since: "0.6"
@@ -1095,6 +1162,7 @@ emoji:
       - でんわ
       - くろでんわ
       - いえでん
+    ime_readings: [ おやき, ぷっしゅほん, ぼたんしきでんわ ]
     shortcodes: [ phone, telephone ]
     en: telephone
     since: "0.6"
@@ -1133,6 +1201,7 @@ emoji:
       - fax
       - ふぁっくすき
       - ふくごうき
+    ime_readings: [ でんわ ]
     shortcodes: [ fax ]
     en: fax machine
     since: "0.6"
@@ -1160,6 +1229,7 @@ emoji:
       - じゅうでんぶそく
       - ばってりーぎれ
       - ていでんりょく
+    ime_readings: [ でんちぎれすんぜん, でんちざんりょうていか, ばってりー ]
     shortcodes: [ low_battery ]
     en: low battery
     since: "14.0"
@@ -1189,6 +1259,7 @@ emoji:
       - ぱそこん
       - pc
       - こんぴゅーたー
+    ime_readings: [ こんぴゅーた ]
     shortcodes: [ computer ]
     en: laptop
     since: "0.6"
@@ -1219,6 +1290,7 @@ emoji:
       - いんさつき
       - こぴーき
       - ふくごうき
+    ime_readings: [ こんぴゅーたー ]
     shortcodes: [ printer ]
     en: printer
     since: "0.7"
@@ -1232,6 +1304,7 @@ emoji:
       - たいぴんぐ
       - だけん
       - ぱそこん
+    ime_readings: [ pc, こんぴゅーたー, ぴーしー ]
     shortcodes: [ keyboard ]
     en: keyboard
     since: "1.0"
@@ -1244,6 +1317,7 @@ emoji:
       - まうす
       - くりっく
       - ぱそこん
+    ime_readings: [ pc, こんぴゅーたー ]
     shortcodes: [ three_button_mouse ]
     en: computer mouse
     since: "0.7"
@@ -1256,6 +1330,7 @@ emoji:
       - とらっくぼーる
       - まうす
       - ぱそこん
+    ime_readings: [ pc, こんぴゅーたー ]
     shortcodes: [ trackball ]
     en: trackball
     since: "0.7"
@@ -1269,6 +1344,7 @@ emoji:
       - md
       - mo
       - でぃすく
+    ime_readings: [ えむおー, えむでぃー, こんぴゅーたー ]
     shortcodes: [ minidisc ]
     en: computer disk
     since: "0.6"
@@ -1283,6 +1359,7 @@ emoji:
       - fd
       - ほぞん
       - せーぶ
+    ime_readings: [ えふでぃー, こんぴゅーたー, でぃすく ]
     shortcodes: [ floppy_disk ]
     en: floppy disk
     since: "0.6"
@@ -1297,6 +1374,7 @@ emoji:
       - でぃすく
       - こうでぃすく
       - ぶるーれい
+    ime_readings: [ dvd, こんぴゅーたー, ひかりでぃすく, ぶるれい ]
     shortcodes: [ cd ]
     en: optical disk
     since: "0.6"
@@ -1310,6 +1388,7 @@ emoji:
       - dvd
       - でぃすく
       - ぶるーれい
+    ime_readings: [ しーでぃー, ぶるれい ]
     shortcodes: [ dvd ]
     en: dvd
     since: "0.6"
@@ -1338,6 +1417,7 @@ emoji:
       - しねま
       - むーびー
       - はりうっど
+    ime_readings: [ かめら, ふぃるむ ]
     shortcodes: [ movie_camera ]
     en: movie camera
     since: "0.6"
@@ -1352,6 +1432,7 @@ emoji:
       - えいが
       - しねま
       - むーびー
+    ime_readings: [ ふれーむ ]
     shortcodes: [ film_frames ]
     en: film frames
     since: "0.7"
@@ -1365,6 +1446,7 @@ emoji:
       - ぷろじぇくたー
       - えいが
       - ふぃるむ
+    ime_readings: [ びでお, むーびー ]
     shortcodes: [ film_projector ]
     en: film projector
     since: "0.7"
@@ -1391,6 +1473,7 @@ emoji:
       - tv
       - てぃーびー
       - ばんぐみ
+    ime_readings: [ びでお ]
     shortcodes: [ tv ]
     en: television
     since: "0.6"
@@ -1418,6 +1501,7 @@ emoji:
       - しゃしん
       - さつえい
       - しゃめ
+    ime_readings: [ かめらふらっしゅ ]
     shortcodes: [ camera_with_flash ]
     en: camera with flash
     since: "1.0"
@@ -1432,6 +1516,7 @@ emoji:
       - どうが
       - ろくが
       - さつえい
+    ime_readings: [ かめら, むーびー ]
     shortcodes: [ video_camera ]
     en: video camera
     since: "0.6"
@@ -1446,6 +1531,7 @@ emoji:
       - vhs
       - びでおかせっと
       - てーぷ
+    ime_readings: [ どうが ]
     shortcodes: [ vhs ]
     en: videocassette
     since: "0.6"
@@ -1461,6 +1547,7 @@ emoji:
       - かくだいきょう
       - けんさく
       - さがす
+    ime_readings: [ かがく ]
     shortcodes: [ mag ]
     en: magnifying glass tilted left
     since: "0.6"
@@ -1476,6 +1563,7 @@ emoji:
       - かくだいきょう
       - けんさく
       - しらべる
+    ime_readings: [ かがく, しょうさい ]
     shortcodes: [ mag_right ]
     en: magnifying glass tilted right
     since: "0.6"
@@ -1504,6 +1592,7 @@ emoji:
       - あいであ
       - ぴこーん
       - あかり
+    ime_readings: [ まんが ]
     shortcodes: [ bulb ]
     en: light bulb
     since: "0.6"
@@ -1516,6 +1605,7 @@ emoji:
       - かいちゅうでんとう
       - らいと
       - あかり
+    ime_readings: [ でんとう ]
     shortcodes: [ flashlight ]
     en: flashlight
     since: "0.6"
@@ -1543,6 +1633,7 @@ emoji:
       - おいるらんぷ
       - あかり
       - でぃわり
+    ime_readings: [ おいる ]
     shortcodes: [ diya_lamp ]
     en: diya lamp
     since: "12.0"
@@ -1556,6 +1647,7 @@ emoji:
       - のーと
       - てちょう
       - ぶんぼうぐ
+    ime_readings: [ がっこう, ぶんぐ, ほん ]
     shortcodes: [ notebook_with_decorative_cover ]
     en: notebook with decorative cover
     since: "0.6"
@@ -1569,6 +1661,7 @@ emoji:
       - ほん
       - あかいほん
       - しょせき
+    ime_readings: [ ぶんぼうぐ ]
     shortcodes: [ closed_book ]
     en: closed book
     since: "0.6"
@@ -1584,6 +1677,7 @@ emoji:
       - よむ
       - しょうせつ
       - しょせき
+    ime_readings: [ ちしき, としょかん, ぶんぼうぐ ]
     shortcodes: [ book, open_book ]
     en: open book
     since: "0.6"
@@ -1597,6 +1691,7 @@ emoji:
       - ほん
       - どくしょ
       - しょせき
+    ime_readings: [ としょかん, ぶんぼうぐ ]
     shortcodes: [ green_book ]
     en: green book
     since: "0.6"
@@ -1611,6 +1706,7 @@ emoji:
       - ほん
       - どくしょ
       - しょせき
+    ime_readings: [ としょかん, ぶんぼうぐ ]
     shortcodes: [ blue_book ]
     en: blue book
     since: "0.6"
@@ -1624,6 +1720,7 @@ emoji:
       - ほん
       - どくしょ
       - しょせき
+    ime_readings: [ としょかん, ぶんぼうぐ ]
     shortcodes: [ orange_book ]
     en: orange book
     since: "0.6"
@@ -1639,6 +1736,7 @@ emoji:
       - どくしょ
       - としょかん
       - しょせき
+    ime_readings: [ がっこう, しょうせつ, ぶんぼうぐ ]
     shortcodes: [ books ]
     en: books
     since: "0.6"
@@ -1651,6 +1749,7 @@ emoji:
       - のーと
       - てちょう
       - ぶんぼうぐ
+    ime_readings: [ ぶんぐ ]
     shortcodes: [ notebook ]
     en: notebook
     since: "0.6"
@@ -1664,6 +1763,7 @@ emoji:
       - だいちょう
       - ちょうぼ
       - のーと
+    ime_readings: [ ぶんぐ, ぶんぼうぐ ]
     shortcodes: [ ledger ]
     en: ledger
     since: "0.6"
@@ -1677,6 +1777,7 @@ emoji:
       - ぶんしょ
       - しょるい
       - どきゅめんと
+    ime_readings: [ かーる ]
     shortcodes: [ page_with_curl ]
     en: page with curl
     since: "0.6"
@@ -1690,6 +1791,7 @@ emoji:
       - ぶんしょ
       - こもんじょ
       - しょるい
+    ime_readings: [ かみ, すくろーる, ぶんぼうぐ ]
     shortcodes: [ scroll ]
     en: scroll
     since: "0.6"
@@ -1742,6 +1844,7 @@ emoji:
       - ふせん
       - いんでっくす
       - たぶ
+    ime_readings: [ ぶんぐ, ぶんぼうぐ, ぺーじまーく, まーく ]
     shortcodes: [ bookmark_tabs ]
     en: bookmark tabs
     since: "0.6"
@@ -1799,6 +1902,7 @@ emoji:
       - どるぶくろ
       - げんきん
       - しょうきん
+    ime_readings: [ かけきん, きゃっしゅ, きんぶくろ, ぎんこう, どる ]
     shortcodes: [ moneybag ]
     en: money bag
     since: "0.6"
@@ -1813,6 +1917,7 @@ emoji:
       - たから
       - ざいほう
       - ほうせき
+    ime_readings: [ おかね, ききんぞく, きんか, じゅえりー, とみ ]
     shortcodes: [ treasure_chest ]
     en: treasure chest
     since: "17.0"
@@ -1828,6 +1933,7 @@ emoji:
       - おかね
       - さつたば
       - えん
+    ime_readings: [ こぎって, つうか, ゆうりょう ]
     shortcodes: [ yen ]
     en: yen banknote
     since: "0.6"
@@ -1843,6 +1949,7 @@ emoji:
       - しへい
       - おかね
       - さつたば
+    ime_readings: [ つうか ]
     shortcodes: [ dollar ]
     en: dollar banknote
     since: "0.6"
@@ -1857,6 +1964,7 @@ emoji:
       - おさつ
       - しへい
       - おかね
+    ime_readings: [ さつたば, つうか ]
     shortcodes: [ euro ]
     en: euro banknote
     since: "1.0"
@@ -1871,6 +1979,7 @@ emoji:
       - おさつ
       - しへい
       - おかね
+    ime_readings: [ げんきん, さつたば, つうか ]
     shortcodes: [ pound ]
     en: pound banknote
     since: "1.0"
@@ -1886,6 +1995,7 @@ emoji:
       - むだづかい
       - おかねがとぶ
       - きんけつ
+    ime_readings: [ おかね, おさつ, さつたば, しへい, どる ]
     shortcodes: [ money_with_wings ]
     en: money with wings
     since: "0.6"
@@ -1901,6 +2011,7 @@ emoji:
       - しはらい
       - けっさい
       - きゃっしゅかーど
+    ime_readings: [ おかね, ぎんこう ]
     shortcodes: [ credit_card ]
     en: credit card
     since: "0.6"
@@ -1915,6 +2026,7 @@ emoji:
       - せいきゅうしょ
       - かいけい
       - けいひ
+    ime_readings: [ ぼき ]
     shortcodes: [ receipt ]
     en: receipt
     since: "11.0"
@@ -1930,6 +2042,7 @@ emoji:
       - しじょう
       - ちゃーと
       - ぐらふ
+    ime_readings: [ いちば, えん, かぶ ]
     shortcodes: [ chart ]
     en: chart increasing with yen
     since: "0.6"
@@ -1943,6 +2056,7 @@ emoji:
       - てがみ
       - めーる
       - ゆうびん
+    ime_readings: [ いーめーる, でんしめーる ]
     shortcodes: [ email, envelope ]
     en: envelope
     since: "0.6"
@@ -1956,6 +2070,7 @@ emoji:
       - めーる
       - でんしめーる
       - てがみ
+    ime_readings: [ ふうとう, ゆうびん ]
     shortcodes: [ e-mail ]
     en: e-mail
     since: "0.6"
@@ -1969,6 +2084,7 @@ emoji:
       - じゅしんちゅう
       - じゅしん
       - めーる
+    ime_readings: [ いーめーる, じゅしんする, じゅしんばこ, てがみ, でんしめーる, ふうとう ]
     shortcodes: [ incoming_envelope ]
     en: incoming envelope
     since: "0.6"
@@ -1983,6 +2099,7 @@ emoji:
       - そうしん
       - めーるそうしん
       - めーる
+    ime_readings: [ いーめーる, そうしんする, でんしめーる, ふうとうとやじるし, めーるする ]
     shortcodes: [ envelope_with_arrow ]
     en: envelope with arrow
     since: "0.6"
@@ -1996,6 +2113,7 @@ emoji:
       - そうしん
       - そうしんばこ
       - とれい
+    ime_readings: [ いーめーる, でんしめーる, はこ, めーる ]
     shortcodes: [ outbox_tray ]
     en: outbox tray
     since: "0.6"
@@ -2009,6 +2127,7 @@ emoji:
       - じゅしん
       - じゅしんばこ
       - とれい
+    ime_readings: [ いーめーる, じゅしんなし, でんしめーる, はこ, めーる ]
     shortcodes: [ inbox_tray ]
     en: inbox tray
     since: "0.6"
@@ -2024,6 +2143,7 @@ emoji:
       - たっきゅうびん
       - だんぼーる
       - はいたつ
+    ime_readings: [ はいそう, はこ, ぱっく, ぱっけーじ ]
     shortcodes: [ package ]
     en: package
     since: "0.6"
@@ -2037,6 +2157,7 @@ emoji:
       - ゆうびんうけ
       - ぽすと
       - てがみあり
+    ime_readings: [ とじた, とじたゆうびんうけ, はたつきぽすと, めーる, ゆうびん, ゆうびんばこ ]
     shortcodes: [ mailbox ]
     en: closed mailbox with raised flag
     since: "0.6"
@@ -2050,6 +2171,7 @@ emoji:
       - ゆうびんうけ
       - ぽすと
       - てがみなし
+    ime_readings: [ とじた, とじたゆうびんうけ, はたつきぽすと, めーる, ゆうびん, ゆうびんばこ ]
     shortcodes: [ mailbox_closed ]
     en: closed mailbox with lowered flag
     since: "0.6"
@@ -2063,6 +2185,7 @@ emoji:
       - ゆうびんうけ
       - ぽすと
       - てがみあり
+    ime_readings: [ ひらいた, ひらいたゆうびんうけ, ゆうびんばこ ]
     shortcodes: [ mailbox_with_mail ]
     en: open mailbox with raised flag
     since: "0.7"
@@ -2076,6 +2199,7 @@ emoji:
       - ゆうびんうけ
       - ぽすと
       - てがみなし
+    ime_readings: [ ひらいた, ひらいたゆうびんうけ, ゆうびんばこ ]
     shortcodes: [ mailbox_with_no_mail ]
     en: open mailbox with lowered flag
     since: "0.7"
@@ -2089,6 +2213,7 @@ emoji:
       - ぽすと
       - ゆうびん
       - てがみ
+    ime_readings: [ ゆうびんばこ ]
     shortcodes: [ postbox ]
     en: postbox
     since: "0.6"
@@ -2113,6 +2238,7 @@ emoji:
       - えんぴつ
       - ぶんぼうぐ
       - かく
+    ime_readings: [ ぶんぐ ]
     shortcodes: [ pencil2 ]
     en: pencil
     since: "0.6"
@@ -2125,6 +2251,7 @@ emoji:
       - ぺんさき
       - まんねんひつ
       - ぺん
+    ime_readings: [ えでぃっと, ぶんぐ, ぶんぼうぐ ]
     shortcodes: [ black_nib ]
     en: black nib
     since: "0.6"
@@ -2137,6 +2264,7 @@ emoji:
       - まんねんひつ
       - ぺん
       - ぶんぼうぐ
+    ime_readings: [ ぶんぐ ]
     shortcodes: [ lower_left_fountain_pen ]
     en: fountain pen
     since: "0.7"
@@ -2149,6 +2277,7 @@ emoji:
       - ぺん
       - ぼーるぺん
       - ぶんぼうぐ
+    ime_readings: [ ぶんぐ ]
     shortcodes: [ lower_left_ballpoint_pen ]
     en: pen
     since: "0.7"
@@ -2163,6 +2292,7 @@ emoji:
       - えのぐ
       - ぶらし
       - おえかき
+    ime_readings: [ ぶんぐ, ぶんぼうぐ ]
     shortcodes: [ lower_left_paintbrush ]
     en: paintbrush
     since: "0.7"
@@ -2175,6 +2305,7 @@ emoji:
       - くれよん
       - おえかき
       - ぶんぼうぐ
+    ime_readings: [ ぶんぐ ]
     shortcodes: [ lower_left_crayon ]
     en: crayon
     since: "0.7"
@@ -2189,6 +2320,7 @@ emoji:
       - めもする
       - かきこみ
       - ひっき
+    ime_readings: [ えんぴつ, かみとえんぴつ, ぶんぐ, ぶんぼうぐ ]
     shortcodes: [ memo, pencil ]
     en: memo
     since: "0.6"
@@ -2228,6 +2360,7 @@ emoji:
       - ふぉるだー
       - ふぉるだ
       - ふぁいる
+    ime_readings: [ ぶんぐ, ぶんぼうぐ ]
     shortcodes: [ file_folder ]
     en: file folder
     since: "0.6"
@@ -2241,6 +2374,7 @@ emoji:
       - ふぉるだー
       - ふぁいる
       - ひらく
+    ime_readings: [ ぶんぐ, ぶんぼうぐ ]
     shortcodes: [ open_file_folder ]
     en: open file folder
     since: "0.6"
@@ -2254,6 +2388,7 @@ emoji:
       - いんでっくす
       - ふぉるだー
       - ぶんるい
+    ime_readings: [ ぶんぐ, ぶんぼうぐ ]
     shortcodes: [ card_index_dividers ]
     en: card index dividers
     since: "0.7"
@@ -2281,6 +2416,7 @@ emoji:
       - かれんだー
       - ひづけ
       - よてい
+    ime_readings: [ すけじゅーる ]
     shortcodes: [ calendar ]
     en: tear-off calendar
     since: "0.6"
@@ -2294,6 +2430,7 @@ emoji:
       - めも
       - りんぐめも
       - のーと
+    ime_readings: [ ぶんぐ, ぶんぼうぐ ]
     shortcodes: [ spiral_note_pad ]
     en: spiral notepad
     since: "0.7"
@@ -2307,6 +2444,7 @@ emoji:
       - かれんだー
       - すけじゅーる
       - よてい
+    ime_readings: [ ひづけ ]
     shortcodes: [ spiral_calendar_pad ]
     en: spiral calendar
     since: "0.7"
@@ -2320,6 +2458,7 @@ emoji:
       - めいしいれ
       - めいし
       - いんでっくす
+    ime_readings: [ ぶんぐ, ぶんぼうぐ, めいしほるだー, ろーろでっくす ]
     shortcodes: [ card_index ]
     en: card index
     since: "0.6"
@@ -2335,6 +2474,7 @@ emoji:
       - せいちょう
       - ぐらふ
       - ちゃーと
+    ime_readings: [ うえむき, うわむき, おれせんぐらふ, ぐらふうえむき, でーた ]
     shortcodes: [ chart_with_upwards_trend ]
     en: chart increasing
     since: "0.6"
@@ -2350,6 +2490,7 @@ emoji:
       - げらく
       - ぐらふ
       - ちゃーと
+    ime_readings: [ おれせんぐらふ, したむき, でーた ]
     shortcodes: [ chart_with_downwards_trend ]
     en: chart decreasing
     since: "0.6"
@@ -2377,6 +2518,7 @@ emoji:
       - ばいんだー
       - めも
       - ちぇっくりすと
+    ime_readings: [ くりっぷ, ぶんぐ, ぶんぼうぐ ]
     shortcodes: [ clipboard ]
     en: clipboard
     since: "0.6"
@@ -2389,6 +2531,7 @@ emoji:
       - おしぴん
       - がびょう
       - ぴん
+    ime_readings: [ ぶんぐ, ぶんぼうぐ, ぷっしゅぴん ]
     shortcodes: [ pushpin ]
     en: pushpin
     since: "0.6"
@@ -2404,6 +2547,7 @@ emoji:
       - ばしょ
       - ちず
       - がびょう
+    ime_readings: [ おしぴん, ぶんぐ, ぶんぼうぐ, ぷっしゅぴん ]
     shortcodes: [ round_pushpin ]
     en: round pushpin
     since: "0.6"
@@ -2417,6 +2561,7 @@ emoji:
       - ぜむくりっぷ
       - ぺーぱーくりっぷ
       - てんぷ
+    ime_readings: [ かみくりっぷ, ぶんぐ, ぶんぼうぐ ]
     shortcodes: [ paperclip ]
     en: paperclip
     since: "0.6"
@@ -2430,6 +2575,7 @@ emoji:
       - くりっぷ
       - ぺーぱーくりっぷ
       - りんく
+    ime_readings: [ かみくりっぷ, ぶんぐ, ぶんぼうぐ ]
     shortcodes: [ linked_paperclips ]
     en: linked paperclips
     since: "0.7"
@@ -2442,6 +2588,7 @@ emoji:
       - じょうぎ
       - ものさし
       - さし
+    ime_readings: [ ちょくじょうぎ, ぶんぐ, ぶんぼうぐ ]
     shortcodes: [ straight_ruler ]
     en: straight ruler
     since: "0.6"
@@ -2454,6 +2601,7 @@ emoji:
       - さんかくじょうぎ
       - じょうぎ
       - さんかく
+    ime_readings: [ ぶんぐ, ぶんぼうぐ ]
     shortcodes: [ triangular_ruler ]
     en: triangular ruler
     since: "0.6"
@@ -2467,6 +2615,7 @@ emoji:
       - きる
       - かっと
       - ちょきちょき
+    ime_readings: [ びよういん, ぶんぐ, ぶんぼうぐ ]
     shortcodes: [ scissors ]
     en: scissors
     since: "0.6"
@@ -2480,6 +2629,7 @@ emoji:
       - ふぁいるぼっくす
       - はこ
       - ふぁいる
+    ime_readings: [ かーど, ぶんぐ, ぶんぼうぐ, ぼっくす ]
     shortcodes: [ card_file_box ]
     en: card file box
     since: "0.7"
@@ -2493,6 +2643,7 @@ emoji:
       - きゃびねっと
       - ひきだし
       - しょるいだな
+    ime_readings: [ ふぁいる ]
     shortcodes: [ file_cabinet ]
     en: file cabinet
     since: "0.7"
@@ -2507,6 +2658,7 @@ emoji:
       - ごみ
       - すてる
       - とらっしゅ
+    ime_readings: [ ごみかご ]
     shortcodes: [ wastebasket ]
     en: wastebasket
     since: "0.7"
@@ -2522,6 +2674,7 @@ emoji:
       - せじょう
       - なんきんじょう
       - ひみつ
+    ime_readings: [ じょう, ろっくおん ]
     shortcodes: [ lock ]
     en: locked
     since: "0.6"
@@ -2536,6 +2689,7 @@ emoji:
       - かいじょう
       - かぎ
       - なんきんじょう
+    ime_readings: [ じょう, ろっく, ろっくおふ ]
     shortcodes: [ unlock ]
     en: unlocked
     since: "0.6"
@@ -2567,6 +2721,7 @@ emoji:
       - なんきんじょう
       - あんぜん
       - きー
+    ime_readings: [ じょう, ろっくかくにん ]
     shortcodes: [ closed_lock_with_key ]
     en: locked with key
     since: "0.6"
@@ -2596,6 +2751,7 @@ emoji:
       - てがかり
       - あんてぃーくきー
       - ひみつ
+    ime_readings: [ ぱすわーど ]
     shortcodes: [ old_key ]
     en: old key
     since: "0.7"
@@ -2638,6 +2794,7 @@ emoji:
       - まきわり
       - ておの
       - はちぇっと
+    ime_readings: [ き, こうぐ ]
     shortcodes: [ axe ]
     en: axe
     since: "12.0"
@@ -2666,6 +2823,7 @@ emoji:
       - つるはし
       - こうぐ
       - さいくつ
+    ime_readings: [ とんかち, はんまー ]
     shortcodes: [ hammer_and_pick ]
     en: hammer and pick
     since: "1.0"
@@ -2682,6 +2840,7 @@ emoji:
       - しゅうり
       - せってい
       - ついーる
+    ime_readings: [ かなづち, とんかち ]
     shortcodes: [ hammer_and_wrench ]
     en: hammer and wrench
     since: "0.7"
@@ -2712,6 +2871,7 @@ emoji:
       - たたかい
       - けっとう
       - ちゃんばら
+    ime_readings: [ ぶき ]
     shortcodes: [ crossed_swords ]
     en: crossed swords
     since: "1.0"
@@ -2739,6 +2899,7 @@ emoji:
       - おーすとらりあ
       - はねかえり
       - ぶーめらんはつげん
+    ime_readings: [ おもちゃ, かえってくる, がんぐ, ぶき ]
     shortcodes: [ boomerang ]
     en: boomerang
     since: "13.0"
@@ -2754,6 +2915,7 @@ emoji:
       - いてざ
       - あーちぇりー
       - きゅうどう
+    ime_readings: [ しゃしゅ, せいざ, ぶき ]
     shortcodes: [ bow_and_arrow ]
     en: bow and arrow
     since: "1.0"
@@ -2782,6 +2944,7 @@ emoji:
       - だいく
       - もっこう
       - きる
+    ime_readings: [ こうぐ, は ]
     shortcodes: [ carpentry_saw ]
     en: carpentry saw
     since: "13.0"
@@ -2836,6 +2999,7 @@ emoji:
       - ぎあ
       - せってい
       - きかい
+    ime_readings: [ こうぐ ]
     shortcodes: [ gear ]
     en: gear
     since: "1.0"
@@ -2866,6 +3030,7 @@ emoji:
       - ほう
       - さいばん
       - こうへい
+    ime_readings: [ かがく, じっけん, せいざ ]
     shortcodes: [ scales ]
     en: balance scale
     since: "1.0"
@@ -2880,6 +3045,7 @@ emoji:
       - つえ
       - しかくしょうがい
       - もうじんよう
+    ime_readings: [ あくせしびりてぃ, しかく, しょうがい ]
     shortcodes: [ probing_cane ]
     en: white cane
     since: "12.0"
@@ -2894,6 +3060,7 @@ emoji:
       - つながり
       - れんけつ
       - ゆーあーるえる
+    ime_readings: [ たまき, りんくしんぼる ]
     shortcodes: [ link ]
     en: link
     since: "0.6"
@@ -2908,6 +3075,7 @@ emoji:
       - ちぇーん
       - かいほう
       - じゆう
+    ime_readings: [ こわれた ]
     shortcodes: [ broken_chain ]
     en: broken chain
     since: "15.1"
@@ -2934,6 +3102,7 @@ emoji:
       - ひっかけ
       - かけがね
       - とめがね
+    ime_readings: [ かけきん ]
     shortcodes: [ hook ]
     en: hook
     since: "13.0"
@@ -2948,6 +3117,7 @@ emoji:
       - つーるぼっくす
       - こうぐ
       - せいび
+    ime_readings: [ あかいはこ, きかいこう, せいびし, はこ, めかにっく ]
     shortcodes: [ toolbox ]
     en: toolbox
     since: "11.0"
@@ -2961,6 +3131,7 @@ emoji:
       - じしゃく
       - まぐねっと
       - ひきつける
+    ime_readings: [ せいふ, ていてつ ]
     shortcodes: [ magnet ]
     en: magnet
     since: "11.0"
@@ -2974,6 +3145,7 @@ emoji:
       - らだー
       - のぼる
       - きゃたつ
+    ime_readings: [ こうしょさぎょう, すてっぱー ]
     shortcodes: [ ladder ]
     en: ladder
     since: "13.0"
@@ -2988,6 +3160,7 @@ emoji:
       - しょべる
       - ほる
       - あなほり
+    ime_readings: [ あな, すき ]
     shortcodes: [ shovel ]
     en: shovel
     since: "16.0"
@@ -3031,6 +3204,7 @@ emoji:
       - ばくてりあ
       - さいきん
       - せいぶつがく
+    ime_readings: [ じっけん, せいぶつがくしゃ, ぺとりさら ]
     shortcodes: [ petri_dish ]
     en: petri dish
     since: "11.0"
@@ -3046,6 +3220,7 @@ emoji:
       - にじゅうらせん
       - せいぶつがく
       - しんか
+    ime_readings: [ dna, せいぶつがくしゃ, せいめい ]
     shortcodes: [ dna ]
     en: dna
     since: "11.0"
@@ -3060,6 +3235,7 @@ emoji:
       - けんきゅう
       - かがく
       - みくろ
+    ime_readings: [ さいえんす ]
     shortcodes: [ microscope ]
     en: microscope
     since: "1.0"
@@ -3074,6 +3250,7 @@ emoji:
       - かんそく
       - うちゅう
       - てんもん
+    ime_readings: [ かがく, さいえんす ]
     shortcodes: [ telescope ]
     en: telescope
     since: "1.0"
@@ -3088,6 +3265,7 @@ emoji:
       - えいせいあんてな
       - でんぱ
       - つうしん
+    ime_readings: [ かがく, ぱらぼら ]
     shortcodes: [ satellite_antenna ]
     en: satellite antenna
     since: "0.6"
@@ -3102,6 +3280,7 @@ emoji:
       - よぼうせっしゅ
       - わくちん
       - はり
+    ime_readings: [ いしゃ, いりょうきぐ, くすり, びょうき ]
     shortcodes: [ syringe ]
     en: syringe
     since: "0.6"
@@ -3117,6 +3296,7 @@ emoji:
       - しゅっけつ
       - けんけつ
       - せいり
+    ime_readings: [ いしゃ, いりょう, けが ]
     shortcodes: [ drop_of_blood ]
     en: drop of blood
     since: "12.0"
@@ -3132,6 +3312,7 @@ emoji:
       - さぷり
       - びたみんざい
       - ぴる
+    ime_readings: [ いしゃ, かぜぐすり, びょうき ]
     shortcodes: [ pill ]
     en: pill
     since: "0.6"
@@ -3146,6 +3327,7 @@ emoji:
       - けが
       - てあて
       - きず
+    ime_readings: [ くすり ]
     shortcodes: [ adhesive_bandage ]
     en: adhesive bandage
     since: "12.0"
@@ -3159,6 +3341,7 @@ emoji:
       - つえ
       - けが
       - こっせつ
+    ime_readings: [ しょうがい, すてっき, ほこうほじょ ]
     shortcodes: [ crutch ]
     en: crutch
     since: "14.0"
@@ -3173,6 +3356,7 @@ emoji:
       - いりょう
       - しんさつ
       - けんしん
+    ime_readings: [ しんぞう, びょうき ]
     shortcodes: [ stethoscope ]
     en: stethoscope
     since: "12.0"
@@ -3187,6 +3371,7 @@ emoji:
       - ほね
       - こっかく
       - けんさ
+    ime_readings: [ いしゃ ]
     shortcodes: [ x-ray ]
     en: x-ray
     since: "14.0"
@@ -3214,6 +3399,7 @@ emoji:
       - しょうこうき
       - りふと
       - ばりあふりー
+    ime_readings: [ あくせしびりてぃ ]
     shortcodes: [ elevator ]
     en: elevator
     since: "13.0"
@@ -3228,6 +3414,7 @@ emoji:
       - すがたみ
       - はんしゃ
       - みだしなみ
+    ime_readings: [ めーく ]
     shortcodes: [ mirror ]
     en: mirror
     since: "13.0"
@@ -3241,6 +3428,7 @@ emoji:
       - うぃんどう
       - かんき
       - まどがらす
+    ime_readings: [ あける, ながめ, ふれーむ ]
     shortcodes: [ window ]
     en: window
     since: "13.0"
@@ -3271,6 +3459,7 @@ emoji:
       - らんぷ
       - いま
       - りびんぐ
+    ime_readings: [ ほてる ]
     shortcodes: [ couch_and_lamp ]
     en: couch and lamp
     since: "0.7"
@@ -3285,6 +3474,7 @@ emoji:
       - こしかけ
       - かぐ
       - せき
+    ime_readings: [ しーと ]
     shortcodes: [ chair ]
     en: chair
     since: "12.0"
@@ -3313,6 +3503,7 @@ emoji:
       - ぷらんじゃー
       - つまり
       - といれ
+    ime_readings: [ きゅういんかっぷ, つうすいかっぷ ]
     shortcodes: [ plunger ]
     en: plunger
     since: "13.0"
@@ -3355,6 +3546,7 @@ emoji:
       - まうすとらっぷ
       - しかけ
       - ちーず
+    ime_readings: [ おびきよせる, ばね ]
     shortcodes: [ mouse_trap ]
     en: mouse trap
     since: "13.0"
@@ -3369,6 +3561,7 @@ emoji:
       - れざー
       - かみそりのは
       - するどい
+    ime_readings: [ は, はもの, れーざー ]
     shortcodes: [ razor ]
     en: razor
     since: "12.0"
@@ -3384,6 +3577,7 @@ emoji:
       - ひやけどめ
       - にゅうえき
       - ぼとる
+    ime_readings: [ ろーしょんぼとる ]
     shortcodes: [ lotion_bottle ]
     en: lotion bottle
     since: "11.0"
@@ -3423,6 +3617,7 @@ emoji:
       - せんたくかご
       - ぴくにっく
       - しゅうかく
+    ime_readings: [ せんたく ]
     shortcodes: [ basket ]
     en: basket
     since: "11.0"
@@ -3437,6 +3632,7 @@ emoji:
       - きっちんぺーぱー
       - かみ
       - ぺーぱー
+    ime_readings: [ ぺーぱーたおる ]
     shortcodes: [ roll_of_paper ]
     en: roll of paper
     since: "11.0"
@@ -3464,6 +3660,7 @@ emoji:
       - あわ
       - せいけつ
       - てあらい
+    ime_readings: [ ふろ ]
     shortcodes: [ soap ]
     en: soap
     since: "11.0"
@@ -3478,6 +3675,7 @@ emoji:
       - ばぶる
       - あぶく
       - ぶくぶく
+    ime_readings: [ すいちゅう, せっけん ]
     shortcodes: [ bubbles ]
     en: bubbles
     since: "14.0"
@@ -3492,6 +3690,7 @@ emoji:
       - ぶらし
       - むしば
       - ようじ
+    ime_readings: [ えいせい, おていれ, せんめんじょ ]
     shortcodes: [ toothbrush ]
     en: toothbrush
     since: "13.0"
@@ -3505,6 +3704,7 @@ emoji:
       - かいめん
       - そうじ
       - あらいもの
+    ime_readings: [ きゅうしゅう ]
     shortcodes: [ sponge ]
     en: sponge
     since: "11.0"
@@ -3518,6 +3718,7 @@ emoji:
       - しょうか
       - かじ
       - しょうぼう
+    ime_readings: [ しょうかきぐ ]
     shortcodes: [ fire_extinguisher ]
     en: fire extinguisher
     since: "11.0"
@@ -3561,6 +3762,7 @@ emoji:
       - し
       - まいそう
       - きゅうけつき
+    ime_readings: [ ししゃ ]
     shortcodes: [ coffin ]
     en: coffin
     since: "1.0"
@@ -3577,6 +3779,7 @@ emoji:
       - まいそう
       - ついとう
       - りっぷ
+    ime_readings: [ せきひ, はかば, ぼせき ]
     shortcodes: [ headstone ]
     en: headstone
     since: "13.0"
@@ -3591,6 +3794,7 @@ emoji:
       - いはい
       - そうぎ
       - まいそう
+    ime_readings: [ し ]
     shortcodes: [ funeral_urn ]
     en: funeral urn
     since: "1.0"
@@ -3606,6 +3810,7 @@ emoji:
       - まよけ
       - じゃし
       - あおいめ
+    ime_readings: [ あお, びーず ]
     shortcodes: [ nazar_amulet ]
     en: nazar amulet
     since: "11.0"
@@ -3620,6 +3825,7 @@ emoji:
       - ごふ
       - ふぁーてぃまのて
       - まよけ
+    ime_readings: [ て, ふぁーてぃま, みりあむ, め ]
     shortcodes: [ hamsa ]
     en: hamsa
     since: "14.0"
@@ -3634,6 +3840,7 @@ emoji:
       - せきぞう
       - いーすたーとう
       - むひょうじょう
+    ime_readings: [ かお, ぞう ]
     shortcodes: [ moyai ]
     en: moai
     since: "0.6"
@@ -3648,6 +3855,7 @@ emoji:
       - こうぎ
       - かんばん
       - しゅちょう
+    ime_readings: [ いぎ ]
     shortcodes: [ placard ]
     en: placard
     since: "13.0"
@@ -3663,6 +3871,7 @@ emoji:
       - めんきょしょう
       - うんてんめんきょしょう
       - しゃいんしょう
+    ime_readings: [ せきゅりてぃ ]
     shortcodes: [ identification_card ]
     en: identification card
     since: "14.0"

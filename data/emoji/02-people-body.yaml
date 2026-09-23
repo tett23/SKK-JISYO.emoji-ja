@@ -1,10 +1,12 @@
 # SKK-JISYO.emoji-ja source data (edit this file, then run the build task).
-#   name:       annotation shown in SKK (Japanese name; no "/" or ";")
-#   readings:   SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
-#   shortcodes: emoji shortcodes (":thumbsup:" without colons), registered as headwords.
-#               Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
-#   review:     true if added automatically by the update task; remove after checking the readings
-# Other fields are refreshed from Unicode/CLDR by the update task.
+#   name:         annotation shown in SKK (Japanese name; no "/" or ";")
+#   readings:     SKK headwords, most important first (hiragana/ー, digits+hiragana, or lowercase ASCII)
+#   ime_readings: readings from Mozc (Google Japanese Input), refreshed by the update task.
+#                 Ranked after "readings"; copy a reading to "readings" to rank it higher
+#   shortcodes:   emoji shortcodes (":thumbsup:" without colons), registered as headwords.
+#                 Refreshed from iamcal/emoji-data; hand-written ones are kept only while emoji-data has none
+#   review:       true if added automatically by the update task; remove after checking the readings
+# Other fields are refreshed from Unicode/CLDR/Mozc by the update task.
 
 group: People & Body
 emoji:
@@ -20,6 +22,7 @@ emoji:
       - あいさつ
       - やあ
       - おーい
+    ime_readings: [ さよなら, て ]
     shortcodes: [ wave ]
     en: waving hand
     since: "0.6"
@@ -65,6 +68,7 @@ emoji:
       - すとっぷ
       - はい
       - はいたっち
+    ime_readings: [ "5", てのひら ]
     shortcodes: [ hand, raised_hand ]
     en: raised hand
     since: "0.6"
@@ -79,6 +83,7 @@ emoji:
       - ばるかんさいん
       - すたーとれっく
       - すぽっく
+    ime_readings: [ て, ばるかんじん ]
     shortcodes: [ spock-hand ]
     en: vulcan salute
     since: "1.0"
@@ -94,6 +99,7 @@ emoji:
       - あくしゅ
       - て
       - みぎ
+    ime_readings: [ ほうこう, みぎがわ ]
     shortcodes: [ rightwards_hand ]
     en: rightwards hand
     since: "14.0"
@@ -109,6 +115,7 @@ emoji:
       - あくしゅ
       - て
       - ひだり
+    ime_readings: [ ひだりがわ, ほうこう ]
     shortcodes: [ leftwards_hand ]
     en: leftwards hand
     since: "14.0"
@@ -124,6 +131,7 @@ emoji:
       - ひろう
       - しっしっ
       - て
+    ime_readings: [ した ]
     shortcodes: [ palm_down_hand ]
     en: palm down hand
     since: "14.0"
@@ -140,6 +148,7 @@ emoji:
       - さしだす
       - どうぞ
       - て
+    ime_readings: [ うえ, うける ]
     shortcodes: [ palm_up_hand ]
     en: palm up hand
     since: "14.0"
@@ -157,6 +166,7 @@ emoji:
       - おす
       - ことわる
       - はいたっち
+    ime_readings: [ て, とまれ, まて ]
     shortcodes: [ leftwards_pushing_hand ]
     en: leftwards pushing hand
     since: "15.0"
@@ -174,6 +184,7 @@ emoji:
       - おす
       - ことわる
       - はいたっち
+    ime_readings: [ て, とまれ, まて ]
     shortcodes: [ rightwards_pushing_hand ]
     en: rightwards pushing hand
     since: "15.0"
@@ -190,6 +201,7 @@ emoji:
       - おっけー
       - りょうかい
       - かんぺき
+    ime_readings: [ つまむ, て ]
     shortcodes: [ ok_hand ]
     en: OK hand
     since: "0.6"
@@ -205,6 +217,7 @@ emoji:
       - いたりあ
       - じぇすちゃー
       - なんでやねん
+    ime_readings: [ すぼめる, て, ゆび ]
     shortcodes: [ pinched_fingers ]
     en: pinched fingers
     since: "13.0"
@@ -220,6 +233,7 @@ emoji:
       - すこしだけ
       - ちょびっと
       - つまむ
+    ime_readings: [ て, ゆび ]
     shortcodes: [ pinching_hand ]
     en: pinching hand
     since: "12.0"
@@ -236,6 +250,7 @@ emoji:
       - いえーい
       - しょうり
       - ぴーすさいん
+    ime_readings: [ て, ゆび ]
     shortcodes: [ v ]
     en: victory hand
     since: "0.6"
@@ -252,6 +267,7 @@ emoji:
       - ねがい
       - ぐっどらっく
       - うまくいきますように
+    ime_readings: [ て, ゆび ]
     shortcodes: [ crossed_fingers, hand_with_index_and_middle_fingers_crossed ]
     en: crossed fingers
     since: "3.0"
@@ -268,6 +284,7 @@ emoji:
       - きゅん
       - おかね
       - ゆびをくろす
+    ime_readings: [ あい, て, ゆび ]
     shortcodes: [ hand_with_index_finger_and_thumb_crossed ]
     en: hand with index finger and thumb crossed
     since: "14.0"
@@ -282,6 +299,7 @@ emoji:
       - あいしてる
       - らぶ
       - だいすき
+    ime_readings: [ て ]
     shortcodes: [ i_love_you_hand_sign ]
     en: love-you gesture
     since: "5.0"
@@ -298,6 +316,7 @@ emoji:
       - へびめた
       - きつね
       - めたる
+    ime_readings: [ て, ひとさしゆびとこゆびをたてたて, ろっくおん ]
     shortcodes: [ the_horns, sign_of_the_horns ]
     en: sign of the horns
     since: "1.0"
@@ -313,6 +332,7 @@ emoji:
       - しゃか
       - あろは
       - でんわ
+    ime_readings: [ て, でんわのじぇすちゃー ]
     shortcodes: [ call_me_hand ]
     en: call me hand
     since: "3.0"
@@ -328,6 +348,7 @@ emoji:
       - ひだり
       - こっち
       - ひだりむき
+    ime_readings: [ て, やじるし, ゆび, ゆびさす ]
     shortcodes: [ point_left ]
     en: backhand index pointing left
     since: "0.6"
@@ -343,6 +364,7 @@ emoji:
       - みぎ
       - こっち
       - みぎむき
+    ime_readings: [ て, やじるし, ゆび, ゆびさす ]
     shortcodes: [ point_right ]
     en: backhand index pointing right
     since: "0.6"
@@ -359,6 +381,7 @@ emoji:
       - こっち
       - うえをさす
       - ゆび
+    ime_readings: [ て, てのこううえゆびさし, てのこうじょうゆびさし, やじるし, ゆびさす ]
     shortcodes: [ point_up_2 ]
     en: backhand index pointing up
     since: "0.6"
@@ -375,6 +398,7 @@ emoji:
       - ふぁっきゅー
       - くたばれ
       - ちゅうし
+    ime_readings: [ うえ, て, ゆび, ゆびさし ]
     shortcodes: [ middle_finger, reversed_hand_with_middle_finger_extended ]
     en: middle finger
     since: "1.0"
@@ -391,6 +415,7 @@ emoji:
       - したをさす
       - ゆび
       - こちら
+    ime_readings: [ て, やじるし, ゆびさす ]
     shortcodes: [ point_down ]
     en: backhand index pointing down
     since: "0.6"
@@ -408,6 +433,7 @@ emoji:
       - いち
       - ちょっといい
       - ぽいんと
+    ime_readings: [ て ]
     shortcodes: [ point_up ]
     en: index pointing up
     since: "0.6"
@@ -425,6 +451,7 @@ emoji:
       - ゆびさし
       - してき
       - あなた
+    ime_readings: [ て, ゆび ]
     shortcodes: [ index_pointing_at_the_viewer ]
     en: index pointing at the viewer
     since: "14.0"
@@ -443,6 +470,7 @@ emoji:
       - りょうかい
       - おやゆび
       - ok
+    ime_readings: [ うえ, おやゆびさいん, さむあっぷ, て ]
     shortcodes: [ "+1", thumbsup ]
     en: thumbs up
     since: "0.6"
@@ -460,6 +488,7 @@ emoji:
       - ぼつ
       - ばっど
       - ng
+    ime_readings: [ えぬじー, した, て ]
     shortcodes: [ "-1", thumbsdown ]
     en: thumbs down
     since: "0.6"
@@ -504,6 +533,7 @@ emoji:
       - にぎりこぶし
       - がんばる
       - ふぁいと
+    ime_readings: [ あげたこぶし, て ]
     shortcodes: [ fist ]
     en: raised fist
     since: "0.6"
@@ -520,6 +550,7 @@ emoji:
       - こぶし
       - なぐる
       - ぐーぱんち
+    ime_readings: [ て ]
     shortcodes: [ facepunch, punch ]
     en: oncoming fist
     since: "0.6"
@@ -535,6 +566,7 @@ emoji:
       - ぱんち
       - ぐーたっち
       - ふぃすとばんぷ
+    ime_readings: [ て, ひだり ]
     shortcodes: [ left-facing_fist ]
     en: left-facing fist
     since: "3.0"
@@ -550,6 +582,7 @@ emoji:
       - ぱんち
       - ぐーたっち
       - ふぃすとばんぷ
+    ime_readings: [ て, みぎ ]
     shortcodes: [ right-facing_fist ]
     en: right-facing fist
     since: "3.0"
@@ -566,6 +599,7 @@ emoji:
       - てをたたく
       - すばらしい
       - くらっぷ
+    ime_readings: [ て ]
     shortcodes: [ clap ]
     en: clapping hands
     since: "0.6"
@@ -582,6 +616,7 @@ emoji:
       - よろこび
       - りょうて
       - てをあげる
+    ime_readings: [ じぇすちゃー, て ]
     shortcodes: [ raised_hands ]
     en: raising hands
     since: "0.6"
@@ -599,6 +634,7 @@ emoji:
       - らぶ
       - あい
       - すき
+    ime_readings: [ て ]
     shortcodes: [ heart_hands ]
     en: heart hands
     since: "14.0"
@@ -614,6 +650,7 @@ emoji:
       - てのひら
       - ひらいたりょうて
       - はぐ
+    ime_readings: [ て ]
     shortcodes: [ open_hands ]
     en: open hands
     since: "0.6"
@@ -630,6 +667,7 @@ emoji:
       - すくう
       - おねがい
       - りょうて
+    ime_readings: [ つつむて, て ]
     shortcodes: [ palms_up_together ]
     en: palms up together
     since: "5.0"
@@ -647,6 +685,7 @@ emoji:
       - なかなおり
       - きょうりょく
       - しぇいくはんど
+    ime_readings: [ けいやくせいりつ, て ]
     shortcodes: [ handshake ]
     en: handshake
     since: "3.0"
@@ -665,6 +704,7 @@ emoji:
       - おがむ
       - がっしょう
       - たのむ
+    ime_readings: [ じぇすちゃー, て, はいたっち, りょうて ]
     shortcodes: [ pray ]
     en: folded hands
     since: "0.6"
@@ -681,6 +721,7 @@ emoji:
       - きにゅう
       - さいん
       - めも
+    ime_readings: [ て, てでかく ]
     shortcodes: [ writing_hand ]
     en: writing hand
     since: "0.7"
@@ -731,6 +772,7 @@ emoji:
       - がんばる
       - うで
       - つよい
+    ime_readings: [ ぼでぃびる ]
     shortcodes: [ muscle ]
     en: flexed biceps
     since: "0.6"
@@ -746,6 +788,7 @@ emoji:
       - めかあーむ
       - ろぼっとあーむ
       - さいぼーぐ
+    ime_readings: [ あくせしびりてぃ, うで, じんこうそうぐ, て ]
     shortcodes: [ mechanical_arm ]
     en: mechanical arm
     since: "12.0"
@@ -760,6 +803,7 @@ emoji:
       - めかれっぐ
       - ろぼっと
       - さいぼーぐ
+    ime_readings: [ あくせしびりてぃ, あし, じんこうそうぐ ]
     shortcodes: [ mechanical_leg ]
     en: mechanical leg
     since: "12.0"
@@ -774,6 +818,7 @@ emoji:
       - きっく
       - れっぐ
       - けり
+    ime_readings: [ まげたあし ]
     shortcodes: [ leg ]
     en: leg
     since: "11.0"
@@ -790,6 +835,7 @@ emoji:
       - ふみつける
       - ふっと
       - あしのうら
+    ime_readings: [ きっく, だんす ]
     shortcodes: [ foot ]
     en: foot
     since: "11.0"
@@ -805,6 +851,7 @@ emoji:
       - ききみみ
       - いやー
       - ちょうかく
+    ime_readings: [ かお, からだ ]
     shortcodes: [ ear ]
     en: ear
     since: "0.6"
@@ -820,6 +867,7 @@ emoji:
       - なんちょう
       - みみ
       - ちょうかく
+    ime_readings: [ あくせしびりてぃ ]
     shortcodes: [ ear_with_hearing_aid ]
     en: ear with hearing aid
     since: "12.0"
@@ -834,6 +882,7 @@ emoji:
       - におい
       - かぐ
       - のーず
+    ime_readings: [ かお, からだ ]
     shortcodes: [ nose ]
     en: nose
     since: "0.6"
@@ -866,6 +915,7 @@ emoji:
       - みゃく
       - はーと
       - どきどき
+    ime_readings: [ ぞうき ]
     shortcodes: [ anatomical_heart ]
     en: anatomical heart
     since: "13.0"
@@ -880,6 +930,7 @@ emoji:
       - いき
       - しんこきゅう
       - はいぞう
+    ime_readings: [ ぞうき ]
     shortcodes: [ lungs ]
     en: lungs
     since: "13.0"
@@ -907,6 +958,7 @@ emoji:
       - こっかく
       - がいこつ
       - ほねっこ
+    ime_readings: [ いぬ ]
     shortcodes: [ bone ]
     en: bone
     since: "11.0"
@@ -924,6 +976,7 @@ emoji:
       - りょうめ
       - めだま
       - ちら
+    ime_readings: [ うごくめだま, かお, からだ ]
     shortcodes: [ eyes ]
     en: eyes
     since: "0.6"
@@ -938,6 +991,7 @@ emoji:
       - ひとつめ
       - みる
       - がんきゅう
+    ime_readings: [ からだ ]
     shortcodes: [ eye ]
     en: eye
     since: "0.7"
@@ -952,6 +1006,7 @@ emoji:
       - べろ
       - あっかんべー
       - なめる
+    ime_readings: [ かお, からだ ]
     shortcodes: [ tongue ]
     en: tongue
     since: "0.6"
@@ -966,6 +1021,7 @@ emoji:
       - きす
       - ちゅー
       - りっぷ
+    ime_readings: [ かお, からだ ]
     shortcodes: [ lips ]
     en: mouth
     since: "0.6"
@@ -981,6 +1037,7 @@ emoji:
       - せくしー
       - ゆうわく
       - くちびる
+    ime_readings: [ くち, くやしさ, ちっ ]
     shortcodes: [ biting_lip ]
     en: biting lip
     since: "14.0"
@@ -996,6 +1053,7 @@ emoji:
       - にゅうじ
       - しんせいじ
       - ばぶ
+    ime_readings: [ かお, こども ]
     shortcodes: [ baby ]
     en: baby
     since: "0.6"
@@ -1011,6 +1069,7 @@ emoji:
       - ようじ
       - がき
       - こ
+    ime_readings: [ かお, ちゅうせいてき ]
     shortcodes: [ child ]
     en: child
     since: "5.0"
@@ -1027,6 +1086,7 @@ emoji:
       - ぼうや
       - ぼーい
       - だんし
+    ime_readings: [ かお ]
     shortcodes: [ boy ]
     en: boy
     since: "0.6"
@@ -1043,6 +1103,7 @@ emoji:
       - むすめ
       - がーる
       - じょし
+    ime_readings: [ おさげ, おんな, かお ]
     shortcodes: [ girl ]
     en: girl
     since: "0.6"
@@ -1058,6 +1119,7 @@ emoji:
       - せいじん
       - にんげん
       - ひとびと
+    ime_readings: [ かお, ちゅうせいてき ]
     shortcodes: [ adult ]
     en: person
     since: "5.0"
@@ -1072,6 +1134,7 @@ emoji:
       - きんぱつ
       - ぶろんど
       - ぱっきん
+    ime_readings: [ かお, にんげん, ひと ]
     shortcodes: [ person_with_blond_hair ]
     en: "person: blond hair"
     since: "0.6"
@@ -1087,6 +1150,7 @@ emoji:
       - おとこのひと
       - めんず
       - おっさん
+    ime_readings: [ おとな, かお ]
     shortcodes: [ man ]
     en: man
     since: "0.6"
@@ -1101,6 +1165,7 @@ emoji:
       - あごひげ
       - ひげ
       - ひげづら
+    ime_readings: [ あごひげのだんせい, かお, ひと ]
     shortcodes: [ bearded_person ]
     en: "person: beard"
     since: "5.0"
@@ -1116,6 +1181,7 @@ emoji:
       - ひげ
       - ひげづら
       - ひげのおとこ
+    ime_readings: [ おとこ, かお ]
     shortcodes: [ man_with_beard ]
     en: "man: beard"
     since: "13.1"
@@ -1130,6 +1196,7 @@ emoji:
       - あごひげ
       - ひげ
       - ひげのおんな
+    ime_readings: [ おんな, かお ]
     shortcodes: [ woman_with_beard ]
     en: "woman: beard"
     since: "13.1"
@@ -1144,6 +1211,7 @@ emoji:
       - あかげ
       - あかげのおとこ
       - れっどへあ
+    ime_readings: [ おとこ, おとな, かお, だんせい ]
     shortcodes: [ red_haired_man ]
     en: "man: red hair"
     since: "11.0"
@@ -1160,6 +1228,7 @@ emoji:
       - てんぱ
       - ぱーま
       - まきげのおとこ
+    ime_readings: [ おとこ, おとな, かお, だんせい ]
     shortcodes: [ curly_haired_man ]
     en: "man: curly hair"
     since: "11.0"
@@ -1175,6 +1244,7 @@ emoji:
       - はくはつ
       - ろまんすぐれー
       - しらがのおとこ
+    ime_readings: [ おとこ, おとな, かお, だんせい ]
     shortcodes: [ white_haired_man ]
     en: "man: white hair"
     since: "11.0"
@@ -1191,6 +1261,7 @@ emoji:
       - すきんへっど
       - ぼうず
       - つるつる
+    ime_readings: [ おとこ, おとな, かお, だんせい ]
     shortcodes: [ bald_man ]
     en: "man: bald"
     since: "11.0"
@@ -1206,6 +1277,7 @@ emoji:
       - おんなのひと
       - れでぃーす
       - ふじん
+    ime_readings: [ おとな, かお ]
     shortcodes: [ woman ]
     en: woman
     since: "0.6"
@@ -1220,6 +1292,7 @@ emoji:
       - あかげ
       - あかげのおんな
       - れっどへあ
+    ime_readings: [ おとな, おんな, かお, じょせい ]
     shortcodes: [ red_haired_woman ]
     en: "woman: red hair"
     since: "11.0"
@@ -1233,6 +1306,7 @@ emoji:
       - あかげのひと
       - あかげ
       - れっどへあ
+    ime_readings: [ おとな, かお, せいじん, ちゅうせいてき ]
     shortcodes: [ red_haired_person ]
     en: "person: red hair"
     since: "12.1"
@@ -1249,6 +1323,7 @@ emoji:
       - てんぱ
       - ぱーま
       - まきげのおんな
+    ime_readings: [ おとな, おんな, かお, じょせい ]
     shortcodes: [ curly_haired_woman ]
     en: "woman: curly hair"
     since: "11.0"
@@ -1264,6 +1339,7 @@ emoji:
       - くせげ
       - てんぱ
       - ぱーま
+    ime_readings: [ おとな, かお, せいじん, ちゅうせいてき ]
     shortcodes: [ curly_haired_person ]
     en: "person: curly hair"
     since: "12.1"
@@ -1279,6 +1355,7 @@ emoji:
       - はくはつ
       - しらがのおんな
       - ぐれいへあ
+    ime_readings: [ おとな, おんな, かお, じょせい ]
     shortcodes: [ white_haired_woman ]
     en: "woman: white hair"
     since: "11.0"
@@ -1293,6 +1370,7 @@ emoji:
       - しらが
       - はくはつ
       - ぐれいへあ
+    ime_readings: [ おとな, かお, せいじん, ちゅうせいてき ]
     shortcodes: [ white_haired_person ]
     en: "person: white hair"
     since: "12.1"
@@ -1308,6 +1386,7 @@ emoji:
       - はげあたま
       - すきんへっど
       - ぼうず
+    ime_readings: [ おとな, おんな, かお, じょせい ]
     shortcodes: [ bald_woman ]
     en: "woman: bald"
     since: "11.0"
@@ -1324,6 +1403,7 @@ emoji:
       - すきんへっど
       - ぼうず
       - つるつる
+    ime_readings: [ おとな, かお, せいじん, ちゅうせいてき ]
     shortcodes: [ bald_person ]
     en: "person: bald"
     since: "12.1"
@@ -1339,6 +1419,7 @@ emoji:
       - ぶろんど
       - ぱっきん
       - ぎゃる
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ blond-haired-woman ]
     en: "woman: blond hair"
     since: "4.0"
@@ -1353,6 +1434,7 @@ emoji:
       - きんぱつ
       - ぶろんど
       - ぱっきん
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ blond-haired-man ]
     en: "man: blond hair"
     since: "4.0"
@@ -1368,6 +1450,7 @@ emoji:
       - こうれいしゃ
       - しにあ
       - としより
+    ime_readings: [ おとな, かお, ちゅうせいてき ]
     shortcodes: [ older_adult ]
     en: older person
     since: "5.0"
@@ -1385,6 +1468,7 @@ emoji:
       - ろうじん
       - そふ
       - おとしより
+    ime_readings: [ うすげ, かお, こうれいしゃ, だんせい ]
     shortcodes: [ older_man ]
     en: old man
     since: "0.6"
@@ -1402,6 +1486,7 @@ emoji:
       - ろうじん
       - そぼ
       - おとしより
+    ime_readings: [ かお, こうれいしゃ, じょせい ]
     shortcodes: [ older_woman ]
     en: old woman
     since: "0.6"
@@ -1419,6 +1504,7 @@ emoji:
       - ふまん
       - しつぼう
       - ふきげん
+    ime_readings: [ きゃらくたー, しかめがお, むっとしているひと ]
     shortcodes: [ person_frowning ]
     en: person frowning
     since: "0.6"
@@ -1434,6 +1520,7 @@ emoji:
       - しかめっつら
       - むっ
       - ふまん
+    ime_readings: [ おとこ, しかめがお, だんせい, むっとしているおとこ ]
     shortcodes: [ man-frowning ]
     en: man frowning
     since: "4.0"
@@ -1449,6 +1536,7 @@ emoji:
       - しかめっつら
       - むっ
       - ふまん
+    ime_readings: [ おんな, しかめがお, じょせい ]
     shortcodes: [ woman-frowning ]
     en: woman frowning
     since: "4.0"
@@ -1465,6 +1553,7 @@ emoji:
       - ふくれっつら
       - むすっ
       - おこ
+    ime_readings: [ きゃらくたー, くちをとがらせたひと, けわしいひょうじょう, ふくれる ]
     shortcodes: [ person_with_pouting_face ]
     en: person pouting
     since: "0.6"
@@ -1480,6 +1569,7 @@ emoji:
       - ぷんぷん
       - ふくれっつら
       - むすっ
+    ime_readings: [ おとこ, くちをとがらせたおとこ, だんせい ]
     shortcodes: [ man-pouting ]
     en: man pouting
     since: "4.0"
@@ -1495,6 +1585,7 @@ emoji:
       - ぷんぷん
       - ふくれっつら
       - むすっ
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ woman-pouting ]
     en: woman pouting
     since: "4.0"
@@ -1513,6 +1604,7 @@ emoji:
       - えぬじー
       - ng
       - むり
+    ime_readings: [ きんしされた, じぇすちゃー, じょがい, ひと ]
     shortcodes: [ no_good ]
     en: person gesturing NO
     since: "0.6"
@@ -1529,6 +1621,7 @@ emoji:
       - きんし
       - えぬじー
       - ng
+    ime_readings: [ おとこ, じぇすちゃー, だんせい ]
     shortcodes: [ man-gesturing-no ]
     en: man gesturing NO
     since: "4.0"
@@ -1545,6 +1638,7 @@ emoji:
       - きんし
       - えぬじー
       - ng
+    ime_readings: [ おんな, じぇすちゃー, じょせい ]
     shortcodes: [ woman-gesturing-no ]
     en: woman gesturing NO
     since: "4.0"
@@ -1561,6 +1655,7 @@ emoji:
       - まる
       - いいよ
       - ok
+    ime_readings: [ えくささいず, じぇすちゃー, て, ひと, びっくり ]
     shortcodes: [ ok_woman ]
     en: person gesturing OK
     since: "0.6"
@@ -1577,6 +1672,7 @@ emoji:
       - まる
       - いいよ
       - ok
+    ime_readings: [ おとこ, じぇすちゃー, だんせい ]
     shortcodes: [ man-gesturing-ok ]
     en: man gesturing OK
     since: "4.0"
@@ -1593,6 +1689,7 @@ emoji:
       - まる
       - いいよ
       - ok
+    ime_readings: [ じぇすちゃー, じょせい ]
     shortcodes: [ woman-gesturing-ok ]
     en: woman gesturing OK
     since: "4.0"
@@ -1609,6 +1706,7 @@ emoji:
       - いんふぉめーしょん
       - どうぞ
       - かみをかきあげる
+    ime_readings: [ あんないするおんな, うけつけじょう, かみをふりはらう, ごしっぷ, じぇすちゃー, てをかえしているひと ]
     shortcodes: [ information_desk_person ]
     en: person tipping hand
     since: "0.6"
@@ -1623,6 +1721,7 @@ emoji:
       - あんない
       - うけつけ
       - どうぞ
+    ime_readings: [ おとこ, じぇすちゃー, だんせい ]
     shortcodes: [ man-tipping-hand ]
     en: man tipping hand
     since: "4.0"
@@ -1638,6 +1737,7 @@ emoji:
       - うけつけ
       - うけつけじょう
       - どうぞ
+    ime_readings: [ おんな, じぇすちゃー, じょせい ]
     shortcodes: [ woman-tipping-hand ]
     en: woman tipping hand
     since: "4.0"
@@ -1654,6 +1754,7 @@ emoji:
       - しつもん
       - てをあげる
       - はーい
+    ime_readings: [ じぇすちゃー, て, てをあげるじん, ひと, わかった ]
     shortcodes: [ raising_hand ]
     en: person raising hand
     since: "0.6"
@@ -1669,6 +1770,7 @@ emoji:
       - はい
       - しつもん
       - てをあげる
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ man-raising-hand ]
     en: man raising hand
     since: "4.0"
@@ -1684,6 +1786,7 @@ emoji:
       - はい
       - しつもん
       - てをあげる
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ woman-raising-hand ]
     en: woman raising hand
     since: "4.0"
@@ -1700,6 +1803,7 @@ emoji:
       - きこえない
       - ろう
       - しゅわ
+    ime_readings: [ あくせしびりてぃ, しょうがい, ちょうかく, ひと ]
     shortcodes: [ deaf_person ]
     en: deaf person
     since: "12.0"
@@ -1715,6 +1819,7 @@ emoji:
       - なんちょう
       - きこえない
       - しゅわ
+    ime_readings: [ あくせしびりてぃ, しょうがい, だんせい, ちょうかく ]
     shortcodes: [ deaf_man ]
     en: deaf man
     since: "12.0"
@@ -1730,6 +1835,7 @@ emoji:
       - なんちょう
       - きこえない
       - しゅわ
+    ime_readings: [ あくせしびりてぃ, しょうがい, じょせい, ちょうかく ]
     shortcodes: [ deaf_woman ]
     en: deaf woman
     since: "12.0"
@@ -1748,6 +1854,7 @@ emoji:
       - すみません
       - もうしわけない
       - おねがい
+    ime_readings: [ じぇすちゃー, ゆるして ]
     shortcodes: [ bow ]
     en: person bowing
     since: "0.6"
@@ -1764,6 +1871,7 @@ emoji:
       - しゃざい
       - ごめんなさい
       - すみません
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ man-bowing ]
     en: man bowing
     since: "4.0"
@@ -1780,6 +1888,7 @@ emoji:
       - しゃざい
       - ごめんなさい
       - すみません
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ woman-bowing ]
     en: woman bowing
     since: "4.0"
@@ -1797,6 +1906,7 @@ emoji:
       - うそでしょ
       - ふぇいすぱーむ
       - あきれる
+    ime_readings: [ しょっく, しんじられない, じぇすちゃー, ひたいにて, ひと ]
     shortcodes: [ face_palm ]
     en: person facepalming
     since: "3.0"
@@ -1813,6 +1923,7 @@ emoji:
       - またか
       - うそでしょ
       - ふぇいすぱーむ
+    ime_readings: [ おとこ, しょっく, しんじられない, じぇすちゃー, だんせい, ひたいにて ]
     shortcodes: [ man-facepalming ]
     en: man facepalming
     since: "4.0"
@@ -1829,6 +1940,7 @@ emoji:
       - またか
       - うそでしょ
       - ふぇいすぱーむ
+    ime_readings: [ おんな, しょっく, しんじられない, じぇすちゃー, じょせい, ひたいにて ]
     shortcodes: [ woman-facepalming ]
     en: woman facepalming
     since: "4.0"
@@ -1846,6 +1958,7 @@ emoji:
       - わからない
       - かたをすくめる
       - しらんけど
+    ime_readings: [ じぇすちゃー, たぶんね, ひと, わかりません ]
     shortcodes: [ shrug ]
     en: person shrugging
     since: "3.0"
@@ -1862,6 +1975,7 @@ emoji:
       - しらない
       - わからない
       - かたをすくめる
+    ime_readings: [ おとこ, じぇすちゃー, たぶんね, だんせい, わかりません ]
     shortcodes: [ man-shrugging ]
     en: man shrugging
     since: "4.0"
@@ -1878,6 +1992,7 @@ emoji:
       - しらない
       - わからない
       - かたをすくめる
+    ime_readings: [ おんな, じぇすちゃー, じょせい, たぶんね, わかりません ]
     shortcodes: [ woman-shrugging ]
     en: woman shrugging
     since: "4.0"
@@ -1894,6 +2009,7 @@ emoji:
       - せんせい
       - いりょう
       - いりょうじゅうじしゃ
+    ime_readings: [ せらぴすと ]
     shortcodes: [ health_worker ]
     en: health worker
     since: "12.1"
@@ -1908,6 +2024,7 @@ emoji:
       - いしゃ
       - いし
       - どくたー
+    ime_readings: [ おとこ, せらぴすと, だんせい ]
     shortcodes: [ male-doctor ]
     en: man health worker
     since: "4.0"
@@ -1924,6 +2041,7 @@ emoji:
       - じょい
       - どくたー
       - かんごし
+    ime_readings: [ おんな, じょせい, せらぴすと ]
     shortcodes: [ female-doctor ]
     en: woman health worker
     since: "4.0"
@@ -1953,6 +2071,7 @@ emoji:
       - がくせい
       - そつぎょう
       - だんしだいせい
+    ime_readings: [ おとこ, かくぼう, だんせい ]
     shortcodes: [ male-student ]
     en: man student
     since: "4.0"
@@ -1968,6 +2087,7 @@ emoji:
       - そつぎょう
       - じょしだいせい
       - じょしだい
+    ime_readings: [ おんな, かくぼう, じょせい ]
     shortcodes: [ female-student ]
     en: woman student
     since: "4.0"
@@ -1999,6 +2119,7 @@ emoji:
       - せんせい
       - きょうじゅ
       - こうし
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ male-teacher ]
     en: man teacher
     since: "4.0"
@@ -2015,6 +2136,7 @@ emoji:
       - じょきょうし
       - きょうじゅ
       - こうし
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ female-teacher ]
     en: woman teacher
     since: "4.0"
@@ -2044,6 +2166,7 @@ emoji:
       - さいばんかん
       - さいばん
       - はんじ
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ male-judge ]
     en: man judge
     since: "4.0"
@@ -2058,6 +2181,7 @@ emoji:
       - さいばんかん
       - さいばん
       - はんじ
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ female-judge ]
     en: woman judge
     since: "4.0"
@@ -2074,6 +2198,7 @@ emoji:
       - おひゃくしょう
       - ふぁーまー
       - はたけ
+    ime_readings: [ がーでなー, のうじょうぬし ]
     shortcodes: [ farmer ]
     en: farmer
     since: "12.1"
@@ -2089,6 +2214,7 @@ emoji:
       - のうふ
       - のうぎょう
       - ふぁーまー
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ male-farmer ]
     en: man farmer
     since: "4.0"
@@ -2104,6 +2230,7 @@ emoji:
       - のうふ
       - のうぎょう
       - ふぁーまー
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ female-farmer ]
     en: woman farmer
     since: "4.0"
@@ -2134,6 +2261,7 @@ emoji:
       - しぇふ
       - りょうりにん
       - りょうり
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ male-cook ]
     en: man cook
     since: "4.0"
@@ -2149,6 +2277,7 @@ emoji:
       - しぇふ
       - りょうりにん
       - りょうり
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ female-cook ]
     en: woman cook
     since: "4.0"
@@ -2164,6 +2293,7 @@ emoji:
       - すぱな
       - さぎょういん
       - しゅうり
+    ime_readings: [ こうさく ]
     shortcodes: [ mechanic ]
     en: mechanic
     since: "12.1"
@@ -2179,6 +2309,7 @@ emoji:
       - めかにっく
       - はいかんこう
       - でんきこう
+    ime_readings: [ おとこ, こうさく, すぱな, だんせい ]
     shortcodes: [ male-mechanic ]
     en: man mechanic
     since: "4.0"
@@ -2194,6 +2325,7 @@ emoji:
       - めかにっく
       - はいかんこう
       - でんきこう
+    ime_readings: [ おんな, こうさく, じょせい, すぱな ]
     shortcodes: [ female-mechanic ]
     en: woman mechanic
     since: "4.0"
@@ -2225,6 +2357,7 @@ emoji:
       - こういん
       - こうじょう
       - ようせつ
+    ime_readings: [ おとこ, だんせい, だんせいのようせつこう ]
     shortcodes: [ male-factory-worker ]
     en: man factory worker
     since: "4.0"
@@ -2240,6 +2373,7 @@ emoji:
       - こういん
       - こうじょう
       - ようせつ
+    ime_readings: [ おんな, じょせい, じょせいのようせつこう ]
     shortcodes: [ female-factory-worker ]
     en: woman factory worker
     since: "4.0"
@@ -2271,6 +2405,7 @@ emoji:
       - びじねすまん
       - かいしゃいん
       - しゃいん
+    ime_readings: [ だんせい, びじねすぱーそん ]
     shortcodes: [ male-office-worker ]
     en: man office worker
     since: "4.0"
@@ -2287,6 +2422,7 @@ emoji:
       - かいしゃいん
       - きゃりあうーまん
       - しゃいん
+    ime_readings: [ おんな, おーる, さらりーまん, じょせい, びじねすぱーそん ]
     shortcodes: [ female-office-worker ]
     en: woman office worker
     since: "4.0"
@@ -2303,6 +2439,7 @@ emoji:
       - じっけん
       - りけい
       - はかせ
+    ime_readings: [ せいぶつがくしゃ, ぶつりがくしゃ ]
     shortcodes: [ scientist ]
     en: scientist
     since: "12.1"
@@ -2317,6 +2454,7 @@ emoji:
       - かがくしゃ
       - けんきゅうしゃ
       - はかせ
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ male-scientist ]
     en: man scientist
     since: "4.0"
@@ -2331,6 +2469,7 @@ emoji:
       - かがくしゃ
       - けんきゅうしゃ
       - りけじょ
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ female-scientist ]
     en: woman scientist
     since: "4.0"
@@ -2347,6 +2486,7 @@ emoji:
       - かいはつしゃ
       - ぱそこん
       - こーでぃんぐ
+    ime_readings: [ こんぴゅーた, ぷろぐらま ]
     shortcodes: [ technologist ]
     en: technologist
     since: "12.1"
@@ -2362,6 +2502,7 @@ emoji:
       - えんじにあ
       - かいはつしゃ
       - ぱそこん
+    ime_readings: [ おとこ, こんぴゅーた, だんせい, でべろっぱ, ぷろぐらま ]
     shortcodes: [ male-technologist ]
     en: man technologist
     since: "4.0"
@@ -2377,6 +2518,7 @@ emoji:
       - えんじにあ
       - かいはつしゃ
       - ぱそこん
+    ime_readings: [ おんな, こんぴゅーた, じょせい, でべろっぱ, ぷろぐらま ]
     shortcodes: [ female-technologist ]
     en: woman technologist
     since: "4.0"
@@ -2408,6 +2550,7 @@ emoji:
       - しんがー
       - ろっくすたー
       - あーてぃすと
+    ime_readings: [ えんたーていなー, おとこ, すたー, だんせい, はいゆう ]
     shortcodes: [ male-singer ]
     en: man singer
     since: "4.0"
@@ -2423,6 +2566,7 @@ emoji:
       - しんがー
       - ろっくすたー
       - あーてぃすと
+    ime_readings: [ えんたーていなー, おんな, じょせい, すたー, はいゆう ]
     shortcodes: [ female-singer ]
     en: woman singer
     since: "4.0"
@@ -2454,6 +2598,7 @@ emoji:
       - あーてぃすと
       - がか
       - えかき
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ male-artist ]
     en: man artist
     since: "4.0"
@@ -2469,6 +2614,7 @@ emoji:
       - あーてぃすと
       - がか
       - えかき
+    ime_readings: [ おんな, じょせい, ぱれっと ]
     shortcodes: [ female-artist ]
     en: woman artist
     since: "4.0"
@@ -2497,6 +2643,7 @@ emoji:
       - ぱいろっと
       - そうじゅうし
       - きちょう
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ male-pilot ]
     en: man pilot
     since: "4.0"
@@ -2511,6 +2658,7 @@ emoji:
       - ぱいろっと
       - そうじゅうし
       - きちょう
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ female-pilot ]
     en: woman pilot
     since: "4.0"
@@ -2540,6 +2688,7 @@ emoji:
       - うちゅうひこうし
       - あすとろのーと
       - うちゅう
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ male-astronaut ]
     en: man astronaut
     since: "4.0"
@@ -2554,6 +2703,7 @@ emoji:
       - うちゅうひこうし
       - あすとろのーと
       - うちゅう
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ female-astronaut ]
     en: woman astronaut
     since: "4.0"
@@ -2583,6 +2733,7 @@ emoji:
       - しょうぼうし
       - しょうぼう
       - れすきゅー
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ male-firefighter ]
     en: man firefighter
     since: "4.0"
@@ -2597,6 +2748,7 @@ emoji:
       - しょうぼうし
       - しょうぼう
       - れすきゅー
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ female-firefighter ]
     en: woman firefighter
     since: "4.0"
@@ -2613,6 +2765,7 @@ emoji:
       - おまわりさん
       - ぽりす
       - たいほ
+    ime_readings: [ たいほする ]
     shortcodes: [ cop ]
     en: police officer
     since: "0.6"
@@ -2629,6 +2782,7 @@ emoji:
       - けいかん
       - おまわりさん
       - ぽりす
+    ime_readings: [ だんせい ]
     shortcodes: [ male-police-officer ]
     en: man police officer
     since: "4.0"
@@ -2645,6 +2799,7 @@ emoji:
       - ふけい
       - おまわりさん
       - ぽりす
+    ime_readings: [ けいかん, じょせい ]
     shortcodes: [ female-police-officer ]
     en: woman police officer
     since: "4.0"
@@ -2661,6 +2816,7 @@ emoji:
       - めいたんてい
       - でぃてくてぃぶ
       - すいり
+    ime_readings: [ むしめがね ]
     shortcodes: [ sleuth_or_spy ]
     en: detective
     since: "0.7"
@@ -2675,6 +2831,7 @@ emoji:
       - たんてい
       - めいたんてい
       - すぱい
+    ime_readings: [ おとこ, だんせい, むしめがね ]
     shortcodes: [ male-detective ]
     en: man detective
     since: "4.0"
@@ -2689,6 +2846,7 @@ emoji:
       - たんてい
       - めいたんてい
       - すぱい
+    ime_readings: [ おんな, しりつたんてい, じょせい, むしめがね ]
     shortcodes: [ female-detective ]
     en: woman detective
     since: "4.0"
@@ -2705,6 +2863,7 @@ emoji:
       - しゅえい
       - このえへい
       - ばっきんがむ
+    ime_readings: [ かお ]
     shortcodes: [ guardsman ]
     en: guard
     since: "0.6"
@@ -2720,6 +2879,7 @@ emoji:
       - けいび
       - もんばん
       - しゅえい
+    ime_readings: [ だんせい ]
     shortcodes: [ male-guard ]
     en: man guard
     since: "4.0"
@@ -2735,6 +2895,7 @@ emoji:
       - けいび
       - もんばん
       - しゅえい
+    ime_readings: [ じょせい ]
     shortcodes: [ female-guard ]
     en: woman guard
     since: "4.0"
@@ -2751,6 +2912,7 @@ emoji:
       - おんみつ
       - くのいち
       - にんにん
+    ime_readings: [ くさのもの, すぱい, ひと ]
     shortcodes: [ ninja ]
     en: ninja
     since: "13.0"
@@ -2768,6 +2930,7 @@ emoji:
       - へるめっと
       - げんば
       - どかた
+    ime_readings: [ かお, はんまー ]
     shortcodes: [ construction_worker ]
     en: construction worker
     since: "0.6"
@@ -2783,6 +2946,7 @@ emoji:
       - こうじ
       - けんせつ
       - げんば
+    ime_readings: [ おとこ, だんせい, はんまー, へるめっと ]
     shortcodes: [ male-construction-worker ]
     en: man construction worker
     since: "4.0"
@@ -2798,6 +2962,7 @@ emoji:
       - こうじ
       - けんせつ
       - げんば
+    ime_readings: [ おんな, じょせい, はんまー, へるめっと ]
     shortcodes: [ female-construction-worker ]
     en: woman construction worker
     since: "4.0"
@@ -2815,6 +2980,7 @@ emoji:
       - おうぞく
       - おう
       - じょおう
+    ime_readings: [ おうけ, じょうおう ]
     shortcodes: [ person_with_crown ]
     en: person with crown
     since: "14.0"
@@ -2829,6 +2995,7 @@ emoji:
       - ぷりんす
       - おうじさま
       - おうぞく
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ prince ]
     en: prince
     since: "3.0"
@@ -2845,6 +3012,7 @@ emoji:
       - ひめ
       - じょおう
       - おうひ
+    ime_readings: [ おんな, かお, かんむり, くいーん, じょうおう, じょせい ]
     shortcodes: [ princess ]
     en: princess
     since: "0.6"
@@ -2858,6 +3026,7 @@ emoji:
       - たーばんのひと
       - たーばん
       - いんどじん
+    ime_readings: [ かお, ぼうし ]
     shortcodes: [ man_with_turban ]
     en: person wearing turban
     since: "0.6"
@@ -2870,6 +3039,7 @@ emoji:
     readings:
       - たーばんのだんせい
       - たーばん
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ man-wearing-turban ]
     en: man wearing turban
     since: "4.0"
@@ -2882,6 +3052,7 @@ emoji:
     readings:
       - たーばんのじょせい
       - たーばん
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ woman-wearing-turban ]
     en: woman wearing turban
     since: "4.0"
@@ -2897,6 +3068,7 @@ emoji:
       - おわんぼう
       - ぐゎぴまお
       - ちゅうごくじん
+    ime_readings: [ おとこ, かお, だんせい ]
     shortcodes: [ man_with_gua_pi_mao ]
     en: person with skullcap
     since: "0.6"
@@ -2912,6 +3084,7 @@ emoji:
       - ひじゃぶ
       - べーる
       - ずきん
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ person_with_headscarf ]
     en: woman with headscarf
     since: "5.0"
@@ -2928,6 +3101,7 @@ emoji:
       - ふぉーまる
       - しんろう
       - けっこんしき
+    ime_readings: [ けっこん, ひと ]
     shortcodes: [ person_in_tuxedo ]
     en: person in tuxedo
     since: "3.0"
@@ -2943,6 +3117,7 @@ emoji:
       - しんろう
       - はなむこ
       - せいそう
+    ime_readings: [ おとこ, たきしーどのおとこ, だんせい ]
     shortcodes: [ man_in_tuxedo ]
     en: man in tuxedo
     since: "13.0"
@@ -2957,6 +3132,7 @@ emoji:
       - たきしーど
       - せいそう
       - ふぉーまる
+    ime_readings: [ おんな, じょせい, たきしーどのおんな ]
     shortcodes: [ woman_in_tuxedo ]
     en: woman in tuxedo
     since: "13.0"
@@ -2973,6 +3149,7 @@ emoji:
       - けっこん
       - べーる
       - しんぷ
+    ime_readings: [ かお, ひと ]
     shortcodes: [ bride_with_veil ]
     en: person with veil
     since: "0.6"
@@ -2987,6 +3164,7 @@ emoji:
       - べーる
       - はなむこ
       - けっこん
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ man_with_veil ]
     en: man with veil
     since: "13.0"
@@ -3003,6 +3181,7 @@ emoji:
       - うぇでぃんぐどれす
       - べーる
       - けっこん
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ woman_with_veil ]
     en: woman with veil
     since: "13.0"
@@ -3018,6 +3197,7 @@ emoji:
       - またにてぃ
       - おめでた
       - みおも
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ pregnant_woman ]
     en: pregnant woman
     since: "3.0"
@@ -3034,6 +3214,7 @@ emoji:
       - まんぷく
       - ぽっこり
       - にんしん
+    ime_readings: [ おとこ, だんせい, にんしんしたひと ]
     shortcodes: [ pregnant_man ]
     en: pregnant man
     since: "14.0"
@@ -3065,6 +3246,7 @@ emoji:
       - あかちゃん
       - みるく
       - ははおや
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ breast-feeding ]
     en: breast-feeding
     since: "5.0"
@@ -3081,6 +3263,7 @@ emoji:
       - ははおや
       - あかちゃん
       - みるく
+    ime_readings: [ おんな, しんせいじ, じょせい, ひと ]
     shortcodes: [ woman_feeding_baby ]
     en: woman feeding baby
     since: "13.0"
@@ -3098,6 +3281,7 @@ emoji:
       - いくめん
       - あかちゃん
       - みるく
+    ime_readings: [ おとこ, しんせいじ, だんせい, ひと ]
     shortcodes: [ man_feeding_baby ]
     en: man feeding baby
     since: "13.0"
@@ -3113,6 +3297,7 @@ emoji:
       - あかちゃん
       - みるく
       - いくじ
+    ime_readings: [ しんせいじ, ちちおや, ははおや, ひと ]
     shortcodes: [ person_feeding_baby ]
     en: person feeding baby
     since: "13.0"
@@ -3128,6 +3313,7 @@ emoji:
       - えんぜる
       - あかちゃんてんし
       - きゅーぴっど
+    ime_readings: [ かお ]
     shortcodes: [ angel ]
     en: baby angel
     since: "0.6"
@@ -3143,6 +3329,7 @@ emoji:
       - さんたさん
       - くりすます
       - めりーくりすます
+    ime_readings: [ かお ]
     shortcodes: [ santa ]
     en: Santa Claus
     since: "0.6"
@@ -3158,6 +3345,7 @@ emoji:
       - さんた
       - さんたくろーす
       - くりすます
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ mrs_claus, mother_christmas ]
     en: Mrs. Claus
     since: "3.0"
@@ -3172,6 +3360,7 @@ emoji:
       - さんた
       - さんたくろーす
       - くりすます
+    ime_readings: [ ひと, ぼうし ]
     shortcodes: [ mx_claus ]
     en: Mx Claus
     since: "13.0"
@@ -3188,6 +3377,7 @@ emoji:
       - すーぱーまん
       - ちょうじん
       - せいぎのみかた
+    ime_readings: [ きょだいせいりょく, ぜん ]
     shortcodes: [ superhero ]
     en: superhero
     since: "11.0"
@@ -3203,6 +3393,7 @@ emoji:
       - すーぱーまん
       - ちょうじん
       - せいぎのみかた
+    ime_readings: [ ぜん, だんせい ]
     shortcodes: [ male_superhero ]
     en: man superhero
     since: "11.0"
@@ -3218,6 +3409,7 @@ emoji:
       - ひーろー
       - ちょうじん
       - せいぎのみかた
+    ime_readings: [ じょせい, ぜん ]
     shortcodes: [ female_superhero ]
     en: woman superhero
     since: "11.0"
@@ -3235,6 +3427,7 @@ emoji:
       - わるもの
       - はんにん
       - あくだま
+    ime_readings: [ あく, ちょうあくだま, はんざいしゃ, ひと, わるいひと ]
     shortcodes: [ supervillain ]
     en: supervillain
     since: "11.0"
@@ -3250,6 +3443,7 @@ emoji:
       - ゔぃらん
       - びらん
       - わるもの
+    ime_readings: [ あく, だんせい, ちょうじん, はんにん ]
     shortcodes: [ male_supervillain ]
     en: man supervillain
     since: "11.0"
@@ -3266,6 +3460,7 @@ emoji:
       - びらん
       - わるもの
       - あくじょ
+    ime_readings: [ あく, じょせい, ちょうじん, はんにん ]
     shortcodes: [ female_supervillain ]
     en: woman supervillain
     since: "11.0"
@@ -3283,6 +3478,7 @@ emoji:
       - うぃざーど
       - じゅもん
       - まどうし
+    ime_readings: [ しょうかん, ふぁんたじー, ろーるぷれい ]
     shortcodes: [ mage ]
     en: mage
     since: "5.0"
@@ -3298,6 +3494,7 @@ emoji:
       - まじゅつし
       - うぃざーど
       - まどうし
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ male_mage ]
     en: man mage
     since: "5.0"
@@ -3313,6 +3510,7 @@ emoji:
       - まほうつかい
       - うぃっち
       - まほうしょうじょ
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ female_mage ]
     en: woman mage
     since: "5.0"
@@ -3330,6 +3528,7 @@ emoji:
       - まほう
       - おとぎばなし
       - てぃんかーべる
+    ime_readings: [ おべろん, しんわ, でんせつ, どうわ, ぱっく ]
     shortcodes: [ fairy ]
     en: fairy
     since: "5.0"
@@ -3345,6 +3544,7 @@ emoji:
       - ふぇありー
       - おべろん
       - ぱっく
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ male_fairy ]
     en: man fairy
     since: "5.0"
@@ -3360,6 +3560,7 @@ emoji:
       - ふぇありー
       - てぃんかーべる
       - ぴくしー
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ female_fairy ]
     en: woman fairy
     since: "5.0"
@@ -3376,6 +3577,7 @@ emoji:
       - はろうぃん
       - はろうぃーん
       - きば
+    ime_readings: [ きょうふ, ち, は, ふじみ ]
     shortcodes: [ vampire ]
     en: vampire
     since: "5.0"
@@ -3390,6 +3592,7 @@ emoji:
       - きゅうけつき
       - ばんぱいあ
       - どらきゅら
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ male_vampire ]
     en: man vampire
     since: "5.0"
@@ -3404,6 +3607,7 @@ emoji:
       - きゅうけつき
       - ばんぱいあ
       - どらきゅら
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ female_vampire ]
     en: woman vampire
     since: "5.0"
@@ -3419,6 +3623,7 @@ emoji:
       - せいれーん
       - はんぎょじん
       - まーまん
+    ime_readings: [ うみのせいぶつ, おとぎばなし, かいてい, さいれん, でんせつ ]
     shortcodes: [ merperson ]
     en: merperson
     since: "5.0"
@@ -3434,6 +3639,7 @@ emoji:
       - おとこのにんぎょ
       - はんぎょじん
       - とりとん
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ merman ]
     en: merman
     since: "5.0"
@@ -3449,6 +3655,7 @@ emoji:
       - にんぎょひめ
       - おんなのにんぎょ
       - ありえる
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ mermaid ]
     en: mermaid
     since: "5.0"
@@ -3464,6 +3671,7 @@ emoji:
       - ふぁんたじー
       - ようじん
       - まほう
+    ime_readings: [ しんぴてき, しんわ, でんせつ, まりょく ]
     shortcodes: [ elf ]
     en: elf
     since: "5.0"
@@ -3477,6 +3685,7 @@ emoji:
       - おとこのえるふ
       - えるふ
       - ようせい
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ male_elf ]
     en: man elf
     since: "5.0"
@@ -3490,6 +3699,7 @@ emoji:
       - おんなのえるふ
       - えるふ
       - ようせい
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ female_elf ]
     en: woman elf
     since: "5.0"
@@ -3507,6 +3717,7 @@ emoji:
       - じん
       - あらじん
       - まほうのらんぷ
+    ime_readings: [ しんわ, じにー, ふぁんたじー, ふかしぎ, らんぷをこする ]
     shortcodes: [ genie ]
     en: genie
     since: "5.0"
@@ -3521,6 +3732,7 @@ emoji:
       - せいれい
       - じーにー
       - まじん
+    ime_readings: [ おとこ, おとこのせいれい, だんせい ]
     shortcodes: [ male_genie ]
     en: man genie
     since: "5.0"
@@ -3535,6 +3747,7 @@ emoji:
       - せいれい
       - じーにー
       - まじん
+    ime_readings: [ おんな, おんなのせいれい, じょせい ]
     shortcodes: [ female_genie ]
     en: woman genie
     since: "5.0"
@@ -3551,6 +3764,7 @@ emoji:
       - はろうぃん
       - はろうぃーん
       - いきるしかばね
+    ime_readings: [ あるくしかばね, きょうふ, だいさいがい ]
     shortcodes: [ zombie ]
     en: zombie
     since: "5.0"
@@ -3564,6 +3778,7 @@ emoji:
       - ぞんび
       - あんでっど
       - ほらー
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ male_zombie ]
     en: man zombie
     since: "5.0"
@@ -3577,6 +3792,7 @@ emoji:
       - ぞんび
       - あんでっど
       - ほらー
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ female_zombie ]
     en: woman zombie
     since: "5.0"
@@ -3592,6 +3808,7 @@ emoji:
       - もんすたー
       - ようかい
       - あらし
+    ime_readings: [ おとぎばなし, ふぁんたじー ]
     shortcodes: [ troll ]
     en: troll
     since: "14.0"
@@ -3608,6 +3825,7 @@ emoji:
       - さすかっち
       - ゆーま
       - ゆきおとこ
+    ime_readings: [ きょじん, みかくにんどうぶつ, もり ]
     shortcodes: [ hairy_creature ]
     en: hairy creature
     since: "17.0"
@@ -3625,6 +3843,7 @@ emoji:
       - りらっくす
       - いやし
       - せじゅつ
+    ime_readings: [ さろん, しじゅつ, せらぴー ]
     shortcodes: [ massage ]
     en: person getting massage
     since: "0.6"
@@ -3640,6 +3859,7 @@ emoji:
       - まっさーじ
       - えすて
       - めんずえすて
+    ime_readings: [ おとこ, かお, だんせい, りらっくす ]
     shortcodes: [ man-getting-massage ]
     en: man getting massage
     since: "4.0"
@@ -3655,6 +3875,7 @@ emoji:
       - まっさーじ
       - えすて
       - りらっくす
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ woman-getting-massage ]
     en: woman getting massage
     since: "4.0"
@@ -3673,6 +3894,7 @@ emoji:
       - びよういん
       - りはつてん
       - びようしつ
+    ime_readings: [ かみ, りよういん, りようしつ ]
     shortcodes: [ haircut ]
     en: person getting haircut
     since: "0.6"
@@ -3689,6 +3911,7 @@ emoji:
       - とこや
       - りはつてん
       - ばーばー
+    ime_readings: [ おとこ, かっと, だんせい, びよういん, びようしつ, りよういん, りようしつ ]
     shortcodes: [ man-getting-haircut ]
     en: man getting haircut
     since: "4.0"
@@ -3705,6 +3928,7 @@ emoji:
       - びよういん
       - びようしつ
       - かっと
+    ime_readings: [ じょせい, とこや ]
     shortcodes: [ woman-getting-haircut ]
     en: woman getting haircut
     since: "4.0"
@@ -3722,6 +3946,7 @@ emoji:
       - うぉーきんぐ
       - ほこう
       - とほ
+    ime_readings: [ おおまた, はいきんぐ, ひと, ぶらつく ]
     shortcodes: [ walking ]
     en: person walking
     since: "0.6"
@@ -3737,6 +3962,7 @@ emoji:
       - ほこうしゃ
       - さんぽ
       - うぉーきんぐ
+    ime_readings: [ だんせい, ほこう ]
     shortcodes: [ man-walking ]
     en: man walking
     since: "4.0"
@@ -3752,6 +3978,7 @@ emoji:
       - ほこうしゃ
       - さんぽ
       - うぉーきんぐ
+    ime_readings: [ じょせい, はいきんぐ, ほこう ]
     shortcodes: [ woman-walking ]
     en: woman walking
     since: "4.0"
@@ -3768,6 +3995,7 @@ emoji:
       - さんぽ
       - うぉーきんぐ
       - みぎむき
+    ime_readings: [ おおまた, はいきんぐ, ひと, ぶらつく, ほこう ]
     shortcodes: [ person_walking_facing_right ]
     en: person walking facing right
     since: "15.1"
@@ -3784,6 +4012,7 @@ emoji:
       - さんぽ
       - うぉーきんぐ
       - みぎむき
+    ime_readings: [ あるくおんな, じょせい, はいきんぐ, ほこう ]
     shortcodes: [ woman_walking_facing_right ]
     en: woman walking facing right
     since: "15.1"
@@ -3800,6 +4029,7 @@ emoji:
       - さんぽ
       - うぉーきんぐ
       - みぎむき
+    ime_readings: [ あるくおとこ, だんせい, ほこう ]
     shortcodes: [ man_walking_facing_right ]
     en: man walking facing right
     since: "15.1"
@@ -3816,6 +4046,7 @@ emoji:
       - きりつ
       - たちっぱなし
       - たちんぼう
+    ime_readings: [ ひと ]
     shortcodes: [ standing_person ]
     en: person standing
     since: "12.0"
@@ -3830,6 +4061,7 @@ emoji:
       - たつ
       - きりつ
       - たちっぱなし
+    ime_readings: [ だんせい ]
     shortcodes: [ man_standing ]
     en: man standing
     since: "12.0"
@@ -3844,6 +4076,7 @@ emoji:
       - たつ
       - きりつ
       - たちっぱなし
+    ime_readings: [ じょせい ]
     shortcodes: [ woman_standing ]
     en: woman standing
     since: "12.0"
@@ -3861,6 +4094,7 @@ emoji:
       - ざせき
       - どげざ
       - ひざをつく
+    ime_readings: [ すわる, ひと ]
     shortcodes: [ kneeling_person ]
     en: person kneeling
     since: "12.0"
@@ -3877,6 +4111,7 @@ emoji:
       - せいざするだんせい
       - どげざ
       - ひざをつく
+    ime_readings: [ すわる, だんせい ]
     shortcodes: [ man_kneeling ]
     en: man kneeling
     since: "12.0"
@@ -3893,6 +4128,7 @@ emoji:
       - せいざするじょせい
       - どげざ
       - ひざをつく
+    ime_readings: [ じょせい, すわる ]
     shortcodes: [ woman_kneeling ]
     en: woman kneeling
     since: "12.0"
@@ -3908,6 +4144,7 @@ emoji:
       - せいざ
       - どげざ
       - みぎむき
+    ime_readings: [ すわる, せいざするひと, ひと ]
     shortcodes: [ person_kneeling_facing_right ]
     en: person kneeling facing right
     since: "15.1"
@@ -3923,6 +4160,7 @@ emoji:
       - せいざ
       - どげざ
       - みぎむき
+    ime_readings: [ じょせい, すわる, せいざするじょせい ]
     shortcodes: [ woman_kneeling_facing_right ]
     en: woman kneeling facing right
     since: "15.1"
@@ -3938,6 +4176,7 @@ emoji:
       - せいざ
       - どげざ
       - みぎむき
+    ime_readings: [ すわる, せいざするだんせい, だんせい ]
     shortcodes: [ man_kneeling_facing_right ]
     en: man kneeling facing right
     since: "15.1"
@@ -3954,6 +4193,7 @@ emoji:
       - つえ
       - しかくしょうがい
       - あくせしびりてぃ
+    ime_readings: [ しかく, しょうがい, め ]
     shortcodes: [ person_with_probing_cane ]
     en: person with white cane
     since: "12.1"
@@ -3970,6 +4210,7 @@ emoji:
       - つえ
       - しかくしょうがい
       - みぎむき
+    ime_readings: [ あくせしびりてぃ, しかく, しょうがい, め ]
     shortcodes: [ person_with_white_cane_facing_right ]
     en: person with white cane facing right
     since: "15.1"
@@ -3985,6 +4226,7 @@ emoji:
       - はくじょう
       - つえ
       - しかくしょうがい
+    ime_readings: [ あくせしびりてぃ, しかく, しょうがい, だんせい, め ]
     shortcodes: [ man_with_probing_cane ]
     en: man with white cane
     since: "12.0"
@@ -4001,6 +4243,7 @@ emoji:
       - つえ
       - しかくしょうがい
       - みぎむき
+    ime_readings: [ あくせしびりてぃ, しかく, しょうがい, だんせい, はくじょうをついただんせい, め ]
     shortcodes: [ man_with_white_cane_facing_right ]
     en: man with white cane facing right
     since: "15.1"
@@ -4016,6 +4259,7 @@ emoji:
       - はくじょう
       - つえ
       - しかくしょうがい
+    ime_readings: [ あくせしびりてぃ, しかく, しょうがい, じょせい, め ]
     shortcodes: [ woman_with_probing_cane ]
     en: woman with white cane
     since: "12.0"
@@ -4032,6 +4276,7 @@ emoji:
       - つえ
       - しかくしょうがい
       - みぎむき
+    ime_readings: [ あくせしびりてぃ, しかく, しょうがい, じょせい, はくじょうをついたじょせい, め ]
     shortcodes: [ woman_with_white_cane_facing_right ]
     en: woman with white cane facing right
     since: "15.1"
@@ -4063,6 +4308,7 @@ emoji:
       - くるまいす
       - しょうがい
       - みぎむき
+    ime_readings: [ あくせしびりてぃ, でんどうくるまいすのひと ]
     shortcodes: [ person_in_motorized_wheelchair_facing_right ]
     en: person in motorized wheelchair facing right
     since: "15.1"
@@ -4077,6 +4323,7 @@ emoji:
       - でんどうくるまいす
       - くるまいす
       - しょうがい
+    ime_readings: [ あくせしびりてぃ, だんせい ]
     shortcodes: [ man_in_motorized_wheelchair ]
     en: man in motorized wheelchair
     since: "12.0"
@@ -4092,6 +4339,7 @@ emoji:
       - くるまいす
       - しょうがい
       - みぎむき
+    ime_readings: [ あくせしびりてぃ, だんせい, でんどうくるまいすのだんせい ]
     shortcodes: [ man_in_motorized_wheelchair_facing_right ]
     en: man in motorized wheelchair facing right
     since: "15.1"
@@ -4106,6 +4354,7 @@ emoji:
       - でんどうくるまいす
       - くるまいす
       - しょうがい
+    ime_readings: [ あくせしびりてぃ, じょせい ]
     shortcodes: [ woman_in_motorized_wheelchair ]
     en: woman in motorized wheelchair
     since: "12.0"
@@ -4121,6 +4370,7 @@ emoji:
       - くるまいす
       - しょうがい
       - みぎむき
+    ime_readings: [ あくせしびりてぃ, じょせい, でんどうくるまいすのじょせい ]
     shortcodes: [ woman_in_motorized_wheelchair_facing_right ]
     en: woman in motorized wheelchair facing right
     since: "15.1"
@@ -4152,6 +4402,7 @@ emoji:
       - しゅどうくるまいす
       - しょうがい
       - みぎむき
+    ime_readings: [ あくせしびりてぃ, しゅどうしきくるまいすのひと ]
     shortcodes: [ person_in_manual_wheelchair_facing_right ]
     en: person in manual wheelchair facing right
     since: "15.1"
@@ -4166,6 +4417,7 @@ emoji:
       - くるまいす
       - しゅどうくるまいす
       - しょうがい
+    ime_readings: [ あくせしびりてぃ, だんせい ]
     shortcodes: [ man_in_manual_wheelchair ]
     en: man in manual wheelchair
     since: "12.0"
@@ -4181,6 +4433,7 @@ emoji:
       - しゅどうくるまいす
       - しょうがい
       - みぎむき
+    ime_readings: [ あくせしびりてぃ, しゅどうしきくるまいすのだんせい, だんせい ]
     shortcodes: [ man_in_manual_wheelchair_facing_right ]
     en: man in manual wheelchair facing right
     since: "15.1"
@@ -4195,6 +4448,7 @@ emoji:
       - くるまいす
       - しゅどうくるまいす
       - しょうがい
+    ime_readings: [ あくせしびりてぃ, じょせい ]
     shortcodes: [ woman_in_manual_wheelchair ]
     en: woman in manual wheelchair
     since: "12.0"
@@ -4210,6 +4464,7 @@ emoji:
       - しゅどうくるまいす
       - しょうがい
       - みぎむき
+    ime_readings: [ あくせしびりてぃ, しゅどうしきくるまいすのじょせい, じょせい ]
     shortcodes: [ woman_in_manual_wheelchair_facing_right ]
     en: woman in manual wheelchair facing right
     since: "15.1"
@@ -4228,6 +4483,7 @@ emoji:
       - らんなー
       - いそぐ
       - だっしゅ
+    ime_readings: [ かけあし, すぽーつ ]
     shortcodes: [ runner, running ]
     en: person running
     since: "0.6"
@@ -4244,6 +4500,7 @@ emoji:
       - じょぎんぐ
       - まらそん
       - らんなー
+    ime_readings: [ だんせい ]
     shortcodes: [ man-running ]
     en: man running
     since: "4.0"
@@ -4260,6 +4517,7 @@ emoji:
       - じょぎんぐ
       - まらそん
       - らんなー
+    ime_readings: [ いそぐ, かけあし, じょせい ]
     shortcodes: [ woman-running ]
     en: woman running
     since: "4.0"
@@ -4276,6 +4534,7 @@ emoji:
       - じょぎんぐ
       - だっしゅ
       - みぎむき
+    ime_readings: [ いそぐ, かけあし, はしるひと, まらそん, らんなー ]
     shortcodes: [ person_running_facing_right ]
     en: person running facing right
     since: "15.1"
@@ -4291,6 +4550,7 @@ emoji:
       - らんにんぐ
       - じょぎんぐ
       - みぎむき
+    ime_readings: [ いそぐ, かけあし, じょせい, はしるおんな, まらそん, らんなー ]
     shortcodes: [ woman_running_facing_right ]
     en: woman running facing right
     since: "15.1"
@@ -4306,6 +4566,7 @@ emoji:
       - らんにんぐ
       - じょぎんぐ
       - みぎむき
+    ime_readings: [ だんせい, はしるおとこ, まらそん, らんなー ]
     shortcodes: [ man_running_facing_right ]
     en: man running facing right
     since: "15.1"
@@ -4339,6 +4600,7 @@ emoji:
       - さるさ
       - たんご
       - おどりこ
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ dancer ]
     en: woman dancing
     since: "0.6"
@@ -4356,6 +4618,7 @@ emoji:
       - でぃすこ
       - ふぃーばー
       - さるさ
+    ime_readings: [ おとこ, たんご, だんせい, ふらめんこ ]
     shortcodes: [ man_dancing ]
     en: man dancing
     since: "3.0"
@@ -4372,6 +4635,7 @@ emoji:
       - くうちゅうふゆう
       - ふゆう
       - うく
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ man_in_business_suit_levitating ]
     en: person in suit levitating
     since: "0.7"
@@ -4390,6 +4654,7 @@ emoji:
       - しんゆう
       - だんさー
       - ぱーてぃー
+    ime_readings: [ あいかた, かお, ずっとも, そっくり, ぱーてぃ, ぺあ ]
     shortcodes: [ dancers ]
     en: people with bunny ears
     since: "0.6"
@@ -4406,6 +4671,7 @@ emoji:
       - ばにー
       - しんゆう
       - ぱーてぃー
+    ime_readings: [ おとこ, だんさー, だんせい ]
     shortcodes: [ men-with-bunny-ears-partying, man-with-bunny-ears-partying ]
     en: men with bunny ears
     since: "4.0"
@@ -4423,6 +4689,7 @@ emoji:
       - ふたご
       - しんゆう
       - ぱーてぃー
+    ime_readings: [ おんな, じょせい, だんさー ]
     shortcodes: [ women-with-bunny-ears-partying, woman-with-bunny-ears-partying ]
     en: women with bunny ears
     since: "4.0"
@@ -4440,6 +4707,7 @@ emoji:
       - すぱ
       - りらっくす
       - むしぶろ
+    ime_readings: [ くつろぐ, じょうき ]
     shortcodes: [ person_in_steamy_room ]
     en: person in steamy room
     since: "5.0"
@@ -4455,6 +4723,7 @@ emoji:
       - ととのう
       - さうなー
       - むしぶろ
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ man_in_steamy_room ]
     en: man in steamy room
     since: "5.0"
@@ -4470,6 +4739,7 @@ emoji:
       - ととのう
       - すぱ
       - むしぶろ
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ woman_in_steamy_room ]
     en: woman in steamy room
     since: "5.0"
@@ -4487,6 +4757,7 @@ emoji:
       - やまのぼり
       - とざん
       - のぼる
+    ime_readings: [ やま, やまをのぼるひと, ろっくくらいまー ]
     shortcodes: [ person_climbing ]
     en: person climbing
     since: "5.0"
@@ -4502,6 +4773,7 @@ emoji:
       - ぼるだりんぐ
       - ろっくくらいみんぐ
       - とざん
+    ime_readings: [ おとこ, だんせい, やまのぼり, やまをのぼるおとこ ]
     shortcodes: [ man_climbing ]
     en: man climbing
     since: "5.0"
@@ -4517,6 +4789,7 @@ emoji:
       - ぼるだりんぐ
       - ろっくくらいみんぐ
       - とざん
+    ime_readings: [ おんな, じょせい, やまのぼり, やまをのぼるおんな ]
     shortcodes: [ woman_climbing ]
     en: woman climbing
     since: "5.0"
@@ -4533,6 +4806,7 @@ emoji:
       - えぺ
       - ふるーれ
       - さーぶる
+    ime_readings: [ すぽーつ ]
     shortcodes: [ fencer ]
     en: person fencing
     since: "3.0"
@@ -4549,6 +4823,7 @@ emoji:
       - きょうそうば
       - うま
       - けいばじょう
+    ime_readings: [ すぽーつ ]
     shortcodes: [ horse_racing ]
     en: horse racing
     since: "1.0"
@@ -4564,6 +4839,7 @@ emoji:
       - すきーじょう
       - げれんで
       - ゆきやま
+    ime_readings: [ すとっく, すぽーつ ]
     shortcodes: [ skier ]
     en: skier
     since: "0.7"
@@ -4578,6 +4854,7 @@ emoji:
       - すのぼ
       - げれんで
       - ゆきやま
+    ime_readings: [ すぽーつ ]
     shortcodes: [ snowboarder ]
     en: snowboarder
     since: "0.6"
@@ -4594,6 +4871,7 @@ emoji:
       - うちっぱなし
       - しょっと
       - すいんぐ
+    ime_readings: [ きゅうぎ, すぽーつ ]
     shortcodes: [ golfer ]
     en: person golfing
     since: "0.7"
@@ -4608,6 +4886,7 @@ emoji:
       - ごるふ
       - ごるふぁー
       - うちっぱなし
+    ime_readings: [ おとこ, すぽーつ, だんせい ]
     shortcodes: [ man-golfing ]
     en: man golfing
     since: "4.0"
@@ -4622,6 +4901,7 @@ emoji:
       - ごるふ
       - ごるふぁー
       - うちっぱなし
+    ime_readings: [ おんな, きゅうぎ, じょせい, すぽーつ ]
     shortcodes: [ woman-golfing ]
     en: woman golfing
     since: "4.0"
@@ -4638,6 +4918,7 @@ emoji:
       - なみのり
       - なみ
       - うみ
+    ime_readings: [ すぽーつ ]
     shortcodes: [ surfer ]
     en: person surfing
     since: "0.6"
@@ -4652,6 +4933,7 @@ emoji:
       - さーふぃん
       - さーふぁー
       - なみのり
+    ime_readings: [ おとこ, すぽーつ, だんせい ]
     shortcodes: [ man-surfing ]
     en: man surfing
     since: "4.0"
@@ -4666,6 +4948,7 @@ emoji:
       - さーふぃん
       - さーふぁー
       - なみのり
+    ime_readings: [ おんな, じょせい, すぽーつ ]
     shortcodes: [ woman-surfing ]
     en: woman surfing
     since: "4.0"
@@ -4683,6 +4966,7 @@ emoji:
       - かやっく
       - てこぎぼーと
       - ぼーときょうぎ
+    ime_readings: [ おーる, すぽーつ, ぱどる, ふね ]
     shortcodes: [ rowboat ]
     en: person rowing boat
     since: "1.0"
@@ -4698,6 +4982,7 @@ emoji:
       - こぐ
       - かぬー
       - かやっく
+    ime_readings: [ すぽーつ, だんせい, ふね ]
     shortcodes: [ man-rowing-boat ]
     en: man rowing boat
     since: "4.0"
@@ -4713,6 +4998,7 @@ emoji:
       - こぐ
       - かぬー
       - かやっく
+    ime_readings: [ おんな, じょせい, すぽーつ, てこぎぼーと, ふね ]
     shortcodes: [ woman-rowing-boat ]
     en: woman rowing boat
     since: "4.0"
@@ -4730,6 +5016,7 @@ emoji:
       - くろーる
       - すいまー
       - ぷーる
+    ime_readings: [ じゆうがた, すいむ, すぽーつ, とらいあすろん ]
     shortcodes: [ swimmer ]
     en: person swimming
     since: "0.6"
@@ -4745,6 +5032,7 @@ emoji:
       - すいえい
       - すいみんぐ
       - くろーる
+    ime_readings: [ すいまー, すいむ, すぽーつ, だんせい ]
     shortcodes: [ man-swimming ]
     en: man swimming
     since: "4.0"
@@ -4760,6 +5048,7 @@ emoji:
       - すいえい
       - すいみんぐ
       - くろーる
+    ime_readings: [ おんな, じょせい, すいまー, すいむ, すぽーつ ]
     shortcodes: [ woman-swimming ]
     en: woman swimming
     since: "4.0"
@@ -4775,6 +5064,7 @@ emoji:
       - ばすけ
       - どりぶる
       - ばすけせんしゅ
+    ime_readings: [ きゅうぎ, すぽーつ, ばすけっとぼーるせんしゅ ]
     shortcodes: [ person_with_ball ]
     en: person bouncing ball
     since: "0.7"
@@ -4789,6 +5079,7 @@ emoji:
       - ばすけっとぼーる
       - ばすけ
       - どりぶる
+    ime_readings: [ きゅうぎ, すぽーつ, だんせい ]
     shortcodes: [ man-bouncing-ball ]
     en: man bouncing ball
     since: "4.0"
@@ -4803,6 +5094,7 @@ emoji:
       - ばすけっとぼーる
       - ばすけ
       - どりぶる
+    ime_readings: [ きゅうぎ, じょせい, すぽーつ ]
     shortcodes: [ woman-bouncing-ball ]
     en: woman bouncing ball
     since: "4.0"
@@ -4820,6 +5112,7 @@ emoji:
       - ばーべる
       - でっどりふと
       - ぱわーりふてぃんぐ
+    ime_readings: [ うんどう, すぽーつ, ぼでぃびるだー ]
     shortcodes: [ weight_lifter ]
     en: person lifting weights
     since: "0.7"
@@ -4835,6 +5128,7 @@ emoji:
       - うぇいとりふてぃんぐ
       - きんとれ
       - ばーべる
+    ime_readings: [ おとこ, すぽーつ, だんせい ]
     shortcodes: [ man-lifting-weights ]
     en: man lifting weights
     since: "4.0"
@@ -4850,6 +5144,7 @@ emoji:
       - うぇいとりふてぃんぐ
       - きんとれ
       - ばーべる
+    ime_readings: [ おんな, じょせい, すぽーつ ]
     shortcodes: [ woman-lifting-weights ]
     en: woman lifting weights
     since: "4.0"
@@ -4867,6 +5162,7 @@ emoji:
       - ちゃり
       - けいりん
       - さいくりすと
+    ime_readings: [ じてんしゃにのるじん, じてんしゃのり, すぽーつ, ろーどれーす ]
     shortcodes: [ bicyclist ]
     en: person biking
     since: "1.0"
@@ -4882,6 +5178,7 @@ emoji:
       - さいくりんぐ
       - ろーどばいく
       - ちゃり
+    ime_readings: [ けいりん, すぽーつ, だんせい, ろーどれーす ]
     shortcodes: [ man-biking ]
     en: man biking
     since: "4.0"
@@ -4897,6 +5194,7 @@ emoji:
       - さいくりんぐ
       - ろーどばいく
       - ちゃり
+    ime_readings: [ おんな, けいりん, さいくりすと, じてんしゃのり, じょせい, すぽーつ, ろーどれーす ]
     shortcodes: [ woman-biking ]
     en: woman biking
     since: "4.0"
@@ -4913,6 +5211,7 @@ emoji:
       - じてんしゃ
       - さいくりんぐ
       - やまみち
+    ime_readings: [ きょうぎ, さいくりすと, じてんしゃのり, すぽーつ, やま ]
     shortcodes: [ mountain_bicyclist ]
     en: person mountain biking
     since: "1.0"
@@ -4927,6 +5226,7 @@ emoji:
       - まうんてんばいく
       - mtb
       - じてんしゃ
+    ime_readings: [ おとこ, さいくりんぐ, すぽーつ, だんせい ]
     shortcodes: [ man-mountain-biking ]
     en: man mountain biking
     since: "4.0"
@@ -4941,6 +5241,7 @@ emoji:
       - まうんてんばいく
       - mtb
       - じてんしゃ
+    ime_readings: [ おんな, さいくりすと, さいくりんぐ, じてんしゃのり, じょせい, すぽーつ ]
     shortcodes: [ woman-mountain-biking ]
     en: woman mountain biking
     since: "4.0"
@@ -4958,6 +5259,7 @@ emoji:
       - ばくてん
       - うかれる
       - はしゃぐ
+    ime_readings: [ かっぱつ, かつどうてき, こうふん, しあわせ, すぽーつ, とんぼかえり ]
     shortcodes: [ person_doing_cartwheel ]
     en: person cartwheeling
     since: "3.0"
@@ -4972,6 +5274,7 @@ emoji:
       - そくてん
       - たいそう
       - とんぼがえり
+    ime_readings: [ かっぱつ, こうふん, しあわせ, すぽーつ, だんせい, とんぼかえり ]
     shortcodes: [ man-cartwheeling ]
     en: man cartwheeling
     since: "4.0"
@@ -4986,6 +5289,7 @@ emoji:
       - そくてん
       - たいそう
       - とんぼがえり
+    ime_readings: [ かっぱつ, こうふん, しあわせ, じょせい, すぽーつ, とんぼかえり ]
     shortcodes: [ woman-cartwheeling ]
     en: woman cartwheeling
     since: "4.0"
@@ -5003,6 +5307,7 @@ emoji:
       - かくとう
       - ぷろれす
       - すもう
+    ime_readings: [ すぽーつ, でゅえる, りんぐない, れすりんぐたいかい, れすりんぐをするひと ]
     shortcodes: [ wrestlers ]
     en: people wrestling
     since: "3.0"
@@ -5018,6 +5323,7 @@ emoji:
       - れすらー
       - とっくみあい
       - ぷろれす
+    ime_readings: [ かくとう, すぽーつ, だんせい, でゅえる, りんぐない, れすりんぐたいかい, れすりんぐをする ]
     shortcodes: [ man-wrestling ]
     en: men wrestling
     since: "4.0"
@@ -5033,6 +5339,7 @@ emoji:
       - れすらー
       - とっくみあい
       - じょしぷろれす
+    ime_readings: [ かくとう, じょせい, すぽーつ, でゅえる, りんぐない, れすりんぐたいかい, れすりんぐをする ]
     shortcodes: [ woman-wrestling ]
     en: women wrestling
     since: "4.0"
@@ -5047,6 +5354,7 @@ emoji:
       - すいきゅう
       - うぉーたーぽろ
       - すいじょうきょうぎ
+    ime_readings: [ きゅうぎ, すいえい, すぽーつ ]
     shortcodes: [ water_polo ]
     en: person playing water polo
     since: "3.0"
@@ -5060,6 +5368,7 @@ emoji:
       - すいきゅうをするおとこ
       - すいきゅう
       - うぉーたーぽろ
+    ime_readings: [ きゅうぎ, すいえい, すいじょうきょうぎ, すぽーつ, だんせい ]
     shortcodes: [ man-playing-water-polo ]
     en: man playing water polo
     since: "4.0"
@@ -5073,6 +5382,7 @@ emoji:
       - すいきゅうをするおんな
       - すいきゅう
       - うぉーたーぽろ
+    ime_readings: [ きゅうぎ, じょせい, すいえい, すいじょうきょうぎ, すぽーつ ]
     shortcodes: [ woman-playing-water-polo ]
     en: woman playing water polo
     since: "4.0"
@@ -5088,6 +5398,7 @@ emoji:
       - ぼーるをなげる
       - なげる
       - しゅーと
+    ime_readings: [ あすりーと, きゃっち, きゅうぎ, すぽーつ, すろーする, ほる, ぼーる ]
     shortcodes: [ handball ]
     en: person playing handball
     since: "3.0"
@@ -5101,6 +5412,7 @@ emoji:
       - はんどぼーるをするおとこ
       - はんどぼーる
       - なげる
+    ime_readings: [ おとこ, きゅうぎ, すぽーつ, だんせい ]
     shortcodes: [ man-playing-handball ]
     en: man playing handball
     since: "4.0"
@@ -5114,6 +5426,7 @@ emoji:
       - はんどぼーるをするおんな
       - はんどぼーる
       - なげる
+    ime_readings: [ きゃっち, きゅうぎ, じょせい, すぽーつ, すろーする, ほる, ぼーる ]
     shortcodes: [ woman-playing-handball ]
     en: woman playing handball
     since: "4.0"
@@ -5130,6 +5443,7 @@ emoji:
       - だいどうげい
       - まるちたすく
       - きょくげい
+    ime_readings: [ あやつる, じゃぐりんぐするひと, ばらんすえんぎ ]
     shortcodes: [ juggling ]
     en: person juggling
     since: "3.0"
@@ -5145,6 +5459,7 @@ emoji:
       - じゃぐらー
       - だいどうげい
       - まるちたすく
+    ime_readings: [ あやつる, だんせい, ばらんすえんぎ ]
     shortcodes: [ man-juggling ]
     en: man juggling
     since: "4.0"
@@ -5159,6 +5474,7 @@ emoji:
       - じゃぐりんぐ
       - じゃぐらー
       - だいどうげい
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ woman-juggling ]
     en: woman juggling
     since: "4.0"
@@ -5177,6 +5493,7 @@ emoji:
       - あぐら
       - れんげざ
       - りらっくす
+    ime_readings: [ くつろぎ, こざ, へいあん, よがぎょうじゃ, れんげざのぽーず ]
     shortcodes: [ person_in_lotus_position ]
     en: person in lotus position
     since: "5.0"
@@ -5191,6 +5508,7 @@ emoji:
       - よが
       - めいそう
       - ざぜん
+    ime_readings: [ おとこ, だんせい ]
     shortcodes: [ man_in_lotus_position ]
     en: man in lotus position
     since: "5.0"
@@ -5205,6 +5523,7 @@ emoji:
       - よが
       - めいそう
       - ざぜん
+    ime_readings: [ おんな, じょせい ]
     shortcodes: [ woman_in_lotus_position ]
     en: woman in lotus position
     since: "5.0"
@@ -5223,6 +5542,7 @@ emoji:
       - ばすたぶ
       - ばすたいむ
       - ゆぶね
+    ime_readings: [ ふろにはいるじん ]
     shortcodes: [ bath ]
     en: person taking bath
     since: "0.6"
@@ -5240,6 +5560,7 @@ emoji:
       - べっど
       - ほてる
       - ねどこ
+    ime_readings: [ ぐーぐー, しゅうしんちゅう ]
     shortcodes: [ sleeping_accommodation ]
     en: person in bed
     since: "1.0"
@@ -5256,6 +5577,7 @@ emoji:
       - かっぷる
       - こいびと
       - なかよし
+    ime_readings: [ つなぐ, て, ひと ]
     shortcodes: [ people_holding_hands ]
     en: people holding hands
     since: "12.0"
@@ -5273,6 +5595,7 @@ emoji:
       - しまい
       - かっぷる
       - なかよし
+    ime_readings: [ おんな, こいびと, ともだち, どうせい, ゆうじょう ]
     shortcodes: [ two_women_holding_hands, women_holding_hands ]
     en: women holding hands
     since: "1.0"
@@ -5290,6 +5613,7 @@ emoji:
       - だんじょ
       - でーと
       - あべっく
+    ime_readings: [ いせい, おとこ, おんな, じょせい, だんせい, ともだち, ふたり ]
     shortcodes: [ man_and_woman_holding_hands, woman_and_man_holding_hands, couple ]
     en: woman and man holding hands
     since: "0.6"
@@ -5306,6 +5630,7 @@ emoji:
       - きょうだい
       - かっぷる
       - なかよし
+    ime_readings: [ おとこ, こいびと, だんせい, ともだち, どうせい, ふたご ]
     shortcodes: [ two_men_holding_hands, men_holding_hands ]
     en: men holding hands
     since: "1.0"
@@ -5323,6 +5648,7 @@ emoji:
       - かっぷる
       - こいびと
       - らぶらぶ
+    ime_readings: [ 2にんできす, きねんび, はーと ]
     shortcodes: [ couplekiss ]
     en: kiss
     since: "0.6"
@@ -5339,6 +5665,7 @@ emoji:
       - かっぷる
       - こいびと
       - らぶらぶ
+    ime_readings: [ 2にんできす, きねんび, じょせい, じょせいとだんせいできす, だんせい, ちゅっ, はーと ]
     shortcodes: [ woman-kiss-man ]
     en: "kiss: woman, man"
     since: "2.0"
@@ -5355,6 +5682,7 @@ emoji:
       - かっぷる
       - こいびと
       - だんしどうし
+    ime_readings: [ 2にんできす, きねんび, だんせい, だんせいとだんせいできす, ちゅっ, はーと ]
     shortcodes: [ man-kiss-man ]
     en: "kiss: man, man"
     since: "2.0"
@@ -5372,6 +5700,7 @@ emoji:
       - こいびと
       - じょしどうし
       - ゆり
+    ime_readings: [ 2にんできす, きねんび, じょせい, じょせいとじょせいできす, ちゅっ, はーと ]
     shortcodes: [ woman-kiss-woman ]
     en: "kiss: woman, woman"
     since: "2.0"
@@ -5389,6 +5718,7 @@ emoji:
       - あつあつ
       - きねんび
       - りょうおもい
+    ime_readings: [ はーと ]
     shortcodes: [ couple_with_heart ]
     en: couple with heart
     since: "0.6"
@@ -5404,6 +5734,7 @@ emoji:
       - こいびと
       - らぶらぶ
       - あつあつ
+    ime_readings: [ かっぷるとはーと, きねんび, じょせい, じょせいとだんせいのかっぷる, だんせい, はーと ]
     shortcodes: [ woman-heart-man ]
     en: "couple with heart: woman, man"
     since: "2.0"
@@ -5419,6 +5750,7 @@ emoji:
       - こいびと
       - らぶらぶ
       - だんしどうし
+    ime_readings: [ あつあつ, かっぷるとはーと, きねんび, だんせい, だんせいとだんせいのかっぷる, はーと ]
     shortcodes: [ man-heart-man ]
     en: "couple with heart: man, man"
     since: "2.0"
@@ -5435,6 +5767,7 @@ emoji:
       - らぶらぶ
       - じょしどうし
       - ゆり
+    ime_readings: [ あつあつ, かっぷるとはーと, きねんび, じょせい, じょせいとじょせいのかっぷる, はーと ]
     shortcodes: [ woman-heart-woman ]
     en: "couple with heart: woman, woman"
     since: "2.0"
@@ -5449,6 +5782,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    ime_readings: [ おとこのこ, こども, じょせい, だんせい, だんせいとじょせいとおとこのこのかぞく ]
     shortcodes: [ man-woman-boy ]
     en: "family: man, woman, boy"
     since: "2.0"
@@ -5462,6 +5796,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    ime_readings: [ おんなのこ, こども, じょせい, だんせい, だんせいとじょせいとおんなのこのかぞく ]
     shortcodes: [ man-woman-girl ]
     en: "family: man, woman, girl"
     since: "2.0"
@@ -5475,6 +5810,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    ime_readings: [ おとこのこ, おんなのこ, こども, じょせい, だんせい, だんせいとじょせいとおんなのことおとこのこのかぞく ]
     shortcodes: [ man-woman-girl-boy ]
     en: "family: man, woman, girl, boy"
     since: "2.0"
@@ -5488,6 +5824,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    ime_readings: [ おとこのこ, こども, じょせい, だんせい, だんせいとじょせいとおとこのことおとこのこのかぞく ]
     shortcodes: [ man-woman-boy-boy ]
     en: "family: man, woman, boy, boy"
     since: "2.0"
@@ -5501,6 +5838,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    ime_readings: [ おんなのこ, こども, じょせい, だんせい, だんせいとじょせいとおんなのことおんなのこのかぞく ]
     shortcodes: [ man-woman-girl-girl ]
     en: "family: man, woman, girl, girl"
     since: "2.0"
@@ -5514,6 +5852,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    ime_readings: [ おとこのこ, こども, だんせい, だんせいとだんせいとおとこのこのかぞく ]
     shortcodes: [ man-man-boy ]
     en: "family: man, man, boy"
     since: "2.0"
@@ -5527,6 +5866,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    ime_readings: [ おんなのこ, こども, だんせい, だんせいとだんせいとおんなのこのかぞく ]
     shortcodes: [ man-man-girl ]
     en: "family: man, man, girl"
     since: "2.0"
@@ -5540,6 +5880,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    ime_readings: [ おとこのこ, おんなのこ, こども, だんせい, だんせいとだんせいとおんなのことおとこのこのかぞく ]
     shortcodes: [ man-man-girl-boy ]
     en: "family: man, man, girl, boy"
     since: "2.0"
@@ -5553,6 +5894,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    ime_readings: [ おとこのこ, こども, だんせい, だんせいとだんせいとおとこのことおとこのこのかぞく ]
     shortcodes: [ man-man-boy-boy ]
     en: "family: man, man, boy, boy"
     since: "2.0"
@@ -5566,6 +5908,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    ime_readings: [ おんなのこ, こども, だんせい, だんせいとだんせいとおんなのことおんなのこのかぞく ]
     shortcodes: [ man-man-girl-girl ]
     en: "family: man, man, girl, girl"
     since: "2.0"
@@ -5579,6 +5922,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    ime_readings: [ おとこのこ, こども, じょせい, じょせいとじょせいとおとこのこのかぞく ]
     shortcodes: [ woman-woman-boy ]
     en: "family: woman, woman, boy"
     since: "2.0"
@@ -5592,6 +5936,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    ime_readings: [ おんなのこ, こども, じょせい, じょせいとじょせいとおんなのこのかぞく ]
     shortcodes: [ woman-woman-girl ]
     en: "family: woman, woman, girl"
     since: "2.0"
@@ -5605,6 +5950,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    ime_readings: [ おとこのこ, おんなのこ, こども, じょせい, じょせいとじょせいとおんなのことおとこのこのかぞく ]
     shortcodes: [ woman-woman-girl-boy ]
     en: "family: woman, woman, girl, boy"
     since: "2.0"
@@ -5618,6 +5964,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    ime_readings: [ おとこのこ, こども, じょせい, じょせいとじょせいとおとこのことおとこのこのかぞく ]
     shortcodes: [ woman-woman-boy-boy ]
     en: "family: woman, woman, boy, boy"
     since: "2.0"
@@ -5631,6 +5978,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    ime_readings: [ おんなのこ, こども, じょせい, じょせいとじょせいとおんなのことおんなのこのかぞく ]
     shortcodes: [ woman-woman-girl-girl ]
     en: "family: woman, woman, girl, girl"
     since: "2.0"
@@ -5646,6 +5994,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ちちおや
+    ime_readings: [ おとこのこ, こども, だんせい, だんせいとおとこのこのかぞく ]
     shortcodes: [ man-boy ]
     en: "family: man, boy"
     since: "4.0"
@@ -5661,6 +6010,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ちちおや
+    ime_readings: [ おとこのこ, こども, だんせい, だんせいとおとこのことおとこのこのかぞく ]
     shortcodes: [ man-boy-boy ]
     en: "family: man, boy, boy"
     since: "4.0"
@@ -5676,6 +6026,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ちちおや
+    ime_readings: [ おんなのこ, こども, だんせい, だんせいとおんなのこのかぞく ]
     shortcodes: [ man-girl ]
     en: "family: man, girl"
     since: "4.0"
@@ -5691,6 +6042,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ちちおや
+    ime_readings: [ おとこのこ, おんなのこ, こども, だんせい, だんせいとおんなのことおとこのこのかぞく ]
     shortcodes: [ man-girl-boy ]
     en: "family: man, girl, boy"
     since: "4.0"
@@ -5706,6 +6058,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ちちおや
+    ime_readings: [ おんなのこ, こども, だんせい, だんせいとおんなのことおんなのこのかぞく ]
     shortcodes: [ man-girl-girl ]
     en: "family: man, girl, girl"
     since: "4.0"
@@ -5721,6 +6074,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ははおや
+    ime_readings: [ おとこのこ, こども, じょせい, じょせいとおとこのこのかぞく ]
     shortcodes: [ woman-boy ]
     en: "family: woman, boy"
     since: "4.0"
@@ -5736,6 +6090,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ははおや
+    ime_readings: [ おとこのこ, こども, じょせい, じょせいとおとこのことおとこのこのかぞく ]
     shortcodes: [ woman-boy-boy ]
     en: "family: woman, boy, boy"
     since: "4.0"
@@ -5751,6 +6106,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ははおや
+    ime_readings: [ おんなのこ, こども, じょせい, じょせいとおんなのこのかぞく ]
     shortcodes: [ woman-girl ]
     en: "family: woman, girl"
     since: "4.0"
@@ -5766,6 +6122,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ははおや
+    ime_readings: [ おとこのこ, おんなのこ, こども, じょせい, じょせいとおんなのことおとこのこのかぞく ]
     shortcodes: [ woman-girl-boy ]
     en: "family: woman, girl, boy"
     since: "4.0"
@@ -5781,6 +6138,7 @@ emoji:
       - ふぁみりー
       - ひとりおや
       - ははおや
+    ime_readings: [ おんなのこ, こども, じょせい, じょせいとおんなのことおんなのこのかぞく ]
     shortcodes: [ woman-girl-girl ]
     en: "family: woman, girl, girl"
     since: "4.0"
@@ -5797,6 +6155,7 @@ emoji:
       - はつげん
       - おんせい
       - すぴーきんぐ
+    ime_readings: [ かお, しるえっと ]
     shortcodes: [ speaking_head_in_silhouette ]
     en: speaking head
     since: "0.7"
@@ -5813,6 +6172,7 @@ emoji:
       - なぞのひと
       - あばたー
       - ひとり
+    ime_readings: [ 1にん, かげ, げすと, げすとあかうんと, じょうはんしん, ひとかげ ]
     shortcodes: [ bust_in_silhouette ]
     en: bust in silhouette
     since: "0.6"
@@ -5829,6 +6189,7 @@ emoji:
       - ぐるーぷ
       - めんばー
       - ともだち
+    ime_readings: [ 2にん, 2にんのしるえっと, じょうはんしん ]
     shortcodes: [ busts_in_silhouette ]
     en: busts in silhouette
     since: "1.0"
@@ -5845,6 +6206,7 @@ emoji:
       - なぐさめ
       - ありがとう
       - よしよし
+    ime_readings: [ あいさつ, おわかれ, こんにちは, さようなら, ゆうじょう ]
     shortcodes: [ people_hugging ]
     en: people hugging
     since: "13.0"
@@ -5859,6 +6221,7 @@ emoji:
       - おやこ
       - いっか
       - しんぞく
+    ime_readings: [ こども ]
     shortcodes: [ family ]
     en: family
     since: "0.6"
@@ -5872,6 +6235,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    ime_readings: [ おとなふたり, おとなふたりとこどもひとりのかぞく, こどもひとり ]
     shortcodes: [ family_adult_adult_child ]
     en: "family: adult, adult, child"
     since: "15.1"
@@ -5885,6 +6249,7 @@ emoji:
       - かぞく
       - おやこ
       - ふぁみりー
+    ime_readings: [ おとなふたり, おとなふたりとこどもふたりのかぞく, こどもふたり ]
     shortcodes: [ family_adult_adult_child_child ]
     en: "family: adult, adult, child, child"
     since: "15.1"
@@ -5899,6 +6264,7 @@ emoji:
       - おやこ
       - ふぁみりー
       - ひとりおや
+    ime_readings: [ おとなひとり, おとなひとりとこどもひとりのかぞく, こどもひとり ]
     shortcodes: [ family_adult_child ]
     en: "family: adult, child"
     since: "15.1"
@@ -5913,6 +6279,7 @@ emoji:
       - おやこ
       - ふぁみりー
       - ひとりおや
+    ime_readings: [ おとなひとり, おとなひとりとこどもふたりのかぞく, こどもふたり ]
     shortcodes: [ family_adult_child_child ]
     en: "family: adult, child, child"
     since: "15.1"

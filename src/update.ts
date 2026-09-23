@@ -12,6 +12,7 @@ import { parseArgs } from "node:util";
 import { lookup, parseAnnotations } from "./lib/cldr.ts";
 import { parseEmojiTest } from "./lib/emoji-test.ts";
 import { kanaToReading } from "./lib/kana.ts";
+import { lookupMozc, parseMozcEmojiData } from "./lib/mozc.ts";
 import { lookupShortcodes, parseEmojiData } from "./lib/shortcode.ts";
 import { type EmojiEntry, type GroupData, loadGroups, loadMeta, saveGroups, saveMeta } from "./lib/store.ts";
 
@@ -22,6 +23,10 @@ const { values: opts } = parseArgs({
     "offline": { type: "boolean", default: false },
     "cldr-ref": { type: "string" },
     "emoji-url": { type: "string", default: "https://unicode.org/Public/emoji/latest/emoji-test.txt" },
+    "mozc-url": {
+      type: "string",
+      default: "https://raw.githubusercontent.com/google/mozc/master/src/data/emoji/emoji_data.tsv",
+    },
     "emoji-data-url": {
       type: "string",
       default: "https://raw.githubusercontent.com/iamcal/emoji-data/master/emoji.json",
@@ -52,6 +57,7 @@ const annotations = parseAnnotations(
 );
 
 const shortcodeTable = parseEmojiData(await source("emoji-data.json", opts["emoji-data-url"]!));
+const mozcReadings = parseMozcEmojiData(await source("mozc-emoji_data.tsv", opts["mozc-url"]!));
 
 const existing = new Map<string, EmojiEntry>();
 const existingGroup = new Map<string, string>();
@@ -83,11 +89,15 @@ for (const t of emojiTest.entries) {
   const keywords = cldr?.keywords ?? [];
   const old = existing.get(t.code);
   const shortcodes = lookupShortcodes(shortcodeTable, t.code);
+  const readings = old?.readings ?? seedReadings(cldr?.name, keywords);
+  const mozc = lookupMozc(mozcReadings, t.code);
   base = {
     emoji: t.emoji,
     code: t.code,
     name: old?.name ?? cldr?.name ?? t.en,
-    readings: old?.readings ?? seedReadings(cldr?.name, keywords),
+    readings,
+    // Mozc also lags behind new Unicode versions; keep old values until it catches up
+    ime_readings: (mozc.length > 0 ? mozc : old?.ime_readings ?? []).filter((r) => !readings.includes(r)),
     // emoji-data lags behind new Unicode versions; keep hand-written names until it catches up
     shortcodes: shortcodes.length > 0 ? shortcodes : old?.shortcodes ?? [],
     en: t.en,

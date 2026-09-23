@@ -5,6 +5,7 @@ import { parseEmojiTest, skinToneLabel } from "../src/lib/emoji-test.ts";
 import { encodeEucJp, isEucJpEncodable } from "../src/lib/eucjp.ts";
 import { expandVu, isValidReading, kanaToReading } from "../src/lib/kana.ts";
 import { collect, lispCandidate, renderEucJp, renderUtf8 } from "../src/lib/skk.ts";
+import { lookupMozc, normalizeMozcReading, parseMozcEmojiData } from "../src/lib/mozc.ts";
 import { lookupShortcodes, parseEmojiData } from "../src/lib/shortcode.ts";
 import type { GroupData } from "../src/lib/store.ts";
 
@@ -47,6 +48,22 @@ test("parseEmojiData maps qualified and non-qualified codes to short names", () 
   assert.deepEqual(lookupShortcodes(names, "1F600"), []);
 });
 
+test("Mozc readings are normalized to SKK headwords", () => {
+  assert.equal(normalizeMozcReading("ＵＦＯ"), "ufo");
+  assert.equal(normalizeMozcReading("９"), "9");
+  assert.equal(normalizeMozcReading("ハート"), "はーと");
+  assert.equal(normalizeMozcReading("11:30"), undefined);
+  assert.equal(normalizeMozcReading("upまーく"), undefined);
+  assert.equal(normalizeMozcReading("Ｅめーる"), undefined);
+  const readings = parseMozcEmojiData(`# comment
+1F44D FE0F\t👍️\tok いいね ＯＫ 11:30\t\tサムズアップ\tOK\tE0.6
+2764 FE0F\t❤️\tはーと\t\t絵文字\tハート\tE0.6
+`);
+  assert.deepEqual(lookupMozc(readings, "1F44D"), ["ok", "いいね"]);
+  assert.deepEqual(lookupMozc(readings, "2764 FE0F"), ["はーと"]);
+  assert.deepEqual(lookupMozc(readings, "1F600"), []);
+});
+
 test("kana helpers", () => {
   assert.equal(kanaToReading("ヴァイオリン"), "ゔぁいおりん");
   assert.equal(kanaToReading("笑顔"), undefined);
@@ -79,6 +96,7 @@ const groups: GroupData[] = [{
       code: "1F602",
       name: "うれし泣き",
       readings: ["うれしなき", "くさ"],
+      ime_readings: ["わらい", "くさ"],
       shortcodes: ["joy"],
       en: "",
       since: "0.6",
@@ -98,7 +116,7 @@ const groups: GroupData[] = [{
       emoji: "😹",
       code: "1F639",
       name: "猫",
-      readings: ["ねこ"],
+      readings: ["ねこ", "わらい"],
       shortcodes: ["joy_cat", "Bad"],
       en: "",
       since: "0.6",
@@ -126,6 +144,8 @@ test("collect orders candidates by reading rank, then data order, variants last"
   ]);
   assert.deepEqual(d.entries.get("joy")!.map((c) => c.emoji), ["😂", "🌿"]); // shortcode outranks readings
   assert.deepEqual(d.entries.get("herb")!.map((c) => c.emoji), ["🌿"]);
+  // IME readings rank after curated readings, and never demote a curated one ("くさ")
+  assert.deepEqual(d.entries.get("わらい")!.map((c) => c.emoji), ["😹", "😂"]);
   assert.equal(d.emojiCount, 5);
   assert.deepEqual(d.warnings, ['invalid shortcode "Bad": 😹 1F639 ', 'invalid reading "bad!": 👋 1F44B ']);
 });
@@ -138,6 +158,7 @@ test("render UTF-8 and EUC-JP dictionaries", () => {
     utf8,
     /\n;; okuri-nasi entries\.\nherb \/🌿;ハーブ\/\njoy \/😂;うれし泣き\/🌿;ハーブ\/\njoy_cat \/😹;猫\/\nうれしなき \/😂;うれし泣き\/\nくさ \/🌿;ハーブ\/😂;うれし泣き\/\n/,
   );
+  assert.match(utf8, /Copyright 2010-2018, Google Inc\./);
   const euc = new TextDecoder("euc-jp").decode(renderEucJp(meta, d, "x"));
   assert.match(euc, /\nくさ \/\(concat "\\U0001F33F"\);ハーブ\/\(concat "\\U0001F602"\);うれし泣き\/\n/);
 });

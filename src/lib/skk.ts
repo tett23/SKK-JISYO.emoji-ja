@@ -2,6 +2,7 @@
 import { codeToEmoji, skinToneLabel } from "./emoji-test.ts";
 import { compareBytes, encodeEucJp, isEucJpEncodable } from "./eucjp.ts";
 import { expandVu, isValidReading } from "./kana.ts";
+import { MOZC_NOTICE } from "./mozc.ts";
 import { VALID_SHORTCODE } from "./shortcode.ts";
 import type { GroupData, Meta } from "./store.ts";
 
@@ -9,6 +10,8 @@ export interface Candidate {
   emoji: string;
   annotation: string;
 }
+
+const IME_RANK = Number.MAX_SAFE_INTEGER;
 
 interface Hit {
   rank: number;
@@ -59,7 +62,15 @@ export function collect(groups: GroupData[]): Dictionary {
         return ok;
       });
       // A shortcode identifies exactly one emoji, so it outranks every reading.
+      // IME readings are unordered and often generic ("かお"), so they rank after every curated reading.
       const headwords = new Map<string, number>(readings.map((r, rank) => [r, rank]));
+      for (const raw of e.ime_readings ?? []) {
+        if (!isValidReading(raw)) {
+          warnings.push(`invalid ime reading ${JSON.stringify(raw)}: ${base.emoji} ${e.code} ${e.en}`);
+          continue;
+        }
+        for (const v of expandVu(raw)) if (!headwords.has(v)) headwords.set(v, IME_RANK);
+      }
       for (const s of shortcodes) headwords.set(s, -1);
       for (const [r, rank] of headwords) {
         const list = hits.get(r) ?? [];
@@ -100,6 +111,11 @@ function header(meta: Meta, dict: Dictionary, file: string, coding: string, note
 ;; Copyright (c) 2026 はちがつうまれ
 ;; Released under the MIT License.
 ;; Emoji data: Unicode, Inc. (https://www.unicode.org/terms_of_use.html)
+;;
+;; Some readings are taken from Mozc (https://github.com/google/mozc),
+;; src/data/emoji/emoji_data.tsv, distributed under the following license:
+;;
+${MOZC_NOTICE.split("\n").map((l) => `;; ${l}`.trimEnd()).join("\n")}
 ;;
 ;; okuri-ari entries.
 ;; okuri-nasi entries.
