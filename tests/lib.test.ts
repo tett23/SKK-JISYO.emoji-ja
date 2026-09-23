@@ -158,6 +158,7 @@ test("render UTF-8 and EUC-JP dictionaries", () => {
     utf8,
     /\n;; okuri-nasi entries\.\nherb \/🌿;ハーブ\/\njoy \/😂;うれし泣き\/🌿;ハーブ\/\njoy_cat \/😹;猫\/\nうれしなき \/😂;うれし泣き\/\nくさ \/🌿;ハーブ\/😂;うれし泣き\/\n/,
   );
+  assert.match(utf8, /\n;; UNICODE LICENSE V3\n/);
   assert.match(utf8, /\n;; Copyright 2010-2018, Google Inc\.\n/);
   assert.match(utf8, /\n;; Copyright \(c\) 2013 Cal Henderson\n/);
   const euc = new TextDecoder("euc-jp").decode(renderEucJp(meta, d, "x"));

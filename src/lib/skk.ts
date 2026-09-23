@@ -2,6 +2,7 @@
 import { codeToEmoji, skinToneLabel } from "./emoji-test.ts";
 import { compareBytes, encodeEucJp, isEucJpEncodable } from "./eucjp.ts";
 import { expandVu, isValidReading } from "./kana.ts";
+import { UNICODE_NOTICE } from "./cldr.ts";
 import { MOZC_NOTICE } from "./mozc.ts";
 import { EMOJI_DATA_NOTICE, VALID_SHORTCODE } from "./shortcode.ts";
 import type { GroupData, Meta } from "./store.ts";
@@ -114,7 +115,11 @@ function header(meta: Meta, dict: Dictionary, file: string, coding: string, note
 ;;
 ;; Copyright (c) 2026 はちがつうまれ
 ;; Released under the MIT License.
-;; Emoji data: Unicode, Inc. (https://www.unicode.org/terms_of_use.html)
+;;
+;; The emoji list (emoji-test.txt) and Japanese names and keywords (CLDR annotations)
+;; are Unicode data files, distributed under the following license:
+;;
+${commentLines(UNICODE_NOTICE)}
 ;;
 ;; Some readings are taken from Mozc (https://github.com/google/mozc),
 ;; src/data/emoji/emoji_data.tsv, distributed under the following license:

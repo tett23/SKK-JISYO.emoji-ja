@@ -8,6 +8,7 @@ import { copyFile, mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import process from "node:process";
 import { parseArgs } from "node:util";
+import { UNICODE_NOTICE } from "./lib/cldr.ts";
 import { MOZC_NOTICE } from "./lib/mozc.ts";
 import { EMOJI_DATA_NOTICE } from "./lib/shortcode.ts";
 import { collect, renderEucJp, renderUtf8 } from "./lib/skk.ts";
@@ -36,6 +37,15 @@ await writeFile(join(outDir, UTF8), renderUtf8(meta, dict, UTF8));
 
 // License files distributed with the dictionaries (third-party notices are also in the dictionary headers).
 await copyFile("LICENSE", join(outDir, "LICENSE"));
+await writeFile(
+  join(outDir, "LICENSE-Unicode.txt"),
+  `The emoji list and the Japanese names in ${EUC} and ${UTF8} are derived from
+Unicode data files: emoji-test.txt (https://unicode.org/Public/emoji/) and
+CLDR annotations (https://github.com/unicode-org/cldr), which are distributed under the following license.
+
+${UNICODE_NOTICE}
+`,
+);
 await writeFile(
   join(outDir, "LICENSE-Mozc.txt"),
   `Readings in ${EUC} and ${UTF8} ("ime_readings" in the source data) are derived from
