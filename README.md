@@ -162,7 +162,10 @@ npm test
   - Node.js でもコンパイル、テスト、辞書の生成を行います。
   - Deno と Node.js の出力がバイト単位で一致することを確認します。
   - 生成した辞書は Actions のアーティファクトとしてダウンロードできます。
-- **リリース** (`.github/workflows/release.yml`): `v*` のタグを push すると、辞書 2 種と `SHA256SUMS` を添付した GitHub Release を作成します。
+- **リリース** (`.github/workflows/release.yml`): `v*` のタグを push すると、GitHub Release を作成し、次のファイルを添付します。
+  - 辞書 2 種
+  - ライセンスファイル: `LICENSE`、`LICENSE-Mozc.txt`、`LICENSE-emoji-data.txt`（`build` が `dist/` に出力する）
+  - `SHA256SUMS`
 
 ```sh
 git tag v1.0.0

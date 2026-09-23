@@ -4,10 +4,12 @@
  *   deno task build [--strict] [--data-dir data] [--out-dir dist]
  *   node dist-js/src/build.js ...
  */
-import { mkdir, writeFile } from "node:fs/promises";
+import { copyFile, mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import process from "node:process";
 import { parseArgs } from "node:util";
+import { MOZC_NOTICE } from "./lib/mozc.ts";
+import { EMOJI_DATA_NOTICE } from "./lib/shortcode.ts";
 import { collect, renderEucJp, renderUtf8 } from "./lib/skk.ts";
 import { loadGroups, loadMeta } from "./lib/store.ts";
 
@@ -31,6 +33,28 @@ const UTF8 = "SKK-JISYO.emoji-ja.utf8";
 await mkdir(outDir, { recursive: true });
 await writeFile(join(outDir, EUC), renderEucJp(meta, dict, EUC));
 await writeFile(join(outDir, UTF8), renderUtf8(meta, dict, UTF8));
+
+// License files distributed with the dictionaries (third-party notices are also in the dictionary headers).
+await copyFile("LICENSE", join(outDir, "LICENSE"));
+await writeFile(
+  join(outDir, "LICENSE-Mozc.txt"),
+  `Readings in ${EUC} and ${UTF8} ("ime_readings" in the source data) are derived from
+Mozc (https://github.com/google/mozc), src/data/emoji/emoji_data.tsv,
+which is distributed under the following license (BSD 3-Clause License).
+
+${MOZC_NOTICE}
+`,
+);
+await writeFile(
+  join(outDir, "LICENSE-emoji-data.txt"),
+  `Emoji shortcodes in ${EUC} and ${UTF8} ("shortcodes" in the source data) are derived from
+emoji-data (https://github.com/iamcal/emoji-data), emoji.json,
+which is distributed under the following license (MIT License).
+
+${EMOJI_DATA_NOTICE}
+`,
+);
+
 console.error(
   `Emoji ${meta.unicode_emoji_version}: ${dict.emojiCount} emoji, ${dict.entries.size} readings -> ${outDir}/{${EUC},${UTF8}}`,
 );
