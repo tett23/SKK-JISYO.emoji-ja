@@ -117,6 +117,21 @@ emoji-data に名前がない絵文字に限り、手で書いた `shortcodes` �
 
 Deno と Node.js のどちらでも実行できます。
 
+仕様の全体は [docs/specifications.md](docs/specifications.md) に、決定の記録（ADR）は [docs/adr/](docs/adr/) にあります。
+仕様を変えるときは、先に ADR を書いてレビューを受け、実装と同じ変更で仕様書と README を直します。
+
+### 準備
+
+ADR の変更を防ぐ [adr-guard](https://github.com/tett23/adr-guard)（v0.8.3）を、adr-guard の README に従って入れます。
+そのうえで、clone ごとに git の hook を有効にします。
+
+```sh
+git config core.hooksPath .githooks
+```
+
+`.githooks/pre-commit` が、コミット済みの ADR の変更（ステータスの行とリンクを除く）を拒否します。
+CI の `adr` ジョブも同じ検査をします。
+
 ### Deno
 
 ```sh
@@ -161,6 +176,7 @@ npm test
   - Deno でフォーマット、lint、型チェック、テストを行い、`build --strict` で辞書を生成します。
   - Node.js でもコンパイル、テスト、辞書の生成を行います。
   - Deno と Node.js の出力がバイト単位で一致することを確認します。
+  - adr-guard で、コミット済みの ADR が変わっていないことを確認します。
   - 生成した辞書は Actions のアーティファクトとしてダウンロードできます。
 - **リリース** (`.github/workflows/release.yml`): `v*` のタグを push すると、GitHub Release を作成し、次のファイルを添付します。
   - 辞書 2 種
