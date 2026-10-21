@@ -1,6 +1,6 @@
 # ADR 0004: GitHub Actions の actions と Node.js を最新の版にする
 
-ステータス: 採択（未実装）
+ステータス: 採択
 
 ## 文脈
 
