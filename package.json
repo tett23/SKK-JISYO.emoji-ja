@@ -12,7 +12,8 @@
     "compile": "tsc -p tsconfig.json",
     "update": "node dist-js/src/update.js",
     "build": "node dist-js/src/build.js",
-    "test": "node --test \"dist-js/tests/**/*.test.js\""
+    "test": "node --test \"dist-js/tests/**/*.test.js\"",
+    "notes": "node dist-js/src/release-notes.js"
   },
   "dependencies": {
     "yaml": "^2.9.1"

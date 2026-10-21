@@ -13,7 +13,7 @@
 | [ADR 0002](adr/0002-bang-prefixed-headwords.md) | 採択 | `!` を先頭に付けた見出し語で、絵文字だけを候補に出す |
 | [ADR 0003](adr/0003-limit-line-length-for-ddskk.md) | 採択 | DDSKK が引けるように、辞書の 1 行の長さに上限を設ける |
 | [ADR 0004](adr/0004-update-github-actions.md) | 採択 | GitHub Actions の actions と Node.js を最新の版にする |
-| [ADR 0005](adr/0005-release-notes.md) | 採択（未実装） | リリースノートを英語で、変更の種類ごとに生成する |
+| [ADR 0005](adr/0005-release-notes.md) | 採択 | リリースノートを英語で、変更の種類ごとに生成する |
 
 ## 配布物
 
@@ -164,6 +164,7 @@ DDSKK の二分探索（`skk-search-jisyo`、`limit` 10000）は、範囲の先�
 | 処理 | Deno | Node.js |
 |---|---|---|
 | データの取得と YAML への反映 | `deno task update` | `npm run update` |
+| リリースノートの生成 | `deno task notes` | `npm run notes` |
 | 辞書の生成（`dist/`） | `deno task build` | `npm run build` |
 | テスト | `deno task test` | `npm test` |
 
@@ -203,9 +204,29 @@ push（main）、pull request、手動実行で動く。
 
 ### リリース（`.github/workflows/release.yml`）
 
-- `v` で始まるタグの push、または手動実行（タグを入力）で動く
+- `v` で始まるタグの push で動く。手動実行はできない（[ADR 0005](adr/0005-release-notes.md)）
 - `deno task test` と `deno task build --strict` を実行し、`SHA256SUMS` を作り、配布物の 7 つを添付した GitHub Release を作る
-- リリースノートは、配布物の説明と、GitHub が生成する変更の一覧（`--generate-notes`）である
+- 題名は `<タグ> (Emoji <版>)`。タグに `-` を含む（`v0.2.0-rc1` など）ときはプレリリースにする
+
+### リリースノート
+
+[ADR 0005](adr/0005-release-notes.md) による。v0.1.5 までのリリースノートは、この形ではない（日本語の配布物の説明と、GitHub が生成した変更の一覧）。
+
+- 英語で、`deno task notes`（`src/release-notes.ts`）が作る。見出しは `## <タグ>`
+- 冒頭は、前のリリースへの絶対リンクを含む `Changes since <tag>.`。前のリリースが無ければ `First release.`。前のリリースは、GitHub Releases の一覧（下書きを除く）から今回のタグを除いた、作成日時が最も新しいもの
+- 節は Added、Changed、Removed、Fixed、Dictionary、Files の順。中身の無い節は書かない（Dictionary と Files は常に書く）
+- 前のリリースから今回のタグまでの、マージを除くコミット（新しい順）を、件名の最初の単語で分ける。コミットの件名は、英語の命令形で書く
+
+  | 最初の単語（大文字と小文字は区別しない） | 節 |
+  |---|---|
+  | `Add`、`Introduce`、`Create`、`Support` | Added |
+  | `Remove`、`Delete`、`Drop` | Removed |
+  | `Fix`、`Correct` | Fixed |
+  | それ以外 | Changed |
+
+- 件名が版番号だけのコミット（`v0.1.0` など）は載せない
+- 各行には、短い SHA でコミットへの絶対リンクを付ける。件名の `(#123)` は PR への、`ADR NNNN` はそのタグの時点の ADR のファイルへの絶対リンクにする
+- Dictionary には、UTF-8 版のヘッダーの Emoji の版と絵文字の数、2 つの版の見出し語の数を書く。Files には、配布物の 7 つの説明を書く
 
 ## ADR の運用
 
@@ -228,6 +249,8 @@ push（main）、pull request、手動実行で動く。
 | `data/sources/` | `update` が取得したデータのキャッシュ（git では管理しない） |
 | `src/update.ts` | データの取得と YAML への反映 |
 | `src/build.ts` | 辞書とライセンスファイルの生成 |
+| `src/release-notes.ts` | リリースノートの生成（[ADR 0005](adr/0005-release-notes.md)） |
+| `src/lib/release-notes.ts` | リリースノートの組み立て（純粋な関数） |
 | `src/lib/emoji-test.ts` | emoji-test.txt の解析 |
 | `src/lib/cldr.ts` | CLDR のアノテーションの解析と、Unicode のライセンス |
 | `src/lib/mozc.ts` | Mozc の読みの解析と正規化、Mozc のライセンス |
