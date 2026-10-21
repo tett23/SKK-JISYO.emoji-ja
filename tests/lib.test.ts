@@ -4,7 +4,7 @@ import { lookup, parseAnnotations } from "../src/lib/cldr.ts";
 import { parseEmojiTest, skinToneLabel } from "../src/lib/emoji-test.ts";
 import { encodeEucJp, isEucJpEncodable } from "../src/lib/eucjp.ts";
 import { expandVu, isValidReading, kanaToReading } from "../src/lib/kana.ts";
-import { collect, lispCandidate, renderEucJp, renderUtf8 } from "../src/lib/skk.ts";
+import { collect, type Dictionary, lispCandidate, renderEucJp, renderUtf8, withBangHeadwords } from "../src/lib/skk.ts";
 import { lookupMozc, normalizeMozcReading, parseMozcEmojiData } from "../src/lib/mozc.ts";
 import { lookupShortcodes, parseEmojiData } from "../src/lib/shortcode.ts";
 import type { GroupData } from "../src/lib/store.ts";
@@ -163,4 +163,72 @@ test("render UTF-8 and EUC-JP dictionaries", () => {
   assert.match(utf8, /\n;; Copyright \(c\) 2013 Cal Henderson\n/);
   const euc = new TextDecoder("euc-jp").decode(renderEucJp(meta, d, "x"));
   assert.match(euc, /\nくさ \/\(concat "\\U0001F33F"\);ハーブ\/\(concat "\\U0001F602"\);うれし泣き\/\n/);
+});
+
+// ADR 0002: headwords prefixed with "!" list only emoji
+const bangSource = (): Dictionary => ({
+  entries: new Map([
+    ["くさ", [{ emoji: "🌿", annotation: "ハーブ" }, { emoji: "😂", annotation: "うれし泣き" }]],
+    ["てをふる", [{ emoji: "👋", annotation: "手を振る" }, { emoji: "👋🏻", annotation: "手を振る（薄い肌色）" }]],
+    ["joy", [{ emoji: "😂", annotation: "うれし泣き" }]],
+    ["+1", [{ emoji: "👍", annotation: "サムズアップ" }]],
+    ["12じ", [{ emoji: "🕛", annotation: "12時" }]],
+  ]),
+  emojiCount: 7,
+  warnings: ["needs review: x"],
+});
+
+test("withBangHeadwords adds !-prefixed kana headwords with the same candidates", () => {
+  const source = bangSource();
+  const d = withBangHeadwords(source);
+  assert.deepEqual(d.entries.get("!くさ"), source.entries.get("くさ"));
+  assert.deepEqual(d.entries.get("!てをふる"), source.entries.get("てをふる"));
+  assert.deepEqual(d.entries.get("くさ"), source.entries.get("くさ"));
+  assert.deepEqual(d.entries.get("てをふる"), source.entries.get("てをふる"));
+});
+
+test("withBangHeadwords also prefixes ASCII and digit+kana headwords", () => {
+  const d = withBangHeadwords(bangSource());
+  assert.deepEqual(d.entries.get("!joy"), [{ emoji: "😂", annotation: "うれし泣き" }]);
+  assert.deepEqual(d.entries.get("!+1"), [{ emoji: "👍", annotation: "サムズアップ" }]);
+  assert.deepEqual(d.entries.get("!12じ"), [{ emoji: "🕛", annotation: "12時" }]);
+  assert.equal(d.entries.size, 10);
+});
+
+test("withBangHeadwords does not modify its input", () => {
+  const source = bangSource();
+  const d = withBangHeadwords(source);
+  assert.equal(source.entries.size, 5);
+  assert.ok(!source.entries.has("!くさ"));
+  assert.notEqual(d.entries, source.entries);
+  assert.equal(d.emojiCount, 7);
+  assert.deepEqual(d.warnings, ["needs review: x"]);
+});
+
+test("!-prefixed headwords sort before all other headwords", () => {
+  const meta = { unicode_emoji_version: "18.0", cldr_ref: "main" };
+  const d = withBangHeadwords(bangSource());
+  const headwords = (text: string) =>
+    text.split(";; okuri-nasi entries.\n")[1]!.trimEnd().split("\n").map((l) => l.split(" ")[0]!);
+  const expected = ["!+1", "!12じ", "!joy", "!くさ", "!てをふる", "+1", "12じ", "joy", "くさ", "てをふる"];
+  assert.deepEqual(headwords(new TextDecoder().decode(renderUtf8(meta, d, "x"))), expected);
+  assert.deepEqual(headwords(new TextDecoder("euc-jp").decode(renderEucJp(meta, d, "x"))), expected);
+});
+
+test("collect rejects ! in YAML readings and shortcodes", () => {
+  const d = collect([{
+    group: "g",
+    emoji: [{
+      emoji: "😅",
+      code: "1F605",
+      name: "冷や汗",
+      readings: ["!あせ", "あせ"],
+      shortcodes: ["!joy"],
+      en: "",
+      since: "0.6",
+      subgroup: "",
+    }],
+  }]);
+  assert.deepEqual([...d.entries.keys()], ["あせ"]);
+  assert.deepEqual(d.warnings, ['invalid reading "!あせ": 😅 1F605 ', 'invalid shortcode "!joy": 😅 1F605 ']);
 });

@@ -89,6 +89,19 @@ export function collect(groups: GroupData[]): Dictionary {
   return { entries, emojiCount, warnings };
 }
 
+/** Marker that lists only this dictionary's candidates (shared with SKK-JISYO.kaomoji). */
+export const BANG = "!";
+
+/**
+ * Add a "!"-prefixed copy of every headword with the same candidates (ADR 0002).
+ * Other dictionaries have no headword with "!" followed by a reading, so "!" + reading lists only emoji.
+ */
+export function withBangHeadwords(dict: Dictionary): Dictionary {
+  const entries = new Map(dict.entries);
+  for (const [reading, candidates] of dict.entries) entries.set(BANG + reading, candidates);
+  return { ...dict, entries };
+}
+
 /** Emacs Lisp form that evaluates to the emoji, for EUC-JP dictionaries. */
 export function lispCandidate(emoji: string): string {
   let body = "";

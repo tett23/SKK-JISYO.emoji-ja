@@ -13,6 +13,10 @@ test("YAML data is consistent", async () => {
     codes.add(e.code);
     assert.equal(e.emoji, codeToEmoji(e.code), `emoji/code mismatch ${e.code}`);
     assert.ok(e.name && !/[/;]/.test(e.name), `bad name ${e.code}`);
+    // ADR 0002: "!" is added only when the dictionaries are written
+    for (const v of [...e.readings, ...(e.ime_readings ?? []), ...(e.shortcodes ?? [])]) {
+      assert.ok(!v.includes("!"), `"!" in YAML data: ${e.code} ${v}`);
+    }
   }
   const invalid = collect(groups).warnings.filter((w) => w.startsWith("invalid"));
   assert.deepEqual(invalid, []);

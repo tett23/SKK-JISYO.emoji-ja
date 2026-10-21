@@ -11,7 +11,8 @@ import { parseArgs } from "node:util";
 import { UNICODE_NOTICE } from "./lib/cldr.ts";
 import { MOZC_NOTICE } from "./lib/mozc.ts";
 import { EMOJI_DATA_NOTICE } from "./lib/shortcode.ts";
-import { collect, renderEucJp, renderUtf8 } from "./lib/skk.ts";
+import { isEucJpEncodable } from "./lib/eucjp.ts";
+import { collect, renderEucJp, renderUtf8, withBangHeadwords } from "./lib/skk.ts";
 import { loadGroups, loadMeta } from "./lib/store.ts";
 
 const { values: opts } = parseArgs({
@@ -26,7 +27,7 @@ const dataDir = opts["data-dir"]!;
 const outDir = opts["out-dir"]!;
 
 const meta = await loadMeta(dataDir);
-const dict = collect(await loadGroups(dataDir));
+const dict = withBangHeadwords(collect(await loadGroups(dataDir)));
 for (const w of dict.warnings) console.error(`warning: ${w}`);
 
 const EUC = "SKK-JISYO.emoji-ja";
@@ -65,8 +66,11 @@ ${EMOJI_DATA_NOTICE}
 `,
 );
 
+// Headwords include the "!"-prefixed ones; EUC-JP drops headwords it cannot encode (ゔ).
+const eucHeadwords = [...dict.entries.keys()].filter(isEucJpEncodable).length;
 console.error(
-  `Emoji ${meta.unicode_emoji_version}: ${dict.emojiCount} emoji, ${dict.entries.size} readings -> ${outDir}/{${EUC},${UTF8}}`,
+  `Emoji ${meta.unicode_emoji_version}: ${dict.emojiCount} emoji, ${dict.entries.size} headwords (EUC-JP ${eucHeadwords})` +
+    ` -> ${outDir}/{${EUC},${UTF8}}`,
 );
 if (opts.strict && dict.warnings.length > 0) {
   console.error(`${dict.warnings.length} warning(s) in strict mode`);

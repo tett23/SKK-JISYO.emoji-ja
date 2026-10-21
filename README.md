@@ -26,6 +26,7 @@ AquaSKK、macSKK、libskk、fcitx5-skk などでは UTF-8 版を使ってくだ�
 てをふる  → 👋 👋🏻 👋🏼 …
 thumbsup  → 👍 👍🏻 …   （ショートコード。abbrev モードで入力する）
 +1        → 👍 …
+!ねこ     → 🐈 😺 😸 …  （先頭に ! を付けると絵文字だけが出る）
 ```
 
 - 各絵文字には、日本語名の直訳の読み（例「にっこりわらう」）と、自然な別名（「すまいる」「えがお」など）の両方を登録しています。
@@ -38,14 +39,37 @@ thumbsup  → 👍 👍🏻 …   （ショートコード。abbrev モードで
   - DDSKK では abbrev モード（`/` で入る）で入力します。
   - そのショートコードに対応する絵文字が、候補の先頭に来ます。
 
+### `!` を付けて絵文字だけを出す
+
+すべての見出し語に、先頭に半角の `!` を付けた見出し語（`!ねこ`、`!thumbsup` など）があります。
+ほかの辞書（SKK-JISYO.L など）には `!` に読みが続く見出し語が無いので、`!` を付けて変換すると、ほかの辞書の語が混ざらず、絵文字だけが並びます。
+
+| 入力 | ほかの辞書と併せたときの候補 |
+| --- | --- |
+| `Q n e k o SPC`（`ねこ`） | 猫、🐈、😺、… |
+| `Q ! n e k o SPC`（`!ねこ`） | 🐈、😺、😸、… |
+| `/ o k SPC`（`ok`） | オッケー、オーケー、… |
+| `/ ! o k SPC`（`!ok`） | 🆗、👌、🙆、… |
+
+- かなの見出し語は、`Q` で▽モードを始めてから、`!` と読みを入力します
+- 英数字の見出し語（ショートコードなど）は、abbrev モード（`/`）で `!` に続けて入力します
+- 確かめた実装: DDSKK（`ddskk-17.2_Mena`、Emacs 30.1）、AquaSKK（codefirst/aquaskk のコミット 0e7a88f のエンジン）
+- skkeleton は `!` を全角の `！` に変えるので、`!` の付いた見出し語を引けません。libskk（fcitx5-skk、ibus-skk）と macSKK は確かめていません
+- [SKK-JISYO.kaomoji](https://github.com/tett23/SKK-JISYO.kaomoji) も同じ `!` を使います。両方の辞書を使うと、`!あせ` などでは顔文字と絵文字の両方が並びます
+
 ## 設定例 (DDSKK)
 
+DDSKK では EUC-JP 版を使ってください。
+
 ```elisp
-;; EUC-JP 版
-(add-to-list 'skk-extra-jisyo-list "~/path/to/SKK-JISYO.emoji-ja")
-;; UTF-8 版（文字コードを指定する）
-(add-to-list 'skk-extra-jisyo-list '("~/path/to/SKK-JISYO.emoji-ja.utf8" . utf-8))
+(add-to-list 'skk-extra-jisyo-file-list '("~/path/to/SKK-JISYO.emoji-ja" . euc-jp))
 ```
+
+### DDSKK の既知の問題
+
+DDSKK の二分探索は、1 行がとても長い辞書では、一部の見出し語を見落とします。
+この辞書には候補の多い見出し語（`はーと` など）があり、2026-10-22 の EUC-JP 版では、見出し語 17,310 個のうち 2,483 個を DDSKK で引けません（`!` の付いた見出し語を含む）。
+AquaSKK（上のエンジン）では、これらの見出し語も引けることを確かめました。
 
 ## データの構成
 
