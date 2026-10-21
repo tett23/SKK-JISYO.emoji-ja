@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import { codeToEmoji } from "../src/lib/emoji-test.ts";
-import { collect } from "../src/lib/skk.ts";
+import { collect, eucLineLength, limitLineLength, MAX_LINE_LENGTH, withBangHeadwords } from "../src/lib/skk.ts";
 import { loadGroups } from "../src/lib/store.ts";
 
 test("YAML data is consistent", async () => {
@@ -20,4 +20,15 @@ test("YAML data is consistent", async () => {
   }
   const invalid = collect(groups).warnings.filter((w) => w.startsWith("invalid"));
   assert.deepEqual(invalid, []);
+});
+
+test("every dictionary line fits MAX_LINE_LENGTH and keeps every emoji (ADR 0003)", async () => {
+  const collected = collect(await loadGroups("data"));
+  const dict = withBangHeadwords(limitLineLength(collected, MAX_LINE_LENGTH));
+  assert.equal(MAX_LINE_LENGTH, 4000);
+  const tooLong = [...dict.entries].filter(([r, cs]) => eucLineLength(r, cs) > MAX_LINE_LENGTH).map(([r]) => r);
+  assert.deepEqual(tooLong, []);
+  const kept = new Set([...dict.entries.values()].flat().map((c) => c.emoji));
+  const lost = [...new Set([...collected.entries.values()].flat().map((c) => c.emoji))].filter((e) => !kept.has(e));
+  assert.deepEqual(lost, []);
 });

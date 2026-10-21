@@ -12,7 +12,7 @@ import { UNICODE_NOTICE } from "./lib/cldr.ts";
 import { MOZC_NOTICE } from "./lib/mozc.ts";
 import { EMOJI_DATA_NOTICE } from "./lib/shortcode.ts";
 import { isEucJpEncodable } from "./lib/eucjp.ts";
-import { collect, renderEucJp, renderUtf8, withBangHeadwords } from "./lib/skk.ts";
+import { collect, limitLineLength, MAX_LINE_LENGTH, renderEucJp, renderUtf8, withBangHeadwords } from "./lib/skk.ts";
 import { loadGroups, loadMeta } from "./lib/store.ts";
 
 const { values: opts } = parseArgs({
@@ -27,7 +27,12 @@ const dataDir = opts["data-dir"]!;
 const outDir = opts["out-dir"]!;
 
 const meta = await loadMeta(dataDir);
-const dict = withBangHeadwords(collect(await loadGroups(dataDir)));
+const collected = collect(await loadGroups(dataDir));
+// ADR 0003: keep every line short enough for DDSKK's binary search
+const limited = limitLineLength(collected, MAX_LINE_LENGTH);
+const dict = withBangHeadwords(limited);
+const shortened = [...collected.entries].filter(([r, cs]) => limited.entries.get(r)!.length < cs.length);
+const dropped = shortened.reduce((n, [r, cs]) => n + cs.length - limited.entries.get(r)!.length, 0);
 for (const w of dict.warnings) console.error(`warning: ${w}`);
 
 const EUC = "SKK-JISYO.emoji-ja";
@@ -68,6 +73,9 @@ ${EMOJI_DATA_NOTICE}
 
 // Headwords include the "!"-prefixed ones; EUC-JP drops headwords it cannot encode (ゔ).
 const eucHeadwords = [...dict.entries.keys()].filter(isEucJpEncodable).length;
+console.error(
+  `Lines longer than ${MAX_LINE_LENGTH} characters: dropped ${dropped} candidates from ${shortened.length} headwords`,
+);
 console.error(
   `Emoji ${meta.unicode_emoji_version}: ${dict.emojiCount} emoji, ${dict.entries.size} headwords (EUC-JP ${eucHeadwords})` +
     ` -> ${outDir}/{${EUC},${UTF8}}`,

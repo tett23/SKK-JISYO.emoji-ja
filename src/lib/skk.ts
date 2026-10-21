@@ -114,6 +114,62 @@ export function lispCandidate(emoji: string): string {
   return `(concat "${body}")`;
 }
 
+/** One candidate of an EUC-JP line (without the separating "/"). */
+function eucCandidate(c: Candidate): string {
+  return `${lispCandidate(c.emoji)};${c.annotation}`;
+}
+
+const charLength = (s: string) => [...s].length;
+
+/**
+ * Characters of the EUC-JP dictionary line for a headword, without the newline.
+ * DDSKK measures its binary search in characters of the decoded buffer (ADR 0003).
+ */
+export function eucLineLength(headword: string, candidates: Candidate[]): number {
+  return charLength(headword) + 2 + candidates.reduce((n, c) => n + charLength(eucCandidate(c)) + 1, 0);
+}
+
+/**
+ * Longest EUC-JP line, in characters. DDSKK's binary search (limit 10000) misses
+ * headwords after a line of 5000 characters or more (ADR 0003).
+ */
+export const MAX_LINE_LENGTH = 4000;
+
+/**
+ * Drop candidates from the end of lines longer than `max` (measured with the "!" prefix),
+ * keeping every emoji in at least one line. Headwords are processed in UTF-8 byte order.
+ */
+export function limitLineLength(dict: Dictionary, max: number): Dictionary {
+  const occurrences = new Map<string, number>();
+  for (const candidates of dict.entries.values()) {
+    for (const c of candidates) occurrences.set(c.emoji, (occurrences.get(c.emoji) ?? 0) + 1);
+  }
+  const enc = new TextEncoder();
+  const limited = new Map<string, Candidate[]>();
+  const byBytes = [...dict.entries.keys()]
+    .map((r) => ({ r, key: enc.encode(r) }))
+    .sort((a, b) => compareBytes(a.key, b.key));
+  for (const { r } of byBytes) {
+    const kept = [...dict.entries.get(r)!];
+    let length = eucLineLength(BANG + r, kept);
+    for (let i = kept.length - 1; i >= 0 && length > max; i--) {
+      const c = kept[i]!;
+      const n = occurrences.get(c.emoji)!;
+      if (n <= 1) continue; // the only line left for this emoji
+      occurrences.set(c.emoji, n - 1);
+      kept.splice(i, 1);
+      length -= charLength(eucCandidate(c)) + 1;
+    }
+    if (length > max) {
+      throw new Error(
+        `the line for "${r}" is ${length} characters, longer than ${max}, even after dropping candidates`,
+      );
+    }
+    limited.set(r, kept);
+  }
+  return { ...dict, entries: new Map([...dict.entries.keys()].map((r) => [r, limited.get(r)!])) };
+}
+
 function commentLines(text: string): string {
   return text.split("\n").map((l) => `;; ${l}`.trimEnd()).join("\n");
 }
@@ -163,7 +219,7 @@ export function renderEucJp(meta: Meta, dict: Dictionary, file: string): Uint8Ar
     .filter(isEucJpEncodable)
     .map((r) => ({ r, key: encodeEucJp(r) }))
     .sort((a, b) => compareBytes(a.key, b.key))
-    .map(({ r }) => `${r} /${dict.entries.get(r)!.map((c) => `${lispCandidate(c.emoji)};${c.annotation}`).join("/")}/`);
+    .map(({ r }) => `${r} /${dict.entries.get(r)!.map(eucCandidate).join("/")}/`);
   const note = `EUC-JP version: emoji are written as Emacs Lisp (concat "\\UXXXXXXXX") forms.`;
   return encodeEucJp(header(meta, dict, file, "euc-jp", note) + lines.join("\n") + "\n");
 }

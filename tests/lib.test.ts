@@ -4,7 +4,16 @@ import { lookup, parseAnnotations } from "../src/lib/cldr.ts";
 import { parseEmojiTest, skinToneLabel } from "../src/lib/emoji-test.ts";
 import { encodeEucJp, isEucJpEncodable } from "../src/lib/eucjp.ts";
 import { expandVu, isValidReading, kanaToReading } from "../src/lib/kana.ts";
-import { collect, type Dictionary, lispCandidate, renderEucJp, renderUtf8, withBangHeadwords } from "../src/lib/skk.ts";
+import {
+  collect,
+  type Dictionary,
+  eucLineLength,
+  limitLineLength,
+  lispCandidate,
+  renderEucJp,
+  renderUtf8,
+  withBangHeadwords,
+} from "../src/lib/skk.ts";
 import { lookupMozc, normalizeMozcReading, parseMozcEmojiData } from "../src/lib/mozc.ts";
 import { lookupShortcodes, parseEmojiData } from "../src/lib/shortcode.ts";
 import type { GroupData } from "../src/lib/store.ts";
@@ -231,4 +240,81 @@ test("collect rejects ! in YAML readings and shortcodes", () => {
   }]);
   assert.deepEqual([...d.entries.keys()], ["あせ"]);
   assert.deepEqual(d.warnings, ['invalid reading "!あせ": 😅 1F605 ', 'invalid shortcode "!joy": 😅 1F605 ']);
+});
+
+// ADR 0003: cap the line length so that DDSKK finds every headword
+const cand = (emoji: string, annotation = "x") => ({ emoji, annotation });
+const A = cand("😀");
+const B = cand("😁");
+const C = cand("😂");
+const D = cand("😃");
+const P = cand("😄");
+const Q = cand("😅");
+const X = cand("😆");
+const dictOf = (entries: [string, { emoji: string; annotation: string }[]][]): Dictionary => ({
+  entries: new Map(entries),
+  emojiCount: 99,
+  warnings: ["w"],
+});
+const meta18 = { unicode_emoji_version: "18.0", cldr_ref: "main" };
+
+test("eucLineLength matches the lines written by renderEucJp", () => {
+  const d = dictOf([
+    ["てをふる", [cand("👋", "手／振る"), cand("👋🏻", "手／振る（薄い肌色）")]],
+    ["!くさ", [cand("🌿", "ハーブ"), cand("😂", "うれし泣き")]],
+    ["+1", [cand("👍", "サムズアップ")]],
+    ["かぞく", [cand("👨‍👩‍👧", "家族: 男性、女性、女の子")]],
+  ]);
+  const text = new TextDecoder("euc-jp").decode(renderEucJp(meta18, d, "x"));
+  const lines = text.split(";; okuri-nasi entries.\n")[1]!.trimEnd().split("\n");
+  assert.equal(lines.length, 4);
+  for (const line of lines) {
+    const headword = line.split(" ")[0]!;
+    assert.equal([...line].length, eucLineLength(headword, d.entries.get(headword)!), headword);
+  }
+});
+
+test("limitLineLength removes candidates from the end until the line fits", () => {
+  const max = eucLineLength("!あ", [A, B]);
+  const d = limitLineLength(dictOf([["あ", [A, B, C, D]], ["ん", [C, D]]]), max);
+  assert.deepEqual(d.entries.get("あ"), [A, B]);
+  assert.deepEqual(d.entries.get("ん"), [C, D]);
+});
+
+test("limitLineLength keeps a candidate that appears in no other line", () => {
+  const max = eucLineLength("!あ", [A, B]);
+  const d = limitLineLength(dictOf([["あ", [A, B, C]], ["ん", [B]]]), max);
+  assert.deepEqual(d.entries.get("あ"), [A, C]);
+  assert.deepEqual(d.entries.get("ん"), [B]);
+});
+
+test("limitLineLength processes headwords in UTF-8 byte order", () => {
+  const max = eucLineLength("!あ", [A, B]);
+  const d = limitLineLength(dictOf([["い", [B, Q, X]], ["あ", [A, P, X]], ["ん", [P, Q]]]), max);
+  assert.deepEqual(d.entries.get("あ"), [A, P]); // processed first: X is still in "い"
+  assert.deepEqual(d.entries.get("い"), [B, X]); // X is now only here, so Q goes
+  assert.deepEqual(d.entries.get("ん"), [P, Q]);
+});
+
+test("limitLineLength throws when a line cannot fit", () => {
+  const max = eucLineLength("!あ", [A, B]);
+  assert.throws(() => limitLineLength(dictOf([["あ", [A, B, C]]]), max), /あ/);
+});
+
+test("limitLineLength leaves short lines and its input unchanged", () => {
+  const source = dictOf([["あ", [A, B, C]], ["い", [A]], ["う", [B]], ["え", [C]]]);
+  const max = eucLineLength("!あ", [A, B]);
+  const d = limitLineLength(source, max);
+  assert.deepEqual(d.entries.get("い"), [A]);
+  assert.deepEqual(d.entries.get("あ"), [A, B]);
+  assert.deepEqual(source.entries.get("あ"), [A, B, C]);
+  assert.notEqual(d.entries, source.entries);
+  assert.equal(d.emojiCount, 99);
+  assert.deepEqual(d.warnings, ["w"]);
+});
+
+test("limitLineLength measures the line with the ! prefix", () => {
+  const max = eucLineLength("あ", [A, B]); // "!あ" with A and B is one character over
+  const d = limitLineLength(dictOf([["あ", [A, B]], ["ん", [B]]]), max);
+  assert.deepEqual(d.entries.get("あ"), [A]);
 });
