@@ -203,6 +203,8 @@ npm test
   - adr-guard で、コミット済みの ADR が変わっていないことを確認します。
   - 生成した辞書は Actions のアーティファクトとしてダウンロードできます。
 - **リリース** (`.github/workflows/release.yml`): `v*` のタグを push すると、GitHub Release を作成し、次のファイルを添付します。
+  `-` を含むタグ（`v1.0.0-rc1` など）はプレリリースになります。
+  リリースノートは、前のリリースからのコミットの件名をもとに、英語で自動で作ります（コミットの件名は英語の命令形で書いてください）。
   - 辞書 2 種
   - ライセンスファイル: `LICENSE`、`LICENSE-Unicode.txt`、`LICENSE-Mozc.txt`、`LICENSE-emoji-data.txt`（`build` が `dist/` に出力する）
   - `SHA256SUMS`

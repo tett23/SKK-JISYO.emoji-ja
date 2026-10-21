@@ -3,11 +3,6 @@ name: Release
 on:
   push:
     tags: ["v*"]
-  workflow_dispatch:
-    inputs:
-      tag:
-        description: "Release tag (e.g. v1.0.0). The tag is created on the selected branch if it does not exist."
-        required: true
 
 permissions:
   contents: write
@@ -17,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          # the release notes read the commits since the previous release (ADR 0005)
+          fetch-depth: 0
       - uses: denoland/setup-deno@v2
         with:
           deno-version: v2.x
@@ -26,20 +24,25 @@ jobs:
       - name: Checksums
         working-directory: dist
         run: sha256sum SKK-JISYO.emoji-ja SKK-JISYO.emoji-ja.utf8 LICENSE LICENSE-Unicode.txt LICENSE-Mozc.txt LICENSE-emoji-data.txt > SHA256SUMS
+
+      - name: Release notes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          prev=$(gh release list --exclude-drafts --json tagName,createdAt \
+                   --jq "map(select(.tagName != \"${GITHUB_REF_NAME}\")) | sort_by(.createdAt) | last | .tagName // empty")
+          if [ -n "$prev" ]; then range="$prev..$GITHUB_REF_NAME"; else range="$GITHUB_REF_NAME"; fi
+          git log --no-merges --format='%H%x09%s' "$range" > commits.tsv
+          deno task notes --tag "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" --commits commits.tsv \
+            --utf8 dist/SKK-JISYO.emoji-ja.utf8 --euc dist/SKK-JISYO.emoji-ja --prev-tag "$prev" > notes.md
+
       - name: Create release
         env:
           GH_TOKEN: ${{ github.token }}
-          TAG: ${{ inputs.tag || github.ref_name }}
         run: |
           version=$(sed -n 's/^unicode_emoji_version: *"\{0,1\}\([^"]*\)"\{0,1\}$/\1/p' data/meta.yaml)
-          notes="Unicode Emoji ${version} の日本語 SKK 辞書です。
-
-          - \`SKK-JISYO.emoji-ja.utf8\`: UTF-8 版（AquaSKK / macSKK / libskk / DDSKK など）
-          - \`SKK-JISYO.emoji-ja\`: EUC-JP 版（候補は Emacs Lisp 式。DDSKK 用）
-          - \`LICENSE\`: この辞書のライセンス（MIT License）
-          - \`LICENSE-Unicode.txt\`: Unicode（絵文字一覧・CLDR の日本語名）のライセンス（Unicode License V3）
-          - \`LICENSE-Mozc.txt\`: Mozc 由来の読みのライセンス（BSD 3-Clause License）
-          - \`LICENSE-emoji-data.txt\`: emoji-data 由来のショートコードのライセンス（MIT License）"
-          gh release create "$TAG" dist/SKK-JISYO.emoji-ja dist/SKK-JISYO.emoji-ja.utf8 \
-            dist/LICENSE dist/LICENSE-Unicode.txt dist/LICENSE-Mozc.txt dist/LICENSE-emoji-data.txt dist/SHA256SUMS \
-            --target "$GITHUB_SHA" --title "$TAG (Emoji ${version})" --notes "$notes" --generate-notes
+          flags=""
+          case "$GITHUB_REF_NAME" in *-*) flags="--prerelease" ;; esac
+          gh release create "$GITHUB_REF_NAME" $flags --title "$GITHUB_REF_NAME (Emoji ${version})" --notes-file notes.md \
+            dist/SKK-JISYO.emoji-ja dist/SKK-JISYO.emoji-ja.utf8 \
+            dist/LICENSE dist/LICENSE-Unicode.txt dist/LICENSE-Mozc.txt dist/LICENSE-emoji-data.txt dist/SHA256SUMS
