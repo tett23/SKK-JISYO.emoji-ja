@@ -50,3 +50,20 @@ jobs:
           path: dist-deno
       - name: Deno and Node.js outputs are identical
         run: diff -r dist-deno dist-node
+
+  adr:
+    name: ADR
+    # workflow_dispatch has no commit range to check
+    if: github.event_name != 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: tett23/adr-guard@v0.8.3
+        with:
+          base: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
+          head: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
+          allow-status: true
+          allow-links: true
