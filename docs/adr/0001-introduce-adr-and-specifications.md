@@ -1,6 +1,6 @@
 # ADR 0001: ADR と仕様書を導入する
 
-ステータス: 採択
+ステータス: 採択→adr-guard の版は[ADR 0006](0006-update-adr-guard-to-v0.10.0.md)
 
 ## 文脈
 

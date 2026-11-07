@@ -14,6 +14,7 @@
 | [ADR 0003](adr/0003-limit-line-length-for-ddskk.md) | 採択 | DDSKK が引けるように、辞書の 1 行の長さに上限を設ける |
 | [ADR 0004](adr/0004-update-github-actions.md) | 採択 | GitHub Actions の actions と Node.js を最新の版にする |
 | [ADR 0005](adr/0005-release-notes.md) | 採択 | リリースノートを英語で、変更の種類ごとに生成する |
+| [ADR 0006](adr/0006-update-adr-guard-to-v0.10.0.md) | 採択 | adr-guard を v0.10.0 に上げる |
 
 ## 配布物
 
@@ -184,7 +185,7 @@ push（main）、pull request、手動実行で動く。
 |---|---|
 | `deno` | `deno fmt --check`、`deno lint`、`deno check`、`deno task test`、`deno task build --strict`。生成物をアーティファクトにする |
 | `node` | `npm ci`、`npm run compile`、`npm test`、`npm run build -- --strict`。`deno` ジョブの生成物とバイト単位で一致するかを確かめる |
-| `adr` | adr-guard（`tett23/adr-guard@v0.8.3`）でコミット済みの ADR が変わっていないかを確かめる（[ADR 0001](adr/0001-introduce-adr-and-specifications.md)）。確かめるコミットの範囲が無い手動実行では動かさない |
+| `adr` | adr-guard（`tett23/adr-guard@v0.10.0`）でコミット済みの ADR が変わっていないかと、ADR の番号が重複していないか（`check-numbers`）を確かめる（[ADR 0001](adr/0001-introduce-adr-and-specifications.md)、[ADR 0006](adr/0006-update-adr-guard-to-v0.10.0.md)）。確かめるコミットの範囲が無い手動実行では動かさない |
 
 ### actions と Node.js の版
 
@@ -197,7 +198,7 @@ push（main）、pull request、手動実行で動く。
 | `actions/upload-artifact` | `v7` |
 | `actions/download-artifact` | `v8` |
 | `denoland/setup-deno` | `v2`（Deno は `v2.x`） |
-| `tett23/adr-guard` | `v0.8.3` |
+| `tett23/adr-guard` | `v0.10.0`（[ADR 0006](adr/0006-update-adr-guard-to-v0.10.0.md)） |
 
 - actions は、Node 24 以降で動く最新のメジャー版を、メジャー版のタグで指定する。版を上げるときは新しい ADR で決める
 - `node` ジョブの Node.js は、最新の LTS（`node-version: 'lts/*'`）を使う
@@ -238,6 +239,7 @@ push（main）、pull request、手動実行で動く。
 - 一度コミットした ADR は、ステータスの行とリンクを除いて変更しない。仕様を変える場合は新しい ADR を作る
 - ADR を破棄する場合は、ステータスを `破棄` にし、理由をこの文書に書く
 - 仕様を変える ADR を実装するときは、同じ変更でこの文書と `README.md` を直す。この文書から ADR を示すときは、リンクを付ける
+- ほかのリポジトリの ADR を示すときは、リポジトリ名を含めたテキストを外部リンクにする（`[SKK-JISYO.kaomoji の ADR 0005](https://github.com/...)`）。adr-guard は `ADR NNNN` の直前の語を修飾子とみなすので、`SKK-JISYO.kaomoji ADR 0005` のように `の` を挟まずに書くと、このリポジトリのモジュールへの参照として検査が失敗する（[ADR 0006](adr/0006-update-adr-guard-to-v0.10.0.md)）
 - [adr-guard](https://github.com/tett23/adr-guard) で、git の pre-commit hook（`.githooks/pre-commit`）と CI（`adr` ジョブ）の二か所で強制する。clone ごとに `git config core.hooksPath .githooks` を実行する
 
 ## ファイル構成

@@ -146,7 +146,7 @@ Deno と Node.js のどちらでも実行できます。
 
 ### 準備
 
-ADR の変更を防ぐ [adr-guard](https://github.com/tett23/adr-guard)（v0.8.3）を、adr-guard の README に従って入れます。
+ADR の変更を防ぐ [adr-guard](https://github.com/tett23/adr-guard)（v0.10.0）を、adr-guard の README に従って入れます。
 そのうえで、clone ごとに git の hook を有効にします。
 
 ```sh
@@ -154,7 +154,7 @@ git config core.hooksPath .githooks
 ```
 
 `.githooks/pre-commit` が、コミット済みの ADR の変更（ステータスの行とリンクを除く）を拒否します。
-CI の `adr` ジョブも同じ検査をします。
+CI の `adr` ジョブも同じ検査をし、ADR の番号の重複も確かめます。
 
 ### Deno
 
@@ -200,7 +200,7 @@ npm test
   - Deno でフォーマット、lint、型チェック、テストを行い、`build --strict` で辞書を生成します。
   - Node.js でもコンパイル、テスト、辞書の生成を行います。
   - Deno と Node.js の出力がバイト単位で一致することを確認します。
-  - adr-guard で、コミット済みの ADR が変わっていないことを確認します。
+  - adr-guard で、コミット済みの ADR が変わっていないことと、ADR の番号が重複していないことを確認します。
   - 生成した辞書は Actions のアーティファクトとしてダウンロードできます。
 - **リリース** (`.github/workflows/release.yml`): `v*` のタグを push すると、GitHub Release を作成し、次のファイルを添付します。
   `-` を含むタグ（`v1.0.0-rc1` など）はプレリリースになります。
