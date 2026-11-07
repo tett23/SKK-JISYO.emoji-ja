@@ -1,6 +1,6 @@
 # ADR 0004: GitHub Actions の actions と Node.js を最新の版にする
 
-ステータス: 採択
+ステータス: 採択→`tett23/adr-guard` の版は[ADR 0006](0006-update-adr-guard-to-v0.10.0.md)
 
 ## 文脈
 
