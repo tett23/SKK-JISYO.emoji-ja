@@ -146,7 +146,7 @@ Deno と Node.js のどちらでも実行できます。
 
 ### 準備
 
-ADR の変更を防ぐ [adr-guard](https://github.com/tett23/adr-guard)（v0.10.0）を、adr-guard の README に従って入れます。
+ADR の変更を防ぐ [adr-guard](https://github.com/tett23/adr-guard)（v0.13.1）を、adr-guard の README に従って入れます。
 そのうえで、clone ごとに git の hook を有効にします。
 
 ```sh
@@ -155,6 +155,8 @@ git config core.hooksPath .githooks
 
 `.githooks/pre-commit` が、コミット済みの ADR の変更（ステータスの行とリンクを除く）を拒否します。
 CI の `adr` ジョブも同じ検査をし、ADR の番号の重複も確かめます。
+どちらも、ADR のステータスの行の状態遷移を検査します。
+新しい ADR は、レビューを受けた後に `Status: proposed` でコミットし、次のコミットで `Status: accepted` か `Status: accepted-pending` にします。
 
 ### Deno
 
