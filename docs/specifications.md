@@ -9,12 +9,13 @@
 
 | ADR | ステータス | 内容 |
 |---|---|---|
-| [ADR 0001](adr/0001-introduce-adr-and-specifications.md) | 採択 | ADR と仕様書を導入する |
-| [ADR 0002](adr/0002-bang-prefixed-headwords.md) | 採択 | `!` を先頭に付けた見出し語で、絵文字だけを候補に出す |
-| [ADR 0003](adr/0003-limit-line-length-for-ddskk.md) | 採択 | DDSKK が引けるように、辞書の 1 行の長さに上限を設ける |
-| [ADR 0004](adr/0004-update-github-actions.md) | 採択 | GitHub Actions の actions と Node.js を最新の版にする |
-| [ADR 0005](adr/0005-release-notes.md) | 採択 | リリースノートを英語で、変更の種類ごとに生成する |
-| [ADR 0006](adr/0006-update-adr-guard-to-v0.10.0.md) | 採択 | adr-guard を v0.10.0 に上げる |
+| [ADR 0001](adr/0001-introduce-adr-and-specifications.md) | `superseded`（adr-guard の版は [ADR 0006](adr/0006-update-adr-guard-to-v0.10.0.md)、未実装の ADR のステータスの書き方は [ADR 0007](adr/0007-update-adr-guard-to-v0.13.1.md)） | ADR と仕様書を導入する |
+| [ADR 0002](adr/0002-bang-prefixed-headwords.md) | `accepted` | `!` を先頭に付けた見出し語で、絵文字だけを候補に出す |
+| [ADR 0003](adr/0003-limit-line-length-for-ddskk.md) | `accepted` | DDSKK が引けるように、辞書の 1 行の長さに上限を設ける |
+| [ADR 0004](adr/0004-update-github-actions.md) | `superseded`（`tett23/adr-guard` の版は [ADR 0006](adr/0006-update-adr-guard-to-v0.10.0.md)） | GitHub Actions の actions と Node.js を最新の版にする |
+| [ADR 0005](adr/0005-release-notes.md) | `accepted` | リリースノートを英語で、変更の種類ごとに生成する |
+| [ADR 0006](adr/0006-update-adr-guard-to-v0.10.0.md) | `superseded`（adr-guard の版は [ADR 0007](adr/0007-update-adr-guard-to-v0.13.1.md)） | adr-guard を v0.10.0 に上げる |
+| [ADR 0007](adr/0007-update-adr-guard-to-v0.13.1.md) | `accepted` | adr-guard を v0.13.1 に上げ、ADR のステータスの行を新形式に移す |
 
 ## 配布物
 
@@ -185,7 +186,7 @@ push（main）、pull request、手動実行で動く。
 |---|---|
 | `deno` | `deno fmt --check`、`deno lint`、`deno check`、`deno task test`、`deno task build --strict`。生成物をアーティファクトにする |
 | `node` | `npm ci`、`npm run compile`、`npm test`、`npm run build -- --strict`。`deno` ジョブの生成物とバイト単位で一致するかを確かめる |
-| `adr` | adr-guard（`tett23/adr-guard@v0.10.0`）でコミット済みの ADR が変わっていないかと、ADR の番号が重複していないか（`check-numbers`）を確かめる（[ADR 0001](adr/0001-introduce-adr-and-specifications.md)、[ADR 0006](adr/0006-update-adr-guard-to-v0.10.0.md)）。確かめるコミットの範囲が無い手動実行では動かさない |
+| `adr` | adr-guard（`tett23/adr-guard@v0.13.1`）でコミット済みの ADR が変わっていないか、ADR のステータスの行の状態遷移が許されたものか、ADR の番号が重複していないか（`check-numbers`）を確かめる（[ADR 0001](adr/0001-introduce-adr-and-specifications.md)、[ADR 0006](adr/0006-update-adr-guard-to-v0.10.0.md)、[ADR 0007](adr/0007-update-adr-guard-to-v0.13.1.md)）。確かめるコミットの範囲が無い手動実行では動かさない |
 
 ### actions と Node.js の版
 
@@ -198,7 +199,7 @@ push（main）、pull request、手動実行で動く。
 | `actions/upload-artifact` | `v7` |
 | `actions/download-artifact` | `v8` |
 | `denoland/setup-deno` | `v2`（Deno は `v2.x`） |
-| `tett23/adr-guard` | `v0.10.0`（[ADR 0006](adr/0006-update-adr-guard-to-v0.10.0.md)） |
+| `tett23/adr-guard` | `v0.13.1`（[ADR 0007](adr/0007-update-adr-guard-to-v0.13.1.md)） |
 
 - actions は、Node 24 以降で動く最新のメジャー版を、メジャー版のタグで指定する。版を上げるときは新しい ADR で決める
 - `node` ジョブの Node.js は、最新の LTS（`node-version: 'lts/*'`）を使う
@@ -231,13 +232,16 @@ push（main）、pull request、手動実行で動く。
 
 ## ADR の運用
 
-[ADR 0001](adr/0001-introduce-adr-and-specifications.md) による。
+[ADR 0001](adr/0001-introduce-adr-and-specifications.md) による。ステータスの行の書き方は [ADR 0007](adr/0007-update-adr-guard-to-v0.13.1.md) による。
 
 - ADR は `docs/adr/` に置き、ファイル名は 4 桁の連番と kebab-case の名前にする
-- ADR は作成時点ではコミットせず、人間のレビューを受けてから、ステータスを `採択` にしてコミットする
-- 採択したが、まだ実装していない ADR は、ステータスを `採択（未実装）` にする。`adr-guard unimplemented` で一覧できる
+- ADR のステータスの行は、`Status: <トークン>` の形で書く。トークンは `proposed`、`accepted`、`accepted-pending`、`rejected`、`discarded`、`deprecated`、または `superseded [<変更の JSON 配列>]` である
+- ADR は作成時点ではコミットせず、人間のレビューを受けてから、`Status: proposed` でコミットする。次のコミットで、ステータスを `accepted` か `accepted-pending` にする
+- 採択したが、まだ実装していない ADR は、ステータスを `accepted-pending` にする。`adr-guard unimplemented` で一覧できる
+- 後の ADR が一部を変えた ADR は、ステータスを `superseded [{"part":"<部分名>","by":["docs/adr/<後の ADR>.md"]}]` にする。部分名は、変えられた部分の名前である。修正の関係は `adr-guard trace` でたどれる
 - 一度コミットした ADR は、ステータスの行とリンクを除いて変更しない。仕様を変える場合は新しい ADR を作る
-- ADR を破棄する場合は、ステータスを `破棄` にし、理由をこの文書に書く
+- ADR を破棄する場合は、ステータスを `discarded` にし、理由をこの文書に書く
+- pre-commit hook と CI（`adr` ジョブ）は、ステータスの行の状態遷移を検査する。許されない遷移（新しい ADR を `accepted` で足すなど）は、`--allow-status` を付けても通らない
 - 仕様を変える ADR を実装するときは、同じ変更でこの文書と `README.md` を直す。この文書から ADR を示すときは、リンクを付ける
 - ほかのリポジトリの ADR を示すときは、リポジトリ名を含めたテキストを外部リンクにする（`[SKK-JISYO.kaomoji の ADR 0005](https://github.com/...)`）。adr-guard は `ADR NNNN` の直前の語を修飾子とみなすので、`SKK-JISYO.kaomoji ADR 0005` のように `の` を挟まずに書くと、このリポジトリのモジュールへの参照として検査が失敗する（[ADR 0006](adr/0006-update-adr-guard-to-v0.10.0.md)）
 - [adr-guard](https://github.com/tett23/adr-guard) で、git の pre-commit hook（`.githooks/pre-commit`）と CI（`adr` ジョブ）の二か所で強制する。clone ごとに `git config core.hooksPath .githooks` を実行する
